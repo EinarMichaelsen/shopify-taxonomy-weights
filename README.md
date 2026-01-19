@@ -93,7 +93,34 @@ python scripts/query.py "laptop" --verbose
 python scripts/query.py --vertical electronics
 ```
 
-### JSON API
+### REST API
+
+Live API at `https://shopify-taxonomy-weights.vercel.app`
+
+```bash
+# Lookup by Shopify category ID
+curl "https://shopify-taxonomy-weights.vercel.app/api/weight?id=aa-1-13-8"
+
+# Search by name
+curl "https://shopify-taxonomy-weights.vercel.app/api/weight?search=laptop&limit=5"
+```
+
+**Response:**
+```json
+{
+  "id": "aa-1-13-8",
+  "name": "T-Shirts",
+  "vertical": "apparel-accessories",
+  "weight": {
+    "estimate_g": 180,
+    "min_g": 120,
+    "max_g": 280,
+    "confidence": "high"
+  }
+}
+```
+
+### JSON Export
 
 Use the pre-built JSON exports in `dist/`:
 

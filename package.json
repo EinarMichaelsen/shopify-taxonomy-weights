@@ -1,0 +1,12 @@
+{
+  "name": "shopify-taxonomy-weights",
+  "version": "1.0.0",
+  "description": "Weight estimates and LCA data for Shopify product taxonomy",
+  "scripts": {
+    "build:data": "python3 scripts/export_json.py",
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["shopify", "taxonomy", "weights", "lca", "carbon"],
+  "license": "MIT"
+}
