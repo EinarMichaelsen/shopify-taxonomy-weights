@@ -16,12 +16,27 @@ Enable climate impact calculations for e-commerce products without requiring det
 
 ```
 data/
-├── apparel-accessories.yml   # aa-* categories
-├── electronics.yml           # el-* categories
-├── home-garden.yml           # hg-* categories (coming soon)
-├── ...
+├── apparel-accessories.yml   # aa-* categories (106)
+├── electronics.yml           # el-* categories (11)
+├── home-garden.yml           # hg-* categories (156)
+├── furniture.yml             # fr-* categories (109)
+├── sporting-goods.yml        # sg-* categories (149)
+├── health-beauty.yml         # hb-* categories (61)
+├── toys-games.yml            # tg-* categories (123)
+├── baby-toddler.yml          # bt-* categories (120)
+├── animals-pet-supplies.yml  # ap-* categories (65)
+├── luggage-bags.yml          # lb-* categories (78)
+├── arts-entertainment.yml    # ae-* categories (141)
+dist/
+├── shopify-taxonomy-weights.json     # Full JSON export
+├── shopify-taxonomy-weights.min.json # Minified JSON
+└── categories.json                   # Categories only
 schemas/
 └── category-data.schema.json # JSON Schema for validation
+scripts/
+├── query.py          # Query tool for category lookup
+├── export_json.py    # Export YAML to JSON
+└── audit_lca_data.py # Audit LCA data sources
 ```
 
 ### Category IDs
@@ -59,7 +74,40 @@ aa-1-13-8:
 
 ## Usage
 
-### Calculate product carbon footprint
+### Quick Query (CLI)
+
+```bash
+# Search by name
+python scripts/query.py "t-shirts"
+
+# Get by exact ID
+python scripts/query.py aa-1-13-8
+
+# Output as JSON
+python scripts/query.py --json aa-1-13-8
+
+# Verbose output with sources
+python scripts/query.py "laptop" --verbose
+
+# List all categories in a vertical
+python scripts/query.py --vertical electronics
+```
+
+### JSON API
+
+Use the pre-built JSON exports in `dist/`:
+
+```javascript
+// Full data with all metadata
+const data = require('./dist/shopify-taxonomy-weights.json');
+
+// Get a specific category
+const tshirt = data.categories['aa-1-13-8'];
+console.log(tshirt.weight.estimate_g); // 180
+console.log(tshirt.lca.carbon_kg_co2e_per_unit); // 1.44
+```
+
+### Python Usage
 
 ```python
 import yaml
@@ -111,44 +159,62 @@ LCA data is sourced from:
 
 ## Coverage
 
-| Vertical | Status | Categories |
-|----------|--------|------------|
-| Apparel & Accessories (aa) | Partial | ~25 categories |
-| Electronics (el) | Partial | ~15 categories |
-| Home & Garden (hg) | Partial | ~40 categories |
-| Furniture (fr) | Partial | ~35 categories |
-| Sporting Goods (sg) | Partial | ~50 categories |
-| Health & Beauty (hb) | Partial | ~55 categories |
-| Toys & Games (tg) | Partial | ~55 categories |
-| Baby & Toddler (bt) | Partial | ~45 categories |
-| Animals & Pet Supplies (ap) | Partial | ~50 categories |
-| Food & Beverages (fb) | Planned | - |
-| Vehicles & Parts (vp) | Planned | - |
-| Hardware (ha) | Planned | - |
+**Total: 1,119 categories** | **100% have weight estimates** | **79 with sourced LCA data (7.1%)**
+
+| Vertical | Categories | With LCA | Notes |
+|----------|------------|----------|-------|
+| Home & Garden (hg) | 156 | 8 | Kitchen, bedding, decor, outdoor |
+| Sporting Goods (sg) | 149 | 8 | Fitness, outdoor, team sports |
+| Arts & Entertainment (ae) | 141 | 26 | Art supplies, instruments, books |
+| Toys & Games (tg) | 123 | 6 | Building toys, games, outdoor play |
+| Baby & Toddler (bt) | 120 | 3 | Strollers, gear, nursery |
+| Furniture (fr) | 109 | 6 | Living, bedroom, office furniture |
+| Apparel & Accessories (aa) | 106 | 6 | Clothing, shoes, jewelry |
+| Luggage & Bags (lb) | 78 | 3 | Luggage, backpacks, bags |
+| Animals & Pet Supplies (ap) | 65 | 2 | Pet food, supplies, accessories |
+| Health & Beauty (hb) | 61 | 6 | Skincare, hair, personal care |
+| Electronics (el) | 11 | 5 | Computers, phones, audio |
+| Food & Beverages (fb) | - | - | Planned |
+| Vehicles & Parts (vp) | - | - | Planned |
+| Hardware (ha) | - | - | Planned |
+
+Categories marked with `lca_data_missing: true` need LCA data contributions. See [docs/lca_data_needed.md](docs/lca_data_needed.md) for the full list.
 
 ## Contributing
 
 Contributions welcome! We need help with:
 
-1. **Adding weight estimates** - Real product weights from manufacturers or measurements
-2. **Adding LCA data** - Carbon footprint data with sources
+1. **Adding LCA data** - Carbon footprint data with sources (1,040 categories need data!)
+2. **Adding weight estimates** - Real product weights from manufacturers or measurements
 3. **Expanding coverage** - New product verticals
+
+### Priority: LCA Data Needed
+
+We removed all unsourced LCA data to ensure data integrity. Categories needing LCA data are marked with `lca_data_missing: true`. See the full list at [docs/lca_data_needed.md](docs/lca_data_needed.md).
+
+Good sources for LCA data:
+- [Higg Materials Sustainability Index](https://howtohigg.org/)
+- [Ecoinvent Database](https://ecoinvent.org/)
+- Manufacturer sustainability reports
+- Academic LCA studies (peer-reviewed)
+- Industry association environmental reports
 
 ### How to contribute
 
 1. Fork the repository
-2. Add or update data in YAML files under `data/`
-3. Include sources for your data
-4. Validate against the schema: `npm run validate` (coming soon)
+2. Find a category with `lca_data_missing: true`
+3. Research and add LCA data with proper sources
+4. Run `python scripts/audit_lca_data.py` to validate
 5. Submit a pull request
 
 ### Data quality guidelines
 
-- **Always cite sources** - No unsourced data
+- **Always cite sources** - No unsourced data accepted
 - **Prefer primary data** - Manufacturer reports > industry averages > estimates
 - **Note methodology** - How was the number derived?
 - **Indicate confidence** - Be honest about data quality
 - **Use SI units** - Grams for weight, kg CO2e for carbon
+- **Include scope** - cradle-to-gate or cradle-to-grave
 
 ## Limitations
 

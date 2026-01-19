@@ -1,29 +1,18 @@
-# Apparel & Accessories (aa) - Shopify Taxonomy
-# Weight estimates and LCA data for clothing and accessories
-#
-# Shopify Taxonomy Reference: https://shopify.github.io/product-taxonomy/
-# Category IDs follow Shopify's format: aa-{subcategory}-{...}
-
-schema_version: "0.1.0"
-last_updated: "2026-01-19"
-
+schema_version: 0.1.0
+last_updated: '2026-01-19'
 categories:
-  # ============================================================
-  # CLOTHING (aa-1)
-  # ============================================================
-
   aa-1:
-    name: "Clothing"
-    notes: "Parent category - use subcategories for more accurate estimates"
+    name: Clothing
+    notes: Parent category - use subcategories for more accurate estimates
     weight:
       estimate_g: 350
       min_g: 50
       max_g: 2000
       confidence: low
-      methodology: "Broad average across all clothing types"
-
+      methodology: Broad average across all clothing types
+    lca_data_missing: true
   aa-1-1:
-    name: "Activewear"
+    name: Activewear
     weight:
       estimate_g: 250
       min_g: 100
@@ -32,103 +21,78 @@ categories:
     lca:
       carbon_kg_co2e_per_kg: 21.0
       scope: cradle-to-gate
-      methodology: "Based on polyester/elastane blend averages"
+      methodology: Based on polyester/elastane blend averages
       data_quality: secondary
     materials:
       primary_material: synthetic
       breakdown:
-        - material: polyester
-          percentage: 85
-        - material: elastane
-          percentage: 15
+      - material: polyester
+        percentage: 85
+      - material: elastane
+        percentage: 15
     sources:
-      - "Higg MSI Database"
-      - "WRAP Textiles 2023"
-
+    - Higg MSI Database
+    - WRAP Textiles 2023
   aa-1-1-1:
-    name: "Sports Bras"
+    name: Sports Bras
     weight:
       estimate_g: 100
       min_g: 60
       max_g: 180
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 22.0
-      scope: cradle-to-gate
-      data_quality: secondary
-
+    lca_data_missing: true
   aa-1-1-2:
-    name: "Yoga Pants & Leggings"
+    name: Yoga Pants & Leggings
     weight:
       estimate_g: 220
       min_g: 150
       max_g: 350
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 20.0
-      scope: cradle-to-gate
-      data_quality: secondary
-
+    lca_data_missing: true
   aa-1-1-3:
-    name: "Athletic Shorts"
+    name: Athletic Shorts
     weight:
       estimate_g: 150
       min_g: 80
       max_g: 250
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 18.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-1-1-4:
-    name: "Athletic Tops"
+    name: Athletic Tops
     weight:
       estimate_g: 180
       min_g: 100
       max_g: 300
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 19.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-1-2:
-    name: "Blazers & Suit Jackets"
+    name: Blazers & Suit Jackets
     weight:
       estimate_g: 700
       min_g: 400
       max_g: 1200
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 18.0
-      scope: cradle-to-gate
-      data_quality: secondary
     materials:
       primary_material: wool_blend
       breakdown:
-        - material: wool
-          percentage: 50
-        - material: polyester
-          percentage: 40
-        - material: lining
-          percentage: 10
-
+      - material: wool
+        percentage: 50
+      - material: polyester
+        percentage: 40
+      - material: lining
+        percentage: 10
+    lca_data_missing: true
   aa-1-3:
-    name: "Costumes"
+    name: Costumes
     weight:
       estimate_g: 400
       min_g: 100
       max_g: 1500
       confidence: low
-    lca:
-      carbon_kg_co2e_per_kg: 12.0
-      scope: cradle-to-gate
-      data_quality: estimated
-    notes: "Highly variable quality and materials"
-
+    notes: Highly variable quality and materials
+    lca_data_missing: true
   aa-1-4:
-    name: "Denim"
+    name: Denim
     weight:
       estimate_g: 600
       min_g: 400
@@ -142,15 +106,14 @@ categories:
     materials:
       primary_material: cotton
       breakdown:
-        - material: cotton
-          percentage: 98
-        - material: elastane
-          percentage: 2
+      - material: cotton
+        percentage: 98
+      - material: elastane
+        percentage: 2
     sources:
-      - "Levi's Product Environmental Footprint"
-
+    - Levi's Product Environmental Footprint
   aa-1-4-1:
-    name: "Jeans"
+    name: Jeans
     weight:
       estimate_g: 650
       min_g: 450
@@ -162,221 +125,158 @@ categories:
       scope: cradle-to-gate
       data_quality: secondary
     sources:
-      - "Levi's 501 LCA Study"
-
+    - Levi's 501 LCA Study
   aa-1-4-2:
-    name: "Denim Jackets"
+    name: Denim Jackets
     weight:
       estimate_g: 700
       min_g: 500
       max_g: 1000
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 16.0
-      scope: cradle-to-gate
-      data_quality: secondary
-
+    lca_data_missing: true
   aa-1-4-3:
-    name: "Denim Shorts"
+    name: Denim Shorts
     weight:
       estimate_g: 350
       min_g: 250
       max_g: 500
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 14.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-1-5:
-    name: "Dresses"
+    name: Dresses
     weight:
       estimate_g: 400
       min_g: 150
       max_g: 1200
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 15.0
-      scope: cradle-to-gate
-      data_quality: secondary
     materials:
       primary_material: mixed
       breakdown:
-        - material: cotton
-          percentage: 50
-        - material: polyester
-          percentage: 40
-        - material: other
-          percentage: 10
-
+      - material: cotton
+        percentage: 50
+      - material: polyester
+        percentage: 40
+      - material: other
+        percentage: 10
+    lca_data_missing: true
   aa-1-5-1:
-    name: "Casual Dresses"
+    name: Casual Dresses
     weight:
       estimate_g: 300
       min_g: 150
       max_g: 500
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 12.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-1-5-2:
-    name: "Formal Dresses"
+    name: Formal Dresses
     weight:
       estimate_g: 600
       min_g: 300
       max_g: 1500
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 18.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-1-5-3:
-    name: "Maxi Dresses"
+    name: Maxi Dresses
     weight:
       estimate_g: 500
       min_g: 300
       max_g: 800
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 14.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-1-6:
-    name: "Jumpsuits & Rompers"
+    name: Jumpsuits & Rompers
     weight:
       estimate_g: 450
       min_g: 200
       max_g: 800
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 14.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-1-7:
-    name: "Loungewear"
+    name: Loungewear
     weight:
       estimate_g: 300
       min_g: 150
       max_g: 600
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 12.0
-      scope: cradle-to-gate
-      data_quality: estimated
     materials:
       primary_material: cotton
       breakdown:
-        - material: cotton
-          percentage: 70
-        - material: polyester
-          percentage: 30
-
+      - material: cotton
+        percentage: 70
+      - material: polyester
+        percentage: 30
+    lca_data_missing: true
   aa-1-8:
-    name: "Outerwear"
+    name: Outerwear
     weight:
       estimate_g: 900
       min_g: 300
       max_g: 2500
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 28.0
-      scope: cradle-to-gate
-      methodology: "Weighted average including down, synthetic fill, wool"
-      data_quality: secondary
-    notes: "High variance - down jackets lighter, winter coats heavier"
-
+    notes: High variance - down jackets lighter, winter coats heavier
+    lca_data_missing: true
   aa-1-8-1:
-    name: "Coats"
+    name: Coats
     weight:
       estimate_g: 1200
       min_g: 700
       max_g: 2500
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 25.0
-      scope: cradle-to-gate
-      data_quality: secondary
-
+    lca_data_missing: true
   aa-1-8-2:
-    name: "Down Jackets"
+    name: Down Jackets
     weight:
       estimate_g: 600
       min_g: 350
       max_g: 1000
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 35.0
-      carbon_kg_co2e_per_unit: 21.0
-      scope: cradle-to-gate
-      data_quality: secondary
     materials:
       primary_material: mixed
       breakdown:
-        - material: nylon_shell
-          percentage: 40
-        - material: down_fill
-          percentage: 30
-        - material: polyester_lining
-          percentage: 30
-    notes: "Down has high footprint but excellent warmth-to-weight"
-
+      - material: nylon_shell
+        percentage: 40
+      - material: down_fill
+        percentage: 30
+      - material: polyester_lining
+        percentage: 30
+    notes: Down has high footprint but excellent warmth-to-weight
+    lca_data_missing: true
   aa-1-8-3:
-    name: "Parkas"
+    name: Parkas
     weight:
       estimate_g: 1500
       min_g: 900
       max_g: 2500
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 30.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-1-8-4:
-    name: "Rain Jackets"
+    name: Rain Jackets
     weight:
       estimate_g: 400
       min_g: 200
       max_g: 700
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 22.0
-      scope: cradle-to-gate
-      data_quality: estimated
     materials:
       primary_material: nylon
-
+    lca_data_missing: true
   aa-1-8-5:
-    name: "Windbreakers"
+    name: Windbreakers
     weight:
       estimate_g: 300
       min_g: 150
       max_g: 500
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 18.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-1-8-6:
-    name: "Vests"
+    name: Vests
     weight:
       estimate_g: 400
       min_g: 200
       max_g: 800
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 20.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-1-8-7:
-    name: "Leather Jackets"
+    name: Leather Jackets
     weight:
       estimate_g: 1500
       min_g: 1000
@@ -390,266 +290,196 @@ categories:
     materials:
       primary_material: leather
     sources:
-      - "Leather Working Group data"
-    notes: "Leather has high footprint; faux leather ~60% lower"
-
+    - Leather Working Group data
+    notes: Leather has high footprint; faux leather ~60% lower
   aa-1-9:
-    name: "Pants"
+    name: Pants
     weight:
       estimate_g: 500
       min_g: 200
       max_g: 900
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 12.5
-      scope: cradle-to-gate
-      data_quality: secondary
     materials:
       primary_material: cotton
       breakdown:
-        - material: cotton
-          percentage: 70
-        - material: polyester
-          percentage: 25
-        - material: elastane
-          percentage: 5
-
+      - material: cotton
+        percentage: 70
+      - material: polyester
+        percentage: 25
+      - material: elastane
+        percentage: 5
+    lca_data_missing: true
   aa-1-9-1:
-    name: "Chinos"
+    name: Chinos
     weight:
       estimate_g: 450
       min_g: 350
       max_g: 600
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 11.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-1-9-2:
-    name: "Dress Pants"
+    name: Dress Pants
     weight:
       estimate_g: 400
       min_g: 300
       max_g: 600
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 14.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-1-9-3:
-    name: "Cargo Pants"
+    name: Cargo Pants
     weight:
       estimate_g: 600
       min_g: 450
       max_g: 800
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 13.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-1-9-4:
-    name: "Joggers & Sweatpants"
+    name: Joggers & Sweatpants
     weight:
       estimate_g: 400
       min_g: 280
       max_g: 600
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 14.0
-      scope: cradle-to-gate
-      data_quality: estimated
     materials:
       primary_material: cotton
       breakdown:
-        - material: cotton
-          percentage: 60
-        - material: polyester
-          percentage: 40
-
+      - material: cotton
+        percentage: 60
+      - material: polyester
+        percentage: 40
+    lca_data_missing: true
   aa-1-10:
-    name: "Shorts"
+    name: Shorts
     weight:
       estimate_g: 250
       min_g: 150
       max_g: 400
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 11.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-1-11:
-    name: "Skirts"
+    name: Skirts
     weight:
       estimate_g: 250
       min_g: 100
       max_g: 600
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 12.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-1-12:
-    name: "Sleepwear"
+    name: Sleepwear
     weight:
       estimate_g: 300
       min_g: 150
       max_g: 600
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 10.0
-      scope: cradle-to-gate
-      data_quality: estimated
     materials:
       primary_material: cotton
-
+    lca_data_missing: true
   aa-1-12-1:
-    name: "Pajamas"
+    name: Pajamas
     weight:
       estimate_g: 350
       min_g: 200
       max_g: 600
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 10.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-1-12-2:
-    name: "Robes"
+    name: Robes
     weight:
       estimate_g: 600
       min_g: 350
       max_g: 1000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 12.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-1-13:
-    name: "Tops"
+    name: Tops
     weight:
       estimate_g: 200
       min_g: 80
       max_g: 450
       confidence: medium
-
+    lca_data_missing: true
   aa-1-13-1:
-    name: "Blouses"
+    name: Blouses
     weight:
       estimate_g: 180
       min_g: 100
       max_g: 300
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 14.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-1-13-2:
-    name: "Button-Down Shirts"
+    name: Button-Down Shirts
     weight:
       estimate_g: 250
       min_g: 180
       max_g: 350
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 12.0
-      scope: cradle-to-gate
-      data_quality: secondary
-
+    lca_data_missing: true
   aa-1-13-3:
-    name: "Polo Shirts"
+    name: Polo Shirts
     weight:
       estimate_g: 220
       min_g: 150
       max_g: 320
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 10.0
-      scope: cradle-to-gate
-      data_quality: estimated
     materials:
       primary_material: cotton
-
+    lca_data_missing: true
   aa-1-13-4:
-    name: "Tank Tops"
+    name: Tank Tops
     weight:
       estimate_g: 120
       min_g: 70
       max_g: 200
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 9.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-1-13-5:
-    name: "Crop Tops"
+    name: Crop Tops
     weight:
       estimate_g: 100
       min_g: 60
       max_g: 180
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 10.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-1-13-6:
-    name: "Sweaters"
+    name: Sweaters
     weight:
       estimate_g: 400
       min_g: 250
       max_g: 700
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 18.0
-      scope: cradle-to-gate
-      data_quality: secondary
     materials:
       primary_material: wool_blend
       breakdown:
-        - material: wool
-          percentage: 40
-        - material: acrylic
-          percentage: 40
-        - material: other
-          percentage: 20
-
+      - material: wool
+        percentage: 40
+      - material: acrylic
+        percentage: 40
+      - material: other
+        percentage: 20
+    lca_data_missing: true
   aa-1-13-7:
-    name: "Hoodies & Sweatshirts"
+    name: Hoodies & Sweatshirts
     weight:
       estimate_g: 500
       min_g: 350
       max_g: 800
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 12.0
-      carbon_kg_co2e_per_unit: 6.0
-      scope: cradle-to-gate
-      data_quality: secondary
     materials:
       primary_material: cotton
       breakdown:
-        - material: cotton
-          percentage: 80
-        - material: polyester
-          percentage: 20
-
+      - material: cotton
+        percentage: 80
+      - material: polyester
+        percentage: 20
+    lca_data_missing: true
   aa-1-13-8:
-    name: "T-Shirts"
+    name: T-Shirts
     weight:
       estimate_g: 180
       min_g: 120
       max_g: 280
       confidence: high
-      methodology: "Based on standard adult cotton t-shirts"
+      methodology: Based on standard adult cotton t-shirts
     lca:
       carbon_kg_co2e_per_kg: 8.0
       carbon_kg_co2e_per_unit: 1.44
@@ -658,842 +488,591 @@ categories:
         raw_materials_kg_co2e: 5.2
         manufacturing_kg_co2e: 2.3
         packaging_kg_co2e: 0.5
-      methodology: "Cotton cultivation + textile production"
+      methodology: Cotton cultivation + textile production
       data_quality: secondary
     materials:
       primary_material: cotton
       breakdown:
-        - material: cotton
-          percentage: 100
+      - material: cotton
+        percentage: 100
     sources:
-      - "Carbon Trust Clothing Footprint Study"
-      - "WRAP UK Textiles Data"
-
+    - Carbon Trust Clothing Footprint Study
+    - WRAP UK Textiles Data
   aa-1-14:
-    name: "Underwear & Socks"
+    name: Underwear & Socks
     weight:
       estimate_g: 60
       min_g: 20
       max_g: 150
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 10.0
-      scope: cradle-to-gate
-      data_quality: secondary
     materials:
       primary_material: cotton
       breakdown:
-        - material: cotton
-          percentage: 80
-        - material: elastane
-          percentage: 20
-
+      - material: cotton
+        percentage: 80
+      - material: elastane
+        percentage: 20
+    lca_data_missing: true
   aa-1-14-1:
-    name: "Bras"
+    name: Bras
     weight:
       estimate_g: 80
       min_g: 40
       max_g: 150
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 15.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-1-14-2:
-    name: "Underwear"
+    name: Underwear
     weight:
       estimate_g: 40
       min_g: 20
       max_g: 80
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 10.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-1-14-3:
-    name: "Socks"
+    name: Socks
     weight:
       estimate_g: 50
       min_g: 30
       max_g: 100
       confidence: high
-      methodology: "Per pair"
-    lca:
-      carbon_kg_co2e_per_kg: 8.0
-      carbon_kg_co2e_per_unit: 0.4
-      scope: cradle-to-gate
-      data_quality: secondary
-
+      methodology: Per pair
+    lca_data_missing: true
   aa-1-15:
-    name: "Suits"
+    name: Suits
     weight:
       estimate_g: 1500
       min_g: 1000
       max_g: 2500
       confidence: medium
-      methodology: "Full suit (jacket + pants)"
-    lca:
-      carbon_kg_co2e_per_kg: 20.0
-      carbon_kg_co2e_per_unit: 30.0
-      scope: cradle-to-gate
-      data_quality: secondary
+      methodology: Full suit (jacket + pants)
     materials:
       primary_material: wool_blend
-
+    lca_data_missing: true
   aa-1-16:
-    name: "Swimwear"
+    name: Swimwear
     weight:
       estimate_g: 150
       min_g: 80
       max_g: 300
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 25.0
-      scope: cradle-to-gate
-      data_quality: estimated
     materials:
       primary_material: synthetic
       breakdown:
-        - material: nylon
-          percentage: 80
-        - material: elastane
-          percentage: 20
-
+      - material: nylon
+        percentage: 80
+      - material: elastane
+        percentage: 20
+    lca_data_missing: true
   aa-1-17:
-    name: "Uniforms & Workwear"
+    name: Uniforms & Workwear
     weight:
       estimate_g: 500
       min_g: 250
       max_g: 1200
       confidence: low
-    lca:
-      carbon_kg_co2e_per_kg: 14.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
-  # ============================================================
-  # CLOTHING ACCESSORIES (aa-2)
-  # ============================================================
-
+    lca_data_missing: true
   aa-2:
-    name: "Clothing Accessories"
+    name: Clothing Accessories
     weight:
       estimate_g: 100
       min_g: 10
       max_g: 500
       confidence: low
-
+    lca_data_missing: true
   aa-2-1:
-    name: "Belts"
+    name: Belts
     weight:
       estimate_g: 150
       min_g: 80
       max_g: 350
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 25.0
-      scope: cradle-to-gate
-      data_quality: estimated
-    notes: "Leather belts - synthetic alternatives have ~40% lower footprint"
-
+    notes: Leather belts - synthetic alternatives have ~40% lower footprint
+    lca_data_missing: true
   aa-2-2:
-    name: "Gloves"
+    name: Gloves
     weight:
       estimate_g: 80
       min_g: 30
       max_g: 200
       confidence: medium
-      methodology: "Per pair"
-    lca:
-      carbon_kg_co2e_per_kg: 15.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+      methodology: Per pair
+    lca_data_missing: true
   aa-2-3:
-    name: "Hair Accessories"
+    name: Hair Accessories
     weight:
       estimate_g: 20
       min_g: 5
       max_g: 100
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 8.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-2-4:
-    name: "Hats"
+    name: Hats
     weight:
       estimate_g: 100
       min_g: 30
       max_g: 300
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 12.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-2-4-1:
-    name: "Baseball Caps"
+    name: Baseball Caps
     weight:
       estimate_g: 80
       min_g: 50
       max_g: 120
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 10.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-2-4-2:
-    name: "Beanies"
+    name: Beanies
     weight:
       estimate_g: 60
       min_g: 40
       max_g: 100
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 12.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-2-4-3:
-    name: "Sun Hats"
+    name: Sun Hats
     weight:
       estimate_g: 100
       min_g: 50
       max_g: 200
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 8.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-2-4-4:
-    name: "Fedoras & Dress Hats"
+    name: Fedoras & Dress Hats
     weight:
       estimate_g: 150
       min_g: 80
       max_g: 300
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 15.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-2-5:
-    name: "Neckties & Bow Ties"
+    name: Neckties & Bow Ties
     weight:
       estimate_g: 50
       min_g: 30
       max_g: 100
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 18.0
-      scope: cradle-to-gate
-      data_quality: estimated
     materials:
       primary_material: silk
-
+    lca_data_missing: true
   aa-2-6:
-    name: "Scarves & Shawls"
+    name: Scarves & Shawls
     weight:
       estimate_g: 150
       min_g: 50
       max_g: 400
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 15.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-2-7:
-    name: "Suspenders"
+    name: Suspenders
     weight:
       estimate_g: 80
       min_g: 50
       max_g: 150
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 12.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-2-8:
-    name: "Sunglasses"
+    name: Sunglasses
     weight:
       estimate_g: 30
       min_g: 15
       max_g: 60
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 25.0
-      carbon_kg_co2e_per_unit: 0.75
-      scope: cradle-to-gate
-      data_quality: estimated
     materials:
       primary_material: plastic
       breakdown:
-        - material: acetate
-          percentage: 70
-        - material: lenses
-          percentage: 25
-        - material: metal
-          percentage: 5
-
+      - material: acetate
+        percentage: 70
+      - material: lenses
+        percentage: 25
+      - material: metal
+        percentage: 5
+    lca_data_missing: true
   aa-2-9:
-    name: "Wallets"
+    name: Wallets
     weight:
       estimate_g: 100
       min_g: 50
       max_g: 200
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 25.0
-      scope: cradle-to-gate
-      data_quality: estimated
-    notes: "Leather wallets"
-
+    notes: Leather wallets
+    lca_data_missing: true
   aa-2-10:
-    name: "Watches"
+    name: Watches
     weight:
       estimate_g: 100
       min_g: 30
       max_g: 250
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 50.0
-      carbon_kg_co2e_per_unit: 5.0
-      scope: cradle-to-gate
-      data_quality: estimated
-    notes: "Varies greatly by type - digital vs mechanical"
-
-  # ============================================================
-  # HANDBAGS & WALLETS (aa-3)
-  # ============================================================
-
+    notes: Varies greatly by type - digital vs mechanical
+    lca_data_missing: true
   aa-3:
-    name: "Handbags & Wallets"
+    name: Handbags & Wallets
     weight:
       estimate_g: 500
       min_g: 100
       max_g: 2000
       confidence: low
-
+    lca_data_missing: true
   aa-3-1:
-    name: "Backpacks"
+    name: Backpacks
     weight:
       estimate_g: 700
       min_g: 300
       max_g: 1500
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 12.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-3-2:
-    name: "Clutches"
+    name: Clutches
     weight:
       estimate_g: 200
       min_g: 80
       max_g: 400
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 22.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-3-3:
-    name: "Crossbody Bags"
+    name: Crossbody Bags
     weight:
       estimate_g: 400
       min_g: 200
       max_g: 800
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 18.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-3-4:
-    name: "Handbags"
+    name: Handbags
     weight:
       estimate_g: 500
       min_g: 150
       max_g: 1200
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 20.0
-      scope: cradle-to-gate
-      data_quality: estimated
-    notes: "Leather handbags - higher for exotic leathers"
-
+    notes: Leather handbags - higher for exotic leathers
+    lca_data_missing: true
   aa-3-5:
-    name: "Messenger Bags"
+    name: Messenger Bags
     weight:
       estimate_g: 600
       min_g: 350
       max_g: 1000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 14.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-3-6:
-    name: "Tote Bags"
+    name: Tote Bags
     weight:
       estimate_g: 400
       min_g: 150
       max_g: 800
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 10.0
-      scope: cradle-to-gate
-      data_quality: estimated
-    notes: "Canvas totes lower footprint than leather"
-
+    notes: Canvas totes lower footprint than leather
+    lca_data_missing: true
   aa-3-7:
-    name: "Fanny Packs"
+    name: Fanny Packs
     weight:
       estimate_g: 200
       min_g: 100
       max_g: 400
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 12.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
-  # ============================================================
-  # JEWELRY (aa-4)
-  # ============================================================
-
+    lca_data_missing: true
   aa-4:
-    name: "Jewelry"
+    name: Jewelry
     weight:
       estimate_g: 30
       min_g: 1
       max_g: 200
       confidence: low
-    notes: "Very small weights but high value and footprint per gram"
-
+    notes: Very small weights but high value and footprint per gram
+    lca_data_missing: true
   aa-4-1:
-    name: "Bracelets"
+    name: Bracelets
     weight:
       estimate_g: 30
       min_g: 5
       max_g: 100
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 100.0
-      scope: cradle-to-gate
-      data_quality: estimated
-    notes: "Precious metals have very high per-kg footprint"
-
+    notes: Precious metals have very high per-kg footprint
+    lca_data_missing: true
   aa-4-2:
-    name: "Earrings"
+    name: Earrings
     weight:
       estimate_g: 10
       min_g: 1
       max_g: 50
       confidence: medium
-      methodology: "Per pair"
-    lca:
-      carbon_kg_co2e_per_kg: 150.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+      methodology: Per pair
+    lca_data_missing: true
   aa-4-3:
-    name: "Necklaces"
+    name: Necklaces
     weight:
       estimate_g: 30
       min_g: 5
       max_g: 150
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 120.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-4-4:
-    name: "Rings"
+    name: Rings
     weight:
       estimate_g: 8
       min_g: 2
       max_g: 30
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 200.0
-      scope: cradle-to-gate
-      data_quality: estimated
-    notes: "Gold rings - silver and costume jewelry much lower"
-
+    notes: Gold rings - silver and costume jewelry much lower
+    lca_data_missing: true
   aa-4-5:
-    name: "Anklets"
+    name: Anklets
     weight:
       estimate_g: 10
       min_g: 3
       max_g: 30
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 100.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-4-6:
-    name: "Brooches & Pins"
+    name: Brooches & Pins
     weight:
       estimate_g: 15
       min_g: 5
       max_g: 50
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 80.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-4-7:
-    name: "Costume Jewelry"
+    name: Costume Jewelry
     weight:
       estimate_g: 30
       min_g: 5
       max_g: 100
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 15.0
-      scope: cradle-to-gate
-      data_quality: estimated
-    notes: "Much lower footprint than precious metals"
-
-  # ============================================================
-  # SHOES (aa-5)
-  # ============================================================
-
+    notes: Much lower footprint than precious metals
+    lca_data_missing: true
   aa-5:
-    name: "Shoes"
+    name: Shoes
     weight:
       estimate_g: 700
       min_g: 200
       max_g: 1500
       confidence: medium
-      methodology: "Per pair weight"
-    lca:
-      carbon_kg_co2e_per_kg: 14.0
-      scope: cradle-to-gate
-      data_quality: secondary
-    notes: "Wide variance between sandals and boots"
-
+      methodology: Per pair weight
+    notes: Wide variance between sandals and boots
+    lca_data_missing: true
   aa-5-1:
-    name: "Athletic Shoes"
+    name: Athletic Shoes
     weight:
       estimate_g: 650
       min_g: 400
       max_g: 900
       confidence: high
-      methodology: "Per pair, adult sizes"
+      methodology: Per pair, adult sizes
     lca:
       carbon_kg_co2e_per_kg: 16.5
       carbon_kg_co2e_per_unit: 10.7
       scope: cradle-to-gate
-      methodology: "MIT study on athletic footwear"
+      methodology: MIT study on athletic footwear
       data_quality: secondary
     materials:
       primary_material: synthetic
       breakdown:
-        - material: synthetic_upper
-          percentage: 40
-        - material: rubber_sole
-          percentage: 35
-        - material: foam_midsole
-          percentage: 20
-        - material: other
-          percentage: 5
+      - material: synthetic_upper
+        percentage: 40
+      - material: rubber_sole
+        percentage: 35
+      - material: foam_midsole
+        percentage: 20
+      - material: other
+        percentage: 5
     sources:
-      - "MIT Materials Systems Laboratory"
-
+    - MIT Materials Systems Laboratory
   aa-5-2:
-    name: "Boots"
+    name: Boots
     weight:
       estimate_g: 1200
       min_g: 600
       max_g: 2000
       confidence: medium
-      methodology: "Per pair"
-    lca:
-      carbon_kg_co2e_per_kg: 18.0
-      scope: cradle-to-gate
-      data_quality: estimated
-    notes: "Leather boots have higher footprint than synthetic"
-
+      methodology: Per pair
+    notes: Leather boots have higher footprint than synthetic
+    lca_data_missing: true
   aa-5-2-1:
-    name: "Ankle Boots"
+    name: Ankle Boots
     weight:
       estimate_g: 900
       min_g: 600
       max_g: 1300
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 16.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-5-2-2:
-    name: "Knee-High Boots"
+    name: Knee-High Boots
     weight:
       estimate_g: 1400
       min_g: 900
       max_g: 2000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 20.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-5-2-3:
-    name: "Chelsea Boots"
+    name: Chelsea Boots
     weight:
       estimate_g: 1000
       min_g: 700
       max_g: 1400
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 18.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-5-3:
-    name: "Dress Shoes"
+    name: Dress Shoes
     weight:
       estimate_g: 800
       min_g: 500
       max_g: 1200
       confidence: medium
-      methodology: "Per pair"
-    lca:
-      carbon_kg_co2e_per_kg: 20.0
-      scope: cradle-to-gate
-      data_quality: estimated
+      methodology: Per pair
     materials:
       primary_material: leather
-
+    lca_data_missing: true
   aa-5-3-1:
-    name: "Oxfords"
+    name: Oxfords
     weight:
       estimate_g: 850
       min_g: 600
       max_g: 1100
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 22.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-5-3-2:
-    name: "Loafers"
+    name: Loafers
     weight:
       estimate_g: 700
       min_g: 450
       max_g: 950
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 18.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-5-3-3:
-    name: "Heels"
+    name: Heels
     weight:
       estimate_g: 600
       min_g: 350
       max_g: 900
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 16.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-5-4:
-    name: "Flats"
+    name: Flats
     weight:
       estimate_g: 400
       min_g: 200
       max_g: 600
       confidence: medium
-      methodology: "Per pair"
-    lca:
-      carbon_kg_co2e_per_kg: 14.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+      methodology: Per pair
+    lca_data_missing: true
   aa-5-5:
-    name: "Sandals"
+    name: Sandals
     weight:
       estimate_g: 350
       min_g: 150
       max_g: 600
       confidence: medium
-      methodology: "Per pair"
-    lca:
-      carbon_kg_co2e_per_kg: 12.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+      methodology: Per pair
+    lca_data_missing: true
   aa-5-5-1:
-    name: "Flip Flops"
+    name: Flip Flops
     weight:
       estimate_g: 200
       min_g: 100
       max_g: 350
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 8.0
-      scope: cradle-to-gate
-      data_quality: estimated
     materials:
       primary_material: rubber
-
+    lca_data_missing: true
   aa-5-5-2:
-    name: "Slides"
+    name: Slides
     weight:
       estimate_g: 300
       min_g: 150
       max_g: 500
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 10.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-5-6:
-    name: "Slippers"
+    name: Slippers
     weight:
       estimate_g: 250
       min_g: 100
       max_g: 500
       confidence: medium
-      methodology: "Per pair"
-    lca:
-      carbon_kg_co2e_per_kg: 10.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+      methodology: Per pair
+    lca_data_missing: true
   aa-5-7:
-    name: "Sneakers"
+    name: Sneakers
     weight:
       estimate_g: 700
       min_g: 450
       max_g: 1000
       confidence: high
-      methodology: "Per pair"
-    lca:
-      carbon_kg_co2e_per_kg: 14.0
-      carbon_kg_co2e_per_unit: 9.8
-      scope: cradle-to-gate
-      data_quality: secondary
-
+      methodology: Per pair
+    lca_data_missing: true
   aa-5-8:
-    name: "Wedges"
+    name: Wedges
     weight:
       estimate_g: 700
       min_g: 450
       max_g: 1000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 14.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-5-9:
-    name: "Espadrilles"
+    name: Espadrilles
     weight:
       estimate_g: 400
       min_g: 250
       max_g: 600
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 10.0
-      scope: cradle-to-gate
-      data_quality: estimated
     materials:
       primary_material: natural
       breakdown:
-        - material: canvas
-          percentage: 50
-        - material: jute_sole
-          percentage: 40
-        - material: rubber
-          percentage: 10
-
+      - material: canvas
+        percentage: 50
+      - material: jute_sole
+        percentage: 40
+      - material: rubber
+        percentage: 10
+    lca_data_missing: true
   aa-5-10:
-    name: "Mules"
+    name: Mules
     weight:
       estimate_g: 450
       min_g: 250
       max_g: 700
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 14.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
-  # ============================================================
-  # EYEWEAR (aa-6)
-  # ============================================================
-
+    lca_data_missing: true
   aa-6:
-    name: "Eyewear"
+    name: Eyewear
     weight:
       estimate_g: 35
       min_g: 15
       max_g: 80
       confidence: medium
-
+    lca_data_missing: true
   aa-6-1:
-    name: "Prescription Glasses"
+    name: Prescription Glasses
     weight:
       estimate_g: 35
       min_g: 20
       max_g: 60
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 40.0
-      carbon_kg_co2e_per_unit: 1.4
-      scope: cradle-to-gate
-      data_quality: estimated
     materials:
       primary_material: mixed
       breakdown:
-        - material: acetate_frame
-          percentage: 50
-        - material: lenses
-          percentage: 40
-        - material: metal
-          percentage: 10
-
+      - material: acetate_frame
+        percentage: 50
+      - material: lenses
+        percentage: 40
+      - material: metal
+        percentage: 10
+    lca_data_missing: true
   aa-6-2:
-    name: "Reading Glasses"
+    name: Reading Glasses
     weight:
       estimate_g: 30
       min_g: 15
       max_g: 50
       confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 30.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   aa-6-3:
-    name: "Sports Glasses"
+    name: Sports Glasses
     weight:
       estimate_g: 40
       min_g: 25
       max_g: 70
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 35.0
-      scope: cradle-to-gate
-      data_quality: estimated
+    lca_data_missing: true

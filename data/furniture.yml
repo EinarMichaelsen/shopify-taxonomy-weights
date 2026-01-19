@@ -1,30 +1,17 @@
-# Furniture (fr) - Shopify Taxonomy
-# Weight estimates and LCA data for furniture products
-#
-# Note: Furniture has high weight variance and significant shipping impact.
-# LCA data focuses on embodied carbon; wood furniture may have carbon storage benefits.
-#
-# Shopify Taxonomy Reference: https://shopify.github.io/product-taxonomy/
-
-schema_version: "0.1.0"
-last_updated: "2026-01-19"
-
+schema_version: 0.1.0
+last_updated: '2026-01-19'
 categories:
-  # ============================================================
-  # SEATING
-  # ============================================================
-
   fr-1:
-    name: "Chairs"
+    name: Chairs
     weight:
       estimate_g: 8000
       min_g: 2000
       max_g: 30000
       confidence: low
-    notes: "Highly variable - dining chairs to recliners"
-
+    notes: Highly variable - dining chairs to recliners
+    lca_data_missing: true
   fr-1-1:
-    name: "Dining Chairs"
+    name: Dining Chairs
     weight:
       estimate_g: 5000
       min_g: 3000
@@ -38,17 +25,16 @@ categories:
     materials:
       primary_material: wood
       breakdown:
-        - material: wood
-          percentage: 70
-        - material: fabric
-          percentage: 20
-        - material: foam
-          percentage: 10
+      - material: wood
+        percentage: 70
+      - material: fabric
+        percentage: 20
+      - material: foam
+        percentage: 10
     sources:
-      - "FIRA Furniture Industry Research"
-
+    - FIRA Furniture Industry Research
   fr-1-2:
-    name: "Office Chairs"
+    name: Office Chairs
     weight:
       estimate_g: 12000
       min_g: 8000
@@ -66,119 +52,92 @@ categories:
     materials:
       primary_material: mixed
       breakdown:
-        - material: steel_frame
-          percentage: 40
-        - material: plastic
-          percentage: 25
-        - material: foam
-          percentage: 20
-        - material: fabric
-          percentage: 15
+      - material: steel_frame
+        percentage: 40
+      - material: plastic
+        percentage: 25
+      - material: foam
+        percentage: 20
+      - material: fabric
+        percentage: 15
     sources:
-      - "Steelcase Environmental Product Declarations"
-      - "Herman Miller Sustainability Reports"
-
+    - Steelcase Environmental Product Declarations
+    - Herman Miller Sustainability Reports
   fr-1-3:
-    name: "Accent Chairs"
+    name: Accent Chairs
     weight:
       estimate_g: 15000
       min_g: 8000
       max_g: 25000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 3.5
-      carbon_kg_co2e_per_unit: 52.5
-      scope: cradle-to-gate
-      data_quality: estimated
     materials:
       primary_material: mixed
       breakdown:
-        - material: wood_frame
-          percentage: 35
-        - material: foam
-          percentage: 30
-        - material: fabric
-          percentage: 25
-        - material: other
-          percentage: 10
-
+      - material: wood_frame
+        percentage: 35
+      - material: foam
+        percentage: 30
+      - material: fabric
+        percentage: 25
+      - material: other
+        percentage: 10
+    lca_data_missing: true
   fr-1-4:
-    name: "Recliners"
+    name: Recliners
     weight:
       estimate_g: 35000
       min_g: 25000
       max_g: 50000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 4.0
-      carbon_kg_co2e_per_unit: 140.0
-      scope: cradle-to-gate
-      data_quality: estimated
     materials:
       primary_material: mixed
       breakdown:
-        - material: steel_mechanism
-          percentage: 30
-        - material: wood_frame
-          percentage: 25
-        - material: foam
-          percentage: 25
-        - material: leather_fabric
-          percentage: 20
-
+      - material: steel_mechanism
+        percentage: 30
+      - material: wood_frame
+        percentage: 25
+      - material: foam
+        percentage: 25
+      - material: leather_fabric
+        percentage: 20
+    lca_data_missing: true
   fr-1-5:
-    name: "Stools"
+    name: Stools
     weight:
       estimate_g: 4000
       min_g: 2000
       max_g: 10000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 3.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-1-5-1:
-    name: "Bar Stools"
+    name: Bar Stools
     weight:
       estimate_g: 6000
       min_g: 3000
       max_g: 12000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 4.0
-      scope: cradle-to-gate
-      data_quality: estimated
     materials:
       primary_material: metal
       breakdown:
-        - material: steel
-          percentage: 50
-        - material: wood
-          percentage: 30
-        - material: upholstery
-          percentage: 20
-
+      - material: steel
+        percentage: 50
+      - material: wood
+        percentage: 30
+      - material: upholstery
+        percentage: 20
+    lca_data_missing: true
   fr-1-6:
-    name: "Benches"
+    name: Benches
     weight:
       estimate_g: 15000
       min_g: 5000
       max_g: 40000
       confidence: low
-    lca:
-      carbon_kg_co2e_per_kg: 2.0
-      scope: cradle-to-gate
-      data_quality: estimated
     materials:
       primary_material: wood
-
-  # ============================================================
-  # SOFAS & SECTIONALS
-  # ============================================================
-
+    lca_data_missing: true
   fr-2:
-    name: "Sofas"
+    name: Sofas
     weight:
       estimate_g: 45000
       min_g: 25000
@@ -192,106 +151,77 @@ categories:
     materials:
       primary_material: mixed
       breakdown:
-        - material: wood_frame
-          percentage: 30
-        - material: foam
-          percentage: 30
-        - material: fabric
-          percentage: 25
-        - material: springs_metal
-          percentage: 15
+      - material: wood_frame
+        percentage: 30
+      - material: foam
+        percentage: 30
+      - material: fabric
+        percentage: 25
+      - material: springs_metal
+        percentage: 15
     sources:
-      - "FIRA Furniture Environmental Data"
-
+    - FIRA Furniture Environmental Data
   fr-2-1:
-    name: "Loveseats"
+    name: Loveseats
     weight:
       estimate_g: 35000
       min_g: 20000
       max_g: 50000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 3.5
-      carbon_kg_co2e_per_unit: 122.5
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-2-2:
-    name: "Sectional Sofas"
+    name: Sectional Sofas
     weight:
       estimate_g: 70000
       min_g: 40000
       max_g: 120000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 3.5
-      carbon_kg_co2e_per_unit: 245.0
-      scope: cradle-to-gate
-      data_quality: estimated
-    notes: "Per complete sectional unit"
-
+    notes: Per complete sectional unit
+    lca_data_missing: true
   fr-2-3:
-    name: "Sleeper Sofas"
+    name: Sleeper Sofas
     weight:
       estimate_g: 55000
       min_g: 40000
       max_g: 80000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 4.0
-      carbon_kg_co2e_per_unit: 220.0
-      scope: cradle-to-gate
-      data_quality: estimated
-    notes: "Includes mattress mechanism"
-
+    notes: Includes mattress mechanism
+    lca_data_missing: true
   fr-2-4:
-    name: "Futons"
+    name: Futons
     weight:
       estimate_g: 30000
       min_g: 20000
       max_g: 45000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 3.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
-  # ============================================================
-  # TABLES
-  # ============================================================
-
+    lca_data_missing: true
   fr-3:
-    name: "Tables"
+    name: Tables
     weight:
       estimate_g: 20000
       min_g: 2000
       max_g: 100000
       confidence: low
-
+    lca_data_missing: true
   fr-3-1:
-    name: "Coffee Tables"
+    name: Coffee Tables
     weight:
       estimate_g: 15000
       min_g: 5000
       max_g: 35000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.0
-      carbon_kg_co2e_per_unit: 30.0
-      scope: cradle-to-gate
-      data_quality: secondary
     materials:
       primary_material: wood
       breakdown:
-        - material: wood
-          percentage: 80
-        - material: glass
-          percentage: 15
-        - material: metal
-          percentage: 5
-
+      - material: wood
+        percentage: 80
+      - material: glass
+        percentage: 15
+      - material: metal
+        percentage: 5
+    lca_data_missing: true
   fr-3-2:
-    name: "Dining Tables"
+    name: Dining Tables
     weight:
       estimate_g: 40000
       min_g: 20000
@@ -305,34 +235,25 @@ categories:
     materials:
       primary_material: wood
     sources:
-      - "Wood furniture LCA studies"
-
+    - Wood furniture LCA studies
   fr-3-3:
-    name: "End Tables"
+    name: End Tables
     weight:
       estimate_g: 8000
       min_g: 3000
       max_g: 15000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-3-4:
-    name: "Console Tables"
+    name: Console Tables
     weight:
       estimate_g: 20000
       min_g: 10000
       max_g: 40000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-3-5:
-    name: "Desks"
+    name: Desks
     weight:
       estimate_g: 30000
       min_g: 10000
@@ -344,99 +265,73 @@ categories:
       scope: cradle-to-gate
       data_quality: secondary
     sources:
-      - "Office furniture EPDs"
-
+    - Office furniture EPDs
   fr-3-5-1:
-    name: "Standing Desks"
+    name: Standing Desks
     weight:
       estimate_g: 35000
       min_g: 20000
       max_g: 50000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 4.0
-      carbon_kg_co2e_per_unit: 140.0
-      scope: cradle-to-gate
-      use_phase:
-        energy_kwh_per_year: 5
-        lifespan_years: 10
-      data_quality: secondary
     materials:
       primary_material: mixed
       breakdown:
-        - material: steel_frame
-          percentage: 50
-        - material: wood_top
-          percentage: 35
-        - material: electronics
-          percentage: 15
-    notes: "Electric height-adjustable desks"
-
+      - material: steel_frame
+        percentage: 50
+      - material: wood_top
+        percentage: 35
+      - material: electronics
+        percentage: 15
+    notes: Electric height-adjustable desks
+    lca_data_missing: true
   fr-3-6:
-    name: "Nightstands"
+    name: Nightstands
     weight:
       estimate_g: 12000
       min_g: 5000
       max_g: 25000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
-  # ============================================================
-  # BEDS
-  # ============================================================
-
+    lca_data_missing: true
   fr-4:
-    name: "Beds & Bed Frames"
+    name: Beds & Bed Frames
     weight:
       estimate_g: 40000
       min_g: 15000
       max_g: 100000
       confidence: low
-    notes: "Frame only - mattress separate"
-
+    notes: Frame only - mattress separate
+    lca_data_missing: true
   fr-4-1:
-    name: "Bed Frames"
+    name: Bed Frames
     weight:
       estimate_g: 35000
       min_g: 15000
       max_g: 60000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.5
-      carbon_kg_co2e_per_unit: 87.5
-      scope: cradle-to-gate
-      data_quality: estimated
     materials:
       primary_material: wood
       breakdown:
-        - material: wood
-          percentage: 70
-        - material: metal
-          percentage: 30
-
+      - material: wood
+        percentage: 70
+      - material: metal
+        percentage: 30
+    lca_data_missing: true
   fr-4-2:
-    name: "Headboards"
+    name: Headboards
     weight:
       estimate_g: 20000
       min_g: 8000
       max_g: 40000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.5
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-4-3:
-    name: "Mattresses"
+    name: Mattresses
     weight:
       estimate_g: 30000
       min_g: 15000
       max_g: 50000
       confidence: medium
-      methodology: "Queen size mattress"
+      methodology: Queen size mattress
     lca:
       carbon_kg_co2e_per_kg: 4.5
       carbon_kg_co2e_per_unit: 135.0
@@ -448,1140 +343,777 @@ categories:
     materials:
       primary_material: mixed
       breakdown:
-        - material: foam
-          percentage: 50
-        - material: springs
-          percentage: 25
-        - material: fabric
-          percentage: 15
-        - material: other
-          percentage: 10
+      - material: foam
+        percentage: 50
+      - material: springs
+        percentage: 25
+      - material: fabric
+        percentage: 15
+      - material: other
+        percentage: 10
     sources:
-      - "Mattress industry sustainability reports"
-
+    - Mattress industry sustainability reports
   fr-4-4:
-    name: "Bunk Beds"
+    name: Bunk Beds
     weight:
       estimate_g: 50000
       min_g: 30000
       max_g: 80000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.5
-      scope: cradle-to-gate
-      data_quality: estimated
-    notes: "Frame only - mattresses separate"
-
-  # ============================================================
-  # STORAGE
-  # ============================================================
-
+    notes: Frame only - mattresses separate
+    lca_data_missing: true
   fr-5:
-    name: "Storage Furniture"
+    name: Storage Furniture
     weight:
       estimate_g: 30000
       min_g: 5000
       max_g: 100000
       confidence: low
-
+    lca_data_missing: true
   fr-5-1:
-    name: "Bookcases"
+    name: Bookcases
     weight:
       estimate_g: 25000
       min_g: 10000
       max_g: 60000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 1.8
-      carbon_kg_co2e_per_unit: 45.0
-      scope: cradle-to-gate
-      data_quality: secondary
     materials:
       primary_material: wood
       breakdown:
-        - material: particleboard
-          percentage: 60
-        - material: solid_wood
-          percentage: 30
-        - material: other
-          percentage: 10
-
+      - material: particleboard
+        percentage: 60
+      - material: solid_wood
+        percentage: 30
+      - material: other
+        percentage: 10
+    lca_data_missing: true
   fr-5-2:
-    name: "Cabinets"
+    name: Cabinets
     weight:
       estimate_g: 35000
       min_g: 15000
       max_g: 80000
       confidence: low
-    lca:
-      carbon_kg_co2e_per_kg: 2.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-5-3:
-    name: "Dressers"
+    name: Dressers
     weight:
       estimate_g: 45000
       min_g: 25000
       max_g: 80000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.0
-      carbon_kg_co2e_per_unit: 90.0
-      scope: cradle-to-gate
-      data_quality: secondary
     materials:
       primary_material: wood
-
+    lca_data_missing: true
   fr-5-4:
-    name: "Wardrobes"
+    name: Wardrobes
     weight:
       estimate_g: 60000
       min_g: 35000
       max_g: 120000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 1.8
-      carbon_kg_co2e_per_unit: 108.0
-      scope: cradle-to-gate
-      data_quality: estimated
     materials:
       primary_material: wood
       breakdown:
-        - material: particleboard
-          percentage: 70
-        - material: solid_wood
-          percentage: 20
-        - material: hardware
-          percentage: 10
-
+      - material: particleboard
+        percentage: 70
+      - material: solid_wood
+        percentage: 20
+      - material: hardware
+        percentage: 10
+    lca_data_missing: true
   fr-5-5:
-    name: "TV Stands"
+    name: TV Stands
     weight:
       estimate_g: 25000
       min_g: 10000
       max_g: 50000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-5-6:
-    name: "Shelving"
+    name: Shelving
     weight:
       estimate_g: 8000
       min_g: 2000
       max_g: 30000
       confidence: low
-    lca:
-      carbon_kg_co2e_per_kg: 2.5
-      scope: cradle-to-gate
-      data_quality: estimated
-
-  # ============================================================
-  # OUTDOOR FURNITURE
-  # ============================================================
-
+    lca_data_missing: true
   fr-6:
-    name: "Outdoor Furniture"
+    name: Outdoor Furniture
     weight:
       estimate_g: 12000
       min_g: 2000
       max_g: 50000
       confidence: low
-    lca:
-      carbon_kg_co2e_per_kg: 4.0
-      scope: cradle-to-gate
-      data_quality: estimated
-    notes: "Often metal or plastic for weather resistance"
-
+    notes: Often metal or plastic for weather resistance
+    lca_data_missing: true
   fr-6-1:
-    name: "Outdoor Chairs"
+    name: Outdoor Chairs
     weight:
       estimate_g: 5000
       min_g: 2000
       max_g: 15000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 4.5
-      scope: cradle-to-gate
-      data_quality: estimated
     materials:
       primary_material: mixed
       breakdown:
-        - material: aluminum
-          percentage: 50
-        - material: synthetic_fabric
-          percentage: 30
-        - material: plastic
-          percentage: 20
-
+      - material: aluminum
+        percentage: 50
+      - material: synthetic_fabric
+        percentage: 30
+      - material: plastic
+        percentage: 20
+    lca_data_missing: true
   fr-6-2:
-    name: "Outdoor Tables"
+    name: Outdoor Tables
     weight:
       estimate_g: 20000
       min_g: 8000
       max_g: 50000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 3.5
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-6-3:
-    name: "Outdoor Sofas"
+    name: Outdoor Sofas
     weight:
       estimate_g: 30000
       min_g: 15000
       max_g: 60000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 4.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-6-4:
-    name: "Hammocks"
+    name: Hammocks
     weight:
       estimate_g: 3000
       min_g: 1000
       max_g: 8000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 8.0
-      scope: cradle-to-gate
-      data_quality: estimated
-    notes: "With stand - fabric only ~1kg"
-
-  # ============================================================
-  # KIDS FURNITURE
-  # ============================================================
-
+    notes: With stand - fabric only ~1kg
+    lca_data_missing: true
   fr-7:
-    name: "Kids Furniture"
+    name: Kids Furniture
     weight:
       estimate_g: 15000
       min_g: 3000
       max_g: 50000
       confidence: low
-    notes: "Scaled down versions - lighter than adult furniture"
-
+    notes: Scaled down versions - lighter than adult furniture
+    lca_data_missing: true
   fr-7-1:
-    name: "Kids Beds"
+    name: Kids Beds
     weight:
       estimate_g: 25000
       min_g: 15000
       max_g: 40000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.5
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-7-2:
-    name: "Kids Desks"
+    name: Kids Desks
     weight:
       estimate_g: 15000
       min_g: 8000
       max_g: 25000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.5
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-7-3:
-    name: "Kids Chairs"
+    name: Kids Chairs
     weight:
       estimate_g: 3000
       min_g: 1500
       max_g: 6000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 3.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-7-4:
-    name: "Kids Dressers"
+    name: Kids Dressers
     weight:
       estimate_g: 30000
       min_g: 15000
       max_g: 50000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-7-5:
-    name: "Kids Bookcases"
+    name: Kids Bookcases
     weight:
       estimate_g: 15000
       min_g: 8000
       max_g: 30000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-7-6:
-    name: "Kids Tables"
+    name: Kids Tables
     weight:
       estimate_g: 10000
       min_g: 5000
       max_g: 20000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.5
-      scope: cradle-to-gate
-      data_quality: estimated
-
-  # ============================================================
-  # OFFICE FURNITURE
-  # ============================================================
-
+    lca_data_missing: true
   fr-8:
-    name: "Office Furniture"
+    name: Office Furniture
     weight:
       estimate_g: 25000
       min_g: 2000
       max_g: 80000
       confidence: low
-
+    lca_data_missing: true
   fr-8-1:
-    name: "Filing Cabinets"
+    name: Filing Cabinets
     weight:
       estimate_g: 25000
       min_g: 10000
       max_g: 50000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 3.0
-      scope: cradle-to-gate
-      data_quality: estimated
     materials:
       primary_material: steel
-
+    lca_data_missing: true
   fr-8-2:
-    name: "Credenzas"
+    name: Credenzas
     weight:
       estimate_g: 40000
       min_g: 20000
       max_g: 70000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.5
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-8-3:
-    name: "Cubicles & Partitions"
+    name: Cubicles & Partitions
     weight:
       estimate_g: 30000
       min_g: 15000
       max_g: 60000
       confidence: low
-    lca:
-      carbon_kg_co2e_per_kg: 4.0
-      scope: cradle-to-gate
-      data_quality: estimated
-    notes: "Per panel/section"
-
+    notes: Per panel/section
+    lca_data_missing: true
   fr-8-4:
-    name: "Reception Desks"
+    name: Reception Desks
     weight:
       estimate_g: 60000
       min_g: 30000
       max_g: 120000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.5
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-8-5:
-    name: "Conference Tables"
+    name: Conference Tables
     weight:
       estimate_g: 80000
       min_g: 40000
       max_g: 150000
       confidence: low
-    lca:
-      carbon_kg_co2e_per_kg: 2.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-8-6:
-    name: "Printer Stands"
+    name: Printer Stands
     weight:
       estimate_g: 15000
       min_g: 5000
       max_g: 30000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 3.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-8-7:
-    name: "Monitor Stands"
+    name: Monitor Stands
     weight:
       estimate_g: 2000
       min_g: 500
       max_g: 5000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 5.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-8-8:
-    name: "Keyboard Trays"
+    name: Keyboard Trays
     weight:
       estimate_g: 1500
       min_g: 800
       max_g: 3000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 4.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
-  # ============================================================
-  # ENTRYWAY FURNITURE
-  # ============================================================
-
+    lca_data_missing: true
   fr-9:
-    name: "Entryway Furniture"
+    name: Entryway Furniture
     weight:
       estimate_g: 15000
       min_g: 2000
       max_g: 40000
       confidence: low
-
+    lca_data_missing: true
   fr-9-1:
-    name: "Hall Trees"
+    name: Hall Trees
     weight:
       estimate_g: 20000
       min_g: 10000
       max_g: 40000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.5
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-9-2:
-    name: "Coat Racks"
+    name: Coat Racks
     weight:
       estimate_g: 5000
       min_g: 2000
       max_g: 12000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 3.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-9-3:
-    name: "Shoe Storage Benches"
+    name: Shoe Storage Benches
     weight:
       estimate_g: 15000
       min_g: 8000
       max_g: 25000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.5
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-9-4:
-    name: "Umbrella Stands"
+    name: Umbrella Stands
     weight:
       estimate_g: 2000
       min_g: 500
       max_g: 5000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 3.5
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-9-5:
-    name: "Entryway Tables"
+    name: Entryway Tables
     weight:
       estimate_g: 12000
       min_g: 5000
       max_g: 25000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
-  # ============================================================
-  # ACCENT FURNITURE
-  # ============================================================
-
+    lca_data_missing: true
   fr-10:
-    name: "Accent Furniture"
+    name: Accent Furniture
     weight:
       estimate_g: 10000
       min_g: 1000
       max_g: 30000
       confidence: low
-
+    lca_data_missing: true
   fr-10-1:
-    name: "Ottomans"
+    name: Ottomans
     weight:
       estimate_g: 8000
       min_g: 3000
       max_g: 20000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 4.0
-      scope: cradle-to-gate
-      data_quality: estimated
     materials:
       primary_material: mixed
       breakdown:
-        - material: wood_frame
-          percentage: 30
-        - material: foam
-          percentage: 40
-        - material: fabric
-          percentage: 30
-
+      - material: wood_frame
+        percentage: 30
+      - material: foam
+        percentage: 40
+      - material: fabric
+        percentage: 30
+    lca_data_missing: true
   fr-10-2:
-    name: "Poufs"
+    name: Poufs
     weight:
       estimate_g: 3000
       min_g: 1000
       max_g: 6000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 5.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-10-3:
-    name: "Room Dividers"
+    name: Room Dividers
     weight:
       estimate_g: 10000
       min_g: 3000
       max_g: 25000
       confidence: low
-    lca:
-      carbon_kg_co2e_per_kg: 3.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-10-4:
-    name: "Bar Carts"
+    name: Bar Carts
     weight:
       estimate_g: 12000
       min_g: 5000
       max_g: 25000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 4.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-10-5:
-    name: "Nesting Tables"
+    name: Nesting Tables
     weight:
       estimate_g: 10000
       min_g: 4000
       max_g: 20000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.5
-      scope: cradle-to-gate
-      data_quality: estimated
-    notes: "Per set"
-
+    notes: Per set
+    lca_data_missing: true
   fr-10-6:
-    name: "Plant Stands"
+    name: Plant Stands
     weight:
       estimate_g: 3000
       min_g: 500
       max_g: 10000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 3.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-10-7:
-    name: "Magazine Racks"
+    name: Magazine Racks
     weight:
       estimate_g: 2000
       min_g: 500
       max_g: 5000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 3.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
-  # ============================================================
-  # DINING FURNITURE
-  # ============================================================
-
+    lca_data_missing: true
   fr-11:
-    name: "Dining Furniture"
+    name: Dining Furniture
     weight:
       estimate_g: 30000
       min_g: 5000
       max_g: 100000
       confidence: low
-
+    lca_data_missing: true
   fr-11-1:
-    name: "Dining Sets"
+    name: Dining Sets
     weight:
       estimate_g: 60000
       min_g: 30000
       max_g: 120000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.0
-      scope: cradle-to-gate
-      data_quality: estimated
-    notes: "Table + 4-6 chairs"
-
+    notes: Table + 4-6 chairs
+    lca_data_missing: true
   fr-11-2:
-    name: "Buffets & Sideboards"
+    name: Buffets & Sideboards
     weight:
       estimate_g: 50000
       min_g: 25000
       max_g: 90000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-11-3:
-    name: "China Cabinets"
+    name: China Cabinets
     weight:
       estimate_g: 55000
       min_g: 30000
       max_g: 100000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.0
-      scope: cradle-to-gate
-      data_quality: estimated
     materials:
       primary_material: wood
       breakdown:
-        - material: wood
-          percentage: 70
-        - material: glass
-          percentage: 25
-        - material: hardware
-          percentage: 5
-
+      - material: wood
+        percentage: 70
+      - material: glass
+        percentage: 25
+      - material: hardware
+        percentage: 5
+    lca_data_missing: true
   fr-11-4:
-    name: "Bar Cabinets"
+    name: Bar Cabinets
     weight:
       estimate_g: 40000
       min_g: 20000
       max_g: 70000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.5
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-11-5:
-    name: "Counter Stools"
+    name: Counter Stools
     weight:
       estimate_g: 5000
       min_g: 2500
       max_g: 10000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 4.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
-  # ============================================================
-  # LIVING ROOM ADDITIONAL
-  # ============================================================
-
+    lca_data_missing: true
   fr-2-5:
-    name: "Chaise Lounges"
+    name: Chaise Lounges
     weight:
       estimate_g: 30000
       min_g: 18000
       max_g: 50000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 3.5
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-2-6:
-    name: "Sofa Beds"
+    name: Sofa Beds
     weight:
       estimate_g: 50000
       min_g: 35000
       max_g: 75000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 4.0
-      scope: cradle-to-gate
-      data_quality: estimated
-    notes: "Same as sleeper sofas"
-
+    notes: Same as sleeper sofas
+    lca_data_missing: true
   fr-3-7:
-    name: "Accent Tables"
+    name: Accent Tables
     weight:
       estimate_g: 6000
       min_g: 2000
       max_g: 15000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.5
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-3-8:
-    name: "Sofa Tables"
+    name: Sofa Tables
     weight:
       estimate_g: 15000
       min_g: 8000
       max_g: 30000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-3-9:
-    name: "Drop Leaf Tables"
+    name: Drop Leaf Tables
     weight:
       estimate_g: 25000
       min_g: 12000
       max_g: 45000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
-  # ============================================================
-  # BEDROOM ADDITIONAL
-  # ============================================================
-
+    lca_data_missing: true
   fr-4-5:
-    name: "Platform Beds"
+    name: Platform Beds
     weight:
       estimate_g: 40000
       min_g: 25000
       max_g: 70000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.5
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-4-6:
-    name: "Canopy Beds"
+    name: Canopy Beds
     weight:
       estimate_g: 50000
       min_g: 30000
       max_g: 80000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 3.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-4-7:
-    name: "Daybeds"
+    name: Daybeds
     weight:
       estimate_g: 25000
       min_g: 15000
       max_g: 40000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.5
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-4-8:
-    name: "Murphy Beds"
+    name: Murphy Beds
     weight:
       estimate_g: 80000
       min_g: 50000
       max_g: 120000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 3.0
-      scope: cradle-to-gate
-      data_quality: estimated
-    notes: "Wall-mounted fold-down beds"
-
+    notes: Wall-mounted fold-down beds
+    lca_data_missing: true
   fr-4-9:
-    name: "Adjustable Beds"
+    name: Adjustable Beds
     weight:
       estimate_g: 45000
       min_g: 30000
       max_g: 70000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 4.0
-      scope: cradle-to-gate
-      use_phase:
-        energy_kwh_per_year: 10
-        lifespan_years: 15
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-4-10:
-    name: "Trundle Beds"
+    name: Trundle Beds
     weight:
       estimate_g: 35000
       min_g: 20000
       max_g: 55000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.5
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-4-11:
-    name: "Bed Rails"
+    name: Bed Rails
     weight:
       estimate_g: 3000
       min_g: 1000
       max_g: 6000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 3.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
-  # ============================================================
-  # STORAGE ADDITIONAL
-  # ============================================================
-
+    lca_data_missing: true
   fr-5-7:
-    name: "Armoires"
+    name: Armoires
     weight:
       estimate_g: 70000
       min_g: 40000
       max_g: 120000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-5-8:
-    name: "Chests of Drawers"
+    name: Chests of Drawers
     weight:
       estimate_g: 35000
       min_g: 20000
       max_g: 60000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-5-9:
-    name: "Storage Ottomans"
+    name: Storage Ottomans
     weight:
       estimate_g: 10000
       min_g: 5000
       max_g: 20000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 4.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-5-10:
-    name: "Toy Chests"
+    name: Toy Chests
     weight:
       estimate_g: 15000
       min_g: 8000
       max_g: 30000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-5-11:
-    name: "Media Cabinets"
+    name: Media Cabinets
     weight:
       estimate_g: 35000
       min_g: 15000
       max_g: 60000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.5
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-5-12:
-    name: "Curio Cabinets"
+    name: Curio Cabinets
     weight:
       estimate_g: 40000
       min_g: 20000
       max_g: 70000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.5
-      scope: cradle-to-gate
-      data_quality: estimated
     materials:
       primary_material: wood
       breakdown:
-        - material: wood
-          percentage: 60
-        - material: glass
-          percentage: 35
-        - material: hardware
-          percentage: 5
-
-  # ============================================================
-  # OUTDOOR ADDITIONAL
-  # ============================================================
-
+      - material: wood
+        percentage: 60
+      - material: glass
+        percentage: 35
+      - material: hardware
+        percentage: 5
+    lca_data_missing: true
   fr-6-5:
-    name: "Outdoor Benches"
+    name: Outdoor Benches
     weight:
       estimate_g: 15000
       min_g: 8000
       max_g: 35000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 3.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-6-6:
-    name: "Outdoor Lounge Chairs"
+    name: Outdoor Lounge Chairs
     weight:
       estimate_g: 8000
       min_g: 4000
       max_g: 18000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 5.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-6-7:
-    name: "Adirondack Chairs"
+    name: Adirondack Chairs
     weight:
       estimate_g: 12000
       min_g: 8000
       max_g: 20000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.5
-      scope: cradle-to-gate
-      data_quality: estimated
     materials:
       primary_material: wood
-
+    lca_data_missing: true
   fr-6-8:
-    name: "Outdoor Dining Sets"
+    name: Outdoor Dining Sets
     weight:
       estimate_g: 50000
       min_g: 25000
       max_g: 100000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 4.0
-      scope: cradle-to-gate
-      data_quality: estimated
-    notes: "Table + chairs"
-
+    notes: Table + chairs
+    lca_data_missing: true
   fr-6-9:
-    name: "Outdoor Storage Boxes"
+    name: Outdoor Storage Boxes
     weight:
       estimate_g: 15000
       min_g: 8000
       max_g: 30000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 4.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-6-10:
-    name: "Porch Swings"
+    name: Porch Swings
     weight:
       estimate_g: 25000
       min_g: 15000
       max_g: 45000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 3.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-6-11:
-    name: "Outdoor Sectionals"
+    name: Outdoor Sectionals
     weight:
       estimate_g: 60000
       min_g: 35000
       max_g: 100000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 4.5
-      scope: cradle-to-gate
-      data_quality: estimated
-
-  # ============================================================
-  # GAMING FURNITURE
-  # ============================================================
-
+    lca_data_missing: true
   fr-12:
-    name: "Gaming Furniture"
+    name: Gaming Furniture
     weight:
       estimate_g: 15000
       min_g: 3000
       max_g: 40000
       confidence: low
-
+    lca_data_missing: true
   fr-12-1:
-    name: "Gaming Chairs"
+    name: Gaming Chairs
     weight:
       estimate_g: 18000
       min_g: 12000
       max_g: 30000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 5.0
-      carbon_kg_co2e_per_unit: 90.0
-      scope: cradle-to-gate
-      data_quality: estimated
     materials:
       primary_material: mixed
       breakdown:
-        - material: steel_frame
-          percentage: 35
-        - material: foam
-          percentage: 30
-        - material: synthetic_leather
-          percentage: 25
-        - material: plastic
-          percentage: 10
-
+      - material: steel_frame
+        percentage: 35
+      - material: foam
+        percentage: 30
+      - material: synthetic_leather
+        percentage: 25
+      - material: plastic
+        percentage: 10
+    lca_data_missing: true
   fr-12-2:
-    name: "Gaming Desks"
+    name: Gaming Desks
     weight:
       estimate_g: 35000
       min_g: 20000
       max_g: 60000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 3.5
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-12-3:
-    name: "Gaming Rockers"
+    name: Gaming Rockers
     weight:
       estimate_g: 8000
       min_g: 4000
       max_g: 15000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 6.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
-  # ============================================================
-  # BATHROOM FURNITURE
-  # ============================================================
-
+    lca_data_missing: true
   fr-13:
-    name: "Bathroom Furniture"
+    name: Bathroom Furniture
     weight:
       estimate_g: 20000
       min_g: 3000
       max_g: 60000
       confidence: low
-
+    lca_data_missing: true
   fr-13-1:
-    name: "Bathroom Vanities"
+    name: Bathroom Vanities
     weight:
       estimate_g: 35000
       min_g: 15000
       max_g: 70000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.5
-      scope: cradle-to-gate
-      data_quality: estimated
     materials:
       primary_material: wood
       breakdown:
-        - material: wood
-          percentage: 60
-        - material: stone_top
-          percentage: 25
-        - material: hardware
-          percentage: 10
-        - material: sink
-          percentage: 5
-
+      - material: wood
+        percentage: 60
+      - material: stone_top
+        percentage: 25
+      - material: hardware
+        percentage: 10
+      - material: sink
+        percentage: 5
+    lca_data_missing: true
   fr-13-2:
-    name: "Bathroom Cabinets"
+    name: Bathroom Cabinets
     weight:
       estimate_g: 15000
       min_g: 5000
       max_g: 35000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.5
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-13-3:
-    name: "Medicine Cabinets"
+    name: Medicine Cabinets
     weight:
       estimate_g: 8000
       min_g: 3000
       max_g: 18000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 3.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-13-4:
-    name: "Linen Towers"
+    name: Linen Towers
     weight:
       estimate_g: 20000
       min_g: 10000
       max_g: 35000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.0
-      scope: cradle-to-gate
-      data_quality: estimated
-
+    lca_data_missing: true
   fr-13-5:
-    name: "Over-Toilet Storage"
+    name: Over-Toilet Storage
     weight:
       estimate_g: 12000
       min_g: 5000
       max_g: 25000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.5
-      scope: cradle-to-gate
-      data_quality: estimated
+    lca_data_missing: true
