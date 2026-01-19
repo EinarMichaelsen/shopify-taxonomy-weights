@@ -712,3 +712,1405 @@ categories:
       data_quality: estimated
     materials:
       primary_material: plastic
+
+  hg-9-1:
+    name: "Storage Bins & Boxes"
+    weight:
+      estimate_g: 600
+      min_g: 100
+      max_g: 2000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.5
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: plastic
+
+  hg-9-2:
+    name: "Baskets"
+    weight:
+      estimate_g: 400
+      min_g: 100
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: wicker
+    notes: "Natural materials vs plastic varies significantly"
+
+  hg-9-3:
+    name: "Closet Organizers"
+    weight:
+      estimate_g: 3000
+      min_g: 500
+      max_g: 10000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-9-4:
+    name: "Drawer Organizers"
+    weight:
+      estimate_g: 200
+      min_g: 50
+      max_g: 500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-9-5:
+    name: "Hangers"
+    weight:
+      estimate_g: 40
+      min_g: 20
+      max_g: 100
+      confidence: high
+      methodology: "Per hanger"
+    lca:
+      carbon_kg_co2e_per_kg: 3.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-9-6:
+    name: "Shoe Racks"
+    weight:
+      estimate_g: 2000
+      min_g: 500
+      max_g: 5000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # WINDOW TREATMENTS
+  # ============================================================
+
+  hg-10:
+    name: "Window Treatments"
+    weight:
+      estimate_g: 1500
+      min_g: 200
+      max_g: 8000
+      confidence: low
+
+  hg-10-1:
+    name: "Curtains & Drapes"
+    weight:
+      estimate_g: 1500
+      min_g: 500
+      max_g: 4000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: polyester
+      breakdown:
+        - material: polyester
+          percentage: 70
+        - material: cotton
+          percentage: 30
+
+  hg-10-2:
+    name: "Blinds"
+    weight:
+      estimate_g: 2000
+      min_g: 500
+      max_g: 5000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: aluminum
+
+  hg-10-3:
+    name: "Shades"
+    weight:
+      estimate_g: 1000
+      min_g: 300
+      max_g: 3000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-10-4:
+    name: "Curtain Rods"
+    weight:
+      estimate_g: 800
+      min_g: 300
+      max_g: 2000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: metal
+
+  hg-10-5:
+    name: "Valances"
+    weight:
+      estimate_g: 300
+      min_g: 100
+      max_g: 800
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # HEATING & COOLING
+  # ============================================================
+
+  hg-11:
+    name: "Heating & Cooling"
+    weight:
+      estimate_g: 10000
+      min_g: 500
+      max_g: 50000
+      confidence: low
+
+  hg-11-1:
+    name: "Space Heaters"
+    weight:
+      estimate_g: 3000
+      min_g: 1000
+      max_g: 8000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      use_phase:
+        energy_kwh_per_year: 500
+        lifespan_years: 10
+      data_quality: estimated
+
+  hg-11-2:
+    name: "Portable Air Conditioners"
+    weight:
+      estimate_g: 25000
+      min_g: 15000
+      max_g: 40000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      use_phase:
+        energy_kwh_per_year: 800
+        lifespan_years: 10
+      data_quality: estimated
+
+  hg-11-3:
+    name: "Fans"
+    weight:
+      estimate_g: 3000
+      min_g: 500
+      max_g: 10000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      use_phase:
+        energy_kwh_per_year: 50
+        lifespan_years: 10
+      data_quality: estimated
+
+  hg-11-3-1:
+    name: "Ceiling Fans"
+    weight:
+      estimate_g: 8000
+      min_g: 4000
+      max_g: 15000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-11-3-2:
+    name: "Tower Fans"
+    weight:
+      estimate_g: 4000
+      min_g: 2000
+      max_g: 7000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-11-3-3:
+    name: "Desk Fans"
+    weight:
+      estimate_g: 1500
+      min_g: 500
+      max_g: 3000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-11-4:
+    name: "Humidifiers"
+    weight:
+      estimate_g: 2000
+      min_g: 500
+      max_g: 5000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-11-5:
+    name: "Dehumidifiers"
+    weight:
+      estimate_g: 12000
+      min_g: 5000
+      max_g: 25000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      use_phase:
+        energy_kwh_per_year: 400
+        lifespan_years: 10
+      data_quality: estimated
+
+  hg-11-6:
+    name: "Air Purifiers"
+    weight:
+      estimate_g: 5000
+      min_g: 1500
+      max_g: 12000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      use_phase:
+        energy_kwh_per_year: 50
+        lifespan_years: 8
+      data_quality: estimated
+
+  hg-11-7:
+    name: "Thermostats"
+    weight:
+      estimate_g: 200
+      min_g: 100
+      max_g: 400
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 40.0
+      carbon_kg_co2e_per_unit: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Smart thermostats save significant energy use"
+
+  # ============================================================
+  # FIREPLACES
+  # ============================================================
+
+  hg-12:
+    name: "Fireplaces & Accessories"
+    weight:
+      estimate_g: 20000
+      min_g: 500
+      max_g: 100000
+      confidence: low
+
+  hg-12-1:
+    name: "Electric Fireplaces"
+    weight:
+      estimate_g: 35000
+      min_g: 15000
+      max_g: 60000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      use_phase:
+        energy_kwh_per_year: 400
+        lifespan_years: 15
+      data_quality: estimated
+
+  hg-12-2:
+    name: "Fireplace Screens"
+    weight:
+      estimate_g: 5000
+      min_g: 2000
+      max_g: 10000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: metal
+
+  hg-12-3:
+    name: "Fireplace Tools"
+    weight:
+      estimate_g: 3000
+      min_g: 1500
+      max_g: 6000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.5
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: iron
+
+  hg-12-4:
+    name: "Firewood Racks"
+    weight:
+      estimate_g: 5000
+      min_g: 2000
+      max_g: 15000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: steel
+
+  # ============================================================
+  # HOME SECURITY
+  # ============================================================
+
+  hg-13:
+    name: "Home Security"
+    weight:
+      estimate_g: 500
+      min_g: 50
+      max_g: 5000
+      confidence: low
+
+  hg-13-1:
+    name: "Security Cameras"
+    weight:
+      estimate_g: 300
+      min_g: 100
+      max_g: 800
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 50.0
+      carbon_kg_co2e_per_unit: 15.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-13-2:
+    name: "Video Doorbells"
+    weight:
+      estimate_g: 200
+      min_g: 100
+      max_g: 400
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 60.0
+      carbon_kg_co2e_per_unit: 12.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-13-3:
+    name: "Smart Locks"
+    weight:
+      estimate_g: 800
+      min_g: 400
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 25.0
+      carbon_kg_co2e_per_unit: 20.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-13-4:
+    name: "Motion Sensors"
+    weight:
+      estimate_g: 100
+      min_g: 50
+      max_g: 200
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 40.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-13-5:
+    name: "Safes"
+    weight:
+      estimate_g: 15000
+      min_g: 3000
+      max_g: 100000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: steel
+
+  hg-13-6:
+    name: "Smoke Detectors"
+    weight:
+      estimate_g: 150
+      min_g: 100
+      max_g: 300
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 30.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-13-7:
+    name: "Carbon Monoxide Detectors"
+    weight:
+      estimate_g: 150
+      min_g: 100
+      max_g: 300
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 30.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # ADDITIONAL KITCHEN APPLIANCES
+  # ============================================================
+
+  hg-6-7-3:
+    name: "Food Processors"
+    weight:
+      estimate_g: 4000
+      min_g: 2000
+      max_g: 7000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-6-7-4:
+    name: "Stand Mixers"
+    weight:
+      estimate_g: 8000
+      min_g: 5000
+      max_g: 12000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      carbon_kg_co2e_per_unit: 64.0
+      scope: cradle-to-gate
+      data_quality: secondary
+    sources:
+      - "KitchenAid environmental data"
+
+  hg-6-7-5:
+    name: "Hand Mixers"
+    weight:
+      estimate_g: 1000
+      min_g: 600
+      max_g: 1500
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 12.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-6-7-8:
+    name: "Microwaves"
+    weight:
+      estimate_g: 12000
+      min_g: 8000
+      max_g: 20000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      carbon_kg_co2e_per_unit: 72.0
+      scope: cradle-to-gate
+      use_phase:
+        energy_kwh_per_year: 50
+        lifespan_years: 10
+      data_quality: estimated
+
+  hg-6-7-9:
+    name: "Air Fryers"
+    weight:
+      estimate_g: 5000
+      min_g: 3000
+      max_g: 8000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-6-7-10:
+    name: "Instant Pots & Pressure Cookers"
+    weight:
+      estimate_g: 5000
+      min_g: 3000
+      max_g: 8000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 7.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-6-7-11:
+    name: "Slow Cookers"
+    weight:
+      estimate_g: 4000
+      min_g: 2500
+      max_g: 6000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-6-7-12:
+    name: "Rice Cookers"
+    weight:
+      estimate_g: 3000
+      min_g: 1500
+      max_g: 5000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 7.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-6-7-13:
+    name: "Juicers"
+    weight:
+      estimate_g: 4000
+      min_g: 1500
+      max_g: 8000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 9.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-6-7-14:
+    name: "Electric Grills"
+    weight:
+      estimate_g: 5000
+      min_g: 2000
+      max_g: 10000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-6-7-15:
+    name: "Waffle Makers"
+    weight:
+      estimate_g: 2000
+      min_g: 1000
+      max_g: 3500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-6-7-16:
+    name: "Ice Cream Makers"
+    weight:
+      estimate_g: 3500
+      min_g: 2000
+      max_g: 6000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-6-7-17:
+    name: "Bread Machines"
+    weight:
+      estimate_g: 6000
+      min_g: 4000
+      max_g: 9000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 7.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-6-7-18:
+    name: "Espresso Machines"
+    weight:
+      estimate_g: 8000
+      min_g: 3000
+      max_g: 20000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 12.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-6-7-19:
+    name: "Electric Kettles"
+    weight:
+      estimate_g: 1000
+      min_g: 500
+      max_g: 1800
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 7.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-6-7-20:
+    name: "Deep Fryers"
+    weight:
+      estimate_g: 4000
+      min_g: 2000
+      max_g: 8000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # ADDITIONAL DECOR
+  # ============================================================
+
+  hg-3-2:
+    name: "Artificial Plants"
+    weight:
+      estimate_g: 500
+      min_g: 50
+      max_g: 3000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: plastic
+
+  hg-3-3:
+    name: "Wall Art"
+    weight:
+      estimate_g: 1000
+      min_g: 100
+      max_g: 5000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-3-4:
+    name: "Sculptures & Figurines"
+    weight:
+      estimate_g: 800
+      min_g: 50
+      max_g: 10000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 3.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-3-9:
+    name: "Throw Pillows"
+    weight:
+      estimate_g: 400
+      min_g: 200
+      max_g: 800
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: mixed
+      breakdown:
+        - material: polyester_fill
+          percentage: 60
+        - material: fabric_cover
+          percentage: 40
+
+  hg-3-10:
+    name: "Photo Albums"
+    weight:
+      estimate_g: 500
+      min_g: 200
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-3-11:
+    name: "Bookends"
+    weight:
+      estimate_g: 800
+      min_g: 200
+      max_g: 2000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-3-12:
+    name: "Decorative Bowls"
+    weight:
+      estimate_g: 600
+      min_g: 100
+      max_g: 2000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-3-13:
+    name: "Decorative Trays"
+    weight:
+      estimate_g: 500
+      min_g: 100
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-3-14:
+    name: "String Lights"
+    weight:
+      estimate_g: 300
+      min_g: 100
+      max_g: 800
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-3-15:
+    name: "Tapestries"
+    weight:
+      estimate_g: 500
+      min_g: 200
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: polyester
+
+  hg-3-16:
+    name: "Wind Chimes"
+    weight:
+      estimate_g: 300
+      min_g: 100
+      max_g: 800
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # ADDITIONAL BATHROOM
+  # ============================================================
+
+  hg-1-3:
+    name: "Bathroom Rugs & Mats"
+    weight:
+      estimate_g: 600
+      min_g: 200
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-1-4:
+    name: "Soap Dispensers"
+    weight:
+      estimate_g: 300
+      min_g: 100
+      max_g: 600
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-1-5:
+    name: "Toothbrush Holders"
+    weight:
+      estimate_g: 200
+      min_g: 50
+      max_g: 500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-1-6:
+    name: "Towel Bars & Hooks"
+    weight:
+      estimate_g: 400
+      min_g: 100
+      max_g: 1000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: metal
+
+  hg-1-7:
+    name: "Toilet Paper Holders"
+    weight:
+      estimate_g: 300
+      min_g: 100
+      max_g: 600
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-1-8:
+    name: "Bathroom Scales"
+    weight:
+      estimate_g: 2000
+      min_g: 1000
+      max_g: 4000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-1-9:
+    name: "Makeup Mirrors"
+    weight:
+      estimate_g: 800
+      min_g: 200
+      max_g: 2000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-1-10:
+    name: "Bathroom Storage"
+    weight:
+      estimate_g: 3000
+      min_g: 500
+      max_g: 10000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 3.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # ADDITIONAL GARDEN
+  # ============================================================
+
+  hg-4-5:
+    name: "Watering Equipment"
+    weight:
+      estimate_g: 1000
+      min_g: 100
+      max_g: 5000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-4-5-1:
+    name: "Garden Hoses"
+    weight:
+      estimate_g: 2000
+      min_g: 500
+      max_g: 5000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.5
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: rubber
+
+  hg-4-5-2:
+    name: "Watering Cans"
+    weight:
+      estimate_g: 500
+      min_g: 200
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-4-5-3:
+    name: "Sprinklers"
+    weight:
+      estimate_g: 800
+      min_g: 200
+      max_g: 2000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-4-6:
+    name: "Outdoor Lighting"
+    weight:
+      estimate_g: 500
+      min_g: 100
+      max_g: 3000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 12.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-4-6-1:
+    name: "Solar Path Lights"
+    weight:
+      estimate_g: 300
+      min_g: 100
+      max_g: 800
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-4-6-2:
+    name: "String Lights (Outdoor)"
+    weight:
+      estimate_g: 500
+      min_g: 200
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 12.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-4-7:
+    name: "Grills & BBQs"
+    weight:
+      estimate_g: 25000
+      min_g: 5000
+      max_g: 80000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: steel
+
+  hg-4-7-1:
+    name: "Gas Grills"
+    weight:
+      estimate_g: 35000
+      min_g: 15000
+      max_g: 80000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-4-7-2:
+    name: "Charcoal Grills"
+    weight:
+      estimate_g: 15000
+      min_g: 5000
+      max_g: 40000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-4-7-3:
+    name: "Portable Grills"
+    weight:
+      estimate_g: 5000
+      min_g: 2000
+      max_g: 12000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-4-7-4:
+    name: "Smokers"
+    weight:
+      estimate_g: 30000
+      min_g: 10000
+      max_g: 60000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-4-8:
+    name: "Patio Umbrellas"
+    weight:
+      estimate_g: 8000
+      min_g: 3000
+      max_g: 20000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-4-9:
+    name: "Outdoor Cushions"
+    weight:
+      estimate_g: 800
+      min_g: 300
+      max_g: 2000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-4-10:
+    name: "Bird Feeders"
+    weight:
+      estimate_g: 500
+      min_g: 100
+      max_g: 2000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-4-11:
+    name: "Garden Décor"
+    weight:
+      estimate_g: 2000
+      min_g: 200
+      max_g: 15000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-4-12:
+    name: "Compost Bins"
+    weight:
+      estimate_g: 5000
+      min_g: 1000
+      max_g: 15000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-4-13:
+    name: "Greenhouses"
+    weight:
+      estimate_g: 30000
+      min_g: 10000
+      max_g: 100000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-4-14:
+    name: "Garden Fencing"
+    weight:
+      estimate_g: 5000
+      min_g: 1000
+      max_g: 20000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # VACUUM & FLOOR CARE
+  # ============================================================
+
+  hg-14:
+    name: "Vacuum & Floor Care"
+    weight:
+      estimate_g: 5000
+      min_g: 500
+      max_g: 15000
+      confidence: low
+
+  hg-14-1:
+    name: "Upright Vacuums"
+    weight:
+      estimate_g: 7000
+      min_g: 4000
+      max_g: 12000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      carbon_kg_co2e_per_unit: 56.0
+      scope: cradle-to-gate
+      use_phase:
+        energy_kwh_per_year: 40
+        lifespan_years: 8
+      data_quality: estimated
+
+  hg-14-2:
+    name: "Robot Vacuums"
+    weight:
+      estimate_g: 3500
+      min_g: 2500
+      max_g: 5000
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 25.0
+      carbon_kg_co2e_per_unit: 87.5
+      scope: cradle-to-gate
+      use_phase:
+        energy_kwh_per_year: 15
+        lifespan_years: 5
+      data_quality: secondary
+    sources:
+      - "iRobot sustainability reports"
+
+  hg-14-3:
+    name: "Handheld Vacuums"
+    weight:
+      estimate_g: 1500
+      min_g: 800
+      max_g: 3000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-14-4:
+    name: "Stick Vacuums"
+    weight:
+      estimate_g: 3000
+      min_g: 1500
+      max_g: 5000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-14-5:
+    name: "Steam Mops"
+    weight:
+      estimate_g: 3000
+      min_g: 1500
+      max_g: 5000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-14-6:
+    name: "Carpet Cleaners"
+    weight:
+      estimate_g: 10000
+      min_g: 5000
+      max_g: 20000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 7.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-14-7:
+    name: "Mops & Brooms"
+    weight:
+      estimate_g: 500
+      min_g: 200
+      max_g: 1000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # ADDITIONAL KITCHEN ITEMS
+  # ============================================================
+
+  hg-6-9:
+    name: "Cutting Boards"
+    weight:
+      estimate_g: 500
+      min_g: 200
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: wood
+
+  hg-6-10:
+    name: "Kitchen Scales"
+    weight:
+      estimate_g: 400
+      min_g: 150
+      max_g: 1000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-6-11:
+    name: "Knife Sets"
+    weight:
+      estimate_g: 1500
+      min_g: 500
+      max_g: 4000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: stainless_steel
+
+  hg-6-12:
+    name: "Kitchen Timers"
+    weight:
+      estimate_g: 100
+      min_g: 30
+      max_g: 200
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-6-13:
+    name: "Dish Racks"
+    weight:
+      estimate_g: 1000
+      min_g: 400
+      max_g: 2500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-6-14:
+    name: "Trash Cans"
+    weight:
+      estimate_g: 3000
+      min_g: 500
+      max_g: 8000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-6-15:
+    name: "Paper Towel Holders"
+    weight:
+      estimate_g: 400
+      min_g: 150
+      max_g: 1000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-6-16:
+    name: "Spice Racks"
+    weight:
+      estimate_g: 500
+      min_g: 200
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-6-17:
+    name: "Kitchen Carts"
+    weight:
+      estimate_g: 15000
+      min_g: 5000
+      max_g: 30000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-6-18:
+    name: "Wine Racks"
+    weight:
+      estimate_g: 2000
+      min_g: 500
+      max_g: 8000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated

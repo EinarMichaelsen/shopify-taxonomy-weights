@@ -702,3 +702,886 @@ categories:
       carbon_kg_co2e_per_kg: 3.0
       scope: cradle-to-gate
       data_quality: estimated
+
+  fr-7-4:
+    name: "Kids Dressers"
+    weight:
+      estimate_g: 30000
+      min_g: 15000
+      max_g: 50000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-7-5:
+    name: "Kids Bookcases"
+    weight:
+      estimate_g: 15000
+      min_g: 8000
+      max_g: 30000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-7-6:
+    name: "Kids Tables"
+    weight:
+      estimate_g: 10000
+      min_g: 5000
+      max_g: 20000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # OFFICE FURNITURE
+  # ============================================================
+
+  fr-8:
+    name: "Office Furniture"
+    weight:
+      estimate_g: 25000
+      min_g: 2000
+      max_g: 80000
+      confidence: low
+
+  fr-8-1:
+    name: "Filing Cabinets"
+    weight:
+      estimate_g: 25000
+      min_g: 10000
+      max_g: 50000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: steel
+
+  fr-8-2:
+    name: "Credenzas"
+    weight:
+      estimate_g: 40000
+      min_g: 20000
+      max_g: 70000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-8-3:
+    name: "Cubicles & Partitions"
+    weight:
+      estimate_g: 30000
+      min_g: 15000
+      max_g: 60000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Per panel/section"
+
+  fr-8-4:
+    name: "Reception Desks"
+    weight:
+      estimate_g: 60000
+      min_g: 30000
+      max_g: 120000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-8-5:
+    name: "Conference Tables"
+    weight:
+      estimate_g: 80000
+      min_g: 40000
+      max_g: 150000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 2.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-8-6:
+    name: "Printer Stands"
+    weight:
+      estimate_g: 15000
+      min_g: 5000
+      max_g: 30000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-8-7:
+    name: "Monitor Stands"
+    weight:
+      estimate_g: 2000
+      min_g: 500
+      max_g: 5000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-8-8:
+    name: "Keyboard Trays"
+    weight:
+      estimate_g: 1500
+      min_g: 800
+      max_g: 3000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # ENTRYWAY FURNITURE
+  # ============================================================
+
+  fr-9:
+    name: "Entryway Furniture"
+    weight:
+      estimate_g: 15000
+      min_g: 2000
+      max_g: 40000
+      confidence: low
+
+  fr-9-1:
+    name: "Hall Trees"
+    weight:
+      estimate_g: 20000
+      min_g: 10000
+      max_g: 40000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-9-2:
+    name: "Coat Racks"
+    weight:
+      estimate_g: 5000
+      min_g: 2000
+      max_g: 12000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-9-3:
+    name: "Shoe Storage Benches"
+    weight:
+      estimate_g: 15000
+      min_g: 8000
+      max_g: 25000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-9-4:
+    name: "Umbrella Stands"
+    weight:
+      estimate_g: 2000
+      min_g: 500
+      max_g: 5000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-9-5:
+    name: "Entryway Tables"
+    weight:
+      estimate_g: 12000
+      min_g: 5000
+      max_g: 25000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # ACCENT FURNITURE
+  # ============================================================
+
+  fr-10:
+    name: "Accent Furniture"
+    weight:
+      estimate_g: 10000
+      min_g: 1000
+      max_g: 30000
+      confidence: low
+
+  fr-10-1:
+    name: "Ottomans"
+    weight:
+      estimate_g: 8000
+      min_g: 3000
+      max_g: 20000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: mixed
+      breakdown:
+        - material: wood_frame
+          percentage: 30
+        - material: foam
+          percentage: 40
+        - material: fabric
+          percentage: 30
+
+  fr-10-2:
+    name: "Poufs"
+    weight:
+      estimate_g: 3000
+      min_g: 1000
+      max_g: 6000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-10-3:
+    name: "Room Dividers"
+    weight:
+      estimate_g: 10000
+      min_g: 3000
+      max_g: 25000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-10-4:
+    name: "Bar Carts"
+    weight:
+      estimate_g: 12000
+      min_g: 5000
+      max_g: 25000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-10-5:
+    name: "Nesting Tables"
+    weight:
+      estimate_g: 10000
+      min_g: 4000
+      max_g: 20000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Per set"
+
+  fr-10-6:
+    name: "Plant Stands"
+    weight:
+      estimate_g: 3000
+      min_g: 500
+      max_g: 10000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-10-7:
+    name: "Magazine Racks"
+    weight:
+      estimate_g: 2000
+      min_g: 500
+      max_g: 5000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # DINING FURNITURE
+  # ============================================================
+
+  fr-11:
+    name: "Dining Furniture"
+    weight:
+      estimate_g: 30000
+      min_g: 5000
+      max_g: 100000
+      confidence: low
+
+  fr-11-1:
+    name: "Dining Sets"
+    weight:
+      estimate_g: 60000
+      min_g: 30000
+      max_g: 120000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Table + 4-6 chairs"
+
+  fr-11-2:
+    name: "Buffets & Sideboards"
+    weight:
+      estimate_g: 50000
+      min_g: 25000
+      max_g: 90000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-11-3:
+    name: "China Cabinets"
+    weight:
+      estimate_g: 55000
+      min_g: 30000
+      max_g: 100000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: wood
+      breakdown:
+        - material: wood
+          percentage: 70
+        - material: glass
+          percentage: 25
+        - material: hardware
+          percentage: 5
+
+  fr-11-4:
+    name: "Bar Cabinets"
+    weight:
+      estimate_g: 40000
+      min_g: 20000
+      max_g: 70000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-11-5:
+    name: "Counter Stools"
+    weight:
+      estimate_g: 5000
+      min_g: 2500
+      max_g: 10000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # LIVING ROOM ADDITIONAL
+  # ============================================================
+
+  fr-2-5:
+    name: "Chaise Lounges"
+    weight:
+      estimate_g: 30000
+      min_g: 18000
+      max_g: 50000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-2-6:
+    name: "Sofa Beds"
+    weight:
+      estimate_g: 50000
+      min_g: 35000
+      max_g: 75000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Same as sleeper sofas"
+
+  fr-3-7:
+    name: "Accent Tables"
+    weight:
+      estimate_g: 6000
+      min_g: 2000
+      max_g: 15000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-3-8:
+    name: "Sofa Tables"
+    weight:
+      estimate_g: 15000
+      min_g: 8000
+      max_g: 30000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-3-9:
+    name: "Drop Leaf Tables"
+    weight:
+      estimate_g: 25000
+      min_g: 12000
+      max_g: 45000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # BEDROOM ADDITIONAL
+  # ============================================================
+
+  fr-4-5:
+    name: "Platform Beds"
+    weight:
+      estimate_g: 40000
+      min_g: 25000
+      max_g: 70000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-4-6:
+    name: "Canopy Beds"
+    weight:
+      estimate_g: 50000
+      min_g: 30000
+      max_g: 80000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-4-7:
+    name: "Daybeds"
+    weight:
+      estimate_g: 25000
+      min_g: 15000
+      max_g: 40000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-4-8:
+    name: "Murphy Beds"
+    weight:
+      estimate_g: 80000
+      min_g: 50000
+      max_g: 120000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Wall-mounted fold-down beds"
+
+  fr-4-9:
+    name: "Adjustable Beds"
+    weight:
+      estimate_g: 45000
+      min_g: 30000
+      max_g: 70000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      use_phase:
+        energy_kwh_per_year: 10
+        lifespan_years: 15
+      data_quality: estimated
+
+  fr-4-10:
+    name: "Trundle Beds"
+    weight:
+      estimate_g: 35000
+      min_g: 20000
+      max_g: 55000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-4-11:
+    name: "Bed Rails"
+    weight:
+      estimate_g: 3000
+      min_g: 1000
+      max_g: 6000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # STORAGE ADDITIONAL
+  # ============================================================
+
+  fr-5-7:
+    name: "Armoires"
+    weight:
+      estimate_g: 70000
+      min_g: 40000
+      max_g: 120000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-5-8:
+    name: "Chests of Drawers"
+    weight:
+      estimate_g: 35000
+      min_g: 20000
+      max_g: 60000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-5-9:
+    name: "Storage Ottomans"
+    weight:
+      estimate_g: 10000
+      min_g: 5000
+      max_g: 20000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-5-10:
+    name: "Toy Chests"
+    weight:
+      estimate_g: 15000
+      min_g: 8000
+      max_g: 30000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-5-11:
+    name: "Media Cabinets"
+    weight:
+      estimate_g: 35000
+      min_g: 15000
+      max_g: 60000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-5-12:
+    name: "Curio Cabinets"
+    weight:
+      estimate_g: 40000
+      min_g: 20000
+      max_g: 70000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: wood
+      breakdown:
+        - material: wood
+          percentage: 60
+        - material: glass
+          percentage: 35
+        - material: hardware
+          percentage: 5
+
+  # ============================================================
+  # OUTDOOR ADDITIONAL
+  # ============================================================
+
+  fr-6-5:
+    name: "Outdoor Benches"
+    weight:
+      estimate_g: 15000
+      min_g: 8000
+      max_g: 35000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-6-6:
+    name: "Outdoor Lounge Chairs"
+    weight:
+      estimate_g: 8000
+      min_g: 4000
+      max_g: 18000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-6-7:
+    name: "Adirondack Chairs"
+    weight:
+      estimate_g: 12000
+      min_g: 8000
+      max_g: 20000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: wood
+
+  fr-6-8:
+    name: "Outdoor Dining Sets"
+    weight:
+      estimate_g: 50000
+      min_g: 25000
+      max_g: 100000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Table + chairs"
+
+  fr-6-9:
+    name: "Outdoor Storage Boxes"
+    weight:
+      estimate_g: 15000
+      min_g: 8000
+      max_g: 30000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-6-10:
+    name: "Porch Swings"
+    weight:
+      estimate_g: 25000
+      min_g: 15000
+      max_g: 45000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-6-11:
+    name: "Outdoor Sectionals"
+    weight:
+      estimate_g: 60000
+      min_g: 35000
+      max_g: 100000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # GAMING FURNITURE
+  # ============================================================
+
+  fr-12:
+    name: "Gaming Furniture"
+    weight:
+      estimate_g: 15000
+      min_g: 3000
+      max_g: 40000
+      confidence: low
+
+  fr-12-1:
+    name: "Gaming Chairs"
+    weight:
+      estimate_g: 18000
+      min_g: 12000
+      max_g: 30000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      carbon_kg_co2e_per_unit: 90.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: mixed
+      breakdown:
+        - material: steel_frame
+          percentage: 35
+        - material: foam
+          percentage: 30
+        - material: synthetic_leather
+          percentage: 25
+        - material: plastic
+          percentage: 10
+
+  fr-12-2:
+    name: "Gaming Desks"
+    weight:
+      estimate_g: 35000
+      min_g: 20000
+      max_g: 60000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-12-3:
+    name: "Gaming Rockers"
+    weight:
+      estimate_g: 8000
+      min_g: 4000
+      max_g: 15000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # BATHROOM FURNITURE
+  # ============================================================
+
+  fr-13:
+    name: "Bathroom Furniture"
+    weight:
+      estimate_g: 20000
+      min_g: 3000
+      max_g: 60000
+      confidence: low
+
+  fr-13-1:
+    name: "Bathroom Vanities"
+    weight:
+      estimate_g: 35000
+      min_g: 15000
+      max_g: 70000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: wood
+      breakdown:
+        - material: wood
+          percentage: 60
+        - material: stone_top
+          percentage: 25
+        - material: hardware
+          percentage: 10
+        - material: sink
+          percentage: 5
+
+  fr-13-2:
+    name: "Bathroom Cabinets"
+    weight:
+      estimate_g: 15000
+      min_g: 5000
+      max_g: 35000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-13-3:
+    name: "Medicine Cabinets"
+    weight:
+      estimate_g: 8000
+      min_g: 3000
+      max_g: 18000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-13-4:
+    name: "Linen Towers"
+    weight:
+      estimate_g: 20000
+      min_g: 10000
+      max_g: 35000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  fr-13-5:
+    name: "Over-Toilet Storage"
+    weight:
+      estimate_g: 12000
+      min_g: 5000
+      max_g: 25000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      scope: cradle-to-gate
+      data_quality: estimated

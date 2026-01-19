@@ -1054,3 +1054,1216 @@ categories:
       scope: cradle-to-gate
       data_quality: estimated
     notes: "High-tech electronics with small weight"
+
+  sg-7-3:
+    name: "Running Belts & Armbands"
+    weight:
+      estimate_g: 100
+      min_g: 50
+      max_g: 200
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-7-4:
+    name: "Running Vests"
+    weight:
+      estimate_g: 200
+      min_g: 100
+      max_g: 400
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 12.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # FISHING
+  # ============================================================
+
+  sg-8:
+    name: "Fishing"
+    weight:
+      estimate_g: 1000
+      min_g: 50
+      max_g: 20000
+      confidence: low
+
+  sg-8-1:
+    name: "Fishing Rods"
+    weight:
+      estimate_g: 300
+      min_g: 100
+      max_g: 600
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 20.0
+      carbon_kg_co2e_per_unit: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: carbon_fiber
+      breakdown:
+        - material: carbon_fiber
+          percentage: 60
+        - material: fiberglass
+          percentage: 30
+        - material: other
+          percentage: 10
+
+  sg-8-2:
+    name: "Fishing Reels"
+    weight:
+      estimate_g: 300
+      min_g: 100
+      max_g: 800
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: aluminum
+
+  sg-8-3:
+    name: "Fishing Tackle"
+    weight:
+      estimate_g: 500
+      min_g: 50
+      max_g: 2000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Lures, hooks, lines, etc."
+
+  sg-8-4:
+    name: "Tackle Boxes"
+    weight:
+      estimate_g: 1500
+      min_g: 500
+      max_g: 4000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.5
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: plastic
+
+  sg-8-5:
+    name: "Fishing Nets"
+    weight:
+      estimate_g: 400
+      min_g: 150
+      max_g: 1000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-8-6:
+    name: "Fish Finders"
+    weight:
+      estimate_g: 1000
+      min_g: 300
+      max_g: 3000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 40.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-8-7:
+    name: "Fishing Waders"
+    weight:
+      estimate_g: 1500
+      min_g: 800
+      max_g: 2500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 12.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: neoprene
+
+  sg-8-8:
+    name: "Fishing Vests"
+    weight:
+      estimate_g: 500
+      min_g: 300
+      max_g: 800
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # HUNTING
+  # ============================================================
+
+  sg-9:
+    name: "Hunting"
+    weight:
+      estimate_g: 2000
+      min_g: 100
+      max_g: 30000
+      confidence: low
+
+  sg-9-1:
+    name: "Hunting Blinds"
+    weight:
+      estimate_g: 10000
+      min_g: 3000
+      max_g: 25000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-9-2:
+    name: "Game Calls"
+    weight:
+      estimate_g: 100
+      min_g: 30
+      max_g: 300
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-9-3:
+    name: "Decoys"
+    weight:
+      estimate_g: 1000
+      min_g: 300
+      max_g: 3000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: plastic
+
+  sg-9-4:
+    name: "Hunting Boots"
+    weight:
+      estimate_g: 1500
+      min_g: 1000
+      max_g: 2500
+      confidence: medium
+      methodology: "Per pair"
+    lca:
+      carbon_kg_co2e_per_kg: 12.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-9-5:
+    name: "Tree Stands"
+    weight:
+      estimate_g: 8000
+      min_g: 4000
+      max_g: 15000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: steel
+
+  sg-9-6:
+    name: "Hunting Backpacks"
+    weight:
+      estimate_g: 2500
+      min_g: 1000
+      max_g: 5000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 12.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # CLIMBING
+  # ============================================================
+
+  sg-10:
+    name: "Climbing"
+    weight:
+      estimate_g: 1000
+      min_g: 50
+      max_g: 10000
+      confidence: low
+
+  sg-10-1:
+    name: "Climbing Harnesses"
+    weight:
+      estimate_g: 400
+      min_g: 250
+      max_g: 600
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 20.0
+      carbon_kg_co2e_per_unit: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: nylon
+      breakdown:
+        - material: nylon
+          percentage: 70
+        - material: polyester
+          percentage: 20
+        - material: metal_buckles
+          percentage: 10
+
+  sg-10-2:
+    name: "Climbing Ropes"
+    weight:
+      estimate_g: 3000
+      min_g: 1500
+      max_g: 5000
+      confidence: medium
+      methodology: "Standard 60m rope"
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      carbon_kg_co2e_per_unit: 45.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: nylon
+
+  sg-10-3:
+    name: "Carabiners"
+    weight:
+      estimate_g: 70
+      min_g: 30
+      max_g: 150
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 12.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: aluminum
+
+  sg-10-4:
+    name: "Climbing Shoes"
+    weight:
+      estimate_g: 450
+      min_g: 300
+      max_g: 600
+      confidence: high
+      methodology: "Per pair"
+    lca:
+      carbon_kg_co2e_per_kg: 18.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-10-5:
+    name: "Climbing Helmets"
+    weight:
+      estimate_g: 250
+      min_g: 180
+      max_g: 400
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-10-6:
+    name: "Belay Devices"
+    weight:
+      estimate_g: 100
+      min_g: 50
+      max_g: 200
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: aluminum
+
+  sg-10-7:
+    name: "Chalk & Chalk Bags"
+    weight:
+      estimate_g: 150
+      min_g: 50
+      max_g: 300
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-10-8:
+    name: "Crash Pads"
+    weight:
+      estimate_g: 5000
+      min_g: 3000
+      max_g: 8000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # RACQUET SPORTS
+  # ============================================================
+
+  sg-11:
+    name: "Racquet Sports"
+    weight:
+      estimate_g: 300
+      min_g: 50
+      max_g: 2000
+      confidence: low
+
+  sg-11-1:
+    name: "Badminton Rackets"
+    weight:
+      estimate_g: 90
+      min_g: 70
+      max_g: 120
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 30.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: carbon_fiber
+
+  sg-11-2:
+    name: "Squash Rackets"
+    weight:
+      estimate_g: 150
+      min_g: 120
+      max_g: 180
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 30.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-11-3:
+    name: "Racquetball Rackets"
+    weight:
+      estimate_g: 180
+      min_g: 150
+      max_g: 220
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 28.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-11-4:
+    name: "Pickleball Paddles"
+    weight:
+      estimate_g: 230
+      min_g: 180
+      max_g: 300
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 20.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-11-5:
+    name: "Table Tennis Paddles"
+    weight:
+      estimate_g: 180
+      min_g: 150
+      max_g: 220
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: wood
+      breakdown:
+        - material: wood
+          percentage: 60
+        - material: rubber
+          percentage: 40
+
+  sg-11-6:
+    name: "Tennis Balls"
+    weight:
+      estimate_g: 58
+      min_g: 56
+      max_g: 60
+      confidence: high
+      methodology: "Per ball (ITF standard)"
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-11-7:
+    name: "Badminton Shuttlecocks"
+    weight:
+      estimate_g: 5
+      min_g: 4.7
+      max_g: 5.5
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # GOLF EXPANDED
+  # ============================================================
+
+  sg-5-6:
+    name: "Golf Sets"
+    weight:
+      estimate_g: 12000
+      min_g: 8000
+      max_g: 18000
+      confidence: medium
+      methodology: "Full set of 14 clubs"
+    lca:
+      carbon_kg_co2e_per_kg: 20.0
+      carbon_kg_co2e_per_unit: 240.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-5-7:
+    name: "Golf Balls"
+    weight:
+      estimate_g: 46
+      min_g: 45
+      max_g: 46
+      confidence: high
+      methodology: "Per ball (USGA max)"
+    lca:
+      carbon_kg_co2e_per_kg: 12.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-5-8:
+    name: "Golf Gloves"
+    weight:
+      estimate_g: 30
+      min_g: 20
+      max_g: 50
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: leather
+
+  sg-5-9:
+    name: "Golf Carts"
+    weight:
+      estimate_g: 250000
+      min_g: 150000
+      max_g: 400000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Electric golf carts"
+
+  sg-5-10:
+    name: "Push Carts"
+    weight:
+      estimate_g: 8000
+      min_g: 5000
+      max_g: 12000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-5-11:
+    name: "Golf Rangefinders"
+    weight:
+      estimate_g: 200
+      min_g: 100
+      max_g: 350
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 80.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-5-12:
+    name: "Golf Shoes"
+    weight:
+      estimate_g: 700
+      min_g: 500
+      max_g: 1000
+      confidence: medium
+      methodology: "Per pair"
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # COMBAT SPORTS
+  # ============================================================
+
+  sg-12:
+    name: "Combat Sports"
+    weight:
+      estimate_g: 500
+      min_g: 50
+      max_g: 5000
+      confidence: low
+
+  sg-12-1:
+    name: "Boxing Gloves"
+    weight:
+      estimate_g: 400
+      min_g: 200
+      max_g: 700
+      confidence: medium
+      methodology: "Per pair"
+    lca:
+      carbon_kg_co2e_per_kg: 12.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: leather
+      breakdown:
+        - material: leather
+          percentage: 50
+        - material: foam
+          percentage: 40
+        - material: other
+          percentage: 10
+
+  sg-12-2:
+    name: "Punching Bags"
+    weight:
+      estimate_g: 30000
+      min_g: 10000
+      max_g: 70000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-12-3:
+    name: "MMA Gloves"
+    weight:
+      estimate_g: 200
+      min_g: 100
+      max_g: 350
+      confidence: medium
+      methodology: "Per pair"
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-12-4:
+    name: "Shin Guards"
+    weight:
+      estimate_g: 300
+      min_g: 150
+      max_g: 500
+      confidence: medium
+      methodology: "Per pair"
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-12-5:
+    name: "Head Gear"
+    weight:
+      estimate_g: 350
+      min_g: 200
+      max_g: 500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 12.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-12-6:
+    name: "Mouth Guards"
+    weight:
+      estimate_g: 30
+      min_g: 15
+      max_g: 50
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-12-7:
+    name: "Wrestling Mats"
+    weight:
+      estimate_g: 50000
+      min_g: 20000
+      max_g: 100000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-12-8:
+    name: "Martial Arts Uniforms"
+    weight:
+      estimate_g: 500
+      min_g: 300
+      max_g: 800
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: cotton
+
+  # ============================================================
+  # SKATING
+  # ============================================================
+
+  sg-13:
+    name: "Skating"
+    weight:
+      estimate_g: 2000
+      min_g: 500
+      max_g: 5000
+      confidence: low
+
+  sg-13-1:
+    name: "Skateboards"
+    weight:
+      estimate_g: 2500
+      min_g: 1500
+      max_g: 4000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      carbon_kg_co2e_per_unit: 20.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: wood
+      breakdown:
+        - material: maple_wood
+          percentage: 60
+        - material: metal_trucks
+          percentage: 25
+        - material: polyurethane_wheels
+          percentage: 15
+
+  sg-13-2:
+    name: "Longboards"
+    weight:
+      estimate_g: 4000
+      min_g: 2500
+      max_g: 6000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 7.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-13-3:
+    name: "Roller Skates"
+    weight:
+      estimate_g: 2500
+      min_g: 1500
+      max_g: 4000
+      confidence: medium
+      methodology: "Per pair"
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-13-4:
+    name: "Inline Skates"
+    weight:
+      estimate_g: 2800
+      min_g: 1800
+      max_g: 4000
+      confidence: medium
+      methodology: "Per pair"
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-13-5:
+    name: "Ice Skates"
+    weight:
+      estimate_g: 2000
+      min_g: 1200
+      max_g: 3000
+      confidence: medium
+      methodology: "Per pair"
+    lca:
+      carbon_kg_co2e_per_kg: 12.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-13-6:
+    name: "Skateboard Helmets"
+    weight:
+      estimate_g: 350
+      min_g: 250
+      max_g: 500
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 12.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-13-7:
+    name: "Skating Pads"
+    weight:
+      estimate_g: 400
+      min_g: 200
+      max_g: 700
+      confidence: medium
+      methodology: "Knee + elbow + wrist set"
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # EQUESTRIAN
+  # ============================================================
+
+  sg-14:
+    name: "Equestrian"
+    weight:
+      estimate_g: 3000
+      min_g: 200
+      max_g: 20000
+      confidence: low
+
+  sg-14-1:
+    name: "Saddles"
+    weight:
+      estimate_g: 8000
+      min_g: 4000
+      max_g: 15000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      carbon_kg_co2e_per_unit: 120.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: leather
+
+  sg-14-2:
+    name: "Bridles"
+    weight:
+      estimate_g: 800
+      min_g: 400
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 18.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: leather
+
+  sg-14-3:
+    name: "Riding Helmets"
+    weight:
+      estimate_g: 400
+      min_g: 300
+      max_g: 600
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-14-4:
+    name: "Riding Boots"
+    weight:
+      estimate_g: 1500
+      min_g: 1000
+      max_g: 2500
+      confidence: medium
+      methodology: "Per pair"
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: leather
+
+  sg-14-5:
+    name: "Horse Blankets"
+    weight:
+      estimate_g: 3000
+      min_g: 1500
+      max_g: 6000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 12.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # ADDITIONAL TEAM SPORTS
+  # ============================================================
+
+  sg-5-13:
+    name: "Footballs (American)"
+    weight:
+      estimate_g: 420
+      min_g: 400
+      max_g: 450
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: leather
+
+  sg-5-14:
+    name: "Baseball Gloves"
+    weight:
+      estimate_g: 400
+      min_g: 250
+      max_g: 600
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 18.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: leather
+
+  sg-5-15:
+    name: "Baseball Bats"
+    weight:
+      estimate_g: 900
+      min_g: 600
+      max_g: 1200
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: wood
+    notes: "Aluminum bats heavier (~850g) with higher footprint"
+
+  sg-5-16:
+    name: "Baseballs"
+    weight:
+      estimate_g: 145
+      min_g: 142
+      max_g: 149
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-5-17:
+    name: "Hockey Sticks"
+    weight:
+      estimate_g: 450
+      min_g: 350
+      max_g: 600
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 25.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: carbon_fiber
+
+  sg-5-18:
+    name: "Hockey Pucks"
+    weight:
+      estimate_g: 170
+      min_g: 156
+      max_g: 170
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: rubber
+
+  sg-5-19:
+    name: "Lacrosse Sticks"
+    weight:
+      estimate_g: 400
+      min_g: 300
+      max_g: 600
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-5-20:
+    name: "Volleyballs"
+    weight:
+      estimate_g: 270
+      min_g: 260
+      max_g: 280
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-5-21:
+    name: "Football Helmets"
+    weight:
+      estimate_g: 1800
+      min_g: 1400
+      max_g: 2300
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-5-22:
+    name: "Sports Protective Pads"
+    weight:
+      estimate_g: 500
+      min_g: 200
+      max_g: 1500
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # ADDITIONAL WATER SPORTS
+  # ============================================================
+
+  sg-3-6:
+    name: "Life Jackets"
+    weight:
+      estimate_g: 800
+      min_g: 300
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 12.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-3-7:
+    name: "Water Skis"
+    weight:
+      estimate_g: 4000
+      min_g: 2500
+      max_g: 6000
+      confidence: medium
+      methodology: "Per pair"
+    lca:
+      carbon_kg_co2e_per_kg: 12.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-3-8:
+    name: "Wakeboards"
+    weight:
+      estimate_g: 3500
+      min_g: 2500
+      max_g: 5000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-3-9:
+    name: "Canoes"
+    weight:
+      estimate_g: 25000
+      min_g: 15000
+      max_g: 40000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-3-10:
+    name: "Paddles"
+    weight:
+      estimate_g: 600
+      min_g: 300
+      max_g: 1200
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 12.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-3-11:
+    name: "Swim Goggles"
+    weight:
+      estimate_g: 50
+      min_g: 30
+      max_g: 80
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-3-12:
+    name: "Swim Caps"
+    weight:
+      estimate_g: 50
+      min_g: 30
+      max_g: 80
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: silicone
+
+  # ============================================================
+  # ADDITIONAL FITNESS
+  # ============================================================
+
+  sg-1-5:
+    name: "Foam Rollers"
+    weight:
+      estimate_g: 500
+      min_g: 200
+      max_g: 1000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: eva_foam
+
+  sg-1-6:
+    name: "Pull-Up Bars"
+    weight:
+      estimate_g: 3000
+      min_g: 1000
+      max_g: 8000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: steel
+
+  sg-1-7:
+    name: "Exercise Balls"
+    weight:
+      estimate_g: 1200
+      min_g: 800
+      max_g: 2000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: pvc
+
+  sg-1-8:
+    name: "Battle Ropes"
+    weight:
+      estimate_g: 12000
+      min_g: 8000
+      max_g: 18000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-1-9:
+    name: "Medicine Balls"
+    weight:
+      estimate_g: 5000
+      min_g: 1000
+      max_g: 15000
+      confidence: low
+      methodology: "Varies by weight class (1-15kg)"
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-1-10:
+    name: "Workout Gloves"
+    weight:
+      estimate_g: 100
+      min_g: 50
+      max_g: 200
+      confidence: medium
+      methodology: "Per pair"
+    lca:
+      carbon_kg_co2e_per_kg: 12.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-1-11:
+    name: "Ab Rollers"
+    weight:
+      estimate_g: 500
+      min_g: 300
+      max_g: 800
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  sg-1-12:
+    name: "Suspension Trainers"
+    weight:
+      estimate_g: 700
+      min_g: 400
+      max_g: 1200
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "TRX-style training systems"

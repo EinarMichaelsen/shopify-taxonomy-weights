@@ -839,3 +839,793 @@ categories:
       carbon_kg_co2e_per_unit: 50.0
       scope: cradle-to-gate
       data_quality: estimated
+
+  bt-8-7:
+    name: "Jumpers"
+    weight:
+      estimate_g: 5000
+      min_g: 2500
+      max_g: 10000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-8-8:
+    name: "Exersaucers"
+    weight:
+      estimate_g: 7000
+      min_g: 4000
+      max_g: 12000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # SLEEP & COMFORT
+  # ============================================================
+
+  bt-9:
+    name: "Sleep & Comfort"
+    weight:
+      estimate_g: 500
+      min_g: 50
+      max_g: 3000
+      confidence: low
+
+  bt-9-1:
+    name: "Pacifiers"
+    weight:
+      estimate_g: 20
+      min_g: 10
+      max_g: 40
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: silicone
+
+  bt-9-2:
+    name: "Pacifier Clips"
+    weight:
+      estimate_g: 30
+      min_g: 15
+      max_g: 60
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-9-3:
+    name: "Swaddles"
+    weight:
+      estimate_g: 200
+      min_g: 100
+      max_g: 400
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: cotton
+
+  bt-9-4:
+    name: "Sleep Sacks"
+    weight:
+      estimate_g: 300
+      min_g: 150
+      max_g: 500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 9.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-9-5:
+    name: "Crib Bedding Sets"
+    weight:
+      estimate_g: 800
+      min_g: 400
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-9-6:
+    name: "White Noise Machines"
+    weight:
+      estimate_g: 300
+      min_g: 100
+      max_g: 600
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 20.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-9-7:
+    name: "Night Lights (Baby)"
+    weight:
+      estimate_g: 150
+      min_g: 50
+      max_g: 400
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-9-8:
+    name: "Comfort Objects"
+    weight:
+      estimate_g: 100
+      min_g: 30
+      max_g: 300
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Loveys, security blankets"
+
+  # ============================================================
+  # NURSING & BREASTFEEDING
+  # ============================================================
+
+  bt-10:
+    name: "Nursing & Breastfeeding"
+    weight:
+      estimate_g: 300
+      min_g: 20
+      max_g: 3000
+      confidence: low
+
+  bt-10-1:
+    name: "Nursing Pillows"
+    weight:
+      estimate_g: 1500
+      min_g: 800
+      max_g: 2500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-10-2:
+    name: "Nursing Covers"
+    weight:
+      estimate_g: 200
+      min_g: 100
+      max_g: 400
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-10-3:
+    name: "Breast Milk Storage Bags"
+    weight:
+      estimate_g: 200
+      min_g: 100
+      max_g: 400
+      confidence: medium
+      methodology: "Per box (~50 bags)"
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-10-4:
+    name: "Nursing Pads"
+    weight:
+      estimate_g: 150
+      min_g: 50
+      max_g: 300
+      confidence: medium
+      methodology: "Per box"
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-10-5:
+    name: "Bottle Sterilizers"
+    weight:
+      estimate_g: 1500
+      min_g: 500
+      max_g: 3000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-10-6:
+    name: "Bottle Drying Racks"
+    weight:
+      estimate_g: 400
+      min_g: 150
+      max_g: 800
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-10-7:
+    name: "Formula Dispensers"
+    weight:
+      estimate_g: 150
+      min_g: 50
+      max_g: 300
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # HEALTH & GROOMING
+  # ============================================================
+
+  bt-11:
+    name: "Health & Grooming"
+    weight:
+      estimate_g: 200
+      min_g: 20
+      max_g: 1000
+      confidence: low
+
+  bt-11-1:
+    name: "Baby Thermometers"
+    weight:
+      estimate_g: 80
+      min_g: 30
+      max_g: 200
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 30.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-11-2:
+    name: "Nasal Aspirators"
+    weight:
+      estimate_g: 50
+      min_g: 20
+      max_g: 150
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-11-3:
+    name: "Baby Nail Clippers"
+    weight:
+      estimate_g: 30
+      min_g: 15
+      max_g: 60
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-11-4:
+    name: "Baby Hairbrushes"
+    weight:
+      estimate_g: 50
+      min_g: 20
+      max_g: 100
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-11-5:
+    name: "Baby Grooming Kits"
+    weight:
+      estimate_g: 200
+      min_g: 100
+      max_g: 400
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-11-6:
+    name: "Baby Toothbrushes"
+    weight:
+      estimate_g: 20
+      min_g: 10
+      max_g: 40
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-11-7:
+    name: "Medicine Dispensers"
+    weight:
+      estimate_g: 40
+      min_g: 15
+      max_g: 80
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # NURSERY DECOR
+  # ============================================================
+
+  bt-12:
+    name: "Nursery Decor"
+    weight:
+      estimate_g: 500
+      min_g: 50
+      max_g: 5000
+      confidence: low
+
+  bt-12-1:
+    name: "Wall Decals"
+    weight:
+      estimate_g: 100
+      min_g: 30
+      max_g: 300
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-12-2:
+    name: "Nursery Art"
+    weight:
+      estimate_g: 400
+      min_g: 100
+      max_g: 1500
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-12-3:
+    name: "Growth Charts"
+    weight:
+      estimate_g: 200
+      min_g: 50
+      max_g: 500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-12-4:
+    name: "Name Signs"
+    weight:
+      estimate_g: 300
+      min_g: 100
+      max_g: 800
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-12-5:
+    name: "Nursery Lamps"
+    weight:
+      estimate_g: 1500
+      min_g: 500
+      max_g: 3500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-12-6:
+    name: "Nursery Rugs"
+    weight:
+      estimate_g: 2000
+      min_g: 500
+      max_g: 6000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # TRAVEL ACCESSORIES
+  # ============================================================
+
+  bt-13:
+    name: "Travel Accessories"
+    weight:
+      estimate_g: 1500
+      min_g: 100
+      max_g: 10000
+      confidence: low
+
+  bt-13-1:
+    name: "Travel Cribs"
+    weight:
+      estimate_g: 10000
+      min_g: 5000
+      max_g: 18000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.5
+      carbon_kg_co2e_per_unit: 55.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-13-2:
+    name: "Travel High Chairs"
+    weight:
+      estimate_g: 2000
+      min_g: 800
+      max_g: 4000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-13-3:
+    name: "Car Seat Travel Bags"
+    weight:
+      estimate_g: 800
+      min_g: 400
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-13-4:
+    name: "Stroller Travel Bags"
+    weight:
+      estimate_g: 1000
+      min_g: 500
+      max_g: 2000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-13-5:
+    name: "Portable Changing Pads"
+    weight:
+      estimate_g: 200
+      min_g: 100
+      max_g: 400
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-13-6:
+    name: "Baby Backpacks (Carriers)"
+    weight:
+      estimate_g: 2500
+      min_g: 1500
+      max_g: 4000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 12.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # BABY CLOTHING ACCESSORIES
+  # ============================================================
+
+  bt-14:
+    name: "Baby Clothing Accessories"
+    weight:
+      estimate_g: 50
+      min_g: 10
+      max_g: 200
+      confidence: medium
+
+  bt-14-1:
+    name: "Baby Socks"
+    weight:
+      estimate_g: 20
+      min_g: 10
+      max_g: 40
+      confidence: high
+      methodology: "Per pair"
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-14-2:
+    name: "Baby Hats"
+    weight:
+      estimate_g: 30
+      min_g: 15
+      max_g: 80
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-14-3:
+    name: "Baby Mittens"
+    weight:
+      estimate_g: 20
+      min_g: 10
+      max_g: 40
+      confidence: high
+      methodology: "Per pair"
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-14-4:
+    name: "Baby Booties"
+    weight:
+      estimate_g: 40
+      min_g: 20
+      max_g: 80
+      confidence: high
+      methodology: "Per pair"
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-14-5:
+    name: "Baby Headbands"
+    weight:
+      estimate_g: 15
+      min_g: 5
+      max_g: 40
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # TEETHING
+  # ============================================================
+
+  bt-15:
+    name: "Teething"
+    weight:
+      estimate_g: 50
+      min_g: 20
+      max_g: 200
+      confidence: medium
+
+  bt-15-1:
+    name: "Teething Rings"
+    weight:
+      estimate_g: 60
+      min_g: 30
+      max_g: 150
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: silicone
+
+  bt-15-2:
+    name: "Teething Necklaces"
+    weight:
+      estimate_g: 40
+      min_g: 20
+      max_g: 80
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Amber or silicone beads"
+
+  bt-15-3:
+    name: "Teething Mitts"
+    weight:
+      estimate_g: 50
+      min_g: 25
+      max_g: 100
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-15-4:
+    name: "Teething Gel Packs"
+    weight:
+      estimate_g: 100
+      min_g: 50
+      max_g: 200
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # ADDITIONAL FEEDING
+  # ============================================================
+
+  bt-4-10:
+    name: "Bowl Sets"
+    weight:
+      estimate_g: 200
+      min_g: 80
+      max_g: 400
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-4-11:
+    name: "Plate Sets"
+    weight:
+      estimate_g: 150
+      min_g: 60
+      max_g: 300
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-4-12:
+    name: "Snack Cups"
+    weight:
+      estimate_g: 100
+      min_g: 50
+      max_g: 200
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-4-13:
+    name: "Straw Cups"
+    weight:
+      estimate_g: 120
+      min_g: 70
+      max_g: 200
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-4-14:
+    name: "Bottle Brushes"
+    weight:
+      estimate_g: 60
+      min_g: 30
+      max_g: 120
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-4-15:
+    name: "Highchair Covers"
+    weight:
+      estimate_g: 300
+      min_g: 150
+      max_g: 600
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-4-16:
+    name: "Silicone Placemats"
+    weight:
+      estimate_g: 150
+      min_g: 80
+      max_g: 300
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # ADDITIONAL SAFETY
+  # ============================================================
+
+  bt-7-6:
+    name: "Door Knob Covers"
+    weight:
+      estimate_g: 30
+      min_g: 15
+      max_g: 60
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-7-7:
+    name: "Stove Guards"
+    weight:
+      estimate_g: 500
+      min_g: 200
+      max_g: 1000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-7-8:
+    name: "Furniture Anchors"
+    weight:
+      estimate_g: 100
+      min_g: 50
+      max_g: 200
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-7-9:
+    name: "Window Guards"
+    weight:
+      estimate_g: 1500
+      min_g: 500
+      max_g: 3000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-7-10:
+    name: "Pool Safety Fences"
+    weight:
+      estimate_g: 5000
+      min_g: 2000
+      max_g: 10000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated

@@ -880,3 +880,869 @@ categories:
       data_quality: estimated
     materials:
       primary_material: plastic
+
+  tg-8-6:
+    name: "Toy Airplanes"
+    weight:
+      estimate_g: 300
+      min_g: 50
+      max_g: 1000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-8-7:
+    name: "Toy Boats"
+    weight:
+      estimate_g: 400
+      min_g: 100
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-8-8:
+    name: "RC Helicopters"
+    weight:
+      estimate_g: 800
+      min_g: 200
+      max_g: 2000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 25.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-8-9:
+    name: "Slot Cars"
+    weight:
+      estimate_g: 150
+      min_g: 50
+      max_g: 300
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # PRETEND PLAY
+  # ============================================================
+
+  tg-9:
+    name: "Pretend Play"
+    weight:
+      estimate_g: 800
+      min_g: 50
+      max_g: 5000
+      confidence: low
+
+  tg-9-1:
+    name: "Play Kitchens"
+    weight:
+      estimate_g: 15000
+      min_g: 5000
+      max_g: 30000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      carbon_kg_co2e_per_unit: 60.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: plastic
+      breakdown:
+        - material: plastic
+          percentage: 70
+        - material: wood
+          percentage: 25
+        - material: other
+          percentage: 5
+
+  tg-9-2:
+    name: "Play Food"
+    weight:
+      estimate_g: 300
+      min_g: 100
+      max_g: 800
+      confidence: medium
+      methodology: "Per set"
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-9-3:
+    name: "Tool Sets (Toy)"
+    weight:
+      estimate_g: 500
+      min_g: 200
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-9-4:
+    name: "Doctor Kits"
+    weight:
+      estimate_g: 400
+      min_g: 150
+      max_g: 800
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-9-5:
+    name: "Dress-Up Costumes"
+    weight:
+      estimate_g: 300
+      min_g: 100
+      max_g: 600
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: polyester
+
+  tg-9-6:
+    name: "Play Cash Registers"
+    weight:
+      estimate_g: 800
+      min_g: 300
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-9-7:
+    name: "Tea Sets (Toy)"
+    weight:
+      estimate_g: 400
+      min_g: 150
+      max_g: 800
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-9-8:
+    name: "Workbenches (Toy)"
+    weight:
+      estimate_g: 5000
+      min_g: 2000
+      max_g: 10000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-9-9:
+    name: "Shopping Carts (Toy)"
+    weight:
+      estimate_g: 2000
+      min_g: 800
+      max_g: 4000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # BABY TOYS
+  # ============================================================
+
+  tg-10:
+    name: "Baby Toys"
+    weight:
+      estimate_g: 200
+      min_g: 20
+      max_g: 1000
+      confidence: low
+
+  tg-10-1:
+    name: "Rattles"
+    weight:
+      estimate_g: 80
+      min_g: 30
+      max_g: 150
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: plastic
+
+  tg-10-2:
+    name: "Teethers"
+    weight:
+      estimate_g: 60
+      min_g: 20
+      max_g: 150
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: silicone
+
+  tg-10-3:
+    name: "Stacking Toys"
+    weight:
+      estimate_g: 300
+      min_g: 100
+      max_g: 600
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-10-4:
+    name: "Shape Sorters"
+    weight:
+      estimate_g: 400
+      min_g: 150
+      max_g: 800
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-10-5:
+    name: "Baby Gyms"
+    weight:
+      estimate_g: 2000
+      min_g: 800
+      max_g: 4000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-10-6:
+    name: "Soft Books"
+    weight:
+      estimate_g: 100
+      min_g: 50
+      max_g: 200
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: fabric
+
+  tg-10-7:
+    name: "Crib Mobiles"
+    weight:
+      estimate_g: 500
+      min_g: 200
+      max_g: 1000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-10-8:
+    name: "Push & Pull Toys"
+    weight:
+      estimate_g: 600
+      min_g: 200
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # BATH TOYS
+  # ============================================================
+
+  tg-11:
+    name: "Bath Toys"
+    weight:
+      estimate_g: 150
+      min_g: 20
+      max_g: 800
+      confidence: medium
+
+  tg-11-1:
+    name: "Rubber Ducks"
+    weight:
+      estimate_g: 50
+      min_g: 20
+      max_g: 100
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: pvc
+
+  tg-11-2:
+    name: "Bath Boats"
+    weight:
+      estimate_g: 100
+      min_g: 30
+      max_g: 250
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-11-3:
+    name: "Squirt Toys"
+    weight:
+      estimate_g: 80
+      min_g: 30
+      max_g: 200
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-11-4:
+    name: "Bath Crayons"
+    weight:
+      estimate_g: 100
+      min_g: 50
+      max_g: 200
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # POOL TOYS
+  # ============================================================
+
+  tg-12:
+    name: "Pool Toys"
+    weight:
+      estimate_g: 500
+      min_g: 50
+      max_g: 5000
+      confidence: low
+
+  tg-12-1:
+    name: "Pool Floats"
+    weight:
+      estimate_g: 1500
+      min_g: 300
+      max_g: 5000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: pvc
+
+  tg-12-2:
+    name: "Water Guns"
+    weight:
+      estimate_g: 400
+      min_g: 100
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-12-3:
+    name: "Diving Toys"
+    weight:
+      estimate_g: 200
+      min_g: 50
+      max_g: 500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-12-4:
+    name: "Pool Noodles"
+    weight:
+      estimate_g: 150
+      min_g: 80
+      max_g: 300
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: foam
+
+  tg-12-5:
+    name: "Arm Floaties"
+    weight:
+      estimate_g: 100
+      min_g: 50
+      max_g: 200
+      confidence: medium
+      methodology: "Per pair"
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # COLLECTIBLES
+  # ============================================================
+
+  tg-13:
+    name: "Collectibles"
+    weight:
+      estimate_g: 150
+      min_g: 10
+      max_g: 1000
+      confidence: low
+
+  tg-13-1:
+    name: "Trading Cards"
+    weight:
+      estimate_g: 50
+      min_g: 10
+      max_g: 150
+      confidence: medium
+      methodology: "Per pack"
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: cardstock
+
+  tg-13-2:
+    name: "Collectible Figures"
+    weight:
+      estimate_g: 150
+      min_g: 30
+      max_g: 500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Funko Pops, anime figures, etc."
+
+  tg-13-3:
+    name: "Blind Bags"
+    weight:
+      estimate_g: 50
+      min_g: 20
+      max_g: 150
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # SCIENCE & DISCOVERY
+  # ============================================================
+
+  tg-14:
+    name: "Science & Discovery"
+    weight:
+      estimate_g: 600
+      min_g: 100
+      max_g: 3000
+      confidence: low
+
+  tg-14-1:
+    name: "Telescopes (Toy)"
+    weight:
+      estimate_g: 1500
+      min_g: 500
+      max_g: 4000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-14-2:
+    name: "Microscopes (Toy)"
+    weight:
+      estimate_g: 1000
+      min_g: 300
+      max_g: 2500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 12.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-14-3:
+    name: "Chemistry Sets"
+    weight:
+      estimate_g: 1500
+      min_g: 500
+      max_g: 3000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-14-4:
+    name: "Crystal Growing Kits"
+    weight:
+      estimate_g: 500
+      min_g: 200
+      max_g: 1000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-14-5:
+    name: "Ant Farms"
+    weight:
+      estimate_g: 800
+      min_g: 300
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-14-6:
+    name: "Weather Stations (Toy)"
+    weight:
+      estimate_g: 600
+      min_g: 200
+      max_g: 1200
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-14-7:
+    name: "Robotics Kits"
+    weight:
+      estimate_g: 1000
+      min_g: 300
+      max_g: 3000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-14-8:
+    name: "Coding Toys"
+    weight:
+      estimate_g: 500
+      min_g: 150
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 20.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # ADDITIONAL EDUCATIONAL
+  # ============================================================
+
+  tg-7-6:
+    name: "Alphabet Toys"
+    weight:
+      estimate_g: 400
+      min_g: 100
+      max_g: 1000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-7-7:
+    name: "Number Toys"
+    weight:
+      estimate_g: 350
+      min_g: 100
+      max_g: 800
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-7-8:
+    name: "Globe & Map Toys"
+    weight:
+      estimate_g: 800
+      min_g: 200
+      max_g: 2000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-7-9:
+    name: "Flash Cards"
+    weight:
+      estimate_g: 150
+      min_g: 50
+      max_g: 300
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # SPORTS TOYS
+  # ============================================================
+
+  tg-15:
+    name: "Sports Toys"
+    weight:
+      estimate_g: 500
+      min_g: 50
+      max_g: 5000
+      confidence: low
+
+  tg-15-1:
+    name: "Kids Basketball Hoops"
+    weight:
+      estimate_g: 5000
+      min_g: 2000
+      max_g: 15000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-15-2:
+    name: "Kids Golf Sets"
+    weight:
+      estimate_g: 1500
+      min_g: 500
+      max_g: 3000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-15-3:
+    name: "Kids Tennis Sets"
+    weight:
+      estimate_g: 500
+      min_g: 200
+      max_g: 1000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-15-4:
+    name: "T-Ball Sets"
+    weight:
+      estimate_g: 1000
+      min_g: 400
+      max_g: 2000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-15-5:
+    name: "Kids Soccer Goals"
+    weight:
+      estimate_g: 3000
+      min_g: 1000
+      max_g: 8000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # CRAFT TOYS
+  # ============================================================
+
+  tg-16:
+    name: "Craft Toys"
+    weight:
+      estimate_g: 400
+      min_g: 50
+      max_g: 2000
+      confidence: low
+
+  tg-16-1:
+    name: "Bead Kits"
+    weight:
+      estimate_g: 300
+      min_g: 100
+      max_g: 800
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-16-2:
+    name: "Jewelry Making Kits"
+    weight:
+      estimate_g: 400
+      min_g: 150
+      max_g: 1000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-16-3:
+    name: "Loom Kits"
+    weight:
+      estimate_g: 500
+      min_g: 200
+      max_g: 1200
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-16-4:
+    name: "Painting Sets"
+    weight:
+      estimate_g: 500
+      min_g: 150
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-16-5:
+    name: "Sewing Kits"
+    weight:
+      estimate_g: 300
+      min_g: 100
+      max_g: 800
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-16-6:
+    name: "Sticker Sets"
+    weight:
+      estimate_g: 100
+      min_g: 30
+      max_g: 300
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # ADDITIONAL GAMES
+  # ============================================================
+
+  tg-3-6:
+    name: "Strategy Games"
+    weight:
+      estimate_g: 1200
+      min_g: 400
+      max_g: 3000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-3-7:
+    name: "Party Games"
+    weight:
+      estimate_g: 600
+      min_g: 200
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-3-8:
+    name: "Trivia Games"
+    weight:
+      estimate_g: 800
+      min_g: 300
+      max_g: 2000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-3-9:
+    name: "Word Games"
+    weight:
+      estimate_g: 600
+      min_g: 200
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-3-10:
+    name: "Cooperative Games"
+    weight:
+      estimate_g: 1000
+      min_g: 400
+      max_g: 2500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
