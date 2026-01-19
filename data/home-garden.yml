@@ -1,0 +1,714 @@
+# Home & Garden (hg) - Shopify Taxonomy
+# Weight estimates and LCA data for home and garden products
+#
+# Shopify Taxonomy Reference: https://shopify.github.io/product-taxonomy/
+
+schema_version: "0.1.0"
+last_updated: "2026-01-19"
+
+categories:
+  # ============================================================
+  # KITCHEN & DINING
+  # ============================================================
+
+  hg-6:
+    name: "Kitchen & Dining"
+    weight:
+      estimate_g: 500
+      min_g: 20
+      max_g: 15000
+      confidence: low
+    notes: "Highly variable - from utensils to appliances"
+
+  hg-6-1:
+    name: "Bakeware"
+    weight:
+      estimate_g: 800
+      min_g: 200
+      max_g: 2000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.5
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: metal
+      breakdown:
+        - material: aluminum
+          percentage: 60
+        - material: steel
+          percentage: 30
+        - material: coatings
+          percentage: 10
+
+  hg-6-2:
+    name: "Cookware"
+    weight:
+      estimate_g: 1500
+      min_g: 300
+      max_g: 5000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.2
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: metal
+      breakdown:
+        - material: stainless_steel
+          percentage: 70
+        - material: aluminum
+          percentage: 20
+        - material: other
+          percentage: 10
+    sources:
+      - "European Aluminium Association LCA"
+
+  hg-6-2-5:
+    name: "Pots & Pans"
+    weight:
+      estimate_g: 1200
+      min_g: 400
+      max_g: 3000
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 4.5
+      scope: cradle-to-gate
+      data_quality: secondary
+
+  hg-6-3:
+    name: "Drinkware"
+    weight:
+      estimate_g: 300
+      min_g: 50
+      max_g: 800
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 1.8
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Glass and ceramic have different footprints"
+
+  hg-6-3-3:
+    name: "Mugs"
+    weight:
+      estimate_g: 350
+      min_g: 200
+      max_g: 500
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 1.5
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: ceramic
+      breakdown:
+        - material: ceramic
+          percentage: 100
+
+  hg-6-3-4:
+    name: "Glasses & Tumblers"
+    weight:
+      estimate_g: 250
+      min_g: 100
+      max_g: 500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 1.2
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: glass
+
+  hg-6-4:
+    name: "Flatware"
+    weight:
+      estimate_g: 60
+      min_g: 20
+      max_g: 150
+      confidence: high
+      methodology: "Per piece (fork, knife, spoon)"
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: stainless_steel
+
+  hg-6-5:
+    name: "Dinnerware"
+    weight:
+      estimate_g: 500
+      min_g: 200
+      max_g: 1000
+      confidence: medium
+      methodology: "Per piece (plate, bowl)"
+    lca:
+      carbon_kg_co2e_per_kg: 1.4
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: ceramic
+
+  hg-6-6:
+    name: "Food Storage"
+    weight:
+      estimate_g: 200
+      min_g: 50
+      max_g: 800
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: plastic
+      breakdown:
+        - material: polypropylene
+          percentage: 80
+        - material: silicone
+          percentage: 20
+
+  hg-6-7:
+    name: "Kitchen Appliances"
+    weight:
+      estimate_g: 3000
+      min_g: 500
+      max_g: 30000
+      confidence: low
+    notes: "Very high variance - toasters to refrigerators"
+
+  hg-6-7-1:
+    name: "Blenders"
+    weight:
+      estimate_g: 2500
+      min_g: 1000
+      max_g: 5000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 12.0
+      carbon_kg_co2e_per_unit: 30.0
+      scope: cradle-to-gate
+      use_phase:
+        energy_kwh_per_year: 10
+        lifespan_years: 8
+      data_quality: estimated
+
+  hg-6-7-2:
+    name: "Coffee Makers"
+    weight:
+      estimate_g: 3000
+      min_g: 800
+      max_g: 8000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      carbon_kg_co2e_per_unit: 30.0
+      scope: cradle-to-gate
+      use_phase:
+        energy_kwh_per_year: 50
+        lifespan_years: 5
+      data_quality: secondary
+    sources:
+      - "Product Environmental Footprint studies"
+
+  hg-6-7-6:
+    name: "Toasters"
+    weight:
+      estimate_g: 1500
+      min_g: 800
+      max_g: 3000
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      carbon_kg_co2e_per_unit: 12.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-6-7-7:
+    name: "Kettles"
+    weight:
+      estimate_g: 1000
+      min_g: 500
+      max_g: 1800
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 7.0
+      carbon_kg_co2e_per_unit: 7.0
+      scope: cradle-to-gate
+      use_phase:
+        energy_kwh_per_year: 100
+        lifespan_years: 5
+      data_quality: secondary
+
+  hg-6-8:
+    name: "Kitchen Utensils"
+    weight:
+      estimate_g: 80
+      min_g: 20
+      max_g: 300
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # BEDDING & BATH
+  # ============================================================
+
+  hg-1:
+    name: "Bathroom Accessories"
+    weight:
+      estimate_g: 300
+      min_g: 50
+      max_g: 2000
+      confidence: low
+
+  hg-1-1:
+    name: "Bath Towels"
+    weight:
+      estimate_g: 500
+      min_g: 300
+      max_g: 800
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 7.0
+      carbon_kg_co2e_per_unit: 3.5
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: cotton
+      breakdown:
+        - material: cotton
+          percentage: 100
+    sources:
+      - "WRAP UK Textiles Data"
+
+  hg-1-2:
+    name: "Shower Curtains"
+    weight:
+      estimate_g: 400
+      min_g: 200
+      max_g: 800
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: plastic
+      breakdown:
+        - material: polyester
+          percentage: 70
+        - material: pvc
+          percentage: 30
+
+  hg-2:
+    name: "Bedding"
+    weight:
+      estimate_g: 1500
+      min_g: 200
+      max_g: 5000
+      confidence: low
+
+  hg-2-1:
+    name: "Bed Sheets"
+    weight:
+      estimate_g: 800
+      min_g: 400
+      max_g: 1500
+      confidence: medium
+      methodology: "Per sheet set"
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      carbon_kg_co2e_per_unit: 6.4
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: cotton
+    sources:
+      - "Cotton Inc. LCA Studies"
+
+  hg-2-2:
+    name: "Blankets & Throws"
+    weight:
+      estimate_g: 1200
+      min_g: 400
+      max_g: 3000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-2-3:
+    name: "Duvets & Comforters"
+    weight:
+      estimate_g: 2500
+      min_g: 1500
+      max_g: 4000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      carbon_kg_co2e_per_unit: 37.5
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Down-filled have higher footprint than synthetic"
+
+  hg-2-4:
+    name: "Pillows"
+    weight:
+      estimate_g: 700
+      min_g: 400
+      max_g: 1200
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      carbon_kg_co2e_per_unit: 5.6
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: mixed
+      breakdown:
+        - material: polyester_fill
+          percentage: 70
+        - material: cotton_cover
+          percentage: 30
+
+  hg-2-5:
+    name: "Mattress Toppers"
+    weight:
+      estimate_g: 4000
+      min_g: 2000
+      max_g: 8000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # DECOR
+  # ============================================================
+
+  hg-3:
+    name: "Decor"
+    weight:
+      estimate_g: 500
+      min_g: 20
+      max_g: 10000
+      confidence: low
+
+  hg-3-1:
+    name: "Candles"
+    weight:
+      estimate_g: 250
+      min_g: 50
+      max_g: 800
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.5
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: wax
+      breakdown:
+        - material: paraffin_wax
+          percentage: 80
+        - material: fragrance
+          percentage: 10
+        - material: container
+          percentage: 10
+    notes: "Soy/beeswax candles have lower footprint"
+
+  hg-3-5:
+    name: "Picture Frames"
+    weight:
+      estimate_g: 400
+      min_g: 100
+      max_g: 2000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: wood
+      breakdown:
+        - material: wood
+          percentage: 60
+        - material: glass
+          percentage: 30
+        - material: other
+          percentage: 10
+
+  hg-3-6:
+    name: "Mirrors"
+    weight:
+      estimate_g: 3000
+      min_g: 500
+      max_g: 15000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: glass
+
+  hg-3-7:
+    name: "Rugs"
+    weight:
+      estimate_g: 5000
+      min_g: 1000
+      max_g: 20000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: secondary
+    notes: "Weight varies significantly with size and material"
+    sources:
+      - "Carpet LCA studies"
+
+  hg-3-8:
+    name: "Vases"
+    weight:
+      estimate_g: 600
+      min_g: 100
+      max_g: 3000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 1.5
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: ceramic
+
+  hg-3-17:
+    name: "Clocks"
+    weight:
+      estimate_g: 500
+      min_g: 100
+      max_g: 3000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # LIGHTING
+  # ============================================================
+
+  hg-7:
+    name: "Lighting"
+    weight:
+      estimate_g: 1500
+      min_g: 50
+      max_g: 15000
+      confidence: low
+
+  hg-7-1:
+    name: "Light Bulbs"
+    weight:
+      estimate_g: 80
+      min_g: 30
+      max_g: 200
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 25.0
+      carbon_kg_co2e_per_unit: 2.0
+      scope: cradle-to-gate
+      use_phase:
+        energy_kwh_per_year: 10
+        lifespan_years: 15
+      data_quality: secondary
+    notes: "LED bulbs - incandescent have much higher use-phase impact"
+    sources:
+      - "US DOE LED Lighting Facts"
+
+  hg-7-2:
+    name: "Lamps"
+    weight:
+      estimate_g: 2000
+      min_g: 500
+      max_g: 8000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-7-2-1:
+    name: "Desk Lamps"
+    weight:
+      estimate_g: 1200
+      min_g: 400
+      max_g: 2500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-7-2-2:
+    name: "Floor Lamps"
+    weight:
+      estimate_g: 4000
+      min_g: 2000
+      max_g: 10000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-7-2-3:
+    name: "Table Lamps"
+    weight:
+      estimate_g: 2500
+      min_g: 800
+      max_g: 5000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # GARDEN & OUTDOOR
+  # ============================================================
+
+  hg-4:
+    name: "Lawn & Garden"
+    weight:
+      estimate_g: 2000
+      min_g: 50
+      max_g: 50000
+      confidence: low
+    notes: "Extremely variable - seeds to lawn mowers"
+
+  hg-4-1:
+    name: "Gardening Tools"
+    weight:
+      estimate_g: 800
+      min_g: 100
+      max_g: 3000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: metal
+      breakdown:
+        - material: steel
+          percentage: 70
+        - material: wood_handle
+          percentage: 20
+        - material: plastic
+          percentage: 10
+
+  hg-4-2:
+    name: "Outdoor Power Equipment"
+    weight:
+      estimate_g: 15000
+      min_g: 3000
+      max_g: 50000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Lawn mowers, leaf blowers, etc."
+
+  hg-4-3:
+    name: "Planters & Pots"
+    weight:
+      estimate_g: 1500
+      min_g: 200
+      max_g: 10000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 2.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Ceramic heavier than plastic"
+
+  hg-4-4:
+    name: "Seeds & Bulbs"
+    weight:
+      estimate_g: 50
+      min_g: 5
+      max_g: 500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 1.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-5:
+    name: "Outdoor Furniture"
+    weight:
+      estimate_g: 8000
+      min_g: 2000
+      max_g: 30000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "See Furniture vertical for more detail"
+
+  # ============================================================
+  # CLEANING & STORAGE
+  # ============================================================
+
+  hg-8:
+    name: "Household Supplies"
+    weight:
+      estimate_g: 500
+      min_g: 50
+      max_g: 5000
+      confidence: low
+
+  hg-8-1:
+    name: "Cleaning Supplies"
+    weight:
+      estimate_g: 800
+      min_g: 100
+      max_g: 3000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hg-8-2:
+    name: "Laundry Supplies"
+    weight:
+      estimate_g: 2000
+      min_g: 500
+      max_g: 5000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 1.5
+      scope: cradle-to-gate
+      data_quality: secondary
+    notes: "Detergent weight - bottles add ~200g"
+
+  hg-9:
+    name: "Storage & Organization"
+    weight:
+      estimate_g: 1000
+      min_g: 100
+      max_g: 10000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 3.5
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: plastic

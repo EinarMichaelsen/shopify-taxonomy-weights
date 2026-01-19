@@ -115,9 +115,12 @@ LCA data is sourced from:
 |----------|--------|------------|
 | Apparel & Accessories (aa) | Partial | ~25 categories |
 | Electronics (el) | Partial | ~15 categories |
-| Home & Garden (hg) | Planned | - |
-| Sporting Goods (sg) | Planned | - |
+| Home & Garden (hg) | Partial | ~40 categories |
+| Furniture (fr) | Partial | ~35 categories |
+| Sporting Goods (sg) | Partial | ~50 categories |
 | Food & Beverages (fb) | Planned | - |
+| Health & Beauty (hb) | Planned | - |
+| Toys & Games (tg) | Planned | - |
 
 ## Contributing
 
