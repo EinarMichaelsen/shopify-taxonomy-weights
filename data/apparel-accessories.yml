@@ -1,0 +1,308 @@
+# Apparel & Accessories (aa) - Shopify Taxonomy
+# Weight estimates and LCA data for clothing and accessories
+#
+# Shopify Taxonomy Reference: https://shopify.github.io/product-taxonomy/
+# Category IDs follow Shopify's format: aa-{subcategory}-{...}
+
+schema_version: "0.1.0"
+last_updated: "2026-01-19"
+
+categories:
+  # ============================================================
+  # CLOTHING
+  # ============================================================
+
+  aa-1:
+    name: "Clothing"
+    notes: "Parent category - use subcategories for more accurate estimates"
+    weight:
+      estimate_g: 350
+      min_g: 50
+      max_g: 2000
+      confidence: low
+      methodology: "Broad average across all clothing types"
+
+  aa-1-1:
+    name: "Activewear"
+    weight:
+      estimate_g: 250
+      min_g: 100
+      max_g: 500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 21.0
+      scope: cradle-to-gate
+      methodology: "Based on polyester/elastane blend averages"
+      data_quality: secondary
+    materials:
+      primary_material: synthetic
+      breakdown:
+        - material: polyester
+          percentage: 85
+        - material: elastane
+          percentage: 15
+    sources:
+      - "Higg MSI Database"
+      - "WRAP Textiles 2023"
+
+  aa-1-5:
+    name: "Dresses"
+    weight:
+      estimate_g: 400
+      min_g: 150
+      max_g: 1200
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: mixed
+      breakdown:
+        - material: cotton
+          percentage: 50
+        - material: polyester
+          percentage: 40
+        - material: other
+          percentage: 10
+
+  aa-1-6:
+    name: "Jumpsuits & Rompers"
+    weight:
+      estimate_g: 450
+      min_g: 200
+      max_g: 800
+      confidence: medium
+
+  aa-1-8:
+    name: "Outerwear"
+    weight:
+      estimate_g: 900
+      min_g: 300
+      max_g: 2500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 28.0
+      scope: cradle-to-gate
+      methodology: "Weighted average including down, synthetic fill, wool"
+      data_quality: secondary
+    notes: "High variance - down jackets lighter, winter coats heavier"
+
+  aa-1-9:
+    name: "Pants"
+    weight:
+      estimate_g: 500
+      min_g: 200
+      max_g: 900
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 12.5
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: cotton
+      breakdown:
+        - material: cotton
+          percentage: 70
+        - material: polyester
+          percentage: 25
+        - material: elastane
+          percentage: 5
+
+  aa-1-13:
+    name: "Tops"
+    weight:
+      estimate_g: 200
+      min_g: 80
+      max_g: 450
+      confidence: medium
+
+  aa-1-13-8:
+    name: "T-Shirts"
+    weight:
+      estimate_g: 180
+      min_g: 120
+      max_g: 280
+      confidence: high
+      methodology: "Based on standard adult cotton t-shirts"
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      carbon_kg_co2e_per_unit: 1.44
+      scope: cradle-to-gate
+      production:
+        raw_materials_kg_co2e: 5.2
+        manufacturing_kg_co2e: 2.3
+        packaging_kg_co2e: 0.5
+      methodology: "Cotton cultivation + textile production"
+      data_quality: secondary
+    materials:
+      primary_material: cotton
+      breakdown:
+        - material: cotton
+          percentage: 100
+    sources:
+      - "Carbon Trust Clothing Footprint Study"
+      - "WRAP UK Textiles Data"
+
+  aa-1-14:
+    name: "Underwear & Socks"
+    weight:
+      estimate_g: 60
+      min_g: 20
+      max_g: 150
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: cotton
+      breakdown:
+        - material: cotton
+          percentage: 80
+        - material: elastane
+          percentage: 20
+
+  # ============================================================
+  # SHOES
+  # ============================================================
+
+  aa-5:
+    name: "Shoes"
+    weight:
+      estimate_g: 700
+      min_g: 200
+      max_g: 1500
+      confidence: medium
+      methodology: "Per pair weight"
+    lca:
+      carbon_kg_co2e_per_kg: 14.0
+      scope: cradle-to-gate
+      data_quality: secondary
+    notes: "Wide variance between sandals and boots"
+
+  aa-5-1:
+    name: "Athletic Shoes"
+    weight:
+      estimate_g: 650
+      min_g: 400
+      max_g: 900
+      confidence: high
+      methodology: "Per pair, adult sizes"
+    lca:
+      carbon_kg_co2e_per_kg: 16.5
+      carbon_kg_co2e_per_unit: 10.7
+      scope: cradle-to-gate
+      methodology: "MIT study on athletic footwear"
+      data_quality: secondary
+    materials:
+      primary_material: synthetic
+      breakdown:
+        - material: synthetic_upper
+          percentage: 40
+        - material: rubber_sole
+          percentage: 35
+        - material: foam_midsole
+          percentage: 20
+        - material: other
+          percentage: 5
+    sources:
+      - "MIT Materials Systems Laboratory"
+
+  aa-5-2:
+    name: "Boots"
+    weight:
+      estimate_g: 1200
+      min_g: 600
+      max_g: 2000
+      confidence: medium
+      methodology: "Per pair"
+    lca:
+      carbon_kg_co2e_per_kg: 18.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Leather boots have higher footprint than synthetic"
+
+  aa-5-5:
+    name: "Sandals"
+    weight:
+      estimate_g: 350
+      min_g: 150
+      max_g: 600
+      confidence: medium
+      methodology: "Per pair"
+
+  # ============================================================
+  # ACCESSORIES
+  # ============================================================
+
+  aa-2:
+    name: "Clothing Accessories"
+    weight:
+      estimate_g: 100
+      min_g: 10
+      max_g: 500
+      confidence: low
+
+  aa-2-1:
+    name: "Belts"
+    weight:
+      estimate_g: 150
+      min_g: 80
+      max_g: 350
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 25.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Leather belts - synthetic alternatives have ~40% lower footprint"
+
+  aa-2-4:
+    name: "Hats"
+    weight:
+      estimate_g: 100
+      min_g: 30
+      max_g: 300
+      confidence: medium
+
+  aa-2-6:
+    name: "Scarves & Shawls"
+    weight:
+      estimate_g: 150
+      min_g: 50
+      max_g: 400
+      confidence: medium
+
+  aa-3:
+    name: "Handbags & Luggage"
+    weight:
+      estimate_g: 800
+      min_g: 100
+      max_g: 5000
+      confidence: low
+    notes: "Extremely high variance in this category"
+
+  aa-3-1:
+    name: "Backpacks"
+    weight:
+      estimate_g: 700
+      min_g: 300
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 12.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  aa-3-2:
+    name: "Handbags"
+    weight:
+      estimate_g: 500
+      min_g: 150
+      max_g: 1200
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 20.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Leather handbags - higher for exotic leathers"

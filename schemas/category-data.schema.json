@@ -1,0 +1,170 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Product Category Environmental Data",
+  "description": "Schema for product weight estimates and LCA data mapped to Shopify taxonomy categories",
+  "type": "object",
+  "required": ["schema_version", "categories"],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "description": "Schema version for compatibility tracking",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date",
+      "description": "ISO date of last update"
+    },
+    "categories": {
+      "type": "object",
+      "description": "Map of Shopify taxonomy category IDs to environmental data",
+      "additionalProperties": {
+        "$ref": "#/definitions/CategoryData"
+      }
+    }
+  },
+  "definitions": {
+    "CategoryData": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Human-readable category name for reference"
+        },
+        "weight": {
+          "$ref": "#/definitions/WeightData"
+        },
+        "lca": {
+          "$ref": "#/definitions/LCAData"
+        },
+        "materials": {
+          "$ref": "#/definitions/MaterialComposition"
+        },
+        "sources": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "References/citations for the data"
+        },
+        "notes": {
+          "type": "string",
+          "description": "Additional context or caveats"
+        }
+      }
+    },
+    "WeightData": {
+      "type": "object",
+      "description": "Estimated product weight in grams",
+      "required": ["estimate_g"],
+      "properties": {
+        "estimate_g": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Best estimate weight in grams"
+        },
+        "min_g": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Minimum typical weight in grams"
+        },
+        "max_g": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Maximum typical weight in grams"
+        },
+        "confidence": {
+          "type": "string",
+          "enum": ["low", "medium", "high"],
+          "description": "Confidence level in the estimate"
+        },
+        "methodology": {
+          "type": "string",
+          "description": "How the estimate was derived"
+        }
+      }
+    },
+    "LCAData": {
+      "type": "object",
+      "description": "Life Cycle Assessment data",
+      "properties": {
+        "carbon_kg_co2e_per_kg": {
+          "type": "number",
+          "minimum": 0,
+          "description": "kg CO2e per kg of product (cradle-to-gate)"
+        },
+        "carbon_kg_co2e_per_unit": {
+          "type": "number",
+          "minimum": 0,
+          "description": "kg CO2e per typical unit (using weight estimate)"
+        },
+        "scope": {
+          "type": "string",
+          "enum": ["cradle-to-gate", "cradle-to-grave", "gate-to-gate"],
+          "description": "LCA boundary scope"
+        },
+        "production": {
+          "type": "object",
+          "properties": {
+            "raw_materials_kg_co2e": { "type": "number" },
+            "manufacturing_kg_co2e": { "type": "number" },
+            "packaging_kg_co2e": { "type": "number" }
+          },
+          "description": "Production phase breakdown per kg"
+        },
+        "transport": {
+          "type": "object",
+          "properties": {
+            "default_km": { "type": "number", "description": "Assumed transport distance" },
+            "mode": { "type": "string", "enum": ["sea", "air", "road", "rail", "mixed"] },
+            "kg_co2e_per_kg": { "type": "number" }
+          }
+        },
+        "use_phase": {
+          "type": "object",
+          "properties": {
+            "energy_kwh_per_year": { "type": "number" },
+            "lifespan_years": { "type": "number" },
+            "kg_co2e_total": { "type": "number" }
+          },
+          "description": "Use phase impacts (for electronics, appliances)"
+        },
+        "end_of_life": {
+          "type": "object",
+          "properties": {
+            "recyclability_pct": { "type": "number", "minimum": 0, "maximum": 100 },
+            "kg_co2e_per_kg": { "type": "number" }
+          }
+        },
+        "methodology": {
+          "type": "string",
+          "description": "LCA methodology or database used"
+        },
+        "data_quality": {
+          "type": "string",
+          "enum": ["primary", "secondary", "estimated"],
+          "description": "Quality of underlying data"
+        }
+      }
+    },
+    "MaterialComposition": {
+      "type": "object",
+      "description": "Typical material breakdown by percentage",
+      "properties": {
+        "primary_material": {
+          "type": "string",
+          "description": "Main material category"
+        },
+        "breakdown": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["material", "percentage"],
+            "properties": {
+              "material": { "type": "string" },
+              "percentage": { "type": "number", "minimum": 0, "maximum": 100 }
+            }
+          }
+        }
+      }
+    }
+  }
+}
