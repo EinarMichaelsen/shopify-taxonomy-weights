@@ -118,9 +118,13 @@ LCA data is sourced from:
 | Home & Garden (hg) | Partial | ~40 categories |
 | Furniture (fr) | Partial | ~35 categories |
 | Sporting Goods (sg) | Partial | ~50 categories |
+| Health & Beauty (hb) | Partial | ~55 categories |
+| Toys & Games (tg) | Partial | ~55 categories |
+| Baby & Toddler (bt) | Partial | ~45 categories |
+| Animals & Pet Supplies (ap) | Partial | ~50 categories |
 | Food & Beverages (fb) | Planned | - |
-| Health & Beauty (hb) | Planned | - |
-| Toys & Games (tg) | Planned | - |
+| Vehicles & Parts (vp) | Planned | - |
+| Hardware (ha) | Planned | - |
 
 ## Contributing
 

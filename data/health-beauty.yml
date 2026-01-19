@@ -1,0 +1,918 @@
+# Health & Beauty (hb) - Shopify Taxonomy
+# Weight estimates and LCA data for health and beauty products
+#
+# Note: For cosmetics and personal care, packaging often dominates
+# the carbon footprint due to small product weights but heavy glass/plastic.
+#
+# Shopify Taxonomy Reference: https://shopify.github.io/product-taxonomy/
+
+schema_version: "0.1.0"
+last_updated: "2026-01-19"
+
+categories:
+  # ============================================================
+  # SKINCARE
+  # ============================================================
+
+  hb-1:
+    name: "Skin Care"
+    weight:
+      estimate_g: 150
+      min_g: 10
+      max_g: 500
+      confidence: medium
+    notes: "Product weight varies; packaging adds significantly"
+
+  hb-1-1:
+    name: "Facial Cleansers"
+    weight:
+      estimate_g: 200
+      min_g: 100
+      max_g: 400
+      confidence: high
+      methodology: "Typical 150-200ml with packaging"
+    lca:
+      carbon_kg_co2e_per_kg: 3.5
+      carbon_kg_co2e_per_unit: 0.7
+      scope: cradle-to-gate
+      production:
+        raw_materials_kg_co2e: 0.3
+        manufacturing_kg_co2e: 0.2
+        packaging_kg_co2e: 0.2
+      data_quality: secondary
+    materials:
+      primary_material: mixed
+      breakdown:
+        - material: water_based_formula
+          percentage: 70
+        - material: plastic_packaging
+          percentage: 25
+        - material: other
+          percentage: 5
+    sources:
+      - "Cosmetics industry LCA studies"
+
+  hb-1-2:
+    name: "Moisturizers"
+    weight:
+      estimate_g: 100
+      min_g: 30
+      max_g: 250
+      confidence: high
+      methodology: "Typical 50ml jar with glass/plastic container"
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      carbon_kg_co2e_per_unit: 0.5
+      scope: cradle-to-gate
+      data_quality: secondary
+    notes: "Glass jars have higher packaging footprint than tubes"
+
+  hb-1-3:
+    name: "Serums"
+    weight:
+      estimate_g: 60
+      min_g: 30
+      max_g: 100
+      confidence: high
+      methodology: "Typical 30ml bottle with dropper"
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      carbon_kg_co2e_per_unit: 0.48
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: mixed
+      breakdown:
+        - material: formula
+          percentage: 50
+        - material: glass_bottle
+          percentage: 40
+        - material: dropper
+          percentage: 10
+
+  hb-1-4:
+    name: "Sunscreen"
+    weight:
+      estimate_g: 150
+      min_g: 50
+      max_g: 300
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      carbon_kg_co2e_per_unit: 0.6
+      scope: cradle-to-gate
+      data_quality: secondary
+    sources:
+      - "Sunscreen environmental impact studies"
+
+  hb-1-5:
+    name: "Face Masks"
+    weight:
+      estimate_g: 80
+      min_g: 20
+      max_g: 200
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Sheet masks have high packaging-to-product ratio"
+
+  hb-1-6:
+    name: "Toners"
+    weight:
+      estimate_g: 200
+      min_g: 100
+      max_g: 350
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hb-1-7:
+    name: "Eye Creams"
+    weight:
+      estimate_g: 40
+      min_g: 15
+      max_g: 80
+      confidence: high
+      methodology: "Typical 15ml jar"
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      carbon_kg_co2e_per_unit: 0.4
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Small size means high packaging ratio"
+
+  hb-1-8:
+    name: "Lip Balm"
+    weight:
+      estimate_g: 15
+      min_g: 5
+      max_g: 30
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      carbon_kg_co2e_per_unit: 0.09
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hb-1-9:
+    name: "Body Lotions"
+    weight:
+      estimate_g: 350
+      min_g: 150
+      max_g: 600
+      confidence: high
+      methodology: "Typical 250-400ml bottle"
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      carbon_kg_co2e_per_unit: 0.875
+      scope: cradle-to-gate
+      data_quality: secondary
+
+  hb-1-10:
+    name: "Body Scrubs"
+    weight:
+      estimate_g: 300
+      min_g: 150
+      max_g: 500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # HAIR CARE
+  # ============================================================
+
+  hb-2:
+    name: "Hair Care"
+    weight:
+      estimate_g: 400
+      min_g: 50
+      max_g: 1000
+      confidence: medium
+
+  hb-2-1:
+    name: "Shampoo"
+    weight:
+      estimate_g: 400
+      min_g: 200
+      max_g: 1000
+      confidence: high
+      methodology: "Typical 300-500ml bottle"
+    lca:
+      carbon_kg_co2e_per_kg: 2.0
+      carbon_kg_co2e_per_unit: 0.8
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: mixed
+      breakdown:
+        - material: water_surfactants
+          percentage: 80
+        - material: plastic_bottle
+          percentage: 18
+        - material: other
+          percentage: 2
+    sources:
+      - "Unilever sustainability reports"
+      - "P&G environmental footprint data"
+
+  hb-2-2:
+    name: "Conditioner"
+    weight:
+      estimate_g: 400
+      min_g: 200
+      max_g: 1000
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 2.2
+      carbon_kg_co2e_per_unit: 0.88
+      scope: cradle-to-gate
+      data_quality: secondary
+
+  hb-2-3:
+    name: "Hair Styling Products"
+    weight:
+      estimate_g: 200
+      min_g: 50
+      max_g: 500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Aerosols have higher footprint than gels/creams"
+
+  hb-2-4:
+    name: "Hair Oil"
+    weight:
+      estimate_g: 120
+      min_g: 50
+      max_g: 250
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hb-2-5:
+    name: "Hair Masks"
+    weight:
+      estimate_g: 250
+      min_g: 100
+      max_g: 500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hb-2-6:
+    name: "Hair Color"
+    weight:
+      estimate_g: 200
+      min_g: 100
+      max_g: 400
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.5
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Kit includes multiple components"
+
+  hb-2-7:
+    name: "Hair Dryers"
+    weight:
+      estimate_g: 600
+      min_g: 400
+      max_g: 900
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      carbon_kg_co2e_per_unit: 9.0
+      scope: cradle-to-gate
+      use_phase:
+        energy_kwh_per_year: 20
+        lifespan_years: 5
+      data_quality: estimated
+    materials:
+      primary_material: plastic
+      breakdown:
+        - material: plastic
+          percentage: 60
+        - material: motor
+          percentage: 25
+        - material: electronics
+          percentage: 15
+
+  hb-2-8:
+    name: "Hair Straighteners"
+    weight:
+      estimate_g: 450
+      min_g: 300
+      max_g: 700
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 18.0
+      carbon_kg_co2e_per_unit: 8.1
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hb-2-9:
+    name: "Curling Irons"
+    weight:
+      estimate_g: 400
+      min_g: 250
+      max_g: 600
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 18.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hb-2-10:
+    name: "Hair Brushes & Combs"
+    weight:
+      estimate_g: 100
+      min_g: 30
+      max_g: 300
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # MAKEUP & COSMETICS
+  # ============================================================
+
+  hb-3:
+    name: "Makeup"
+    weight:
+      estimate_g: 30
+      min_g: 5
+      max_g: 200
+      confidence: low
+    notes: "Very small products with significant packaging"
+
+  hb-3-1:
+    name: "Foundation"
+    weight:
+      estimate_g: 60
+      min_g: 30
+      max_g: 100
+      confidence: high
+      methodology: "Typical 30ml bottle"
+    lca:
+      carbon_kg_co2e_per_kg: 12.0
+      carbon_kg_co2e_per_unit: 0.72
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: mixed
+      breakdown:
+        - material: formula
+          percentage: 50
+        - material: glass_bottle
+          percentage: 40
+        - material: pump_cap
+          percentage: 10
+
+  hb-3-2:
+    name: "Lipstick"
+    weight:
+      estimate_g: 25
+      min_g: 15
+      max_g: 40
+      confidence: high
+      methodology: "Standard lipstick tube"
+    lca:
+      carbon_kg_co2e_per_kg: 20.0
+      carbon_kg_co2e_per_unit: 0.5
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: mixed
+      breakdown:
+        - material: wax_pigments
+          percentage: 15
+        - material: metal_tube
+          percentage: 60
+        - material: plastic
+          percentage: 25
+    sources:
+      - "Cosmetics packaging LCA"
+
+  hb-3-3:
+    name: "Mascara"
+    weight:
+      estimate_g: 20
+      min_g: 10
+      max_g: 35
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 25.0
+      carbon_kg_co2e_per_unit: 0.5
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Small product, mostly packaging weight"
+
+  hb-3-4:
+    name: "Eyeshadow"
+    weight:
+      estimate_g: 40
+      min_g: 10
+      max_g: 150
+      confidence: medium
+      methodology: "Single shadow to palette"
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hb-3-5:
+    name: "Eyeliner"
+    weight:
+      estimate_g: 15
+      min_g: 5
+      max_g: 30
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 20.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hb-3-6:
+    name: "Blush"
+    weight:
+      estimate_g: 30
+      min_g: 10
+      max_g: 60
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hb-3-7:
+    name: "Concealer"
+    weight:
+      estimate_g: 25
+      min_g: 10
+      max_g: 50
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 18.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hb-3-8:
+    name: "Setting Powder"
+    weight:
+      estimate_g: 40
+      min_g: 20
+      max_g: 80
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 12.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hb-3-9:
+    name: "Makeup Brushes"
+    weight:
+      estimate_g: 30
+      min_g: 10
+      max_g: 80
+      confidence: medium
+      methodology: "Per brush"
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hb-3-10:
+    name: "Makeup Remover"
+    weight:
+      estimate_g: 200
+      min_g: 100
+      max_g: 400
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # FRAGRANCES
+  # ============================================================
+
+  hb-4:
+    name: "Fragrances"
+    weight:
+      estimate_g: 200
+      min_g: 50
+      max_g: 500
+      confidence: medium
+    notes: "Heavy glass bottles dominate weight"
+
+  hb-4-1:
+    name: "Perfume"
+    weight:
+      estimate_g: 180
+      min_g: 80
+      max_g: 400
+      confidence: medium
+      methodology: "Typical 50-100ml bottle"
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      carbon_kg_co2e_per_unit: 1.44
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: glass
+      breakdown:
+        - material: glass_bottle
+          percentage: 70
+        - material: fragrance
+          percentage: 15
+        - material: alcohol
+          percentage: 10
+        - material: pump_cap
+          percentage: 5
+    sources:
+      - "Fragrance industry sustainability reports"
+
+  hb-4-2:
+    name: "Cologne"
+    weight:
+      estimate_g: 200
+      min_g: 100
+      max_g: 400
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 7.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hb-4-3:
+    name: "Body Spray"
+    weight:
+      estimate_g: 180
+      min_g: 100
+      max_g: 300
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Aerosol cans have additional propellant footprint"
+
+  # ============================================================
+  # PERSONAL CARE
+  # ============================================================
+
+  hb-5:
+    name: "Personal Care"
+    weight:
+      estimate_g: 150
+      min_g: 20
+      max_g: 500
+      confidence: low
+
+  hb-5-1:
+    name: "Toothpaste"
+    weight:
+      estimate_g: 130
+      min_g: 75
+      max_g: 200
+      confidence: high
+      methodology: "Typical 100-150ml tube"
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      carbon_kg_co2e_per_unit: 0.325
+      scope: cradle-to-gate
+      data_quality: secondary
+    sources:
+      - "Oral care product LCA studies"
+
+  hb-5-2:
+    name: "Toothbrushes"
+    weight:
+      estimate_g: 20
+      min_g: 10
+      max_g: 40
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      carbon_kg_co2e_per_unit: 0.1
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: plastic
+    notes: "Bamboo brushes have lower footprint"
+
+  hb-5-3:
+    name: "Electric Toothbrushes"
+    weight:
+      estimate_g: 150
+      min_g: 100
+      max_g: 250
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 30.0
+      carbon_kg_co2e_per_unit: 4.5
+      scope: cradle-to-gate
+      use_phase:
+        energy_kwh_per_year: 1
+        lifespan_years: 5
+      data_quality: estimated
+
+  hb-5-4:
+    name: "Deodorant"
+    weight:
+      estimate_g: 80
+      min_g: 50
+      max_g: 150
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      carbon_kg_co2e_per_unit: 0.32
+      scope: cradle-to-gate
+      data_quality: secondary
+    notes: "Roll-on lower footprint than aerosol"
+
+  hb-5-5:
+    name: "Razors"
+    weight:
+      estimate_g: 80
+      min_g: 30
+      max_g: 200
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      carbon_kg_co2e_per_unit: 1.2
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: mixed
+      breakdown:
+        - material: steel_blades
+          percentage: 30
+        - material: plastic_handle
+          percentage: 60
+        - material: rubber
+          percentage: 10
+
+  hb-5-6:
+    name: "Electric Shavers"
+    weight:
+      estimate_g: 250
+      min_g: 150
+      max_g: 400
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 25.0
+      carbon_kg_co2e_per_unit: 6.25
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hb-5-7:
+    name: "Body Wash"
+    weight:
+      estimate_g: 400
+      min_g: 200
+      max_g: 800
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 2.0
+      carbon_kg_co2e_per_unit: 0.8
+      scope: cradle-to-gate
+      data_quality: secondary
+
+  hb-5-8:
+    name: "Bar Soap"
+    weight:
+      estimate_g: 120
+      min_g: 80
+      max_g: 200
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 1.5
+      carbon_kg_co2e_per_unit: 0.18
+      scope: cradle-to-gate
+      data_quality: secondary
+    notes: "Lower packaging footprint than liquid soap"
+
+  hb-5-9:
+    name: "Hand Sanitizer"
+    weight:
+      estimate_g: 150
+      min_g: 30
+      max_g: 500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hb-5-10:
+    name: "Cotton Pads & Swabs"
+    weight:
+      estimate_g: 50
+      min_g: 20
+      max_g: 150
+      confidence: medium
+      methodology: "Per pack"
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # NAIL CARE
+  # ============================================================
+
+  hb-6:
+    name: "Nail Care"
+    weight:
+      estimate_g: 30
+      min_g: 10
+      max_g: 100
+      confidence: medium
+
+  hb-6-1:
+    name: "Nail Polish"
+    weight:
+      estimate_g: 30
+      min_g: 15
+      max_g: 50
+      confidence: high
+      methodology: "Typical 10-15ml bottle"
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      carbon_kg_co2e_per_unit: 0.45
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: glass
+      breakdown:
+        - material: glass_bottle
+          percentage: 60
+        - material: lacquer
+          percentage: 30
+        - material: brush_cap
+          percentage: 10
+
+  hb-6-2:
+    name: "Nail Polish Remover"
+    weight:
+      estimate_g: 150
+      min_g: 50
+      max_g: 300
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hb-6-3:
+    name: "Nail Files"
+    weight:
+      estimate_g: 20
+      min_g: 5
+      max_g: 50
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hb-6-4:
+    name: "Nail Clippers"
+    weight:
+      estimate_g: 40
+      min_g: 20
+      max_g: 80
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: steel
+
+  # ============================================================
+  # HEALTH & WELLNESS
+  # ============================================================
+
+  hb-7:
+    name: "Health Care"
+    weight:
+      estimate_g: 100
+      min_g: 10
+      max_g: 2000
+      confidence: low
+
+  hb-7-1:
+    name: "Vitamins & Supplements"
+    weight:
+      estimate_g: 150
+      min_g: 50
+      max_g: 400
+      confidence: medium
+      methodology: "Typical bottle of 60-120 tablets"
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      carbon_kg_co2e_per_unit: 1.2
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: mixed
+      breakdown:
+        - material: tablets_capsules
+          percentage: 40
+        - material: plastic_bottle
+          percentage: 50
+        - material: labels
+          percentage: 10
+
+  hb-7-2:
+    name: "First Aid Supplies"
+    weight:
+      estimate_g: 300
+      min_g: 50
+      max_g: 1000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hb-7-3:
+    name: "Thermometers"
+    weight:
+      estimate_g: 50
+      min_g: 20
+      max_g: 150
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 20.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hb-7-4:
+    name: "Blood Pressure Monitors"
+    weight:
+      estimate_g: 400
+      min_g: 200
+      max_g: 800
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 25.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hb-7-5:
+    name: "Massage Tools"
+    weight:
+      estimate_g: 500
+      min_g: 100
+      max_g: 2000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  hb-7-6:
+    name: "Essential Oils"
+    weight:
+      estimate_g: 30
+      min_g: 15
+      max_g: 60
+      confidence: high
+      methodology: "Typical 10-30ml bottle"
+    lca:
+      carbon_kg_co2e_per_kg: 25.0
+      carbon_kg_co2e_per_unit: 0.75
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Plant extraction is energy intensive"
+
+  hb-7-7:
+    name: "Diffusers"
+    weight:
+      estimate_g: 400
+      min_g: 150
+      max_g: 800
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 12.0
+      scope: cradle-to-gate
+      data_quality: estimated

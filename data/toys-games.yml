@@ -1,0 +1,882 @@
+# Toys & Games (tg) - Shopify Taxonomy
+# Weight estimates and LCA data for toys and games
+#
+# Note: Toys vary enormously in size and materials. Plastic dominates
+# but wood toys have different (often lower) carbon footprints.
+#
+# Shopify Taxonomy Reference: https://shopify.github.io/product-taxonomy/
+
+schema_version: "0.1.0"
+last_updated: "2026-01-19"
+
+categories:
+  # ============================================================
+  # ACTION FIGURES & DOLLS
+  # ============================================================
+
+  tg-1:
+    name: "Dolls & Action Figures"
+    weight:
+      estimate_g: 300
+      min_g: 50
+      max_g: 1500
+      confidence: medium
+
+  tg-1-1:
+    name: "Action Figures"
+    weight:
+      estimate_g: 200
+      min_g: 50
+      max_g: 500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      carbon_kg_co2e_per_unit: 1.2
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: plastic
+      breakdown:
+        - material: abs_plastic
+          percentage: 70
+        - material: pvc
+          percentage: 20
+        - material: paint
+          percentage: 10
+
+  tg-1-2:
+    name: "Dolls"
+    weight:
+      estimate_g: 400
+      min_g: 100
+      max_g: 1000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.5
+      carbon_kg_co2e_per_unit: 2.2
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: mixed
+      breakdown:
+        - material: plastic
+          percentage: 50
+        - material: fabric
+          percentage: 30
+        - material: hair_synthetic
+          percentage: 15
+        - material: other
+          percentage: 5
+
+  tg-1-3:
+    name: "Dollhouses"
+    weight:
+      estimate_g: 5000
+      min_g: 1500
+      max_g: 15000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      carbon_kg_co2e_per_unit: 20.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: wood
+      breakdown:
+        - material: mdf_wood
+          percentage: 60
+        - material: plastic
+          percentage: 30
+        - material: other
+          percentage: 10
+
+  tg-1-4:
+    name: "Stuffed Animals"
+    weight:
+      estimate_g: 300
+      min_g: 50
+      max_g: 2000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      carbon_kg_co2e_per_unit: 2.4
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: synthetic
+      breakdown:
+        - material: polyester_fill
+          percentage: 60
+        - material: plush_fabric
+          percentage: 35
+        - material: plastic_eyes
+          percentage: 5
+    sources:
+      - "Toy industry sustainability reports"
+
+  tg-1-5:
+    name: "Puppets"
+    weight:
+      estimate_g: 200
+      min_g: 50
+      max_g: 500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 7.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # BUILDING TOYS
+  # ============================================================
+
+  tg-2:
+    name: "Building Toys"
+    weight:
+      estimate_g: 800
+      min_g: 100
+      max_g: 5000
+      confidence: low
+    notes: "Highly dependent on set size"
+
+  tg-2-1:
+    name: "Building Blocks"
+    weight:
+      estimate_g: 500
+      min_g: 100
+      max_g: 3000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: plastic
+      breakdown:
+        - material: abs_plastic
+          percentage: 95
+        - material: other
+          percentage: 5
+    sources:
+      - "LEGO sustainability reports"
+
+  tg-2-2:
+    name: "LEGO & Compatible"
+    weight:
+      estimate_g: 600
+      min_g: 50
+      max_g: 5000
+      confidence: low
+      methodology: "Varies by set size - average medium set"
+    lca:
+      carbon_kg_co2e_per_kg: 5.2
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: abs_plastic
+    sources:
+      - "LEGO Environmental Report"
+    notes: "LEGO transitioning to bio-based plastics"
+
+  tg-2-3:
+    name: "Magnetic Building Toys"
+    weight:
+      estimate_g: 800
+      min_g: 200
+      max_g: 2000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: mixed
+      breakdown:
+        - material: plastic
+          percentage: 50
+        - material: magnets
+          percentage: 40
+        - material: other
+          percentage: 10
+
+  tg-2-4:
+    name: "Wooden Building Blocks"
+    weight:
+      estimate_g: 1000
+      min_g: 300
+      max_g: 3000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 1.5
+      carbon_kg_co2e_per_unit: 1.5
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: wood
+    notes: "Lower footprint than plastic, potential carbon storage"
+
+  tg-2-5:
+    name: "Model Kits"
+    weight:
+      estimate_g: 300
+      min_g: 50
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # GAMES
+  # ============================================================
+
+  tg-3:
+    name: "Games"
+    weight:
+      estimate_g: 800
+      min_g: 100
+      max_g: 3000
+      confidence: medium
+
+  tg-3-1:
+    name: "Board Games"
+    weight:
+      estimate_g: 1000
+      min_g: 300
+      max_g: 3000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      carbon_kg_co2e_per_unit: 3.0
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: cardboard
+      breakdown:
+        - material: cardboard
+          percentage: 60
+        - material: paper
+          percentage: 20
+        - material: plastic_pieces
+          percentage: 15
+        - material: other
+          percentage: 5
+    sources:
+      - "Paper and cardboard LCA studies"
+
+  tg-3-2:
+    name: "Card Games"
+    weight:
+      estimate_g: 200
+      min_g: 50
+      max_g: 500
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      carbon_kg_co2e_per_unit: 0.5
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: cardstock
+      breakdown:
+        - material: cardstock
+          percentage: 80
+        - material: box
+          percentage: 20
+
+  tg-3-3:
+    name: "Puzzles"
+    weight:
+      estimate_g: 600
+      min_g: 100
+      max_g: 2000
+      confidence: medium
+      methodology: "500-1000 piece puzzle"
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      carbon_kg_co2e_per_unit: 1.5
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: cardboard
+
+  tg-3-4:
+    name: "Chess Sets"
+    weight:
+      estimate_g: 800
+      min_g: 200
+      max_g: 3000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Weight varies by material - wood vs plastic vs stone"
+
+  tg-3-5:
+    name: "Dice & Dice Games"
+    weight:
+      estimate_g: 100
+      min_g: 20
+      max_g: 300
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # VIDEO GAMES
+  # ============================================================
+
+  tg-4:
+    name: "Video Games"
+    weight:
+      estimate_g: 100
+      min_g: 50
+      max_g: 5000
+      confidence: low
+    notes: "Physical media vs consoles have huge weight difference"
+
+  tg-4-1:
+    name: "Video Game Consoles"
+    weight:
+      estimate_g: 3500
+      min_g: 2000
+      max_g: 5000
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 50.0
+      carbon_kg_co2e_per_unit: 175.0
+      scope: cradle-to-gate
+      use_phase:
+        energy_kwh_per_year: 100
+        lifespan_years: 7
+        kg_co2e_total: 280
+      data_quality: secondary
+    materials:
+      primary_material: mixed
+      breakdown:
+        - material: plastics
+          percentage: 40
+        - material: pcb_electronics
+          percentage: 35
+        - material: metal
+          percentage: 20
+        - material: other
+          percentage: 5
+    sources:
+      - "Sony PlayStation environmental reports"
+      - "Microsoft Xbox sustainability data"
+
+  tg-4-2:
+    name: "Handheld Game Consoles"
+    weight:
+      estimate_g: 400
+      min_g: 200
+      max_g: 700
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 80.0
+      carbon_kg_co2e_per_unit: 32.0
+      scope: cradle-to-gate
+      data_quality: secondary
+    sources:
+      - "Nintendo Switch environmental data"
+
+  tg-4-3:
+    name: "Video Game Accessories"
+    weight:
+      estimate_g: 250
+      min_g: 50
+      max_g: 1000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 20.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-4-4:
+    name: "Game Controllers"
+    weight:
+      estimate_g: 280
+      min_g: 200
+      max_g: 400
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 25.0
+      carbon_kg_co2e_per_unit: 7.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-4-5:
+    name: "Physical Game Media"
+    weight:
+      estimate_g: 80
+      min_g: 50
+      max_g: 150
+      confidence: high
+      methodology: "Game case with disc"
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      carbon_kg_co2e_per_unit: 0.32
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Digital downloads have lower product footprint but server impact"
+
+  # ============================================================
+  # OUTDOOR TOYS
+  # ============================================================
+
+  tg-5:
+    name: "Outdoor Play Equipment"
+    weight:
+      estimate_g: 5000
+      min_g: 200
+      max_g: 100000
+      confidence: low
+
+  tg-5-1:
+    name: "Trampolines"
+    weight:
+      estimate_g: 50000
+      min_g: 20000
+      max_g: 100000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      carbon_kg_co2e_per_unit: 200.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: metal
+      breakdown:
+        - material: steel_frame
+          percentage: 60
+        - material: polypropylene_mat
+          percentage: 25
+        - material: springs
+          percentage: 10
+        - material: padding
+          percentage: 5
+
+  tg-5-2:
+    name: "Swing Sets"
+    weight:
+      estimate_g: 40000
+      min_g: 15000
+      max_g: 80000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      carbon_kg_co2e_per_unit: 120.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: wood
+      breakdown:
+        - material: wood
+          percentage: 70
+        - material: metal_hardware
+          percentage: 20
+        - material: plastic_seats
+          percentage: 10
+
+  tg-5-3:
+    name: "Slides"
+    weight:
+      estimate_g: 15000
+      min_g: 5000
+      max_g: 40000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.5
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: plastic
+
+  tg-5-4:
+    name: "Sandboxes"
+    weight:
+      estimate_g: 10000
+      min_g: 3000
+      max_g: 25000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Weight without sand"
+
+  tg-5-5:
+    name: "Playhouses"
+    weight:
+      estimate_g: 25000
+      min_g: 10000
+      max_g: 60000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-5-6:
+    name: "Water Tables"
+    weight:
+      estimate_g: 5000
+      min_g: 2000
+      max_g: 10000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: plastic
+
+  tg-5-7:
+    name: "Inflatable Pools"
+    weight:
+      estimate_g: 3000
+      min_g: 500
+      max_g: 15000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: pvc
+
+  tg-5-8:
+    name: "Balls"
+    weight:
+      estimate_g: 300
+      min_g: 50
+      max_g: 600
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-5-9:
+    name: "Frisbees"
+    weight:
+      estimate_g: 150
+      min_g: 100
+      max_g: 200
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      carbon_kg_co2e_per_unit: 0.6
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: plastic
+
+  tg-5-10:
+    name: "Kites"
+    weight:
+      estimate_g: 200
+      min_g: 50
+      max_g: 500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: nylon
+
+  # ============================================================
+  # RIDE-ON TOYS
+  # ============================================================
+
+  tg-6:
+    name: "Ride-On Toys"
+    weight:
+      estimate_g: 8000
+      min_g: 1000
+      max_g: 30000
+      confidence: low
+
+  tg-6-1:
+    name: "Tricycles"
+    weight:
+      estimate_g: 6000
+      min_g: 3000
+      max_g: 12000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      carbon_kg_co2e_per_unit: 30.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: metal
+      breakdown:
+        - material: steel
+          percentage: 50
+        - material: plastic
+          percentage: 40
+        - material: rubber
+          percentage: 10
+
+  tg-6-2:
+    name: "Balance Bikes"
+    weight:
+      estimate_g: 3500
+      min_g: 2000
+      max_g: 5000
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      carbon_kg_co2e_per_unit: 17.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-6-3:
+    name: "Pedal Cars"
+    weight:
+      estimate_g: 10000
+      min_g: 5000
+      max_g: 20000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-6-4:
+    name: "Electric Ride-Ons"
+    weight:
+      estimate_g: 15000
+      min_g: 8000
+      max_g: 30000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      carbon_kg_co2e_per_unit: 120.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Battery adds significant weight and footprint"
+
+  tg-6-5:
+    name: "Scooters"
+    weight:
+      estimate_g: 3000
+      min_g: 1500
+      max_g: 6000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      carbon_kg_co2e_per_unit: 18.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: aluminum
+      breakdown:
+        - material: aluminum
+          percentage: 60
+        - material: steel
+          percentage: 20
+        - material: plastic
+          percentage: 15
+        - material: rubber
+          percentage: 5
+
+  tg-6-6:
+    name: "Wagons"
+    weight:
+      estimate_g: 8000
+      min_g: 4000
+      max_g: 15000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # EDUCATIONAL TOYS
+  # ============================================================
+
+  tg-7:
+    name: "Educational Toys"
+    weight:
+      estimate_g: 500
+      min_g: 50
+      max_g: 3000
+      confidence: low
+
+  tg-7-1:
+    name: "STEM Toys"
+    weight:
+      estimate_g: 600
+      min_g: 100
+      max_g: 2000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Includes electronics kits, science sets, robotics"
+
+  tg-7-2:
+    name: "Learning Tablets"
+    weight:
+      estimate_g: 400
+      min_g: 200
+      max_g: 700
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 40.0
+      carbon_kg_co2e_per_unit: 16.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-7-3:
+    name: "Musical Toys"
+    weight:
+      estimate_g: 500
+      min_g: 100
+      max_g: 2000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-7-4:
+    name: "Art Supplies"
+    weight:
+      estimate_g: 300
+      min_g: 50
+      max_g: 1500
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-7-5:
+    name: "Play-Doh & Modeling Clay"
+    weight:
+      estimate_g: 400
+      min_g: 100
+      max_g: 1000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # VEHICLES & RC
+  # ============================================================
+
+  tg-8:
+    name: "Toy Vehicles"
+    weight:
+      estimate_g: 300
+      min_g: 20
+      max_g: 5000
+      confidence: low
+
+  tg-8-1:
+    name: "Die-Cast Cars"
+    weight:
+      estimate_g: 100
+      min_g: 30
+      max_g: 500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: metal
+      breakdown:
+        - material: zinc_alloy
+          percentage: 70
+        - material: plastic
+          percentage: 25
+        - material: paint
+          percentage: 5
+
+  tg-8-2:
+    name: "RC Cars"
+    weight:
+      estimate_g: 1500
+      min_g: 500
+      max_g: 5000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      carbon_kg_co2e_per_unit: 22.5
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: plastic
+      breakdown:
+        - material: plastic
+          percentage: 50
+        - material: electronics
+          percentage: 25
+        - material: battery
+          percentage: 15
+        - material: metal
+          percentage: 10
+
+  tg-8-3:
+    name: "Drones"
+    weight:
+      estimate_g: 500
+      min_g: 100
+      max_g: 2000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 40.0
+      carbon_kg_co2e_per_unit: 20.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: plastic
+      breakdown:
+        - material: plastic
+          percentage: 45
+        - material: electronics
+          percentage: 30
+        - material: battery
+          percentage: 20
+        - material: motors
+          percentage: 5
+
+  tg-8-4:
+    name: "Train Sets"
+    weight:
+      estimate_g: 2000
+      min_g: 500
+      max_g: 8000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  tg-8-5:
+    name: "Toy Trucks"
+    weight:
+      estimate_g: 500
+      min_g: 100
+      max_g: 2000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.5
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: plastic

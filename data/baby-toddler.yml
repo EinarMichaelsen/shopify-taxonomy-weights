@@ -1,0 +1,841 @@
+# Baby & Toddler (bt) - Shopify Taxonomy
+# Weight estimates and LCA data for baby and toddler products
+#
+# Note: Safety standards often require specific materials and construction
+# which can impact weight and environmental footprint.
+#
+# Shopify Taxonomy Reference: https://shopify.github.io/product-taxonomy/
+
+schema_version: "0.1.0"
+last_updated: "2026-01-19"
+
+categories:
+  # ============================================================
+  # STROLLERS & CARRIERS
+  # ============================================================
+
+  bt-1:
+    name: "Strollers & Carriers"
+    weight:
+      estimate_g: 8000
+      min_g: 500
+      max_g: 20000
+      confidence: low
+
+  bt-1-1:
+    name: "Strollers"
+    weight:
+      estimate_g: 10000
+      min_g: 5000
+      max_g: 18000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      carbon_kg_co2e_per_unit: 60.0
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: mixed
+      breakdown:
+        - material: aluminum_frame
+          percentage: 40
+        - material: fabric
+          percentage: 30
+        - material: plastic
+          percentage: 20
+        - material: rubber_wheels
+          percentage: 10
+    sources:
+      - "Baby product industry sustainability data"
+
+  bt-1-1-1:
+    name: "Full-Size Strollers"
+    weight:
+      estimate_g: 12000
+      min_g: 8000
+      max_g: 18000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      carbon_kg_co2e_per_unit: 72.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-1-1-2:
+    name: "Lightweight Strollers"
+    weight:
+      estimate_g: 6000
+      min_g: 4000
+      max_g: 8000
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 7.0
+      carbon_kg_co2e_per_unit: 42.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    notes: "Lighter materials often have higher per-kg footprint"
+
+  bt-1-1-3:
+    name: "Jogging Strollers"
+    weight:
+      estimate_g: 13000
+      min_g: 9000
+      max_g: 18000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.5
+      carbon_kg_co2e_per_unit: 84.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-1-1-4:
+    name: "Double Strollers"
+    weight:
+      estimate_g: 15000
+      min_g: 10000
+      max_g: 22000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      carbon_kg_co2e_per_unit: 90.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-1-2:
+    name: "Baby Carriers"
+    weight:
+      estimate_g: 800
+      min_g: 400
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 12.0
+      carbon_kg_co2e_per_unit: 9.6
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: fabric
+      breakdown:
+        - material: cotton
+          percentage: 50
+        - material: polyester
+          percentage: 30
+        - material: buckles_hardware
+          percentage: 15
+        - material: foam_padding
+          percentage: 5
+
+  bt-1-3:
+    name: "Baby Wraps & Slings"
+    weight:
+      estimate_g: 500
+      min_g: 300
+      max_g: 800
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      carbon_kg_co2e_per_unit: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: cotton
+
+  bt-1-4:
+    name: "Stroller Accessories"
+    weight:
+      estimate_g: 300
+      min_g: 50
+      max_g: 1000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # CAR SEATS
+  # ============================================================
+
+  bt-2:
+    name: "Car Seats"
+    weight:
+      estimate_g: 8000
+      min_g: 3000
+      max_g: 15000
+      confidence: medium
+    notes: "Safety requirements drive material choices"
+
+  bt-2-1:
+    name: "Infant Car Seats"
+    weight:
+      estimate_g: 4500
+      min_g: 3000
+      max_g: 6000
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      carbon_kg_co2e_per_unit: 36.0
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: plastic
+      breakdown:
+        - material: plastic_shell
+          percentage: 50
+        - material: eps_foam
+          percentage: 25
+        - material: fabric
+          percentage: 15
+        - material: harness
+          percentage: 10
+    sources:
+      - "Child safety seat LCA studies"
+
+  bt-2-2:
+    name: "Convertible Car Seats"
+    weight:
+      estimate_g: 10000
+      min_g: 7000
+      max_g: 14000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 7.5
+      carbon_kg_co2e_per_unit: 75.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-2-3:
+    name: "Booster Seats"
+    weight:
+      estimate_g: 4000
+      min_g: 2000
+      max_g: 8000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      carbon_kg_co2e_per_unit: 24.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-2-4:
+    name: "Car Seat Bases"
+    weight:
+      estimate_g: 3500
+      min_g: 2500
+      max_g: 5000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # NURSERY FURNITURE
+  # ============================================================
+
+  bt-3:
+    name: "Nursery Furniture"
+    weight:
+      estimate_g: 20000
+      min_g: 2000
+      max_g: 50000
+      confidence: low
+
+  bt-3-1:
+    name: "Cribs"
+    weight:
+      estimate_g: 25000
+      min_g: 15000
+      max_g: 40000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      carbon_kg_co2e_per_unit: 62.5
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: wood
+      breakdown:
+        - material: solid_wood
+          percentage: 60
+        - material: mdf
+          percentage: 25
+        - material: metal_hardware
+          percentage: 10
+        - material: finish
+          percentage: 5
+
+  bt-3-2:
+    name: "Bassinets"
+    weight:
+      estimate_g: 8000
+      min_g: 4000
+      max_g: 15000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      carbon_kg_co2e_per_unit: 32.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-3-3:
+    name: "Crib Mattresses"
+    weight:
+      estimate_g: 5000
+      min_g: 3000
+      max_g: 8000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      carbon_kg_co2e_per_unit: 25.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: foam
+      breakdown:
+        - material: foam
+          percentage: 70
+        - material: fabric_cover
+          percentage: 25
+        - material: other
+          percentage: 5
+
+  bt-3-4:
+    name: "Changing Tables"
+    weight:
+      estimate_g: 20000
+      min_g: 10000
+      max_g: 35000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      carbon_kg_co2e_per_unit: 50.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: wood
+
+  bt-3-5:
+    name: "Gliders & Rockers"
+    weight:
+      estimate_g: 30000
+      min_g: 15000
+      max_g: 50000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.5
+      carbon_kg_co2e_per_unit: 105.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-3-6:
+    name: "Dressers & Wardrobes"
+    weight:
+      estimate_g: 35000
+      min_g: 20000
+      max_g: 60000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # FEEDING
+  # ============================================================
+
+  bt-4:
+    name: "Feeding"
+    weight:
+      estimate_g: 300
+      min_g: 20
+      max_g: 15000
+      confidence: low
+
+  bt-4-1:
+    name: "Baby Bottles"
+    weight:
+      estimate_g: 150
+      min_g: 80
+      max_g: 300
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      carbon_kg_co2e_per_unit: 0.75
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: plastic
+      breakdown:
+        - material: polypropylene
+          percentage: 70
+        - material: silicone_nipple
+          percentage: 20
+        - material: other
+          percentage: 10
+    notes: "Glass bottles heavier but lower footprint per use"
+
+  bt-4-2:
+    name: "Breast Pumps"
+    weight:
+      estimate_g: 1500
+      min_g: 500
+      max_g: 3000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 20.0
+      carbon_kg_co2e_per_unit: 30.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-4-3:
+    name: "High Chairs"
+    weight:
+      estimate_g: 8000
+      min_g: 3000
+      max_g: 15000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      carbon_kg_co2e_per_unit: 40.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: mixed
+      breakdown:
+        - material: plastic
+          percentage: 50
+        - material: metal_frame
+          percentage: 30
+        - material: fabric
+          percentage: 15
+        - material: foam
+          percentage: 5
+
+  bt-4-4:
+    name: "Booster Seats (Dining)"
+    weight:
+      estimate_g: 2000
+      min_g: 1000
+      max_g: 4000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-4-5:
+    name: "Baby Food Makers"
+    weight:
+      estimate_g: 2000
+      min_g: 1000
+      max_g: 4000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 12.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-4-6:
+    name: "Bottle Warmers"
+    weight:
+      estimate_g: 800
+      min_g: 400
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-4-7:
+    name: "Bibs"
+    weight:
+      estimate_g: 50
+      min_g: 20
+      max_g: 150
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      carbon_kg_co2e_per_unit: 0.4
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-4-8:
+    name: "Baby Utensils"
+    weight:
+      estimate_g: 30
+      min_g: 15
+      max_g: 60
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-4-9:
+    name: "Sippy Cups"
+    weight:
+      estimate_g: 100
+      min_g: 60
+      max_g: 200
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # DIAPERING
+  # ============================================================
+
+  bt-5:
+    name: "Diapering"
+    weight:
+      estimate_g: 50
+      min_g: 30
+      max_g: 5000
+      confidence: low
+    notes: "Per diaper vs per pack varies greatly"
+
+  bt-5-1:
+    name: "Disposable Diapers"
+    weight:
+      estimate_g: 40
+      min_g: 25
+      max_g: 60
+      confidence: high
+      methodology: "Per single diaper"
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      carbon_kg_co2e_per_unit: 0.16
+      scope: cradle-to-grave
+      end_of_life:
+        recyclability_pct: 0
+        kg_co2e_per_kg: 0.5
+      data_quality: secondary
+    materials:
+      primary_material: mixed
+      breakdown:
+        - material: polypropylene
+          percentage: 35
+        - material: sap_absorbent
+          percentage: 30
+        - material: cellulose
+          percentage: 25
+        - material: other
+          percentage: 10
+    sources:
+      - "Diaper LCA comparison studies"
+    notes: "Per-use footprint; cloth diapers have different profile"
+
+  bt-5-2:
+    name: "Cloth Diapers"
+    weight:
+      estimate_g: 150
+      min_g: 80
+      max_g: 300
+      confidence: medium
+      methodology: "Per diaper"
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      carbon_kg_co2e_per_unit: 1.5
+      scope: cradle-to-gate
+      data_quality: secondary
+    notes: "Higher upfront footprint but reusable; washing impacts vary"
+
+  bt-5-3:
+    name: "Diaper Bags"
+    weight:
+      estimate_g: 800
+      min_g: 400
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 10.0
+      carbon_kg_co2e_per_unit: 8.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-5-4:
+    name: "Changing Pads"
+    weight:
+      estimate_g: 500
+      min_g: 200
+      max_g: 1000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-5-5:
+    name: "Diaper Pails"
+    weight:
+      estimate_g: 3000
+      min_g: 1500
+      max_g: 5000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-5-6:
+    name: "Baby Wipes"
+    weight:
+      estimate_g: 500
+      min_g: 200
+      max_g: 1000
+      confidence: medium
+      methodology: "Per pack (~80 wipes)"
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      carbon_kg_co2e_per_unit: 1.5
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # BATHING
+  # ============================================================
+
+  bt-6:
+    name: "Bathing"
+    weight:
+      estimate_g: 1000
+      min_g: 100
+      max_g: 5000
+      confidence: low
+
+  bt-6-1:
+    name: "Baby Bathtubs"
+    weight:
+      estimate_g: 2000
+      min_g: 800
+      max_g: 4000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 4.5
+      carbon_kg_co2e_per_unit: 9.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: plastic
+
+  bt-6-2:
+    name: "Bath Seats"
+    weight:
+      estimate_g: 1000
+      min_g: 500
+      max_g: 2000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-6-3:
+    name: "Hooded Towels"
+    weight:
+      estimate_g: 300
+      min_g: 200
+      max_g: 500
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 7.0
+      carbon_kg_co2e_per_unit: 2.1
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: cotton
+
+  bt-6-4:
+    name: "Baby Washcloths"
+    weight:
+      estimate_g: 30
+      min_g: 20
+      max_g: 50
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 7.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  # ============================================================
+  # SAFETY & MONITORING
+  # ============================================================
+
+  bt-7:
+    name: "Safety & Monitoring"
+    weight:
+      estimate_g: 300
+      min_g: 50
+      max_g: 2000
+      confidence: low
+
+  bt-7-1:
+    name: "Baby Monitors"
+    weight:
+      estimate_g: 400
+      min_g: 150
+      max_g: 800
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 35.0
+      carbon_kg_co2e_per_unit: 14.0
+      scope: cradle-to-gate
+      use_phase:
+        energy_kwh_per_year: 20
+        lifespan_years: 3
+      data_quality: estimated
+    notes: "Video monitors have higher footprint than audio-only"
+
+  bt-7-2:
+    name: "Baby Gates"
+    weight:
+      estimate_g: 4000
+      min_g: 2000
+      max_g: 8000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      carbon_kg_co2e_per_unit: 20.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: metal
+      breakdown:
+        - material: steel
+          percentage: 70
+        - material: plastic
+          percentage: 25
+        - material: other
+          percentage: 5
+
+  bt-7-3:
+    name: "Outlet Covers"
+    weight:
+      estimate_g: 20
+      min_g: 10
+      max_g: 50
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-7-4:
+    name: "Cabinet Locks"
+    weight:
+      estimate_g: 50
+      min_g: 20
+      max_g: 100
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-7-5:
+    name: "Corner Guards"
+    weight:
+      estimate_g: 30
+      min_g: 10
+      max_g: 80
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      scope: cradle-to-gate
+      data_quality: estimated
+    materials:
+      primary_material: foam
+
+  # ============================================================
+  # BABY GEAR
+  # ============================================================
+
+  bt-8:
+    name: "Baby Gear"
+    weight:
+      estimate_g: 3000
+      min_g: 200
+      max_g: 15000
+      confidence: low
+
+  bt-8-1:
+    name: "Bouncers"
+    weight:
+      estimate_g: 3000
+      min_g: 1500
+      max_g: 6000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      carbon_kg_co2e_per_unit: 18.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-8-2:
+    name: "Swings"
+    weight:
+      estimate_g: 8000
+      min_g: 4000
+      max_g: 15000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      carbon_kg_co2e_per_unit: 64.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-8-3:
+    name: "Play Mats"
+    weight:
+      estimate_g: 2000
+      min_g: 500
+      max_g: 5000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      carbon_kg_co2e_per_unit: 10.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-8-4:
+    name: "Activity Centers"
+    weight:
+      estimate_g: 6000
+      min_g: 3000
+      max_g: 12000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      carbon_kg_co2e_per_unit: 36.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-8-5:
+    name: "Walkers"
+    weight:
+      estimate_g: 4000
+      min_g: 2000
+      max_g: 7000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.5
+      carbon_kg_co2e_per_unit: 22.0
+      scope: cradle-to-gate
+      data_quality: estimated
+
+  bt-8-6:
+    name: "Playpens"
+    weight:
+      estimate_g: 10000
+      min_g: 5000
+      max_g: 18000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      carbon_kg_co2e_per_unit: 50.0
+      scope: cradle-to-gate
+      data_quality: estimated
