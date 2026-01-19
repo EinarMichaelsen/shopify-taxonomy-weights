@@ -4,6 +4,8 @@ Community-maintained extension to [Shopify's Standard Product Taxonomy](https://
 
 > **Note**: This is an independent community project, not affiliated with or endorsed by Shopify. We use Shopify's taxonomy IDs to enable easy integration with Shopify stores and any system using their product classification.
 
+**[Try the Demo](https://shopify-taxonomy-weights.vercel.app)** | **[API Docs](#rest-api)**
+
 ## Purpose
 
 Enable climate impact calculations for e-commerce products without requiring detailed product specifications. When you know a product's category but not its exact weight or materials, this dataset provides reasonable estimates for:
@@ -37,6 +39,10 @@ scripts/
 ├── query.py          # Query tool for category lookup
 ├── export_json.py    # Export YAML to JSON
 └── audit_lca_data.py # Audit LCA data sources
+api/
+└── weight.ts         # Vercel API endpoint
+public/
+└── index.html        # Demo web app
 ```
 
 ### Category IDs
