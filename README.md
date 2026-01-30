@@ -4,6 +4,8 @@ Community-maintained extension to [Shopify's Standard Product Taxonomy](https://
 
 > **Note**: This is an independent community project, not affiliated with or endorsed by Shopify. We use Shopify's taxonomy IDs to enable easy integration with Shopify stores and any system using their product classification.
 
+> **Disclaimer**: Weight estimates in this dataset are AI-generated approximations, not sourced from verified measurements. They are intended as rough defaults for shipping and carbon calculations when actual product weights are unavailable. LCA carbon data (66 categories) cites specific sources — all other weight data should be treated as unverified estimates. **Do not use for regulatory reporting or precise claims.** Contributions of real, measured weights are welcome.
+
 **[Try the Demo](https://shopify-taxonomy-weights.vercel.app)** | **[API Docs](#rest-api)**
 
 ## Purpose
@@ -17,32 +19,40 @@ Enable climate impact calculations for e-commerce products without requiring det
 ## Data Structure
 
 ```
-data/
-├── apparel-accessories.yml   # aa-* categories (106)
-├── electronics.yml           # el-* categories (11)
-├── home-garden.yml           # hg-* categories (156)
-├── furniture.yml             # fr-* categories (109)
-├── sporting-goods.yml        # sg-* categories (149)
-├── health-beauty.yml         # hb-* categories (61)
-├── toys-games.yml            # tg-* categories (123)
-├── baby-toddler.yml          # bt-* categories (120)
-├── animals-pet-supplies.yml  # ap-* categories (65)
-├── luggage-bags.yml          # lb-* categories (78)
-├── arts-entertainment.yml    # ae-* categories (141)
+data/                                  # 26 YAML files (one per Shopify vertical)
+├── animals-pet-supplies.yml           # ap-* (418)
+├── apparel-accessories.yml            # aa-* (464)
+├── arts-entertainment.yml             # ae-* (1,220)
+├── baby-toddler.yml                   # bt-* (252)
+├── business-industrial.yml            # bi-* (593)
+├── cameras-optics.yml                 # co-* (212)
+├── electronics.yml                    # el-* (1,175)
+├── food-beverages-tobacco.yml         # fb-* (441)
+├── furniture.yml                      # fr-* (355)
+├── hardware.yml                       # ha-* (1,122)
+├── health-beauty.yml                  # hb-* (898)
+├── home-garden.yml                    # hg-* (2,301)
+├── luggage-bags.yml                   # lb-* (36)
+├── media.yml                          # me-* (33)
+├── office-supplies.yml                # os-* (243)
+├── sporting-goods.yml                 # sg-* (1,596)
+├── toys-games.yml                     # tg-* (247)
+├── vehicles-parts.yml                 # vp-* (605)
+├── ...and 8 smaller verticals
 dist/
-├── shopify-taxonomy-weights.json     # Full JSON export
-├── shopify-taxonomy-weights.min.json # Minified JSON
-└── categories.json                   # Categories only
+├── shopify-taxonomy-weights.json      # Full JSON export
+├── shopify-taxonomy-weights.min.json  # Minified JSON
+└── categories.json                    # Categories only
 schemas/
-└── category-data.schema.json # JSON Schema for validation
+└── category-data.schema.json          # JSON Schema for validation
 scripts/
-├── query.py          # Query tool for category lookup
-├── export_json.py    # Export YAML to JSON
-└── audit_lca_data.py # Audit LCA data sources
+├── query.py                           # Query tool for category lookup
+├── export_json.py                     # Export YAML to JSON
+└── audit_lca_data.py                  # Audit LCA data sources
 api/
-└── weight.ts         # Vercel API endpoint
+└── weight.ts                          # Vercel API endpoint
 public/
-└── index.html        # Demo web app
+└── index.html                         # Demo web app
 ```
 
 ### Category IDs
@@ -178,12 +188,9 @@ def get_category_data(category_id, data_files):
 
 ## Data Sources
 
-Weight estimates are derived from:
-- Manufacturer specifications
-- Shipping industry data
-- Retail product databases
+**Weight estimates** are AI-generated approximations based on general product knowledge. They have not been individually verified against real-world measurements. Confidence levels (`low`, `medium`, `high`) reflect relative certainty, not measurement precision. Treat all weight data as rough estimates.
 
-LCA data is sourced from:
+**LCA data** (66 categories) cites specific sources:
 - [Higg Materials Sustainability Index](https://howtohigg.org/)
 - [WRAP UK](https://wrap.org.uk/) textile research
 - Manufacturer sustainability reports (Apple, Dell, HP, etc.)
@@ -192,24 +199,38 @@ LCA data is sourced from:
 
 ## Coverage
 
-**Total: 1,119 categories** | **100% have weight estimates** | **79 with sourced LCA data (7.1%)**
+**Total: 12,372 categories** (full Shopify taxonomy) | **100% have weight estimates** | **66 with sourced LCA data (0.5%)**
 
-| Vertical | Categories | With LCA | Notes |
-|----------|------------|----------|-------|
-| Home & Garden (hg) | 156 | 8 | Kitchen, bedding, decor, outdoor |
-| Sporting Goods (sg) | 149 | 8 | Fitness, outdoor, team sports |
-| Arts & Entertainment (ae) | 141 | 26 | Art supplies, instruments, books |
-| Toys & Games (tg) | 123 | 6 | Building toys, games, outdoor play |
-| Baby & Toddler (bt) | 120 | 3 | Strollers, gear, nursery |
-| Furniture (fr) | 109 | 6 | Living, bedroom, office furniture |
-| Apparel & Accessories (aa) | 106 | 6 | Clothing, shoes, jewelry |
-| Luggage & Bags (lb) | 78 | 3 | Luggage, backpacks, bags |
-| Animals & Pet Supplies (ap) | 65 | 2 | Pet food, supplies, accessories |
-| Health & Beauty (hb) | 61 | 6 | Skincare, hair, personal care |
-| Electronics (el) | 11 | 5 | Computers, phones, audio |
-| Food & Beverages (fb) | - | - | Planned |
-| Vehicles & Parts (vp) | - | - | Planned |
-| Hardware (ha) | - | - | Planned |
+All 26 Shopify taxonomy verticals are covered. Weight estimates for ~818 categories were individually set; the remaining ~11,554 categories inherit estimates from their nearest parent category.
+
+| Vertical | Categories | With LCA |
+|----------|------------|----------|
+| Home & Garden (hg) | 2,301 | 8 |
+| Sporting Goods (sg) | 1,596 | 8 |
+| Arts & Entertainment (ae) | 1,220 | 26 |
+| Electronics (el) | 1,175 | 5 |
+| Hardware (ha) | 1,122 | - |
+| Health & Beauty (hb) | 898 | 6 |
+| Vehicles & Parts (vp) | 605 | - |
+| Business & Industrial (bi) | 593 | - |
+| Apparel & Accessories (aa) | 464 | 6 |
+| Food, Beverages & Tobacco (fb) | 441 | - |
+| Animals & Pet Supplies (ap) | 418 | 2 |
+| Furniture (fr) | 355 | 6 |
+| Baby & Toddler (bt) | 252 | 3 |
+| Toys & Games (tg) | 247 | 6 |
+| Office Supplies (os) | 243 | - |
+| Cameras & Optics (co) | 212 | - |
+| Services (se) | 55 | - |
+| Software (so) | 45 | - |
+| Mature (ma) | 37 | - |
+| Luggage & Bags (lb) | 36 | - |
+| Media (me) | 33 | - |
+| Religious & Ceremonial (rc) | 13 | - |
+| Product Add-Ons (pa) | 8 | - |
+| Bundles (bu) | 1 | - |
+| Gift Cards (gc) | 1 | - |
+| Uncategorized (na) | 1 | - |
 
 Categories marked with `lca_data_missing: true` need LCA data contributions. See [docs/lca_data_needed.md](docs/lca_data_needed.md) for the full list.
 
@@ -217,9 +238,9 @@ Categories marked with `lca_data_missing: true` need LCA data contributions. See
 
 Contributions welcome! We need help with:
 
-1. **Adding LCA data** - Carbon footprint data with sources (1,040 categories need data!)
-2. **Adding weight estimates** - Real product weights from manufacturers or measurements
-3. **Expanding coverage** - New product verticals
+1. **Verified weight data** - Replace AI-generated estimates with real measured weights from manufacturers or shipping data
+2. **Adding LCA data** - Carbon footprint data with sources (12,306 categories need data!)
+3. **Improving estimates** - Better weight ranges and confidence levels based on real products
 
 ### Priority: LCA Data Needed
 
