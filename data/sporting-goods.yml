@@ -1,8 +1,306 @@
 schema_version: 0.1.0
-last_updated: '2026-01-19'
+last_updated: '2026-01-29'
 categories:
+  el-11-1:
+    name: Fish Finders
+    weight:
+      estimate_g: 1000
+      min_g: 300
+      max_g: 3000
+      confidence: medium
+    lca_data_missing: true
+  ha-15-16-2:
+    name: Headlamps
+    weight:
+      estimate_g: 100
+      min_g: 50
+      max_g: 200
+      confidence: high
+    lca_data_missing: true
+  hb-1-18-8:
+    name: Resistance Bands
+    weight:
+      estimate_g: 200
+      min_g: 50
+      max_g: 500
+      confidence: high
+    materials:
+      primary_material: rubber
+    lca_data_missing: true
+  lb-1-15:
+    name: Hiking Backpacks
+    weight:
+      estimate_g: 1800
+      min_g: 500
+      max_g: 3500
+      confidence: medium
+    materials:
+      primary_material: nylon
+      breakdown:
+      - material: nylon
+        percentage: 70
+      - material: foam_padding
+        percentage: 20
+      - material: hardware
+        percentage: 10
+    lca_data_missing: true
   sg-1:
-    name: Exercise & Fitness
+    name: Athletics
+    weight:
+      estimate_g: 500
+      min_g: 50
+      max_g: 5000
+      confidence: low
+    lca_data_missing: true
+  sg-1-1-4-3:
+    name: American Football Helmets
+    weight:
+      estimate_g: 1800
+      min_g: 1400
+      max_g: 2300
+      confidence: medium
+    lca_data_missing: true
+  sg-1-1-6:
+    name: American Footballs
+    weight:
+      estimate_g: 420
+      min_g: 400
+      max_g: 450
+      confidence: high
+    materials:
+      primary_material: leather
+    lca_data_missing: true
+  sg-1-11-10:
+    name: Lacrosse Sticks
+    weight:
+      estimate_g: 400
+      min_g: 300
+      max_g: 600
+      confidence: medium
+    lca_data_missing: true
+  sg-1-12-10:
+    name: Ice Skates
+    weight:
+      estimate_g: 2000
+      min_g: 1200
+      max_g: 3000
+      confidence: medium
+      methodology: Per pair
+    lca_data_missing: true
+  sg-1-12-2-2:
+    name: Hockey Pucks
+    weight:
+      estimate_g: 170
+      min_g: 156
+      max_g: 170
+      confidence: high
+    materials:
+      primary_material: rubber
+    lca_data_missing: true
+  sg-1-12-8:
+    name: Hockey Sticks
+    weight:
+      estimate_g: 450
+      min_g: 350
+      max_g: 600
+      confidence: medium
+    materials:
+      primary_material: carbon_fiber
+    lca_data_missing: true
+  sg-1-15:
+    name: Racquetball & Squash
+    weight:
+      estimate_g: 300
+      min_g: 50
+      max_g: 2000
+      confidence: low
+    lca_data_missing: true
+  sg-1-15-5:
+    name: Racquetball Rackets
+    weight:
+      estimate_g: 180
+      min_g: 150
+      max_g: 220
+      confidence: high
+    lca_data_missing: true
+  sg-1-15-6:
+    name: Squash Rackets
+    weight:
+      estimate_g: 150
+      min_g: 120
+      max_g: 180
+      confidence: high
+    lca_data_missing: true
+  sg-1-18-1:
+    name: Soccer Balls
+    weight:
+      estimate_g: 430
+      min_g: 400
+      max_g: 500
+      confidence: high
+    materials:
+      primary_material: synthetic
+      breakdown:
+      - material: polyurethane
+        percentage: 50
+      - material: polyester
+        percentage: 30
+      - material: rubber_bladder
+        percentage: 20
+    lca_data_missing: true
+  sg-1-18-6-1:
+    name: Soccer Shin Guards
+    weight:
+      estimate_g: 300
+      min_g: 150
+      max_g: 500
+      confidence: medium
+      methodology: Per pair
+    lca_data_missing: true
+  sg-1-2-10:
+    name: Baseball Bats
+    weight:
+      estimate_g: 900
+      min_g: 600
+      max_g: 1200
+      confidence: medium
+    materials:
+      primary_material: wood
+    notes: Aluminum bats heavier (~850g) with higher footprint
+    lca_data_missing: true
+  sg-1-2-11:
+    name: Baseballs
+    weight:
+      estimate_g: 145
+      min_g: 142
+      max_g: 149
+      confidence: high
+    lca_data_missing: true
+  sg-1-2-3:
+    name: Baseball & Softball Gloves & Mitts
+    weight:
+      estimate_g: 400
+      min_g: 250
+      max_g: 600
+      confidence: medium
+    materials:
+      primary_material: leather
+    lca_data_missing: true
+  sg-1-20:
+    name: Tennis
+    weight:
+      estimate_g: 180
+      min_g: 150
+      max_g: 220
+      confidence: high
+    materials:
+      primary_material: wood
+      breakdown:
+      - material: wood
+        percentage: 60
+      - material: rubber
+        percentage: 40
+    lca_data_missing: true
+  sg-1-20-4:
+    name: Tennis Balls
+    weight:
+      estimate_g: 58
+      min_g: 56
+      max_g: 60
+      confidence: high
+      methodology: Per ball (ITF standard)
+    lca_data_missing: true
+  sg-1-20-7:
+    name: Tennis Rackets
+    weight:
+      estimate_g: 300
+      min_g: 250
+      max_g: 350
+      confidence: high
+    materials:
+      primary_material: carbon_fiber
+      breakdown:
+      - material: carbon_fiber
+        percentage: 70
+      - material: graphite
+        percentage: 20
+      - material: other
+        percentage: 10
+    lca_data_missing: true
+  sg-1-22-4:
+    name: Volleyballs
+    weight:
+      estimate_g: 270
+      min_g: 260
+      max_g: 280
+      confidence: high
+    lca_data_missing: true
+  sg-1-25-2-3:
+    name: Wrestling Mats
+    weight:
+      estimate_g: 50000
+      min_g: 20000
+      max_g: 100000
+      confidence: low
+    lca_data_missing: true
+  sg-1-3-4:
+    name: Basketballs
+    weight:
+      estimate_g: 600
+      min_g: 500
+      max_g: 700
+      confidence: high
+    materials:
+      primary_material: rubber
+      breakdown:
+      - material: rubber
+        percentage: 70
+      - material: synthetic_leather
+        percentage: 30
+    lca_data_missing: true
+  sg-1-4:
+    name: Boxing & Martial Arts
+    weight:
+      estimate_g: 500
+      min_g: 50
+      max_g: 5000
+      confidence: low
+    lca_data_missing: true
+  sg-1-4-1:
+    name: Boxing & Martial Arts Protective Gear
+    weight:
+      estimate_g: 30
+      min_g: 15
+      max_g: 50
+      confidence: high
+    lca_data_missing: true
+  sg-1-4-1-3:
+    name: Boxing & Martial Arts Headgear
+    weight:
+      estimate_g: 350
+      min_g: 200
+      max_g: 500
+      confidence: medium
+    lca_data_missing: true
+  sg-1-4-1-4-3:
+    name: MMA Gloves
+    weight:
+      estimate_g: 200
+      min_g: 100
+      max_g: 350
+      confidence: medium
+      methodology: Per pair
+    lca_data_missing: true
+  sg-1-4-2-4:
+    name: Punching & Training Bags
+    weight:
+      estimate_g: 30000
+      min_g: 10000
+      max_g: 70000
+      confidence: medium
+    lca_data_missing: true
+  sg-2:
+    name: Fitness & General Exercise Equipment
     weight:
       estimate_g: 5000
       min_g: 100
@@ -10,68 +308,62 @@ categories:
       confidence: low
     notes: Ranges from resistance bands to treadmills
     lca_data_missing: true
-  sg-1-1:
-    name: Cardio Equipment
+  sg-2-1-1:
+    name: Ab Rollers
     weight:
-      estimate_g: 50000
-      min_g: 5000
-      max_g: 150000
+      estimate_g: 500
+      min_g: 300
+      max_g: 800
+      confidence: medium
+    lca_data_missing: true
+  sg-2-12:
+    name: Foam Rollers
+    weight:
+      estimate_g: 500
+      min_g: 200
+      max_g: 1000
+      confidence: medium
+    materials:
+      primary_material: eva_foam
+    lca_data_missing: true
+  sg-2-15:
+    name: Medicine Balls
+    weight:
+      estimate_g: 5000
+      min_g: 1000
+      max_g: 15000
       confidence: low
-    notes: Treadmills, ellipticals, bikes
+      methodology: Varies by weight class (1-15kg)
     lca_data_missing: true
-  sg-1-1-1:
-    name: Exercise Bikes
+  sg-2-22:
+    name: Suspension Trainers
     weight:
-      estimate_g: 35000
-      min_g: 15000
-      max_g: 60000
+      estimate_g: 700
+      min_g: 400
+      max_g: 1200
       confidence: medium
-    materials:
-      primary_material: metal
-      breakdown:
-      - material: steel
-        percentage: 60
-      - material: plastic
-        percentage: 25
-      - material: electronics
-        percentage: 15
+    notes: TRX-style training systems
     lca_data_missing: true
-  sg-1-1-2:
-    name: Treadmills
-    weight:
-      estimate_g: 80000
-      min_g: 40000
-      max_g: 150000
-      confidence: medium
-    materials:
-      primary_material: metal
-      breakdown:
-      - material: steel
-        percentage: 55
-      - material: plastic
-        percentage: 20
-      - material: rubber_belt
-        percentage: 15
-      - material: electronics
-        percentage: 10
-    lca_data_missing: true
-  sg-1-1-3:
-    name: Rowing Machines
-    weight:
-      estimate_g: 30000
-      min_g: 20000
-      max_g: 50000
-      confidence: medium
-    lca_data_missing: true
-  sg-1-2:
-    name: Strength Training
+  sg-2-24:
+    name: Weight Lifting
     weight:
       estimate_g: 10000
       min_g: 500
       max_g: 200000
       confidence: low
     lca_data_missing: true
-  sg-1-2-1:
+  sg-2-24-1-1:
+    name: Barbells & Weightlifting Bars
+    weight:
+      estimate_g: 15000
+      min_g: 8000
+      max_g: 25000
+      confidence: high
+      methodology: Olympic barbell ~20kg
+    materials:
+      primary_material: steel
+    lca_data_missing: true
+  sg-2-24-2-1:
     name: Dumbbells
     weight:
       estimate_g: 5000
@@ -88,7 +380,7 @@ categories:
         percentage: 15
     notes: Weight IS the product - LCA per kg is key metric
     lca_data_missing: true
-  sg-1-2-2:
+  sg-2-24-2-2:
     name: Kettlebells
     weight:
       estimate_g: 12000
@@ -99,7 +391,7 @@ categories:
     materials:
       primary_material: cast_iron
     lca_data_missing: true
-  sg-1-2-3:
+  sg-2-24-2-4:
     name: Weight Plates
     weight:
       estimate_g: 10000
@@ -110,54 +402,8 @@ categories:
     materials:
       primary_material: cast_iron
     lca_data_missing: true
-  sg-1-2-4:
-    name: Barbells
-    weight:
-      estimate_g: 15000
-      min_g: 8000
-      max_g: 25000
-      confidence: high
-      methodology: Olympic barbell ~20kg
-    materials:
-      primary_material: steel
-    lca_data_missing: true
-  sg-1-2-5:
-    name: Weight Benches
-    weight:
-      estimate_g: 25000
-      min_g: 10000
-      max_g: 50000
-      confidence: medium
-    materials:
-      primary_material: steel
-      breakdown:
-      - material: steel
-        percentage: 70
-      - material: foam_padding
-        percentage: 20
-      - material: vinyl
-        percentage: 10
-    lca_data_missing: true
-  sg-1-2-6:
-    name: Resistance Bands
-    weight:
-      estimate_g: 200
-      min_g: 50
-      max_g: 500
-      confidence: high
-    materials:
-      primary_material: rubber
-    lca_data_missing: true
-  sg-1-3:
+  sg-2-26:
     name: Yoga & Pilates
-    weight:
-      estimate_g: 1500
-      min_g: 200
-      max_g: 5000
-      confidence: medium
-    lca_data_missing: true
-  sg-1-3-1:
-    name: Yoga Mats
     weight:
       estimate_g: 1500
       min_g: 800
@@ -178,17 +424,60 @@ categories:
     notes: TPE/natural rubber mats have lower footprint
     sources:
     - Material sustainability comparisons
-  sg-1-3-2:
-    name: Yoga Blocks
+  sg-2-4:
+    name: Cardio
     weight:
-      estimate_g: 300
-      min_g: 150
-      max_g: 500
-      confidence: high
-    materials:
-      primary_material: foam
+      estimate_g: 50000
+      min_g: 5000
+      max_g: 150000
+      confidence: low
+    notes: Treadmills, ellipticals, bikes
     lca_data_missing: true
-  sg-1-4:
+  sg-2-4-2-2:
+    name: Exercise Bikes
+    weight:
+      estimate_g: 35000
+      min_g: 15000
+      max_g: 60000
+      confidence: medium
+    materials:
+      primary_material: metal
+      breakdown:
+      - material: steel
+        percentage: 60
+      - material: plastic
+        percentage: 25
+      - material: electronics
+        percentage: 15
+    lca_data_missing: true
+  sg-2-4-2-3:
+    name: Rowing Machines
+    weight:
+      estimate_g: 30000
+      min_g: 20000
+      max_g: 50000
+      confidence: medium
+    lca_data_missing: true
+  sg-2-4-2-5:
+    name: Treadmills
+    weight:
+      estimate_g: 80000
+      min_g: 40000
+      max_g: 150000
+      confidence: medium
+    materials:
+      primary_material: metal
+      breakdown:
+      - material: steel
+        percentage: 55
+      - material: plastic
+        percentage: 20
+      - material: rubber_belt
+        percentage: 15
+      - material: electronics
+        percentage: 10
+    lca_data_missing: true
+  sg-2-4-3:
     name: Jump Ropes
     weight:
       estimate_g: 250
@@ -196,7 +485,555 @@ categories:
       max_g: 500
       confidence: high
     lca_data_missing: true
-  sg-2:
+  sg-2-5:
+    name: Exercise Balls
+    weight:
+      estimate_g: 1200
+      min_g: 800
+      max_g: 2000
+      confidence: medium
+    materials:
+      primary_material: pvc
+    lca_data_missing: true
+  sg-4-1:
+    name: Boating & Water Sports
+    weight:
+      estimate_g: 5000
+      min_g: 100
+      max_g: 50000
+      confidence: low
+    lca_data_missing: true
+  sg-4-1-1-3:
+    name: Canoes
+    weight:
+      estimate_g: 25000
+      min_g: 15000
+      max_g: 40000
+      confidence: medium
+    lca_data_missing: true
+  sg-4-1-1-5:
+    name: Kayaks
+    weight:
+      estimate_g: 20000
+      min_g: 10000
+      max_g: 35000
+      confidence: medium
+    materials:
+      primary_material: plastic
+      breakdown:
+      - material: polyethylene
+        percentage: 90
+      - material: other
+        percentage: 10
+    lca_data_missing: true
+  sg-4-1-1-7:
+    name: Paddles & Oars
+    weight:
+      estimate_g: 600
+      min_g: 300
+      max_g: 1200
+      confidence: medium
+    lca_data_missing: true
+  sg-4-1-2-3:
+    name: Life Jackets
+    weight:
+      estimate_g: 800
+      min_g: 300
+      max_g: 1500
+      confidence: medium
+    lca_data_missing: true
+  sg-4-1-2-7:
+    name: Wetsuits
+    weight:
+      estimate_g: 2000
+      min_g: 1000
+      max_g: 3500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 25.0
+      carbon_kg_co2e_per_unit: 50.0
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: neoprene
+      breakdown:
+      - material: neoprene
+        percentage: 85
+      - material: nylon
+        percentage: 15
+    sources:
+    - Patagonia Yulex studies
+    notes: Limestone neoprene has ~40% lower footprint
+  sg-4-1-3:
+    name: Diving & Snorkeling
+    weight:
+      estimate_g: 1500
+      min_g: 200
+      max_g: 15000
+      confidence: low
+    lca_data_missing: true
+  sg-4-1-3-5:
+    name: Diving & Snorkeling Masks
+    weight:
+      estimate_g: 400
+      min_g: 200
+      max_g: 700
+      confidence: medium
+    materials:
+      primary_material: silicone
+      breakdown:
+      - material: silicone
+        percentage: 50
+      - material: polycarbonate
+        percentage: 40
+      - material: other
+        percentage: 10
+    lca_data_missing: true
+  sg-4-1-5-2:
+    name: Paddleboards
+    weight:
+      estimate_g: 10000
+      min_g: 5000
+      max_g: 15000
+      confidence: medium
+    notes: Inflatable SUPs lighter (~8kg) than rigid
+    lca_data_missing: true
+  sg-4-1-5-8:
+    name: Surfboards
+    weight:
+      estimate_g: 3500
+      min_g: 2000
+      max_g: 6000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 20.0
+      carbon_kg_co2e_per_unit: 70.0
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: foam
+      breakdown:
+      - material: eps_foam
+        percentage: 50
+      - material: fiberglass
+        percentage: 35
+      - material: resin
+        percentage: 15
+    sources:
+    - Sustainable Surf industry studies
+  sg-4-1-6-1-5:
+    name: Swim Fins
+    weight:
+      estimate_g: 800
+      min_g: 400
+      max_g: 1500
+      confidence: medium
+    materials:
+      primary_material: rubber
+    lca_data_missing: true
+  sg-4-1-6-6:
+    name: Swim Caps
+    weight:
+      estimate_g: 50
+      min_g: 30
+      max_g: 80
+      confidence: high
+    materials:
+      primary_material: silicone
+    lca_data_missing: true
+  sg-4-1-6-9:
+    name: Swim Goggles & Masks
+    weight:
+      estimate_g: 50
+      min_g: 30
+      max_g: 80
+      confidence: high
+    lca_data_missing: true
+  sg-4-1-7-4-3:
+    name: Wakeboards
+    weight:
+      estimate_g: 3500
+      min_g: 2500
+      max_g: 5000
+      confidence: medium
+    lca_data_missing: true
+  sg-4-1-7-5-4:
+    name: Water Skis
+    weight:
+      estimate_g: 4000
+      min_g: 2500
+      max_g: 6000
+      confidence: medium
+      methodology: Per pair
+    lca_data_missing: true
+  sg-4-12:
+    name: Inline & Roller Skating
+    weight:
+      estimate_g: 550
+      min_g: 400
+      max_g: 800
+      confidence: high
+      methodology: Per pair
+    lca:
+      carbon_kg_co2e_per_kg: 18.0
+      carbon_kg_co2e_per_unit: 9.9
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: synthetic
+      breakdown:
+      - material: synthetic_mesh
+        percentage: 35
+      - material: foam_midsole
+        percentage: 35
+      - material: rubber_outsole
+        percentage: 20
+      - material: other
+        percentage: 10
+    sources:
+    - Running shoe LCA studies
+    - Nike sustainability reports
+  sg-4-12-3:
+    name: Inline Skates
+    weight:
+      estimate_g: 2800
+      min_g: 1800
+      max_g: 4000
+      confidence: medium
+      methodology: Per pair
+    lca_data_missing: true
+  sg-4-12-5:
+    name: Roller Skates
+    weight:
+      estimate_g: 2500
+      min_g: 1500
+      max_g: 4000
+      confidence: medium
+      methodology: Per pair
+    lca_data_missing: true
+  sg-4-14-1-2-2:
+    name: Badminton Rackets
+    weight:
+      estimate_g: 90
+      min_g: 70
+      max_g: 120
+      confidence: high
+    materials:
+      primary_material: carbon_fiber
+    lca_data_missing: true
+  sg-4-14-1-3:
+    name: Shuttlecocks
+    weight:
+      estimate_g: 5
+      min_g: 4.7
+      max_g: 5.5
+      confidence: high
+    lca_data_missing: true
+  sg-4-14-6-1:
+    name: Pickleball Paddles
+    weight:
+      estimate_g: 230
+      min_g: 180
+      max_g: 300
+      confidence: high
+    lca_data_missing: true
+  sg-4-16:
+    name: Skateboarding
+    weight:
+      estimate_g: 2000
+      min_g: 500
+      max_g: 5000
+      confidence: low
+    lca_data_missing: true
+  sg-4-16-1:
+    name: Complete Skateboards
+    weight:
+      estimate_g: 2500
+      min_g: 1500
+      max_g: 4000
+      confidence: medium
+    materials:
+      primary_material: wood
+      breakdown:
+      - material: maple_wood
+        percentage: 60
+      - material: metal_trucks
+        percentage: 25
+      - material: polyurethane_wheels
+        percentage: 15
+    lca_data_missing: true
+  sg-4-16-1-3:
+    name: Longboards
+    weight:
+      estimate_g: 4000
+      min_g: 2500
+      max_g: 6000
+      confidence: medium
+    lca_data_missing: true
+  sg-4-16-5:
+    name: Skateboarding Protective Gear
+    weight:
+      estimate_g: 350
+      min_g: 250
+      max_g: 500
+      confidence: high
+    lca_data_missing: true
+  sg-4-17:
+    name: Winter Sports & Activities
+    weight:
+      estimate_g: 5000
+      min_g: 200
+      max_g: 20000
+      confidence: low
+    lca_data_missing: true
+  sg-4-17-2-11:
+    name: Ski Boots
+    weight:
+      estimate_g: 4000
+      min_g: 2500
+      max_g: 5500
+      confidence: high
+      methodology: Per pair
+    materials:
+      primary_material: plastic
+      breakdown:
+      - material: polyurethane
+        percentage: 60
+      - material: foam_liner
+        percentage: 25
+      - material: metal_buckles
+        percentage: 15
+    lca_data_missing: true
+  sg-4-17-2-12:
+    name: Ski Poles
+    weight:
+      estimate_g: 400
+      min_g: 250
+      max_g: 600
+      confidence: high
+      methodology: Per pair
+    materials:
+      primary_material: aluminum
+    lca_data_missing: true
+  sg-4-17-2-13:
+    name: Skis
+    weight:
+      estimate_g: 4000
+      min_g: 2500
+      max_g: 6000
+      confidence: medium
+      methodology: Per pair
+    lca:
+      carbon_kg_co2e_per_kg: 15.0
+      carbon_kg_co2e_per_unit: 60.0
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: mixed
+      breakdown:
+      - material: wood_core
+        percentage: 40
+      - material: fiberglass
+        percentage: 30
+      - material: metal_edges
+        percentage: 15
+      - material: plastic_base
+        percentage: 15
+    sources:
+    - Ski industry sustainability reports
+  sg-4-17-2-16:
+    name: Snowboard Boots
+    weight:
+      estimate_g: 2500
+      min_g: 1800
+      max_g: 3500
+      confidence: high
+      methodology: Per pair
+    lca_data_missing: true
+  sg-4-17-2-17:
+    name: Snowboards
+    weight:
+      estimate_g: 3000
+      min_g: 2000
+      max_g: 4000
+      confidence: high
+    materials:
+      primary_material: mixed
+      breakdown:
+      - material: wood_core
+        percentage: 45
+      - material: fiberglass
+        percentage: 30
+      - material: plastic_base
+        percentage: 15
+      - material: metal_edges
+        percentage: 10
+    lca_data_missing: true
+  sg-4-17-2-3:
+    name: Ski & Snowboard Goggles
+    weight:
+      estimate_g: 200
+      min_g: 120
+      max_g: 350
+      confidence: high
+    lca_data_missing: true
+  sg-4-17-2-4:
+    name: Ski & Snowboard Helmets
+    weight:
+      estimate_g: 450
+      min_g: 350
+      max_g: 600
+      confidence: high
+    lca_data_missing: true
+  sg-4-2:
+    name: Camping & Hiking
+    weight:
+      estimate_g: 2000
+      min_g: 50
+      max_g: 20000
+      confidence: low
+    lca_data_missing: true
+  sg-4-2-14:
+    name: Sleeping Bags
+    weight:
+      estimate_g: 1500
+      min_g: 500
+      max_g: 3000
+      confidence: medium
+    materials:
+      primary_material: synthetic
+      breakdown:
+      - material: nylon_shell
+        percentage: 30
+      - material: synthetic_fill
+        percentage: 60
+      - material: other
+        percentage: 10
+    notes: Down-filled bags have different footprint profile
+    lca_data_missing: true
+  sg-4-2-15:
+    name: Sleeping Pads
+    weight:
+      estimate_g: 700
+      min_g: 300
+      max_g: 1500
+      confidence: medium
+    materials:
+      primary_material: foam
+    lca_data_missing: true
+  sg-4-2-17:
+    name: Tents
+    weight:
+      estimate_g: 3000
+      min_g: 1000
+      max_g: 10000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 18.0
+      carbon_kg_co2e_per_unit: 54.0
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: synthetic
+      breakdown:
+      - material: nylon
+        percentage: 50
+      - material: polyester
+        percentage: 30
+      - material: aluminum_poles
+        percentage: 20
+    sources:
+    - Outdoor industry sustainability reports
+  sg-4-3:
+    name: Climbing
+    weight:
+      estimate_g: 1000
+      min_g: 50
+      max_g: 10000
+      confidence: low
+    lca_data_missing: true
+  sg-4-3-1:
+    name: Belay Devices
+    weight:
+      estimate_g: 100
+      min_g: 50
+      max_g: 200
+      confidence: high
+    materials:
+      primary_material: aluminum
+    lca_data_missing: true
+  sg-4-3-10:
+    name: Climbing Rope
+    weight:
+      estimate_g: 3000
+      min_g: 1500
+      max_g: 5000
+      confidence: medium
+      methodology: Standard 60m rope
+    materials:
+      primary_material: nylon
+    lca_data_missing: true
+  sg-4-3-2:
+    name: Carabiners
+    weight:
+      estimate_g: 70
+      min_g: 30
+      max_g: 150
+      confidence: high
+    materials:
+      primary_material: aluminum
+    lca_data_missing: true
+  sg-4-3-3-2:
+    name: Climbing Helmets
+    weight:
+      estimate_g: 250
+      min_g: 180
+      max_g: 400
+      confidence: high
+    lca_data_missing: true
+  sg-4-3-3-4:
+    name: Climbing Shoes
+    weight:
+      estimate_g: 450
+      min_g: 300
+      max_g: 600
+      confidence: high
+      methodology: Per pair
+    lca_data_missing: true
+  sg-4-3-5:
+    name: Climbing Chalk Bags
+    weight:
+      estimate_g: 150
+      min_g: 50
+      max_g: 300
+      confidence: medium
+    lca_data_missing: true
+  sg-4-3-6:
+    name: Climbing Crash Pads
+    weight:
+      estimate_g: 5000
+      min_g: 3000
+      max_g: 8000
+      confidence: medium
+    lca_data_missing: true
+  sg-4-3-8:
+    name: Climbing Harnesses
+    weight:
+      estimate_g: 400
+      min_g: 250
+      max_g: 600
+      confidence: high
+    materials:
+      primary_material: nylon
+      breakdown:
+      - material: nylon
+        percentage: 70
+      - material: polyester
+        percentage: 20
+      - material: metal_buckles
+        percentage: 10
+    lca_data_missing: true
+  sg-4-4:
     name: Cycling
     weight:
       estimate_g: 12000
@@ -204,7 +1041,25 @@ categories:
       max_g: 25000
       confidence: low
     lca_data_missing: true
-  sg-2-1:
+  sg-4-4-1:
+    name: Bicycle Accessories
+    weight:
+      estimate_g: 500
+      min_g: 50
+      max_g: 5000
+      confidence: low
+    lca_data_missing: true
+  sg-4-4-1-13:
+    name: Bicycle Locks
+    weight:
+      estimate_g: 1000
+      min_g: 300
+      max_g: 2500
+      confidence: medium
+    materials:
+      primary_material: steel
+    lca_data_missing: true
+  sg-4-4-3:
     name: Bicycles
     weight:
       estimate_g: 12000
@@ -230,7 +1085,15 @@ categories:
     sources:
     - Trek Bicycle sustainability reports
     - European Cyclists' Federation LCA
-  sg-2-1-1:
+  sg-4-4-3-10:
+    name: Mountain Bikes
+    weight:
+      estimate_g: 13000
+      min_g: 9000
+      max_g: 18000
+      confidence: medium
+    lca_data_missing: true
+  sg-4-4-3-11:
     name: Road Bikes
     weight:
       estimate_g: 8500
@@ -248,15 +1111,7 @@ categories:
         percentage: 25
     notes: Carbon frames have higher embodied carbon but lower weight
     lca_data_missing: true
-  sg-2-1-2:
-    name: Mountain Bikes
-    weight:
-      estimate_g: 13000
-      min_g: 9000
-      max_g: 18000
-      confidence: medium
-    lca_data_missing: true
-  sg-2-1-3:
+  sg-4-4-3-5:
     name: Electric Bikes
     weight:
       estimate_g: 22000
@@ -285,8 +1140,8 @@ categories:
     notes: Battery production is significant portion of footprint
     sources:
     - E-bike LCA studies
-  sg-2-2:
-    name: Cycling Helmets
+  sg-4-4-4-5:
+    name: Bicycle Helmets
     weight:
       estimate_g: 300
       min_g: 200
@@ -302,309 +1157,175 @@ categories:
       - material: straps
         percentage: 10
     lca_data_missing: true
-  sg-2-3:
-    name: Bicycle Accessories
+  sg-4-5:
+    name: Equestrian
     weight:
-      estimate_g: 500
-      min_g: 50
-      max_g: 5000
+      estimate_g: 3000
+      min_g: 200
+      max_g: 20000
       confidence: low
     lca_data_missing: true
-  sg-2-3-1:
-    name: Bike Locks
+  sg-4-5-1-1:
+    name: Horse Blankets & Sheets
     weight:
-      estimate_g: 1000
-      min_g: 300
-      max_g: 2500
-      confidence: medium
-    materials:
-      primary_material: steel
-    lca_data_missing: true
-  sg-2-3-2:
-    name: Bike Lights
-    weight:
-      estimate_g: 150
-      min_g: 50
-      max_g: 400
-      confidence: medium
-    lca_data_missing: true
-  sg-3:
-    name: Water Sports
-    weight:
-      estimate_g: 5000
-      min_g: 100
-      max_g: 50000
-      confidence: low
-    lca_data_missing: true
-  sg-3-1:
-    name: Surfboards
-    weight:
-      estimate_g: 3500
-      min_g: 2000
+      estimate_g: 3000
+      min_g: 1500
       max_g: 6000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 20.0
-      carbon_kg_co2e_per_unit: 70.0
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: foam
-      breakdown:
-      - material: eps_foam
-        percentage: 50
-      - material: fiberglass
-        percentage: 35
-      - material: resin
-        percentage: 15
-    sources:
-    - Sustainable Surf industry studies
-  sg-3-2:
-    name: Kayaks
-    weight:
-      estimate_g: 20000
-      min_g: 10000
-      max_g: 35000
-      confidence: medium
-    materials:
-      primary_material: plastic
-      breakdown:
-      - material: polyethylene
-        percentage: 90
-      - material: other
-        percentage: 10
     lca_data_missing: true
-  sg-3-3:
-    name: Paddleboards
-    weight:
-      estimate_g: 10000
-      min_g: 5000
-      max_g: 15000
-      confidence: medium
-    notes: Inflatable SUPs lighter (~8kg) than rigid
-    lca_data_missing: true
-  sg-3-4:
-    name: Wetsuits
-    weight:
-      estimate_g: 2000
-      min_g: 1000
-      max_g: 3500
-      confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 25.0
-      carbon_kg_co2e_per_unit: 50.0
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: neoprene
-      breakdown:
-      - material: neoprene
-        percentage: 85
-      - material: nylon
-        percentage: 15
-    sources:
-    - Patagonia Yulex studies
-    notes: Limestone neoprene has ~40% lower footprint
-  sg-3-5:
-    name: Snorkeling & Diving Gear
-    weight:
-      estimate_g: 1500
-      min_g: 200
-      max_g: 15000
-      confidence: low
-    lca_data_missing: true
-  sg-3-5-1:
-    name: Snorkel Masks
-    weight:
-      estimate_g: 400
-      min_g: 200
-      max_g: 700
-      confidence: medium
-    materials:
-      primary_material: silicone
-      breakdown:
-      - material: silicone
-        percentage: 50
-      - material: polycarbonate
-        percentage: 40
-      - material: other
-        percentage: 10
-    lca_data_missing: true
-  sg-3-5-2:
-    name: Swim Fins
+  sg-4-5-2-2:
+    name: Bridles
     weight:
       estimate_g: 800
       min_g: 400
       max_g: 1500
       confidence: medium
     materials:
-      primary_material: rubber
+      primary_material: leather
     lca_data_missing: true
-  sg-4:
-    name: Winter Sports
+  sg-4-5-2-8:
+    name: Saddles
     weight:
-      estimate_g: 5000
-      min_g: 200
+      estimate_g: 8000
+      min_g: 4000
+      max_g: 15000
+      confidence: medium
+    materials:
+      primary_material: leather
+    lca_data_missing: true
+  sg-4-5-5-2:
+    name: Equestrian Helmets
+    weight:
+      estimate_g: 400
+      min_g: 300
+      max_g: 600
+      confidence: high
+    lca_data_missing: true
+  sg-4-6:
+    name: Fishing
+    weight:
+      estimate_g: 1000
+      min_g: 50
       max_g: 20000
       confidence: low
     lca_data_missing: true
-  sg-4-1:
-    name: Skis
-    weight:
-      estimate_g: 4000
-      min_g: 2500
-      max_g: 6000
-      confidence: medium
-      methodology: Per pair
-    lca:
-      carbon_kg_co2e_per_kg: 15.0
-      carbon_kg_co2e_per_unit: 60.0
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: mixed
-      breakdown:
-      - material: wood_core
-        percentage: 40
-      - material: fiberglass
-        percentage: 30
-      - material: metal_edges
-        percentage: 15
-      - material: plastic_base
-        percentage: 15
-    sources:
-    - Ski industry sustainability reports
-  sg-4-2:
-    name: Snowboards
-    weight:
-      estimate_g: 3000
-      min_g: 2000
-      max_g: 4000
-      confidence: high
-    materials:
-      primary_material: mixed
-      breakdown:
-      - material: wood_core
-        percentage: 45
-      - material: fiberglass
-        percentage: 30
-      - material: plastic_base
-        percentage: 15
-      - material: metal_edges
-        percentage: 10
-    lca_data_missing: true
-  sg-4-3:
-    name: Ski Boots
-    weight:
-      estimate_g: 4000
-      min_g: 2500
-      max_g: 5500
-      confidence: high
-      methodology: Per pair
-    materials:
-      primary_material: plastic
-      breakdown:
-      - material: polyurethane
-        percentage: 60
-      - material: foam_liner
-        percentage: 25
-      - material: metal_buckles
-        percentage: 15
-    lca_data_missing: true
-  sg-4-4:
-    name: Snowboard Boots
-    weight:
-      estimate_g: 2500
-      min_g: 1800
-      max_g: 3500
-      confidence: high
-      methodology: Per pair
-    lca_data_missing: true
-  sg-4-5:
-    name: Ski Poles
-    weight:
-      estimate_g: 400
-      min_g: 250
-      max_g: 600
-      confidence: high
-      methodology: Per pair
-    materials:
-      primary_material: aluminum
-    lca_data_missing: true
-  sg-4-6:
-    name: Ski Helmets
-    weight:
-      estimate_g: 450
-      min_g: 350
-      max_g: 600
-      confidence: high
-    lca_data_missing: true
-  sg-4-7:
-    name: Ski Goggles
-    weight:
-      estimate_g: 200
-      min_g: 120
-      max_g: 350
-      confidence: high
-    lca_data_missing: true
-  sg-5:
-    name: Team Sports
-    weight:
-      estimate_g: 500
-      min_g: 50
-      max_g: 5000
-      confidence: low
-    lca_data_missing: true
-  sg-5-1:
-    name: Basketballs
-    weight:
-      estimate_g: 600
-      min_g: 500
-      max_g: 700
-      confidence: high
-    materials:
-      primary_material: rubber
-      breakdown:
-      - material: rubber
-        percentage: 70
-      - material: synthetic_leather
-        percentage: 30
-    lca_data_missing: true
-  sg-5-2:
-    name: Soccer Balls
-    weight:
-      estimate_g: 430
-      min_g: 400
-      max_g: 500
-      confidence: high
-    materials:
-      primary_material: synthetic
-      breakdown:
-      - material: polyurethane
-        percentage: 50
-      - material: polyester
-        percentage: 30
-      - material: rubber_bladder
-        percentage: 20
-    lca_data_missing: true
-  sg-5-3:
-    name: Tennis Rackets
+  sg-4-6-11:
+    name: Fishing Rods
     weight:
       estimate_g: 300
-      min_g: 250
-      max_g: 350
-      confidence: high
+      min_g: 100
+      max_g: 600
+      confidence: medium
     materials:
       primary_material: carbon_fiber
       breakdown:
       - material: carbon_fiber
-        percentage: 70
-      - material: graphite
-        percentage: 20
+        percentage: 60
+      - material: fiberglass
+        percentage: 30
       - material: other
         percentage: 10
     lca_data_missing: true
-  sg-5-4:
+  sg-4-6-13:
+    name: Fishing Tackle
+    weight:
+      estimate_g: 500
+      min_g: 50
+      max_g: 2000
+      confidence: low
+    notes: Lures, hooks, lines, etc.
+    lca_data_missing: true
+  sg-4-6-2-1:
+    name: Fishing Waders
+    weight:
+      estimate_g: 1500
+      min_g: 800
+      max_g: 2500
+      confidence: medium
+    materials:
+      primary_material: neoprene
+    lca_data_missing: true
+  sg-4-6-7:
+    name: Fishing Nets
+    weight:
+      estimate_g: 400
+      min_g: 150
+      max_g: 1000
+      confidence: medium
+    lca_data_missing: true
+  sg-4-6-9:
+    name: Fishing Reels
+    weight:
+      estimate_g: 300
+      min_g: 100
+      max_g: 800
+      confidence: medium
+    materials:
+      primary_material: aluminum
+    lca_data_missing: true
+  sg-4-7:
+    name: Golf
+    weight:
+      estimate_g: 200
+      min_g: 100
+      max_g: 350
+      confidence: medium
+    lca_data_missing: true
+  sg-4-7-11:
+    name: Golf Gloves
+    weight:
+      estimate_g: 30
+      min_g: 20
+      max_g: 50
+      confidence: high
+    materials:
+      primary_material: leather
+    lca_data_missing: true
+  sg-4-7-15:
+    name: Golf Shoes
+    weight:
+      estimate_g: 700
+      min_g: 500
+      max_g: 1000
+      confidence: medium
+      methodology: Per pair
+    lca_data_missing: true
+  sg-4-7-4:
+    name: Golf Bags
+    weight:
+      estimate_g: 3000
+      min_g: 1500
+      max_g: 5000
+      confidence: medium
+    materials:
+      primary_material: synthetic
+      breakdown:
+      - material: nylon
+        percentage: 60
+      - material: polyester
+        percentage: 30
+      - material: other
+        percentage: 10
+    lca_data_missing: true
+  sg-4-7-6:
+    name: Golf Balls
+    weight:
+      estimate_g: 46
+      min_g: 45
+      max_g: 46
+      confidence: high
+      methodology: Per ball (USGA max)
+    lca_data_missing: true
+  sg-4-7-8:
+    name: Golf Club Sets
+    weight:
+      estimate_g: 12000
+      min_g: 8000
+      max_g: 18000
+      confidence: medium
+      methodology: Full set of 14 clubs
+    lca_data_missing: true
+  sg-4-7-9:
     name: Golf Clubs
     weight:
       estimate_g: 350
@@ -622,311 +1343,7 @@ categories:
       - material: rubber_grip
         percentage: 10
     lca_data_missing: true
-  sg-5-5:
-    name: Golf Bags
-    weight:
-      estimate_g: 3000
-      min_g: 1500
-      max_g: 5000
-      confidence: medium
-    materials:
-      primary_material: synthetic
-      breakdown:
-      - material: nylon
-        percentage: 60
-      - material: polyester
-        percentage: 30
-      - material: other
-        percentage: 10
-    lca_data_missing: true
-  sg-6:
-    name: Camping & Hiking
-    weight:
-      estimate_g: 2000
-      min_g: 50
-      max_g: 20000
-      confidence: low
-    lca_data_missing: true
-  sg-6-1:
-    name: Tents
-    weight:
-      estimate_g: 3000
-      min_g: 1000
-      max_g: 10000
-      confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 18.0
-      carbon_kg_co2e_per_unit: 54.0
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: synthetic
-      breakdown:
-      - material: nylon
-        percentage: 50
-      - material: polyester
-        percentage: 30
-      - material: aluminum_poles
-        percentage: 20
-    sources:
-    - Outdoor industry sustainability reports
-  sg-6-2:
-    name: Sleeping Bags
-    weight:
-      estimate_g: 1500
-      min_g: 500
-      max_g: 3000
-      confidence: medium
-    materials:
-      primary_material: synthetic
-      breakdown:
-      - material: nylon_shell
-        percentage: 30
-      - material: synthetic_fill
-        percentage: 60
-      - material: other
-        percentage: 10
-    notes: Down-filled bags have different footprint profile
-    lca_data_missing: true
-  sg-6-3:
-    name: Sleeping Pads
-    weight:
-      estimate_g: 700
-      min_g: 300
-      max_g: 1500
-      confidence: medium
-    materials:
-      primary_material: foam
-    lca_data_missing: true
-  sg-6-4:
-    name: Hiking Boots
-    weight:
-      estimate_g: 1200
-      min_g: 800
-      max_g: 2000
-      confidence: high
-      methodology: Per pair
-    materials:
-      primary_material: mixed
-      breakdown:
-      - material: leather
-        percentage: 40
-      - material: rubber_sole
-        percentage: 30
-      - material: synthetic
-        percentage: 20
-      - material: foam
-        percentage: 10
-    lca_data_missing: true
-  sg-6-5:
-    name: Hiking Backpacks
-    weight:
-      estimate_g: 1800
-      min_g: 500
-      max_g: 3500
-      confidence: medium
-    materials:
-      primary_material: nylon
-      breakdown:
-      - material: nylon
-        percentage: 70
-      - material: foam_padding
-        percentage: 20
-      - material: hardware
-        percentage: 10
-    lca_data_missing: true
-  sg-6-6:
-    name: Trekking Poles
-    weight:
-      estimate_g: 500
-      min_g: 300
-      max_g: 800
-      confidence: high
-      methodology: Per pair
-    materials:
-      primary_material: aluminum
-      breakdown:
-      - material: aluminum
-        percentage: 70
-      - material: carbon_fiber
-        percentage: 20
-      - material: other
-        percentage: 10
-    lca_data_missing: true
-  sg-6-7:
-    name: Camp Stoves
-    weight:
-      estimate_g: 400
-      min_g: 100
-      max_g: 2000
-      confidence: medium
-    materials:
-      primary_material: metal
-      breakdown:
-      - material: stainless_steel
-        percentage: 60
-      - material: aluminum
-        percentage: 30
-      - material: other
-        percentage: 10
-    lca_data_missing: true
-  sg-6-8:
-    name: Headlamps
-    weight:
-      estimate_g: 100
-      min_g: 50
-      max_g: 200
-      confidence: high
-    lca_data_missing: true
-  sg-7:
-    name: Running
-    weight:
-      estimate_g: 300
-      min_g: 100
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-  sg-7-1:
-    name: Running Shoes
-    weight:
-      estimate_g: 550
-      min_g: 400
-      max_g: 800
-      confidence: high
-      methodology: Per pair
-    lca:
-      carbon_kg_co2e_per_kg: 18.0
-      carbon_kg_co2e_per_unit: 9.9
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: synthetic
-      breakdown:
-      - material: synthetic_mesh
-        percentage: 35
-      - material: foam_midsole
-        percentage: 35
-      - material: rubber_outsole
-        percentage: 20
-      - material: other
-        percentage: 10
-    sources:
-    - Running shoe LCA studies
-    - Nike sustainability reports
-  sg-7-2:
-    name: Running Watches
-    weight:
-      estimate_g: 50
-      min_g: 30
-      max_g: 80
-      confidence: high
-    notes: High-tech electronics with small weight
-    lca_data_missing: true
-  sg-7-3:
-    name: Running Belts & Armbands
-    weight:
-      estimate_g: 100
-      min_g: 50
-      max_g: 200
-      confidence: high
-    lca_data_missing: true
-  sg-7-4:
-    name: Running Vests
-    weight:
-      estimate_g: 200
-      min_g: 100
-      max_g: 400
-      confidence: medium
-    lca_data_missing: true
-  sg-8:
-    name: Fishing
-    weight:
-      estimate_g: 1000
-      min_g: 50
-      max_g: 20000
-      confidence: low
-    lca_data_missing: true
-  sg-8-1:
-    name: Fishing Rods
-    weight:
-      estimate_g: 300
-      min_g: 100
-      max_g: 600
-      confidence: medium
-    materials:
-      primary_material: carbon_fiber
-      breakdown:
-      - material: carbon_fiber
-        percentage: 60
-      - material: fiberglass
-        percentage: 30
-      - material: other
-        percentage: 10
-    lca_data_missing: true
-  sg-8-2:
-    name: Fishing Reels
-    weight:
-      estimate_g: 300
-      min_g: 100
-      max_g: 800
-      confidence: medium
-    materials:
-      primary_material: aluminum
-    lca_data_missing: true
-  sg-8-3:
-    name: Fishing Tackle
-    weight:
-      estimate_g: 500
-      min_g: 50
-      max_g: 2000
-      confidence: low
-    notes: Lures, hooks, lines, etc.
-    lca_data_missing: true
-  sg-8-4:
-    name: Tackle Boxes
-    weight:
-      estimate_g: 1500
-      min_g: 500
-      max_g: 4000
-      confidence: medium
-    materials:
-      primary_material: plastic
-    lca_data_missing: true
-  sg-8-5:
-    name: Fishing Nets
-    weight:
-      estimate_g: 400
-      min_g: 150
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-  sg-8-6:
-    name: Fish Finders
-    weight:
-      estimate_g: 1000
-      min_g: 300
-      max_g: 3000
-      confidence: medium
-    lca_data_missing: true
-  sg-8-7:
-    name: Fishing Waders
-    weight:
-      estimate_g: 1500
-      min_g: 800
-      max_g: 2500
-      confidence: medium
-    materials:
-      primary_material: neoprene
-    lca_data_missing: true
-  sg-8-8:
-    name: Fishing Vests
-    weight:
-      estimate_g: 500
-      min_g: 300
-      max_g: 800
-      confidence: medium
-    lca_data_missing: true
-  sg-9:
+  sg-4-9-3:
     name: Hunting
     weight:
       estimate_g: 2000
@@ -934,42 +1351,15 @@ categories:
       max_g: 30000
       confidence: low
     lca_data_missing: true
-  sg-9-1:
-    name: Hunting Blinds
+  sg-4-9-3-3:
+    name: Hunting Blinds & Screens
     weight:
       estimate_g: 10000
       min_g: 3000
       max_g: 25000
       confidence: medium
     lca_data_missing: true
-  sg-9-2:
-    name: Game Calls
-    weight:
-      estimate_g: 100
-      min_g: 30
-      max_g: 300
-      confidence: medium
-    lca_data_missing: true
-  sg-9-3:
-    name: Decoys
-    weight:
-      estimate_g: 1000
-      min_g: 300
-      max_g: 3000
-      confidence: medium
-    materials:
-      primary_material: plastic
-    lca_data_missing: true
-  sg-9-4:
-    name: Hunting Boots
-    weight:
-      estimate_g: 1500
-      min_g: 1000
-      max_g: 2500
-      confidence: medium
-      methodology: Per pair
-    lca_data_missing: true
-  sg-9-5:
+  sg-4-9-3-5:
     name: Tree Stands
     weight:
       estimate_g: 8000
@@ -979,206 +1369,25 @@ categories:
     materials:
       primary_material: steel
     lca_data_missing: true
-  sg-9-6:
-    name: Hunting Backpacks
-    weight:
-      estimate_g: 2500
-      min_g: 1000
-      max_g: 5000
-      confidence: medium
-    lca_data_missing: true
-  sg-10:
-    name: Climbing
-    weight:
-      estimate_g: 1000
-      min_g: 50
-      max_g: 10000
-      confidence: low
-    lca_data_missing: true
-  sg-10-1:
-    name: Climbing Harnesses
-    weight:
-      estimate_g: 400
-      min_g: 250
-      max_g: 600
-      confidence: high
-    materials:
-      primary_material: nylon
-      breakdown:
-      - material: nylon
-        percentage: 70
-      - material: polyester
-        percentage: 20
-      - material: metal_buckles
-        percentage: 10
-    lca_data_missing: true
-  sg-10-2:
-    name: Climbing Ropes
-    weight:
-      estimate_g: 3000
-      min_g: 1500
-      max_g: 5000
-      confidence: medium
-      methodology: Standard 60m rope
-    materials:
-      primary_material: nylon
-    lca_data_missing: true
-  sg-10-3:
-    name: Carabiners
-    weight:
-      estimate_g: 70
-      min_g: 30
-      max_g: 150
-      confidence: high
-    materials:
-      primary_material: aluminum
-    lca_data_missing: true
-  sg-10-4:
-    name: Climbing Shoes
-    weight:
-      estimate_g: 450
-      min_g: 300
-      max_g: 600
-      confidence: high
-      methodology: Per pair
-    lca_data_missing: true
-  sg-10-5:
-    name: Climbing Helmets
-    weight:
-      estimate_g: 250
-      min_g: 180
-      max_g: 400
-      confidence: high
-    lca_data_missing: true
-  sg-10-6:
-    name: Belay Devices
+  sg-4-9-3-7-2:
+    name: Hunting & Wildlife Calls
     weight:
       estimate_g: 100
-      min_g: 50
-      max_g: 200
-      confidence: high
-    materials:
-      primary_material: aluminum
-    lca_data_missing: true
-  sg-10-7:
-    name: Chalk & Chalk Bags
-    weight:
-      estimate_g: 150
-      min_g: 50
+      min_g: 30
       max_g: 300
       confidence: medium
     lca_data_missing: true
-  sg-10-8:
-    name: Crash Pads
+  sg-4-9-3-7-3:
+    name: Hunting & Wildlife Decoys
     weight:
-      estimate_g: 5000
-      min_g: 3000
-      max_g: 8000
+      estimate_g: 1000
+      min_g: 300
+      max_g: 3000
       confidence: medium
-    lca_data_missing: true
-  sg-11:
-    name: Racquet Sports
-    weight:
-      estimate_g: 300
-      min_g: 50
-      max_g: 2000
-      confidence: low
-    lca_data_missing: true
-  sg-11-1:
-    name: Badminton Rackets
-    weight:
-      estimate_g: 90
-      min_g: 70
-      max_g: 120
-      confidence: high
     materials:
-      primary_material: carbon_fiber
+      primary_material: plastic
     lca_data_missing: true
-  sg-11-2:
-    name: Squash Rackets
-    weight:
-      estimate_g: 150
-      min_g: 120
-      max_g: 180
-      confidence: high
-    lca_data_missing: true
-  sg-11-3:
-    name: Racquetball Rackets
-    weight:
-      estimate_g: 180
-      min_g: 150
-      max_g: 220
-      confidence: high
-    lca_data_missing: true
-  sg-11-4:
-    name: Pickleball Paddles
-    weight:
-      estimate_g: 230
-      min_g: 180
-      max_g: 300
-      confidence: high
-    lca_data_missing: true
-  sg-11-5:
-    name: Table Tennis Paddles
-    weight:
-      estimate_g: 180
-      min_g: 150
-      max_g: 220
-      confidence: high
-    materials:
-      primary_material: wood
-      breakdown:
-      - material: wood
-        percentage: 60
-      - material: rubber
-        percentage: 40
-    lca_data_missing: true
-  sg-11-6:
-    name: Tennis Balls
-    weight:
-      estimate_g: 58
-      min_g: 56
-      max_g: 60
-      confidence: high
-      methodology: Per ball (ITF standard)
-    lca_data_missing: true
-  sg-11-7:
-    name: Badminton Shuttlecocks
-    weight:
-      estimate_g: 5
-      min_g: 4.7
-      max_g: 5.5
-      confidence: high
-    lca_data_missing: true
-  sg-5-6:
-    name: Golf Sets
-    weight:
-      estimate_g: 12000
-      min_g: 8000
-      max_g: 18000
-      confidence: medium
-      methodology: Full set of 14 clubs
-    lca_data_missing: true
-  sg-5-7:
-    name: Golf Balls
-    weight:
-      estimate_g: 46
-      min_g: 45
-      max_g: 46
-      confidence: high
-      methodology: Per ball (USGA max)
-    lca_data_missing: true
-  sg-5-8:
-    name: Golf Gloves
-    weight:
-      estimate_g: 30
-      min_g: 20
-      max_g: 50
-      confidence: high
-    materials:
-      primary_material: leather
-    lca_data_missing: true
-  sg-5-9:
+  vp-2-2-2:
     name: Golf Carts
     weight:
       estimate_g: 250000
@@ -1186,470 +1395,4 @@ categories:
       max_g: 400000
       confidence: medium
     notes: Electric golf carts
-    lca_data_missing: true
-  sg-5-10:
-    name: Push Carts
-    weight:
-      estimate_g: 8000
-      min_g: 5000
-      max_g: 12000
-      confidence: medium
-    lca_data_missing: true
-  sg-5-11:
-    name: Golf Rangefinders
-    weight:
-      estimate_g: 200
-      min_g: 100
-      max_g: 350
-      confidence: medium
-    lca_data_missing: true
-  sg-5-12:
-    name: Golf Shoes
-    weight:
-      estimate_g: 700
-      min_g: 500
-      max_g: 1000
-      confidence: medium
-      methodology: Per pair
-    lca_data_missing: true
-  sg-12:
-    name: Combat Sports
-    weight:
-      estimate_g: 500
-      min_g: 50
-      max_g: 5000
-      confidence: low
-    lca_data_missing: true
-  sg-12-1:
-    name: Boxing Gloves
-    weight:
-      estimate_g: 400
-      min_g: 200
-      max_g: 700
-      confidence: medium
-      methodology: Per pair
-    materials:
-      primary_material: leather
-      breakdown:
-      - material: leather
-        percentage: 50
-      - material: foam
-        percentage: 40
-      - material: other
-        percentage: 10
-    lca_data_missing: true
-  sg-12-2:
-    name: Punching Bags
-    weight:
-      estimate_g: 30000
-      min_g: 10000
-      max_g: 70000
-      confidence: medium
-    lca_data_missing: true
-  sg-12-3:
-    name: MMA Gloves
-    weight:
-      estimate_g: 200
-      min_g: 100
-      max_g: 350
-      confidence: medium
-      methodology: Per pair
-    lca_data_missing: true
-  sg-12-4:
-    name: Shin Guards
-    weight:
-      estimate_g: 300
-      min_g: 150
-      max_g: 500
-      confidence: medium
-      methodology: Per pair
-    lca_data_missing: true
-  sg-12-5:
-    name: Head Gear
-    weight:
-      estimate_g: 350
-      min_g: 200
-      max_g: 500
-      confidence: medium
-    lca_data_missing: true
-  sg-12-6:
-    name: Mouth Guards
-    weight:
-      estimate_g: 30
-      min_g: 15
-      max_g: 50
-      confidence: high
-    lca_data_missing: true
-  sg-12-7:
-    name: Wrestling Mats
-    weight:
-      estimate_g: 50000
-      min_g: 20000
-      max_g: 100000
-      confidence: low
-    lca_data_missing: true
-  sg-12-8:
-    name: Martial Arts Uniforms
-    weight:
-      estimate_g: 500
-      min_g: 300
-      max_g: 800
-      confidence: medium
-    materials:
-      primary_material: cotton
-    lca_data_missing: true
-  sg-13:
-    name: Skating
-    weight:
-      estimate_g: 2000
-      min_g: 500
-      max_g: 5000
-      confidence: low
-    lca_data_missing: true
-  sg-13-1:
-    name: Skateboards
-    weight:
-      estimate_g: 2500
-      min_g: 1500
-      max_g: 4000
-      confidence: medium
-    materials:
-      primary_material: wood
-      breakdown:
-      - material: maple_wood
-        percentage: 60
-      - material: metal_trucks
-        percentage: 25
-      - material: polyurethane_wheels
-        percentage: 15
-    lca_data_missing: true
-  sg-13-2:
-    name: Longboards
-    weight:
-      estimate_g: 4000
-      min_g: 2500
-      max_g: 6000
-      confidence: medium
-    lca_data_missing: true
-  sg-13-3:
-    name: Roller Skates
-    weight:
-      estimate_g: 2500
-      min_g: 1500
-      max_g: 4000
-      confidence: medium
-      methodology: Per pair
-    lca_data_missing: true
-  sg-13-4:
-    name: Inline Skates
-    weight:
-      estimate_g: 2800
-      min_g: 1800
-      max_g: 4000
-      confidence: medium
-      methodology: Per pair
-    lca_data_missing: true
-  sg-13-5:
-    name: Ice Skates
-    weight:
-      estimate_g: 2000
-      min_g: 1200
-      max_g: 3000
-      confidence: medium
-      methodology: Per pair
-    lca_data_missing: true
-  sg-13-6:
-    name: Skateboard Helmets
-    weight:
-      estimate_g: 350
-      min_g: 250
-      max_g: 500
-      confidence: high
-    lca_data_missing: true
-  sg-13-7:
-    name: Skating Pads
-    weight:
-      estimate_g: 400
-      min_g: 200
-      max_g: 700
-      confidence: medium
-      methodology: Knee + elbow + wrist set
-    lca_data_missing: true
-  sg-14:
-    name: Equestrian
-    weight:
-      estimate_g: 3000
-      min_g: 200
-      max_g: 20000
-      confidence: low
-    lca_data_missing: true
-  sg-14-1:
-    name: Saddles
-    weight:
-      estimate_g: 8000
-      min_g: 4000
-      max_g: 15000
-      confidence: medium
-    materials:
-      primary_material: leather
-    lca_data_missing: true
-  sg-14-2:
-    name: Bridles
-    weight:
-      estimate_g: 800
-      min_g: 400
-      max_g: 1500
-      confidence: medium
-    materials:
-      primary_material: leather
-    lca_data_missing: true
-  sg-14-3:
-    name: Riding Helmets
-    weight:
-      estimate_g: 400
-      min_g: 300
-      max_g: 600
-      confidence: high
-    lca_data_missing: true
-  sg-14-4:
-    name: Riding Boots
-    weight:
-      estimate_g: 1500
-      min_g: 1000
-      max_g: 2500
-      confidence: medium
-      methodology: Per pair
-    materials:
-      primary_material: leather
-    lca_data_missing: true
-  sg-14-5:
-    name: Horse Blankets
-    weight:
-      estimate_g: 3000
-      min_g: 1500
-      max_g: 6000
-      confidence: medium
-    lca_data_missing: true
-  sg-5-13:
-    name: Footballs (American)
-    weight:
-      estimate_g: 420
-      min_g: 400
-      max_g: 450
-      confidence: high
-    materials:
-      primary_material: leather
-    lca_data_missing: true
-  sg-5-14:
-    name: Baseball Gloves
-    weight:
-      estimate_g: 400
-      min_g: 250
-      max_g: 600
-      confidence: medium
-    materials:
-      primary_material: leather
-    lca_data_missing: true
-  sg-5-15:
-    name: Baseball Bats
-    weight:
-      estimate_g: 900
-      min_g: 600
-      max_g: 1200
-      confidence: medium
-    materials:
-      primary_material: wood
-    notes: Aluminum bats heavier (~850g) with higher footprint
-    lca_data_missing: true
-  sg-5-16:
-    name: Baseballs
-    weight:
-      estimate_g: 145
-      min_g: 142
-      max_g: 149
-      confidence: high
-    lca_data_missing: true
-  sg-5-17:
-    name: Hockey Sticks
-    weight:
-      estimate_g: 450
-      min_g: 350
-      max_g: 600
-      confidence: medium
-    materials:
-      primary_material: carbon_fiber
-    lca_data_missing: true
-  sg-5-18:
-    name: Hockey Pucks
-    weight:
-      estimate_g: 170
-      min_g: 156
-      max_g: 170
-      confidence: high
-    materials:
-      primary_material: rubber
-    lca_data_missing: true
-  sg-5-19:
-    name: Lacrosse Sticks
-    weight:
-      estimate_g: 400
-      min_g: 300
-      max_g: 600
-      confidence: medium
-    lca_data_missing: true
-  sg-5-20:
-    name: Volleyballs
-    weight:
-      estimate_g: 270
-      min_g: 260
-      max_g: 280
-      confidence: high
-    lca_data_missing: true
-  sg-5-21:
-    name: Football Helmets
-    weight:
-      estimate_g: 1800
-      min_g: 1400
-      max_g: 2300
-      confidence: medium
-    lca_data_missing: true
-  sg-5-22:
-    name: Sports Protective Pads
-    weight:
-      estimate_g: 500
-      min_g: 200
-      max_g: 1500
-      confidence: low
-    lca_data_missing: true
-  sg-3-6:
-    name: Life Jackets
-    weight:
-      estimate_g: 800
-      min_g: 300
-      max_g: 1500
-      confidence: medium
-    lca_data_missing: true
-  sg-3-7:
-    name: Water Skis
-    weight:
-      estimate_g: 4000
-      min_g: 2500
-      max_g: 6000
-      confidence: medium
-      methodology: Per pair
-    lca_data_missing: true
-  sg-3-8:
-    name: Wakeboards
-    weight:
-      estimate_g: 3500
-      min_g: 2500
-      max_g: 5000
-      confidence: medium
-    lca_data_missing: true
-  sg-3-9:
-    name: Canoes
-    weight:
-      estimate_g: 25000
-      min_g: 15000
-      max_g: 40000
-      confidence: medium
-    lca_data_missing: true
-  sg-3-10:
-    name: Paddles
-    weight:
-      estimate_g: 600
-      min_g: 300
-      max_g: 1200
-      confidence: medium
-    lca_data_missing: true
-  sg-3-11:
-    name: Swim Goggles
-    weight:
-      estimate_g: 50
-      min_g: 30
-      max_g: 80
-      confidence: high
-    lca_data_missing: true
-  sg-3-12:
-    name: Swim Caps
-    weight:
-      estimate_g: 50
-      min_g: 30
-      max_g: 80
-      confidence: high
-    materials:
-      primary_material: silicone
-    lca_data_missing: true
-  sg-1-5:
-    name: Foam Rollers
-    weight:
-      estimate_g: 500
-      min_g: 200
-      max_g: 1000
-      confidence: medium
-    materials:
-      primary_material: eva_foam
-    lca_data_missing: true
-  sg-1-6:
-    name: Pull-Up Bars
-    weight:
-      estimate_g: 3000
-      min_g: 1000
-      max_g: 8000
-      confidence: medium
-    materials:
-      primary_material: steel
-    lca_data_missing: true
-  sg-1-7:
-    name: Exercise Balls
-    weight:
-      estimate_g: 1200
-      min_g: 800
-      max_g: 2000
-      confidence: medium
-    materials:
-      primary_material: pvc
-    lca_data_missing: true
-  sg-1-8:
-    name: Battle Ropes
-    weight:
-      estimate_g: 12000
-      min_g: 8000
-      max_g: 18000
-      confidence: medium
-    lca_data_missing: true
-  sg-1-9:
-    name: Medicine Balls
-    weight:
-      estimate_g: 5000
-      min_g: 1000
-      max_g: 15000
-      confidence: low
-      methodology: Varies by weight class (1-15kg)
-    lca_data_missing: true
-  sg-1-10:
-    name: Workout Gloves
-    weight:
-      estimate_g: 100
-      min_g: 50
-      max_g: 200
-      confidence: medium
-      methodology: Per pair
-    lca_data_missing: true
-  sg-1-11:
-    name: Ab Rollers
-    weight:
-      estimate_g: 500
-      min_g: 300
-      max_g: 800
-      confidence: medium
-    lca_data_missing: true
-  sg-1-12:
-    name: Suspension Trainers
-    weight:
-      estimate_g: 700
-      min_g: 400
-      max_g: 1200
-      confidence: medium
-    notes: TRX-style training systems
     lca_data_missing: true

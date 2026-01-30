@@ -1,8 +1,228 @@
 schema_version: 0.1.0
-last_updated: '2026-01-19'
+last_updated: '2026-01-29'
 categories:
-  ap-1:
-    name: Pet Food
+  ap-2:
+    name: Pet Supplies
+    weight:
+      estimate_g: 150
+      min_g: 50
+      max_g: 500
+      confidence: medium
+    lca_data_missing: true
+  ap-2-1:
+    name: Bird Supplies
+    weight:
+      estimate_g: 2000
+      min_g: 50
+      max_g: 20000
+      confidence: low
+    lca_data_missing: true
+  ap-2-1-2:
+    name: Bird Cages & Stands
+    weight:
+      estimate_g: 5000
+      min_g: 1000
+      max_g: 20000
+      confidence: medium
+    materials:
+      primary_material: metal
+      breakdown:
+      - material: steel_wire
+        percentage: 70
+      - material: plastic_tray
+        percentage: 25
+      - material: other
+        percentage: 5
+    lca_data_missing: true
+  ap-2-1-3:
+    name: Bird Food
+    weight:
+      estimate_g: 2000
+      min_g: 200
+      max_g: 10000
+      confidence: medium
+    materials:
+      primary_material: seeds
+    notes: Seed-based, lower footprint than meat-based pet food
+    lca_data_missing: true
+  ap-2-1-5:
+    name: Bird Ladders & Perches
+    weight:
+      estimate_g: 200
+      min_g: 50
+      max_g: 500
+      confidence: medium
+    materials:
+      primary_material: wood
+    lca_data_missing: true
+  ap-2-1-6:
+    name: Bird Toys
+    weight:
+      estimate_g: 100
+      min_g: 20
+      max_g: 400
+      confidence: medium
+    lca_data_missing: true
+  ap-2-16:
+    name: Pet Carriers & Crates
+    weight:
+      estimate_g: 8000
+      min_g: 3000
+      max_g: 20000
+      confidence: medium
+    materials:
+      primary_material: metal
+      breakdown:
+      - material: steel_wire
+        percentage: 80
+      - material: plastic_tray
+        percentage: 20
+    lca_data_missing: true
+  ap-2-17:
+    name: Pet Collars & Harnesses
+    weight:
+      estimate_g: 100
+      min_g: 30
+      max_g: 300
+      confidence: medium
+    materials:
+      primary_material: nylon
+      breakdown:
+      - material: nylon
+        percentage: 70
+      - material: metal_buckle
+        percentage: 25
+      - material: other
+        percentage: 5
+    notes: Leather collars have different footprint profile
+    lca_data_missing: true
+  ap-2-17-4:
+    name: Harnesses
+    weight:
+      estimate_g: 250
+      min_g: 100
+      max_g: 600
+      confidence: medium
+    lca_data_missing: true
+  ap-2-2:
+    name: Cat Supplies
+    weight:
+      estimate_g: 500
+      min_g: 20
+      max_g: 20000
+      confidence: low
+    lca_data_missing: true
+  ap-2-2-1:
+    name: Cat Food
+    weight:
+      estimate_g: 4000
+      min_g: 200
+      max_g: 10000
+      confidence: medium
+    notes: Higher protein content than dog food
+    lca_data_missing: true
+  ap-2-2-1-1:
+    name: Non-Prescription Cat Food
+    weight:
+      estimate_g: 5000
+      min_g: 500
+      max_g: 10000
+      confidence: medium
+    lca_data_missing: true
+  ap-2-2-2-3:
+    name: Cat Scratchers & Scratching Posts
+    weight:
+      estimate_g: 3000
+      min_g: 1000
+      max_g: 8000
+      confidence: medium
+    lca_data_missing: true
+  ap-2-2-2-5:
+    name: Cat Trees & Towers
+    weight:
+      estimate_g: 15000
+      min_g: 5000
+      max_g: 40000
+      confidence: medium
+    materials:
+      primary_material: mixed
+      breakdown:
+      - material: particleboard
+        percentage: 50
+      - material: sisal_rope
+        percentage: 25
+      - material: carpet_fabric
+        percentage: 20
+      - material: other
+        percentage: 5
+    lca_data_missing: true
+  ap-2-2-4:
+    name: Cat Litter
+    weight:
+      estimate_g: 10000
+      min_g: 2000
+      max_g: 20000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 0.8
+      carbon_kg_co2e_per_unit: 8.0
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: clay
+      breakdown:
+      - material: bentonite_clay
+        percentage: 95
+      - material: packaging
+        percentage: 5
+    sources:
+    - Cat litter environmental studies
+    notes: Plant-based litters have different footprint
+  ap-2-2-4-3:
+    name: Cat Litter Boxes
+    weight:
+      estimate_g: 2000
+      min_g: 500
+      max_g: 8000
+      confidence: medium
+    materials:
+      primary_material: plastic
+    lca_data_missing: true
+  ap-2-2-5:
+    name: Cat Toys
+    weight:
+      estimate_g: 50
+      min_g: 10
+      max_g: 300
+      confidence: medium
+    lca_data_missing: true
+  ap-2-2-6:
+    name: Cat Treats
+    weight:
+      estimate_g: 100
+      min_g: 30
+      max_g: 300
+      confidence: medium
+    lca_data_missing: true
+  ap-2-22:
+    name: Pet First Aid & Emergency Kits
+    weight:
+      estimate_g: 300
+      min_g: 100
+      max_g: 800
+      confidence: low
+    lca_data_missing: true
+  ap-2-23:
+    name: Pet Flea & Tick Control
+    weight:
+      estimate_g: 50
+      min_g: 10
+      max_g: 200
+      confidence: medium
+    notes: Chemical treatments have complex footprints
+    lca_data_missing: true
+  ap-2-24:
+    name: Pet Food Containers
     weight:
       estimate_g: 5000
       min_g: 100
@@ -10,7 +230,40 @@ categories:
       confidence: low
     notes: Highly variable by pack size
     lca_data_missing: true
-  ap-1-1:
+  ap-2-25:
+    name: Pet Food Scoops
+    weight:
+      estimate_g: 300
+      min_g: 100
+      max_g: 800
+      confidence: medium
+    notes: Stainless steel vs ceramic vs plastic varies
+    lca_data_missing: true
+  ap-2-26:
+    name: Pet Grooming Supplies
+    weight:
+      estimate_g: 200
+      min_g: 50
+      max_g: 1000
+      confidence: low
+    lca_data_missing: true
+  ap-2-26-7:
+    name: Pet Shampoo & Conditioner
+    weight:
+      estimate_g: 400
+      min_g: 200
+      max_g: 800
+      confidence: medium
+    lca_data_missing: true
+  ap-2-3:
+    name: Dog Supplies
+    weight:
+      estimate_g: 500
+      min_g: 20
+      max_g: 20000
+      confidence: low
+    lca_data_missing: true
+  ap-2-3-3:
     name: Dog Food
     weight:
       estimate_g: 8000
@@ -37,179 +290,15 @@ categories:
     - Pet food industry LCA studies
     - Okin (2017) Environmental impacts of food consumption by dogs and cats
     notes: Beef-based has ~2x footprint of chicken-based
-  ap-1-1-1:
-    name: Dry Dog Food
+  ap-2-3-3-1:
+    name: Non-Prescription Dog Food
     weight:
       estimate_g: 10000
       min_g: 1000
       max_g: 20000
       confidence: medium
     lca_data_missing: true
-  ap-1-1-2:
-    name: Wet Dog Food
-    weight:
-      estimate_g: 400
-      min_g: 150
-      max_g: 800
-      confidence: high
-      methodology: Per can
-    notes: Higher footprint due to moisture content and metal packaging
-    lca_data_missing: true
-  ap-1-1-3:
-    name: Dog Treats
-    weight:
-      estimate_g: 300
-      min_g: 50
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-  ap-1-2:
-    name: Cat Food
-    weight:
-      estimate_g: 4000
-      min_g: 200
-      max_g: 10000
-      confidence: medium
-    notes: Higher protein content than dog food
-    lca_data_missing: true
-  ap-1-2-1:
-    name: Dry Cat Food
-    weight:
-      estimate_g: 5000
-      min_g: 500
-      max_g: 10000
-      confidence: medium
-    lca_data_missing: true
-  ap-1-2-2:
-    name: Wet Cat Food
-    weight:
-      estimate_g: 150
-      min_g: 80
-      max_g: 400
-      confidence: high
-      methodology: Per can/pouch
-    lca_data_missing: true
-  ap-1-2-3:
-    name: Cat Treats
-    weight:
-      estimate_g: 100
-      min_g: 30
-      max_g: 300
-      confidence: medium
-    lca_data_missing: true
-  ap-1-3:
-    name: Bird Food
-    weight:
-      estimate_g: 2000
-      min_g: 200
-      max_g: 10000
-      confidence: medium
-    materials:
-      primary_material: seeds
-    notes: Seed-based, lower footprint than meat-based pet food
-    lca_data_missing: true
-  ap-1-4:
-    name: Fish Food
-    weight:
-      estimate_g: 100
-      min_g: 20
-      max_g: 500
-      confidence: medium
-    notes: High protein, specialized formulations
-    lca_data_missing: true
-  ap-1-5:
-    name: Small Animal Food
-    weight:
-      estimate_g: 1500
-      min_g: 200
-      max_g: 5000
-      confidence: medium
-    notes: Rabbits, guinea pigs, hamsters - mostly hay/grain based
-    lca_data_missing: true
-  ap-2:
-    name: Dog Supplies
-    weight:
-      estimate_g: 500
-      min_g: 20
-      max_g: 20000
-      confidence: low
-    lca_data_missing: true
-  ap-2-1:
-    name: Dog Collars
-    weight:
-      estimate_g: 100
-      min_g: 30
-      max_g: 300
-      confidence: medium
-    materials:
-      primary_material: nylon
-      breakdown:
-      - material: nylon
-        percentage: 70
-      - material: metal_buckle
-        percentage: 25
-      - material: other
-        percentage: 5
-    notes: Leather collars have different footprint profile
-    lca_data_missing: true
-  ap-2-2:
-    name: Dog Leashes
-    weight:
-      estimate_g: 150
-      min_g: 50
-      max_g: 400
-      confidence: medium
-    lca_data_missing: true
-  ap-2-3:
-    name: Dog Harnesses
-    weight:
-      estimate_g: 250
-      min_g: 100
-      max_g: 600
-      confidence: medium
-    lca_data_missing: true
-  ap-2-4:
-    name: Dog Beds
-    weight:
-      estimate_g: 2000
-      min_g: 500
-      max_g: 8000
-      confidence: medium
-    materials:
-      primary_material: mixed
-      breakdown:
-      - material: polyester_fill
-        percentage: 50
-      - material: fabric_cover
-        percentage: 35
-      - material: foam
-        percentage: 15
-    lca_data_missing: true
-  ap-2-5:
-    name: Dog Crates
-    weight:
-      estimate_g: 8000
-      min_g: 3000
-      max_g: 20000
-      confidence: medium
-    materials:
-      primary_material: metal
-      breakdown:
-      - material: steel_wire
-        percentage: 80
-      - material: plastic_tray
-        percentage: 20
-    lca_data_missing: true
-  ap-2-6:
-    name: Dog Bowls
-    weight:
-      estimate_g: 300
-      min_g: 100
-      max_g: 800
-      confidence: medium
-    notes: Stainless steel vs ceramic vs plastic varies
-    lca_data_missing: true
-  ap-2-7:
+  ap-2-3-7:
     name: Dog Toys
     weight:
       estimate_g: 200
@@ -226,198 +315,32 @@ categories:
       - material: plush
         percentage: 20
     lca_data_missing: true
-  ap-2-8:
-    name: Dog Clothing
+  ap-2-3-9:
+    name: Dog Treats
+    weight:
+      estimate_g: 300
+      min_g: 50
+      max_g: 1000
+      confidence: medium
+    lca_data_missing: true
+  ap-2-31:
+    name: Pet Leashes
     weight:
       estimate_g: 150
       min_g: 50
-      max_g: 500
+      max_g: 400
       confidence: medium
     lca_data_missing: true
-  ap-2-9:
-    name: Dog Grooming
+  ap-2-36-1:
+    name: Dental Chews
     weight:
-      estimate_g: 200
-      min_g: 50
-      max_g: 1000
-      confidence: low
-    lca_data_missing: true
-  ap-2-10:
-    name: Dog Carriers
-    weight:
-      estimate_g: 2500
-      min_g: 1000
-      max_g: 6000
-      confidence: medium
-    lca_data_missing: true
-  ap-3:
-    name: Cat Supplies
-    weight:
-      estimate_g: 500
-      min_g: 20
-      max_g: 20000
-      confidence: low
-    lca_data_missing: true
-  ap-3-1:
-    name: Cat Litter
-    weight:
-      estimate_g: 10000
-      min_g: 2000
-      max_g: 20000
-      confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 0.8
-      carbon_kg_co2e_per_unit: 8.0
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: clay
-      breakdown:
-      - material: bentonite_clay
-        percentage: 95
-      - material: packaging
-        percentage: 5
-    sources:
-    - Cat litter environmental studies
-    notes: Plant-based litters have different footprint
-  ap-3-2:
-    name: Litter Boxes
-    weight:
-      estimate_g: 2000
-      min_g: 500
-      max_g: 8000
-      confidence: medium
-    materials:
-      primary_material: plastic
-    lca_data_missing: true
-  ap-3-3:
-    name: Automatic Litter Boxes
-    weight:
-      estimate_g: 8000
-      min_g: 4000
-      max_g: 15000
-      confidence: medium
-    lca_data_missing: true
-  ap-3-4:
-    name: Cat Trees
-    weight:
-      estimate_g: 15000
-      min_g: 5000
-      max_g: 40000
-      confidence: medium
-    materials:
-      primary_material: mixed
-      breakdown:
-      - material: particleboard
-        percentage: 50
-      - material: sisal_rope
-        percentage: 25
-      - material: carpet_fabric
-        percentage: 20
-      - material: other
-        percentage: 5
-    lca_data_missing: true
-  ap-3-5:
-    name: Scratching Posts
-    weight:
-      estimate_g: 3000
-      min_g: 1000
-      max_g: 8000
-      confidence: medium
-    lca_data_missing: true
-  ap-3-6:
-    name: Cat Beds
-    weight:
-      estimate_g: 800
-      min_g: 300
-      max_g: 2000
-      confidence: medium
-    lca_data_missing: true
-  ap-3-7:
-    name: Cat Toys
-    weight:
-      estimate_g: 50
-      min_g: 10
+      estimate_g: 100
+      min_g: 30
       max_g: 300
       confidence: medium
     lca_data_missing: true
-  ap-3-8:
-    name: Cat Carriers
-    weight:
-      estimate_g: 2000
-      min_g: 800
-      max_g: 4000
-      confidence: medium
-    lca_data_missing: true
-  ap-3-9:
-    name: Cat Collars
-    weight:
-      estimate_g: 30
-      min_g: 15
-      max_g: 60
-      confidence: high
-    lca_data_missing: true
-  ap-3-10:
-    name: Cat Bowls
-    weight:
-      estimate_g: 200
-      min_g: 80
-      max_g: 400
-      confidence: medium
-    lca_data_missing: true
-  ap-4:
-    name: Bird Supplies
-    weight:
-      estimate_g: 2000
-      min_g: 50
-      max_g: 20000
-      confidence: low
-    lca_data_missing: true
-  ap-4-1:
-    name: Bird Cages
-    weight:
-      estimate_g: 5000
-      min_g: 1000
-      max_g: 20000
-      confidence: medium
-    materials:
-      primary_material: metal
-      breakdown:
-      - material: steel_wire
-        percentage: 70
-      - material: plastic_tray
-        percentage: 25
-      - material: other
-        percentage: 5
-    lca_data_missing: true
-  ap-4-2:
-    name: Bird Perches
-    weight:
-      estimate_g: 200
-      min_g: 50
-      max_g: 500
-      confidence: medium
-    materials:
-      primary_material: wood
-    lca_data_missing: true
-  ap-4-3:
-    name: Bird Toys
-    weight:
-      estimate_g: 100
-      min_g: 20
-      max_g: 400
-      confidence: medium
-    lca_data_missing: true
-  ap-4-4:
-    name: Bird Feeders
-    weight:
-      estimate_g: 300
-      min_g: 100
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-  ap-5:
-    name: Fish & Aquarium
+  ap-2-4:
+    name: Fish & Aquatic Supplies
     weight:
       estimate_g: 5000
       min_g: 100
@@ -425,7 +348,7 @@ categories:
       confidence: low
     notes: Glass aquariums are very heavy
     lca_data_missing: true
-  ap-5-1:
+  ap-2-4-13:
     name: Aquariums
     weight:
       estimate_g: 15000
@@ -443,7 +366,24 @@ categories:
       - material: frame
         percentage: 10
     lca_data_missing: true
-  ap-5-2:
+  ap-2-4-16:
+    name: Fish Food
+    weight:
+      estimate_g: 100
+      min_g: 20
+      max_g: 500
+      confidence: medium
+    notes: High protein, specialized formulations
+    lca_data_missing: true
+  ap-2-4-4:
+    name: Aquarium Decors
+    weight:
+      estimate_g: 500
+      min_g: 50
+      max_g: 3000
+      confidence: low
+    lca_data_missing: true
+  ap-2-4-5:
     name: Aquarium Filters
     weight:
       estimate_g: 800
@@ -451,32 +391,8 @@ categories:
       max_g: 3000
       confidence: medium
     lca_data_missing: true
-  ap-5-3:
-    name: Aquarium Heaters
-    weight:
-      estimate_g: 300
-      min_g: 100
-      max_g: 600
-      confidence: medium
-    lca_data_missing: true
-  ap-5-4:
-    name: Aquarium Lights
-    weight:
-      estimate_g: 500
-      min_g: 100
-      max_g: 2000
-      confidence: medium
-    lca_data_missing: true
-  ap-5-5:
-    name: Aquarium Decorations
-    weight:
-      estimate_g: 500
-      min_g: 50
-      max_g: 3000
-      confidence: low
-    lca_data_missing: true
-  ap-5-6:
-    name: Aquarium Gravel
+  ap-2-4-7:
+    name: Aquarium Gravel & Substrates
     weight:
       estimate_g: 5000
       min_g: 1000
@@ -484,15 +400,49 @@ categories:
       confidence: medium
     notes: Low processing, mainly extraction and transport
     lca_data_missing: true
-  ap-5-7:
-    name: Air Pumps
+  ap-2-4-8:
+    name: Aquarium Lighting
     weight:
-      estimate_g: 300
+      estimate_g: 500
       min_g: 100
-      max_g: 800
+      max_g: 2000
       confidence: medium
     lca_data_missing: true
-  ap-6:
+  ap-2-42:
+    name: Pet Vitamins & Supplements
+    weight:
+      estimate_g: 200
+      min_g: 20
+      max_g: 2000
+      confidence: low
+    lca_data_missing: true
+  ap-2-46:
+    name: Reptile & Amphibian Supplies
+    weight:
+      estimate_g: 2000
+      min_g: 50
+      max_g: 50000
+      confidence: low
+    lca_data_missing: true
+  ap-2-46-4-3:
+    name: Terrariums
+    weight:
+      estimate_g: 10000
+      min_g: 2000
+      max_g: 50000
+      confidence: low
+    materials:
+      primary_material: glass
+    lca_data_missing: true
+  ap-2-46-5:
+    name: Reptile & Amphibian Substrates
+    weight:
+      estimate_g: 3000
+      min_g: 1000
+      max_g: 10000
+      confidence: medium
+    lca_data_missing: true
+  ap-2-47:
     name: Small Animal Supplies
     weight:
       estimate_g: 1000
@@ -501,15 +451,7 @@ categories:
       confidence: low
     notes: Rabbits, hamsters, guinea pigs, etc.
     lca_data_missing: true
-  ap-6-1:
-    name: Small Animal Cages
-    weight:
-      estimate_g: 4000
-      min_g: 1000
-      max_g: 10000
-      confidence: medium
-    lca_data_missing: true
-  ap-6-2:
+  ap-2-47-1:
     name: Small Animal Bedding
     weight:
       estimate_g: 2000
@@ -520,61 +462,33 @@ categories:
       primary_material: wood_shavings
     notes: Paper-based bedding has different footprint
     lca_data_missing: true
-  ap-6-3:
-    name: Exercise Wheels
-    weight:
-      estimate_g: 300
-      min_g: 100
-      max_g: 800
-      confidence: medium
-    lca_data_missing: true
-  ap-6-4:
-    name: Small Animal Houses
-    weight:
-      estimate_g: 500
-      min_g: 150
-      max_g: 1500
-      confidence: medium
-    materials:
-      primary_material: wood
-    lca_data_missing: true
-  ap-6-5:
-    name: Hay
+  ap-2-47-2:
+    name: Small Animal Food
     weight:
       estimate_g: 1500
-      min_g: 500
+      min_g: 200
       max_g: 5000
       confidence: medium
-    notes: Very low footprint - grass product
+    notes: Rabbits, guinea pigs, hamsters - mostly hay/grain based
     lca_data_missing: true
-  ap-7:
-    name: Reptile Supplies
+  ap-2-9:
+    name: Pet Beds
     weight:
       estimate_g: 2000
-      min_g: 50
-      max_g: 50000
-      confidence: low
-    lca_data_missing: true
-  ap-7-1:
-    name: Terrariums
-    weight:
-      estimate_g: 10000
-      min_g: 2000
-      max_g: 50000
-      confidence: low
-    materials:
-      primary_material: glass
-    lca_data_missing: true
-  ap-7-2:
-    name: Heat Lamps
-    weight:
-      estimate_g: 200
-      min_g: 50
-      max_g: 500
+      min_g: 500
+      max_g: 8000
       confidence: medium
-    notes: Short lifespan, high energy use
+    materials:
+      primary_material: mixed
+      breakdown:
+      - material: polyester_fill
+        percentage: 50
+      - material: fabric_cover
+        percentage: 35
+      - material: foam
+        percentage: 15
     lca_data_missing: true
-  ap-7-3:
+  hb-1-8-5-2:
     name: Heating Pads
     weight:
       estimate_g: 300
@@ -582,68 +496,11 @@ categories:
       max_g: 600
       confidence: medium
     lca_data_missing: true
-  ap-7-4:
-    name: Reptile Substrate
-    weight:
-      estimate_g: 3000
-      min_g: 1000
-      max_g: 10000
-      confidence: medium
-    lca_data_missing: true
-  ap-7-5:
-    name: UVB Lights
-    weight:
-      estimate_g: 150
-      min_g: 50
-      max_g: 400
-      confidence: medium
-    lca_data_missing: true
-  ap-8:
-    name: Pet Health
-    weight:
-      estimate_g: 200
-      min_g: 20
-      max_g: 2000
-      confidence: low
-    lca_data_missing: true
-  ap-8-1:
-    name: Flea & Tick Treatment
-    weight:
-      estimate_g: 50
-      min_g: 10
-      max_g: 200
-      confidence: medium
-    notes: Chemical treatments have complex footprints
-    lca_data_missing: true
-  ap-8-2:
-    name: Pet Vitamins
-    weight:
-      estimate_g: 150
-      min_g: 50
-      max_g: 400
-      confidence: medium
-    lca_data_missing: true
-  ap-8-3:
-    name: Pet Shampoo
-    weight:
-      estimate_g: 400
-      min_g: 200
-      max_g: 800
-      confidence: medium
-    lca_data_missing: true
-  ap-8-4:
-    name: Pet Dental Care
-    weight:
-      estimate_g: 100
-      min_g: 30
-      max_g: 300
-      confidence: medium
-    lca_data_missing: true
-  ap-8-5:
-    name: Pet First Aid
+  hg-3-8-1:
+    name: Bird Feeders
     weight:
       estimate_g: 300
       min_g: 100
-      max_g: 800
-      confidence: low
+      max_g: 1000
+      confidence: medium
     lca_data_missing: true

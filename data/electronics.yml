@@ -1,8 +1,96 @@
 schema_version: 0.1.0
-last_updated: '2026-01-19'
+last_updated: '2026-01-29'
 categories:
-  el-1:
-    name: Computers & Tablets
+  el-17-1:
+    name: Computer Monitors
+    weight:
+      estimate_g: 12000
+      min_g: 2000
+      max_g: 35000
+      confidence: low
+    lca:
+      carbon_kg_co2e_per_kg: 35.0
+      carbon_kg_co2e_per_unit: 420.0
+      scope: cradle-to-gate
+      use_phase:
+        energy_kwh_per_year: 100
+        lifespan_years: 7
+        kg_co2e_total: 280
+      methodology: Based on 55-inch LED TV average
+      data_quality: secondary
+    notes: Weight and impact scales significantly with screen size
+    sources:
+    - LG Sustainability Report
+    - Samsung Environmental Report
+  el-2:
+    name: Audio
+    weight:
+      estimate_g: 300
+      min_g: 5
+      max_g: 20000
+      confidence: low
+    notes: Extremely variable - earbuds to home theater systems
+    lca_data_missing: true
+  el-2-2-10:
+    name: Speakers
+    weight:
+      estimate_g: 1500
+      min_g: 200
+      max_g: 15000
+      confidence: low
+    notes: Portable bluetooth speakers ~300g, home speakers much heavier
+    lca_data_missing: true
+  el-2-2-7-1:
+    name: Headphones
+    weight:
+      estimate_g: 50
+      min_g: 5
+      max_g: 400
+      confidence: medium
+    lca_data_missing: true
+  el-4-8-4:
+    name: Mobile & Smart Phone Accessories
+    weight:
+      estimate_g: 200
+      min_g: 150
+      max_g: 280
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 350.0
+      carbon_kg_co2e_per_unit: 70.0
+      scope: cradle-to-gate
+      production:
+        raw_materials_kg_co2e: 45.0
+        manufacturing_kg_co2e: 20.0
+        packaging_kg_co2e: 5.0
+      use_phase:
+        energy_kwh_per_year: 4
+        lifespan_years: 3
+        kg_co2e_total: 5
+      end_of_life:
+        recyclability_pct: 80
+        kg_co2e_per_kg: -5.0
+      methodology: Smartphone average based on manufacturer reports
+      data_quality: secondary
+    materials:
+      primary_material: mixed
+      breakdown:
+      - material: glass
+        percentage: 35
+      - material: aluminum
+        percentage: 25
+      - material: pcb_electronics
+        percentage: 20
+      - material: battery
+        percentage: 15
+      - material: plastics
+        percentage: 5
+    sources:
+    - Apple iPhone Environmental Reports
+    - Fairphone Impact Report
+    - European Commission JRC Smartphone LCA
+  el-6:
+    name: Computers
     weight:
       estimate_g: 1500
       min_g: 300
@@ -10,7 +98,7 @@ categories:
       confidence: low
     notes: Parent category - highly variable
     lca_data_missing: true
-  el-1-1:
+  el-6-3:
     name: Desktop Computers
     weight:
       estimate_g: 8000
@@ -51,7 +139,7 @@ categories:
     sources:
     - Dell Product Carbon Footprint Reports
     - HP Sustainable Impact Report
-  el-1-2:
+  el-6-6:
     name: Laptops
     weight:
       estimate_g: 1800
@@ -75,8 +163,8 @@ categories:
     sources:
     - Apple Environmental Reports
     - Lenovo Carbon Footprint Studies
-  el-1-3:
-    name: Tablets
+  el-6-8:
+    name: Tablet Computers
     weight:
       estimate_g: 500
       min_g: 300
@@ -94,103 +182,15 @@ categories:
       data_quality: secondary
     sources:
     - Apple Product Environmental Reports
-  el-2:
-    name: Mobile Phones
-    weight:
-      estimate_g: 200
-      min_g: 150
-      max_g: 280
-      confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 350.0
-      carbon_kg_co2e_per_unit: 70.0
-      scope: cradle-to-gate
-      production:
-        raw_materials_kg_co2e: 45.0
-        manufacturing_kg_co2e: 20.0
-        packaging_kg_co2e: 5.0
-      use_phase:
-        energy_kwh_per_year: 4
-        lifespan_years: 3
-        kg_co2e_total: 5
-      end_of_life:
-        recyclability_pct: 80
-        kg_co2e_per_kg: -5.0
-      methodology: Smartphone average based on manufacturer reports
-      data_quality: secondary
-    materials:
-      primary_material: mixed
-      breakdown:
-      - material: glass
-        percentage: 35
-      - material: aluminum
-        percentage: 25
-      - material: pcb_electronics
-        percentage: 20
-      - material: battery
-        percentage: 15
-      - material: plastics
-        percentage: 5
-    sources:
-    - Apple iPhone Environmental Reports
-    - Fairphone Impact Report
-    - European Commission JRC Smartphone LCA
-  el-3:
-    name: Audio
-    weight:
-      estimate_g: 300
-      min_g: 5
-      max_g: 20000
-      confidence: low
-    notes: Extremely variable - earbuds to home theater systems
-    lca_data_missing: true
-  el-3-1:
-    name: Headphones & Earbuds
-    weight:
-      estimate_g: 50
-      min_g: 5
-      max_g: 400
-      confidence: medium
-    lca_data_missing: true
-  el-3-2:
-    name: Speakers
-    weight:
-      estimate_g: 1500
-      min_g: 200
-      max_g: 15000
-      confidence: low
-    notes: Portable bluetooth speakers ~300g, home speakers much heavier
-    lca_data_missing: true
-  el-4:
-    name: TVs & Monitors
-    weight:
-      estimate_g: 12000
-      min_g: 2000
-      max_g: 35000
-      confidence: low
-    lca:
-      carbon_kg_co2e_per_kg: 35.0
-      carbon_kg_co2e_per_unit: 420.0
-      scope: cradle-to-gate
-      use_phase:
-        energy_kwh_per_year: 100
-        lifespan_years: 7
-        kg_co2e_total: 280
-      methodology: Based on 55-inch LED TV average
-      data_quality: secondary
-    notes: Weight and impact scales significantly with screen size
-    sources:
-    - LG Sustainability Report
-    - Samsung Environmental Report
-  el-5:
-    name: Cables & Chargers
+  el-7-15-2-4:
+    name: General Purpose Battery Chargers
     weight:
       estimate_g: 80
       min_g: 20
       max_g: 300
       confidence: medium
     lca_data_missing: true
-  el-6:
+  el-7-15-5-1:
     name: Power Banks
     weight:
       estimate_g: 250

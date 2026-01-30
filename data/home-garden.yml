@@ -1,7 +1,234 @@
 schema_version: 0.1.0
-last_updated: '2026-01-19'
+last_updated: '2026-01-29'
 categories:
-  hg-6:
+  ap-2-4-4-5:
+    name: Artificial Plants
+    weight:
+      estimate_g: 500
+      min_g: 50
+      max_g: 3000
+      confidence: low
+    materials:
+      primary_material: plastic
+    lca_data_missing: true
+  bt-4-5-3:
+    name: Door Locks
+    weight:
+      estimate_g: 800
+      min_g: 400
+      max_g: 1500
+      confidence: medium
+    lca_data_missing: true
+  fr-15:
+    name: Outdoor Furniture
+    weight:
+      estimate_g: 8000
+      min_g: 2000
+      max_g: 30000
+      confidence: low
+    notes: See Furniture vertical for more detail
+    lca_data_missing: true
+  fr-4-16:
+    name: Wine Racks
+    weight:
+      estimate_g: 2000
+      min_g: 500
+      max_g: 8000
+      confidence: low
+    lca_data_missing: true
+  ha-3-5:
+    name: Garden Borders & Edging
+    weight:
+      estimate_g: 5000
+      min_g: 1000
+      max_g: 20000
+      confidence: low
+    lca_data_missing: true
+  ha-8-3-3:
+    name: Thermostats
+    weight:
+      estimate_g: 200
+      min_g: 100
+      max_g: 400
+      confidence: high
+    notes: Smart thermostats save significant energy use
+    lca_data_missing: true
+  hg-1:
+    name: Bathroom Accessories
+    weight:
+      estimate_g: 300
+      min_g: 50
+      max_g: 2000
+      confidence: low
+    lca_data_missing: true
+  hg-1-1:
+    name: Bath Caddies
+    weight:
+      estimate_g: 800
+      min_g: 200
+      max_g: 2000
+      confidence: medium
+    lca_data_missing: true
+  hg-1-13:
+    name: Shower Curtains
+    weight:
+      estimate_g: 400
+      min_g: 200
+      max_g: 800
+      confidence: medium
+    materials:
+      primary_material: plastic
+      breakdown:
+      - material: polyester
+        percentage: 70
+      - material: pvc
+        percentage: 30
+    lca_data_missing: true
+  hg-1-15:
+    name: Soap & Lotion Dispensers
+    weight:
+      estimate_g: 300
+      min_g: 100
+      max_g: 600
+      confidence: medium
+    lca_data_missing: true
+  hg-1-19:
+    name: Toilet Paper Holders
+    weight:
+      estimate_g: 300
+      min_g: 100
+      max_g: 600
+      confidence: medium
+    lca_data_missing: true
+  hg-1-2:
+    name: Bath Mats & Rugs
+    weight:
+      estimate_g: 600
+      min_g: 200
+      max_g: 1500
+      confidence: medium
+    lca_data_missing: true
+  hg-1-20:
+    name: Toothbrush Holders
+    weight:
+      estimate_g: 200
+      min_g: 50
+      max_g: 500
+      confidence: medium
+    lca_data_missing: true
+  hg-1-21:
+    name: Towel Racks & Holders
+    weight:
+      estimate_g: 400
+      min_g: 100
+      max_g: 1000
+      confidence: medium
+    materials:
+      primary_material: metal
+    lca_data_missing: true
+  hg-10:
+    name: Household Supplies
+    weight:
+      estimate_g: 500
+      min_g: 50
+      max_g: 5000
+      confidence: low
+    lca_data_missing: true
+  hg-10-16:
+    name: Storage & Organization
+    weight:
+      estimate_g: 1000
+      min_g: 100
+      max_g: 10000
+      confidence: low
+    materials:
+      primary_material: plastic
+    lca_data_missing: true
+  hg-10-16-1-2-1:
+    name: Closet Organizers
+    weight:
+      estimate_g: 3000
+      min_g: 500
+      max_g: 10000
+      confidence: low
+    lca_data_missing: true
+  hg-10-16-1-4:
+    name: Hangers
+    weight:
+      estimate_g: 40
+      min_g: 20
+      max_g: 100
+      confidence: high
+      methodology: Per hanger
+    lca_data_missing: true
+  hg-10-16-1-6-2:
+    name: Shoe Racks
+    weight:
+      estimate_g: 2000
+      min_g: 500
+      max_g: 5000
+      confidence: medium
+    lca_data_missing: true
+  hg-10-16-6:
+    name: Household Storage Containers
+    weight:
+      estimate_g: 600
+      min_g: 100
+      max_g: 2000
+      confidence: medium
+    materials:
+      primary_material: plastic
+    lca_data_missing: true
+  hg-10-16-8-1:
+    name: Photo Albums
+    weight:
+      estimate_g: 500
+      min_g: 200
+      max_g: 1500
+      confidence: medium
+    lca_data_missing: true
+  hg-10-18-4-1:
+    name: Trash Cans
+    weight:
+      estimate_g: 3000
+      min_g: 500
+      max_g: 8000
+      confidence: medium
+    lca_data_missing: true
+  hg-10-6:
+    name: Household Cleaning Supplies
+    weight:
+      estimate_g: 800
+      min_g: 100
+      max_g: 3000
+      confidence: medium
+    lca_data_missing: true
+  hg-10-6-11-2:
+    name: Carpet Cleaners
+    weight:
+      estimate_g: 10000
+      min_g: 5000
+      max_g: 20000
+      confidence: medium
+    lca_data_missing: true
+  hg-10-6-13:
+    name: Mops
+    weight:
+      estimate_g: 500
+      min_g: 200
+      max_g: 1000
+      confidence: medium
+    lca_data_missing: true
+  hg-10-9:
+    name: Laundry Supplies
+    weight:
+      estimate_g: 2000
+      min_g: 500
+      max_g: 5000
+      confidence: medium
+    notes: Detergent weight - bottles add ~200g
+    lca_data_missing: true
+  hg-11:
     name: Kitchen & Dining
     weight:
       estimate_g: 500
@@ -10,7 +237,61 @@ categories:
       confidence: low
     notes: Highly variable - from utensils to appliances
     lca_data_missing: true
-  hg-6-1:
+  hg-11-10-4:
+    name: Dinnerware
+    weight:
+      estimate_g: 500
+      min_g: 200
+      max_g: 1000
+      confidence: medium
+      methodology: Per piece (plate, bowl)
+    materials:
+      primary_material: ceramic
+    lca_data_missing: true
+  hg-11-10-5:
+    name: Drinkware
+    weight:
+      estimate_g: 300
+      min_g: 50
+      max_g: 800
+      confidence: medium
+    notes: Glass and ceramic have different footprints
+    lca_data_missing: true
+  hg-11-10-5-5:
+    name: Mugs
+    weight:
+      estimate_g: 350
+      min_g: 200
+      max_g: 500
+      confidence: high
+    materials:
+      primary_material: ceramic
+      breakdown:
+      - material: ceramic
+        percentage: 100
+    lca_data_missing: true
+  hg-11-10-5-8:
+    name: Tumblers
+    weight:
+      estimate_g: 250
+      min_g: 100
+      max_g: 500
+      confidence: medium
+    materials:
+      primary_material: glass
+    lca_data_missing: true
+  hg-11-10-6:
+    name: Flatware
+    weight:
+      estimate_g: 60
+      min_g: 20
+      max_g: 150
+      confidence: high
+      methodology: Per piece (fork, knife, spoon)
+    materials:
+      primary_material: stainless_steel
+    lca_data_missing: true
+  hg-11-2-1:
     name: Bakeware
     weight:
       estimate_g: 800
@@ -27,7 +308,7 @@ categories:
       - material: coatings
         percentage: 10
     lca_data_missing: true
-  hg-6-2:
+  hg-11-2-3:
     name: Cookware
     weight:
       estimate_g: 1500
@@ -49,69 +330,15 @@ categories:
         percentage: 10
     sources:
     - European Aluminium Association LCA
-  hg-6-2-5:
-    name: Pots & Pans
+  hg-11-2-3-10-2:
+    name: Pressure Cookers
     weight:
-      estimate_g: 1200
-      min_g: 400
-      max_g: 3000
-      confidence: high
-    lca_data_missing: true
-  hg-6-3:
-    name: Drinkware
-    weight:
-      estimate_g: 300
-      min_g: 50
-      max_g: 800
+      estimate_g: 5000
+      min_g: 3000
+      max_g: 8000
       confidence: medium
-    notes: Glass and ceramic have different footprints
     lca_data_missing: true
-  hg-6-3-3:
-    name: Mugs
-    weight:
-      estimate_g: 350
-      min_g: 200
-      max_g: 500
-      confidence: high
-    materials:
-      primary_material: ceramic
-      breakdown:
-      - material: ceramic
-        percentage: 100
-    lca_data_missing: true
-  hg-6-3-4:
-    name: Glasses & Tumblers
-    weight:
-      estimate_g: 250
-      min_g: 100
-      max_g: 500
-      confidence: medium
-    materials:
-      primary_material: glass
-    lca_data_missing: true
-  hg-6-4:
-    name: Flatware
-    weight:
-      estimate_g: 60
-      min_g: 20
-      max_g: 150
-      confidence: high
-      methodology: Per piece (fork, knife, spoon)
-    materials:
-      primary_material: stainless_steel
-    lca_data_missing: true
-  hg-6-5:
-    name: Dinnerware
-    weight:
-      estimate_g: 500
-      min_g: 200
-      max_g: 1000
-      confidence: medium
-      methodology: Per piece (plate, bowl)
-    materials:
-      primary_material: ceramic
-    lca_data_missing: true
-  hg-6-6:
+  hg-11-4:
     name: Food Storage
     weight:
       estimate_g: 200
@@ -126,7 +353,7 @@ categories:
       - material: silicone
         percentage: 20
     lca_data_missing: true
-  hg-6-7:
+  hg-11-7:
     name: Kitchen Appliances
     weight:
       estimate_g: 3000
@@ -135,16 +362,104 @@ categories:
       confidence: low
     notes: Very high variance - toasters to refrigerators
     lca_data_missing: true
-  hg-6-7-1:
-    name: Blenders
+  hg-11-7-11:
+    name: Electric Kettles
+    weight:
+      estimate_g: 1000
+      min_g: 500
+      max_g: 1800
+      confidence: high
+    lca_data_missing: true
+  hg-11-7-14-3:
+    name: Rice Cookers
+    weight:
+      estimate_g: 3000
+      min_g: 1500
+      max_g: 5000
+      confidence: medium
+    lca_data_missing: true
+  hg-11-7-14-4:
+    name: Slow Cookers
+    weight:
+      estimate_g: 4000
+      min_g: 2500
+      max_g: 6000
+      confidence: medium
+    lca_data_missing: true
+  hg-11-7-17-1:
+    name: Food Blenders
     weight:
       estimate_g: 2500
       min_g: 1000
       max_g: 5000
       confidence: medium
     lca_data_missing: true
-  hg-6-7-2:
-    name: Coffee Makers
+  hg-11-7-17-2-1:
+    name: Hand Mixers
+    weight:
+      estimate_g: 1000
+      min_g: 600
+      max_g: 1500
+      confidence: high
+    lca_data_missing: true
+  hg-11-7-17-2-2:
+    name: Stand Mixers
+    weight:
+      estimate_g: 8000
+      min_g: 5000
+      max_g: 12000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      carbon_kg_co2e_per_unit: 64.0
+      scope: cradle-to-gate
+      data_quality: secondary
+    sources:
+    - KitchenAid environmental data
+  hg-11-7-18:
+    name: Food Smokers
+    weight:
+      estimate_g: 30000
+      min_g: 10000
+      max_g: 60000
+      confidence: medium
+    lca_data_missing: true
+  hg-11-7-26:
+    name: Ice Cream Makers
+    weight:
+      estimate_g: 3500
+      min_g: 2000
+      max_g: 6000
+      confidence: medium
+    lca_data_missing: true
+  hg-11-7-29:
+    name: Juicers
+    weight:
+      estimate_g: 4000
+      min_g: 1500
+      max_g: 8000
+      confidence: medium
+    lca_data_missing: true
+  hg-11-7-31:
+    name: Microwave Ovens
+    weight:
+      estimate_g: 12000
+      min_g: 8000
+      max_g: 20000
+      confidence: medium
+    lca_data_missing: true
+  hg-11-7-34:
+    name: Outdoor Grills
+    weight:
+      estimate_g: 25000
+      min_g: 5000
+      max_g: 80000
+      confidence: low
+    materials:
+      primary_material: steel
+    lca_data_missing: true
+  hg-11-7-4:
+    name: Coffee Makers & Espresso Machines
     weight:
       estimate_g: 3000
       min_g: 800
@@ -160,7 +475,23 @@ categories:
       data_quality: secondary
     sources:
     - Product Environmental Footprint studies
-  hg-6-7-6:
+  hg-11-7-4-3:
+    name: Espresso Machines
+    weight:
+      estimate_g: 8000
+      min_g: 3000
+      max_g: 20000
+      confidence: low
+    lca_data_missing: true
+  hg-11-7-46-10:
+    name: Waffle Irons
+    weight:
+      estimate_g: 2000
+      min_g: 1000
+      max_g: 3500
+      confidence: medium
+    lca_data_missing: true
+  hg-11-7-46-8:
     name: Toasters
     weight:
       estimate_g: 1500
@@ -168,31 +499,316 @@ categories:
       max_g: 3000
       confidence: high
     lca_data_missing: true
-  hg-6-7-7:
-    name: Kettles
+  hg-11-7-53:
+    name: Air Fryers
     weight:
-      estimate_g: 1000
-      min_g: 500
-      max_g: 1800
-      confidence: high
+      estimate_g: 5000
+      min_g: 3000
+      max_g: 8000
+      confidence: medium
     lca_data_missing: true
-  hg-6-8:
-    name: Kitchen Utensils
+  hg-11-7-54:
+    name: Food Processors
+    weight:
+      estimate_g: 4000
+      min_g: 2000
+      max_g: 7000
+      confidence: medium
+    lca_data_missing: true
+  hg-11-7-7:
+    name: Deep Fryers
+    weight:
+      estimate_g: 4000
+      min_g: 2000
+      max_g: 8000
+      confidence: medium
+    lca_data_missing: true
+  hg-11-8:
+    name: Kitchen Tools & Utensils
     weight:
       estimate_g: 80
       min_g: 20
       max_g: 300
       confidence: medium
     lca_data_missing: true
-  hg-1:
-    name: Bathroom Accessories
+  hg-11-8-21:
+    name: Cutting Boards
     weight:
-      estimate_g: 300
+      estimate_g: 500
+      min_g: 200
+      max_g: 1500
+      confidence: medium
+    materials:
+      primary_material: wood
+    lca_data_missing: true
+  hg-11-8-22-1:
+    name: Dish Racks
+    weight:
+      estimate_g: 1000
+      min_g: 400
+      max_g: 2500
+      confidence: medium
+    lca_data_missing: true
+  hg-11-8-39-11:
+    name: Knife Sets
+    weight:
+      estimate_g: 1500
+      min_g: 500
+      max_g: 4000
+      confidence: medium
+    materials:
+      primary_material: stainless_steel
+    lca_data_missing: true
+  hg-11-8-41-10:
+    name: Spice Organizers
+    weight:
+      estimate_g: 500
+      min_g: 200
+      max_g: 1500
+      confidence: medium
+    lca_data_missing: true
+  hg-11-8-41-8-2:
+    name: Paper Towel Holders
+    weight:
+      estimate_g: 400
+      min_g: 150
+      max_g: 1000
+      confidence: medium
+    lca_data_missing: true
+  hg-11-8-80:
+    name: Kitchen Scales
+    weight:
+      estimate_g: 400
+      min_g: 150
+      max_g: 1000
+      confidence: medium
+    lca_data_missing: true
+  hg-12:
+    name: Lawn & Garden
+    weight:
+      estimate_g: 2000
       min_g: 50
-      max_g: 2000
+      max_g: 50000
+      confidence: low
+    notes: Extremely variable - seeds to lawn mowers
+    lca_data_missing: true
+  hg-12-1-1:
+    name: Composting
+    weight:
+      estimate_g: 5000
+      min_g: 1000
+      max_g: 15000
+      confidence: medium
+    lca_data_missing: true
+  hg-12-1-16-1:
+    name: Planters
+    weight:
+      estimate_g: 1500
+      min_g: 200
+      max_g: 10000
+      confidence: low
+    notes: Ceramic heavier than plastic
+    lca_data_missing: true
+  hg-12-1-7:
+    name: Gardening Tools
+    weight:
+      estimate_g: 800
+      min_g: 100
+      max_g: 3000
+      confidence: medium
+    materials:
+      primary_material: metal
+      breakdown:
+      - material: steel
+        percentage: 70
+      - material: wood_handle
+        percentage: 20
+      - material: plastic
+        percentage: 10
+    lca_data_missing: true
+  hg-12-1-8:
+    name: Greenhouses
+    weight:
+      estimate_g: 30000
+      min_g: 10000
+      max_g: 100000
       confidence: low
     lca_data_missing: true
-  hg-1-1:
+  hg-12-2-8:
+    name: Outdoor Umbrellas & Sunshades
+    weight:
+      estimate_g: 8000
+      min_g: 3000
+      max_g: 20000
+      confidence: medium
+    lca_data_missing: true
+  hg-12-3:
+    name: Outdoor Power Equipment
+    weight:
+      estimate_g: 15000
+      min_g: 3000
+      max_g: 50000
+      confidence: low
+    notes: Lawn mowers, leaf blowers, etc.
+    lca_data_missing: true
+  hg-12-6:
+    name: Watering & Irrigation
+    weight:
+      estimate_g: 1000
+      min_g: 100
+      max_g: 5000
+      confidence: low
+    lca_data_missing: true
+  hg-12-6-3:
+    name: Garden Hoses
+    weight:
+      estimate_g: 2000
+      min_g: 500
+      max_g: 5000
+      confidence: medium
+    materials:
+      primary_material: rubber
+    lca_data_missing: true
+  hg-12-6-5-2:
+    name: Sprinklers
+    weight:
+      estimate_g: 800
+      min_g: 200
+      max_g: 2000
+      confidence: medium
+    lca_data_missing: true
+  hg-12-6-7:
+    name: Watering Cans
+    weight:
+      estimate_g: 500
+      min_g: 200
+      max_g: 1500
+      confidence: medium
+    lca_data_missing: true
+  hg-13:
+    name: Lighting
+    weight:
+      estimate_g: 1500
+      min_g: 50
+      max_g: 15000
+      confidence: low
+    lca_data_missing: true
+  hg-13-5:
+    name: Lamps
+    weight:
+      estimate_g: 2000
+      min_g: 500
+      max_g: 8000
+      confidence: medium
+    lca_data_missing: true
+  hg-13-5-2:
+    name: Desk Lamps
+    weight:
+      estimate_g: 1200
+      min_g: 400
+      max_g: 2500
+      confidence: medium
+    lca_data_missing: true
+  hg-13-5-3:
+    name: Floor Lamps
+    weight:
+      estimate_g: 4000
+      min_g: 2000
+      max_g: 10000
+      confidence: medium
+    lca_data_missing: true
+  hg-13-5-5:
+    name: Table Lamps
+    weight:
+      estimate_g: 2500
+      min_g: 800
+      max_g: 5000
+      confidence: medium
+    lca_data_missing: true
+  hg-13-7:
+    name: Light Bulbs
+    weight:
+      estimate_g: 80
+      min_g: 30
+      max_g: 200
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 25.0
+      carbon_kg_co2e_per_unit: 2.0
+      scope: cradle-to-gate
+      use_phase:
+        energy_kwh_per_year: 10
+        lifespan_years: 15
+      data_quality: secondary
+    notes: LED bulbs - incandescent have much higher use-phase impact
+    sources:
+    - US DOE LED Lighting Facts
+  hg-13-8-2:
+    name: String Lights
+    weight:
+      estimate_g: 300
+      min_g: 100
+      max_g: 800
+      confidence: medium
+    lca_data_missing: true
+  hg-15-1:
+    name: Bedding
+    weight:
+      estimate_g: 1500
+      min_g: 200
+      max_g: 5000
+      confidence: low
+    lca_data_missing: true
+  hg-15-1-12:
+    name: Mattress Toppers
+    weight:
+      estimate_g: 4000
+      min_g: 2000
+      max_g: 8000
+      confidence: medium
+    lca_data_missing: true
+  hg-15-1-2:
+    name: Bed Sheets
+    weight:
+      estimate_g: 800
+      min_g: 400
+      max_g: 1500
+      confidence: medium
+      methodology: Per sheet set
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      carbon_kg_co2e_per_unit: 6.4
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: cotton
+    sources:
+    - Cotton Inc. LCA Studies
+  hg-15-1-5:
+    name: Duvet Covers
+    weight:
+      estimate_g: 2500
+      min_g: 1500
+      max_g: 4000
+      confidence: medium
+    notes: Down-filled have higher footprint than synthetic
+    lca_data_missing: true
+  hg-15-1-9:
+    name: Pillows
+    weight:
+      estimate_g: 700
+      min_g: 400
+      max_g: 1200
+      confidence: high
+    materials:
+      primary_material: mixed
+      breakdown:
+      - material: polyester_fill
+        percentage: 70
+      - material: cotton_cover
+        percentage: 30
+    lca_data_missing: true
+  hg-15-4-1-1:
     name: Bath Towels
     weight:
       estimate_g: 500
@@ -211,85 +827,47 @@ categories:
         percentage: 100
     sources:
     - WRAP UK Textiles Data
-  hg-1-2:
-    name: Shower Curtains
+  hg-17-5-2-2:
+    name: Seeds
     weight:
-      estimate_g: 400
-      min_g: 200
-      max_g: 800
+      estimate_g: 50
+      min_g: 5
+      max_g: 500
       confidence: medium
-    materials:
-      primary_material: plastic
-      breakdown:
-      - material: polyester
-        percentage: 70
-      - material: pvc
-        percentage: 30
     lca_data_missing: true
-  hg-2:
-    name: Bedding
+  hg-2-10:
+    name: Video Doorbells
     weight:
-      estimate_g: 1500
-      min_g: 200
+      estimate_g: 200
+      min_g: 100
+      max_g: 400
+      confidence: high
+    lca_data_missing: true
+  hg-2-2:
+    name: Home Alarm Systems
+    weight:
+      estimate_g: 500
+      min_g: 50
       max_g: 5000
       confidence: low
     lca_data_missing: true
-  hg-2-1:
-    name: Bed Sheets
-    weight:
-      estimate_g: 800
-      min_g: 400
-      max_g: 1500
-      confidence: medium
-      methodology: Per sheet set
-    lca:
-      carbon_kg_co2e_per_kg: 8.0
-      carbon_kg_co2e_per_unit: 6.4
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: cotton
-    sources:
-    - Cotton Inc. LCA Studies
-  hg-2-2:
-    name: Blankets & Throws
-    weight:
-      estimate_g: 1200
-      min_g: 400
-      max_g: 3000
-      confidence: medium
-    lca_data_missing: true
   hg-2-3:
-    name: Duvets & Comforters
+    name: Motion Sensors
     weight:
-      estimate_g: 2500
-      min_g: 1500
-      max_g: 4000
-      confidence: medium
-    notes: Down-filled have higher footprint than synthetic
-    lca_data_missing: true
-  hg-2-4:
-    name: Pillows
-    weight:
-      estimate_g: 700
-      min_g: 400
-      max_g: 1200
+      estimate_g: 100
+      min_g: 50
+      max_g: 200
       confidence: high
-    materials:
-      primary_material: mixed
-      breakdown:
-      - material: polyester_fill
-        percentage: 70
-      - material: cotton_cover
-        percentage: 30
     lca_data_missing: true
-  hg-2-5:
-    name: Mattress Toppers
+  hg-2-7:
+    name: Security Safe Accessories
     weight:
-      estimate_g: 4000
-      min_g: 2000
-      max_g: 8000
-      confidence: medium
+      estimate_g: 15000
+      min_g: 3000
+      max_g: 100000
+      confidence: low
+    materials:
+      primary_material: steel
     lca_data_missing: true
   hg-3:
     name: Decor
@@ -299,7 +877,47 @@ categories:
       max_g: 10000
       confidence: low
     lca_data_missing: true
-  hg-3-1:
+  hg-3-12:
+    name: Bookends
+    weight:
+      estimate_g: 800
+      min_g: 200
+      max_g: 2000
+      confidence: medium
+    lca_data_missing: true
+  hg-3-17:
+    name: Clocks
+    weight:
+      estimate_g: 500
+      min_g: 100
+      max_g: 3000
+      confidence: medium
+    lca_data_missing: true
+  hg-3-21:
+    name: Decorative Bowls
+    weight:
+      estimate_g: 600
+      min_g: 100
+      max_g: 2000
+      confidence: medium
+    lca_data_missing: true
+  hg-3-25:
+    name: Decorative Trays
+    weight:
+      estimate_g: 500
+      min_g: 100
+      max_g: 1500
+      confidence: medium
+    lca_data_missing: true
+  hg-3-30:
+    name: Figurines
+    weight:
+      estimate_g: 1000
+      min_g: 100
+      max_g: 5000
+      confidence: low
+    lca_data_missing: true
+  hg-3-40-2:
     name: Candles
     weight:
       estimate_g: 250
@@ -317,7 +935,25 @@ categories:
         percentage: 10
     notes: Soy/beeswax candles have lower footprint
     lca_data_missing: true
-  hg-3-5:
+  hg-3-43:
+    name: Lawn Ornaments & Garden Sculptures
+    weight:
+      estimate_g: 2000
+      min_g: 200
+      max_g: 15000
+      confidence: low
+    lca_data_missing: true
+  hg-3-47:
+    name: Mirrors
+    weight:
+      estimate_g: 3000
+      min_g: 500
+      max_g: 15000
+      confidence: low
+    materials:
+      primary_material: glass
+    lca_data_missing: true
+  hg-3-52:
     name: Picture Frames
     weight:
       estimate_g: 400
@@ -334,17 +970,7 @@ categories:
       - material: other
         percentage: 10
     lca_data_missing: true
-  hg-3-6:
-    name: Mirrors
-    weight:
-      estimate_g: 3000
-      min_g: 500
-      max_g: 15000
-      confidence: low
-    materials:
-      primary_material: glass
-    lca_data_missing: true
-  hg-3-7:
+  hg-3-57:
     name: Rugs
     weight:
       estimate_g: 5000
@@ -358,189 +984,7 @@ categories:
     notes: Weight varies significantly with size and material
     sources:
     - Carpet LCA studies
-  hg-3-8:
-    name: Vases
-    weight:
-      estimate_g: 600
-      min_g: 100
-      max_g: 3000
-      confidence: medium
-    materials:
-      primary_material: ceramic
-    lca_data_missing: true
-  hg-3-17:
-    name: Clocks
-    weight:
-      estimate_g: 500
-      min_g: 100
-      max_g: 3000
-      confidence: medium
-    lca_data_missing: true
-  hg-7:
-    name: Lighting
-    weight:
-      estimate_g: 1500
-      min_g: 50
-      max_g: 15000
-      confidence: low
-    lca_data_missing: true
-  hg-7-1:
-    name: Light Bulbs
-    weight:
-      estimate_g: 80
-      min_g: 30
-      max_g: 200
-      confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 25.0
-      carbon_kg_co2e_per_unit: 2.0
-      scope: cradle-to-gate
-      use_phase:
-        energy_kwh_per_year: 10
-        lifespan_years: 15
-      data_quality: secondary
-    notes: LED bulbs - incandescent have much higher use-phase impact
-    sources:
-    - US DOE LED Lighting Facts
-  hg-7-2:
-    name: Lamps
-    weight:
-      estimate_g: 2000
-      min_g: 500
-      max_g: 8000
-      confidence: medium
-    lca_data_missing: true
-  hg-7-2-1:
-    name: Desk Lamps
-    weight:
-      estimate_g: 1200
-      min_g: 400
-      max_g: 2500
-      confidence: medium
-    lca_data_missing: true
-  hg-7-2-2:
-    name: Floor Lamps
-    weight:
-      estimate_g: 4000
-      min_g: 2000
-      max_g: 10000
-      confidence: medium
-    lca_data_missing: true
-  hg-7-2-3:
-    name: Table Lamps
-    weight:
-      estimate_g: 2500
-      min_g: 800
-      max_g: 5000
-      confidence: medium
-    lca_data_missing: true
-  hg-4:
-    name: Lawn & Garden
-    weight:
-      estimate_g: 2000
-      min_g: 50
-      max_g: 50000
-      confidence: low
-    notes: Extremely variable - seeds to lawn mowers
-    lca_data_missing: true
-  hg-4-1:
-    name: Gardening Tools
-    weight:
-      estimate_g: 800
-      min_g: 100
-      max_g: 3000
-      confidence: medium
-    materials:
-      primary_material: metal
-      breakdown:
-      - material: steel
-        percentage: 70
-      - material: wood_handle
-        percentage: 20
-      - material: plastic
-        percentage: 10
-    lca_data_missing: true
-  hg-4-2:
-    name: Outdoor Power Equipment
-    weight:
-      estimate_g: 15000
-      min_g: 3000
-      max_g: 50000
-      confidence: low
-    notes: Lawn mowers, leaf blowers, etc.
-    lca_data_missing: true
-  hg-4-3:
-    name: Planters & Pots
-    weight:
-      estimate_g: 1500
-      min_g: 200
-      max_g: 10000
-      confidence: low
-    notes: Ceramic heavier than plastic
-    lca_data_missing: true
-  hg-4-4:
-    name: Seeds & Bulbs
-    weight:
-      estimate_g: 50
-      min_g: 5
-      max_g: 500
-      confidence: medium
-    lca_data_missing: true
-  hg-5:
-    name: Outdoor Furniture
-    weight:
-      estimate_g: 8000
-      min_g: 2000
-      max_g: 30000
-      confidence: low
-    notes: See Furniture vertical for more detail
-    lca_data_missing: true
-  hg-8:
-    name: Household Supplies
-    weight:
-      estimate_g: 500
-      min_g: 50
-      max_g: 5000
-      confidence: low
-    lca_data_missing: true
-  hg-8-1:
-    name: Cleaning Supplies
-    weight:
-      estimate_g: 800
-      min_g: 100
-      max_g: 3000
-      confidence: medium
-    lca_data_missing: true
-  hg-8-2:
-    name: Laundry Supplies
-    weight:
-      estimate_g: 2000
-      min_g: 500
-      max_g: 5000
-      confidence: medium
-    notes: Detergent weight - bottles add ~200g
-    lca_data_missing: true
-  hg-9:
-    name: Storage & Organization
-    weight:
-      estimate_g: 1000
-      min_g: 100
-      max_g: 10000
-      confidence: low
-    materials:
-      primary_material: plastic
-    lca_data_missing: true
-  hg-9-1:
-    name: Storage Bins & Boxes
-    weight:
-      estimate_g: 600
-      min_g: 100
-      max_g: 2000
-      confidence: medium
-    materials:
-      primary_material: plastic
-    lca_data_missing: true
-  hg-9-2:
+  hg-3-6:
     name: Baskets
     weight:
       estimate_g: 400
@@ -551,460 +995,7 @@ categories:
       primary_material: wicker
     notes: Natural materials vs plastic varies significantly
     lca_data_missing: true
-  hg-9-3:
-    name: Closet Organizers
-    weight:
-      estimate_g: 3000
-      min_g: 500
-      max_g: 10000
-      confidence: low
-    lca_data_missing: true
-  hg-9-4:
-    name: Drawer Organizers
-    weight:
-      estimate_g: 200
-      min_g: 50
-      max_g: 500
-      confidence: medium
-    lca_data_missing: true
-  hg-9-5:
-    name: Hangers
-    weight:
-      estimate_g: 40
-      min_g: 20
-      max_g: 100
-      confidence: high
-      methodology: Per hanger
-    lca_data_missing: true
-  hg-9-6:
-    name: Shoe Racks
-    weight:
-      estimate_g: 2000
-      min_g: 500
-      max_g: 5000
-      confidence: medium
-    lca_data_missing: true
-  hg-10:
-    name: Window Treatments
-    weight:
-      estimate_g: 1500
-      min_g: 200
-      max_g: 8000
-      confidence: low
-    lca_data_missing: true
-  hg-10-1:
-    name: Curtains & Drapes
-    weight:
-      estimate_g: 1500
-      min_g: 500
-      max_g: 4000
-      confidence: medium
-    materials:
-      primary_material: polyester
-      breakdown:
-      - material: polyester
-        percentage: 70
-      - material: cotton
-        percentage: 30
-    lca_data_missing: true
-  hg-10-2:
-    name: Blinds
-    weight:
-      estimate_g: 2000
-      min_g: 500
-      max_g: 5000
-      confidence: medium
-    materials:
-      primary_material: aluminum
-    lca_data_missing: true
-  hg-10-3:
-    name: Shades
-    weight:
-      estimate_g: 1000
-      min_g: 300
-      max_g: 3000
-      confidence: medium
-    lca_data_missing: true
-  hg-10-4:
-    name: Curtain Rods
-    weight:
-      estimate_g: 800
-      min_g: 300
-      max_g: 2000
-      confidence: medium
-    materials:
-      primary_material: metal
-    lca_data_missing: true
-  hg-10-5:
-    name: Valances
-    weight:
-      estimate_g: 300
-      min_g: 100
-      max_g: 800
-      confidence: medium
-    lca_data_missing: true
-  hg-11:
-    name: Heating & Cooling
-    weight:
-      estimate_g: 10000
-      min_g: 500
-      max_g: 50000
-      confidence: low
-    lca_data_missing: true
-  hg-11-1:
-    name: Space Heaters
-    weight:
-      estimate_g: 3000
-      min_g: 1000
-      max_g: 8000
-      confidence: medium
-    lca_data_missing: true
-  hg-11-2:
-    name: Portable Air Conditioners
-    weight:
-      estimate_g: 25000
-      min_g: 15000
-      max_g: 40000
-      confidence: medium
-    lca_data_missing: true
-  hg-11-3:
-    name: Fans
-    weight:
-      estimate_g: 3000
-      min_g: 500
-      max_g: 10000
-      confidence: medium
-    lca_data_missing: true
-  hg-11-3-1:
-    name: Ceiling Fans
-    weight:
-      estimate_g: 8000
-      min_g: 4000
-      max_g: 15000
-      confidence: medium
-    lca_data_missing: true
-  hg-11-3-2:
-    name: Tower Fans
-    weight:
-      estimate_g: 4000
-      min_g: 2000
-      max_g: 7000
-      confidence: medium
-    lca_data_missing: true
-  hg-11-3-3:
-    name: Desk Fans
-    weight:
-      estimate_g: 1500
-      min_g: 500
-      max_g: 3000
-      confidence: medium
-    lca_data_missing: true
-  hg-11-4:
-    name: Humidifiers
-    weight:
-      estimate_g: 2000
-      min_g: 500
-      max_g: 5000
-      confidence: medium
-    lca_data_missing: true
-  hg-11-5:
-    name: Dehumidifiers
-    weight:
-      estimate_g: 12000
-      min_g: 5000
-      max_g: 25000
-      confidence: medium
-    lca_data_missing: true
-  hg-11-6:
-    name: Air Purifiers
-    weight:
-      estimate_g: 5000
-      min_g: 1500
-      max_g: 12000
-      confidence: medium
-    lca_data_missing: true
-  hg-11-7:
-    name: Thermostats
-    weight:
-      estimate_g: 200
-      min_g: 100
-      max_g: 400
-      confidence: high
-    notes: Smart thermostats save significant energy use
-    lca_data_missing: true
-  hg-12:
-    name: Fireplaces & Accessories
-    weight:
-      estimate_g: 20000
-      min_g: 500
-      max_g: 100000
-      confidence: low
-    lca_data_missing: true
-  hg-12-1:
-    name: Electric Fireplaces
-    weight:
-      estimate_g: 35000
-      min_g: 15000
-      max_g: 60000
-      confidence: medium
-    lca_data_missing: true
-  hg-12-2:
-    name: Fireplace Screens
-    weight:
-      estimate_g: 5000
-      min_g: 2000
-      max_g: 10000
-      confidence: medium
-    materials:
-      primary_material: metal
-    lca_data_missing: true
-  hg-12-3:
-    name: Fireplace Tools
-    weight:
-      estimate_g: 3000
-      min_g: 1500
-      max_g: 6000
-      confidence: medium
-    materials:
-      primary_material: iron
-    lca_data_missing: true
-  hg-12-4:
-    name: Firewood Racks
-    weight:
-      estimate_g: 5000
-      min_g: 2000
-      max_g: 15000
-      confidence: medium
-    materials:
-      primary_material: steel
-    lca_data_missing: true
-  hg-13:
-    name: Home Security
-    weight:
-      estimate_g: 500
-      min_g: 50
-      max_g: 5000
-      confidence: low
-    lca_data_missing: true
-  hg-13-1:
-    name: Security Cameras
-    weight:
-      estimate_g: 300
-      min_g: 100
-      max_g: 800
-      confidence: medium
-    lca_data_missing: true
-  hg-13-2:
-    name: Video Doorbells
-    weight:
-      estimate_g: 200
-      min_g: 100
-      max_g: 400
-      confidence: high
-    lca_data_missing: true
-  hg-13-3:
-    name: Smart Locks
-    weight:
-      estimate_g: 800
-      min_g: 400
-      max_g: 1500
-      confidence: medium
-    lca_data_missing: true
-  hg-13-4:
-    name: Motion Sensors
-    weight:
-      estimate_g: 100
-      min_g: 50
-      max_g: 200
-      confidence: high
-    lca_data_missing: true
-  hg-13-5:
-    name: Safes
-    weight:
-      estimate_g: 15000
-      min_g: 3000
-      max_g: 100000
-      confidence: low
-    materials:
-      primary_material: steel
-    lca_data_missing: true
-  hg-13-6:
-    name: Smoke Detectors
-    weight:
-      estimate_g: 150
-      min_g: 100
-      max_g: 300
-      confidence: high
-    lca_data_missing: true
-  hg-13-7:
-    name: Carbon Monoxide Detectors
-    weight:
-      estimate_g: 150
-      min_g: 100
-      max_g: 300
-      confidence: high
-    lca_data_missing: true
-  hg-6-7-3:
-    name: Food Processors
-    weight:
-      estimate_g: 4000
-      min_g: 2000
-      max_g: 7000
-      confidence: medium
-    lca_data_missing: true
-  hg-6-7-4:
-    name: Stand Mixers
-    weight:
-      estimate_g: 8000
-      min_g: 5000
-      max_g: 12000
-      confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 8.0
-      carbon_kg_co2e_per_unit: 64.0
-      scope: cradle-to-gate
-      data_quality: secondary
-    sources:
-    - KitchenAid environmental data
-  hg-6-7-5:
-    name: Hand Mixers
-    weight:
-      estimate_g: 1000
-      min_g: 600
-      max_g: 1500
-      confidence: high
-    lca_data_missing: true
-  hg-6-7-8:
-    name: Microwaves
-    weight:
-      estimate_g: 12000
-      min_g: 8000
-      max_g: 20000
-      confidence: medium
-    lca_data_missing: true
-  hg-6-7-9:
-    name: Air Fryers
-    weight:
-      estimate_g: 5000
-      min_g: 3000
-      max_g: 8000
-      confidence: medium
-    lca_data_missing: true
-  hg-6-7-10:
-    name: Instant Pots & Pressure Cookers
-    weight:
-      estimate_g: 5000
-      min_g: 3000
-      max_g: 8000
-      confidence: medium
-    lca_data_missing: true
-  hg-6-7-11:
-    name: Slow Cookers
-    weight:
-      estimate_g: 4000
-      min_g: 2500
-      max_g: 6000
-      confidence: medium
-    lca_data_missing: true
-  hg-6-7-12:
-    name: Rice Cookers
-    weight:
-      estimate_g: 3000
-      min_g: 1500
-      max_g: 5000
-      confidence: medium
-    lca_data_missing: true
-  hg-6-7-13:
-    name: Juicers
-    weight:
-      estimate_g: 4000
-      min_g: 1500
-      max_g: 8000
-      confidence: medium
-    lca_data_missing: true
-  hg-6-7-14:
-    name: Electric Grills
-    weight:
-      estimate_g: 5000
-      min_g: 2000
-      max_g: 10000
-      confidence: medium
-    lca_data_missing: true
-  hg-6-7-15:
-    name: Waffle Makers
-    weight:
-      estimate_g: 2000
-      min_g: 1000
-      max_g: 3500
-      confidence: medium
-    lca_data_missing: true
-  hg-6-7-16:
-    name: Ice Cream Makers
-    weight:
-      estimate_g: 3500
-      min_g: 2000
-      max_g: 6000
-      confidence: medium
-    lca_data_missing: true
-  hg-6-7-17:
-    name: Bread Machines
-    weight:
-      estimate_g: 6000
-      min_g: 4000
-      max_g: 9000
-      confidence: medium
-    lca_data_missing: true
-  hg-6-7-18:
-    name: Espresso Machines
-    weight:
-      estimate_g: 8000
-      min_g: 3000
-      max_g: 20000
-      confidence: low
-    lca_data_missing: true
-  hg-6-7-19:
-    name: Electric Kettles
-    weight:
-      estimate_g: 1000
-      min_g: 500
-      max_g: 1800
-      confidence: high
-    lca_data_missing: true
-  hg-6-7-20:
-    name: Deep Fryers
-    weight:
-      estimate_g: 4000
-      min_g: 2000
-      max_g: 8000
-      confidence: medium
-    lca_data_missing: true
-  hg-3-2:
-    name: Artificial Plants
-    weight:
-      estimate_g: 500
-      min_g: 50
-      max_g: 3000
-      confidence: low
-    materials:
-      primary_material: plastic
-    lca_data_missing: true
-  hg-3-3:
-    name: Wall Art
-    weight:
-      estimate_g: 1000
-      min_g: 100
-      max_g: 5000
-      confidence: low
-    lca_data_missing: true
-  hg-3-4:
-    name: Sculptures & Figurines
-    weight:
-      estimate_g: 800
-      min_g: 50
-      max_g: 10000
-      confidence: low
-    lca_data_missing: true
-  hg-3-9:
+  hg-3-64:
     name: Throw Pillows
     weight:
       estimate_g: 400
@@ -1019,57 +1010,17 @@ categories:
       - material: fabric_cover
         percentage: 40
     lca_data_missing: true
-  hg-3-10:
-    name: Photo Albums
-    weight:
-      estimate_g: 500
-      min_g: 200
-      max_g: 1500
-      confidence: medium
-    lca_data_missing: true
-  hg-3-11:
-    name: Bookends
-    weight:
-      estimate_g: 800
-      min_g: 200
-      max_g: 2000
-      confidence: medium
-    lca_data_missing: true
-  hg-3-12:
-    name: Decorative Bowls
+  hg-3-67:
+    name: Vases
     weight:
       estimate_g: 600
       min_g: 100
-      max_g: 2000
-      confidence: medium
-    lca_data_missing: true
-  hg-3-13:
-    name: Decorative Trays
-    weight:
-      estimate_g: 500
-      min_g: 100
-      max_g: 1500
-      confidence: medium
-    lca_data_missing: true
-  hg-3-14:
-    name: String Lights
-    weight:
-      estimate_g: 300
-      min_g: 100
-      max_g: 800
-      confidence: medium
-    lca_data_missing: true
-  hg-3-15:
-    name: Tapestries
-    weight:
-      estimate_g: 500
-      min_g: 200
-      max_g: 1500
+      max_g: 3000
       confidence: medium
     materials:
-      primary_material: polyester
+      primary_material: ceramic
     lca_data_missing: true
-  hg-3-16:
+  hg-3-70:
     name: Wind Chimes
     weight:
       estimate_g: 300
@@ -1077,189 +1028,74 @@ categories:
       max_g: 800
       confidence: medium
     lca_data_missing: true
-  hg-1-3:
-    name: Bathroom Rugs & Mats
+  hg-3-73-2:
+    name: Curtain & Drape Rods
     weight:
-      estimate_g: 600
-      min_g: 200
-      max_g: 1500
-      confidence: medium
-    lca_data_missing: true
-  hg-1-4:
-    name: Soap Dispensers
-    weight:
-      estimate_g: 300
-      min_g: 100
-      max_g: 600
-      confidence: medium
-    lca_data_missing: true
-  hg-1-5:
-    name: Toothbrush Holders
-    weight:
-      estimate_g: 200
-      min_g: 50
-      max_g: 500
-      confidence: medium
-    lca_data_missing: true
-  hg-1-6:
-    name: Towel Bars & Hooks
-    weight:
-      estimate_g: 400
-      min_g: 100
-      max_g: 1000
+      estimate_g: 800
+      min_g: 300
+      max_g: 2000
       confidence: medium
     materials:
       primary_material: metal
     lca_data_missing: true
-  hg-1-7:
-    name: Toilet Paper Holders
+  hg-3-74:
+    name: Window Treatments
     weight:
-      estimate_g: 300
-      min_g: 100
-      max_g: 600
-      confidence: medium
+      estimate_g: 1500
+      min_g: 200
+      max_g: 8000
+      confidence: low
     lca_data_missing: true
-  hg-1-8:
-    name: Bathroom Scales
+  hg-3-74-1:
+    name: Curtains & Drapes
     weight:
-      estimate_g: 2000
-      min_g: 1000
+      estimate_g: 1500
+      min_g: 500
       max_g: 4000
       confidence: medium
+    materials:
+      primary_material: polyester
+      breakdown:
+      - material: polyester
+        percentage: 70
+      - material: cotton
+        percentage: 30
     lca_data_missing: true
-  hg-1-9:
-    name: Makeup Mirrors
-    weight:
-      estimate_g: 800
-      min_g: 200
-      max_g: 2000
-      confidence: medium
-    lca_data_missing: true
-  hg-1-10:
-    name: Bathroom Storage
-    weight:
-      estimate_g: 3000
-      min_g: 500
-      max_g: 10000
-      confidence: low
-    lca_data_missing: true
-  hg-4-5:
-    name: Watering Equipment
-    weight:
-      estimate_g: 1000
-      min_g: 100
-      max_g: 5000
-      confidence: low
-    lca_data_missing: true
-  hg-4-5-1:
-    name: Garden Hoses
+  hg-3-74-3-1:
+    name: Blinds
     weight:
       estimate_g: 2000
       min_g: 500
       max_g: 5000
       confidence: medium
     materials:
-      primary_material: rubber
+      primary_material: aluminum
     lca_data_missing: true
-  hg-4-5-2:
-    name: Watering Cans
+  hg-3-74-3-2:
+    name: Shades
     weight:
-      estimate_g: 500
-      min_g: 200
-      max_g: 1500
-      confidence: medium
-    lca_data_missing: true
-  hg-4-5-3:
-    name: Sprinklers
-    weight:
-      estimate_g: 800
-      min_g: 200
-      max_g: 2000
-      confidence: medium
-    lca_data_missing: true
-  hg-4-6:
-    name: Outdoor Lighting
-    weight:
-      estimate_g: 500
-      min_g: 100
+      estimate_g: 1000
+      min_g: 300
       max_g: 3000
-      confidence: low
+      confidence: medium
     lca_data_missing: true
-  hg-4-6-1:
-    name: Solar Path Lights
+  hg-3-74-6-2:
+    name: Valances
     weight:
       estimate_g: 300
       min_g: 100
       max_g: 800
       confidence: medium
     lca_data_missing: true
-  hg-4-6-2:
-    name: String Lights (Outdoor)
+  hg-3-77:
+    name: Chair & Sofa Throws
     weight:
-      estimate_g: 500
-      min_g: 200
-      max_g: 1500
+      estimate_g: 1200
+      min_g: 400
+      max_g: 3000
       confidence: medium
     lca_data_missing: true
-  hg-4-7:
-    name: Grills & BBQs
-    weight:
-      estimate_g: 25000
-      min_g: 5000
-      max_g: 80000
-      confidence: low
-    materials:
-      primary_material: steel
-    lca_data_missing: true
-  hg-4-7-1:
-    name: Gas Grills
-    weight:
-      estimate_g: 35000
-      min_g: 15000
-      max_g: 80000
-      confidence: medium
-    lca_data_missing: true
-  hg-4-7-2:
-    name: Charcoal Grills
-    weight:
-      estimate_g: 15000
-      min_g: 5000
-      max_g: 40000
-      confidence: medium
-    lca_data_missing: true
-  hg-4-7-3:
-    name: Portable Grills
-    weight:
-      estimate_g: 5000
-      min_g: 2000
-      max_g: 12000
-      confidence: medium
-    lca_data_missing: true
-  hg-4-7-4:
-    name: Smokers
-    weight:
-      estimate_g: 30000
-      min_g: 10000
-      max_g: 60000
-      confidence: medium
-    lca_data_missing: true
-  hg-4-8:
-    name: Patio Umbrellas
-    weight:
-      estimate_g: 8000
-      min_g: 3000
-      max_g: 20000
-      confidence: medium
-    lca_data_missing: true
-  hg-4-9:
-    name: Outdoor Cushions
-    weight:
-      estimate_g: 800
-      min_g: 300
-      max_g: 2000
-      confidence: medium
-    lca_data_missing: true
-  hg-4-10:
+  hg-3-8-1:
     name: Bird Feeders
     weight:
       estimate_g: 500
@@ -1267,47 +1103,141 @@ categories:
       max_g: 2000
       confidence: medium
     lca_data_missing: true
-  hg-4-11:
-    name: Garden Décor
-    weight:
-      estimate_g: 2000
-      min_g: 200
-      max_g: 15000
-      confidence: low
-    lca_data_missing: true
-  hg-4-12:
-    name: Compost Bins
+  hg-5-5:
+    name: Fireplace Screens
     weight:
       estimate_g: 5000
-      min_g: 1000
+      min_g: 2000
+      max_g: 10000
+      confidence: medium
+    materials:
+      primary_material: metal
+    lca_data_missing: true
+  hg-5-6:
+    name: Fireplace Tools
+    weight:
+      estimate_g: 3000
+      min_g: 1500
+      max_g: 6000
+      confidence: medium
+    materials:
+      primary_material: iron
+    lca_data_missing: true
+  hg-5-7-1:
+    name: Firewood
+    weight:
+      estimate_g: 5000
+      min_g: 2000
       max_g: 15000
       confidence: medium
+    materials:
+      primary_material: steel
     lca_data_missing: true
-  hg-4-13:
-    name: Greenhouses
+  hg-6:
+    name: Fireplaces
     weight:
-      estimate_g: 30000
-      min_g: 10000
+      estimate_g: 20000
+      min_g: 500
       max_g: 100000
       confidence: low
     lca_data_missing: true
-  hg-4-14:
-    name: Garden Fencing
+  hg-7-7-1:
+    name: Carbon Monoxide Detectors
     weight:
-      estimate_g: 5000
-      min_g: 1000
-      max_g: 20000
+      estimate_g: 150
+      min_g: 100
+      max_g: 300
+      confidence: high
+    lca_data_missing: true
+  hg-7-7-2:
+    name: Smoke Detectors
+    weight:
+      estimate_g: 150
+      min_g: 100
+      max_g: 300
+      confidence: high
+    lca_data_missing: true
+  hg-8:
+    name: Household Appliance Accessories
+    weight:
+      estimate_g: 10000
+      min_g: 500
+      max_g: 50000
       confidence: low
     lca_data_missing: true
-  hg-14:
-    name: Vacuum & Floor Care
+  hg-9-1-1-1:
+    name: Portable Air Conditioners
+    weight:
+      estimate_g: 25000
+      min_g: 15000
+      max_g: 40000
+      confidence: medium
+    lca_data_missing: true
+  hg-9-1-12:
+    name: Space Heaters
+    weight:
+      estimate_g: 3000
+      min_g: 1000
+      max_g: 8000
+      confidence: medium
+    lca_data_missing: true
+  hg-9-1-2:
+    name: Air Purifiers
+    weight:
+      estimate_g: 5000
+      min_g: 1500
+      max_g: 12000
+      confidence: medium
+    lca_data_missing: true
+  hg-9-1-3:
+    name: Dehumidifiers
+    weight:
+      estimate_g: 12000
+      min_g: 5000
+      max_g: 25000
+      confidence: medium
+    lca_data_missing: true
+  hg-9-1-6:
+    name: Fans
+    weight:
+      estimate_g: 3000
+      min_g: 500
+      max_g: 10000
+      confidence: medium
+    lca_data_missing: true
+  hg-9-1-6-1:
+    name: Ceiling Fans
+    weight:
+      estimate_g: 8000
+      min_g: 4000
+      max_g: 15000
+      confidence: medium
+    lca_data_missing: true
+  hg-9-1-6-7:
+    name: Tower Fans
+    weight:
+      estimate_g: 4000
+      min_g: 2000
+      max_g: 7000
+      confidence: medium
+    lca_data_missing: true
+  hg-9-1-9:
+    name: Humidifiers
+    weight:
+      estimate_g: 2000
+      min_g: 500
+      max_g: 5000
+      confidence: medium
+    lca_data_missing: true
+  hg-9-10:
+    name: Vacuums
     weight:
       estimate_g: 5000
       min_g: 500
       max_g: 15000
       confidence: low
     lca_data_missing: true
-  hg-14-1:
+  hg-9-10-2:
     name: Upright Vacuums
     weight:
       estimate_g: 7000
@@ -1315,7 +1245,15 @@ categories:
       max_g: 12000
       confidence: medium
     lca_data_missing: true
-  hg-14-2:
+  hg-9-10-4:
+    name: Handheld Vacuums
+    weight:
+      estimate_g: 1500
+      min_g: 800
+      max_g: 3000
+      confidence: medium
+    lca_data_missing: true
+  hg-9-10-5:
     name: Robot Vacuums
     weight:
       estimate_g: 3500
@@ -1332,15 +1270,7 @@ categories:
       data_quality: secondary
     sources:
     - iRobot sustainability reports
-  hg-14-3:
-    name: Handheld Vacuums
-    weight:
-      estimate_g: 1500
-      min_g: 800
-      max_g: 3000
-      confidence: medium
-    lca_data_missing: true
-  hg-14-4:
+  hg-9-10-6:
     name: Stick Vacuums
     weight:
       estimate_g: 3000
@@ -1348,7 +1278,7 @@ categories:
       max_g: 5000
       confidence: medium
     lca_data_missing: true
-  hg-14-5:
+  hg-9-3-6:
     name: Steam Mops
     weight:
       estimate_g: 3000
@@ -1356,103 +1286,11 @@ categories:
       max_g: 5000
       confidence: medium
     lca_data_missing: true
-  hg-14-6:
-    name: Carpet Cleaners
+  os-3-10-2:
+    name: Drawer Organizers
     weight:
-      estimate_g: 10000
-      min_g: 5000
-      max_g: 20000
+      estimate_g: 200
+      min_g: 50
+      max_g: 500
       confidence: medium
-    lca_data_missing: true
-  hg-14-7:
-    name: Mops & Brooms
-    weight:
-      estimate_g: 500
-      min_g: 200
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-  hg-6-9:
-    name: Cutting Boards
-    weight:
-      estimate_g: 500
-      min_g: 200
-      max_g: 1500
-      confidence: medium
-    materials:
-      primary_material: wood
-    lca_data_missing: true
-  hg-6-10:
-    name: Kitchen Scales
-    weight:
-      estimate_g: 400
-      min_g: 150
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-  hg-6-11:
-    name: Knife Sets
-    weight:
-      estimate_g: 1500
-      min_g: 500
-      max_g: 4000
-      confidence: medium
-    materials:
-      primary_material: stainless_steel
-    lca_data_missing: true
-  hg-6-12:
-    name: Kitchen Timers
-    weight:
-      estimate_g: 100
-      min_g: 30
-      max_g: 200
-      confidence: high
-    lca_data_missing: true
-  hg-6-13:
-    name: Dish Racks
-    weight:
-      estimate_g: 1000
-      min_g: 400
-      max_g: 2500
-      confidence: medium
-    lca_data_missing: true
-  hg-6-14:
-    name: Trash Cans
-    weight:
-      estimate_g: 3000
-      min_g: 500
-      max_g: 8000
-      confidence: medium
-    lca_data_missing: true
-  hg-6-15:
-    name: Paper Towel Holders
-    weight:
-      estimate_g: 400
-      min_g: 150
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-  hg-6-16:
-    name: Spice Racks
-    weight:
-      estimate_g: 500
-      min_g: 200
-      max_g: 1500
-      confidence: medium
-    lca_data_missing: true
-  hg-6-17:
-    name: Kitchen Carts
-    weight:
-      estimate_g: 15000
-      min_g: 5000
-      max_g: 30000
-      confidence: medium
-    lca_data_missing: true
-  hg-6-18:
-    name: Wine Racks
-    weight:
-      estimate_g: 2000
-      min_g: 500
-      max_g: 8000
-      confidence: low
     lca_data_missing: true

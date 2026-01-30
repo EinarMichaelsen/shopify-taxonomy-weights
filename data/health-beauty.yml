@@ -1,7 +1,479 @@
 schema_version: 0.1.0
-last_updated: '2026-01-19'
+last_updated: '2026-01-29'
 categories:
+  ha-2-16-3:
+    name: Diffusers
+    weight:
+      estimate_g: 400
+      min_g: 150
+      max_g: 800
+      confidence: medium
+    lca_data_missing: true
   hb-1:
+    name: Health Care
+    weight:
+      estimate_g: 100
+      min_g: 10
+      max_g: 2000
+      confidence: low
+    lca_data_missing: true
+  hb-1-4-3:
+    name: Blood Pressure Monitors
+    weight:
+      estimate_g: 400
+      min_g: 200
+      max_g: 800
+      confidence: medium
+    lca_data_missing: true
+  hb-1-4-9:
+    name: Medical Thermometers
+    weight:
+      estimate_g: 50
+      min_g: 20
+      max_g: 150
+      confidence: medium
+    lca_data_missing: true
+  hb-1-8:
+    name: First Aid
+    weight:
+      estimate_g: 300
+      min_g: 50
+      max_g: 1000
+      confidence: low
+    lca_data_missing: true
+  hb-1-9-6:
+    name: Vitamins & Supplements
+    weight:
+      estimate_g: 150
+      min_g: 50
+      max_g: 400
+      confidence: medium
+      methodology: Typical bottle of 60-120 tablets
+    materials:
+      primary_material: mixed
+      breakdown:
+      - material: tablets_capsules
+        percentage: 40
+      - material: plastic_bottle
+        percentage: 50
+      - material: labels
+        percentage: 10
+    lca_data_missing: true
+  hb-3:
+    name: Personal Care
+    weight:
+      estimate_g: 150
+      min_g: 20
+      max_g: 500
+      confidence: low
+    lca_data_missing: true
+  hb-3-10:
+    name: Hair Care
+    weight:
+      estimate_g: 400
+      min_g: 50
+      max_g: 1000
+      confidence: medium
+    lca_data_missing: true
+  hb-3-10-10:
+    name: Hair Styling Products
+    weight:
+      estimate_g: 200
+      min_g: 50
+      max_g: 500
+      confidence: medium
+    notes: Aerosols have higher footprint than gels/creams
+    lca_data_missing: true
+  hb-3-10-12-2:
+    name: Combs & Brushes
+    weight:
+      estimate_g: 100
+      min_g: 30
+      max_g: 300
+      confidence: medium
+    lca_data_missing: true
+  hb-3-10-12-3:
+    name: Curling Irons
+    weight:
+      estimate_g: 400
+      min_g: 250
+      max_g: 600
+      confidence: medium
+    lca_data_missing: true
+  hb-3-10-12-6:
+    name: Hair Dryers
+    weight:
+      estimate_g: 600
+      min_g: 400
+      max_g: 900
+      confidence: high
+    materials:
+      primary_material: plastic
+      breakdown:
+      - material: plastic
+        percentage: 60
+      - material: motor
+        percentage: 25
+      - material: electronics
+        percentage: 15
+    lca_data_missing: true
+  hb-3-10-12-7:
+    name: Hair Straighteners
+    weight:
+      estimate_g: 450
+      min_g: 300
+      max_g: 700
+      confidence: medium
+    lca_data_missing: true
+  hb-3-10-13-3:
+    name: Shampoo
+    weight:
+      estimate_g: 400
+      min_g: 200
+      max_g: 1000
+      confidence: high
+      methodology: Typical 300-500ml bottle
+    lca:
+      carbon_kg_co2e_per_kg: 2.0
+      carbon_kg_co2e_per_unit: 0.8
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: mixed
+      breakdown:
+      - material: water_surfactants
+        percentage: 80
+      - material: plastic_bottle
+        percentage: 18
+      - material: other
+        percentage: 2
+    sources:
+    - Unilever sustainability reports
+    - P&G environmental footprint data
+  hb-3-10-14:
+    name: Hair Treatments
+    weight:
+      estimate_g: 400
+      min_g: 200
+      max_g: 1000
+      confidence: high
+    lca_data_missing: true
+  hb-3-10-14-1:
+    name: Hair Masks
+    weight:
+      estimate_g: 250
+      min_g: 100
+      max_g: 500
+      confidence: medium
+    lca_data_missing: true
+  hb-3-10-2:
+    name: Hair Color
+    weight:
+      estimate_g: 200
+      min_g: 100
+      max_g: 400
+      confidence: medium
+    notes: Kit includes multiple components
+    lca_data_missing: true
+  hb-3-11:
+    name: Massage & Relaxation
+    weight:
+      estimate_g: 500
+      min_g: 100
+      max_g: 2000
+      confidence: low
+    lca_data_missing: true
+  hb-3-11-9:
+    name: Aromatherapy Mists & Sprays
+    weight:
+      estimate_g: 30
+      min_g: 15
+      max_g: 60
+      confidence: high
+      methodology: Typical 10-30ml bottle
+    notes: Plant extraction is energy intensive
+    lca_data_missing: true
+  hb-3-12-17:
+    name: Toothbrushes
+    weight:
+      estimate_g: 20
+      min_g: 10
+      max_g: 40
+      confidence: high
+    materials:
+      primary_material: plastic
+    notes: Bamboo brushes have lower footprint
+    lca_data_missing: true
+  hb-3-12-17-1:
+    name: Electric Toothbrushes
+    weight:
+      estimate_g: 150
+      min_g: 100
+      max_g: 250
+      confidence: high
+    lca_data_missing: true
+  hb-3-12-19:
+    name: Toothpaste
+    weight:
+      estimate_g: 130
+      min_g: 75
+      max_g: 200
+      confidence: high
+      methodology: Typical 100-150ml tube
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      carbon_kg_co2e_per_unit: 0.325
+      scope: cradle-to-gate
+      data_quality: secondary
+    sources:
+    - Oral care product LCA studies
+  hb-3-14-8:
+    name: Razors & Razor Blades
+    weight:
+      estimate_g: 80
+      min_g: 30
+      max_g: 200
+      confidence: medium
+    materials:
+      primary_material: mixed
+      breakdown:
+      - material: steel_blades
+        percentage: 30
+      - material: plastic_handle
+        percentage: 60
+      - material: rubber
+        percentage: 10
+    lca_data_missing: true
+  hb-3-2-1-1:
+    name: Bar Soap
+    weight:
+      estimate_g: 120
+      min_g: 80
+      max_g: 200
+      confidence: high
+    notes: Lower packaging footprint than liquid soap
+    lca_data_missing: true
+  hb-3-2-1-12:
+    name: Body Scrubs & Exfoliants
+    weight:
+      estimate_g: 300
+      min_g: 150
+      max_g: 500
+      confidence: medium
+    lca_data_missing: true
+  hb-3-2-1-5:
+    name: Body Wash
+    weight:
+      estimate_g: 400
+      min_g: 200
+      max_g: 800
+      confidence: high
+    lca_data_missing: true
+  hb-3-2-1-6:
+    name: Hand Sanitizers & Wipes
+    weight:
+      estimate_g: 150
+      min_g: 30
+      max_g: 500
+      confidence: medium
+    lca_data_missing: true
+  hb-3-2-5-1-9:
+    name: Makeup Brushes
+    weight:
+      estimate_g: 30
+      min_g: 10
+      max_g: 80
+      confidence: medium
+      methodology: Per brush
+    lca_data_missing: true
+  hb-3-2-5-2-10:
+    name: Nail Files & Emery Boards
+    weight:
+      estimate_g: 20
+      min_g: 5
+      max_g: 50
+      confidence: high
+    lca_data_missing: true
+  hb-3-2-5-2-6:
+    name: Nail Clippers
+    weight:
+      estimate_g: 40
+      min_g: 20
+      max_g: 80
+      confidence: high
+    materials:
+      primary_material: steel
+    lca_data_missing: true
+  hb-3-2-6:
+    name: Makeup
+    weight:
+      estimate_g: 30
+      min_g: 5
+      max_g: 200
+      confidence: low
+    notes: Very small products with significant packaging
+    lca_data_missing: true
+  hb-3-2-6-3-2:
+    name: Eye Shadows
+    weight:
+      estimate_g: 40
+      min_g: 10
+      max_g: 150
+      confidence: medium
+      methodology: Single shadow to palette
+    lca_data_missing: true
+  hb-3-2-6-3-4:
+    name: Eyeliner
+    weight:
+      estimate_g: 15
+      min_g: 5
+      max_g: 30
+      confidence: high
+    lca_data_missing: true
+  hb-3-2-6-3-8:
+    name: Mascaras
+    weight:
+      estimate_g: 20
+      min_g: 10
+      max_g: 35
+      confidence: high
+    notes: Small product, mostly packaging weight
+    lca_data_missing: true
+  hb-3-2-6-4-1-1:
+    name: Blushes
+    weight:
+      estimate_g: 30
+      min_g: 10
+      max_g: 60
+      confidence: medium
+    lca_data_missing: true
+  hb-3-2-6-4-2:
+    name: Face Powder
+    weight:
+      estimate_g: 40
+      min_g: 20
+      max_g: 80
+      confidence: medium
+    lca_data_missing: true
+  hb-3-2-6-4-4:
+    name: Foundations & Concealers
+    weight:
+      estimate_g: 60
+      min_g: 30
+      max_g: 100
+      confidence: high
+      methodology: Typical 30ml bottle
+    materials:
+      primary_material: mixed
+      breakdown:
+      - material: formula
+        percentage: 50
+      - material: glass_bottle
+        percentage: 40
+      - material: pump_cap
+        percentage: 10
+    lca_data_missing: true
+  hb-3-2-6-4-4-3:
+    name: Concealers
+    weight:
+      estimate_g: 25
+      min_g: 10
+      max_g: 50
+      confidence: medium
+    lca_data_missing: true
+  hb-3-2-6-5-6:
+    name: Lipsticks
+    weight:
+      estimate_g: 25
+      min_g: 15
+      max_g: 40
+      confidence: high
+      methodology: Standard lipstick tube
+    lca:
+      carbon_kg_co2e_per_kg: 20.0
+      carbon_kg_co2e_per_unit: 0.5
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: mixed
+      breakdown:
+      - material: wax_pigments
+        percentage: 15
+      - material: metal_tube
+        percentage: 60
+      - material: plastic
+        percentage: 25
+    sources:
+    - Cosmetics packaging LCA
+  hb-3-2-7:
+    name: Nail Care
+    weight:
+      estimate_g: 30
+      min_g: 10
+      max_g: 100
+      confidence: medium
+    lca_data_missing: true
+  hb-3-2-7-11:
+    name: Nail Polishes
+    weight:
+      estimate_g: 30
+      min_g: 15
+      max_g: 50
+      confidence: high
+      methodology: Typical 10-15ml bottle
+    materials:
+      primary_material: glass
+      breakdown:
+      - material: glass_bottle
+        percentage: 60
+      - material: lacquer
+        percentage: 30
+      - material: brush_cap
+        percentage: 10
+    lca_data_missing: true
+  hb-3-2-7-9:
+    name: Nail Polish Removers
+    weight:
+      estimate_g: 150
+      min_g: 50
+      max_g: 300
+      confidence: medium
+    lca_data_missing: true
+  hb-3-2-8:
+    name: Perfumes & Colognes
+    weight:
+      estimate_g: 180
+      min_g: 80
+      max_g: 400
+      confidence: medium
+      methodology: Typical 50-100ml bottle
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      carbon_kg_co2e_per_unit: 1.44
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: glass
+      breakdown:
+      - material: glass_bottle
+        percentage: 70
+      - material: fragrance
+        percentage: 15
+      - material: alcohol
+        percentage: 10
+      - material: pump_cap
+        percentage: 5
+    sources:
+    - Fragrance industry sustainability reports
+  hb-3-2-8-2:
+    name: Colognes
+    weight:
+      estimate_g: 200
+      min_g: 100
+      max_g: 400
+      confidence: medium
+    lca_data_missing: true
+  hb-3-2-9:
     name: Skin Care
     weight:
       estimate_g: 150
@@ -10,7 +482,93 @@ categories:
       confidence: medium
     notes: Product weight varies; packaging adds significantly
     lca_data_missing: true
-  hb-1-1:
+  hb-3-2-9-10:
+    name: Lotions & Moisturizers
+    weight:
+      estimate_g: 350
+      min_g: 150
+      max_g: 600
+      confidence: high
+      methodology: Typical 250-400ml bottle
+    lca_data_missing: true
+  hb-3-2-9-11:
+    name: Makeup Removers
+    weight:
+      estimate_g: 200
+      min_g: 100
+      max_g: 400
+      confidence: medium
+    lca_data_missing: true
+  hb-3-2-9-13:
+    name: Skin Care Masks & Peels
+    weight:
+      estimate_g: 80
+      min_g: 20
+      max_g: 200
+      confidence: medium
+    notes: Sheet masks have high packaging-to-product ratio
+    lca_data_missing: true
+  hb-3-2-9-15:
+    name: Sunscreen
+    weight:
+      estimate_g: 150
+      min_g: 50
+      max_g: 300
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 4.0
+      carbon_kg_co2e_per_unit: 0.6
+      scope: cradle-to-gate
+      data_quality: secondary
+    sources:
+    - Sunscreen environmental impact studies
+  hb-3-2-9-17-2:
+    name: Toners
+    weight:
+      estimate_g: 200
+      min_g: 100
+      max_g: 350
+      confidence: medium
+    lca_data_missing: true
+  hb-3-2-9-19:
+    name: Eye Creams
+    weight:
+      estimate_g: 40
+      min_g: 15
+      max_g: 80
+      confidence: high
+      methodology: Typical 15ml jar
+    notes: Small size means high packaging ratio
+    lca_data_missing: true
+  hb-3-2-9-20:
+    name: Face Moisturizers
+    weight:
+      estimate_g: 100
+      min_g: 30
+      max_g: 250
+      confidence: high
+      methodology: Typical 50ml jar with glass/plastic container
+    notes: Glass jars have higher packaging footprint than tubes
+    lca_data_missing: true
+  hb-3-2-9-21:
+    name: Face Serums
+    weight:
+      estimate_g: 60
+      min_g: 30
+      max_g: 100
+      confidence: high
+      methodology: Typical 30ml bottle with dropper
+    materials:
+      primary_material: mixed
+      breakdown:
+      - material: formula
+        percentage: 50
+      - material: glass_bottle
+        percentage: 40
+      - material: dropper
+        percentage: 10
+    lca_data_missing: true
+  hb-3-2-9-6:
     name: Facial Cleansers
     weight:
       estimate_g: 200
@@ -38,489 +596,16 @@ categories:
         percentage: 5
     sources:
     - Cosmetics industry LCA studies
-  hb-1-2:
-    name: Moisturizers
-    weight:
-      estimate_g: 100
-      min_g: 30
-      max_g: 250
-      confidence: high
-      methodology: Typical 50ml jar with glass/plastic container
-    notes: Glass jars have higher packaging footprint than tubes
-    lca_data_missing: true
-  hb-1-3:
-    name: Serums
-    weight:
-      estimate_g: 60
-      min_g: 30
-      max_g: 100
-      confidence: high
-      methodology: Typical 30ml bottle with dropper
-    materials:
-      primary_material: mixed
-      breakdown:
-      - material: formula
-        percentage: 50
-      - material: glass_bottle
-        percentage: 40
-      - material: dropper
-        percentage: 10
-    lca_data_missing: true
-  hb-1-4:
-    name: Sunscreen
-    weight:
-      estimate_g: 150
-      min_g: 50
-      max_g: 300
-      confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 4.0
-      carbon_kg_co2e_per_unit: 0.6
-      scope: cradle-to-gate
-      data_quality: secondary
-    sources:
-    - Sunscreen environmental impact studies
-  hb-1-5:
-    name: Face Masks
-    weight:
-      estimate_g: 80
-      min_g: 20
-      max_g: 200
-      confidence: medium
-    notes: Sheet masks have high packaging-to-product ratio
-    lca_data_missing: true
-  hb-1-6:
-    name: Toners
-    weight:
-      estimate_g: 200
-      min_g: 100
-      max_g: 350
-      confidence: medium
-    lca_data_missing: true
-  hb-1-7:
-    name: Eye Creams
-    weight:
-      estimate_g: 40
-      min_g: 15
-      max_g: 80
-      confidence: high
-      methodology: Typical 15ml jar
-    notes: Small size means high packaging ratio
-    lca_data_missing: true
-  hb-1-8:
-    name: Lip Balm
+  hb-3-2-9-9:
+    name: Lip Balms & Treatments
     weight:
       estimate_g: 15
       min_g: 5
       max_g: 30
       confidence: high
-    lca_data_missing: true
-  hb-1-9:
-    name: Body Lotions
-    weight:
-      estimate_g: 350
-      min_g: 150
-      max_g: 600
-      confidence: high
-      methodology: Typical 250-400ml bottle
-    lca_data_missing: true
-  hb-1-10:
-    name: Body Scrubs
-    weight:
-      estimate_g: 300
-      min_g: 150
-      max_g: 500
-      confidence: medium
-    lca_data_missing: true
-  hb-2:
-    name: Hair Care
-    weight:
-      estimate_g: 400
-      min_g: 50
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-  hb-2-1:
-    name: Shampoo
-    weight:
-      estimate_g: 400
-      min_g: 200
-      max_g: 1000
-      confidence: high
-      methodology: Typical 300-500ml bottle
-    lca:
-      carbon_kg_co2e_per_kg: 2.0
-      carbon_kg_co2e_per_unit: 0.8
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: mixed
-      breakdown:
-      - material: water_surfactants
-        percentage: 80
-      - material: plastic_bottle
-        percentage: 18
-      - material: other
-        percentage: 2
-    sources:
-    - Unilever sustainability reports
-    - P&G environmental footprint data
-  hb-2-2:
-    name: Conditioner
-    weight:
-      estimate_g: 400
-      min_g: 200
-      max_g: 1000
-      confidence: high
-    lca_data_missing: true
-  hb-2-3:
-    name: Hair Styling Products
-    weight:
-      estimate_g: 200
-      min_g: 50
-      max_g: 500
-      confidence: medium
-    notes: Aerosols have higher footprint than gels/creams
-    lca_data_missing: true
-  hb-2-4:
-    name: Hair Oil
-    weight:
-      estimate_g: 120
-      min_g: 50
-      max_g: 250
-      confidence: medium
-    lca_data_missing: true
-  hb-2-5:
-    name: Hair Masks
-    weight:
-      estimate_g: 250
-      min_g: 100
-      max_g: 500
-      confidence: medium
-    lca_data_missing: true
-  hb-2-6:
-    name: Hair Color
-    weight:
-      estimate_g: 200
-      min_g: 100
-      max_g: 400
-      confidence: medium
-    notes: Kit includes multiple components
-    lca_data_missing: true
-  hb-2-7:
-    name: Hair Dryers
-    weight:
-      estimate_g: 600
-      min_g: 400
-      max_g: 900
-      confidence: high
-    materials:
-      primary_material: plastic
-      breakdown:
-      - material: plastic
-        percentage: 60
-      - material: motor
-        percentage: 25
-      - material: electronics
-        percentage: 15
-    lca_data_missing: true
-  hb-2-8:
-    name: Hair Straighteners
-    weight:
-      estimate_g: 450
-      min_g: 300
-      max_g: 700
-      confidence: medium
-    lca_data_missing: true
-  hb-2-9:
-    name: Curling Irons
-    weight:
-      estimate_g: 400
-      min_g: 250
-      max_g: 600
-      confidence: medium
-    lca_data_missing: true
-  hb-2-10:
-    name: Hair Brushes & Combs
-    weight:
-      estimate_g: 100
-      min_g: 30
-      max_g: 300
-      confidence: medium
-    lca_data_missing: true
-  hb-3:
-    name: Makeup
-    weight:
-      estimate_g: 30
-      min_g: 5
-      max_g: 200
-      confidence: low
-    notes: Very small products with significant packaging
-    lca_data_missing: true
-  hb-3-1:
-    name: Foundation
-    weight:
-      estimate_g: 60
-      min_g: 30
-      max_g: 100
-      confidence: high
-      methodology: Typical 30ml bottle
-    materials:
-      primary_material: mixed
-      breakdown:
-      - material: formula
-        percentage: 50
-      - material: glass_bottle
-        percentage: 40
-      - material: pump_cap
-        percentage: 10
-    lca_data_missing: true
-  hb-3-2:
-    name: Lipstick
-    weight:
-      estimate_g: 25
-      min_g: 15
-      max_g: 40
-      confidence: high
-      methodology: Standard lipstick tube
-    lca:
-      carbon_kg_co2e_per_kg: 20.0
-      carbon_kg_co2e_per_unit: 0.5
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: mixed
-      breakdown:
-      - material: wax_pigments
-        percentage: 15
-      - material: metal_tube
-        percentage: 60
-      - material: plastic
-        percentage: 25
-    sources:
-    - Cosmetics packaging LCA
-  hb-3-3:
-    name: Mascara
-    weight:
-      estimate_g: 20
-      min_g: 10
-      max_g: 35
-      confidence: high
-    notes: Small product, mostly packaging weight
     lca_data_missing: true
   hb-3-4:
-    name: Eyeshadow
-    weight:
-      estimate_g: 40
-      min_g: 10
-      max_g: 150
-      confidence: medium
-      methodology: Single shadow to palette
-    lca_data_missing: true
-  hb-3-5:
-    name: Eyeliner
-    weight:
-      estimate_g: 15
-      min_g: 5
-      max_g: 30
-      confidence: high
-    lca_data_missing: true
-  hb-3-6:
-    name: Blush
-    weight:
-      estimate_g: 30
-      min_g: 10
-      max_g: 60
-      confidence: medium
-    lca_data_missing: true
-  hb-3-7:
-    name: Concealer
-    weight:
-      estimate_g: 25
-      min_g: 10
-      max_g: 50
-      confidence: medium
-    lca_data_missing: true
-  hb-3-8:
-    name: Setting Powder
-    weight:
-      estimate_g: 40
-      min_g: 20
-      max_g: 80
-      confidence: medium
-    lca_data_missing: true
-  hb-3-9:
-    name: Makeup Brushes
-    weight:
-      estimate_g: 30
-      min_g: 10
-      max_g: 80
-      confidence: medium
-      methodology: Per brush
-    lca_data_missing: true
-  hb-3-10:
-    name: Makeup Remover
-    weight:
-      estimate_g: 200
-      min_g: 100
-      max_g: 400
-      confidence: medium
-    lca_data_missing: true
-  hb-4:
-    name: Fragrances
-    weight:
-      estimate_g: 200
-      min_g: 50
-      max_g: 500
-      confidence: medium
-    notes: Heavy glass bottles dominate weight
-    lca_data_missing: true
-  hb-4-1:
-    name: Perfume
-    weight:
-      estimate_g: 180
-      min_g: 80
-      max_g: 400
-      confidence: medium
-      methodology: Typical 50-100ml bottle
-    lca:
-      carbon_kg_co2e_per_kg: 8.0
-      carbon_kg_co2e_per_unit: 1.44
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: glass
-      breakdown:
-      - material: glass_bottle
-        percentage: 70
-      - material: fragrance
-        percentage: 15
-      - material: alcohol
-        percentage: 10
-      - material: pump_cap
-        percentage: 5
-    sources:
-    - Fragrance industry sustainability reports
-  hb-4-2:
-    name: Cologne
-    weight:
-      estimate_g: 200
-      min_g: 100
-      max_g: 400
-      confidence: medium
-    lca_data_missing: true
-  hb-4-3:
-    name: Body Spray
-    weight:
-      estimate_g: 180
-      min_g: 100
-      max_g: 300
-      confidence: medium
-    notes: Aerosol cans have additional propellant footprint
-    lca_data_missing: true
-  hb-5:
-    name: Personal Care
-    weight:
-      estimate_g: 150
-      min_g: 20
-      max_g: 500
-      confidence: low
-    lca_data_missing: true
-  hb-5-1:
-    name: Toothpaste
-    weight:
-      estimate_g: 130
-      min_g: 75
-      max_g: 200
-      confidence: high
-      methodology: Typical 100-150ml tube
-    lca:
-      carbon_kg_co2e_per_kg: 2.5
-      carbon_kg_co2e_per_unit: 0.325
-      scope: cradle-to-gate
-      data_quality: secondary
-    sources:
-    - Oral care product LCA studies
-  hb-5-2:
-    name: Toothbrushes
-    weight:
-      estimate_g: 20
-      min_g: 10
-      max_g: 40
-      confidence: high
-    materials:
-      primary_material: plastic
-    notes: Bamboo brushes have lower footprint
-    lca_data_missing: true
-  hb-5-3:
-    name: Electric Toothbrushes
-    weight:
-      estimate_g: 150
-      min_g: 100
-      max_g: 250
-      confidence: high
-    lca_data_missing: true
-  hb-5-4:
-    name: Deodorant
-    weight:
-      estimate_g: 80
-      min_g: 50
-      max_g: 150
-      confidence: high
-    notes: Roll-on lower footprint than aerosol
-    lca_data_missing: true
-  hb-5-5:
-    name: Razors
-    weight:
-      estimate_g: 80
-      min_g: 30
-      max_g: 200
-      confidence: medium
-    materials:
-      primary_material: mixed
-      breakdown:
-      - material: steel_blades
-        percentage: 30
-      - material: plastic_handle
-        percentage: 60
-      - material: rubber
-        percentage: 10
-    lca_data_missing: true
-  hb-5-6:
-    name: Electric Shavers
-    weight:
-      estimate_g: 250
-      min_g: 150
-      max_g: 400
-      confidence: medium
-    lca_data_missing: true
-  hb-5-7:
-    name: Body Wash
-    weight:
-      estimate_g: 400
-      min_g: 200
-      max_g: 800
-      confidence: high
-    lca_data_missing: true
-  hb-5-8:
-    name: Bar Soap
-    weight:
-      estimate_g: 120
-      min_g: 80
-      max_g: 200
-      confidence: high
-    notes: Lower packaging footprint than liquid soap
-    lca_data_missing: true
-  hb-5-9:
-    name: Hand Sanitizer
-    weight:
-      estimate_g: 150
-      min_g: 30
-      max_g: 500
-      confidence: medium
-    lca_data_missing: true
-  hb-5-10:
-    name: Cotton Pads & Swabs
+    name: Cotton Swabs
     weight:
       estimate_g: 50
       min_g: 20
@@ -528,131 +613,20 @@ categories:
       confidence: medium
       methodology: Per pack
     lca_data_missing: true
-  hb-6:
-    name: Nail Care
+  hb-3-5-2:
+    name: Deodorants
     weight:
-      estimate_g: 30
-      min_g: 10
-      max_g: 100
-      confidence: medium
-    lca_data_missing: true
-  hb-6-1:
-    name: Nail Polish
-    weight:
-      estimate_g: 30
-      min_g: 15
-      max_g: 50
-      confidence: high
-      methodology: Typical 10-15ml bottle
-    materials:
-      primary_material: glass
-      breakdown:
-      - material: glass_bottle
-        percentage: 60
-      - material: lacquer
-        percentage: 30
-      - material: brush_cap
-        percentage: 10
-    lca_data_missing: true
-  hb-6-2:
-    name: Nail Polish Remover
-    weight:
-      estimate_g: 150
+      estimate_g: 80
       min_g: 50
-      max_g: 300
-      confidence: medium
-    lca_data_missing: true
-  hb-6-3:
-    name: Nail Files
-    weight:
-      estimate_g: 20
-      min_g: 5
-      max_g: 50
-      confidence: high
-    lca_data_missing: true
-  hb-6-4:
-    name: Nail Clippers
-    weight:
-      estimate_g: 40
-      min_g: 20
-      max_g: 80
-      confidence: high
-    materials:
-      primary_material: steel
-    lca_data_missing: true
-  hb-7:
-    name: Health Care
-    weight:
-      estimate_g: 100
-      min_g: 10
-      max_g: 2000
-      confidence: low
-    lca_data_missing: true
-  hb-7-1:
-    name: Vitamins & Supplements
-    weight:
-      estimate_g: 150
-      min_g: 50
-      max_g: 400
-      confidence: medium
-      methodology: Typical bottle of 60-120 tablets
-    materials:
-      primary_material: mixed
-      breakdown:
-      - material: tablets_capsules
-        percentage: 40
-      - material: plastic_bottle
-        percentage: 50
-      - material: labels
-        percentage: 10
-    lca_data_missing: true
-  hb-7-2:
-    name: First Aid Supplies
-    weight:
-      estimate_g: 300
-      min_g: 50
-      max_g: 1000
-      confidence: low
-    lca_data_missing: true
-  hb-7-3:
-    name: Thermometers
-    weight:
-      estimate_g: 50
-      min_g: 20
       max_g: 150
-      confidence: medium
-    lca_data_missing: true
-  hb-7-4:
-    name: Blood Pressure Monitors
-    weight:
-      estimate_g: 400
-      min_g: 200
-      max_g: 800
-      confidence: medium
-    lca_data_missing: true
-  hb-7-5:
-    name: Massage Tools
-    weight:
-      estimate_g: 500
-      min_g: 100
-      max_g: 2000
-      confidence: low
-    lca_data_missing: true
-  hb-7-6:
-    name: Essential Oils
-    weight:
-      estimate_g: 30
-      min_g: 15
-      max_g: 60
       confidence: high
-      methodology: Typical 10-30ml bottle
-    notes: Plant extraction is energy intensive
+    notes: Roll-on lower footprint than aerosol
     lca_data_missing: true
-  hb-7-7:
-    name: Diffusers
+  hb-3-6:
+    name: Ear Care
     weight:
-      estimate_g: 400
+      estimate_g: 250
       min_g: 150
-      max_g: 800
+      max_g: 400
       confidence: medium
     lca_data_missing: true

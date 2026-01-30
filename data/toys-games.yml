@@ -1,258 +1,127 @@
 schema_version: 0.1.0
-last_updated: '2026-01-19'
+last_updated: '2026-01-29'
 categories:
-  tg-1:
-    name: Dolls & Action Figures
+  ae-2-1-1-5:
+    name: Jewelry Making Kits
+    weight:
+      estimate_g: 400
+      min_g: 150
+      max_g: 1000
+      confidence: medium
+    lca_data_missing: true
+  ae-2-1-5-2-3:
+    name: Sewing Kits
+    weight:
+      estimate_g: 300
+      min_g: 100
+      max_g: 800
+      confidence: medium
+    lca_data_missing: true
+  ae-2-2:
+    name: Collectibles
+    weight:
+      estimate_g: 150
+      min_g: 10
+      max_g: 1000
+      confidence: low
+    lca_data_missing: true
+  ae-2-2-3:
+    name: Collectible Trading Cards
+    weight:
+      estimate_g: 50
+      min_g: 10
+      max_g: 150
+      confidence: medium
+      methodology: Per pack
+    materials:
+      primary_material: cardstock
+    lca_data_missing: true
+  ae-2-6-4:
+    name: Scale Model Kits
     weight:
       estimate_g: 300
       min_g: 50
       max_g: 1500
       confidence: medium
     lca_data_missing: true
-  tg-1-1:
-    name: Action Figures
+  ae-3-2-19:
+    name: Party Games
+    weight:
+      estimate_g: 600
+      min_g: 200
+      max_g: 1500
+      confidence: medium
+    lca_data_missing: true
+  bt-3-5-2:
+    name: Teethers
+    weight:
+      estimate_g: 60
+      min_g: 20
+      max_g: 150
+      confidence: high
+    materials:
+      primary_material: silicone
+    lca_data_missing: true
+  bt-5:
+    name: Baby Toys & Activity Equipment
     weight:
       estimate_g: 200
-      min_g: 50
-      max_g: 500
-      confidence: medium
-    materials:
-      primary_material: plastic
-      breakdown:
-      - material: abs_plastic
-        percentage: 70
-      - material: pvc
-        percentage: 20
-      - material: paint
-        percentage: 10
+      min_g: 20
+      max_g: 1000
+      confidence: low
     lca_data_missing: true
-  tg-1-2:
-    name: Dolls
+  bt-5-1:
+    name: Alphabet Toys
     weight:
       estimate_g: 400
       min_g: 100
       max_g: 1000
       confidence: medium
-    materials:
-      primary_material: mixed
-      breakdown:
-      - material: plastic
-        percentage: 50
-      - material: fabric
-        percentage: 30
-      - material: hair_synthetic
-        percentage: 15
-      - material: other
-        percentage: 5
     lca_data_missing: true
-  tg-1-3:
-    name: Dollhouses
-    weight:
-      estimate_g: 5000
-      min_g: 1500
-      max_g: 15000
-      confidence: medium
-    materials:
-      primary_material: wood
-      breakdown:
-      - material: mdf_wood
-        percentage: 60
-      - material: plastic
-        percentage: 30
-      - material: other
-        percentage: 10
-    lca_data_missing: true
-  tg-1-4:
-    name: Stuffed Animals
-    weight:
-      estimate_g: 300
-      min_g: 50
-      max_g: 2000
-      confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 8.0
-      carbon_kg_co2e_per_unit: 2.4
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: synthetic
-      breakdown:
-      - material: polyester_fill
-        percentage: 60
-      - material: plush_fabric
-        percentage: 35
-      - material: plastic_eyes
-        percentage: 5
-    sources:
-    - Toy industry sustainability reports
-  tg-1-5:
-    name: Puppets
-    weight:
-      estimate_g: 200
-      min_g: 50
-      max_g: 500
-      confidence: medium
-    lca_data_missing: true
-  tg-2:
-    name: Building Toys
-    weight:
-      estimate_g: 800
-      min_g: 100
-      max_g: 5000
-      confidence: low
-    notes: Highly dependent on set size
-    lca_data_missing: true
-  tg-2-1:
-    name: Building Blocks
-    weight:
-      estimate_g: 500
-      min_g: 100
-      max_g: 3000
-      confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 5.0
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: plastic
-      breakdown:
-      - material: abs_plastic
-        percentage: 95
-      - material: other
-        percentage: 5
-    sources:
-    - LEGO sustainability reports
-  tg-2-2:
-    name: LEGO & Compatible
+  bt-5-11:
+    name: Push & Pull Toys
     weight:
       estimate_g: 600
-      min_g: 50
-      max_g: 5000
-      confidence: low
-      methodology: Varies by set size - average medium set
-    lca:
-      carbon_kg_co2e_per_kg: 5.2
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: abs_plastic
-    sources:
-    - LEGO Environmental Report
-    notes: LEGO transitioning to bio-based plastics
-  tg-2-3:
-    name: Magnetic Building Toys
-    weight:
-      estimate_g: 800
       min_g: 200
-      max_g: 2000
-      confidence: medium
-    materials:
-      primary_material: mixed
-      breakdown:
-      - material: plastic
-        percentage: 50
-      - material: magnets
-        percentage: 40
-      - material: other
-        percentage: 10
-    lca_data_missing: true
-  tg-2-4:
-    name: Wooden Building Blocks
-    weight:
-      estimate_g: 1000
-      min_g: 300
-      max_g: 3000
-      confidence: medium
-    materials:
-      primary_material: wood
-    notes: Lower footprint than plastic, potential carbon storage
-    lca_data_missing: true
-  tg-2-5:
-    name: Model Kits
-    weight:
-      estimate_g: 300
-      min_g: 50
       max_g: 1500
       confidence: medium
     lca_data_missing: true
-  tg-3:
-    name: Games
+  bt-5-12:
+    name: Sorting & Stacking Toys
     weight:
-      estimate_g: 800
-      min_g: 100
-      max_g: 3000
+      estimate_g: 400
+      min_g: 150
+      max_g: 800
       confidence: medium
     lca_data_missing: true
-  tg-3-1:
-    name: Board Games
+  bt-5-2-3:
+    name: Rattles
     weight:
-      estimate_g: 1000
-      min_g: 300
-      max_g: 3000
-      confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 3.0
-      carbon_kg_co2e_per_unit: 3.0
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: cardboard
-      breakdown:
-      - material: cardboard
-        percentage: 60
-      - material: paper
-        percentage: 20
-      - material: plastic_pieces
-        percentage: 15
-      - material: other
-        percentage: 5
-    sources:
-    - Paper and cardboard LCA studies
-  tg-3-2:
-    name: Card Games
-    weight:
-      estimate_g: 200
-      min_g: 50
-      max_g: 500
+      estimate_g: 80
+      min_g: 30
+      max_g: 150
       confidence: high
     materials:
-      primary_material: cardstock
-      breakdown:
-      - material: cardstock
-        percentage: 80
-      - material: box
-        percentage: 20
+      primary_material: plastic
     lca_data_missing: true
-  tg-3-3:
-    name: Puzzles
+  bt-5-6-2:
+    name: Crib Mobiles
     weight:
-      estimate_g: 600
-      min_g: 100
-      max_g: 2000
-      confidence: medium
-      methodology: 500-1000 piece puzzle
-    materials:
-      primary_material: cardboard
-    lca_data_missing: true
-  tg-3-4:
-    name: Chess Sets
-    weight:
-      estimate_g: 800
+      estimate_g: 500
       min_g: 200
-      max_g: 3000
+      max_g: 1000
       confidence: medium
-    notes: Weight varies by material - wood vs plastic vs stone
     lca_data_missing: true
-  tg-3-5:
-    name: Dice & Dice Games
+  bt-5-9-1:
+    name: Play Gyms
     weight:
-      estimate_g: 100
-      min_g: 20
-      max_g: 300
+      estimate_g: 2000
+      min_g: 800
+      max_g: 4000
       confidence: medium
     lca_data_missing: true
-  tg-4:
-    name: Video Games
+  el-18:
+    name: Video Game Console Accessories
     weight:
       estimate_g: 100
       min_g: 50
@@ -260,7 +129,7 @@ categories:
       confidence: low
     notes: Physical media vs consoles have huge weight difference
     lca_data_missing: true
-  tg-4-1:
+  el-19:
     name: Video Game Consoles
     weight:
       estimate_g: 3500
@@ -290,7 +159,7 @@ categories:
     sources:
     - Sony PlayStation environmental reports
     - Microsoft Xbox sustainability data
-  tg-4-2:
+  el-19-1:
     name: Handheld Game Consoles
     weight:
       estimate_g: 400
@@ -304,15 +173,7 @@ categories:
       data_quality: secondary
     sources:
     - Nintendo Switch environmental data
-  tg-4-3:
-    name: Video Game Accessories
-    weight:
-      estimate_g: 250
-      min_g: 50
-      max_g: 1000
-      confidence: low
-    lca_data_missing: true
-  tg-4-4:
+  el-7-9-12-5:
     name: Game Controllers
     weight:
       estimate_g: 280
@@ -320,17 +181,119 @@ categories:
       max_g: 400
       confidence: high
     lca_data_missing: true
-  tg-4-5:
-    name: Physical Game Media
+  hg-18-1-11-1:
+    name: Pool Floats
     weight:
-      estimate_g: 80
-      min_g: 50
-      max_g: 150
-      confidence: high
-      methodology: Game case with disc
-    notes: Digital downloads have lower product footprint but server impact
+      estimate_g: 1500
+      min_g: 300
+      max_g: 5000
+      confidence: medium
+    materials:
+      primary_material: pvc
     lca_data_missing: true
-  tg-5:
+  hg-18-1-17:
+    name: Pool Toys
+    weight:
+      estimate_g: 500
+      min_g: 50
+      max_g: 5000
+      confidence: low
+    lca_data_missing: true
+  hg-18-1-17-4:
+    name: Pool Noodles
+    weight:
+      estimate_g: 150
+      min_g: 80
+      max_g: 300
+      confidence: medium
+    materials:
+      primary_material: foam
+    lca_data_missing: true
+  hg-18-5-2:
+    name: Inflatable Pools
+    weight:
+      estimate_g: 3000
+      min_g: 500
+      max_g: 15000
+      confidence: low
+    materials:
+      primary_material: pvc
+    lca_data_missing: true
+  sg-4-4-6:
+    name: Tricycles
+    weight:
+      estimate_g: 6000
+      min_g: 3000
+      max_g: 12000
+      confidence: medium
+    materials:
+      primary_material: metal
+      breakdown:
+      - material: steel
+        percentage: 50
+      - material: plastic
+        percentage: 40
+      - material: rubber
+        percentage: 10
+    lca_data_missing: true
+  tg-2:
+    name: Games
+    weight:
+      estimate_g: 800
+      min_g: 100
+      max_g: 3000
+      confidence: medium
+    lca_data_missing: true
+  tg-2-5:
+    name: Board Games
+    weight:
+      estimate_g: 1000
+      min_g: 300
+      max_g: 3000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.0
+      carbon_kg_co2e_per_unit: 3.0
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: cardboard
+      breakdown:
+      - material: cardboard
+        percentage: 60
+      - material: paper
+        percentage: 20
+      - material: plastic_pieces
+        percentage: 15
+      - material: other
+        percentage: 5
+    sources:
+    - Paper and cardboard LCA studies
+  tg-2-7:
+    name: Card Games
+    weight:
+      estimate_g: 200
+      min_g: 50
+      max_g: 500
+      confidence: high
+    materials:
+      primary_material: cardstock
+      breakdown:
+      - material: cardstock
+        percentage: 80
+      - material: box
+        percentage: 20
+    lca_data_missing: true
+  tg-2-9:
+    name: Dice Sets & Games
+    weight:
+      estimate_g: 800
+      min_g: 200
+      max_g: 3000
+      confidence: medium
+    notes: Weight varies by material - wood vs plastic vs stone
+    lca_data_missing: true
+  tg-3:
     name: Outdoor Play Equipment
     weight:
       estimate_g: 5000
@@ -338,7 +301,24 @@ categories:
       max_g: 100000
       confidence: low
     lca_data_missing: true
-  tg-5-1:
+  tg-3-12:
+    name: Swing Sets & Playsets
+    weight:
+      estimate_g: 40000
+      min_g: 15000
+      max_g: 80000
+      confidence: medium
+    materials:
+      primary_material: wood
+      breakdown:
+      - material: wood
+        percentage: 70
+      - material: metal_hardware
+        percentage: 20
+      - material: plastic_seats
+        percentage: 10
+    lca_data_missing: true
+  tg-3-14:
     name: Trampolines
     weight:
       estimate_g: 50000
@@ -357,51 +337,7 @@ categories:
       - material: padding
         percentage: 5
     lca_data_missing: true
-  tg-5-2:
-    name: Swing Sets
-    weight:
-      estimate_g: 40000
-      min_g: 15000
-      max_g: 80000
-      confidence: medium
-    materials:
-      primary_material: wood
-      breakdown:
-      - material: wood
-        percentage: 70
-      - material: metal_hardware
-        percentage: 20
-      - material: plastic_seats
-        percentage: 10
-    lca_data_missing: true
-  tg-5-3:
-    name: Slides
-    weight:
-      estimate_g: 15000
-      min_g: 5000
-      max_g: 40000
-      confidence: medium
-    materials:
-      primary_material: plastic
-    lca_data_missing: true
-  tg-5-4:
-    name: Sandboxes
-    weight:
-      estimate_g: 10000
-      min_g: 3000
-      max_g: 25000
-      confidence: medium
-    notes: Weight without sand
-    lca_data_missing: true
-  tg-5-5:
-    name: Playhouses
-    weight:
-      estimate_g: 25000
-      min_g: 10000
-      max_g: 60000
-      confidence: medium
-    lca_data_missing: true
-  tg-5-6:
+  tg-3-15-3:
     name: Water Tables
     weight:
       estimate_g: 5000
@@ -411,215 +347,53 @@ categories:
     materials:
       primary_material: plastic
     lca_data_missing: true
-  tg-5-7:
-    name: Inflatable Pools
+  tg-3-5:
+    name: Playhouses
     weight:
-      estimate_g: 3000
-      min_g: 500
-      max_g: 15000
-      confidence: low
-    materials:
-      primary_material: pvc
+      estimate_g: 25000
+      min_g: 10000
+      max_g: 60000
+      confidence: medium
     lca_data_missing: true
-  tg-5-8:
-    name: Balls
+  tg-3-7:
+    name: Sandboxes
+    weight:
+      estimate_g: 10000
+      min_g: 3000
+      max_g: 25000
+      confidence: medium
+    notes: Weight without sand
+    lca_data_missing: true
+  tg-3-9:
+    name: Slides
+    weight:
+      estimate_g: 15000
+      min_g: 5000
+      max_g: 40000
+      confidence: medium
+    materials:
+      primary_material: plastic
+    lca_data_missing: true
+  tg-4:
+    name: Puzzles
+    weight:
+      estimate_g: 600
+      min_g: 100
+      max_g: 2000
+      confidence: medium
+      methodology: 500-1000 piece puzzle
+    materials:
+      primary_material: cardboard
+    lca_data_missing: true
+  tg-5-1-2:
+    name: Bouncy Balls
     weight:
       estimate_g: 300
       min_g: 50
       max_g: 600
       confidence: medium
     lca_data_missing: true
-  tg-5-9:
-    name: Frisbees
-    weight:
-      estimate_g: 150
-      min_g: 100
-      max_g: 200
-      confidence: high
-    materials:
-      primary_material: plastic
-    lca_data_missing: true
-  tg-5-10:
-    name: Kites
-    weight:
-      estimate_g: 200
-      min_g: 50
-      max_g: 500
-      confidence: medium
-    materials:
-      primary_material: nylon
-    lca_data_missing: true
-  tg-6:
-    name: Ride-On Toys
-    weight:
-      estimate_g: 8000
-      min_g: 1000
-      max_g: 30000
-      confidence: low
-    lca_data_missing: true
-  tg-6-1:
-    name: Tricycles
-    weight:
-      estimate_g: 6000
-      min_g: 3000
-      max_g: 12000
-      confidence: medium
-    materials:
-      primary_material: metal
-      breakdown:
-      - material: steel
-        percentage: 50
-      - material: plastic
-        percentage: 40
-      - material: rubber
-        percentage: 10
-    lca_data_missing: true
-  tg-6-2:
-    name: Balance Bikes
-    weight:
-      estimate_g: 3500
-      min_g: 2000
-      max_g: 5000
-      confidence: high
-    lca_data_missing: true
-  tg-6-3:
-    name: Pedal Cars
-    weight:
-      estimate_g: 10000
-      min_g: 5000
-      max_g: 20000
-      confidence: medium
-    lca_data_missing: true
-  tg-6-4:
-    name: Electric Ride-Ons
-    weight:
-      estimate_g: 15000
-      min_g: 8000
-      max_g: 30000
-      confidence: medium
-    notes: Battery adds significant weight and footprint
-    lca_data_missing: true
-  tg-6-5:
-    name: Scooters
-    weight:
-      estimate_g: 3000
-      min_g: 1500
-      max_g: 6000
-      confidence: medium
-    materials:
-      primary_material: aluminum
-      breakdown:
-      - material: aluminum
-        percentage: 60
-      - material: steel
-        percentage: 20
-      - material: plastic
-        percentage: 15
-      - material: rubber
-        percentage: 5
-    lca_data_missing: true
-  tg-6-6:
-    name: Wagons
-    weight:
-      estimate_g: 8000
-      min_g: 4000
-      max_g: 15000
-      confidence: medium
-    lca_data_missing: true
-  tg-7:
-    name: Educational Toys
-    weight:
-      estimate_g: 500
-      min_g: 50
-      max_g: 3000
-      confidence: low
-    lca_data_missing: true
-  tg-7-1:
-    name: STEM Toys
-    weight:
-      estimate_g: 600
-      min_g: 100
-      max_g: 2000
-      confidence: medium
-    notes: Includes electronics kits, science sets, robotics
-    lca_data_missing: true
-  tg-7-2:
-    name: Learning Tablets
-    weight:
-      estimate_g: 400
-      min_g: 200
-      max_g: 700
-      confidence: medium
-    lca_data_missing: true
-  tg-7-3:
-    name: Musical Toys
-    weight:
-      estimate_g: 500
-      min_g: 100
-      max_g: 2000
-      confidence: low
-    lca_data_missing: true
-  tg-7-4:
-    name: Art Supplies
-    weight:
-      estimate_g: 300
-      min_g: 50
-      max_g: 1500
-      confidence: low
-    lca_data_missing: true
-  tg-7-5:
-    name: Play-Doh & Modeling Clay
-    weight:
-      estimate_g: 400
-      min_g: 100
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-  tg-8:
-    name: Toy Vehicles
-    weight:
-      estimate_g: 300
-      min_g: 20
-      max_g: 5000
-      confidence: low
-    lca_data_missing: true
-  tg-8-1:
-    name: Die-Cast Cars
-    weight:
-      estimate_g: 100
-      min_g: 30
-      max_g: 500
-      confidence: medium
-    materials:
-      primary_material: metal
-      breakdown:
-      - material: zinc_alloy
-        percentage: 70
-      - material: plastic
-        percentage: 25
-      - material: paint
-        percentage: 5
-    lca_data_missing: true
-  tg-8-2:
-    name: RC Cars
-    weight:
-      estimate_g: 1500
-      min_g: 500
-      max_g: 5000
-      confidence: medium
-    materials:
-      primary_material: plastic
-      breakdown:
-      - material: plastic
-        percentage: 50
-      - material: electronics
-        percentage: 25
-      - material: battery
-        percentage: 15
-      - material: metal
-        percentage: 10
-    lca_data_missing: true
-  tg-8-3:
+  tg-5-12-2:
     name: Drones
     weight:
       estimate_g: 500
@@ -638,16 +412,58 @@ categories:
       - material: motors
         percentage: 5
     lca_data_missing: true
-  tg-8-4:
-    name: Train Sets
+  tg-5-12-3:
+    name: Kites
+    weight:
+      estimate_g: 200
+      min_g: 50
+      max_g: 500
+      confidence: medium
+    materials:
+      primary_material: nylon
+    lca_data_missing: true
+  tg-5-13:
+    name: Musical Toys
+    weight:
+      estimate_g: 500
+      min_g: 100
+      max_g: 2000
+      confidence: low
+    lca_data_missing: true
+  tg-5-15:
+    name: Play Vehicles
+    weight:
+      estimate_g: 300
+      min_g: 20
+      max_g: 5000
+      confidence: low
+    lca_data_missing: true
+  tg-5-15-1:
+    name: Toy Airplanes
+    weight:
+      estimate_g: 300
+      min_g: 50
+      max_g: 1000
+      confidence: medium
+    lca_data_missing: true
+  tg-5-15-2:
+    name: Toy Boats
+    weight:
+      estimate_g: 400
+      min_g: 100
+      max_g: 1500
+      confidence: medium
+    lca_data_missing: true
+  tg-5-15-8:
+    name: Toy Trains & Train Sets
     weight:
       estimate_g: 2000
       min_g: 500
       max_g: 8000
       confidence: medium
     lca_data_missing: true
-  tg-8-5:
-    name: Toy Trucks
+  tg-5-15-9:
+    name: Toy Trucks & Construction Vehicles
     weight:
       estimate_g: 500
       min_g: 100
@@ -656,39 +472,7 @@ categories:
     materials:
       primary_material: plastic
     lca_data_missing: true
-  tg-8-6:
-    name: Toy Airplanes
-    weight:
-      estimate_g: 300
-      min_g: 50
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-  tg-8-7:
-    name: Toy Boats
-    weight:
-      estimate_g: 400
-      min_g: 100
-      max_g: 1500
-      confidence: medium
-    lca_data_missing: true
-  tg-8-8:
-    name: RC Helicopters
-    weight:
-      estimate_g: 800
-      min_g: 200
-      max_g: 2000
-      confidence: medium
-    lca_data_missing: true
-  tg-8-9:
-    name: Slot Cars
-    weight:
-      estimate_g: 150
-      min_g: 50
-      max_g: 300
-      confidence: medium
-    lca_data_missing: true
-  tg-9:
+  tg-5-16:
     name: Pretend Play
     weight:
       estimate_g: 800
@@ -696,24 +480,23 @@ categories:
       max_g: 5000
       confidence: low
     lca_data_missing: true
-  tg-9-1:
-    name: Play Kitchens
+  tg-5-16-5:
+    name: Pretend Professions & Role Playing
     weight:
-      estimate_g: 15000
-      min_g: 5000
-      max_g: 30000
+      estimate_g: 400
+      min_g: 150
+      max_g: 800
       confidence: medium
-    materials:
-      primary_material: plastic
-      breakdown:
-      - material: plastic
-        percentage: 70
-      - material: wood
-        percentage: 25
-      - material: other
-        percentage: 5
     lca_data_missing: true
-  tg-9-2:
+  tg-5-16-6:
+    name: Pretend Shopping & Grocery
+    weight:
+      estimate_g: 800
+      min_g: 300
+      max_g: 1500
+      confidence: medium
+    lca_data_missing: true
+  tg-5-16-7-1:
     name: Play Food
     weight:
       estimate_g: 300
@@ -722,378 +505,91 @@ categories:
       confidence: medium
       methodology: Per set
     lca_data_missing: true
-  tg-9-3:
-    name: Tool Sets (Toy)
+  tg-5-16-8:
+    name: Toy Tools
     weight:
       estimate_g: 500
       min_g: 200
       max_g: 1500
       confidence: medium
     lca_data_missing: true
-  tg-9-4:
-    name: Doctor Kits
+  tg-5-18:
+    name: Remote Control Toys
     weight:
-      estimate_g: 400
-      min_g: 150
-      max_g: 800
+      estimate_g: 1500
+      min_g: 500
+      max_g: 5000
       confidence: medium
-    lca_data_missing: true
-  tg-9-5:
-    name: Dress-Up Costumes
-    weight:
-      estimate_g: 300
-      min_g: 100
-      max_g: 600
-      confidence: medium
-    materials:
-      primary_material: polyester
-    lca_data_missing: true
-  tg-9-6:
-    name: Play Cash Registers
-    weight:
-      estimate_g: 800
-      min_g: 300
-      max_g: 1500
-      confidence: medium
-    lca_data_missing: true
-  tg-9-7:
-    name: Tea Sets (Toy)
-    weight:
-      estimate_g: 400
-      min_g: 150
-      max_g: 800
-      confidence: medium
-    lca_data_missing: true
-  tg-9-8:
-    name: Workbenches (Toy)
-    weight:
-      estimate_g: 5000
-      min_g: 2000
-      max_g: 10000
-      confidence: medium
-    lca_data_missing: true
-  tg-9-9:
-    name: Shopping Carts (Toy)
-    weight:
-      estimate_g: 2000
-      min_g: 800
-      max_g: 4000
-      confidence: medium
-    lca_data_missing: true
-  tg-10:
-    name: Baby Toys
-    weight:
-      estimate_g: 200
-      min_g: 20
-      max_g: 1000
-      confidence: low
-    lca_data_missing: true
-  tg-10-1:
-    name: Rattles
-    weight:
-      estimate_g: 80
-      min_g: 30
-      max_g: 150
-      confidence: high
     materials:
       primary_material: plastic
+      breakdown:
+      - material: plastic
+        percentage: 50
+      - material: electronics
+        percentage: 25
+      - material: battery
+        percentage: 15
+      - material: metal
+        percentage: 10
     lca_data_missing: true
-  tg-10-2:
-    name: Teethers
-    weight:
-      estimate_g: 60
-      min_g: 20
-      max_g: 150
-      confidence: high
-    materials:
-      primary_material: silicone
-    lca_data_missing: true
-  tg-10-3:
-    name: Stacking Toys
+  tg-5-2:
+    name: Art & Drawing Toys
     weight:
       estimate_g: 300
-      min_g: 100
-      max_g: 600
-      confidence: medium
-    lca_data_missing: true
-  tg-10-4:
-    name: Shape Sorters
-    weight:
-      estimate_g: 400
-      min_g: 150
-      max_g: 800
-      confidence: medium
-    lca_data_missing: true
-  tg-10-5:
-    name: Baby Gyms
-    weight:
-      estimate_g: 2000
-      min_g: 800
-      max_g: 4000
-      confidence: medium
-    lca_data_missing: true
-  tg-10-6:
-    name: Soft Books
-    weight:
-      estimate_g: 100
       min_g: 50
-      max_g: 200
-      confidence: medium
-    materials:
-      primary_material: fabric
-    lca_data_missing: true
-  tg-10-7:
-    name: Crib Mobiles
-    weight:
-      estimate_g: 500
-      min_g: 200
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-  tg-10-8:
-    name: Push & Pull Toys
-    weight:
-      estimate_g: 600
-      min_g: 200
       max_g: 1500
-      confidence: medium
-    lca_data_missing: true
-  tg-11:
-    name: Bath Toys
-    weight:
-      estimate_g: 150
-      min_g: 20
-      max_g: 800
-      confidence: medium
-    lca_data_missing: true
-  tg-11-1:
-    name: Rubber Ducks
-    weight:
-      estimate_g: 50
-      min_g: 20
-      max_g: 100
-      confidence: high
-    materials:
-      primary_material: pvc
-    lca_data_missing: true
-  tg-11-2:
-    name: Bath Boats
-    weight:
-      estimate_g: 100
-      min_g: 30
-      max_g: 250
-      confidence: medium
-    lca_data_missing: true
-  tg-11-3:
-    name: Squirt Toys
-    weight:
-      estimate_g: 80
-      min_g: 30
-      max_g: 200
-      confidence: medium
-    lca_data_missing: true
-  tg-11-4:
-    name: Bath Crayons
-    weight:
-      estimate_g: 100
-      min_g: 50
-      max_g: 200
-      confidence: medium
-    lca_data_missing: true
-  tg-12:
-    name: Pool Toys
-    weight:
-      estimate_g: 500
-      min_g: 50
-      max_g: 5000
       confidence: low
     lca_data_missing: true
-  tg-12-1:
-    name: Pool Floats
-    weight:
-      estimate_g: 1500
-      min_g: 300
-      max_g: 5000
-      confidence: medium
-    materials:
-      primary_material: pvc
-    lca_data_missing: true
-  tg-12-2:
-    name: Water Guns
+  tg-5-2-3:
+    name: Craft Kits
     weight:
       estimate_g: 400
-      min_g: 100
-      max_g: 1500
-      confidence: medium
-    lca_data_missing: true
-  tg-12-3:
-    name: Diving Toys
-    weight:
-      estimate_g: 200
       min_g: 50
-      max_g: 500
-      confidence: medium
-    lca_data_missing: true
-  tg-12-4:
-    name: Pool Noodles
-    weight:
-      estimate_g: 150
-      min_g: 80
-      max_g: 300
-      confidence: medium
-    materials:
-      primary_material: foam
-    lca_data_missing: true
-  tg-12-5:
-    name: Arm Floaties
-    weight:
-      estimate_g: 100
-      min_g: 50
-      max_g: 200
-      confidence: medium
-      methodology: Per pair
-    lca_data_missing: true
-  tg-13:
-    name: Collectibles
-    weight:
-      estimate_g: 150
-      min_g: 10
-      max_g: 1000
-      confidence: low
-    lca_data_missing: true
-  tg-13-1:
-    name: Trading Cards
-    weight:
-      estimate_g: 50
-      min_g: 10
-      max_g: 150
-      confidence: medium
-      methodology: Per pack
-    materials:
-      primary_material: cardstock
-    lca_data_missing: true
-  tg-13-2:
-    name: Collectible Figures
-    weight:
-      estimate_g: 150
-      min_g: 30
-      max_g: 500
-      confidence: medium
-    notes: Funko Pops, anime figures, etc.
-    lca_data_missing: true
-  tg-13-3:
-    name: Blind Bags
-    weight:
-      estimate_g: 50
-      min_g: 20
-      max_g: 150
-      confidence: medium
-    lca_data_missing: true
-  tg-14:
-    name: Science & Discovery
-    weight:
-      estimate_g: 600
-      min_g: 100
-      max_g: 3000
-      confidence: low
-    lca_data_missing: true
-  tg-14-1:
-    name: Telescopes (Toy)
-    weight:
-      estimate_g: 1500
-      min_g: 500
-      max_g: 4000
-      confidence: medium
-    lca_data_missing: true
-  tg-14-2:
-    name: Microscopes (Toy)
-    weight:
-      estimate_g: 1000
-      min_g: 300
-      max_g: 2500
-      confidence: medium
-    lca_data_missing: true
-  tg-14-3:
-    name: Chemistry Sets
-    weight:
-      estimate_g: 1500
-      min_g: 500
-      max_g: 3000
-      confidence: medium
-    lca_data_missing: true
-  tg-14-4:
-    name: Crystal Growing Kits
-    weight:
-      estimate_g: 500
-      min_g: 200
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-  tg-14-5:
-    name: Ant Farms
-    weight:
-      estimate_g: 800
-      min_g: 300
-      max_g: 1500
-      confidence: medium
-    lca_data_missing: true
-  tg-14-6:
-    name: Weather Stations (Toy)
-    weight:
-      estimate_g: 600
-      min_g: 200
-      max_g: 1200
-      confidence: medium
-    lca_data_missing: true
-  tg-14-7:
-    name: Robotics Kits
-    weight:
-      estimate_g: 1000
-      min_g: 300
-      max_g: 3000
-      confidence: medium
-    lca_data_missing: true
-  tg-14-8:
-    name: Coding Toys
-    weight:
-      estimate_g: 500
-      min_g: 150
-      max_g: 1500
-      confidence: medium
-    lca_data_missing: true
-  tg-7-6:
-    name: Alphabet Toys
-    weight:
-      estimate_g: 400
-      min_g: 100
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-  tg-7-7:
-    name: Number Toys
-    weight:
-      estimate_g: 350
-      min_g: 100
-      max_g: 800
-      confidence: medium
-    lca_data_missing: true
-  tg-7-8:
-    name: Globe & Map Toys
-    weight:
-      estimate_g: 800
-      min_g: 200
       max_g: 2000
-      confidence: medium
+      confidence: low
     lca_data_missing: true
-  tg-7-9:
-    name: Flash Cards
+  tg-5-2-6:
+    name: Play Dough & Putty
     weight:
-      estimate_g: 150
-      min_g: 50
-      max_g: 300
+      estimate_g: 400
+      min_g: 100
+      max_g: 1000
       confidence: medium
     lca_data_missing: true
-  tg-15:
+  tg-5-20:
+    name: Riding Toys
+    weight:
+      estimate_g: 8000
+      min_g: 1000
+      max_g: 30000
+      confidence: low
+    lca_data_missing: true
+  tg-5-20-1:
+    name: Electric Riding Vehicles
+    weight:
+      estimate_g: 15000
+      min_g: 8000
+      max_g: 30000
+      confidence: medium
+    notes: Battery adds significant weight and footprint
+    lca_data_missing: true
+  tg-5-20-3:
+    name: Push & Pedal Riding Vehicles
+    weight:
+      estimate_g: 10000
+      min_g: 5000
+      max_g: 20000
+      confidence: medium
+    lca_data_missing: true
+  tg-5-20-5:
+    name: Wagons
+    weight:
+      estimate_g: 8000
+      min_g: 4000
+      max_g: 15000
+      confidence: medium
+    lca_data_missing: true
+  tg-5-23:
     name: Sports Toys
     weight:
       estimate_g: 500
@@ -1101,139 +597,249 @@ categories:
       max_g: 5000
       confidence: low
     lca_data_missing: true
-  tg-15-1:
-    name: Kids Basketball Hoops
-    weight:
-      estimate_g: 5000
-      min_g: 2000
-      max_g: 15000
-      confidence: medium
-    lca_data_missing: true
-  tg-15-2:
-    name: Kids Golf Sets
+  tg-5-23-11:
+    name: Golf Toys
     weight:
       estimate_g: 1500
       min_g: 500
       max_g: 3000
       confidence: medium
     lca_data_missing: true
-  tg-15-3:
-    name: Kids Tennis Sets
-    weight:
-      estimate_g: 500
-      min_g: 200
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-  tg-15-4:
-    name: T-Ball Sets
+  tg-5-23-2:
+    name: Baseball Toys
     weight:
       estimate_g: 1000
       min_g: 400
       max_g: 2000
       confidence: medium
     lca_data_missing: true
-  tg-15-5:
-    name: Kids Soccer Goals
+  tg-5-23-3:
+    name: Basketball Toys
     weight:
-      estimate_g: 3000
-      min_g: 1000
-      max_g: 8000
+      estimate_g: 5000
+      min_g: 2000
+      max_g: 15000
       confidence: medium
     lca_data_missing: true
-  tg-16:
-    name: Craft Toys
+  tg-5-23-9:
+    name: Flying Discs
     weight:
-      estimate_g: 400
-      min_g: 50
-      max_g: 2000
-      confidence: low
-    lca_data_missing: true
-  tg-16-1:
-    name: Bead Kits
-    weight:
-      estimate_g: 300
+      estimate_g: 150
       min_g: 100
+      max_g: 200
+      confidence: high
+    materials:
+      primary_material: plastic
+    lca_data_missing: true
+  tg-5-5:
+    name: Bath Toys
+    weight:
+      estimate_g: 150
+      min_g: 20
       max_g: 800
       confidence: medium
     lca_data_missing: true
-  tg-16-2:
-    name: Jewelry Making Kits
-    weight:
-      estimate_g: 400
-      min_g: 150
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-  tg-16-3:
-    name: Loom Kits
-    weight:
-      estimate_g: 500
-      min_g: 200
-      max_g: 1200
-      confidence: medium
-    lca_data_missing: true
-  tg-16-4:
-    name: Painting Sets
-    weight:
-      estimate_g: 500
-      min_g: 150
-      max_g: 1500
-      confidence: medium
-    lca_data_missing: true
-  tg-16-5:
-    name: Sewing Kits
-    weight:
-      estimate_g: 300
-      min_g: 100
-      max_g: 800
-      confidence: medium
-    lca_data_missing: true
-  tg-16-6:
-    name: Sticker Sets
+  tg-5-5-3:
+    name: Bath Crayons
     weight:
       estimate_g: 100
-      min_g: 30
-      max_g: 300
+      min_g: 50
+      max_g: 200
       confidence: medium
     lca_data_missing: true
-  tg-3-6:
-    name: Strategy Games
+  tg-5-5-9:
+    name: Stacking Cups
     weight:
-      estimate_g: 1200
-      min_g: 400
-      max_g: 3000
+      estimate_g: 300
+      min_g: 100
+      max_g: 600
       confidence: medium
     lca_data_missing: true
-  tg-3-7:
-    name: Party Games
+  tg-5-6-11:
+    name: Water Guns
     weight:
-      estimate_g: 600
-      min_g: 200
+      estimate_g: 400
+      min_g: 100
       max_g: 1500
       confidence: medium
     lca_data_missing: true
-  tg-3-8:
-    name: Trivia Games
+  tg-5-7:
+    name: Building Toys
+    weight:
+      estimate_g: 500
+      min_g: 100
+      max_g: 3000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: plastic
+      breakdown:
+      - material: abs_plastic
+        percentage: 95
+      - material: other
+        percentage: 5
+    sources:
+    - LEGO sustainability reports
+  tg-5-7-12:
+    name: Interlocking Blocks
+    weight:
+      estimate_g: 600
+      min_g: 50
+      max_g: 5000
+      confidence: low
+      methodology: Varies by set size - average medium set
+    lca:
+      carbon_kg_co2e_per_kg: 5.2
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: abs_plastic
+    sources:
+    - LEGO Environmental Report
+    notes: LEGO transitioning to bio-based plastics
+  tg-5-7-14:
+    name: Wooden Blocks
+    weight:
+      estimate_g: 1000
+      min_g: 300
+      max_g: 3000
+      confidence: medium
+    materials:
+      primary_material: wood
+    notes: Lower footprint than plastic, potential carbon storage
+    lca_data_missing: true
+  tg-5-8:
+    name: Dolls, Playsets & Toy Figures
+    weight:
+      estimate_g: 300
+      min_g: 50
+      max_g: 1500
+      confidence: medium
+    lca_data_missing: true
+  tg-5-8-1-1:
+    name: Action Figures
+    weight:
+      estimate_g: 200
+      min_g: 50
+      max_g: 500
+      confidence: medium
+    materials:
+      primary_material: plastic
+      breakdown:
+      - material: abs_plastic
+        percentage: 70
+      - material: pvc
+        percentage: 20
+      - material: paint
+        percentage: 10
+    lca_data_missing: true
+  tg-5-8-10:
+    name: Puppets & Marionettes
+    weight:
+      estimate_g: 200
+      min_g: 50
+      max_g: 500
+      confidence: medium
+    lca_data_missing: true
+  tg-5-8-11:
+    name: Stuffed Animals
+    weight:
+      estimate_g: 300
+      min_g: 50
+      max_g: 2000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      carbon_kg_co2e_per_unit: 2.4
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: synthetic
+      breakdown:
+      - material: polyester_fill
+        percentage: 60
+      - material: plush_fabric
+        percentage: 35
+      - material: plastic_eyes
+        percentage: 5
+    sources:
+    - Toy industry sustainability reports
+  tg-5-8-5:
+    name: Dollhouses
+    weight:
+      estimate_g: 5000
+      min_g: 1500
+      max_g: 15000
+      confidence: medium
+    materials:
+      primary_material: wood
+      breakdown:
+      - material: mdf_wood
+        percentage: 60
+      - material: plastic
+        percentage: 30
+      - material: other
+        percentage: 10
+    lca_data_missing: true
+  tg-5-8-6:
+    name: Dolls
+    weight:
+      estimate_g: 400
+      min_g: 100
+      max_g: 1000
+      confidence: medium
+    materials:
+      primary_material: mixed
+      breakdown:
+      - material: plastic
+        percentage: 50
+      - material: fabric
+        percentage: 30
+      - material: hair_synthetic
+        percentage: 15
+      - material: other
+        percentage: 5
+    lca_data_missing: true
+  tg-5-9:
+    name: Educational Toys
+    weight:
+      estimate_g: 500
+      min_g: 50
+      max_g: 3000
+      confidence: low
+    lca_data_missing: true
+  tg-5-9-1:
+    name: Ant Farms
     weight:
       estimate_g: 800
       min_g: 300
-      max_g: 2000
-      confidence: medium
-    lca_data_missing: true
-  tg-3-9:
-    name: Word Games
-    weight:
-      estimate_g: 600
-      min_g: 200
       max_g: 1500
       confidence: medium
     lca_data_missing: true
-  tg-3-10:
-    name: Cooperative Games
+  tg-5-9-2-7:
+    name: Telescopes
     weight:
-      estimate_g: 1000
-      min_g: 400
-      max_g: 2500
+      estimate_g: 1500
+      min_g: 500
+      max_g: 4000
       confidence: medium
+    lca_data_missing: true
+  tg-5-9-4:
+    name: Educational Flash Cards
+    weight:
+      estimate_g: 150
+      min_g: 50
+      max_g: 300
+      confidence: medium
+    lca_data_missing: true
+  tg-5-9-6:
+    name: Science & Exploration Sets
+    weight:
+      estimate_g: 600
+      min_g: 100
+      max_g: 3000
+      confidence: low
     lca_data_missing: true

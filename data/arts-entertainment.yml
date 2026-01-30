@@ -1,8 +1,46 @@
 schema_version: 0.1.0
-last_updated: '2026-01-19'
+last_updated: '2026-01-29'
 categories:
-  ae-1:
-    name: Art Supplies
+  aa-2-14-12:
+    name: Wigs
+    weight:
+      estimate_g: 150
+      min_g: 50
+      max_g: 400
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: synthetic_fiber
+  aa-3-1:
+    name: Costume Accessories
+    weight:
+      estimate_g: 200
+      min_g: 20
+      max_g: 1000
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: plastic_fabric
+  aa-3-3:
+    name: Costumes
+    weight:
+      estimate_g: 800
+      min_g: 50
+      max_g: 5000
+      confidence: low
+    lca_data_missing: true
+  aa-3-4:
+    name: Masks
+    weight:
+      estimate_g: 100
+      min_g: 20
+      max_g: 500
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: plastic_latex
+  ae-2-1:
+    name: Arts & Crafts
     weight:
       estimate_g: 500
       min_g: 10
@@ -10,136 +48,203 @@ categories:
       confidence: low
     lca_data_missing: true
     notes: Highly variable category - weights depend on medium and quantity
-  ae-1-1:
-    name: Paints
+  ae-2-1-1:
+    name: Art & Craft Kits
     weight:
-      estimate_g: 250
-      min_g: 15
-      max_g: 5000
-      confidence: low
-    lca_data_missing: true
-    materials:
-      primary_material: mixed
-  ae-1-1-1:
-    name: Acrylic Paints
-    weight:
-      estimate_g: 120
-      min_g: 15
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: acrylic_polymer
-    notes: Typical tube 60ml = ~80g, set of paints varies
-  ae-1-1-2:
-    name: Oil Paints
-    weight:
-      estimate_g: 150
-      min_g: 20
-      max_g: 500
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: linseed_oil_pigment
-  ae-1-1-3:
-    name: Watercolor Paints
-    weight:
-      estimate_g: 80
-      min_g: 10
-      max_g: 300
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: gum_arabic_pigment
-  ae-1-1-4:
-    name: Spray Paints
-    weight:
-      estimate_g: 400
+      estimate_g: 1000
       min_g: 200
-      max_g: 600
-      confidence: high
-    lca_data_missing: true
-    materials:
-      primary_material: aerosol_steel_can
-  ae-1-2:
-    name: Drawing Materials
-    weight:
-      estimate_g: 100
-      min_g: 5
-      max_g: 1000
-      confidence: low
-    lca_data_missing: true
-  ae-1-2-1:
-    name: Pencils & Graphite
-    weight:
-      estimate_g: 50
-      min_g: 5
-      max_g: 500
+      max_g: 5000
       confidence: medium
     lca:
-      carbon_kg_co2e_per_kg: 3.5
-      carbon_kg_co2e_per_unit: 0.018
+      carbon_kg_co2e_per_kg: 1.8
+      carbon_kg_co2e_per_unit: 1.8
       scope: cradle-to-gate
       data_quality: secondary
     materials:
-      primary_material: wood_graphite
+      primary_material: glycerin_palm_oil
     sources:
-    - FABER-CASTELL Sustainability Report - lifecycle assessments
-  ae-1-2-2:
-    name: Colored Pencils
-    weight:
-      estimate_g: 200
-      min_g: 50
-      max_g: 800
-      confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 4.0
-      carbon_kg_co2e_per_unit: 0.02
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: wood_pigment_wax
-    sources:
-    - FABER-CASTELL Sustainability Report
-  ae-1-2-3:
-    name: Charcoal & Pastels
-    weight:
-      estimate_g: 100
-      min_g: 20
-      max_g: 500
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: charcoal_calcium_carbonate
-  ae-1-2-4:
-    name: Markers & Pens
-    weight:
-      estimate_g: 150
-      min_g: 10
-      max_g: 1000
-      confidence: low
-    lca_data_missing: true
-    materials:
-      primary_material: plastic_ink
-  ae-1-2-5:
-    name: Erasers
-    weight:
-      estimate_g: 30
-      min_g: 5
-      max_g: 100
-      confidence: high
-    lca_data_missing: true
-    materials:
-      primary_material: rubber_vinyl
-  ae-1-3:
-    name: Canvas & Surfaces
+    - European Oleochemicals & Allied Products Group LCA data
+  ae-2-1-1-1:
+    name: Candle Making Kits
     weight:
       estimate_g: 500
       min_g: 50
       max_g: 5000
       confidence: low
     lca_data_missing: true
-  ae-1-3-1:
+  ae-2-1-1-2:
+    name: Drawing & Painting Kits
+    weight:
+      estimate_g: 100
+      min_g: 5
+      max_g: 1000
+      confidence: low
+    lca_data_missing: true
+  ae-2-1-1-5:
+    name: Jewelry Making Kits
+    weight:
+      estimate_g: 150
+      min_g: 10
+      max_g: 2000
+      confidence: low
+    lca_data_missing: true
+  ae-2-1-2-1:
+    name: Art & Craft Paper
+    weight:
+      estimate_g: 200
+      min_g: 10
+      max_g: 2000
+      confidence: low
+    lca_data_missing: true
+  ae-2-1-2-1-1:
+    name: Cardstock & Scrapbooking Paper
+    weight:
+      estimate_g: 250
+      min_g: 50
+      max_g: 1000
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: cardstock_paper
+  ae-2-1-2-1-1-2:
+    name: Scrapbooking Paper
+    weight:
+      estimate_g: 300
+      min_g: 50
+      max_g: 2000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 1.5
+      carbon_kg_co2e_per_unit: 0.45
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: paper_cardstock
+    sources:
+    - Environmental Paper Network - Paper Calculator
+  ae-2-1-2-1-4:
+    name: Drawing & Painting Paper
+    weight:
+      estimate_g: 350
+      min_g: 50
+      max_g: 1500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 1.3
+      carbon_kg_co2e_per_unit: 0.46
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: paper
+    sources:
+    - Environmental Paper Network - Paper Calculator
+    - CEPI European Paper Industry statistics
+  ae-2-1-2-1-5:
+    name: Origami Paper
+    weight:
+      estimate_g: 100
+      min_g: 20
+      max_g: 500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 1.3
+      carbon_kg_co2e_per_unit: 0.13
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: paper
+    sources:
+    - CEPI European Paper Industry statistics
+  ae-2-1-2-12:
+    name: Pottery & Sculpting Materials
+    weight:
+      estimate_g: 150
+      min_g: 30
+      max_g: 500
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: wood_metal
+  ae-2-1-2-12-1:
+    name: Clay & Modeling Dough
+    weight:
+      estimate_g: 500
+      min_g: 50
+      max_g: 5000
+      confidence: low
+    lca_data_missing: true
+  ae-2-1-2-12-1-1:
+    name: Clay
+    weight:
+      estimate_g: 2000
+      min_g: 500
+      max_g: 10000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 0.5
+      carbon_kg_co2e_per_unit: 1.0
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: natural_clay
+    notes: Low embodied carbon but firing adds significant energy use
+    sources:
+    - British Ceramic Confederation environmental data
+  ae-2-1-2-12-1-1-1:
+    name: Air-Dry Clay
+    weight:
+      estimate_g: 500
+      min_g: 100
+      max_g: 2000
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: calcium_ite_natural
+  ae-2-1-2-12-1-1-3:
+    name: Polymer Clay
+    weight:
+      estimate_g: 200
+      min_g: 50
+      max_g: 1000
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: pvc_plasticizer
+  ae-2-1-2-14-1-2:
+    name: Painting Canvas
+    weight:
+      estimate_g: 500
+      min_g: 50
+      max_g: 5000
+      confidence: low
+    lca_data_missing: true
+  ae-2-1-2-14-1-2-1:
+    name: Canvas Panels
+    weight:
+      estimate_g: 400
+      min_g: 50
+      max_g: 2000
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: mdf_canvas
+  ae-2-1-2-14-1-2-2:
+    name: Canvas Rolls
+    weight:
+      estimate_g: 1500
+      min_g: 200
+      max_g: 5000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 3.8
+      carbon_kg_co2e_per_unit: 5.7
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: cotton_canvas
+    sources:
+    - Cotton Inc. LCA Studies
+  ae-2-1-2-14-1-2-3:
     name: Stretched Canvas
     weight:
       estimate_g: 800
@@ -163,265 +268,7 @@ categories:
     sources:
     - Cotton Inc. LCA Studies
     - General wood product LCA data
-  ae-1-3-2:
-    name: Canvas Rolls
-    weight:
-      estimate_g: 1500
-      min_g: 200
-      max_g: 5000
-      confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 3.8
-      carbon_kg_co2e_per_unit: 5.7
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: cotton_canvas
-    sources:
-    - Cotton Inc. LCA Studies
-  ae-1-3-3:
-    name: Canvas Boards & Panels
-    weight:
-      estimate_g: 400
-      min_g: 50
-      max_g: 2000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: mdf_canvas
-  ae-1-3-4:
-    name: Paper Pads & Sketchbooks
-    weight:
-      estimate_g: 350
-      min_g: 50
-      max_g: 1500
-      confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 1.3
-      carbon_kg_co2e_per_unit: 0.46
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: paper
-    sources:
-    - Environmental Paper Network - Paper Calculator
-    - CEPI European Paper Industry statistics
-  ae-1-4:
-    name: Brushes & Applicators
-    weight:
-      estimate_g: 50
-      min_g: 5
-      max_g: 500
-      confidence: low
-    lca_data_missing: true
-  ae-1-4-1:
-    name: Paint Brushes
-    weight:
-      estimate_g: 30
-      min_g: 5
-      max_g: 200
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: wood_bristle
-  ae-1-4-2:
-    name: Brush Sets
-    weight:
-      estimate_g: 150
-      min_g: 50
-      max_g: 500
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: wood_bristle
-  ae-1-4-3:
-    name: Palette Knives
-    weight:
-      estimate_g: 40
-      min_g: 20
-      max_g: 100
-      confidence: high
-    lca_data_missing: true
-    materials:
-      primary_material: steel_wood
-  ae-1-4-4:
-    name: Sponges & Rollers
-    weight:
-      estimate_g: 100
-      min_g: 20
-      max_g: 500
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: foam_plastic
-  ae-1-5:
-    name: Easels & Stands
-    weight:
-      estimate_g: 3000
-      min_g: 500
-      max_g: 15000
-      confidence: low
-    lca_data_missing: true
-    materials:
-      primary_material: wood_metal
-  ae-1-5-1:
-    name: Tabletop Easels
-    weight:
-      estimate_g: 1000
-      min_g: 300
-      max_g: 2000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: wood
-  ae-1-5-2:
-    name: Floor Easels
-    weight:
-      estimate_g: 4000
-      min_g: 1500
-      max_g: 10000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: wood_metal
-  ae-1-5-3:
-    name: Plein Air Easels
-    weight:
-      estimate_g: 2500
-      min_g: 1000
-      max_g: 5000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: aluminum_wood
-  ae-1-6:
-    name: Art Storage & Organization
-    weight:
-      estimate_g: 500
-      min_g: 100
-      max_g: 5000
-      confidence: low
-    lca_data_missing: true
-  ae-1-6-1:
-    name: Art Portfolios
-    weight:
-      estimate_g: 800
-      min_g: 200
-      max_g: 2000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: vinyl_cardboard
-  ae-1-6-2:
-    name: Art Supply Cases
-    weight:
-      estimate_g: 600
-      min_g: 200
-      max_g: 2000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: plastic_wood
-  ae-1-6-3:
-    name: Brush Holders & Rolls
-    weight:
-      estimate_g: 150
-      min_g: 50
-      max_g: 400
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: canvas_leather
-  ae-2:
-    name: Craft Supplies
-    weight:
-      estimate_g: 300
-      min_g: 5
-      max_g: 5000
-      confidence: low
-    lca_data_missing: true
-  ae-2-1:
-    name: Sewing & Needlecraft
-    weight:
-      estimate_g: 200
-      min_g: 5
-      max_g: 2000
-      confidence: low
-    lca_data_missing: true
-  ae-2-1-1:
-    name: Sewing Thread
-    weight:
-      estimate_g: 50
-      min_g: 10
-      max_g: 500
-      confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 5.5
-      carbon_kg_co2e_per_unit: 0.28
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: polyester_cotton
-    sources:
-    - Higg Materials Sustainability Index
-  ae-2-1-2:
-    name: Sewing Needles
-    weight:
-      estimate_g: 20
-      min_g: 5
-      max_g: 100
-      confidence: high
-    lca_data_missing: true
-    materials:
-      primary_material: steel
-  ae-2-1-3:
-    name: Yarn
-    weight:
-      estimate_g: 200
-      min_g: 25
-      max_g: 1000
-      confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 7.5
-      carbon_kg_co2e_per_unit: 1.5
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: wool_acrylic
-    sources:
-    - Higg Materials Sustainability Index
-    - IWTO Wool LCA studies
-  ae-2-1-4:
-    name: Knitting Needles
-    weight:
-      estimate_g: 80
-      min_g: 20
-      max_g: 300
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: bamboo_metal_plastic
-  ae-2-1-5:
-    name: Crochet Hooks
-    weight:
-      estimate_g: 30
-      min_g: 5
-      max_g: 100
-      confidence: high
-    lca_data_missing: true
-    materials:
-      primary_material: aluminum_plastic
-  ae-2-1-6:
-    name: Embroidery Supplies
-    weight:
-      estimate_g: 100
-      min_g: 20
-      max_g: 500
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: cotton_thread_fabric
-  ae-2-1-7:
+  ae-2-1-2-14-2:
     name: Fabric
     weight:
       estimate_g: 500
@@ -439,207 +286,18 @@ categories:
     sources:
     - Higg Materials Sustainability Index
     - Cotton Inc. LCA Studies
-  ae-2-2:
-    name: Paper Crafts
-    weight:
-      estimate_g: 200
-      min_g: 10
-      max_g: 2000
-      confidence: low
-    lca_data_missing: true
-  ae-2-2-1:
-    name: Scrapbooking Supplies
-    weight:
-      estimate_g: 300
-      min_g: 50
-      max_g: 2000
-      confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 1.5
-      carbon_kg_co2e_per_unit: 0.45
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: paper_cardstock
-    sources:
-    - Environmental Paper Network - Paper Calculator
-  ae-2-2-2:
-    name: Origami Paper
-    weight:
-      estimate_g: 100
-      min_g: 20
-      max_g: 500
-      confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 1.3
-      carbon_kg_co2e_per_unit: 0.13
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: paper
-    sources:
-    - CEPI European Paper Industry statistics
-  ae-2-2-3:
-    name: Card Making Supplies
-    weight:
-      estimate_g: 250
-      min_g: 50
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: cardstock_paper
-  ae-2-2-4:
-    name: Stickers & Decals
+  ae-2-1-2-17-1:
+    name: Candle Making Materials
     weight:
       estimate_g: 50
-      min_g: 5
+      min_g: 10
       max_g: 300
       confidence: medium
     lca_data_missing: true
     materials:
-      primary_material: vinyl_paper
-  ae-2-3:
-    name: Beading & Jewelry Making
-    weight:
-      estimate_g: 150
-      min_g: 10
-      max_g: 2000
-      confidence: low
-    lca_data_missing: true
-  ae-2-3-1:
-    name: Beads
-    weight:
-      estimate_g: 100
-      min_g: 10
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: glass_plastic_stone
-  ae-2-3-2:
-    name: Jewelry Wire & Findings
-    weight:
-      estimate_g: 80
-      min_g: 10
-      max_g: 500
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: copper_steel
-  ae-2-3-3:
-    name: Jewelry Tools
-    weight:
-      estimate_g: 200
-      min_g: 50
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: steel_plastic
-  ae-2-4:
-    name: Adhesives & Glues
-    weight:
-      estimate_g: 100
-      min_g: 10
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-  ae-2-4-1:
-    name: Craft Glue
-    weight:
-      estimate_g: 150
-      min_g: 20
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: pva_polymer
-  ae-2-4-2:
-    name: Hot Glue & Glue Guns
-    weight:
-      estimate_g: 300
-      min_g: 50
-      max_g: 800
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: plastic_eva
-  ae-2-4-3:
-    name: Tape & Adhesive Strips
-    weight:
-      estimate_g: 80
-      min_g: 10
-      max_g: 500
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: plastic_paper
-  ae-2-5:
-    name: Clay & Modeling
-    weight:
-      estimate_g: 500
-      min_g: 50
-      max_g: 5000
-      confidence: low
-    lca_data_missing: true
-  ae-2-5-1:
-    name: Polymer Clay
-    weight:
-      estimate_g: 200
-      min_g: 50
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: pvc_plasticizer
-  ae-2-5-2:
-    name: Air-Dry Clay
-    weight:
-      estimate_g: 500
-      min_g: 100
-      max_g: 2000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: calcium_ite_natural
-  ae-2-5-3:
-    name: Pottery Clay
-    weight:
-      estimate_g: 2000
-      min_g: 500
-      max_g: 10000
-      confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 0.5
-      carbon_kg_co2e_per_unit: 1.0
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: natural_clay
-    notes: Low embodied carbon but firing adds significant energy use
-    sources:
-    - British Ceramic Confederation environmental data
-  ae-2-5-4:
-    name: Sculpting Tools
-    weight:
-      estimate_g: 150
-      min_g: 30
-      max_g: 500
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: wood_metal
-  ae-2-6:
-    name: Candle & Soap Making
-    weight:
-      estimate_g: 500
-      min_g: 50
-      max_g: 5000
-      confidence: low
-    lca_data_missing: true
-  ae-2-6-1:
-    name: Candle Wax
+      primary_material: cotton_wood
+  ae-2-1-2-17-1-1:
+    name: Raw Candle Wax
     weight:
       estimate_g: 1000
       min_g: 100
@@ -655,34 +313,8 @@ categories:
     notes: Soy wax ~2.0 kg CO2e/kg, paraffin ~3.5 kg CO2e/kg
     sources:
     - National Candle Association sustainability data
-  ae-2-6-2:
-    name: Candle Wicks & Supplies
-    weight:
-      estimate_g: 50
-      min_g: 10
-      max_g: 300
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: cotton_wood
-  ae-2-6-3:
-    name: Soap Base
-    weight:
-      estimate_g: 1000
-      min_g: 200
-      max_g: 5000
-      confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 1.8
-      carbon_kg_co2e_per_unit: 1.8
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: glycerin_palm_oil
-    sources:
-    - European Oleochemicals & Allied Products Group LCA data
-  ae-2-6-4:
-    name: Fragrance Oils
+  ae-2-1-2-17-2:
+    name: Perfumery Ingredients
     weight:
       estimate_g: 100
       min_g: 15
@@ -691,8 +323,205 @@ categories:
     lca_data_missing: true
     materials:
       primary_material: synthetic_fragrance
-  ae-2-6-5:
-    name: Candle & Soap Molds
+  ae-2-1-2-3:
+    name: Craft Paint, Ink & Glaze
+    weight:
+      estimate_g: 150
+      min_g: 10
+      max_g: 1000
+      confidence: low
+    lca_data_missing: true
+    materials:
+      primary_material: plastic_ink
+  ae-2-1-2-3-1:
+    name: Art & Craft Paint
+    weight:
+      estimate_g: 250
+      min_g: 15
+      max_g: 5000
+      confidence: low
+    lca_data_missing: true
+    materials:
+      primary_material: mixed
+  ae-2-1-2-5:
+    name: Crafting Adhesives & Magnets
+    weight:
+      estimate_g: 100
+      min_g: 10
+      max_g: 1000
+      confidence: medium
+    lca_data_missing: true
+  ae-2-1-2-5-1-2:
+    name: Craft Glue
+    weight:
+      estimate_g: 150
+      min_g: 20
+      max_g: 1000
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: pva_polymer
+  ae-2-1-2-5-3:
+    name: Decorative Tape
+    weight:
+      estimate_g: 80
+      min_g: 10
+      max_g: 500
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: plastic_paper
+  ae-2-1-2-6-2-6:
+    name: Sewing Thread
+    weight:
+      estimate_g: 50
+      min_g: 10
+      max_g: 500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 5.5
+      carbon_kg_co2e_per_unit: 0.28
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: polyester_cotton
+    sources:
+    - Higg Materials Sustainability Index
+  ae-2-1-2-6-4:
+    name: Yarn
+    weight:
+      estimate_g: 200
+      min_g: 25
+      max_g: 1000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 7.5
+      carbon_kg_co2e_per_unit: 1.5
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: wool_acrylic
+    sources:
+    - Higg Materials Sustainability Index
+    - IWTO Wool LCA studies
+  ae-2-1-2-7-3:
+    name: Jewelry & Beading Wire
+    weight:
+      estimate_g: 80
+      min_g: 10
+      max_g: 500
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: copper_steel
+  ae-2-1-2-8-2:
+    name: Beads
+    weight:
+      estimate_g: 100
+      min_g: 10
+      max_g: 1000
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: glass_plastic_stone
+  ae-2-1-2-8-4:
+    name: Decorative Stickers
+    weight:
+      estimate_g: 50
+      min_g: 5
+      max_g: 300
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: vinyl_paper
+  ae-2-1-4:
+    name: Art & Crafting Tools
+    weight:
+      estimate_g: 200
+      min_g: 5
+      max_g: 2000
+      confidence: low
+    lca_data_missing: true
+  ae-2-1-4-10-3:
+    name: Embroidery Hoops
+    weight:
+      estimate_g: 100
+      min_g: 20
+      max_g: 500
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: cotton_thread_fabric
+  ae-2-1-4-11:
+    name: Glue Guns
+    weight:
+      estimate_g: 300
+      min_g: 50
+      max_g: 800
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: plastic_eva
+  ae-2-1-4-13-1:
+    name: Crochet Hooks
+    weight:
+      estimate_g: 30
+      min_g: 5
+      max_g: 100
+      confidence: high
+    lca_data_missing: true
+    materials:
+      primary_material: aluminum_plastic
+  ae-2-1-4-13-2:
+    name: Hand-Sewing Needles
+    weight:
+      estimate_g: 20
+      min_g: 5
+      max_g: 100
+      confidence: high
+    lca_data_missing: true
+    materials:
+      primary_material: steel
+  ae-2-1-4-13-3:
+    name: Knitting Needles
+    weight:
+      estimate_g: 80
+      min_g: 20
+      max_g: 300
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: bamboo_metal_plastic
+  ae-2-1-4-3-1:
+    name: Palette Knives
+    weight:
+      estimate_g: 40
+      min_g: 20
+      max_g: 100
+      confidence: high
+    lca_data_missing: true
+    materials:
+      primary_material: steel_wood
+  ae-2-1-4-6-1:
+    name: Art Brushes
+    weight:
+      estimate_g: 50
+      min_g: 5
+      max_g: 500
+      confidence: low
+    lca_data_missing: true
+  ae-2-1-5:
+    name: Craft Organization
+    weight:
+      estimate_g: 200
+      min_g: 50
+      max_g: 1000
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: steel_plastic
+  ae-2-1-6-2:
+    name: Craft Molds
     weight:
       estimate_g: 200
       min_g: 50
@@ -701,7 +530,193 @@ categories:
     lca_data_missing: true
     materials:
       primary_material: silicone_plastic
-  ae-3:
+  ae-2-2:
+    name: Collectibles
+    weight:
+      estimate_g: 500
+      min_g: 5
+      max_g: 10000
+      confidence: low
+    lca_data_missing: true
+  ae-2-2-1:
+    name: Autographs
+    weight:
+      estimate_g: 300
+      min_g: 10
+      max_g: 5000
+      confidence: low
+    lca_data_missing: true
+    materials:
+      primary_material: mixed
+  ae-2-2-10:
+    name: Sports Collectibles
+    weight:
+      estimate_g: 500
+      min_g: 20
+      max_g: 5000
+      confidence: low
+    lca_data_missing: true
+    materials:
+      primary_material: mixed
+  ae-2-2-10-1-1:
+    name: Banners
+    weight:
+      estimate_g: 150
+      min_g: 20
+      max_g: 500
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: vinyl_paper
+  ae-2-2-10-1-3:
+    name: Figurines
+    weight:
+      estimate_g: 500
+      min_g: 50
+      max_g: 5000
+      confidence: low
+    lca_data_missing: true
+    materials:
+      primary_material: pvc_resin
+  ae-2-2-2:
+    name: Collectible Coins & Currency
+    weight:
+      estimate_g: 50
+      min_g: 5
+      max_g: 500
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: metal
+  ae-2-2-3:
+    name: Collectible Trading Cards
+    weight:
+      estimate_g: 50
+      min_g: 5
+      max_g: 500
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.0
+      carbon_kg_co2e_per_unit: 0.1
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: cardstock
+    sources:
+    - Print industry environmental data
+  ae-2-2-5:
+    name: Postage Stamps
+    weight:
+      estimate_g: 10
+      min_g: 1
+      max_g: 100
+      confidence: high
+    lca_data_missing: true
+    materials:
+      primary_material: paper
+  ae-2-4:
+    name: Juggling
+    weight:
+      estimate_g: 180
+      min_g: 120
+      max_g: 250
+      confidence: high
+    lca:
+      carbon_kg_co2e_per_kg: 3.5
+      carbon_kg_co2e_per_unit: 0.63
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: pvc
+    sources:
+    - Record Industry Association environmental studies
+  ae-2-7:
+    name: Musical Instrument & Orchestra Accessories
+    weight:
+      estimate_g: 200
+      min_g: 5
+      max_g: 5000
+      confidence: low
+    lca_data_missing: true
+  ae-2-7-1-2:
+    name: Brass Instrument Cases & Gigbags
+    weight:
+      estimate_g: 3000
+      min_g: 500
+      max_g: 10000
+      confidence: low
+    lca_data_missing: true
+    materials:
+      primary_material: abs_foam_fabric
+  ae-2-7-11:
+    name: Musical Keyboard Accessories
+    weight:
+      estimate_g: 15000
+      min_g: 2000
+      max_g: 500000
+      confidence: low
+    lca_data_missing: true
+  ae-2-7-12-7-2:
+    name: Drum Sticks
+    weight:
+      estimate_g: 100
+      min_g: 40
+      max_g: 300
+      confidence: high
+    lca_data_missing: true
+    materials:
+      primary_material: hickory_wood
+  ae-2-7-13-1-12:
+    name: Guitar Strings
+    weight:
+      estimate_g: 30
+      min_g: 15
+      max_g: 80
+      confidence: high
+    lca_data_missing: true
+    materials:
+      primary_material: steel_nylon
+  ae-2-7-13-1-2:
+    name: Capos
+    weight:
+      estimate_g: 50
+      min_g: 20
+      max_g: 100
+      confidence: high
+    lca_data_missing: true
+    materials:
+      primary_material: metal_rubber
+  ae-2-7-13-1-7:
+    name: Guitar Picks
+    weight:
+      estimate_g: 5
+      min_g: 1
+      max_g: 20
+      confidence: high
+    lca_data_missing: true
+    materials:
+      primary_material: plastic_celluloid
+  ae-2-7-3:
+    name: Electronic Tuners
+    weight:
+      estimate_g: 100
+      min_g: 20
+      max_g: 300
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: plastic_electronics
+  ae-2-7-8:
+    name: Music Stands
+    weight:
+      estimate_g: 1500
+      min_g: 500
+      max_g: 4000
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: metal
+  ae-2-8:
     name: Musical Instruments
     weight:
       estimate_g: 5000
@@ -710,7 +725,135 @@ categories:
       confidence: low
     lca_data_missing: true
     notes: Extremely variable - from harmonicas to pianos
-  ae-3-1:
+  ae-2-8-1-1:
+    name: Accordions
+    weight:
+      estimate_g: 8000
+      min_g: 3000
+      max_g: 12000
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: wood_metal_plastic
+  ae-2-8-3-4:
+    name: Trombones
+    weight:
+      estimate_g: 1400
+      min_g: 1000
+      max_g: 2000
+      confidence: high
+    lca_data_missing: true
+    materials:
+      primary_material: brass
+  ae-2-8-3-5-3:
+    name: Trumpets
+    weight:
+      estimate_g: 1100
+      min_g: 900
+      max_g: 1400
+      confidence: high
+    lca_data_missing: true
+    materials:
+      primary_material: brass
+  ae-2-8-4-2:
+    name: MIDI Controllers
+    weight:
+      estimate_g: 1500
+      min_g: 500
+      max_g: 5000
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: plastic_electronics
+  ae-2-8-4-3-1:
+    name: Digital Pianos
+    weight:
+      estimate_g: 15000
+      min_g: 8000
+      max_g: 80000
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: wood_plastic_electronics
+  ae-2-8-4-3-4:
+    name: Synthesizer Keyboards
+    weight:
+      estimate_g: 5000
+      min_g: 2000
+      max_g: 15000
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: plastic_electronics
+  ae-2-8-5:
+    name: Percussion
+    weight:
+      estimate_g: 5000
+      min_g: 100
+      max_g: 50000
+      confidence: low
+    lca_data_missing: true
+  ae-2-8-5-10:
+    name: Snare Drums
+    weight:
+      estimate_g: 4000
+      min_g: 2500
+      max_g: 6000
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: wood_metal
+  ae-2-8-5-2:
+    name: Cymbals
+    weight:
+      estimate_g: 1500
+      min_g: 300
+      max_g: 3500
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: bronze_brass
+  ae-2-8-5-3:
+    name: Drum Kits
+    weight:
+      estimate_g: 30000
+      min_g: 15000
+      max_g: 50000
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: wood_metal
+  ae-2-8-5-5-4:
+    name: Xylophones
+    weight:
+      estimate_g: 15000
+      min_g: 1000
+      max_g: 50000
+      confidence: low
+    lca_data_missing: true
+    materials:
+      primary_material: wood_metal
+  ae-2-8-5-7-10:
+    name: Tambourines
+    weight:
+      estimate_g: 300
+      min_g: 150
+      max_g: 600
+      confidence: high
+    lca_data_missing: true
+    materials:
+      primary_material: wood_metal
+  ae-2-8-5-7-4:
+    name: Hand Drums
+    weight:
+      estimate_g: 5000
+      min_g: 2000
+      max_g: 12000
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: wood_skin
+  ae-2-8-7:
     name: String Instruments
     weight:
       estimate_g: 3000
@@ -718,7 +861,17 @@ categories:
       max_g: 30000
       confidence: low
     lca_data_missing: true
-  ae-3-1-1:
+  ae-2-8-7-1:
+    name: Cellos
+    weight:
+      estimate_g: 3000
+      min_g: 2500
+      max_g: 4000
+      confidence: high
+    lca_data_missing: true
+    materials:
+      primary_material: spruce_maple
+  ae-2-8-7-2-1:
     name: Acoustic Guitars
     weight:
       estimate_g: 2200
@@ -744,7 +897,17 @@ categories:
     sources:
     - Taylor Guitars Environmental Sustainability Report
     - Gibson environmental initiatives documentation
-  ae-3-1-2:
+  ae-2-8-7-2-2:
+    name: Bass Guitars
+    weight:
+      estimate_g: 4000
+      min_g: 3000
+      max_g: 5500
+      confidence: high
+    lca_data_missing: true
+    materials:
+      primary_material: wood_metal
+  ae-2-8-7-2-4:
     name: Electric Guitars
     weight:
       estimate_g: 3500
@@ -768,18 +931,8 @@ categories:
     sources:
     - Fender sustainability reporting
     - General electronics LCA data
-  ae-3-1-3:
-    name: Bass Guitars
-    weight:
-      estimate_g: 4000
-      min_g: 3000
-      max_g: 5500
-      confidence: high
-    lca_data_missing: true
-    materials:
-      primary_material: wood_metal
-  ae-3-1-4:
-    name: Violins & Violas
+  ae-2-8-7-6:
+    name: Violins
     weight:
       estimate_g: 500
       min_g: 350
@@ -788,27 +941,7 @@ categories:
     lca_data_missing: true
     materials:
       primary_material: spruce_maple
-  ae-3-1-5:
-    name: Cellos
-    weight:
-      estimate_g: 3000
-      min_g: 2500
-      max_g: 4000
-      confidence: high
-    lca_data_missing: true
-    materials:
-      primary_material: spruce_maple
-  ae-3-1-6:
-    name: Ukuleles
-    weight:
-      estimate_g: 500
-      min_g: 300
-      max_g: 800
-      confidence: high
-    lca_data_missing: true
-    materials:
-      primary_material: wood
-  ae-3-1-7:
+  ae-2-8-7-7:
     name: Banjos
     weight:
       estimate_g: 2500
@@ -818,75 +951,17 @@ categories:
     lca_data_missing: true
     materials:
       primary_material: wood_metal
-  ae-3-2:
-    name: Wind Instruments
+  ae-2-8-7-9:
+    name: Ukuleles
     weight:
-      estimate_g: 1000
-      min_g: 100
-      max_g: 5000
-      confidence: low
-    lca_data_missing: true
-  ae-3-2-1:
-    name: Flutes
-    weight:
-      estimate_g: 450
+      estimate_g: 500
       min_g: 300
-      max_g: 600
+      max_g: 800
       confidence: high
     lca_data_missing: true
     materials:
-      primary_material: nickel_silver
-  ae-3-2-2:
-    name: Clarinets
-    weight:
-      estimate_g: 800
-      min_g: 600
-      max_g: 1000
-      confidence: high
-    lca_data_missing: true
-    materials:
-      primary_material: grenadilla_wood_plastic
-  ae-3-2-3:
-    name: Saxophones
-    weight:
-      estimate_g: 2500
-      min_g: 1500
-      max_g: 4000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: brass
-  ae-3-2-4:
-    name: Trumpets
-    weight:
-      estimate_g: 1100
-      min_g: 900
-      max_g: 1400
-      confidence: high
-    lca_data_missing: true
-    materials:
-      primary_material: brass
-  ae-3-2-5:
-    name: Trombones
-    weight:
-      estimate_g: 1400
-      min_g: 1000
-      max_g: 2000
-      confidence: high
-    lca_data_missing: true
-    materials:
-      primary_material: brass
-  ae-3-2-6:
-    name: Harmonicas
-    weight:
-      estimate_g: 80
-      min_g: 30
-      max_g: 200
-      confidence: high
-    lca_data_missing: true
-    materials:
-      primary_material: steel_plastic
-  ae-3-2-7:
+      primary_material: wood
+  ae-2-8-8-11:
     name: Recorders
     weight:
       estimate_g: 100
@@ -896,209 +971,217 @@ categories:
     lca_data_missing: true
     materials:
       primary_material: plastic_wood
-  ae-3-3:
-    name: Percussion Instruments
+  ae-2-8-8-12:
+    name: Saxophones
     weight:
-      estimate_g: 5000
-      min_g: 100
-      max_g: 50000
-      confidence: low
-    lca_data_missing: true
-  ae-3-3-1:
-    name: Drum Kits
-    weight:
-      estimate_g: 30000
-      min_g: 15000
-      max_g: 50000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: wood_metal
-  ae-3-3-2:
-    name: Snare Drums
-    weight:
-      estimate_g: 4000
-      min_g: 2500
-      max_g: 6000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: wood_metal
-  ae-3-3-3:
-    name: Cymbals
-    weight:
-      estimate_g: 1500
-      min_g: 300
-      max_g: 3500
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: bronze_brass
-  ae-3-3-4:
-    name: Bongos & Congas
-    weight:
-      estimate_g: 5000
-      min_g: 2000
-      max_g: 12000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: wood_skin
-  ae-3-3-5:
-    name: Tambourines
-    weight:
-      estimate_g: 300
-      min_g: 150
-      max_g: 600
-      confidence: high
-    lca_data_missing: true
-    materials:
-      primary_material: wood_metal
-  ae-3-3-6:
-    name: Xylophones & Marimbas
-    weight:
-      estimate_g: 15000
-      min_g: 1000
-      max_g: 50000
-      confidence: low
-    lca_data_missing: true
-    materials:
-      primary_material: wood_metal
-  ae-3-4:
-    name: Keyboard Instruments
-    weight:
-      estimate_g: 15000
-      min_g: 2000
-      max_g: 500000
-      confidence: low
-    lca_data_missing: true
-  ae-3-4-1:
-    name: Digital Pianos
-    weight:
-      estimate_g: 15000
-      min_g: 8000
-      max_g: 80000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: wood_plastic_electronics
-  ae-3-4-2:
-    name: Keyboards & Synthesizers
-    weight:
-      estimate_g: 5000
-      min_g: 2000
-      max_g: 15000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: plastic_electronics
-  ae-3-4-3:
-    name: MIDI Controllers
-    weight:
-      estimate_g: 1500
-      min_g: 500
-      max_g: 5000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: plastic_electronics
-  ae-3-4-4:
-    name: Accordions
-    weight:
-      estimate_g: 8000
-      min_g: 3000
-      max_g: 12000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: wood_metal_plastic
-  ae-3-5:
-    name: Instrument Accessories
-    weight:
-      estimate_g: 200
-      min_g: 5
-      max_g: 5000
-      confidence: low
-    lca_data_missing: true
-  ae-3-5-1:
-    name: Guitar Strings
-    weight:
-      estimate_g: 30
-      min_g: 15
-      max_g: 80
-      confidence: high
-    lca_data_missing: true
-    materials:
-      primary_material: steel_nylon
-  ae-3-5-2:
-    name: Guitar Picks
-    weight:
-      estimate_g: 5
-      min_g: 1
-      max_g: 20
-      confidence: high
-    lca_data_missing: true
-    materials:
-      primary_material: plastic_celluloid
-  ae-3-5-3:
-    name: Instrument Cases
-    weight:
-      estimate_g: 3000
-      min_g: 500
-      max_g: 10000
-      confidence: low
-    lca_data_missing: true
-    materials:
-      primary_material: abs_foam_fabric
-  ae-3-5-4:
-    name: Music Stands
-    weight:
-      estimate_g: 1500
-      min_g: 500
+      estimate_g: 2500
+      min_g: 1500
       max_g: 4000
       confidence: medium
     lca_data_missing: true
     materials:
-      primary_material: metal
-  ae-3-5-5:
-    name: Tuners & Metronomes
+      primary_material: brass
+  ae-2-8-8-2:
+    name: Clarinets
+    weight:
+      estimate_g: 800
+      min_g: 600
+      max_g: 1000
+      confidence: high
+    lca_data_missing: true
+    materials:
+      primary_material: grenadilla_wood_plastic
+  ae-2-8-8-3:
+    name: Flutes
+    weight:
+      estimate_g: 450
+      min_g: 300
+      max_g: 600
+      confidence: high
+    lca_data_missing: true
+    materials:
+      primary_material: nickel_silver
+  ae-2-8-8-5:
+    name: Harmonicas
+    weight:
+      estimate_g: 80
+      min_g: 30
+      max_g: 200
+      confidence: high
+    lca_data_missing: true
+    materials:
+      primary_material: steel_plastic
+  ae-3-2:
+    name: Party Supplies
+    weight:
+      estimate_g: 200
+      min_g: 5
+      max_g: 2000
+      confidence: low
+    lca_data_missing: true
+  ae-3-2-15:
+    name: Inflatable Party Decorations
+    weight:
+      estimate_g: 300
+      min_g: 20
+      max_g: 2000
+      confidence: low
+    lca_data_missing: true
+    materials:
+      primary_material: paper_plastic
+  ae-3-2-18:
+    name: Party Favors
     weight:
       estimate_g: 100
-      min_g: 20
-      max_g: 300
+      min_g: 10
+      max_g: 500
+      confidence: low
+    lca_data_missing: true
+    materials:
+      primary_material: plastic_paper
+  ae-3-2-23:
+    name: Piñatas
+    weight:
+      estimate_g: 500
+      min_g: 200
+      max_g: 2000
       confidence: medium
     lca_data_missing: true
     materials:
-      primary_material: plastic_electronics
-  ae-3-5-6:
-    name: Capos
+      primary_material: paper_cardboard
+  ae-3-2-3:
+    name: Balloons
+    weight:
+      estimate_g: 20
+      min_g: 2
+      max_g: 100
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: latex_mylar
+  ae-3-2-8:
+    name: Confetti
     weight:
       estimate_g: 50
+      min_g: 10
+      max_g: 200
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: paper_mylar
+  bi-8-7:
+    name: Disposable Tableware
+    weight:
+      estimate_g: 200
+      min_g: 50
+      max_g: 1000
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: paper_plastic
+  co-1-4-1:
+    name: Camera Accessory Sets
+    weight:
+      estimate_g: 300
       min_g: 20
+      max_g: 2000
+      confidence: low
+    lca_data_missing: true
+    materials:
+      primary_material: plastic_metal
+  co-1-4-5:
+    name: Camera Film
+    weight:
+      estimate_g: 30
+      min_g: 15
       max_g: 100
       confidence: high
     lca_data_missing: true
     materials:
-      primary_material: metal_rubber
-  ae-3-5-7:
-    name: Drum Sticks & Mallets
+      primary_material: cellulose_acetate
+  co-1-7:
+    name: Tripods & Monopods
     weight:
-      estimate_g: 100
-      min_g: 40
-      max_g: 300
-      confidence: high
+      estimate_g: 1500
+      min_g: 300
+      max_g: 5000
+      confidence: medium
     lca_data_missing: true
     materials:
-      primary_material: hickory_wood
-  ae-4:
-    name: Books & Media
+      primary_material: aluminum_carbon_fiber
+  co-4:
+    name: Photography
     weight:
-      estimate_g: 400
-      min_g: 20
-      max_g: 5000
+      estimate_g: 1000
+      min_g: 50
+      max_g: 10000
       confidence: low
     lca_data_missing: true
-  ae-4-1:
+  co-4-1:
+    name: Darkroom
+    weight:
+      estimate_g: 100
+      min_g: 20
+      max_g: 500
+      confidence: medium
+    lca_data_missing: true
+  ha-15-42-2:
+    name: Paint Brushes
+    weight:
+      estimate_g: 30
+      min_g: 5
+      max_g: 200
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: wood_bristle
+  ha-15-42-6:
+    name: Paint Sponges
+    weight:
+      estimate_g: 100
+      min_g: 20
+      max_g: 500
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: foam_plastic
+  hg-10-16-8-1:
+    name: Photo Albums
+    weight:
+      estimate_g: 800
+      min_g: 200
+      max_g: 2000
+      confidence: medium
+    lca:
+      carbon_kg_co2e_per_kg: 2.0
+      carbon_kg_co2e_per_unit: 1.6
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: paper_vinyl
+    sources:
+    - Print and paper products LCA data
+  hg-13:
+    name: Lighting
+    weight:
+      estimate_g: 2000
+      min_g: 200
+      max_g: 10000
+      confidence: low
+    lca_data_missing: true
+    materials:
+      primary_material: metal_plastic
+  hg-3-52-1:
+    name: Digital Photo Frames
+    weight:
+      estimate_g: 500
+      min_g: 50
+      max_g: 3000
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: wood_metal_plastic
+  me-1:
     name: Books
     weight:
       estimate_g: 400
@@ -1115,72 +1198,8 @@ categories:
     sources:
     - Book Industry Environmental Council
     - Environmental Paper Network
-  ae-4-1-1:
-    name: Paperback Books
-    weight:
-      estimate_g: 250
-      min_g: 100
-      max_g: 600
-      confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 1.1
-      carbon_kg_co2e_per_unit: 0.28
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: paper
-    sources:
-    - Book Industry Environmental Council
-  ae-4-1-2:
-    name: Hardcover Books
-    weight:
-      estimate_g: 600
-      min_g: 300
-      max_g: 2000
-      confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 1.3
-      carbon_kg_co2e_per_unit: 0.78
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: paper_cardboard
-    sources:
-    - Book Industry Environmental Council
-  ae-4-1-3:
-    name: Coffee Table Books
-    weight:
-      estimate_g: 1500
-      min_g: 800
-      max_g: 3000
-      confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 1.5
-      carbon_kg_co2e_per_unit: 2.25
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: coated_paper
-    sources:
-    - Printing industry LCA studies
-  ae-4-1-4:
-    name: Children's Books
-    weight:
-      estimate_g: 200
-      min_g: 50
-      max_g: 800
-      confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 1.2
-      carbon_kg_co2e_per_unit: 0.24
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: paper_cardboard
-    sources:
-    - Book Industry Environmental Council
-  ae-4-2:
-    name: Magazines & Periodicals
+  me-2-1:
+    name: Magazines
     weight:
       estimate_g: 150
       min_g: 50
@@ -1195,382 +1214,57 @@ categories:
       primary_material: coated_paper
     sources:
     - Magazine Publishers Environmental Report
-  ae-4-3:
-    name: Vinyl Records
+  os-11-11-6:
+    name: Pastels
     weight:
-      estimate_g: 180
-      min_g: 120
-      max_g: 250
-      confidence: high
+      estimate_g: 100
+      min_g: 20
+      max_g: 500
+      confidence: medium
+    lca_data_missing: true
+    materials:
+      primary_material: charcoal_calcium_carbonate
+  os-11-11-7-2:
+    name: Pencils
+    weight:
+      estimate_g: 50
+      min_g: 5
+      max_g: 500
+      confidence: medium
     lca:
       carbon_kg_co2e_per_kg: 3.5
-      carbon_kg_co2e_per_unit: 0.63
+      carbon_kg_co2e_per_unit: 0.018
       scope: cradle-to-gate
       data_quality: secondary
     materials:
-      primary_material: pvc
+      primary_material: wood_graphite
     sources:
-    - Record Industry Association environmental studies
-  ae-4-4:
-    name: CDs & DVDs
+    - FABER-CASTELL Sustainability Report - lifecycle assessments
+  os-13-6:
+    name: Easels
     weight:
-      estimate_g: 100
-      min_g: 50
-      max_g: 200
-      confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 6.0
-      carbon_kg_co2e_per_unit: 0.6
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: polycarbonate
-    sources:
-    - Optical media manufacturing LCA studies
-  ae-5:
-    name: Party Supplies
-    weight:
-      estimate_g: 200
-      min_g: 5
-      max_g: 2000
-      confidence: low
-    lca_data_missing: true
-  ae-5-1:
-    name: Balloons
-    weight:
-      estimate_g: 20
-      min_g: 2
-      max_g: 100
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: latex_mylar
-  ae-5-2:
-    name: Party Decorations
-    weight:
-      estimate_g: 300
-      min_g: 20
-      max_g: 2000
+      estimate_g: 3000
+      min_g: 500
+      max_g: 15000
       confidence: low
     lca_data_missing: true
     materials:
-      primary_material: paper_plastic
-  ae-5-3:
-    name: Disposable Tableware
-    weight:
-      estimate_g: 200
-      min_g: 50
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: paper_plastic
-  ae-5-4:
-    name: Party Favors
-    weight:
-      estimate_g: 100
-      min_g: 10
-      max_g: 500
-      confidence: low
-    lca_data_missing: true
-    materials:
-      primary_material: plastic_paper
-  ae-5-5:
-    name: Banners & Signs
-    weight:
-      estimate_g: 150
-      min_g: 20
-      max_g: 500
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: vinyl_paper
-  ae-5-6:
-    name: Confetti & Streamers
-    weight:
-      estimate_g: 50
-      min_g: 10
-      max_g: 200
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: paper_mylar
-  ae-5-7:
-    name: Piñatas
-    weight:
-      estimate_g: 500
-      min_g: 200
-      max_g: 2000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: paper_cardboard
-  ae-6:
-    name: Collectibles
-    weight:
-      estimate_g: 500
-      min_g: 5
-      max_g: 10000
-      confidence: low
-    lca_data_missing: true
-  ae-6-1:
-    name: Trading Cards
-    weight:
-      estimate_g: 50
-      min_g: 5
-      max_g: 500
-      confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.0
-      carbon_kg_co2e_per_unit: 0.1
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: cardstock
-    sources:
-    - Print industry environmental data
-  ae-6-2:
-    name: Figurines & Statues
-    weight:
-      estimate_g: 500
-      min_g: 50
-      max_g: 5000
-      confidence: low
-    lca_data_missing: true
-    materials:
-      primary_material: pvc_resin
-  ae-6-3:
-    name: Coins & Currency
-    weight:
-      estimate_g: 50
-      min_g: 5
-      max_g: 500
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: metal
-  ae-6-4:
-    name: Stamps
-    weight:
-      estimate_g: 10
-      min_g: 1
-      max_g: 100
-      confidence: high
-    lca_data_missing: true
-    materials:
-      primary_material: paper
-  ae-6-5:
-    name: Sports Memorabilia
-    weight:
-      estimate_g: 500
-      min_g: 20
-      max_g: 5000
-      confidence: low
-    lca_data_missing: true
-    materials:
-      primary_material: mixed
-  ae-6-6:
-    name: Autographed Items
-    weight:
-      estimate_g: 300
-      min_g: 10
-      max_g: 5000
-      confidence: low
-    lca_data_missing: true
-    materials:
-      primary_material: mixed
-  ae-7:
-    name: Costumes & Theatrical
-    weight:
-      estimate_g: 800
-      min_g: 50
-      max_g: 5000
-      confidence: low
-    lca_data_missing: true
-  ae-7-1:
-    name: Halloween Costumes
-    weight:
-      estimate_g: 500
-      min_g: 100
-      max_g: 2000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: polyester_plastic
-  ae-7-2:
-    name: Costume Accessories
-    weight:
-      estimate_g: 200
-      min_g: 20
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: plastic_fabric
-  ae-7-3:
-    name: Wigs
-    weight:
-      estimate_g: 150
-      min_g: 50
-      max_g: 400
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: synthetic_fiber
-  ae-7-4:
-    name: Masks
-    weight:
-      estimate_g: 100
-      min_g: 20
-      max_g: 500
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: plastic_latex
-  ae-7-5:
-    name: Theater Makeup
-    weight:
-      estimate_g: 200
-      min_g: 20
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: cosmetics
-  ae-7-6:
-    name: Props
-    weight:
-      estimate_g: 500
-      min_g: 50
-      max_g: 5000
-      confidence: low
-    lca_data_missing: true
-    materials:
-      primary_material: foam_plastic_wood
-  ae-8:
-    name: Photography
-    weight:
-      estimate_g: 1000
-      min_g: 50
-      max_g: 10000
-      confidence: low
-    lca_data_missing: true
-  ae-8-1:
-    name: Film & Darkroom
-    weight:
-      estimate_g: 100
-      min_g: 20
-      max_g: 500
-      confidence: medium
-    lca_data_missing: true
-  ae-8-1-1:
-    name: Camera Film
+      primary_material: wood_metal
+  os-4-3:
+    name: Erasers
     weight:
       estimate_g: 30
-      min_g: 15
+      min_g: 5
       max_g: 100
       confidence: high
     lca_data_missing: true
     materials:
-      primary_material: cellulose_acetate
-  ae-8-1-2:
-    name: Photo Paper
-    weight:
-      estimate_g: 500
-      min_g: 100
-      max_g: 2000
-      confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.5
-      carbon_kg_co2e_per_unit: 1.25
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: resin_coated_paper
-    sources:
-    - Photo paper manufacturing LCA data
-  ae-8-1-3:
-    name: Darkroom Chemicals
+      primary_material: rubber_vinyl
+  tg-5-13-14:
+    name: Wind Instruments
     weight:
       estimate_g: 1000
       min_g: 100
       max_g: 5000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: chemicals
-  ae-8-2:
-    name: Photo Frames
-    weight:
-      estimate_g: 500
-      min_g: 50
-      max_g: 3000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: wood_metal_plastic
-  ae-8-3:
-    name: Photo Albums
-    weight:
-      estimate_g: 800
-      min_g: 200
-      max_g: 2000
-      confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.0
-      carbon_kg_co2e_per_unit: 1.6
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: paper_vinyl
-    sources:
-    - Print and paper products LCA data
-  ae-8-4:
-    name: Camera Accessories
-    weight:
-      estimate_g: 300
-      min_g: 20
-      max_g: 2000
       confidence: low
     lca_data_missing: true
-    materials:
-      primary_material: plastic_metal
-  ae-8-5:
-    name: Lighting Equipment
-    weight:
-      estimate_g: 2000
-      min_g: 200
-      max_g: 10000
-      confidence: low
-    lca_data_missing: true
-    materials:
-      primary_material: metal_plastic
-  ae-8-6:
-    name: Tripods & Supports
-    weight:
-      estimate_g: 1500
-      min_g: 300
-      max_g: 5000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: aluminum_carbon_fiber
-metadata:
-  total_categories: 127
-  categories_with_lca: 32
-  categories_missing_lca: 95
-  coverage_percentage: 25.2
-  primary_sources:
-  - FABER-CASTELL Sustainability Report
-  - Cotton Inc. LCA Studies
-  - Environmental Paper Network
-  - Higg Materials Sustainability Index
-  - Taylor Guitars Environmental Sustainability Report
-  - Book Industry Environmental Council
-  - IWTO Wool LCA studies
-  - British Ceramic Confederation
-  - National Candle Association
-  notes: |
-    Arts & Entertainment is a diverse vertical with limited published LCA data.
-    Most musical instruments and party supplies lack comprehensive lifecycle assessments.
-    Paper and textile-based categories have better data coverage through industry associations.

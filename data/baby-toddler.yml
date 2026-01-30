@@ -1,111 +1,417 @@
 schema_version: 0.1.0
-last_updated: '2026-01-19'
+last_updated: '2026-01-29'
 categories:
+  aa-2-14:
+    name: Hair Accessories
+    weight:
+      estimate_g: 15
+      min_g: 5
+      max_g: 40
+      confidence: high
+    lca_data_missing: true
+  aa-2-2:
+    name: Baby & Toddler Clothing Accessories
+    weight:
+      estimate_g: 50
+      min_g: 10
+      max_g: 200
+      confidence: medium
+    lca_data_missing: true
+  aa-2-2-2:
+    name: Baby & Toddler Gloves & Mittens
+    weight:
+      estimate_g: 20
+      min_g: 10
+      max_g: 40
+      confidence: high
+      methodology: Per pair
+    lca_data_missing: true
+  aa-2-2-3:
+    name: Baby & Toddler Hats
+    weight:
+      estimate_g: 30
+      min_g: 15
+      max_g: 80
+      confidence: high
+    lca_data_missing: true
+  ae-2-2-10-1-16:
+    name: Wall Decals
+    weight:
+      estimate_g: 100
+      min_g: 30
+      max_g: 300
+      confidence: medium
+    lca_data_missing: true
+  ap-2-18-6:
+    name: Playpens
+    weight:
+      estimate_g: 10000
+      min_g: 5000
+      max_g: 18000
+      confidence: medium
+    lca_data_missing: true
   bt-1:
-    name: Strollers & Carriers
+    name: Baby Bathing
+    weight:
+      estimate_g: 1000
+      min_g: 100
+      max_g: 5000
+      confidence: low
+    lca_data_missing: true
+  bt-1-1:
+    name: Baby Bathtubs & Bath Seats
+    weight:
+      estimate_g: 2000
+      min_g: 800
+      max_g: 4000
+      confidence: medium
+    materials:
+      primary_material: plastic
+    lca_data_missing: true
+  bt-1-1-2:
+    name: Bath Seats
+    weight:
+      estimate_g: 1000
+      min_g: 500
+      max_g: 2000
+      confidence: medium
+    lca_data_missing: true
+  bt-10:
+    name: Nursing & Feeding
+    weight:
+      estimate_g: 300
+      min_g: 20
+      max_g: 15000
+      confidence: low
+    lca_data_missing: true
+  bt-10-1-3:
+    name: Baby Food
+    weight:
+      estimate_g: 2000
+      min_g: 1000
+      max_g: 4000
+      confidence: medium
+    lca_data_missing: true
+  bt-10-1-4:
+    name: Baby Formula
+    weight:
+      estimate_g: 150
+      min_g: 50
+      max_g: 300
+      confidence: medium
+    lca_data_missing: true
+  bt-10-11:
+    name: Nursing Covers
+    weight:
+      estimate_g: 200
+      min_g: 100
+      max_g: 400
+      confidence: medium
+    lca_data_missing: true
+  bt-10-12:
+    name: Nursing Pads & Shields
+    weight:
+      estimate_g: 150
+      min_g: 50
+      max_g: 300
+      confidence: medium
+      methodology: Per box
+    lca_data_missing: true
+  bt-10-14:
+    name: Nursing Pillows
+    weight:
+      estimate_g: 1500
+      min_g: 800
+      max_g: 2500
+      confidence: medium
+    lca_data_missing: true
+  bt-10-16-1:
+    name: Feeding Bowls
+    weight:
+      estimate_g: 200
+      min_g: 80
+      max_g: 400
+      confidence: medium
+    lca_data_missing: true
+  bt-10-16-3:
+    name: Feeding Plates
+    weight:
+      estimate_g: 150
+      min_g: 60
+      max_g: 300
+      confidence: medium
+    lca_data_missing: true
+  bt-10-16-6:
+    name: Baby Bottles
+    weight:
+      estimate_g: 150
+      min_g: 80
+      max_g: 300
+      confidence: high
+    materials:
+      primary_material: plastic
+      breakdown:
+      - material: polypropylene
+        percentage: 70
+      - material: silicone_nipple
+        percentage: 20
+      - material: other
+        percentage: 10
+    notes: Glass bottles heavier but lower footprint per use
+    lca_data_missing: true
+  bt-10-16-7:
+    name: Bibs
+    weight:
+      estimate_g: 50
+      min_g: 20
+      max_g: 150
+      confidence: high
+    lca_data_missing: true
+  bt-10-16-8:
+    name: Sippy Cups
+    weight:
+      estimate_g: 100
+      min_g: 60
+      max_g: 200
+      confidence: high
+    lca_data_missing: true
+  bt-10-6-1:
+    name: Bottle Warmers
+    weight:
+      estimate_g: 800
+      min_g: 400
+      max_g: 1500
+      confidence: medium
+    lca_data_missing: true
+  bt-10-7:
+    name: Breast Milk Storage Containers
+    weight:
+      estimate_g: 200
+      min_g: 100
+      max_g: 400
+      confidence: medium
+      methodology: Per box (~50 bags)
+    lca_data_missing: true
+  bt-10-9:
+    name: Breast Pumps
+    weight:
+      estimate_g: 1500
+      min_g: 500
+      max_g: 3000
+      confidence: medium
+    lca_data_missing: true
+  bt-12:
+    name: Swaddling & Receiving Blankets
+    weight:
+      estimate_g: 500
+      min_g: 50
+      max_g: 3000
+      confidence: low
+    lca_data_missing: true
+  bt-12-2:
+    name: Swaddling Blankets
+    weight:
+      estimate_g: 200
+      min_g: 100
+      max_g: 400
+      confidence: medium
+    materials:
+      primary_material: cotton
+    lca_data_missing: true
+  bt-2:
+    name: Baby Gift Sets
+    weight:
+      estimate_g: 20
+      min_g: 10
+      max_g: 40
+      confidence: high
+      methodology: Per pair
+    lca_data_missing: true
+  bt-3:
+    name: Baby Health
+    weight:
+      estimate_g: 5000
+      min_g: 3000
+      max_g: 8000
+      confidence: medium
+    materials:
+      primary_material: foam
+      breakdown:
+      - material: foam
+        percentage: 70
+      - material: fabric_cover
+        percentage: 25
+      - material: other
+        percentage: 5
+    lca_data_missing: true
+  bt-3-2:
+    name: Nasal Aspirators
+    weight:
+      estimate_g: 50
+      min_g: 20
+      max_g: 150
+      confidence: medium
+    lca_data_missing: true
+  bt-3-3:
+    name: Pacifier Clips & Holders
+    weight:
+      estimate_g: 30
+      min_g: 15
+      max_g: 60
+      confidence: high
+    lca_data_missing: true
+  bt-3-5-1:
+    name: Pacifiers
+    weight:
+      estimate_g: 20
+      min_g: 10
+      max_g: 40
+      confidence: high
+    materials:
+      primary_material: silicone
+    lca_data_missing: true
+  bt-3-5-2:
+    name: Teethers
+    weight:
+      estimate_g: 50
+      min_g: 20
+      max_g: 200
+      confidence: medium
+    lca_data_missing: true
+  bt-4:
+    name: Baby Safety
+    weight:
+      estimate_g: 300
+      min_g: 50
+      max_g: 2000
+      confidence: low
+    lca_data_missing: true
+  bt-4-2:
+    name: Baby & Pet Gates
+    weight:
+      estimate_g: 4000
+      min_g: 2000
+      max_g: 8000
+      confidence: medium
+    materials:
+      primary_material: metal
+      breakdown:
+      - material: steel
+        percentage: 70
+      - material: plastic
+        percentage: 25
+      - material: other
+        percentage: 5
+    lca_data_missing: true
+  bt-4-3:
+    name: Baby Monitors
+    weight:
+      estimate_g: 400
+      min_g: 150
+      max_g: 800
+      confidence: medium
+    notes: Video monitors have higher footprint than audio-only
+    lca_data_missing: true
+  bt-4-5:
+    name: Baby Safety Locks & Guards
+    weight:
+      estimate_g: 30
+      min_g: 15
+      max_g: 60
+      confidence: high
+    lca_data_missing: true
+  bt-4-5-1:
+    name: Cabinet Locks
+    weight:
+      estimate_g: 50
+      min_g: 20
+      max_g: 100
+      confidence: high
+    lca_data_missing: true
+  bt-4-5-2:
+    name: Corner Guards
+    weight:
+      estimate_g: 30
+      min_g: 10
+      max_g: 80
+      confidence: high
+    materials:
+      primary_material: foam
+    lca_data_missing: true
+  bt-4-5-5:
+    name: Outlet Covers
+    weight:
+      estimate_g: 20
+      min_g: 10
+      max_g: 50
+      confidence: high
+    lca_data_missing: true
+  bt-5:
+    name: Baby Toys & Activity Equipment
+    weight:
+      estimate_g: 3000
+      min_g: 200
+      max_g: 15000
+      confidence: low
+    lca_data_missing: true
+  bt-5-2-1:
+    name: Activity Centers
+    weight:
+      estimate_g: 6000
+      min_g: 3000
+      max_g: 12000
+      confidence: medium
+    lca_data_missing: true
+  bt-5-3:
+    name: Baby Bouncers & Rockers
+    weight:
+      estimate_g: 3000
+      min_g: 1500
+      max_g: 6000
+      confidence: medium
+    lca_data_missing: true
+  bt-5-3-2:
+    name: Baby Rockers
+    weight:
+      estimate_g: 30000
+      min_g: 15000
+      max_g: 50000
+      confidence: medium
+    lca_data_missing: true
+  bt-5-4:
+    name: Baby Jumpers & Swings
+    weight:
+      estimate_g: 5000
+      min_g: 2500
+      max_g: 10000
+      confidence: medium
+    lca_data_missing: true
+  bt-5-7-1:
+    name: Night Lights
+    weight:
+      estimate_g: 150
+      min_g: 50
+      max_g: 400
+      confidence: medium
+    lca_data_missing: true
+  bt-5-9-2:
+    name: Play Mats
+    weight:
+      estimate_g: 2000
+      min_g: 500
+      max_g: 5000
+      confidence: medium
+    lca_data_missing: true
+  bt-6:
+    name: Baby Transport
     weight:
       estimate_g: 8000
       min_g: 500
       max_g: 20000
       confidence: low
     lca_data_missing: true
-  bt-1-1:
-    name: Strollers
-    weight:
-      estimate_g: 10000
-      min_g: 5000
-      max_g: 18000
-      confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 6.0
-      carbon_kg_co2e_per_unit: 60.0
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: mixed
-      breakdown:
-      - material: aluminum_frame
-        percentage: 40
-      - material: fabric
-        percentage: 30
-      - material: plastic
-        percentage: 20
-      - material: rubber_wheels
-        percentage: 10
-    sources:
-    - Baby product industry sustainability data
-  bt-1-1-1:
-    name: Full-Size Strollers
-    weight:
-      estimate_g: 12000
-      min_g: 8000
-      max_g: 18000
-      confidence: medium
-    lca_data_missing: true
-  bt-1-1-2:
-    name: Lightweight Strollers
-    weight:
-      estimate_g: 6000
-      min_g: 4000
-      max_g: 8000
-      confidence: high
-    notes: Lighter materials often have higher per-kg footprint
-    lca_data_missing: true
-  bt-1-1-3:
-    name: Jogging Strollers
-    weight:
-      estimate_g: 13000
-      min_g: 9000
-      max_g: 18000
-      confidence: medium
-    lca_data_missing: true
-  bt-1-1-4:
-    name: Double Strollers
-    weight:
-      estimate_g: 15000
-      min_g: 10000
-      max_g: 22000
-      confidence: medium
-    lca_data_missing: true
-  bt-1-2:
-    name: Baby Carriers
-    weight:
-      estimate_g: 800
-      min_g: 400
-      max_g: 1500
-      confidence: medium
-    materials:
-      primary_material: fabric
-      breakdown:
-      - material: cotton
-        percentage: 50
-      - material: polyester
-        percentage: 30
-      - material: buckles_hardware
-        percentage: 15
-      - material: foam_padding
-        percentage: 5
-    lca_data_missing: true
-  bt-1-3:
-    name: Baby Wraps & Slings
-    weight:
-      estimate_g: 500
-      min_g: 300
-      max_g: 800
-      confidence: medium
-    materials:
-      primary_material: cotton
-    lca_data_missing: true
-  bt-1-4:
-    name: Stroller Accessories
-    weight:
-      estimate_g: 300
-      min_g: 50
-      max_g: 1000
-      confidence: low
-    lca_data_missing: true
-  bt-2:
-    name: Car Seats
+  bt-6-1:
+    name: Baby & Toddler Car Seats
     weight:
       estimate_g: 8000
       min_g: 3000
@@ -113,7 +419,23 @@ categories:
       confidence: medium
     notes: Safety requirements drive material choices
     lca_data_missing: true
-  bt-2-1:
+  bt-6-1-1:
+    name: Booster Seats
+    weight:
+      estimate_g: 4000
+      min_g: 2000
+      max_g: 8000
+      confidence: medium
+    lca_data_missing: true
+  bt-6-1-3:
+    name: Convertible Car Seats
+    weight:
+      estimate_g: 10000
+      min_g: 7000
+      max_g: 14000
+      confidence: medium
+    lca_data_missing: true
+  bt-6-1-4:
     name: Infant Car Seats
     weight:
       estimate_g: 4500
@@ -138,210 +460,115 @@ categories:
         percentage: 10
     sources:
     - Child safety seat LCA studies
-  bt-2-2:
-    name: Convertible Car Seats
+  bt-6-2:
+    name: Baby Carriers
+    weight:
+      estimate_g: 800
+      min_g: 400
+      max_g: 1500
+      confidence: medium
+    materials:
+      primary_material: fabric
+      breakdown:
+      - material: cotton
+        percentage: 50
+      - material: polyester
+        percentage: 30
+      - material: buckles_hardware
+        percentage: 15
+      - material: foam_padding
+        percentage: 5
+    lca_data_missing: true
+  bt-6-3:
+    name: Baby Strollers
     weight:
       estimate_g: 10000
-      min_g: 7000
-      max_g: 14000
+      min_g: 5000
+      max_g: 18000
       confidence: medium
-    lca_data_missing: true
-  bt-2-3:
-    name: Booster Seats
+    lca:
+      carbon_kg_co2e_per_kg: 6.0
+      carbon_kg_co2e_per_unit: 60.0
+      scope: cradle-to-gate
+      data_quality: secondary
+    materials:
+      primary_material: mixed
+      breakdown:
+      - material: aluminum_frame
+        percentage: 40
+      - material: fabric
+        percentage: 30
+      - material: plastic
+        percentage: 20
+      - material: rubber_wheels
+        percentage: 10
+    sources:
+    - Baby product industry sustainability data
+  bt-6-3-2:
+    name: Double Strollers
     weight:
-      estimate_g: 4000
-      min_g: 2000
-      max_g: 8000
+      estimate_g: 15000
+      min_g: 10000
+      max_g: 22000
       confidence: medium
     lca_data_missing: true
-  bt-2-4:
-    name: Car Seat Bases
+  bt-6-3-4:
+    name: Jogging Strollers
+    weight:
+      estimate_g: 13000
+      min_g: 9000
+      max_g: 18000
+      confidence: medium
+    lca_data_missing: true
+  bt-7-1:
+    name: Baby & Toddler Car Seat Accessories
     weight:
       estimate_g: 3500
       min_g: 2500
       max_g: 5000
       confidence: medium
     lca_data_missing: true
-  bt-3:
-    name: Nursery Furniture
-    weight:
-      estimate_g: 20000
-      min_g: 2000
-      max_g: 50000
-      confidence: low
-    lca_data_missing: true
-  bt-3-1:
-    name: Cribs
-    weight:
-      estimate_g: 25000
-      min_g: 15000
-      max_g: 40000
-      confidence: medium
-    materials:
-      primary_material: wood
-      breakdown:
-      - material: solid_wood
-        percentage: 60
-      - material: mdf
-        percentage: 25
-      - material: metal_hardware
-        percentage: 10
-      - material: finish
-        percentage: 5
-    lca_data_missing: true
-  bt-3-2:
-    name: Bassinets
-    weight:
-      estimate_g: 8000
-      min_g: 4000
-      max_g: 15000
-      confidence: medium
-    lca_data_missing: true
-  bt-3-3:
-    name: Crib Mattresses
-    weight:
-      estimate_g: 5000
-      min_g: 3000
-      max_g: 8000
-      confidence: medium
-    materials:
-      primary_material: foam
-      breakdown:
-      - material: foam
-        percentage: 70
-      - material: fabric_cover
-        percentage: 25
-      - material: other
-        percentage: 5
-    lca_data_missing: true
-  bt-3-4:
-    name: Changing Tables
-    weight:
-      estimate_g: 20000
-      min_g: 10000
-      max_g: 35000
-      confidence: medium
-    materials:
-      primary_material: wood
-    lca_data_missing: true
-  bt-3-5:
-    name: Gliders & Rockers
-    weight:
-      estimate_g: 30000
-      min_g: 15000
-      max_g: 50000
-      confidence: medium
-    lca_data_missing: true
-  bt-3-6:
-    name: Dressers & Wardrobes
-    weight:
-      estimate_g: 35000
-      min_g: 20000
-      max_g: 60000
-      confidence: medium
-    lca_data_missing: true
-  bt-4:
-    name: Feeding
-    weight:
-      estimate_g: 300
-      min_g: 20
-      max_g: 15000
-      confidence: low
-    lca_data_missing: true
-  bt-4-1:
-    name: Baby Bottles
-    weight:
-      estimate_g: 150
-      min_g: 80
-      max_g: 300
-      confidence: high
-    materials:
-      primary_material: plastic
-      breakdown:
-      - material: polypropylene
-        percentage: 70
-      - material: silicone_nipple
-        percentage: 20
-      - material: other
-        percentage: 10
-    notes: Glass bottles heavier but lower footprint per use
-    lca_data_missing: true
-  bt-4-2:
-    name: Breast Pumps
-    weight:
-      estimate_g: 1500
-      min_g: 500
-      max_g: 3000
-      confidence: medium
-    lca_data_missing: true
-  bt-4-3:
-    name: High Chairs
-    weight:
-      estimate_g: 8000
-      min_g: 3000
-      max_g: 15000
-      confidence: medium
-    materials:
-      primary_material: mixed
-      breakdown:
-      - material: plastic
-        percentage: 50
-      - material: metal_frame
-        percentage: 30
-      - material: fabric
-        percentage: 15
-      - material: foam
-        percentage: 5
-    lca_data_missing: true
-  bt-4-4:
-    name: Booster Seats (Dining)
-    weight:
-      estimate_g: 2000
-      min_g: 1000
-      max_g: 4000
-      confidence: medium
-    lca_data_missing: true
-  bt-4-5:
-    name: Baby Food Makers
-    weight:
-      estimate_g: 2000
-      min_g: 1000
-      max_g: 4000
-      confidence: medium
-    lca_data_missing: true
-  bt-4-6:
-    name: Bottle Warmers
+  bt-7-1-6:
+    name: Car Seat Travel Bags
     weight:
       estimate_g: 800
       min_g: 400
       max_g: 1500
       confidence: medium
     lca_data_missing: true
-  bt-4-7:
-    name: Bibs
+  bt-7-3:
+    name: Baby Stroller Accessories
     weight:
-      estimate_g: 50
-      min_g: 20
-      max_g: 150
-      confidence: high
+      estimate_g: 300
+      min_g: 50
+      max_g: 1000
+      confidence: low
     lca_data_missing: true
-  bt-4-8:
-    name: Baby Utensils
+  bt-7-3-7:
+    name: Stroller Travel Bags
+    weight:
+      estimate_g: 1000
+      min_g: 500
+      max_g: 2000
+      confidence: medium
+    lca_data_missing: true
+  bt-7-5:
+    name: Shopping Cart & High Chair Covers
+    weight:
+      estimate_g: 300
+      min_g: 150
+      max_g: 600
+      confidence: medium
+    lca_data_missing: true
+  bt-8:
+    name: Baby Transport Replacement Parts
     weight:
       estimate_g: 30
       min_g: 15
       max_g: 60
       confidence: high
     lca_data_missing: true
-  bt-4-9:
-    name: Sippy Cups
-    weight:
-      estimate_g: 100
-      min_g: 60
-      max_g: 200
-      confidence: high
-    lca_data_missing: true
-  bt-5:
+  bt-9:
     name: Diapering
     weight:
       estimate_g: 50
@@ -350,7 +577,17 @@ categories:
       confidence: low
     notes: Per diaper vs per pack varies greatly
     lca_data_missing: true
-  bt-5-1:
+  bt-9-12-1:
+    name: Cloth Diapers
+    weight:
+      estimate_g: 150
+      min_g: 80
+      max_g: 300
+      confidence: medium
+      methodology: Per diaper
+    notes: Higher upfront footprint but reusable; washing impacts vary
+    lca_data_missing: true
+  bt-9-12-2:
     name: Disposable Diapers
     weight:
       estimate_g: 40
@@ -380,41 +617,7 @@ categories:
     sources:
     - Diaper LCA comparison studies
     notes: Per-use footprint; cloth diapers have different profile
-  bt-5-2:
-    name: Cloth Diapers
-    weight:
-      estimate_g: 150
-      min_g: 80
-      max_g: 300
-      confidence: medium
-      methodology: Per diaper
-    notes: Higher upfront footprint but reusable; washing impacts vary
-    lca_data_missing: true
-  bt-5-3:
-    name: Diaper Bags
-    weight:
-      estimate_g: 800
-      min_g: 400
-      max_g: 1500
-      confidence: medium
-    lca_data_missing: true
-  bt-5-4:
-    name: Changing Pads
-    weight:
-      estimate_g: 500
-      min_g: 200
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-  bt-5-5:
-    name: Diaper Pails
-    weight:
-      estimate_g: 3000
-      min_g: 1500
-      max_g: 5000
-      confidence: medium
-    lca_data_missing: true
-  bt-5-6:
+  bt-9-2:
     name: Baby Wipes
     weight:
       estimate_g: 500
@@ -423,454 +626,68 @@ categories:
       confidence: medium
       methodology: Per pack (~80 wipes)
     lca_data_missing: true
-  bt-6:
-    name: Bathing
+  bt-9-4-3:
+    name: Diaper Changing Pads
     weight:
-      estimate_g: 1000
-      min_g: 100
-      max_g: 5000
-      confidence: low
-    lca_data_missing: true
-  bt-6-1:
-    name: Baby Bathtubs
-    weight:
-      estimate_g: 2000
-      min_g: 800
-      max_g: 4000
-      confidence: medium
-    materials:
-      primary_material: plastic
-    lca_data_missing: true
-  bt-6-2:
-    name: Bath Seats
-    weight:
-      estimate_g: 1000
-      min_g: 500
-      max_g: 2000
-      confidence: medium
-    lca_data_missing: true
-  bt-6-3:
-    name: Hooded Towels
-    weight:
-      estimate_g: 300
+      estimate_g: 500
       min_g: 200
-      max_g: 500
-      confidence: high
-    materials:
-      primary_material: cotton
-    lca_data_missing: true
-  bt-6-4:
-    name: Baby Washcloths
-    weight:
-      estimate_g: 30
-      min_g: 20
-      max_g: 50
-      confidence: high
-    lca_data_missing: true
-  bt-7:
-    name: Safety & Monitoring
-    weight:
-      estimate_g: 300
-      min_g: 50
-      max_g: 2000
-      confidence: low
-    lca_data_missing: true
-  bt-7-1:
-    name: Baby Monitors
-    weight:
-      estimate_g: 400
-      min_g: 150
-      max_g: 800
+      max_g: 1000
       confidence: medium
-    notes: Video monitors have higher footprint than audio-only
     lca_data_missing: true
-  bt-7-2:
-    name: Baby Gates
-    weight:
-      estimate_g: 4000
-      min_g: 2000
-      max_g: 8000
-      confidence: medium
-    materials:
-      primary_material: metal
-      breakdown:
-      - material: steel
-        percentage: 70
-      - material: plastic
-        percentage: 25
-      - material: other
-        percentage: 5
-    lca_data_missing: true
-  bt-7-3:
-    name: Outlet Covers
-    weight:
-      estimate_g: 20
-      min_g: 10
-      max_g: 50
-      confidence: high
-    lca_data_missing: true
-  bt-7-4:
-    name: Cabinet Locks
-    weight:
-      estimate_g: 50
-      min_g: 20
-      max_g: 100
-      confidence: high
-    lca_data_missing: true
-  bt-7-5:
-    name: Corner Guards
-    weight:
-      estimate_g: 30
-      min_g: 10
-      max_g: 80
-      confidence: high
-    materials:
-      primary_material: foam
-    lca_data_missing: true
-  bt-8:
-    name: Baby Gear
-    weight:
-      estimate_g: 3000
-      min_g: 200
-      max_g: 15000
-      confidence: low
-    lca_data_missing: true
-  bt-8-1:
-    name: Bouncers
+  bt-9-9:
+    name: Diaper Pails
     weight:
       estimate_g: 3000
       min_g: 1500
-      max_g: 6000
+      max_g: 5000
       confidence: medium
     lca_data_missing: true
-  bt-8-2:
-    name: Swings
+  fr-1:
+    name: Baby & Toddler Furniture
+    weight:
+      estimate_g: 20000
+      min_g: 2000
+      max_g: 50000
+      confidence: low
+    lca_data_missing: true
+  fr-1-3-2:
+    name: Bassinets
     weight:
       estimate_g: 8000
       min_g: 4000
       max_g: 15000
       confidence: medium
     lca_data_missing: true
-  bt-8-3:
-    name: Play Mats
+  fr-1-4:
+    name: Changing Tables
     weight:
-      estimate_g: 2000
-      min_g: 500
-      max_g: 5000
-      confidence: medium
-    lca_data_missing: true
-  bt-8-4:
-    name: Activity Centers
-    weight:
-      estimate_g: 6000
-      min_g: 3000
-      max_g: 12000
-      confidence: medium
-    lca_data_missing: true
-  bt-8-5:
-    name: Walkers
-    weight:
-      estimate_g: 4000
-      min_g: 2000
-      max_g: 7000
-      confidence: medium
-    lca_data_missing: true
-  bt-8-6:
-    name: Playpens
-    weight:
-      estimate_g: 10000
-      min_g: 5000
-      max_g: 18000
-      confidence: medium
-    lca_data_missing: true
-  bt-8-7:
-    name: Jumpers
-    weight:
-      estimate_g: 5000
-      min_g: 2500
-      max_g: 10000
-      confidence: medium
-    lca_data_missing: true
-  bt-8-8:
-    name: Exersaucers
-    weight:
-      estimate_g: 7000
-      min_g: 4000
-      max_g: 12000
-      confidence: medium
-    lca_data_missing: true
-  bt-9:
-    name: Sleep & Comfort
-    weight:
-      estimate_g: 500
-      min_g: 50
-      max_g: 3000
-      confidence: low
-    lca_data_missing: true
-  bt-9-1:
-    name: Pacifiers
-    weight:
-      estimate_g: 20
-      min_g: 10
-      max_g: 40
-      confidence: high
-    materials:
-      primary_material: silicone
-    lca_data_missing: true
-  bt-9-2:
-    name: Pacifier Clips
-    weight:
-      estimate_g: 30
-      min_g: 15
-      max_g: 60
-      confidence: high
-    lca_data_missing: true
-  bt-9-3:
-    name: Swaddles
-    weight:
-      estimate_g: 200
-      min_g: 100
-      max_g: 400
+      estimate_g: 20000
+      min_g: 10000
+      max_g: 35000
       confidence: medium
     materials:
-      primary_material: cotton
+      primary_material: wood
     lca_data_missing: true
-  bt-9-4:
-    name: Sleep Sacks
+  fr-1-6:
+    name: Cribs & Toddler Beds
     weight:
-      estimate_g: 300
-      min_g: 150
-      max_g: 500
+      estimate_g: 25000
+      min_g: 15000
+      max_g: 40000
       confidence: medium
+    materials:
+      primary_material: wood
+      breakdown:
+      - material: solid_wood
+        percentage: 60
+      - material: mdf
+        percentage: 25
+      - material: metal_hardware
+        percentage: 10
+      - material: finish
+        percentage: 5
     lca_data_missing: true
-  bt-9-5:
-    name: Crib Bedding Sets
-    weight:
-      estimate_g: 800
-      min_g: 400
-      max_g: 1500
-      confidence: medium
-    lca_data_missing: true
-  bt-9-6:
-    name: White Noise Machines
-    weight:
-      estimate_g: 300
-      min_g: 100
-      max_g: 600
-      confidence: medium
-    lca_data_missing: true
-  bt-9-7:
-    name: Night Lights (Baby)
-    weight:
-      estimate_g: 150
-      min_g: 50
-      max_g: 400
-      confidence: medium
-    lca_data_missing: true
-  bt-9-8:
-    name: Comfort Objects
-    weight:
-      estimate_g: 100
-      min_g: 30
-      max_g: 300
-      confidence: medium
-    notes: Loveys, security blankets
-    lca_data_missing: true
-  bt-10:
-    name: Nursing & Breastfeeding
-    weight:
-      estimate_g: 300
-      min_g: 20
-      max_g: 3000
-      confidence: low
-    lca_data_missing: true
-  bt-10-1:
-    name: Nursing Pillows
-    weight:
-      estimate_g: 1500
-      min_g: 800
-      max_g: 2500
-      confidence: medium
-    lca_data_missing: true
-  bt-10-2:
-    name: Nursing Covers
-    weight:
-      estimate_g: 200
-      min_g: 100
-      max_g: 400
-      confidence: medium
-    lca_data_missing: true
-  bt-10-3:
-    name: Breast Milk Storage Bags
-    weight:
-      estimate_g: 200
-      min_g: 100
-      max_g: 400
-      confidence: medium
-      methodology: Per box (~50 bags)
-    lca_data_missing: true
-  bt-10-4:
-    name: Nursing Pads
-    weight:
-      estimate_g: 150
-      min_g: 50
-      max_g: 300
-      confidence: medium
-      methodology: Per box
-    lca_data_missing: true
-  bt-10-5:
-    name: Bottle Sterilizers
-    weight:
-      estimate_g: 1500
-      min_g: 500
-      max_g: 3000
-      confidence: medium
-    lca_data_missing: true
-  bt-10-6:
-    name: Bottle Drying Racks
-    weight:
-      estimate_g: 400
-      min_g: 150
-      max_g: 800
-      confidence: medium
-    lca_data_missing: true
-  bt-10-7:
-    name: Formula Dispensers
-    weight:
-      estimate_g: 150
-      min_g: 50
-      max_g: 300
-      confidence: medium
-    lca_data_missing: true
-  bt-11:
-    name: Health & Grooming
-    weight:
-      estimate_g: 200
-      min_g: 20
-      max_g: 1000
-      confidence: low
-    lca_data_missing: true
-  bt-11-1:
-    name: Baby Thermometers
-    weight:
-      estimate_g: 80
-      min_g: 30
-      max_g: 200
-      confidence: medium
-    lca_data_missing: true
-  bt-11-2:
-    name: Nasal Aspirators
-    weight:
-      estimate_g: 50
-      min_g: 20
-      max_g: 150
-      confidence: medium
-    lca_data_missing: true
-  bt-11-3:
-    name: Baby Nail Clippers
-    weight:
-      estimate_g: 30
-      min_g: 15
-      max_g: 60
-      confidence: high
-    lca_data_missing: true
-  bt-11-4:
-    name: Baby Hairbrushes
-    weight:
-      estimate_g: 50
-      min_g: 20
-      max_g: 100
-      confidence: high
-    lca_data_missing: true
-  bt-11-5:
-    name: Baby Grooming Kits
-    weight:
-      estimate_g: 200
-      min_g: 100
-      max_g: 400
-      confidence: medium
-    lca_data_missing: true
-  bt-11-6:
-    name: Baby Toothbrushes
-    weight:
-      estimate_g: 20
-      min_g: 10
-      max_g: 40
-      confidence: high
-    lca_data_missing: true
-  bt-11-7:
-    name: Medicine Dispensers
-    weight:
-      estimate_g: 40
-      min_g: 15
-      max_g: 80
-      confidence: high
-    lca_data_missing: true
-  bt-12:
-    name: Nursery Decor
-    weight:
-      estimate_g: 500
-      min_g: 50
-      max_g: 5000
-      confidence: low
-    lca_data_missing: true
-  bt-12-1:
-    name: Wall Decals
-    weight:
-      estimate_g: 100
-      min_g: 30
-      max_g: 300
-      confidence: medium
-    lca_data_missing: true
-  bt-12-2:
-    name: Nursery Art
-    weight:
-      estimate_g: 400
-      min_g: 100
-      max_g: 1500
-      confidence: low
-    lca_data_missing: true
-  bt-12-3:
-    name: Growth Charts
-    weight:
-      estimate_g: 200
-      min_g: 50
-      max_g: 500
-      confidence: medium
-    lca_data_missing: true
-  bt-12-4:
-    name: Name Signs
-    weight:
-      estimate_g: 300
-      min_g: 100
-      max_g: 800
-      confidence: medium
-    lca_data_missing: true
-  bt-12-5:
-    name: Nursery Lamps
-    weight:
-      estimate_g: 1500
-      min_g: 500
-      max_g: 3500
-      confidence: medium
-    lca_data_missing: true
-  bt-12-6:
-    name: Nursery Rugs
-    weight:
-      estimate_g: 2000
-      min_g: 500
-      max_g: 6000
-      confidence: medium
-    lca_data_missing: true
-  bt-13:
-    name: Travel Accessories
-    weight:
-      estimate_g: 1500
-      min_g: 100
-      max_g: 10000
-      confidence: low
-    lca_data_missing: true
-  bt-13-1:
+  fr-1-6-12:
     name: Travel Cribs
     weight:
       estimate_g: 10000
@@ -878,213 +695,74 @@ categories:
       max_g: 18000
       confidence: medium
     lca_data_missing: true
-  bt-13-2:
-    name: Travel High Chairs
+  fr-1-8:
+    name: High Chairs & Booster Seats
     weight:
       estimate_g: 2000
-      min_g: 800
+      min_g: 1000
       max_g: 4000
       confidence: medium
     lca_data_missing: true
-  bt-13-3:
-    name: Car Seat Travel Bags
+  fr-1-8-4:
+    name: High Chairs
     weight:
-      estimate_g: 800
-      min_g: 400
-      max_g: 1500
+      estimate_g: 8000
+      min_g: 3000
+      max_g: 15000
       confidence: medium
-    lca_data_missing: true
-  bt-13-4:
-    name: Stroller Travel Bags
-    weight:
-      estimate_g: 1000
-      min_g: 500
-      max_g: 2000
-      confidence: medium
-    lca_data_missing: true
-  bt-13-5:
-    name: Portable Changing Pads
-    weight:
-      estimate_g: 200
-      min_g: 100
-      max_g: 400
-      confidence: medium
-    lca_data_missing: true
-  bt-13-6:
-    name: Baby Backpacks (Carriers)
-    weight:
-      estimate_g: 2500
-      min_g: 1500
-      max_g: 4000
-      confidence: medium
-    lca_data_missing: true
-  bt-14:
-    name: Baby Clothing Accessories
-    weight:
-      estimate_g: 50
-      min_g: 10
-      max_g: 200
-      confidence: medium
-    lca_data_missing: true
-  bt-14-1:
-    name: Baby Socks
-    weight:
-      estimate_g: 20
-      min_g: 10
-      max_g: 40
-      confidence: high
-      methodology: Per pair
-    lca_data_missing: true
-  bt-14-2:
-    name: Baby Hats
-    weight:
-      estimate_g: 30
-      min_g: 15
-      max_g: 80
-      confidence: high
-    lca_data_missing: true
-  bt-14-3:
-    name: Baby Mittens
-    weight:
-      estimate_g: 20
-      min_g: 10
-      max_g: 40
-      confidence: high
-      methodology: Per pair
-    lca_data_missing: true
-  bt-14-4:
-    name: Baby Booties
-    weight:
-      estimate_g: 40
-      min_g: 20
-      max_g: 80
-      confidence: high
-      methodology: Per pair
-    lca_data_missing: true
-  bt-14-5:
-    name: Baby Headbands
-    weight:
-      estimate_g: 15
-      min_g: 5
-      max_g: 40
-      confidence: high
-    lca_data_missing: true
-  bt-15:
-    name: Teething
-    weight:
-      estimate_g: 50
-      min_g: 20
-      max_g: 200
-      confidence: medium
-    lca_data_missing: true
-  bt-15-1:
-    name: Teething Rings
-    weight:
-      estimate_g: 60
-      min_g: 30
-      max_g: 150
-      confidence: high
     materials:
-      primary_material: silicone
+      primary_material: mixed
+      breakdown:
+      - material: plastic
+        percentage: 50
+      - material: metal_frame
+        percentage: 30
+      - material: fabric
+        percentage: 15
+      - material: foam
+        percentage: 5
     lca_data_missing: true
-  bt-15-2:
-    name: Teething Necklaces
+  fr-15-1-9:
+    name: Swings
     weight:
-      estimate_g: 40
-      min_g: 20
-      max_g: 80
-      confidence: high
-    notes: Amber or silicone beads
-    lca_data_missing: true
-  bt-15-3:
-    name: Teething Mitts
-    weight:
-      estimate_g: 50
-      min_g: 25
-      max_g: 100
-      confidence: high
-    lca_data_missing: true
-  bt-15-4:
-    name: Teething Gel Packs
-    weight:
-      estimate_g: 100
-      min_g: 50
-      max_g: 200
+      estimate_g: 8000
+      min_g: 4000
+      max_g: 15000
       confidence: medium
     lca_data_missing: true
-  bt-4-10:
-    name: Bowl Sets
+  fr-4-5:
+    name: Dressers
     weight:
-      estimate_g: 200
-      min_g: 80
-      max_g: 400
+      estimate_g: 35000
+      min_g: 20000
+      max_g: 60000
       confidence: medium
     lca_data_missing: true
-  bt-4-11:
-    name: Plate Sets
+  hb-1-17-5-3:
+    name: Walkers
     weight:
-      estimate_g: 150
-      min_g: 60
-      max_g: 300
+      estimate_g: 4000
+      min_g: 2000
+      max_g: 7000
       confidence: medium
     lca_data_missing: true
-  bt-4-12:
-    name: Snack Cups
-    weight:
-      estimate_g: 100
-      min_g: 50
-      max_g: 200
-      confidence: medium
-    lca_data_missing: true
-  bt-4-13:
-    name: Straw Cups
-    weight:
-      estimate_g: 120
-      min_g: 70
-      max_g: 200
-      confidence: medium
-    lca_data_missing: true
-  bt-4-14:
-    name: Bottle Brushes
-    weight:
-      estimate_g: 60
-      min_g: 30
-      max_g: 120
-      confidence: high
-    lca_data_missing: true
-  bt-4-15:
-    name: Highchair Covers
+  hb-3-15-4:
+    name: White Noise Machines
     weight:
       estimate_g: 300
-      min_g: 150
+      min_g: 100
       max_g: 600
       confidence: medium
     lca_data_missing: true
-  bt-4-16:
-    name: Silicone Placemats
+  hg-3-37:
+    name: Growth Charts
     weight:
-      estimate_g: 150
-      min_g: 80
-      max_g: 300
+      estimate_g: 200
+      min_g: 50
+      max_g: 500
       confidence: medium
     lca_data_missing: true
-  bt-7-6:
-    name: Door Knob Covers
-    weight:
-      estimate_g: 30
-      min_g: 15
-      max_g: 60
-      confidence: high
-    lca_data_missing: true
-  bt-7-7:
-    name: Stove Guards
-    weight:
-      estimate_g: 500
-      min_g: 200
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-  bt-7-8:
+  hg-4-5:
     name: Furniture Anchors
     weight:
       estimate_g: 100
@@ -1092,19 +770,11 @@ categories:
       max_g: 200
       confidence: medium
     lca_data_missing: true
-  bt-7-9:
-    name: Window Guards
+  lb-4:
+    name: Diaper Bags
     weight:
-      estimate_g: 1500
-      min_g: 500
-      max_g: 3000
-      confidence: medium
-    lca_data_missing: true
-  bt-7-10:
-    name: Pool Safety Fences
-    weight:
-      estimate_g: 5000
-      min_g: 2000
-      max_g: 10000
+      estimate_g: 800
+      min_g: 400
+      max_g: 1500
       confidence: medium
     lca_data_missing: true
