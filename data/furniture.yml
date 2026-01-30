@@ -1,384 +1,650 @@
 schema_version: 0.1.0
-last_updated: '2026-01-29'
+last_updated: '2026-01-30'
 categories:
-  ap-2-9-6:
-    name: Hammocks
-    weight:
-      estimate_g: 3000
-      min_g: 1000
-      max_g: 8000
-      confidence: medium
-    notes: With stand - fabric only ~1kg
+  fr:
     lca_data_missing: true
-  el-13-3-4:
-    name: Printer Stands
+    name: Furniture
     weight:
+      confidence: low
       estimate_g: 15000
-      min_g: 5000
-      max_g: 30000
-      confidence: medium
-    lca_data_missing: true
+      max_g: 200000
+      methodology: Vertical-level default estimate
+      min_g: 500
   fr-1:
+    lca_data_missing: true
     name: Baby & Toddler Furniture
     weight:
-      estimate_g: 15000
-      min_g: 3000
+      confidence: low
+      estimate_g: 20000
       max_g: 50000
-      confidence: low
-    notes: Scaled down versions - lighter than adult furniture
-    lca_data_missing: true
-  fr-10-3:
-    name: Kitchen & Dining Furniture Sets
-    weight:
-      estimate_g: 60000
-      min_g: 30000
-      max_g: 120000
-      confidence: medium
-    notes: Table + 4-6 chairs
-    lca_data_missing: true
-  fr-11:
-    name: Futons
-    weight:
-      estimate_g: 30000
-      min_g: 20000
-      max_g: 45000
-      confidence: medium
-    lca_data_missing: true
-  fr-12:
-    name: Office Furniture
-    weight:
-      estimate_g: 25000
       min_g: 2000
-      max_g: 80000
+  fr-1-1:
+    lca_data_missing: true
+    name: Baby & Toddler Furniture Sets
+    weight:
       confidence: low
-    lca_data_missing: true
-  fr-12-1:
-    name: Desks
-    weight:
-      estimate_g: 30000
-      min_g: 10000
-      max_g: 60000
-      confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 2.5
-      carbon_kg_co2e_per_unit: 75.0
-      scope: cradle-to-gate
-      data_quality: secondary
-    sources:
-    - Office furniture EPDs
-  fr-12-2:
-    name: Office Chairs
-    weight:
-      estimate_g: 12000
-      min_g: 8000
-      max_g: 25000
-      confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 5.0
-      carbon_kg_co2e_per_unit: 60.0
-      scope: cradle-to-gate
-      production:
-        raw_materials_kg_co2e: 40.0
-        manufacturing_kg_co2e: 15.0
-        packaging_kg_co2e: 5.0
-      data_quality: secondary
-    materials:
-      primary_material: mixed
-      breakdown:
-      - material: steel_frame
-        percentage: 40
-      - material: plastic
-        percentage: 25
-      - material: foam
-        percentage: 20
-      - material: fabric
-        percentage: 15
-    sources:
-    - Steelcase Environmental Product Declarations
-    - Herman Miller Sustainability Reports
-  fr-12-4-2:
-    name: Conference Room Tables
-    weight:
-      estimate_g: 80000
-      min_g: 40000
-      max_g: 150000
-      confidence: low
-    lca_data_missing: true
-  fr-14:
-    name: Ottomans
-    weight:
-      estimate_g: 8000
-      min_g: 3000
-      max_g: 20000
-      confidence: medium
-    materials:
-      primary_material: mixed
-      breakdown:
-      - material: wood_frame
-        percentage: 30
-      - material: foam
-        percentage: 40
-      - material: fabric
-        percentage: 30
-    lca_data_missing: true
-  fr-15:
-    name: Outdoor Furniture
-    weight:
-      estimate_g: 12000
-      min_g: 2000
+      estimate_g: 20000
       max_g: 50000
-      confidence: low
-    notes: Often metal or plastic for weather resistance
-    lca_data_missing: true
-  fr-15-1-1:
-    name: Bunk Beds
-    weight:
-      estimate_g: 50000
-      min_g: 30000
-      max_g: 80000
-      confidence: medium
-    notes: Frame only - mattresses separate
-    lca_data_missing: true
-  fr-15-1-3:
-    name: Canopy Beds
-    weight:
-      estimate_g: 50000
-      min_g: 30000
-      max_g: 80000
-      confidence: medium
-    lca_data_missing: true
-  fr-15-2:
-    name: Outdoor Furniture Sets
-    weight:
-      estimate_g: 50000
-      min_g: 25000
-      max_g: 100000
-      confidence: medium
-    notes: Table + chairs
-    lca_data_missing: true
-  fr-15-3-14:
-    name: Storage Ottomans
-    weight:
-      estimate_g: 10000
-      min_g: 5000
-      max_g: 20000
-      confidence: medium
-    lca_data_missing: true
-  fr-15-3-8:
-    name: Poufs
-    weight:
-      estimate_g: 3000
-      min_g: 1000
-      max_g: 6000
-      confidence: medium
-    lca_data_missing: true
-  fr-15-4:
-    name: Outdoor Seating
-    weight:
-      estimate_g: 8000
-      min_g: 4000
-      max_g: 18000
-      confidence: medium
-    lca_data_missing: true
-  fr-15-4-1:
-    name: Outdoor Benches
-    weight:
-      estimate_g: 15000
-      min_g: 8000
-      max_g: 35000
-      confidence: medium
-    lca_data_missing: true
-  fr-15-4-2:
-    name: Outdoor Chairs
-    weight:
-      estimate_g: 5000
+      methodology: Inherited from parent category (fr-1)
       min_g: 2000
+  fr-1-2:
+    lca_data_missing: true
+    name: Bassinet & Cradle Accessories
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-1)
+      min_g: 2000
+  fr-1-3:
+    lca_data_missing: true
+    name: Bassinets & Cradles
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-1)
+      min_g: 2000
+  fr-1-3-1:
+    lca_data_missing: true
+    name: Bassinet Playards
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-1)
+      min_g: 2000
+  fr-1-3-2:
+    lca_data_missing: true
+    name: Bassinets
+    weight:
+      confidence: medium
+      estimate_g: 8000
       max_g: 15000
-      confidence: medium
-    materials:
-      primary_material: mixed
-      breakdown:
-      - material: aluminum
-        percentage: 50
-      - material: synthetic_fabric
-        percentage: 30
-      - material: plastic
-        percentage: 20
+      min_g: 4000
+  fr-1-3-3:
     lca_data_missing: true
-  fr-15-4-4:
-    name: Outdoor Sofas
+    name: Bedside Bassinets
     weight:
-      estimate_g: 30000
-      min_g: 15000
-      max_g: 60000
-      confidence: medium
-    lca_data_missing: true
-  fr-15-4-4-1:
-    name: Loveseat Sofas
-    weight:
-      estimate_g: 35000
-      min_g: 20000
-      max_g: 50000
-      confidence: medium
-    lca_data_missing: true
-  fr-15-4-4-2:
-    name: Sectional Sofas
-    weight:
-      estimate_g: 70000
-      min_g: 40000
-      max_g: 120000
-      confidence: medium
-    notes: Per complete sectional unit
-    lca_data_missing: true
-  fr-15-5:
-    name: Outdoor Storage Boxes
-    weight:
-      estimate_g: 15000
-      min_g: 8000
-      max_g: 30000
-      confidence: medium
-    lca_data_missing: true
-  fr-15-6:
-    name: Outdoor Tables
-    weight:
-      estimate_g: 20000
-      min_g: 8000
-      max_g: 50000
-      confidence: medium
-    lca_data_missing: true
-  fr-15-6-3:
-    name: Coffee Tables
-    weight:
-      estimate_g: 15000
-      min_g: 5000
-      max_g: 35000
-      confidence: medium
-    materials:
-      primary_material: wood
-      breakdown:
-      - material: wood
-        percentage: 80
-      - material: glass
-        percentage: 15
-      - material: metal
-        percentage: 5
-    lca_data_missing: true
-  fr-15-6-4:
-    name: Console Tables
-    weight:
-      estimate_g: 20000
-      min_g: 10000
-      max_g: 40000
-      confidence: medium
-    lca_data_missing: true
-  fr-15-6-5:
-    name: Dining Tables
-    weight:
-      estimate_g: 40000
-      min_g: 20000
-      max_g: 80000
-      confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 1.8
-      carbon_kg_co2e_per_unit: 72.0
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: wood
-    sources:
-    - Wood furniture LCA studies
-  fr-18:
-    name: Room Dividers
-    weight:
-      estimate_g: 10000
-      min_g: 3000
-      max_g: 25000
       confidence: low
-    lca_data_missing: true
-  fr-19:
-    name: Shelving
-    weight:
-      estimate_g: 8000
+      estimate_g: 20000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-1)
       min_g: 2000
-      max_g: 30000
-      confidence: low
+  fr-1-3-5:
     lca_data_missing: true
-  fr-19-1:
-    name: Bookcases & Standing Shelves
+    name: Convertible Bassinets
     weight:
-      estimate_g: 25000
-      min_g: 10000
-      max_g: 60000
-      confidence: medium
+      confidence: low
+      estimate_g: 20000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-1)
+      min_g: 2000
+  fr-1-3-6:
+    lca_data_missing: true
+    name: Cradles
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-1)
+      min_g: 2000
+  fr-1-3-7:
+    lca_data_missing: true
+    name: Folding Bassinets
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-1)
+      min_g: 2000
+  fr-1-3-8:
+    lca_data_missing: true
+    name: Hanging Bassinets
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-1)
+      min_g: 2000
+  fr-1-3-10:
+    lca_data_missing: true
+    name: Rocking Bassinets
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-1)
+      min_g: 2000
+  fr-1-3-11:
+    lca_data_missing: true
+    name: Travel Bassinets
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-1)
+      min_g: 2000
+  fr-1-4:
+    lca_data_missing: true
     materials:
       primary_material: wood
-      breakdown:
-      - material: particleboard
-        percentage: 60
-      - material: solid_wood
-        percentage: 30
-      - material: other
-        percentage: 10
+    name: Changing Tables
+    weight:
+      confidence: medium
+      estimate_g: 20000
+      max_g: 35000
+      min_g: 10000
+  fr-1-5:
     lca_data_missing: true
+    name: Crib & Toddler Bed Accessories
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-1)
+      min_g: 2000
+  fr-1-5-1:
+    lca_data_missing: true
+    name: Crib Bumpers & Liners
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-1)
+      min_g: 2000
+  fr-1-5-1-1:
+    lca_data_missing: true
+    name: Crib Liners
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-1)
+      min_g: 2000
+  fr-1-5-1-2:
+    lca_data_missing: true
+    name: Crib Rail Covers
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-1)
+      min_g: 2000
+  fr-1-5-1-3:
+    lca_data_missing: true
+    name: Crib Skirts
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-1)
+      min_g: 2000
+  fr-1-5-1-4:
+    lca_data_missing: true
+    name: Mesh Crib Bumpers
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-1)
+      min_g: 2000
+  fr-1-5-1-5:
+    lca_data_missing: true
+    name: Padded Crib Bumpers
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-1)
+      min_g: 2000
+  fr-1-5-1-6:
+    lca_data_missing: true
+    name: Teething Rail Covers
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-1)
+      min_g: 2000
+  fr-1-5-2:
+    lca_data_missing: true
+    name: Crib Conversion Kits
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-1)
+      min_g: 2000
+  fr-1-6:
+    lca_data_missing: true
+    materials:
+      breakdown:
+      - material: solid_wood
+        percentage: 60
+      - material: mdf
+        percentage: 25
+      - material: metal_hardware
+        percentage: 10
+      - material: finish
+        percentage: 5
+      primary_material: wood
+    name: Cribs & Toddler Beds
+    weight:
+      confidence: medium
+      estimate_g: 25000
+      max_g: 40000
+      min_g: 15000
+  fr-1-6-4:
+    lca_data_missing: true
+    name: Bunk Toddler Beds
+    weight:
+      confidence: low
+      estimate_g: 25000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-1-6)
+      min_g: 15000
+  fr-1-6-5:
+    lca_data_missing: true
+    name: Canopy Toddler Beds
+    weight:
+      confidence: low
+      estimate_g: 25000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-1-6)
+      min_g: 15000
+  fr-1-6-6:
+    lca_data_missing: true
+    name: Loft Toddler Beds
+    weight:
+      confidence: low
+      estimate_g: 25000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-1-6)
+      min_g: 15000
+  fr-1-6-7:
+    lca_data_missing: true
+    name: Mini Cribs
+    weight:
+      confidence: low
+      estimate_g: 25000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-1-6)
+      min_g: 15000
+  fr-1-6-9:
+    lca_data_missing: true
+    name: Sleigh Toddler Beds
+    weight:
+      confidence: low
+      estimate_g: 25000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-1-6)
+      min_g: 15000
+  fr-1-6-10:
+    lca_data_missing: true
+    name: Standard Cribs
+    weight:
+      confidence: low
+      estimate_g: 25000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-1-6)
+      min_g: 15000
+  fr-1-6-11:
+    lca_data_missing: true
+    name: Toddler Beds
+    weight:
+      confidence: low
+      estimate_g: 25000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-1-6)
+      min_g: 15000
+  fr-1-6-12:
+    lca_data_missing: true
+    name: Travel Cribs
+    weight:
+      confidence: medium
+      estimate_g: 10000
+      max_g: 18000
+      min_g: 5000
+  fr-1-7:
+    lca_data_missing: true
+    name: High Chair & Booster Seat Accessories
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-1)
+      min_g: 2000
+  fr-1-8:
+    lca_data_missing: true
+    name: High Chairs & Booster Seats
+    weight:
+      confidence: medium
+      estimate_g: 2000
+      max_g: 4000
+      min_g: 1000
+  fr-1-8-2:
+    lca_data_missing: true
+    name: Booster Feeding Seats
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 4000
+      methodology: Inherited from parent category (fr-1-8)
+      min_g: 1000
+  fr-1-8-3:
+    lca_data_missing: true
+    name: Convertible High Chairs
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 4000
+      methodology: Inherited from parent category (fr-1-8)
+      min_g: 1000
+  fr-1-8-4:
+    lca_data_missing: true
+    materials:
+      breakdown:
+      - material: plastic
+        percentage: 50
+      - material: metal_frame
+        percentage: 30
+      - material: fabric
+        percentage: 15
+      - material: foam
+        percentage: 5
+      primary_material: mixed
+    name: High Chairs
+    weight:
+      confidence: medium
+      estimate_g: 8000
+      max_g: 15000
+      min_g: 3000
+  fr-1-8-5:
+    lca_data_missing: true
+    name: Hook-On Seats
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 4000
+      methodology: Inherited from parent category (fr-1-8)
+      min_g: 1000
+  fr-1-9:
+    lca_data_missing: true
+    name: Play Sofas
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-1)
+      min_g: 2000
   fr-2:
+    lca_data_missing: true
     name: Beds & Accessories
     weight:
-      estimate_g: 3000
-      min_g: 1000
-      max_g: 6000
       confidence: medium
+      estimate_g: 3000
+      max_g: 6000
+      min_g: 1000
+  fr-2-1:
     lca_data_missing: true
-  fr-2-2:
-    name: Beds & Bed Frames
+    name: Bed & Bed Frame Accessories
     weight:
-      estimate_g: 40000
-      min_g: 15000
-      max_g: 100000
       confidence: low
-    notes: Frame only - mattress separate
+      estimate_g: 3000
+      max_g: 6000
+      methodology: Inherited from parent category (fr-2)
+      min_g: 1000
+  fr-2-2:
     lca_data_missing: true
+    name: Beds & Bed Frames
+    notes: Frame only - mattress separate
+    weight:
+      confidence: low
+      estimate_g: 40000
+      max_g: 100000
+      min_g: 15000
+  fr-2-2-1:
+    lca_data_missing: true
+    name: Air Beds
+    weight:
+      confidence: low
+      estimate_g: 40000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-2-2)
+      min_g: 15000
+  fr-2-2-2:
+    lca_data_missing: true
+    name: Bunk Beds & Bed Frames
+    weight:
+      confidence: low
+      estimate_g: 40000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-2-2)
+      min_g: 15000
+  fr-2-2-3:
+    lca_data_missing: true
+    name: Cabin Beds & Bed Frames
+    weight:
+      confidence: low
+      estimate_g: 40000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-2-2)
+      min_g: 15000
+  fr-2-2-4:
+    lca_data_missing: true
+    name: Canopy Beds & Bed Frames
+    weight:
+      confidence: low
+      estimate_g: 40000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-2-2)
+      min_g: 15000
+  fr-2-2-5:
+    lca_data_missing: true
+    name: Cot Beds & Bed Frames
+    weight:
+      confidence: low
+      estimate_g: 40000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-2-2)
+      min_g: 15000
+  fr-2-2-6:
+    lca_data_missing: true
+    name: Divan Beds & Bed Frames
+    weight:
+      confidence: low
+      estimate_g: 40000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-2-2)
+      min_g: 15000
+  fr-2-2-7:
+    lca_data_missing: true
+    name: Four Posters
+    weight:
+      confidence: low
+      estimate_g: 40000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-2-2)
+      min_g: 15000
+  fr-2-2-8:
+    lca_data_missing: true
+    name: Loft Beds & Bed Frames
+    weight:
+      confidence: low
+      estimate_g: 40000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-2-2)
+      min_g: 15000
+  fr-2-2-9:
+    lca_data_missing: true
+    name: Mid-Century Beds & Bed Frames
+    weight:
+      confidence: low
+      estimate_g: 40000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-2-2)
+      min_g: 15000
+  fr-2-2-10:
+    lca_data_missing: true
+    name: Panel Beds & Bed Frames
+    weight:
+      confidence: low
+      estimate_g: 40000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-2-2)
+      min_g: 15000
   fr-2-2-11:
+    lca_data_missing: true
     name: Platform Beds & Bed Frames
     weight:
-      estimate_g: 40000
-      min_g: 25000
-      max_g: 70000
       confidence: medium
+      estimate_g: 40000
+      max_g: 70000
+      min_g: 25000
+  fr-2-2-12:
     lca_data_missing: true
+    name: Slat Beds & Bed Frames
+    weight:
+      confidence: low
+      estimate_g: 40000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-2-2)
+      min_g: 15000
+  fr-2-2-13:
+    lca_data_missing: true
+    name: Sleigh Beds & Bed Frames
+    weight:
+      confidence: low
+      estimate_g: 40000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-2-2)
+      min_g: 15000
   fr-2-2-14:
+    lca_data_missing: true
     name: Trundle Beds & Bed Frames
     weight:
-      estimate_g: 35000
-      min_g: 20000
-      max_g: 55000
       confidence: medium
+      estimate_g: 35000
+      max_g: 55000
+      min_g: 20000
+  fr-2-2-15:
     lca_data_missing: true
+    name: Wall Beds & Bed Frames
+    weight:
+      confidence: low
+      estimate_g: 40000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-2-2)
+      min_g: 15000
+  fr-2-2-16:
+    lca_data_missing: true
+    name: Water Beds
+    weight:
+      confidence: low
+      estimate_g: 40000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-2-2)
+      min_g: 15000
+  fr-2-3:
+    lca_data_missing: true
+    name: Footboards
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 6000
+      methodology: Inherited from parent category (fr-2)
+      min_g: 1000
   fr-2-4:
+    lca_data_missing: true
     name: Headboards
     weight:
+      confidence: medium
       estimate_g: 20000
-      min_g: 8000
       max_g: 40000
-      confidence: medium
+      min_g: 8000
+  fr-2-5:
     lca_data_missing: true
-  fr-2-6:
-    name: Mattresses
+    name: Mattress Foundations
     weight:
-      estimate_g: 30000
-      min_g: 15000
-      max_g: 50000
-      confidence: medium
-      methodology: Queen size mattress
+      confidence: low
+      estimate_g: 3000
+      max_g: 6000
+      methodology: Inherited from parent category (fr-2)
+      min_g: 1000
+  fr-2-5-1:
+    lca_data_missing: true
+    name: Adjustable Bases
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 6000
+      methodology: Inherited from parent category (fr-2)
+      min_g: 1000
+  fr-2-5-2:
+    lca_data_missing: true
+    name: Box Springs
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 6000
+      methodology: Inherited from parent category (fr-2)
+      min_g: 1000
+  fr-2-5-3:
+    lca_data_missing: true
+    name: Bunkie Boards
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 6000
+      methodology: Inherited from parent category (fr-2)
+      min_g: 1000
+  fr-2-5-4:
+    lca_data_missing: true
+    name: Foldable Metal Foundations
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 6000
+      methodology: Inherited from parent category (fr-2)
+      min_g: 1000
+  fr-2-5-5:
+    lca_data_missing: true
+    name: Foundations & Frames-in-One
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 6000
+      methodology: Inherited from parent category (fr-2)
+      min_g: 1000
+  fr-2-5-7:
+    lca_data_missing: true
+    name: Panel Bases
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 6000
+      methodology: Inherited from parent category (fr-2)
+      min_g: 1000
+  fr-2-5-8:
+    lca_data_missing: true
+    name: Platform Bases
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 6000
+      methodology: Inherited from parent category (fr-2)
+      min_g: 1000
+  fr-2-6:
     lca:
       carbon_kg_co2e_per_kg: 4.5
       carbon_kg_co2e_per_unit: 135.0
-      scope: cradle-to-gate
-      end_of_life:
-        recyclability_pct: 30
-        kg_co2e_per_kg: 0.5
       data_quality: secondary
+      end_of_life:
+        kg_co2e_per_kg: 0.5
+        recyclability_pct: 30
+      scope: cradle-to-gate
     materials:
-      primary_material: mixed
       breakdown:
       - material: foam
         percentage: 50
@@ -388,141 +654,366 @@ categories:
         percentage: 15
       - material: other
         percentage: 10
+      primary_material: mixed
+    name: Mattresses
     sources:
     - Mattress industry sustainability reports
-  fr-22:
-    name: Sofas
     weight:
-      estimate_g: 45000
-      min_g: 25000
-      max_g: 80000
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 3.5
-      carbon_kg_co2e_per_unit: 157.5
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: mixed
-      breakdown:
-      - material: wood_frame
-        percentage: 30
-      - material: foam
-        percentage: 30
-      - material: fabric
-        percentage: 25
-      - material: springs_metal
-        percentage: 15
-    sources:
-    - FIRA Furniture Environmental Data
-  fr-22-7:
-    name: Sofa Beds
-    weight:
-      estimate_g: 50000
-      min_g: 35000
-      max_g: 75000
-      confidence: medium
-    notes: Same as sleeper sofas
+      estimate_g: 30000
+      max_g: 50000
+      methodology: Queen size mattress
+      min_g: 15000
+  fr-2-6-1:
     lca_data_missing: true
-  fr-24:
-    name: Tables
+    name: Gel Foam Mattresses
     weight:
-      estimate_g: 20000
-      min_g: 2000
-      max_g: 100000
       confidence: low
+      estimate_g: 30000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-2-6)
+      min_g: 15000
+  fr-2-6-2:
     lca_data_missing: true
-  fr-24-1:
-    name: Accent Tables
+    name: High Resilience Foam Mattresses
     weight:
-      estimate_g: 10000
-      min_g: 1000
-      max_g: 30000
       confidence: low
+      estimate_g: 30000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-2-6)
+      min_g: 15000
+  fr-2-6-3:
     lca_data_missing: true
-  fr-24-1-2:
-    name: End Tables
+    name: Innerspring Mattresses
     weight:
-      estimate_g: 8000
-      min_g: 3000
-      max_g: 15000
-      confidence: medium
+      confidence: low
+      estimate_g: 30000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-2-6)
+      min_g: 15000
+  fr-2-6-4:
     lca_data_missing: true
-  fr-24-1-3:
-    name: Sofa Tables
+    name: Latex Mattresses
     weight:
-      estimate_g: 15000
-      min_g: 8000
-      max_g: 30000
-      confidence: medium
+      confidence: low
+      estimate_g: 30000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-2-6)
+      min_g: 15000
+  fr-2-6-5:
     lca_data_missing: true
-  fr-24-6:
-    name: Nightstands
+    name: Memory Foam Mattresses
     weight:
-      estimate_g: 12000
-      min_g: 5000
-      max_g: 25000
-      confidence: medium
+      confidence: low
+      estimate_g: 30000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-2-6)
+      min_g: 15000
+  fr-2-6-6:
     lca_data_missing: true
+    name: Rolled Mattresses
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-2-6)
+      min_g: 15000
+  fr-2-6-7:
+    lca_data_missing: true
+    name: Water Mattresses
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-2-6)
+      min_g: 15000
   fr-3:
+    lca_data_missing: true
+    materials:
+      primary_material: wood
     name: Benches
     weight:
-      estimate_g: 15000
-      min_g: 5000
-      max_g: 40000
       confidence: low
-    materials:
-      primary_material: wood
-    lca_data_missing: true
-  fr-3-2-12:
-    name: Shoe Storage Benches
-    weight:
       estimate_g: 15000
-      min_g: 8000
-      max_g: 25000
-      confidence: medium
+      max_g: 40000
+      min_g: 5000
+  fr-3-1:
     lca_data_missing: true
+    name: Kitchen & Dining Benches
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-3)
+      min_g: 5000
+  fr-3-1-1:
+    lca_data_missing: true
+    name: Backed Benches
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-3)
+      min_g: 5000
+  fr-3-1-2:
+    lca_data_missing: true
+    name: Backless Benches
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-3)
+      min_g: 5000
+  fr-3-1-3:
+    lca_data_missing: true
+    name: Banquettes
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-3)
+      min_g: 5000
+  fr-3-1-4:
+    lca_data_missing: true
+    name: Booths
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-3)
+      min_g: 5000
+  fr-3-1-5:
+    lca_data_missing: true
+    name: Corner Benches
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-3)
+      min_g: 5000
+  fr-3-1-6:
+    lca_data_missing: true
+    name: Counter Height Benches
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-3)
+      min_g: 5000
+  fr-3-1-7:
+    lca_data_missing: true
+    name: Dining Benches
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-3)
+      min_g: 5000
+  fr-3-1-8:
+    lca_data_missing: true
+    name: Farmhouse Benches
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-3)
+      min_g: 5000
+  fr-3-1-9:
+    lca_data_missing: true
+    name: Kitchen Nook Benches
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-3)
+      min_g: 5000
+  fr-3-1-10:
+    lca_data_missing: true
+    name: L-Shaped Benches
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-3)
+      min_g: 5000
+  fr-3-1-11:
+    lca_data_missing: true
+    name: Saddle Benches
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-3)
+      min_g: 5000
+  fr-3-1-13:
+    lca_data_missing: true
+    name: Storage Benches
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-3)
+      min_g: 5000
+  fr-3-1-14:
+    lca_data_missing: true
+    name: Trestles
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-3)
+      min_g: 5000
+  fr-3-1-15:
+    lca_data_missing: true
+    name: Upholstered Benches
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-3)
+      min_g: 5000
+  fr-3-2:
+    lca_data_missing: true
+    name: Storage & Entryway Benches
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-3)
+      min_g: 5000
+  fr-3-2-1:
+    lca_data_missing: true
+    name: Basket Benches
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-3)
+      min_g: 5000
   fr-3-2-2:
+    lca_data_missing: true
     name: Coat Racks
     weight:
-      estimate_g: 5000
-      min_g: 2000
-      max_g: 12000
       confidence: medium
+      estimate_g: 5000
+      max_g: 12000
+      min_g: 2000
+  fr-3-2-3:
     lca_data_missing: true
+    name: Cubby Benches
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-3)
+      min_g: 5000
+  fr-3-2-4:
+    lca_data_missing: true
+    name: Drawer Storage Benches
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-3)
+      min_g: 5000
   fr-3-2-5:
+    lca_data_missing: true
     name: Entryway Benches
     weight:
-      estimate_g: 15000
-      min_g: 2000
-      max_g: 40000
       confidence: low
-    lca_data_missing: true
+      estimate_g: 15000
+      max_g: 40000
+      min_g: 2000
   fr-3-2-6:
+    lca_data_missing: true
     name: Hall Trees
     weight:
-      estimate_g: 20000
-      min_g: 10000
-      max_g: 40000
       confidence: medium
+      estimate_g: 20000
+      max_g: 40000
+      min_g: 10000
+  fr-3-2-7:
     lca_data_missing: true
+    name: Hook Benches
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-3)
+      min_g: 5000
+  fr-3-2-8:
+    lca_data_missing: true
+    name: Lidded Storage Benches
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-3)
+      min_g: 5000
+  fr-3-2-9:
+    lca_data_missing: true
+    name: Lift-Top Storage Benches
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-3)
+      min_g: 5000
+  fr-3-2-10:
+    lca_data_missing: true
+    name: Locker Benches
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-3)
+      min_g: 5000
+  fr-3-2-12:
+    lca_data_missing: true
+    name: Shoe Storage Benches
+    weight:
+      confidence: medium
+      estimate_g: 15000
+      max_g: 25000
+      min_g: 8000
+  fr-3-2-13:
+    lca_data_missing: true
+    name: Upholstered Storage Benches
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-3)
+      min_g: 5000
+  fr-3-2-14:
+    lca_data_missing: true
+    name: Window Seats
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-3)
+      min_g: 5000
+  fr-3-3:
+    lca_data_missing: true
+    name: Vanity Benches
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 40000
+      methodology: Inherited from parent category (fr-3)
+      min_g: 5000
   fr-4:
+    lca_data_missing: true
     name: Cabinets & Storage
     weight:
-      estimate_g: 30000
-      min_g: 5000
-      max_g: 100000
       confidence: low
-    lca_data_missing: true
+      estimate_g: 30000
+      max_g: 100000
+      min_g: 5000
   fr-4-1:
-    name: Armoires & Wardrobes
-    weight:
-      estimate_g: 60000
-      min_g: 35000
-      max_g: 120000
-      confidence: medium
+    lca_data_missing: true
     materials:
-      primary_material: wood
       breakdown:
       - material: particleboard
         percentage: 70
@@ -530,48 +1021,204 @@ categories:
         percentage: 20
       - material: hardware
         percentage: 10
-    lca_data_missing: true
-  fr-4-13-2:
-    name: Toy Chests
+      primary_material: wood
+    name: Armoires & Wardrobes
     weight:
-      estimate_g: 15000
-      min_g: 8000
-      max_g: 30000
       confidence: medium
+      estimate_g: 60000
+      max_g: 120000
+      min_g: 35000
+  fr-4-1-1:
     lca_data_missing: true
-  fr-4-14-1:
-    name: Bathroom Vanities
+    name: Computer Armoires
     weight:
-      estimate_g: 20000
-      min_g: 3000
-      max_g: 60000
       confidence: low
+      estimate_g: 60000
+      max_g: 120000
+      methodology: Inherited from parent category (fr-4-1)
+      min_g: 35000
+  fr-4-1-2:
     lca_data_missing: true
-  fr-4-14-1-1:
-    name: Bathroom Cabinets
+    name: Corner Armoires
     weight:
-      estimate_g: 15000
-      min_g: 5000
-      max_g: 35000
-      confidence: medium
+      confidence: low
+      estimate_g: 60000
+      max_g: 120000
+      methodology: Inherited from parent category (fr-4-1)
+      min_g: 35000
+  fr-4-1-3:
     lca_data_missing: true
+    name: Corner Wardrobes
+    weight:
+      confidence: low
+      estimate_g: 60000
+      max_g: 120000
+      methodology: Inherited from parent category (fr-4-1)
+      min_g: 35000
+  fr-4-1-4:
+    lca_data_missing: true
+    name: Double Wardrobes
+    weight:
+      confidence: low
+      estimate_g: 60000
+      max_g: 120000
+      methodology: Inherited from parent category (fr-4-1)
+      min_g: 35000
+  fr-4-1-5:
+    lca_data_missing: true
+    name: Hanging Rail Wardrobes
+    weight:
+      confidence: low
+      estimate_g: 60000
+      max_g: 120000
+      methodology: Inherited from parent category (fr-4-1)
+      min_g: 35000
+  fr-4-1-6:
+    lca_data_missing: true
+    name: Hinged Door Wardrobes
+    weight:
+      confidence: low
+      estimate_g: 60000
+      max_g: 120000
+      methodology: Inherited from parent category (fr-4-1)
+      min_g: 35000
+  fr-4-1-7:
+    lca_data_missing: true
+    name: Jewelry Armoires
+    weight:
+      confidence: low
+      estimate_g: 60000
+      max_g: 120000
+      methodology: Inherited from parent category (fr-4-1)
+      min_g: 35000
+  fr-4-1-8:
+    lca_data_missing: true
+    name: Kids' Armoires
+    weight:
+      confidence: low
+      estimate_g: 60000
+      max_g: 120000
+      methodology: Inherited from parent category (fr-4-1)
+      min_g: 35000
+  fr-4-1-9:
+    lca_data_missing: true
+    name: Kids' Wardrobes
+    weight:
+      confidence: low
+      estimate_g: 60000
+      max_g: 120000
+      methodology: Inherited from parent category (fr-4-1)
+      min_g: 35000
+  fr-4-1-10:
+    lca_data_missing: true
+    name: Mirrored Armoires
+    weight:
+      confidence: low
+      estimate_g: 60000
+      max_g: 120000
+      methodology: Inherited from parent category (fr-4-1)
+      min_g: 35000
+  fr-4-1-11:
+    lca_data_missing: true
+    name: Mirrored Wardrobes
+    weight:
+      confidence: low
+      estimate_g: 60000
+      max_g: 120000
+      methodology: Inherited from parent category (fr-4-1)
+      min_g: 35000
+  fr-4-1-12:
+    lca_data_missing: true
+    name: Office Armoires
+    weight:
+      confidence: low
+      estimate_g: 60000
+      max_g: 120000
+      methodology: Inherited from parent category (fr-4-1)
+      min_g: 35000
+  fr-4-1-13:
+    lca_data_missing: true
+    name: Portable Wardrobes
+    weight:
+      confidence: low
+      estimate_g: 60000
+      max_g: 120000
+      methodology: Inherited from parent category (fr-4-1)
+      min_g: 35000
+  fr-4-1-14:
+    lca_data_missing: true
+    name: Shelved Armoires
+    weight:
+      confidence: low
+      estimate_g: 60000
+      max_g: 120000
+      methodology: Inherited from parent category (fr-4-1)
+      min_g: 35000
+  fr-4-1-15:
+    lca_data_missing: true
+    name: Sliding Door Wardrobes
+    weight:
+      confidence: low
+      estimate_g: 60000
+      max_g: 120000
+      methodology: Inherited from parent category (fr-4-1)
+      min_g: 35000
+  fr-4-1-16:
+    lca_data_missing: true
+    name: Triple Wardrobes
+    weight:
+      confidence: low
+      estimate_g: 60000
+      max_g: 120000
+      methodology: Inherited from parent category (fr-4-1)
+      min_g: 35000
+  fr-4-1-17:
+    lca_data_missing: true
+    name: TV Armoires
+    weight:
+      confidence: low
+      estimate_g: 60000
+      max_g: 120000
+      methodology: Inherited from parent category (fr-4-1)
+      min_g: 35000
   fr-4-2:
+    lca_data_missing: true
     name: Buffets
     weight:
+      confidence: medium
       estimate_g: 50000
-      min_g: 25000
       max_g: 90000
-      confidence: medium
+      min_g: 25000
+  fr-4-3:
     lca_data_missing: true
-  fr-4-3-3:
-    name: China Cabinets
+    name: China Cabinets & Hutches
     weight:
-      estimate_g: 55000
-      min_g: 30000
+      confidence: low
+      estimate_g: 30000
       max_g: 100000
-      confidence: medium
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-3-1:
+    lca_data_missing: true
+    name: Buffets with Hutch
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-3-2:
+    lca_data_missing: true
+    name: Cabinet Hutches
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-3-3:
+    lca_data_missing: true
     materials:
-      primary_material: wood
       breakdown:
       - material: wood
         percentage: 70
@@ -579,47 +1226,706 @@ categories:
         percentage: 25
       - material: hardware
         percentage: 5
+      primary_material: wood
+    name: China Cabinets
+    weight:
+      confidence: medium
+      estimate_g: 55000
+      max_g: 100000
+      min_g: 30000
+  fr-4-3-4:
     lca_data_missing: true
+    name: Corner Display Cabinets
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-3-5:
+    lca_data_missing: true
+    name: Corner Hutches
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
   fr-4-3-6:
+    lca_data_missing: true
     name: Credenza Hutches
     weight:
-      estimate_g: 40000
-      min_g: 20000
-      max_g: 70000
       confidence: medium
+      estimate_g: 40000
+      max_g: 70000
+      min_g: 20000
+  fr-4-3-7:
     lca_data_missing: true
+    name: Dining Room Hutches
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-3-8:
+    lca_data_missing: true
+    name: Display Hutches
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-3-9:
+    lca_data_missing: true
+    name: Kitchen Hutches
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-3-10:
+    lca_data_missing: true
+    name: Secretary Desks with Hutch
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-3-11:
+    lca_data_missing: true
+    name: Server Hutches
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-3-12:
+    lca_data_missing: true
+    name: Sideboards with Hutch
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-3-13:
+    lca_data_missing: true
+    name: Tall Display Cabinets
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-3-14:
+    lca_data_missing: true
+    name: Wall-Mounted Hutches
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-4:
+    lca_data_missing: true
+    name: Closets
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-4-7:
+    lca_data_missing: true
+    name: Kids' Closets
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-4-8:
+    lca_data_missing: true
+    name: Reach-In Closets
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-4-9:
+    lca_data_missing: true
+    name: Walk-In Closets
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
   fr-4-5:
+    lca_data_missing: true
     name: Dressers
     weight:
-      estimate_g: 45000
-      min_g: 25000
-      max_g: 80000
       confidence: medium
-    materials:
-      primary_material: wood
+      estimate_g: 35000
+      max_g: 60000
+      min_g: 20000
+  fr-4-6:
     lca_data_missing: true
+    name: File Cabinets
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-7:
+    lca_data_missing: true
+    name: Ironing Centers
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-8:
+    lca_data_missing: true
+    name: Kitchen Cabinets
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-8-1:
+    lca_data_missing: true
+    name: Base Kitchen Cabinets
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-8-2:
+    lca_data_missing: true
+    name: Corner Kitchen Cabinets
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-8-3:
+    lca_data_missing: true
+    name: Double Doors
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-8-4:
+    lca_data_missing: true
+    name: Drawer Base Kitchen Cabinets
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-8-5:
+    lca_data_missing: true
+    name: Farmhouse Kitchen Cabinets
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-8-6:
+    lca_data_missing: true
+    name: Glass-Front Kitchen Cabinets
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-8-7:
+    lca_data_missing: true
+    name: Hutch-Style Kitchen Cabinets
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-8-8:
+    lca_data_missing: true
+    name: Microwave Cabinets
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-8-9:
+    lca_data_missing: true
+    name: Open Shelves
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-8-10:
+    lca_data_missing: true
+    name: Oven Cabinets
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-8-11:
+    lca_data_missing: true
+    name: Pantries
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-8-12:
+    lca_data_missing: true
+    name: Pull-Out Trash Cans
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-8-13:
+    lca_data_missing: true
+    name: Single Door Kitchen Cabinets
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-8-14:
+    lca_data_missing: true
+    name: Sink Base Cabinets
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-8-15:
+    lca_data_missing: true
+    name: Tall Kitchen Cabinets
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-8-16:
+    lca_data_missing: true
+    name: Wall Kitchen Cabinets
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
   fr-4-9:
+    lca_data_missing: true
     name: Magazine Racks
     weight:
+      confidence: medium
       estimate_g: 2000
-      min_g: 500
       max_g: 5000
-      confidence: medium
+      min_g: 500
+  fr-4-10:
     lca_data_missing: true
-  fr-7:
-    name: Chairs
+    name: Media Storage Cabinets & Racks
     weight:
-      estimate_g: 5000
-      min_g: 3000
-      max_g: 10000
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-11:
+    lca_data_missing: true
+    name: Sideboards
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-12:
+    lca_data_missing: true
+    name: Storage Cabinets & Lockers
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-13:
+    lca_data_missing: true
+    name: Storage Chests
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-13-1:
+    lca_data_missing: true
+    name: Hope Chests
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-13-2:
+    lca_data_missing: true
+    name: Toy Chests
+    weight:
       confidence: medium
+      estimate_g: 15000
+      max_g: 30000
+      min_g: 8000
+  fr-4-14:
+    lca_data_missing: true
+    name: Vanities
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-14-1:
+    lca_data_missing: true
+    name: Bathroom Vanities
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 60000
+      min_g: 3000
+  fr-4-14-1-1:
+    lca_data_missing: true
+    name: Bathroom Cabinets
+    weight:
+      confidence: medium
+      estimate_g: 15000
+      max_g: 35000
+      min_g: 5000
+  fr-4-14-1-2:
+    lca_data_missing: true
+    name: Bathroom Vanity Sets
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 60000
+      methodology: Inherited from parent category (fr-4-14-1)
+      min_g: 3000
+  fr-4-14-1-3:
+    lca_data_missing: true
+    name: Corner Vanities
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 60000
+      methodology: Inherited from parent category (fr-4-14-1)
+      min_g: 3000
+  fr-4-14-1-4:
+    lca_data_missing: true
+    name: Double Sinks
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 60000
+      methodology: Inherited from parent category (fr-4-14-1)
+      min_g: 3000
+  fr-4-14-1-5:
+    lca_data_missing: true
+    name: Floating Vanities
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 60000
+      methodology: Inherited from parent category (fr-4-14-1)
+      min_g: 3000
+  fr-4-14-1-6:
+    lca_data_missing: true
+    name: Free-Standing Vanities
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 60000
+      methodology: Inherited from parent category (fr-4-14-1)
+      min_g: 3000
+  fr-4-14-1-7:
+    lca_data_missing: true
+    name: Pedestal Vanities
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 60000
+      methodology: Inherited from parent category (fr-4-14-1)
+      min_g: 3000
+  fr-4-14-1-8:
+    lca_data_missing: true
+    name: Single Sink Vanities
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 60000
+      methodology: Inherited from parent category (fr-4-14-1)
+      min_g: 3000
+  fr-4-14-1-9:
+    lca_data_missing: true
+    name: Topless Vanities
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 60000
+      methodology: Inherited from parent category (fr-4-14-1)
+      min_g: 3000
+  fr-4-14-1-10:
+    lca_data_missing: true
+    name: Topped Vanities
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 60000
+      methodology: Inherited from parent category (fr-4-14-1)
+      min_g: 3000
+  fr-4-14-1-11:
+    lca_data_missing: true
+    name: Vanity Bases
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 60000
+      methodology: Inherited from parent category (fr-4-14-1)
+      min_g: 3000
+  fr-4-14-2:
+    lca_data_missing: true
+    name: Bedroom Vanities
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-14-2-1:
+    lca_data_missing: true
+    name: Bedroom Vanity Sets
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-14-2-3:
+    lca_data_missing: true
+    name: Desk Vanities
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-14-2-4:
+    lca_data_missing: true
+    name: Dressing Tables
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-14-2-5:
+    lca_data_missing: true
+    name: Lighted Vanities
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-14-2-6:
+    lca_data_missing: true
+    name: Makeup Vanities
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-14-2-7:
+    lca_data_missing: true
+    name: Mirrored Vanities
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-14-2-8:
+    lca_data_missing: true
+    name: Table Vanities
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-15:
+    lca_data_missing: true
+    name: Wine & Liquor Cabinets
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-16:
+    lca_data_missing: true
+    name: Wine Racks
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 8000
+      min_g: 500
+  fr-4-17:
+    lca_data_missing: true
+    name: Closet Parts & Accessories
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-17-1:
+    lca_data_missing: true
+    name: Closet Baskets
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-17-2:
+    lca_data_missing: true
+    name: Closet Bins
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-17-3:
+    lca_data_missing: true
+    name: Closet Doors
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-17-4:
+    lca_data_missing: true
+    name: Closet Drawers
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-17-5:
+    lca_data_missing: true
+    name: Closet Rods
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-4-17-6:
+    lca_data_missing: true
+    name: Closet Shelves
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-4)
+      min_g: 5000
+  fr-5:
+    lca_data_missing: true
+    name: Carts & Islands
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 200000
+      methodology: Vertical-level default estimate
+      min_g: 500
+  fr-5-1:
+    lca_data_missing: true
+    name: Carts
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 200000
+      methodology: Vertical-level default estimate
+      min_g: 500
+  fr-5-2:
+    lca_data_missing: true
+    name: Islands
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 200000
+      methodology: Vertical-level default estimate
+      min_g: 500
+  fr-6:
+    lca_data_missing: true
+    name: Chair Accessories
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 200000
+      methodology: Vertical-level default estimate
+      min_g: 500
+  fr-6-1:
+    lca_data_missing: true
+    name: Hanging Chair Replacement Parts
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 200000
+      methodology: Vertical-level default estimate
+      min_g: 500
+  fr-7:
     lca:
       carbon_kg_co2e_per_kg: 2.5
       carbon_kg_co2e_per_unit: 12.5
-      scope: cradle-to-gate
       data_quality: secondary
+      scope: cradle-to-gate
     materials:
-      primary_material: wood
       breakdown:
       - material: wood
         percentage: 70
@@ -627,17 +1933,36 @@ categories:
         percentage: 20
       - material: foam
         percentage: 10
+      primary_material: wood
+    name: Chairs
     sources:
     - FIRA Furniture Industry Research
-  fr-7-1-2:
-    name: Recliners
     weight:
-      estimate_g: 35000
-      min_g: 25000
-      max_g: 50000
       confidence: medium
+      estimate_g: 5000
+      max_g: 10000
+      min_g: 3000
+  fr-7-1:
+    lca_data_missing: true
+    name: Armchairs, Recliners & Sleeper Chairs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 10000
+      methodology: Inherited from parent category (fr-7)
+      min_g: 3000
+  fr-7-1-1:
+    lca_data_missing: true
+    name: Armchairs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 10000
+      methodology: Inherited from parent category (fr-7)
+      min_g: 3000
+  fr-7-1-2:
+    lca_data_missing: true
     materials:
-      primary_material: mixed
       breakdown:
       - material: steel_mechanism
         percentage: 30
@@ -647,24 +1972,211 @@ categories:
         percentage: 25
       - material: leather_fabric
         percentage: 20
+      primary_material: mixed
+    name: Recliners
+    weight:
+      confidence: medium
+      estimate_g: 35000
+      max_g: 50000
+      min_g: 25000
+  fr-7-1-3:
     lca_data_missing: true
+    name: Sleeper Chairs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 10000
+      methodology: Inherited from parent category (fr-7)
+      min_g: 3000
+  fr-7-2:
+    lca_data_missing: true
+    name: Bean Bag Chairs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 10000
+      methodology: Inherited from parent category (fr-7)
+      min_g: 3000
+  fr-7-3:
+    lca_data_missing: true
+    name: Chaises
+    weight:
+      confidence: medium
+      estimate_g: 30000
+      max_g: 50000
+      min_g: 18000
+  fr-7-3-1:
+    lca_data_missing: true
+    name: Armless Chaises
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-7-3)
+      min_g: 18000
+  fr-7-3-2:
+    lca_data_missing: true
+    name: Chaise Longues
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-7-3)
+      min_g: 18000
+  fr-7-3-3:
+    lca_data_missing: true
+    name: Double Chaises Longues
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-7-3)
+      min_g: 18000
+  fr-7-3-5:
+    lca_data_missing: true
+    name: Reclining Chaises Longues
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-7-3)
+      min_g: 18000
+  fr-7-4:
+    lca_data_missing: true
+    name: Electric Massaging Chairs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 10000
+      methodology: Inherited from parent category (fr-7)
+      min_g: 3000
+  fr-7-5:
+    lca_data_missing: true
+    name: Floor Chairs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 10000
+      methodology: Inherited from parent category (fr-7)
+      min_g: 3000
+  fr-7-6:
+    lca_data_missing: true
+    name: Folding Chairs & Stools
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 10000
+      methodology: Inherited from parent category (fr-7)
+      min_g: 3000
+  fr-7-6-1:
+    lca_data_missing: true
+    name: Folding Chairs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 10000
+      methodology: Inherited from parent category (fr-7)
+      min_g: 3000
+  fr-7-6-2:
+    lca_data_missing: true
+    name: Folding Stools
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 10000
+      methodology: Inherited from parent category (fr-7)
+      min_g: 3000
+  fr-7-7:
+    lca_data_missing: true
+    name: Gaming Chairs
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 40000
+      min_g: 3000
+  fr-7-8:
+    lca_data_missing: true
+    name: Hanging Chairs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 10000
+      methodology: Inherited from parent category (fr-7)
+      min_g: 3000
+  fr-7-9:
+    lca_data_missing: true
+    name: Kitchen & Dining Room Chairs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 10000
+      methodology: Inherited from parent category (fr-7)
+      min_g: 3000
+  fr-7-10:
+    lca_data_missing: true
+    name: Rocking Chairs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 10000
+      methodology: Inherited from parent category (fr-7)
+      min_g: 3000
+  fr-7-10-1:
+    lca_data_missing: true
+    name: Classic Rocking Chairs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 10000
+      methodology: Inherited from parent category (fr-7)
+      min_g: 3000
+  fr-7-10-4:
+    lca_data_missing: true
+    name: Kids' Rocking Chairs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 10000
+      methodology: Inherited from parent category (fr-7)
+      min_g: 3000
+  fr-7-10-5:
+    lca_data_missing: true
+    name: Nursery Rocking Chairs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 10000
+      methodology: Inherited from parent category (fr-7)
+      min_g: 3000
+  fr-7-11:
+    lca_data_missing: true
+    name: Slipper Chairs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 10000
+      methodology: Inherited from parent category (fr-7)
+      min_g: 3000
   fr-7-12:
+    lca_data_missing: true
     name: Table & Bar Stools
     weight:
+      confidence: medium
       estimate_g: 4000
-      min_g: 2000
       max_g: 10000
-      confidence: medium
+      min_g: 2000
+  fr-7-12-1:
     lca_data_missing: true
-  fr-7-12-2:
-    name: Bar Stools
+    name: Adjustable Bar Stools
     weight:
-      estimate_g: 6000
-      min_g: 3000
-      max_g: 12000
-      confidence: medium
+      confidence: low
+      estimate_g: 4000
+      max_g: 10000
+      methodology: Inherited from parent category (fr-7-12)
+      min_g: 2000
+  fr-7-12-2:
+    lca_data_missing: true
     materials:
-      primary_material: metal
       breakdown:
       - material: steel
         percentage: 50
@@ -672,68 +2184,1139 @@ categories:
         percentage: 30
       - material: upholstery
         percentage: 20
-    lca_data_missing: true
-  fr-7-3:
-    name: Chaises
+      primary_material: metal
+    name: Bar Stools
     weight:
-      estimate_g: 30000
-      min_g: 18000
-      max_g: 50000
       confidence: medium
-    lca_data_missing: true
-  fr-7-7:
-    name: Gaming Chairs
-    weight:
-      estimate_g: 15000
+      estimate_g: 6000
+      max_g: 12000
       min_g: 3000
-      max_g: 40000
-      confidence: low
-    lca_data_missing: true
   fr-8:
+    lca_data_missing: true
     name: Daybeds
     weight:
-      estimate_g: 25000
-      min_g: 15000
-      max_g: 40000
       confidence: medium
-    lca_data_missing: true
+      estimate_g: 25000
+      max_g: 40000
+      min_g: 15000
   fr-9:
+    lca_data_missing: true
     name: Entertainment Centers & TV Stands
     weight:
+      confidence: medium
       estimate_g: 25000
-      min_g: 10000
       max_g: 50000
-      confidence: medium
+      min_g: 10000
+  fr-10:
     lca_data_missing: true
-  hg-1-9:
-    name: Medicine Cabinets
+    name: Furniture Sets
     weight:
-      estimate_g: 8000
-      min_g: 3000
-      max_g: 18000
-      confidence: medium
-    lca_data_missing: true
-  hg-10-16-9-2-2:
-    name: Umbrella Stands
-    weight:
-      estimate_g: 2000
+      confidence: low
+      estimate_g: 15000
+      max_g: 200000
+      methodology: Vertical-level default estimate
       min_g: 500
-      max_g: 5000
-      confidence: medium
+  fr-10-1:
     lca_data_missing: true
-  hg-12-1-14:
-    name: Plant Stands
+    name: Bathroom Furniture Sets
     weight:
-      estimate_g: 3000
+      confidence: low
+      estimate_g: 15000
+      max_g: 200000
+      methodology: Vertical-level default estimate
       min_g: 500
-      max_g: 10000
-      confidence: medium
+  fr-10-2:
     lca_data_missing: true
-  hg-12-2-10:
-    name: Porch Swings
+    name: Bedroom Furniture Sets
     weight:
-      estimate_g: 25000
-      min_g: 15000
+      confidence: low
+      estimate_g: 15000
+      max_g: 200000
+      methodology: Vertical-level default estimate
+      min_g: 500
+  fr-10-3:
+    lca_data_missing: true
+    name: Kitchen & Dining Furniture Sets
+    notes: Table + 4-6 chairs
+    weight:
+      confidence: medium
+      estimate_g: 60000
+      max_g: 120000
+      min_g: 30000
+  fr-10-4:
+    lca_data_missing: true
+    name: Living Room Furniture Sets
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 200000
+      methodology: Vertical-level default estimate
+      min_g: 500
+  fr-11:
+    lca_data_missing: true
+    name: Futons
+    weight:
+      confidence: medium
+      estimate_g: 30000
       max_g: 45000
-      confidence: medium
+      min_g: 20000
+  fr-11-1:
     lca_data_missing: true
+    name: Futon Frames
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 45000
+      methodology: Inherited from parent category (fr-11)
+      min_g: 20000
+  fr-11-2:
+    lca_data_missing: true
+    name: Futon Pads
+    weight:
+      confidence: low
+      estimate_g: 30000
+      max_g: 45000
+      methodology: Inherited from parent category (fr-11)
+      min_g: 20000
+  fr-12:
+    lca_data_missing: true
+    name: Office Furniture
+    weight:
+      confidence: low
+      estimate_g: 25000
+      max_g: 80000
+      min_g: 2000
+  fr-12-1:
+    lca:
+      carbon_kg_co2e_per_kg: 2.5
+      carbon_kg_co2e_per_unit: 75.0
+      data_quality: secondary
+      scope: cradle-to-gate
+    name: Desks
+    sources:
+    - Office furniture EPDs
+    weight:
+      confidence: medium
+      estimate_g: 30000
+      max_g: 60000
+      min_g: 10000
+  fr-12-2:
+    lca:
+      carbon_kg_co2e_per_kg: 5.0
+      carbon_kg_co2e_per_unit: 60.0
+      data_quality: secondary
+      production:
+        manufacturing_kg_co2e: 15.0
+        packaging_kg_co2e: 5.0
+        raw_materials_kg_co2e: 40.0
+      scope: cradle-to-gate
+    materials:
+      breakdown:
+      - material: steel_frame
+        percentage: 40
+      - material: plastic
+        percentage: 25
+      - material: foam
+        percentage: 20
+      - material: fabric
+        percentage: 15
+      primary_material: mixed
+    name: Office Chairs
+    sources:
+    - Steelcase Environmental Product Declarations
+    - Herman Miller Sustainability Reports
+    weight:
+      confidence: medium
+      estimate_g: 12000
+      max_g: 25000
+      min_g: 8000
+  fr-12-3:
+    lca_data_missing: true
+    name: Office Furniture Sets
+    weight:
+      confidence: low
+      estimate_g: 25000
+      max_g: 80000
+      methodology: Inherited from parent category (fr-12)
+      min_g: 2000
+  fr-12-4:
+    lca_data_missing: true
+    name: Workspace Tables
+    weight:
+      confidence: low
+      estimate_g: 25000
+      max_g: 80000
+      methodology: Inherited from parent category (fr-12)
+      min_g: 2000
+  fr-12-4-1:
+    lca_data_missing: true
+    name: Art & Drafting Tables
+    weight:
+      confidence: low
+      estimate_g: 25000
+      max_g: 80000
+      methodology: Inherited from parent category (fr-12)
+      min_g: 2000
+  fr-12-4-2:
+    lca_data_missing: true
+    name: Conference Room Tables
+    weight:
+      confidence: low
+      estimate_g: 80000
+      max_g: 150000
+      min_g: 40000
+  fr-12-5:
+    lca_data_missing: true
+    name: Workstations & Cubicles
+    weight:
+      confidence: low
+      estimate_g: 25000
+      max_g: 80000
+      methodology: Inherited from parent category (fr-12)
+      min_g: 2000
+  fr-13:
+    lca_data_missing: true
+    name: Office Furniture Accessories
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 200000
+      methodology: Vertical-level default estimate
+      min_g: 500
+  fr-13-1:
+    lca_data_missing: true
+    name: Desk Parts & Accessories
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 200000
+      methodology: Vertical-level default estimate
+      min_g: 500
+  fr-13-2:
+    lca_data_missing: true
+    name: Office Chair Accessories
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 200000
+      methodology: Vertical-level default estimate
+      min_g: 500
+  fr-13-3:
+    lca_data_missing: true
+    name: Workstation & Cubicle Accessories
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 200000
+      methodology: Vertical-level default estimate
+      min_g: 500
+  fr-14:
+    lca_data_missing: true
+    materials:
+      breakdown:
+      - material: wood_frame
+        percentage: 30
+      - material: foam
+        percentage: 40
+      - material: fabric
+        percentage: 30
+      primary_material: mixed
+    name: Ottomans
+    weight:
+      confidence: medium
+      estimate_g: 8000
+      max_g: 20000
+      min_g: 3000
+  fr-15:
+    lca_data_missing: true
+    name: Outdoor Furniture
+    notes: See Furniture vertical for more detail
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      min_g: 2000
+  fr-15-1:
+    lca_data_missing: true
+    name: Outdoor Beds
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (fr-15)
+      min_g: 2000
+  fr-15-1-1:
+    lca_data_missing: true
+    name: Bunk Beds
+    notes: Frame only - mattresses separate
+    weight:
+      confidence: medium
+      estimate_g: 50000
+      max_g: 80000
+      min_g: 30000
+  fr-15-1-2:
+    lca_data_missing: true
+    name: Cabana Beds
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (fr-15)
+      min_g: 2000
+  fr-15-1-3:
+    lca_data_missing: true
+    name: Canopy Beds
+    weight:
+      confidence: medium
+      estimate_g: 50000
+      max_g: 80000
+      min_g: 30000
+  fr-15-1-4:
+    lca_data_missing: true
+    name: Daybeds
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (fr-15)
+      min_g: 2000
+  fr-15-1-5:
+    lca_data_missing: true
+    name: Futons
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (fr-15)
+      min_g: 2000
+  fr-15-1-7:
+    lca_data_missing: true
+    name: Poolside Beds
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (fr-15)
+      min_g: 2000
+  fr-15-1-8:
+    lca_data_missing: true
+    name: Sunbeds
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (fr-15)
+      min_g: 2000
+  fr-15-1-9:
+    lca_data_missing: true
+    name: Swings
+    weight:
+      confidence: medium
+      estimate_g: 8000
+      max_g: 15000
+      min_g: 4000
+  fr-15-2:
+    lca_data_missing: true
+    name: Outdoor Furniture Sets
+    notes: Table + chairs
+    weight:
+      confidence: medium
+      estimate_g: 50000
+      max_g: 100000
+      min_g: 25000
+  fr-15-3:
+    lca_data_missing: true
+    name: Outdoor Ottomans
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (fr-15)
+      min_g: 2000
+  fr-15-3-1:
+    lca_data_missing: true
+    name: Cocktail Ottomans
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (fr-15)
+      min_g: 2000
+  fr-15-3-2:
+    lca_data_missing: true
+    name: Foldable Ottomans
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (fr-15)
+      min_g: 2000
+  fr-15-3-3:
+    lca_data_missing: true
+    name: Footstools
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (fr-15)
+      min_g: 2000
+  fr-15-3-4:
+    lca_data_missing: true
+    name: Glider Ottomans
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (fr-15)
+      min_g: 2000
+  fr-15-3-5:
+    lca_data_missing: true
+    name: Hassocks
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (fr-15)
+      min_g: 2000
+  fr-15-3-6:
+    lca_data_missing: true
+    name: Ottoman Benches
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (fr-15)
+      min_g: 2000
+  fr-15-3-7:
+    lca_data_missing: true
+    name: Ottoman Cubes
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (fr-15)
+      min_g: 2000
+  fr-15-3-8:
+    lca_data_missing: true
+    name: Poufs
+    weight:
+      confidence: medium
+      estimate_g: 3000
+      max_g: 6000
+      min_g: 1000
+  fr-15-3-9:
+    lca_data_missing: true
+    name: Rectangle Ottomans
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (fr-15)
+      min_g: 2000
+  fr-15-3-10:
+    lca_data_missing: true
+    name: Round Ottomans
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (fr-15)
+      min_g: 2000
+  fr-15-3-11:
+    lca_data_missing: true
+    name: Shoe Storage Ottomans
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (fr-15)
+      min_g: 2000
+  fr-15-3-12:
+    lca_data_missing: true
+    name: Sleeper Ottomans
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (fr-15)
+      min_g: 2000
+  fr-15-3-13:
+    lca_data_missing: true
+    name: Square Ottomans
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (fr-15)
+      min_g: 2000
+  fr-15-3-14:
+    lca_data_missing: true
+    name: Storage Ottomans
+    weight:
+      confidence: medium
+      estimate_g: 10000
+      max_g: 20000
+      min_g: 5000
+  fr-15-3-15:
+    lca_data_missing: true
+    name: Tray Top Ottomans
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (fr-15)
+      min_g: 2000
+  fr-15-3-16:
+    lca_data_missing: true
+    name: Tufted Ottomans
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (fr-15)
+      min_g: 2000
+  fr-15-4:
+    lca_data_missing: true
+    name: Outdoor Seating
+    weight:
+      confidence: medium
+      estimate_g: 8000
+      max_g: 18000
+      min_g: 4000
+  fr-15-4-1:
+    lca_data_missing: true
+    name: Outdoor Benches
+    weight:
+      confidence: medium
+      estimate_g: 15000
+      max_g: 35000
+      min_g: 8000
+  fr-15-4-1-10:
+    lca_data_missing: true
+    name: Picnic Benches
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 35000
+      methodology: Inherited from parent category (fr-15-4-1)
+      min_g: 8000
+  fr-15-4-1-11:
+    lca_data_missing: true
+    name: Storage Benches
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 35000
+      methodology: Inherited from parent category (fr-15-4-1)
+      min_g: 8000
+  fr-15-4-1-12:
+    lca_data_missing: true
+    name: Swing Benches
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 35000
+      methodology: Inherited from parent category (fr-15-4-1)
+      min_g: 8000
+  fr-15-4-2:
+    lca_data_missing: true
+    materials:
+      breakdown:
+      - material: aluminum
+        percentage: 50
+      - material: synthetic_fabric
+        percentage: 30
+      - material: plastic
+        percentage: 20
+      primary_material: mixed
+    name: Outdoor Chairs
+    weight:
+      confidence: medium
+      estimate_g: 5000
+      max_g: 15000
+      min_g: 2000
+  fr-15-4-2-5:
+    lca_data_missing: true
+    name: Club Chairs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 15000
+      methodology: Inherited from parent category (fr-15-4-2)
+      min_g: 2000
+  fr-15-4-2-9:
+    lca_data_missing: true
+    name: Folding Chairs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 15000
+      methodology: Inherited from parent category (fr-15-4-2)
+      min_g: 2000
+  fr-15-4-2-15:
+    lca_data_missing: true
+    name: Rocking Chairs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 15000
+      methodology: Inherited from parent category (fr-15-4-2)
+      min_g: 2000
+  fr-15-4-2-16:
+    lca_data_missing: true
+    name: Sling Chairs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 15000
+      methodology: Inherited from parent category (fr-15-4-2)
+      min_g: 2000
+  fr-15-4-2-18:
+    lca_data_missing: true
+    name: Swing Chairs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 15000
+      methodology: Inherited from parent category (fr-15-4-2)
+      min_g: 2000
+  fr-15-4-3:
+    lca_data_missing: true
+    name: Outdoor Sectional Sofa Units
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 18000
+      methodology: Inherited from parent category (fr-15-4)
+      min_g: 4000
+  fr-15-4-4:
+    lca_data_missing: true
+    name: Outdoor Sofas
+    weight:
+      confidence: medium
+      estimate_g: 30000
+      max_g: 60000
+      min_g: 15000
+  fr-15-4-4-1:
+    lca_data_missing: true
+    name: Loveseat Sofas
+    weight:
+      confidence: medium
+      estimate_g: 35000
+      max_g: 50000
+      min_g: 20000
+  fr-15-4-4-2:
+    lca_data_missing: true
+    name: Sectional Sofas
+    notes: Per complete sectional unit
+    weight:
+      confidence: medium
+      estimate_g: 70000
+      max_g: 120000
+      min_g: 40000
+  fr-15-4-5:
+    lca_data_missing: true
+    name: Sunloungers
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 18000
+      methodology: Inherited from parent category (fr-15-4)
+      min_g: 4000
+  fr-15-5:
+    lca_data_missing: true
+    name: Outdoor Storage Boxes
+    weight:
+      confidence: medium
+      estimate_g: 15000
+      max_g: 30000
+      min_g: 8000
+  fr-15-6:
+    lca_data_missing: true
+    name: Outdoor Tables
+    weight:
+      confidence: medium
+      estimate_g: 20000
+      max_g: 50000
+      min_g: 8000
+  fr-15-6-1:
+    lca_data_missing: true
+    name: Bar Tables
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-15-6)
+      min_g: 8000
+  fr-15-6-2:
+    lca_data_missing: true
+    name: Bistro Tables
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-15-6)
+      min_g: 8000
+  fr-15-6-3:
+    lca_data_missing: true
+    materials:
+      breakdown:
+      - material: wood
+        percentage: 80
+      - material: glass
+        percentage: 15
+      - material: metal
+        percentage: 5
+      primary_material: wood
+    name: Coffee Tables
+    weight:
+      confidence: medium
+      estimate_g: 15000
+      max_g: 35000
+      min_g: 5000
+  fr-15-6-4:
+    lca_data_missing: true
+    name: Console Tables
+    weight:
+      confidence: medium
+      estimate_g: 20000
+      max_g: 40000
+      min_g: 10000
+  fr-15-6-5:
+    lca:
+      carbon_kg_co2e_per_kg: 1.8
+      carbon_kg_co2e_per_unit: 72.0
+      data_quality: secondary
+      scope: cradle-to-gate
+    materials:
+      primary_material: wood
+    name: Dining Tables
+    sources:
+    - Wood furniture LCA studies
+    weight:
+      confidence: medium
+      estimate_g: 40000
+      max_g: 80000
+      min_g: 20000
+  fr-15-6-7:
+    lca_data_missing: true
+    name: Fire Pits
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-15-6)
+      min_g: 8000
+  fr-15-6-9:
+    lca_data_missing: true
+    name: Game Tables
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-15-6)
+      min_g: 8000
+  fr-15-6-11:
+    lca_data_missing: true
+    name: Poolside Tables
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 50000
+      methodology: Inherited from parent category (fr-15-6)
+      min_g: 8000
+  fr-16:
+    lca_data_missing: true
+    name: Outdoor Furniture Accessories
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 200000
+      methodology: Vertical-level default estimate
+      min_g: 500
+  fr-16-1:
+    lca_data_missing: true
+    name: Outdoor Furniture Covers
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 200000
+      methodology: Vertical-level default estimate
+      min_g: 500
+  fr-17:
+    lca_data_missing: true
+    name: Room Divider Accessories
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 200000
+      methodology: Vertical-level default estimate
+      min_g: 500
+  fr-18:
+    lca_data_missing: true
+    name: Room Dividers
+    weight:
+      confidence: low
+      estimate_g: 10000
+      max_g: 25000
+      min_g: 3000
+  fr-19:
+    lca_data_missing: true
+    name: Shelving
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      min_g: 2000
+  fr-19-1:
+    lca_data_missing: true
+    materials:
+      breakdown:
+      - material: particleboard
+        percentage: 60
+      - material: solid_wood
+        percentage: 30
+      - material: other
+        percentage: 10
+      primary_material: wood
+    name: Bookcases & Standing Shelves
+    weight:
+      confidence: medium
+      estimate_g: 25000
+      max_g: 60000
+      min_g: 10000
+  fr-19-1-1:
+    lca_data_missing: true
+    name: Corner Bookcases & Shelves
+    weight:
+      confidence: low
+      estimate_g: 25000
+      max_g: 60000
+      methodology: Inherited from parent category (fr-19-1)
+      min_g: 10000
+  fr-19-1-2:
+    lca_data_missing: true
+    name: Floating Bookcases & Shelves
+    weight:
+      confidence: low
+      estimate_g: 25000
+      max_g: 60000
+      methodology: Inherited from parent category (fr-19-1)
+      min_g: 10000
+  fr-19-1-3:
+    lca_data_missing: true
+    name: Ladder Bookcases & Shelves
+    weight:
+      confidence: low
+      estimate_g: 25000
+      max_g: 60000
+      methodology: Inherited from parent category (fr-19-1)
+      min_g: 10000
+  fr-19-1-4:
+    lca_data_missing: true
+    name: Modular Bookcases & Shelves
+    weight:
+      confidence: low
+      estimate_g: 25000
+      max_g: 60000
+      methodology: Inherited from parent category (fr-19-1)
+      min_g: 10000
+  fr-19-1-5:
+    lca_data_missing: true
+    name: Rack Bookcases & Shelves
+    weight:
+      confidence: low
+      estimate_g: 25000
+      max_g: 60000
+      methodology: Inherited from parent category (fr-19-1)
+      min_g: 10000
+  fr-19-2:
+    lca_data_missing: true
+    name: Wall Shelves & Ledges
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (fr-19)
+      min_g: 2000
+  fr-19-2-1:
+    lca_data_missing: true
+    name: Corner Wall Shelves & Ledges
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (fr-19)
+      min_g: 2000
+  fr-19-2-2:
+    lca_data_missing: true
+    name: Floating Wall Shelves & Ledges
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (fr-19)
+      min_g: 2000
+  fr-19-2-3:
+    lca_data_missing: true
+    name: Ladder Wall Shelves & Ledges
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (fr-19)
+      min_g: 2000
+  fr-19-2-4:
+    lca_data_missing: true
+    name: Modular Wall Shelves & Ledges
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (fr-19)
+      min_g: 2000
+  fr-19-2-5:
+    lca_data_missing: true
+    name: Rack Wall Shelves & Ledges
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (fr-19)
+      min_g: 2000
+  fr-20:
+    lca_data_missing: true
+    name: Shelving Accessories
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 200000
+      methodology: Vertical-level default estimate
+      min_g: 500
+  fr-20-1:
+    lca_data_missing: true
+    name: Replacement Shelves
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 200000
+      methodology: Vertical-level default estimate
+      min_g: 500
+  fr-21:
+    lca_data_missing: true
+    name: Sofa Accessories
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 200000
+      methodology: Vertical-level default estimate
+      min_g: 500
+  fr-21-1:
+    lca_data_missing: true
+    name: Chair & Sofa Supports
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 200000
+      methodology: Vertical-level default estimate
+      min_g: 500
+  fr-21-2:
+    lca_data_missing: true
+    name: Sectional Sofa Units
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 200000
+      methodology: Vertical-level default estimate
+      min_g: 500
+  fr-22:
+    lca:
+      carbon_kg_co2e_per_kg: 3.5
+      carbon_kg_co2e_per_unit: 157.5
+      data_quality: secondary
+      scope: cradle-to-gate
+    materials:
+      breakdown:
+      - material: wood_frame
+        percentage: 30
+      - material: foam
+        percentage: 30
+      - material: fabric
+        percentage: 25
+      - material: springs_metal
+        percentage: 15
+      primary_material: mixed
+    name: Sofas
+    sources:
+    - FIRA Furniture Environmental Data
+    weight:
+      confidence: medium
+      estimate_g: 45000
+      max_g: 80000
+      min_g: 25000
+  fr-22-1:
+    lca_data_missing: true
+    name: Chaise Longue Sofas
+    weight:
+      confidence: low
+      estimate_g: 45000
+      max_g: 80000
+      methodology: Inherited from parent category (fr-22)
+      min_g: 25000
+  fr-22-3:
+    lca_data_missing: true
+    name: Corner Sofas
+    weight:
+      confidence: low
+      estimate_g: 45000
+      max_g: 80000
+      methodology: Inherited from parent category (fr-22)
+      min_g: 25000
+  fr-22-4:
+    lca_data_missing: true
+    name: Loveseat Sofas
+    weight:
+      confidence: low
+      estimate_g: 45000
+      max_g: 80000
+      methodology: Inherited from parent category (fr-22)
+      min_g: 25000
+  fr-22-6:
+    lca_data_missing: true
+    name: Sectional Sofas
+    weight:
+      confidence: low
+      estimate_g: 45000
+      max_g: 80000
+      methodology: Inherited from parent category (fr-22)
+      min_g: 25000
+  fr-22-7:
+    lca_data_missing: true
+    name: Sofa Beds
+    notes: Same as sleeper sofas
+    weight:
+      confidence: medium
+      estimate_g: 50000
+      max_g: 75000
+      min_g: 35000
+  fr-23:
+    lca_data_missing: true
+    name: Table Accessories
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 200000
+      methodology: Vertical-level default estimate
+      min_g: 500
+  fr-23-1:
+    lca_data_missing: true
+    name: Table Legs
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 200000
+      methodology: Vertical-level default estimate
+      min_g: 500
+  fr-23-2:
+    lca_data_missing: true
+    name: Table Tops
+    weight:
+      confidence: low
+      estimate_g: 15000
+      max_g: 200000
+      methodology: Vertical-level default estimate
+      min_g: 500
+  fr-24:
+    lca_data_missing: true
+    name: Tables
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 100000
+      min_g: 2000
+  fr-24-1:
+    lca_data_missing: true
+    name: Accent Tables
+    weight:
+      confidence: low
+      estimate_g: 10000
+      max_g: 30000
+      min_g: 1000
+  fr-24-1-1:
+    lca_data_missing: true
+    name: Coffee Tables
+    weight:
+      confidence: low
+      estimate_g: 10000
+      max_g: 30000
+      methodology: Inherited from parent category (fr-24-1)
+      min_g: 1000
+  fr-24-1-2:
+    lca_data_missing: true
+    name: End Tables
+    weight:
+      confidence: medium
+      estimate_g: 8000
+      max_g: 15000
+      min_g: 3000
+  fr-24-1-3:
+    lca_data_missing: true
+    name: Sofa Tables
+    weight:
+      confidence: medium
+      estimate_g: 15000
+      max_g: 30000
+      min_g: 8000
+  fr-24-2:
+    lca_data_missing: true
+    name: Activity Tables
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-24)
+      min_g: 2000
+  fr-24-3:
+    lca_data_missing: true
+    name: Folding Tables
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-24)
+      min_g: 2000
+  fr-24-4:
+    lca_data_missing: true
+    name: Kitchen & Dining Room Tables
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-24)
+      min_g: 2000
+  fr-24-4-1:
+    lca_data_missing: true
+    name: Console Tables
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-24)
+      min_g: 2000
+  fr-24-5:
+    lca_data_missing: true
+    name: Kotatsu
+    weight:
+      confidence: low
+      estimate_g: 20000
+      max_g: 100000
+      methodology: Inherited from parent category (fr-24)
+      min_g: 2000
+  fr-24-6:
+    lca_data_missing: true
+    name: Nightstands
+    weight:
+      confidence: medium
+      estimate_g: 12000
+      max_g: 25000
+      min_g: 5000

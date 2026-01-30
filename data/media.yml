@@ -1,0 +1,315 @@
+schema_version: 0.1.0
+last_updated: '2026-01-30'
+categories:
+  me:
+    lca_data_missing: true
+    name: Media
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  me-1:
+    lca:
+      carbon_kg_co2e_per_kg: 1.2
+      carbon_kg_co2e_per_unit: 0.48
+      data_quality: secondary
+      scope: cradle-to-gate
+    materials:
+      primary_material: paper
+    name: Books
+    sources:
+    - Book Industry Environmental Council
+    - Environmental Paper Network
+    weight:
+      confidence: medium
+      estimate_g: 400
+      max_g: 3000
+      min_g: 50
+  me-1-1:
+    lca_data_missing: true
+    name: Audiobooks
+    weight:
+      confidence: low
+      estimate_g: 400
+      max_g: 3000
+      methodology: Inherited from parent category (me-1)
+      min_g: 50
+  me-1-2:
+    lca_data_missing: true
+    name: E-Books
+    weight:
+      confidence: low
+      estimate_g: 400
+      max_g: 3000
+      methodology: Inherited from parent category (me-1)
+      min_g: 50
+  me-1-3:
+    lca_data_missing: true
+    name: Print Books
+    weight:
+      confidence: low
+      estimate_g: 400
+      max_g: 3000
+      methodology: Inherited from parent category (me-1)
+      min_g: 50
+  me-2:
+    lca_data_missing: true
+    name: Magazines & Newspapers
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  me-2-1:
+    lca:
+      carbon_kg_co2e_per_kg: 1.4
+      carbon_kg_co2e_per_unit: 0.21
+      data_quality: secondary
+      scope: cradle-to-gate
+    materials:
+      primary_material: coated_paper
+    name: Magazines
+    sources:
+    - Magazine Publishers Environmental Report
+    weight:
+      confidence: medium
+      estimate_g: 150
+      max_g: 500
+      min_g: 50
+  me-2-1-1:
+    lca_data_missing: true
+    name: Consumer Magazines
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (me-2-1)
+      min_g: 50
+  me-2-1-2:
+    lca_data_missing: true
+    name: In-House Magazines
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (me-2-1)
+      min_g: 50
+  me-2-1-3:
+    lca_data_missing: true
+    name: Professional Magazines
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (me-2-1)
+      min_g: 50
+  me-2-2:
+    lca_data_missing: true
+    name: Newspapers
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  me-2-2-1:
+    lca_data_missing: true
+    name: International Newspapers
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  me-2-2-2:
+    lca_data_missing: true
+    name: Local Newspapers
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  me-2-2-3:
+    lca_data_missing: true
+    name: National Newspapers
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  me-3:
+    lca_data_missing: true
+    name: Music & Sound Recordings
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  me-3-1:
+    lca_data_missing: true
+    name: Digital Music Downloads
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  me-3-2:
+    lca_data_missing: true
+    name: Music Cassette Tapes
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  me-3-3:
+    lca_data_missing: true
+    name: Music CDs
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  me-3-4:
+    lca_data_missing: true
+    name: Records & LPs
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  me-3-5:
+    lca_data_missing: true
+    name: Spoken Word & Field Recordings
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  me-3-6:
+    lca_data_missing: true
+    name: Vinyl
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  me-4:
+    lca_data_missing: true
+    name: Podcasts & Live Streams
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  me-4-1:
+    lca_data_missing: true
+    name: Live Streams
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  me-4-2:
+    lca_data_missing: true
+    name: Podcasts
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  me-4-3:
+    lca_data_missing: true
+    name: Radio Shows
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  me-5:
+    lca_data_missing: true
+    name: Product Manuals
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  me-6:
+    lca_data_missing: true
+    name: Sheet Music
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  me-7:
+    lca_data_missing: true
+    name: Videos
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  me-7-1:
+    lca_data_missing: true
+    name: Blu-ray
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  me-7-2:
+    lca_data_missing: true
+    name: Digital Downloads
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  me-7-3:
+    lca_data_missing: true
+    name: DVDs
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  me-7-4:
+    lca_data_missing: true
+    name: VHS Tapes
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  me-8:
+    lca_data_missing: true
+    name: Academic Papers & Studies
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10

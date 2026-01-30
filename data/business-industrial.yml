@@ -1,0 +1,5341 @@
+schema_version: 0.1.0
+last_updated: '2026-01-30'
+categories:
+  bi:
+    lca_data_missing: true
+    name: Business & Industrial
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-1:
+    lca_data_missing: true
+    name: Advertising & Marketing
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-1-1:
+    lca_data_missing: true
+    name: Brochures
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-1-2:
+    lca_data_missing: true
+    name: Trade Show Counters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-1-2-1:
+    lca_data_missing: true
+    name: Lockable Counters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-1-2-2:
+    lca_data_missing: true
+    name: Modular Counters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-1-2-3:
+    lca_data_missing: true
+    name: Pop-Up Counters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-1-2-4:
+    lca_data_missing: true
+    name: Portable Counters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-1-3:
+    lca_data_missing: true
+    name: Trade Show Displays
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-1-3-1:
+    lca_data_missing: true
+    name: Backlit Displays
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-1-3-2:
+    lca_data_missing: true
+    name: Banner Stands
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-1-3-3:
+    lca_data_missing: true
+    name: Digital A-Boards
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-1-3-4:
+    lca_data_missing: true
+    name: Digital Signage Flat Panels
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-1-3-6:
+    lca_data_missing: true
+    name: Interactive Flat Panels
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-1-3-7:
+    lca_data_missing: true
+    name: Interactive Kids' Tables
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-1-3-8:
+    lca_data_missing: true
+    name: Kiosks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-1-3-9:
+    lca_data_missing: true
+    name: Modular Displays
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-1-3-10:
+    lca_data_missing: true
+    name: Panoramas
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-1-3-11:
+    lca_data_missing: true
+    name: Pop-Up Displays
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-1-3-12:
+    lca_data_missing: true
+    name: Tabletop Displays
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-1-3-13:
+    lca_data_missing: true
+    name: Totems
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-1-3-14:
+    lca_data_missing: true
+    name: Transparent Box Displays
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2:
+    lca_data_missing: true
+    name: Agriculture
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-1:
+    lca_data_missing: true
+    name: Animal Husbandry
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-1-1:
+    lca_data_missing: true
+    name: Egg Incubators
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-1-2:
+    lca_data_missing: true
+    name: Livestock Feed
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-1-2-1:
+    lca_data_missing: true
+    name: Cattle Feed
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-1-2-2:
+    lca_data_missing: true
+    name: Chicken Feed
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-1-2-3:
+    lca_data_missing: true
+    name: Goat & Sheep Feed
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-1-2-4:
+    lca_data_missing: true
+    name: Mixed Herd Feed
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-1-2-5:
+    lca_data_missing: true
+    name: Pig Feed
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-1-3:
+    lca_data_missing: true
+    name: Livestock Feeders & Waterers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-1-3-1:
+    lca_data_missing: true
+    name: Livestock Feeders
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-1-3-2:
+    lca_data_missing: true
+    name: Livestock Waterers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-1-4:
+    lca_data_missing: true
+    name: Livestock Halters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-1-5:
+    lca_data_missing: true
+    name: Beekeeping
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-1-5-1:
+    lca_data_missing: true
+    name: Bee Hives
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-1-5-2:
+    lca_data_missing: true
+    name: Bee Feed
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-1-5-3:
+    lca_data_missing: true
+    name: Beekeeping Equipment
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-1-5-3-1:
+    lca_data_missing: true
+    name: Beekeeping Protective Gear
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-1-5-3-2:
+    lca_data_missing: true
+    name: Honey Extraction Equipment
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-1-6:
+    lca_data_missing: true
+    name: Health & Veterinary Supplies
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-1-6-1:
+    lca_data_missing: true
+    name: Vaccines & Medications
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-1-6-2:
+    lca_data_missing: true
+    name: Surgical Supplies
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-1-6-3:
+    lca_data_missing: true
+    name: Diagnostic Equipment
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-1-7:
+    lca_data_missing: true
+    name: Smart Farming Systems
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-1-7-1:
+    lca_data_missing: true
+    name: Livestock Monitoring Systems
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-1-7-2:
+    lca_data_missing: true
+    name: Automated Feeders
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-1-7-3:
+    lca_data_missing: true
+    name: Digital Water Management Systems
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-2:
+    lca_data_missing: true
+    name: Agriculture Machinery
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-2-1:
+    lca_data_missing: true
+    name: Tillage
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-2-1-1:
+    lca_data_missing: true
+    name: Disc Harrows
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-2-1-2:
+    lca_data_missing: true
+    name: Rotary Tillers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-2-1-3:
+    lca_data_missing: true
+    name: Chisel Plows
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-2-1-4:
+    lca_data_missing: true
+    name: Moldboard Plows
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-2-1-5:
+    lca_data_missing: true
+    name: Spike Harrows
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-2-1-6:
+    lca_data_missing: true
+    name: Subsoilers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-2-2-1-7:
+    lca_data_missing: true
+    name: Vertical Tillage
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-3:
+    lca_data_missing: true
+    name: Automation Control Components
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-3-1:
+    lca_data_missing: true
+    name: Programmable Logic Controllers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-3-1-2:
+    lca_data_missing: true
+    name: Automation Control Modules
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-3-1-4:
+    lca_data_missing: true
+    name: Building Management System (BMS) Controllers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-3-1-5:
+    lca_data_missing: true
+    name: Digital Addressable Lighting Interface (DALI) Controllers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-3-1-7:
+    lca_data_missing: true
+    name: Motor Starters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-3-1-9:
+    lca_data_missing: true
+    name: Motor Controllers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-3-2:
+    lca_data_missing: true
+    name: Variable Frequency & Adjustable Speed Drives
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-4:
+    lca_data_missing: true
+    name: Construction
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-4-1:
+    lca_data_missing: true
+    name: Surveying
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-4-1-1:
+    lca_data_missing: true
+    name: Automatic Levels
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-4-1-2:
+    lca_data_missing: true
+    name: GPS & GNSS Systems
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-4-1-4:
+    lca_data_missing: true
+    name: Total Stations
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-4-2:
+    lca_data_missing: true
+    name: Traffic Cones & Barrels
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-4-2-1:
+    lca_data_missing: true
+    name: Traffic Barrels
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-4-2-2:
+    lca_data_missing: true
+    name: Traffic Cones
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-4-3:
+    lca_data_missing: true
+    name: Raw Structural Components
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-5:
+    lca_data_missing: true
+    name: Dentistry
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-5-1:
+    lca_data_missing: true
+    name: Dental Cement
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-5-1-1:
+    lca_data_missing: true
+    name: Filling Dental Cement
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-5-1-2:
+    lca_data_missing: true
+    name: Lining Dental Cement
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-5-1-3:
+    lca_data_missing: true
+    name: Luting Dental Cement
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-5-1-5:
+    lca_data_missing: true
+    name: Temporary Dental Cement
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-5-2:
+    lca_data_missing: true
+    name: Dental Tools
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-5-2-1:
+    lca_data_missing: true
+    name: Dappen Dishes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-5-2-2:
+    lca_data_missing: true
+    name: Dental Mirrors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-5-2-3:
+    lca_data_missing: true
+    name: Dental Tool Sets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-5-2-4:
+    lca_data_missing: true
+    name: Prophy Cups
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-5-2-5:
+    lca_data_missing: true
+    name: Prophy Heads
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-5-3:
+    lca_data_missing: true
+    name: Prophy Paste
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-6:
+    lca_data_missing: true
+    name: Film & Television
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-6-1:
+    lca_data_missing: true
+    name: Film & Television Costumes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-6-2:
+    lca_data_missing: true
+    name: Film & Television Props
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-6-3:
+    lca_data_missing: true
+    name: Film & Television Set Pieces
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-6-3-1:
+    lca_data_missing: true
+    name: Backdrop Set Pieces
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-6-3-2:
+    lca_data_missing: true
+    name: Furniture Set Pieces
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-6-3-3:
+    lca_data_missing: true
+    name: Set Decoration
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-7:
+    lca_data_missing: true
+    name: Finance & Insurance
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-7-1:
+    lca_data_missing: true
+    name: Bullion
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-8:
+    lca_data_missing: true
+    name: Food Service
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-8-1:
+    lca_data_missing: true
+    name: Bakery Boxes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-8-2:
+    lca_data_missing: true
+    name: Bus Tubs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-8-3:
+    lca_data_missing: true
+    name: Check Presenters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-8-4:
+    lca_data_missing: true
+    name: Concession Food Containers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-8-5:
+    lca_data_missing: true
+    name: Disposable Lids
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-8-6:
+    lca_data_missing: true
+    name: Disposable Serveware
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-8-6-1:
+    lca_data_missing: true
+    name: Disposable Serving Trays
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-8-7:
+    lca_data_missing: true
+    materials:
+      primary_material: paper_plastic
+    name: Disposable Tableware
+    weight:
+      confidence: medium
+      estimate_g: 200
+      max_g: 1000
+      min_g: 50
+  bi-8-7-1:
+    lca_data_missing: true
+    name: Disposable Bowls
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (bi-8-7)
+      min_g: 50
+  bi-8-7-2:
+    lca_data_missing: true
+    name: Disposable Cups
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (bi-8-7)
+      min_g: 50
+  bi-8-7-3:
+    lca_data_missing: true
+    name: Disposable Cutlery
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (bi-8-7)
+      min_g: 50
+  bi-8-7-3-1:
+    lca_data_missing: true
+    name: Disposable Forks
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (bi-8-7)
+      min_g: 50
+  bi-8-7-3-2:
+    lca_data_missing: true
+    name: Disposable Knives
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (bi-8-7)
+      min_g: 50
+  bi-8-7-3-3:
+    lca_data_missing: true
+    name: Disposable Spoons
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (bi-8-7)
+      min_g: 50
+  bi-8-7-4:
+    lca_data_missing: true
+    name: Disposable Plates
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (bi-8-7)
+      min_g: 50
+  bi-8-8:
+    lca_data_missing: true
+    name: Food Service Baskets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-8-9:
+    lca_data_missing: true
+    name: Food Service Carts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-8-10:
+    lca_data_missing: true
+    name: Food Washers & Dryers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-8-11:
+    lca_data_missing: true
+    name: Hot Dog Rollers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-8-12:
+    lca_data_missing: true
+    name: Ice Bins
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-8-13:
+    lca_data_missing: true
+    name: Plate & Dish Warmers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-8-14:
+    lca_data_missing: true
+    name: Sneeze Guards
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-8-15:
+    lca_data_missing: true
+    name: Take-Out Containers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-8-16:
+    lca_data_missing: true
+    name: Tilt Skillets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-8-17:
+    lca_data_missing: true
+    name: Vending Machines
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-8-17-1:
+    lca_data_missing: true
+    name: Combo Vending Machines
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-8-17-2:
+    lca_data_missing: true
+    name: Drink Vending Machines
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-8-17-3:
+    lca_data_missing: true
+    name: Snack Vending Machines
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-9:
+    lca_data_missing: true
+    name: Forestry & Logging
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-9-1:
+    lca_data_missing: true
+    name: Arborist Accessories
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-9-1-1:
+    lca_data_missing: true
+    name: Throw Weights
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-9-2:
+    lca_data_missing: true
+    name: Forestry & Logging Protective Gear
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-9-2-1:
+    lca_data_missing: true
+    name: Forestry & Logging Boots
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-9-2-2:
+    lca_data_missing: true
+    name: Forestry & Logging Chaps
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-9-2-3:
+    lca_data_missing: true
+    name: Forestry & Logging Eyewear
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-9-2-4:
+    lca_data_missing: true
+    name: Forestry & Logging Gloves
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-9-2-5:
+    lca_data_missing: true
+    name: Forestry & Logging Helmets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-9-3:
+    lca_data_missing: true
+    name: Forestry & Logging Tools
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-9-3-1:
+    lca_data_missing: true
+    name: Log Hooks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-9-3-2:
+    lca_data_missing: true
+    name: Log Tongs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-9-3-3:
+    lca_data_missing: true
+    name: Tree Calipers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-10:
+    lca_data_missing: true
+    name: Hairdressing & Cosmetology
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-10-1:
+    lca_data_missing: true
+    name: Hairdressing Capes & Neck Covers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-10-2:
+    lca_data_missing: true
+    name: Pedicure Chairs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-10-3:
+    lca_data_missing: true
+    name: Salon Chairs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-10-3-1:
+    lca_data_missing: true
+    name: All-Purpose Chairs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-10-3-2:
+    lca_data_missing: true
+    name: Barber Chairs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-10-3-3:
+    lca_data_missing: true
+    name: Shampoo Chairs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-10-3-4:
+    lca_data_missing: true
+    name: Styling Chairs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11:
+    lca_data_missing: true
+    name: Heavy Machinery
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-1:
+    lca_data_missing: true
+    name: Backhoes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-2:
+    lca_data_missing: true
+    name: Bulldozers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-3:
+    lca_data_missing: true
+    name: Chippers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-4:
+    lca_data_missing: true
+    name: Crawler Loaders
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-5:
+    lca_data_missing: true
+    name: Dump Trucks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-6:
+    lca_data_missing: true
+    name: Excavators
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-6-1:
+    lca_data_missing: true
+    name: Compact Excavators
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-6-2:
+    lca_data_missing: true
+    name: Dragline Excavators
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-6-3:
+    lca_data_missing: true
+    name: Long Reach Excavators
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-6-4:
+    lca_data_missing: true
+    name: Wheeled Excavators
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-7:
+    lca_data_missing: true
+    name: Harvesters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-7-1:
+    lca_data_missing: true
+    name: Combine Harvesters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-7-2:
+    lca_data_missing: true
+    name: Cotton Harvesters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-7-3:
+    lca_data_missing: true
+    name: Forage Harvesters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-7-4:
+    lca_data_missing: true
+    name: Potato Harvesters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-7-5:
+    lca_data_missing: true
+    name: Sugar Beet Harvesters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-8:
+    lca_data_missing: true
+    name: Motor Graders
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-9:
+    lca_data_missing: true
+    name: Pavers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-9-1:
+    lca_data_missing: true
+    name: Asphalt Pavers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-9-2:
+    lca_data_missing: true
+    name: Concrete Pavers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-10:
+    lca_data_missing: true
+    name: Scrapers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-10-1:
+    lca_data_missing: true
+    name: Elevating Scrapers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-10-2:
+    lca_data_missing: true
+    name: Open Bowl Scrapers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-10-3:
+    lca_data_missing: true
+    name: Pull Scrapers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-11:
+    lca_data_missing: true
+    name: Skid-Steer Loaders
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-12:
+    lca_data_missing: true
+    name: Tractors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-12-1:
+    lca_data_missing: true
+    name: Articulated 4WD Tractors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-12-2:
+    lca_data_missing: true
+    name: Compact Tractors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-12-3:
+    lca_data_missing: true
+    name: Row Crop Tractors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-12-4:
+    lca_data_missing: true
+    name: Utility Tractors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-12-5:
+    lca_data_missing: true
+    name: Orchard Tractors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-12-6:
+    lca_data_missing: true
+    name: High-Crop Tractors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-12-7:
+    lca_data_missing: true
+    name: Vineyard Tractors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-12-8:
+    lca_data_missing: true
+    name: Track Tractors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-13:
+    lca_data_missing: true
+    name: Trenchers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-13-1:
+    lca_data_missing: true
+    name: Ride-On Trenchers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-13-2:
+    lca_data_missing: true
+    name: Walk-Behind Trenchers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-14:
+    lca_data_missing: true
+    name: Wheel Loaders
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-15:
+    lca_data_missing: true
+    name: Wheel Tractor Scrapers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-15-1:
+    lca_data_missing: true
+    name: Elevating Wheel Tractor Scrapers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-15-2:
+    lca_data_missing: true
+    name: Open Bowl Wheel Tractor Scrapers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-15-3:
+    lca_data_missing: true
+    name: Pull Wheel Tractor Scrapers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-16:
+    lca_data_missing: true
+    name: Yard Scrapers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-17:
+    lca_data_missing: true
+    name: Heavy Machinery Parts & Accessories
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-17-1:
+    lca_data_missing: true
+    name: Buckets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-17-2:
+    lca_data_missing: true
+    name: Hydraulic Hammers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-17-3:
+    lca_data_missing: true
+    name: Quick Couplers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-17-4:
+    lca_data_missing: true
+    name: Compactors & Rollers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-17-5:
+    lca_data_missing: true
+    name: Thumbs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-17-6:
+    lca_data_missing: true
+    name: Rippers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-17-7:
+    lca_data_missing: true
+    name: Grapples & Grabs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-18:
+    lca_data_missing: true
+    name: Cranes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-18-1:
+    lca_data_missing: true
+    name: Tower Cranes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-18-2:
+    lca_data_missing: true
+    name: Truck Cranes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-18-3:
+    lca_data_missing: true
+    name: Crawler Cranes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-18-4:
+    lca_data_missing: true
+    name: Rough Terrain Cranes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-18-5:
+    lca_data_missing: true
+    name: Telescopic Cranes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-18-6:
+    lca_data_missing: true
+    name: All Terrain Cranes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-19:
+    lca_data_missing: true
+    name: Electric & Hybrid Machinery
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-11-20:
+    lca_data_missing: true
+    name: Concrete Mixers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-12:
+    lca_data_missing: true
+    name: Hotel & Hospitality
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-12-1:
+    lca_data_missing: true
+    name: Hospitality Supplies
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-12-1-1:
+    lca_data_missing: true
+    name: Bar Counters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-12-1-2:
+    lca_data_missing: true
+    name: Underbar Equipment
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-12-1-2-1:
+    lca_data_missing: true
+    name: Bar & Cocktail Stations
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-12-1-2-2:
+    lca_data_missing: true
+    name: Glass Racks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-12-1-2-3:
+    lca_data_missing: true
+    name: Menu Covers & Check Presenters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-12-1-2-4:
+    lca_data_missing: true
+    name: Menu Displays & Boards
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-12-1-2-5:
+    lca_data_missing: true
+    name: Speed Rails
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-12-2:
+    lca_data_missing: true
+    name: Hotel & Hospitality Accessories
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-12-2-1:
+    lca_data_missing: true
+    name: Desk Bells
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-12-3:
+    lca_data_missing: true
+    name: Hotel Supplies
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-12-3-1:
+    lca_data_missing: true
+    name: Reception Desks & Counters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-13:
+    lca_data_missing: true
+    name: Industrial Storage
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-13-1:
+    lca_data_missing: true
+    name: Industrial Cabinets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-13-2:
+    lca_data_missing: true
+    name: Industrial Shelving
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-13-3:
+    lca_data_missing: true
+    name: Shipping Containers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-13-4:
+    lca_data_missing: true
+    name: Wire Partitions, Enclosures & Doors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-14:
+    lca_data_missing: true
+    name: Industrial Storage Accessories
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-14-1:
+    lca_data_missing: true
+    name: Individual Industrial Shelves
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-14-2:
+    lca_data_missing: true
+    name: Industrial Shelf Dividers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-14-3:
+    lca_data_missing: true
+    name: Locking Clips & Pins
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-15:
+    lca_data_missing: true
+    name: Janitorial Carts & Caddies
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-15-1:
+    lca_data_missing: true
+    name: Cleaning Carts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-15-2:
+    lca_data_missing: true
+    name: Laundry Carts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-15-4:
+    lca_data_missing: true
+    name: Waste Collection Carts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-16:
+    lca_data_missing: true
+    name: Law Enforcement
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-16-1:
+    lca_data_missing: true
+    name: Cuffs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-16-1-1:
+    lca_data_missing: true
+    name: Chain Link Cuffs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-16-1-2:
+    lca_data_missing: true
+    name: Disposable Cuffs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-16-1-3:
+    lca_data_missing: true
+    name: Hinged Cuffs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-16-1-4:
+    lca_data_missing: true
+    name: Leg Irons Cuffs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-16-1-5:
+    lca_data_missing: true
+    name: Rigid Cuffs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-16-2:
+    lca_data_missing: true
+    name: Metal Detectors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-16-2-1:
+    lca_data_missing: true
+    name: Ground Search Metal Detectors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-16-2-2:
+    lca_data_missing: true
+    name: Handheld Metal Detectors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-16-2-3:
+    lca_data_missing: true
+    name: Walk-Through Metal Detectors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-17:
+    lca_data_missing: true
+    name: Manufacturing
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-17-1:
+    lca_data_missing: true
+    name: Packaging Machines
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-17-1-1:
+    lca_data_missing: true
+    name: Filling Machines
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-17-1-2:
+    lca_data_missing: true
+    name: Labeling Machines
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-17-1-3:
+    lca_data_missing: true
+    name: Sealing Machines
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-17-1-4:
+    lca_data_missing: true
+    name: Strapping Machines
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-17-1-5:
+    lca_data_missing: true
+    name: Wrapping Machines
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18:
+    lca_data_missing: true
+    name: Material Handling
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-1:
+    lca_data_missing: true
+    name: Conveyors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-1-1:
+    lca_data_missing: true
+    name: Belt Conveyors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-1-2:
+    lca_data_missing: true
+    name: Flexible Conveyors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-1-3:
+    lca_data_missing: true
+    name: Vertical & Overhead Conveyors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-1-4:
+    lca_data_missing: true
+    name: Pneumatic Conveyors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-1-5:
+    lca_data_missing: true
+    name: Roller Conveyors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-2:
+    lca_data_missing: true
+    name: Lifts & Hoists
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-2-1:
+    lca_data_missing: true
+    name: Hoists, Cranes & Trolleys
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-2-1-1:
+    lca_data_missing: true
+    name: Chain Hoists
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-2-1-2:
+    lca_data_missing: true
+    name: Gantry Cranes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-2-1-3:
+    lca_data_missing: true
+    name: Jib Cranes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-2-1-4:
+    lca_data_missing: true
+    name: Trolleys
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-2-1-5:
+    lca_data_missing: true
+    name: Wire Rope Hoists
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-2-2:
+    lca_data_missing: true
+    name: Jacks & Lift Trucks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-2-2-1:
+    lca_data_missing: true
+    name: Bottle Jacks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-2-2-2:
+    lca_data_missing: true
+    name: Floor Jacks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-2-2-3:
+    lca_data_missing: true
+    name: Pallet Jacks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-2-2-4:
+    lca_data_missing: true
+    name: Scissor Jacks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-2-3:
+    lca_data_missing: true
+    name: Personnel Lifts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-2-3-1:
+    lca_data_missing: true
+    name: Boom Lifts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-2-3-2:
+    lca_data_missing: true
+    name: Drive-On Parallelograms
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-2-3-3:
+    lca_data_missing: true
+    name: Multi-Post Runways
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-2-3-4:
+    lca_data_missing: true
+    name: Scissor Lifts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-2-3-5:
+    lca_data_missing: true
+    name: Two-Post Surface Mounted Lifts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-2-3-6:
+    lca_data_missing: true
+    name: Vertical Mast Lifts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-2-4:
+    lca_data_missing: true
+    name: Pulleys, Blocks & Sheaves
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-2-4-2:
+    lca_data_missing: true
+    name: Double Pulleys
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-2-4-3:
+    lca_data_missing: true
+    name: Sheaves
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-2-4-4:
+    lca_data_missing: true
+    name: Single Pulleys
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-2-4-5:
+    lca_data_missing: true
+    name: Triple Pulleys
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-2-5:
+    lca_data_missing: true
+    name: Winches
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-3:
+    lca_data_missing: true
+    name: Pallets & Loading Platforms
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-3-1:
+    lca_data_missing: true
+    name: Block Pallets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-3-2:
+    lca_data_missing: true
+    name: Double-Face Pallets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-3-3:
+    lca_data_missing: true
+    name: Solid Deck Pallets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-18-3-4:
+    lca_data_missing: true
+    name: Stringer Pallets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19:
+    lca_data_missing: true
+    name: Medical
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-1:
+    lca_data_missing: true
+    name: Hospital Curtains
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-2:
+    lca_data_missing: true
+    name: Hospital Gowns
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-2-1:
+    lca_data_missing: true
+    name: Isolation Gowns
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-2-2:
+    lca_data_missing: true
+    name: Patient Gowns
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-3:
+    lca_data_missing: true
+    name: Medical Bedding
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-4:
+    lca_data_missing: true
+    name: Medical Equipment
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-4-1:
+    lca_data_missing: true
+    name: Automated External Defibrillators
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-4-2:
+    lca_data_missing: true
+    name: Gait Belts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-4-3:
+    lca_data_missing: true
+    name: Medical Reflex Hammers & Tuning Forks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-4-3-1:
+    lca_data_missing: true
+    name: Babinski Hammers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-4-3-2:
+    lca_data_missing: true
+    name: Buck Hammers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-4-3-3:
+    lca_data_missing: true
+    name: Tuning Forks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-4-3-5:
+    lca_data_missing: true
+    name: Taylor Hammers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-4-4:
+    lca_data_missing: true
+    name: Medical Stretchers & Gurneys
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-4-4-2:
+    lca_data_missing: true
+    name: Manual Stretchers & Gurneys
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-4-4-4:
+    lca_data_missing: true
+    name: Powered Stretchers & Gurneys
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-4-5:
+    lca_data_missing: true
+    name: Otoscopes & Ophthalmoscopes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-4-6:
+    lca_data_missing: true
+    name: Patient Lifts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-4-6-2:
+    lca_data_missing: true
+    name: Bath Lifts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-4-6-3:
+    lca_data_missing: true
+    name: Mobile Lifts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-4-6-4:
+    lca_data_missing: true
+    name: Stand-Up Patient Lifts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-4-7:
+    lca_data_missing: true
+    name: Stethoscopes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-4-7-1:
+    lca_data_missing: true
+    name: Training Stethoscopes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-4-8:
+    lca_data_missing: true
+    name: Vital Signs Monitor Accessories
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-4-8-1:
+    lca_data_missing: true
+    name: Vital Signs Monitor Cuffs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-4-8-2:
+    lca_data_missing: true
+    name: Vital Signs Monitor Mounts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-4-8-3:
+    lca_data_missing: true
+    name: Vital Signs Monitor Power Cords
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-4-8-4:
+    lca_data_missing: true
+    name: Vital Signs Monitor Sensors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-4-9:
+    lca_data_missing: true
+    name: Vital Signs Monitors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-4-9-1:
+    lca_data_missing: true
+    name: ECG Monitors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-4-9-2:
+    lca_data_missing: true
+    name: Multi-Parameter Monitors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-4-9-3:
+    lca_data_missing: true
+    name: Pulse Oximeter Monitors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-5:
+    lca_data_missing: true
+    name: Medical Furniture
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-5-1:
+    lca_data_missing: true
+    name: Chiropractic Tables
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-5-1-3:
+    lca_data_missing: true
+    name: Portable Chiropractic Tables
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-5-1-4:
+    lca_data_missing: true
+    name: Stationary Chiropractic Tables
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-5-2:
+    lca_data_missing: true
+    name: Examination Chairs & Tables
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-5-2-1:
+    lca_data_missing: true
+    name: Examination Chairs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-5-2-1-2:
+    lca_data_missing: true
+    name: Manual Examination Chairs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-5-2-1-4:
+    lca_data_missing: true
+    name: Powered Examination Chairs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-5-2-2:
+    lca_data_missing: true
+    name: Examination Tables
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-5-2-2-1:
+    lca_data_missing: true
+    name: Manual Examination Tables
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-5-2-2-2:
+    lca_data_missing: true
+    name: Powered Examination Tables
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-5-3:
+    lca_data_missing: true
+    name: Homecare & Hospital Beds
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-5-3-2:
+    lca_data_missing: true
+    name: Full-Electric Beds
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-5-3-3:
+    lca_data_missing: true
+    name: Manual Beds
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-5-3-4:
+    lca_data_missing: true
+    name: Semi-Electric Beds
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-5-4:
+    lca_data_missing: true
+    name: Medical Cabinets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-5-4-1:
+    lca_data_missing: true
+    name: Bedside Cabinets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-5-4-2:
+    lca_data_missing: true
+    name: Exam Room Cabinets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-5-5:
+    lca_data_missing: true
+    name: Medical Carts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-5-5-1:
+    lca_data_missing: true
+    name: Crash Carts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-5-5-1-1:
+    lca_data_missing: true
+    name: Anesthesia Crash Carts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-5-5-1-2:
+    lca_data_missing: true
+    name: Emergency Crash Carts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-5-5-1-3:
+    lca_data_missing: true
+    name: Isolation Crash Carts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-5-5-1-4:
+    lca_data_missing: true
+    name: Pediatric Crash Carts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-5-5-2:
+    lca_data_missing: true
+    name: IV Poles & Carts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-5-6:
+    lca_data_missing: true
+    name: Surgical Tables
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-5-6-2:
+    lca_data_missing: true
+    name: General Surgery Surgical Tables
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-5-6-3:
+    lca_data_missing: true
+    name: Orthopedic Surgical Tables
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-6:
+    lca_data_missing: true
+    name: Medical Instruments
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-6-1:
+    lca_data_missing: true
+    name: Medical Forceps
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-6-1-1:
+    lca_data_missing: true
+    name: Dressing Forceps
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-6-1-2:
+    lca_data_missing: true
+    name: Hemostatic Forceps
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-6-1-3:
+    lca_data_missing: true
+    name: Splinter Forceps
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-6-1-4:
+    lca_data_missing: true
+    name: Tissue Forceps
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-6-2:
+    lca_data_missing: true
+    name: Scalpel Blades
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-6-3:
+    lca_data_missing: true
+    name: Scalpels
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-6-4:
+    lca_data_missing: true
+    name: Surgical Needles & Sutures
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-6-4-1:
+    lca_data_missing: true
+    name: Surgical Needles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-6-4-1-1:
+    lca_data_missing: true
+    name: Cutting Surgical Needles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-6-4-1-2:
+    lca_data_missing: true
+    name: Reverse Cutting Surgical Needles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-6-4-1-3:
+    lca_data_missing: true
+    name: Taper Surgical Needles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-6-4-2:
+    lca_data_missing: true
+    name: Surgical Sutures
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-6-4-2-1:
+    lca_data_missing: true
+    name: Absorbable Surgical Sutures
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-6-4-2-2:
+    lca_data_missing: true
+    name: Non-Absorbable Surgical Sutures
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-7:
+    lca_data_missing: true
+    name: Medical Supplies
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-7-1:
+    lca_data_missing: true
+    name: Disposable Gloves
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-7-2:
+    lca_data_missing: true
+    name: Finger Cots
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-7-3:
+    lca_data_missing: true
+    name: Medical Needles & Syringes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-7-3-1:
+    lca_data_missing: true
+    name: Medical Needle & Syringe Sets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-7-3-2:
+    lca_data_missing: true
+    name: Medical Needles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-7-3-3:
+    lca_data_missing: true
+    name: Medical Syringes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-7-4:
+    lca_data_missing: true
+    name: Ostomy Supplies
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-7-4-1:
+    lca_data_missing: true
+    name: Adhesive Removers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-7-4-2:
+    lca_data_missing: true
+    name: Ostomy Bags
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-7-4-3:
+    lca_data_missing: true
+    name: Ostomy Belts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-7-4-4:
+    lca_data_missing: true
+    name: Skin Barriers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-7-5:
+    lca_data_missing: true
+    name: Tongue Depressors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-8:
+    lca_data_missing: true
+    name: Medical Teaching Equipment
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-8-1:
+    lca_data_missing: true
+    name: Medical & Emergency Response Training Mannequins
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-8-1-1:
+    lca_data_missing: true
+    name: Childbirth Training Mannequins
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-8-1-2:
+    lca_data_missing: true
+    name: Choking Training Mannequins
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-8-1-3:
+    lca_data_missing: true
+    name: CPR Training Mannequins
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-8-1-4:
+    lca_data_missing: true
+    name: Trauma Training Mannequins
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-8-2:
+    lca_data_missing: true
+    name: Medical Teaching Equipment Accessories
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-8-2-1:
+    lca_data_missing: true
+    name: Trainer Replacement Parts & Consumables
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-8-2-2:
+    lca_data_missing: true
+    name: Simulator Accessories
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-8-2-3:
+    lca_data_missing: true
+    name: Simulator Carrying Cases & Transport
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-8-2-4:
+    lca_data_missing: true
+    name: Synthetic Tissue Inserts & Replacement Skins
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-8-3:
+    lca_data_missing: true
+    name: Procedure Training Simulators & Task Trainers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-8-4:
+    lca_data_missing: true
+    name: Simulator Kits & Training Bundles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-8-5:
+    lca_data_missing: true
+    name: Synthetic Tissue Models & Training Pads
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-9:
+    lca_data_missing: true
+    name: Scrub Caps
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-19-11:
+    lca_data_missing: true
+    name: Surgical Gowns
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-20:
+    lca_data_missing: true
+    name: Mining & Quarrying
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-20-1:
+    lca_data_missing: true
+    name: Mining & Quarrying Machinery
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-20-1-1:
+    lca_data_missing: true
+    name: Crushers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-20-1-1-1:
+    lca_data_missing: true
+    name: Cone Crushers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-20-1-1-2:
+    lca_data_missing: true
+    name: Gyratory Crushers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-20-1-1-3:
+    lca_data_missing: true
+    name: Impact Crushers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-20-1-1-4:
+    lca_data_missing: true
+    name: Jaw Crushers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-20-1-2:
+    lca_data_missing: true
+    name: Drilling Rigs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-20-2:
+    lca_data_missing: true
+    name: Mining & Quarrying Supplies
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-21:
+    lca_data_missing: true
+    name: Piercing & Tattooing
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-21-1:
+    lca_data_missing: true
+    name: Piercing Supplies
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-21-1-1:
+    lca_data_missing: true
+    name: Piercing Needles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-21-1-1-1:
+    lca_data_missing: true
+    name: Cannula Needles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-21-1-1-2:
+    lca_data_missing: true
+    name: Dermal Punches
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-21-2:
+    lca_data_missing: true
+    name: Tattooing Supplies
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-21-2-1:
+    lca_data_missing: true
+    name: Tattoo Cover-Ups
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-21-2-2:
+    lca_data_missing: true
+    name: Tattooing Inks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-21-2-3:
+    lca_data_missing: true
+    name: Tattooing Machines
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-21-2-3-1:
+    lca_data_missing: true
+    name: Coil Tattooing Machines
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-21-2-3-2:
+    lca_data_missing: true
+    name: Pen Tattooing Machines
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-21-2-3-3:
+    lca_data_missing: true
+    name: Rotary Tattooing Machines
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-21-2-4:
+    lca_data_missing: true
+    name: Tattooing Needles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-21-2-4-1:
+    lca_data_missing: true
+    name: Curved Magnum Tattooing Needles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-21-2-4-2:
+    lca_data_missing: true
+    name: Magnum Tattooing Needles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-21-2-4-3:
+    lca_data_missing: true
+    name: Round Liner Tattooing Needles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-21-2-4-4:
+    lca_data_missing: true
+    name: Round Shader Tattooing Needles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22:
+    lca_data_missing: true
+    name: Retail
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-1:
+    lca_data_missing: true
+    name: Clothing Display Racks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-1-1:
+    lca_data_missing: true
+    name: Four-Way Clothing Display Racks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-1-2:
+    lca_data_missing: true
+    name: Round Clothing Display Racks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-1-3:
+    lca_data_missing: true
+    name: Straight Clothing Display Racks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-1-4:
+    lca_data_missing: true
+    name: Two-Way Clothing Display Racks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-2:
+    lca_data_missing: true
+    name: Display Mannequins
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-2-1:
+    lca_data_missing: true
+    name: Full Body Display Mannequins
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-2-2:
+    lca_data_missing: true
+    name: Head Display Mannequins
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-2-3:
+    lca_data_missing: true
+    name: Leg Display Mannequins
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-2-4:
+    lca_data_missing: true
+    name: Torso Display Mannequins
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-3:
+    lca_data_missing: true
+    name: Mannequin Parts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-3-1:
+    lca_data_missing: true
+    name: Mannequin Arms
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-3-2:
+    lca_data_missing: true
+    name: Mannequin Heads
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-3-3:
+    lca_data_missing: true
+    name: Mannequin Legs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-3-4:
+    lca_data_missing: true
+    name: Mannequin Torsos
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-4:
+    lca_data_missing: true
+    name: Money Handling
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-4-1:
+    lca_data_missing: true
+    name: Banknote Verifiers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-4-2:
+    lca_data_missing: true
+    name: Cash Register & POS Terminal Accessories
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-4-2-1:
+    lca_data_missing: true
+    name: Cash Drawers & Trays
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-4-2-1-2:
+    lca_data_missing: true
+    name: Electronic Cash Drawers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-4-2-1-3:
+    lca_data_missing: true
+    name: Manual Cash Drawers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-4-2-2:
+    lca_data_missing: true
+    name: Credit Card Terminals
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-4-2-3:
+    lca_data_missing: true
+    name: Signature Capture Pads
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-4-3:
+    lca_data_missing: true
+    name: Cash Registers & POS Terminals
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-4-3-1:
+    lca_data_missing: true
+    name: Cash Registers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-4-3-2:
+    lca_data_missing: true
+    name: POS Terminals
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-4-4:
+    lca_data_missing: true
+    name: Coin & Bill Counters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-4-5:
+    lca_data_missing: true
+    name: Money Changers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-4-6:
+    lca_data_missing: true
+    name: Money Deposit Bags
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-4-7:
+    lca_data_missing: true
+    name: Paper Coin Wrappers & Bill Straps
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-5:
+    lca_data_missing: true
+    name: Paper & Plastic Shopping Bags
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-5-1:
+    lca_data_missing: true
+    name: Die Cut Shopping Bags
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-5-2:
+    lca_data_missing: true
+    name: Rigid Handle Shopping Bags
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-5-3:
+    lca_data_missing: true
+    name: Soft Loop Shopping Bags
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-5-4:
+    lca_data_missing: true
+    name: T-Shirt Shopping Bags
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-6:
+    lca_data_missing: true
+    name: Pricing Guns
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-7:
+    lca_data_missing: true
+    name: Retail Display Cases
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-22-8:
+    lca_data_missing: true
+    name: Retail Display Props & Models
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23:
+    lca_data_missing: true
+    name: Science & Laboratory
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-1:
+    lca_data_missing: true
+    name: Biochemicals
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-1-1:
+    lca_data_missing: true
+    name: Buffers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-1-2:
+    lca_data_missing: true
+    name: Detergents
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-1-3:
+    lca_data_missing: true
+    name: Enzymes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-2:
+    lca_data_missing: true
+    name: Dissection Kits
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-2-1:
+    lca_data_missing: true
+    name: Professional Dissection Kits
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-2-2:
+    lca_data_missing: true
+    name: Training Dissection Kits
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-3:
+    lca_data_missing: true
+    name: Laboratory Chemicals
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-3-1:
+    lca_data_missing: true
+    name: Acids
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-3-2:
+    lca_data_missing: true
+    name: Bases
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-3-3:
+    lca_data_missing: true
+    name: Salts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-3-4:
+    lca_data_missing: true
+    name: Solvents
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4:
+    lca_data_missing: true
+    name: Laboratory Equipment
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-1:
+    lca_data_missing: true
+    name: Autoclaves
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-2:
+    lca_data_missing: true
+    name: Centrifuges
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-3:
+    lca_data_missing: true
+    name: Dry Ice Makers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-4:
+    lca_data_missing: true
+    name: Freeze-Drying Machines
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-5:
+    lca_data_missing: true
+    name: Laboratory Blenders
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-6:
+    lca_data_missing: true
+    name: Laboratory Freezers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-7:
+    lca_data_missing: true
+    name: Laboratory Funnels
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-7-1:
+    lca_data_missing: true
+    name: Dropping Laboratory Funnels
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-7-2:
+    lca_data_missing: true
+    name: Filter Laboratory Funnels
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-7-3:
+    lca_data_missing: true
+    name: Powder Laboratory Funnels
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-7-4:
+    lca_data_missing: true
+    name: Separatory Laboratory Funnels
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-8:
+    lca_data_missing: true
+    name: Laboratory Hot Plates
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-9:
+    lca_data_missing: true
+    name: Laboratory Ovens
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-9-1:
+    lca_data_missing: true
+    name: Gravity Convection Laboratory Ovens
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-9-2:
+    lca_data_missing: true
+    name: Mechanical Convection Laboratory Ovens
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-9-3:
+    lca_data_missing: true
+    name: Vacuum Laboratory Ovens
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-10:
+    lca_data_missing: true
+    name: Microscope Accessories
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-10-1:
+    lca_data_missing: true
+    name: Microscope Cameras
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-10-2:
+    lca_data_missing: true
+    name: Microscope Eyepieces & Adapters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-10-2-1:
+    lca_data_missing: true
+    name: Huygenian Eyepieces & Adapters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-10-2-2:
+    lca_data_missing: true
+    name: Kellner Eyepieces & Adapters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-10-2-3:
+    lca_data_missing: true
+    name: Orthoscopic Eyepieces & Adapters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-10-2-4:
+    lca_data_missing: true
+    name: Plössl Eyepieces & Adapters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-10-3:
+    lca_data_missing: true
+    name: Microscope Objective Lenses
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-10-3-1:
+    lca_data_missing: true
+    name: Achromatic Microscope Lenses
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-10-3-2:
+    lca_data_missing: true
+    name: Apochromatic Microscope Lenses
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-10-3-3:
+    lca_data_missing: true
+    name: Fluorite Microscope Lenses
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-10-4:
+    lca_data_missing: true
+    name: Microscope Replacement Bulbs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-10-5:
+    lca_data_missing: true
+    name: Microscope Slides
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-10-5-1:
+    lca_data_missing: true
+    name: Adhesive Microscope Slides
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-10-5-2:
+    lca_data_missing: true
+    name: Charged Microscope Slides
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-10-5-3:
+    lca_data_missing: true
+    name: Frosted Microscope Slides
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-10-5-4:
+    lca_data_missing: true
+    name: Plain Microscope Slides
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-11:
+    lca_data_missing: true
+    name: Microscopes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-11-2:
+    lca_data_missing: true
+    name: Optical Microscopes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-11-3:
+    lca_data_missing: true
+    name: Projection Microscopes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-11-4:
+    lca_data_missing: true
+    name: USB Microscopes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-12:
+    lca_data_missing: true
+    name: Microtomes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-12-1:
+    lca_data_missing: true
+    name: Cryostat Microtomes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-12-2:
+    lca_data_missing: true
+    name: Rotary Microtomes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-12-3:
+    lca_data_missing: true
+    name: Sliding Microtomes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-13:
+    lca_data_missing: true
+    name: Spectrometer Accessories
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-13-1:
+    lca_data_missing: true
+    name: Cuvettes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-13-2:
+    lca_data_missing: true
+    name: Fiber Optic Probes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-14:
+    lca_data_missing: true
+    name: Spectrometers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-14-1:
+    lca_data_missing: true
+    name: Fluorescence Spectrometers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-14-2:
+    lca_data_missing: true
+    name: Fourier Transform Infrared (FT-IR) Spectrometers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-14-3:
+    lca_data_missing: true
+    name: Raman Spectrometers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-4-14-4:
+    lca_data_missing: true
+    name: UV-Vis Spectrometers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-5:
+    lca_data_missing: true
+    name: Laboratory Specimens
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-6:
+    lca_data_missing: true
+    name: Laboratory Supplies
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-6-1:
+    lca_data_missing: true
+    name: Beakers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-6-2:
+    lca_data_missing: true
+    name: Graduated Cylinders
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-6-3:
+    lca_data_missing: true
+    name: Laboratory Flasks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-6-3-1:
+    lca_data_missing: true
+    name: Boiling Laboratory Flasks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-6-3-2:
+    lca_data_missing: true
+    name: Buchner Laboratory Flasks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-6-3-3:
+    lca_data_missing: true
+    name: Erlenmeyer Laboratory Flasks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-6-3-4:
+    lca_data_missing: true
+    name: Volumetric Laboratory Flasks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-6-4:
+    lca_data_missing: true
+    name: Petri Dishes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-6-5:
+    lca_data_missing: true
+    name: Pipettes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-6-5-1:
+    lca_data_missing: true
+    name: Graduated Pipettes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-6-5-2:
+    lca_data_missing: true
+    name: Micropipettes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-6-5-3:
+    lca_data_missing: true
+    name: Volumetric Pipettes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-6-6:
+    lca_data_missing: true
+    name: Test Tube Racks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-6-7:
+    lca_data_missing: true
+    name: Test Tubes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-23-6-8:
+    lca_data_missing: true
+    name: Wash Bottles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-24:
+    lca_data_missing: true
+    name: Signage
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-24-1:
+    lca_data_missing: true
+    name: Business Hour Signs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-24-2:
+    lca_data_missing: true
+    name: Digital Signs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-24-3:
+    lca_data_missing: true
+    name: Electric Signs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-24-3-1:
+    lca_data_missing: true
+    name: LED Signs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-24-3-2:
+    lca_data_missing: true
+    name: Neon Signs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-24-4:
+    lca_data_missing: true
+    name: Emergency & Exit Signs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-24-5:
+    lca_data_missing: true
+    name: Facility Identification Signs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-24-6:
+    lca_data_missing: true
+    name: Open & Closed Signs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-24-7:
+    lca_data_missing: true
+    name: Parking Signs & Permits
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-24-8:
+    lca_data_missing: true
+    name: Policy Signs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-24-9:
+    lca_data_missing: true
+    name: Retail & Sale Signs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-24-10:
+    lca_data_missing: true
+    name: Road & Traffic Signs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-24-11:
+    lca_data_missing: true
+    name: Safety & Warning Signs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-24-12:
+    lca_data_missing: true
+    name: Security Signs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-24-13:
+    lca_data_missing: true
+    name: Sidewalk & Yard Signs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25:
+    lca_data_missing: true
+    name: Work Safety Protective Gear
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-1:
+    lca_data_missing: true
+    name: Bullet Proof Vests
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-2:
+    lca_data_missing: true
+    name: Gas Mask & Respirator Accessories
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-2-1:
+    lca_data_missing: true
+    name: Combination Cartridges
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-2-2:
+    lca_data_missing: true
+    name: Particulate Filters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-2-3:
+    lca_data_missing: true
+    name: Vapor Cartridges
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-3:
+    lca_data_missing: true
+    name: Hardhats
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-4:
+    lca_data_missing: true
+    name: Hazardous Material Suits
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-5:
+    lca_data_missing: true
+    name: Protective Aprons
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-5-1:
+    lca_data_missing: true
+    name: Bib Protective Aprons
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-5-2:
+    lca_data_missing: true
+    name: Cobbler Protective Aprons
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-5-3:
+    lca_data_missing: true
+    name: Waist Protective Aprons
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-6:
+    lca_data_missing: true
+    name: Protective Eyewear
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-6-1:
+    lca_data_missing: true
+    name: Face Shields
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-6-2:
+    lca_data_missing: true
+    name: Goggles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-6-3:
+    lca_data_missing: true
+    name: Safety Glasses
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-7:
+    lca_data_missing: true
+    name: Protective Masks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-7-1:
+    lca_data_missing: true
+    name: Dust Masks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-7-2:
+    lca_data_missing: true
+    name: Fireman's Masks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-7-3:
+    lca_data_missing: true
+    name: Gas Masks & Respirators
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-7-4:
+    lca_data_missing: true
+    name: Medical Masks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-8:
+    lca_data_missing: true
+    name: Safety Gloves
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-8-1:
+    lca_data_missing: true
+    name: Chemical-Resistant Safety Gloves
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-8-2:
+    lca_data_missing: true
+    name: Cut-Resistant Safety Gloves
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-8-3:
+    lca_data_missing: true
+    name: Electrical-Resistant Safety Gloves
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-8-4:
+    lca_data_missing: true
+    name: Heat-Resistant Safety Gloves
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-9:
+    lca_data_missing: true
+    name: Safety Knee Pads
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-10:
+    lca_data_missing: true
+    name: Welding Helmets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-11:
+    lca_data_missing: true
+    name: Work Safety Harnesses
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-11-1:
+    lca_data_missing: true
+    name: Cross-Chest Work Safety Harnesses
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-11-2:
+    lca_data_missing: true
+    name: Full-Body Work Safety Harnesses
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-11-3:
+    lca_data_missing: true
+    name: Vest-Style Work Safety Harnesses
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-12:
+    lca_data_missing: true
+    name: Work Safety Tethers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-12-1:
+    lca_data_missing: true
+    name: Anchorage Work Safety Tethers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-12-2:
+    lca_data_missing: true
+    name: Tool Belt Work Safety Tethers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-12-3:
+    lca_data_missing: true
+    name: Wrist Work Safety Tethers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  bi-25-13:
+    lca_data_missing: true
+    name: Safety Boots
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Vertical-level default estimate
+      min_g: 50

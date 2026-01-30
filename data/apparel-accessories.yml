@@ -1,362 +1,817 @@
 schema_version: 0.1.0
-last_updated: '2026-01-29'
+last_updated: '2026-01-30'
 categories:
+  aa:
+    lca_data_missing: true
+    name: Apparel & Accessories
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 20
   aa-1:
+    lca_data_missing: true
     name: Clothing
     notes: Parent category - use subcategories for more accurate estimates
     weight:
-      estimate_g: 350
-      min_g: 50
-      max_g: 2000
       confidence: low
+      estimate_g: 350
+      max_g: 2000
       methodology: Broad average across all clothing types
-    lca_data_missing: true
+      min_g: 50
   aa-1-1:
-    name: Activewear
-    weight:
-      estimate_g: 250
-      min_g: 100
-      max_g: 500
-      confidence: medium
     lca:
       carbon_kg_co2e_per_kg: 21.0
-      scope: cradle-to-gate
-      methodology: Based on polyester/elastane blend averages
       data_quality: secondary
+      methodology: Based on polyester/elastane blend averages
+      scope: cradle-to-gate
     materials:
-      primary_material: synthetic
       breakdown:
       - material: polyester
         percentage: 85
       - material: elastane
         percentage: 15
+      primary_material: synthetic
+    name: Activewear
     sources:
     - Higg MSI Database
     - WRAP Textiles 2023
-  aa-1-1-1-1:
-    name: Joggers
     weight:
-      estimate_g: 400
-      min_g: 280
-      max_g: 600
-      confidence: high
+      confidence: medium
+      estimate_g: 250
+      max_g: 500
+      min_g: 100
+  aa-1-1-1:
+    lca_data_missing: true
+    name: Activewear Pants
+    weight:
+      confidence: low
+      estimate_g: 250
+      max_g: 500
+      methodology: Inherited from parent category (aa-1-1)
+      min_g: 100
+  aa-1-1-1-1:
+    lca_data_missing: true
     materials:
-      primary_material: cotton
       breakdown:
       - material: cotton
         percentage: 60
       - material: polyester
         percentage: 40
-    lca_data_missing: true
+      primary_material: cotton
+    name: Joggers
+    weight:
+      confidence: high
+      estimate_g: 400
+      max_g: 600
+      min_g: 280
   aa-1-1-1-2:
+    lca_data_missing: true
     name: Leggings
     weight:
-      estimate_g: 220
-      min_g: 150
-      max_g: 350
       confidence: high
-    lca_data_missing: true
+      estimate_g: 220
+      max_g: 350
+      min_g: 150
   aa-1-1-1-3:
+    lca_data_missing: true
     name: Shorts
     weight:
-      estimate_g: 150
-      min_g: 80
-      max_g: 250
       confidence: high
+      estimate_g: 150
+      max_g: 250
+      min_g: 80
+  aa-1-1-1-4:
     lca_data_missing: true
+    name: Sweatpants
+    weight:
+      confidence: low
+      estimate_g: 250
+      max_g: 500
+      methodology: Inherited from parent category (aa-1-1)
+      min_g: 100
+  aa-1-1-1-5:
+    lca_data_missing: true
+    name: Tights
+    weight:
+      confidence: low
+      estimate_g: 250
+      max_g: 500
+      methodology: Inherited from parent category (aa-1-1)
+      min_g: 100
+  aa-1-1-1-6:
+    lca_data_missing: true
+    name: Track Pants
+    weight:
+      confidence: low
+      estimate_g: 250
+      max_g: 500
+      methodology: Inherited from parent category (aa-1-1)
+      min_g: 100
+  aa-1-1-1-7:
+    lca_data_missing: true
+    name: Training Pants
+    weight:
+      confidence: low
+      estimate_g: 250
+      max_g: 500
+      methodology: Inherited from parent category (aa-1-1)
+      min_g: 100
+  aa-1-1-1-8:
+    lca_data_missing: true
+    name: Wind Pants
+    weight:
+      confidence: low
+      estimate_g: 250
+      max_g: 500
+      methodology: Inherited from parent category (aa-1-1)
+      min_g: 100
   aa-1-1-2:
+    lca_data_missing: true
     name: Activewear Tops
     weight:
-      estimate_g: 180
-      min_g: 100
-      max_g: 300
       confidence: high
-    lca_data_missing: true
+      estimate_g: 180
+      max_g: 300
+      min_g: 100
   aa-1-1-2-1:
+    lca_data_missing: true
     name: Crop Tops
     weight:
-      estimate_g: 100
-      min_g: 60
-      max_g: 180
       confidence: high
+      estimate_g: 100
+      max_g: 180
+      min_g: 60
+  aa-1-1-2-2:
     lca_data_missing: true
+    name: T-Shirts
+    weight:
+      confidence: low
+      estimate_g: 180
+      max_g: 300
+      methodology: Inherited from parent category (aa-1-1-2)
+      min_g: 100
   aa-1-1-2-3:
+    lca_data_missing: true
     name: Tank Tops
     weight:
-      estimate_g: 120
-      min_g: 70
-      max_g: 200
       confidence: high
+      estimate_g: 120
+      max_g: 200
+      min_g: 70
+  aa-1-1-4:
     lca_data_missing: true
+    name: Boxing Shorts
+    weight:
+      confidence: low
+      estimate_g: 250
+      max_g: 500
+      methodology: Inherited from parent category (aa-1-1)
+      min_g: 100
+  aa-1-1-5:
+    lca_data_missing: true
+    name: Dance Dresses, Skirts & Costumes
+    weight:
+      confidence: low
+      estimate_g: 250
+      max_g: 500
+      methodology: Inherited from parent category (aa-1-1)
+      min_g: 100
   aa-1-1-6:
+    lca_data_missing: true
     name: Sports Bras
     weight:
+      confidence: high
       estimate_g: 100
-      min_g: 60
       max_g: 180
-      confidence: high
+      min_g: 60
+  aa-1-1-7:
     lca_data_missing: true
-  aa-1-1-7-2:
-    name: Hoodies
+    name: Activewear Sweatshirts & Hoodies
     weight:
-      estimate_g: 500
-      min_g: 350
-      max_g: 800
-      confidence: high
+      confidence: low
+      estimate_g: 250
+      max_g: 500
+      methodology: Inherited from parent category (aa-1-1)
+      min_g: 100
+  aa-1-1-7-2:
+    lca_data_missing: true
     materials:
-      primary_material: cotton
       breakdown:
       - material: cotton
         percentage: 80
       - material: polyester
         percentage: 20
+      primary_material: cotton
+    name: Hoodies
+    weight:
+      confidence: high
+      estimate_g: 500
+      max_g: 800
+      min_g: 350
+  aa-1-1-7-4:
     lca_data_missing: true
+    name: Sweatshirts
+    weight:
+      confidence: low
+      estimate_g: 250
+      max_g: 500
+      methodology: Inherited from parent category (aa-1-1)
+      min_g: 100
+  aa-1-1-7-5:
+    lca_data_missing: true
+    name: Track Jackets
+    weight:
+      confidence: low
+      estimate_g: 250
+      max_g: 500
+      methodology: Inherited from parent category (aa-1-1)
+      min_g: 100
+  aa-1-1-8:
+    lca_data_missing: true
+    name: Activewear Vests & Jackets
+    weight:
+      confidence: low
+      estimate_g: 250
+      max_g: 500
+      methodology: Inherited from parent category (aa-1-1)
+      min_g: 100
   aa-1-1-8-1:
+    lca_data_missing: true
     name: Vests
     weight:
+      confidence: medium
       estimate_g: 400
-      min_g: 200
       max_g: 800
-      confidence: medium
-    lca_data_missing: true
+      min_g: 200
   aa-1-1-8-2:
-    name: Jackets
-    weight:
-      estimate_g: 1500
-      min_g: 1000
-      max_g: 2500
-      confidence: medium
     lca:
       carbon_kg_co2e_per_kg: 45.0
       carbon_kg_co2e_per_unit: 67.5
-      scope: cradle-to-gate
       data_quality: secondary
+      scope: cradle-to-gate
     materials:
       primary_material: leather
+    name: Jackets
+    notes: Leather has high footprint; faux leather ~60% lower
     sources:
     - Leather Working Group data
-    notes: Leather has high footprint; faux leather ~60% lower
-  aa-1-10:
-    name: Outerwear
     weight:
-      estimate_g: 900
-      min_g: 300
-      max_g: 2500
       confidence: medium
-    notes: High variance - down jackets lighter, winter coats heavier
-    lca_data_missing: true
-  aa-1-12:
-    name: Pants
-    weight:
-      estimate_g: 500
-      min_g: 200
-      max_g: 900
-      confidence: high
-    materials:
-      primary_material: cotton
-      breakdown:
-      - material: cotton
-        percentage: 70
-      - material: polyester
-        percentage: 25
-      - material: elastane
-        percentage: 5
-    lca_data_missing: true
-  aa-1-12-2:
-    name: Cargo Pants
-    weight:
-      estimate_g: 600
-      min_g: 450
-      max_g: 800
-      confidence: high
-    lca_data_missing: true
-  aa-1-13:
-    name: Clothing Tops
-    weight:
-      estimate_g: 200
-      min_g: 80
-      max_g: 450
-      confidence: medium
-    lca_data_missing: true
-  aa-1-13-1:
-    name: Blouses
-    weight:
-      estimate_g: 180
-      min_g: 100
-      max_g: 300
-      confidence: medium
-    lca_data_missing: true
-  aa-1-13-8:
-    name: T-Shirts
-    weight:
-      estimate_g: 180
-      min_g: 120
-      max_g: 280
-      confidence: high
-      methodology: Based on standard adult cotton t-shirts
-    lca:
-      carbon_kg_co2e_per_kg: 8.0
-      carbon_kg_co2e_per_unit: 1.44
-      scope: cradle-to-gate
-      production:
-        raw_materials_kg_co2e: 5.2
-        manufacturing_kg_co2e: 2.3
-        packaging_kg_co2e: 0.5
-      methodology: Cotton cultivation + textile production
-      data_quality: secondary
-    materials:
-      primary_material: cotton
-      breakdown:
-      - material: cotton
-        percentage: 100
-    sources:
-    - Carbon Trust Clothing Footprint Study
-    - WRAP UK Textiles Data
-  aa-1-14-5:
-    name: Denim Shorts
-    weight:
-      estimate_g: 350
-      min_g: 250
-      max_g: 500
-      confidence: high
-    lca_data_missing: true
-  aa-1-17:
-    name: Sleepwear & Loungewear
-    weight:
-      estimate_g: 300
-      min_g: 150
-      max_g: 600
-      confidence: medium
-    materials:
-      primary_material: cotton
-    lca_data_missing: true
-  aa-1-17-2:
-    name: Loungewear
-    weight:
-      estimate_g: 300
-      min_g: 150
-      max_g: 600
-      confidence: medium
-    materials:
-      primary_material: cotton
-      breakdown:
-      - material: cotton
-        percentage: 70
-      - material: polyester
-        percentage: 30
-    lca_data_missing: true
-  aa-1-17-4:
-    name: Pajamas
-    weight:
-      estimate_g: 350
-      min_g: 200
-      max_g: 600
-      confidence: medium
-    lca_data_missing: true
-  aa-1-17-5:
-    name: Robes
-    weight:
-      estimate_g: 600
-      min_g: 350
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-  aa-1-18:
-    name: Socks
-    weight:
-      estimate_g: 60
-      min_g: 20
-      max_g: 150
-      confidence: high
-    materials:
-      primary_material: cotton
-      breakdown:
-      - material: cotton
-        percentage: 80
-      - material: elastane
-        percentage: 20
-    lca_data_missing: true
-  aa-1-19:
-    name: Suits
-    weight:
       estimate_g: 1500
-      min_g: 1000
       max_g: 2500
-      confidence: medium
-      methodology: Full suit (jacket + pants)
-    materials:
-      primary_material: wool_blend
+      min_g: 1000
+  aa-1-1-9:
     lca_data_missing: true
-  aa-1-2-1-11:
-    name: Skirts
+    name: Leotards & Unitards
     weight:
+      confidence: low
       estimate_g: 250
+      max_g: 500
+      methodology: Inherited from parent category (aa-1-1)
       min_g: 100
-      max_g: 600
-      confidence: medium
+  aa-1-2:
     lca_data_missing: true
+    name: Baby & Toddler Clothing
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-1:
+    lca_data_missing: true
+    name: Baby & Toddler Bottoms
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-1-2:
+    lca_data_missing: true
+    name: Cargos
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
   aa-1-2-1-3:
+    lca_data_missing: true
     name: Chinos
     weight:
+      confidence: high
       estimate_g: 450
-      min_g: 350
       max_g: 600
-      confidence: high
-    lca_data_missing: true
+      min_g: 350
   aa-1-2-1-4:
-    name: Jeans
-    weight:
-      estimate_g: 600
-      min_g: 400
-      max_g: 1000
-      confidence: high
     lca:
       carbon_kg_co2e_per_kg: 15.0
       carbon_kg_co2e_per_unit: 9.0
-      scope: cradle-to-gate
       data_quality: secondary
+      scope: cradle-to-gate
     materials:
-      primary_material: cotton
       breakdown:
       - material: cotton
         percentage: 98
       - material: elastane
         percentage: 2
+      primary_material: cotton
+    name: Jeans
     sources:
     - Levi's Product Environmental Footprint
-  aa-1-2-4-17-15:
-    name: Windbreakers
     weight:
-      estimate_g: 300
-      min_g: 150
-      max_g: 500
       confidence: high
+      estimate_g: 600
+      max_g: 1000
+      min_g: 400
+  aa-1-2-1-5:
     lca_data_missing: true
+    name: Jeggings
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-1-7:
+    lca_data_missing: true
+    name: Joggers
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-1-8:
+    lca_data_missing: true
+    name: Leggings
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-1-11:
+    lca_data_missing: true
+    name: Skirts
+    weight:
+      confidence: medium
+      estimate_g: 250
+      max_g: 600
+      min_g: 100
+  aa-1-2-1-12:
+    lca_data_missing: true
+    name: Skorts
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-1-13:
+    lca_data_missing: true
+    name: Sweatpants
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-1-14:
+    lca_data_missing: true
+    name: Trousers
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-2:
+    lca_data_missing: true
+    name: Baby & Toddler Diaper Covers
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-3:
+    lca_data_missing: true
+    name: Baby & Toddler Dresses
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-4:
+    lca_data_missing: true
+    name: Baby & Toddler Outerwear
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-4-17:
+    lca_data_missing: true
+    name: Baby & Toddler Coats & Jackets
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-4-17-1:
+    lca_data_missing: true
+    name: Bolero Jackets
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-4-17-2:
+    lca_data_missing: true
+    name: Bomber Jackets
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-4-17-3:
+    lca_data_missing: true
+    name: Capes
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-4-17-4:
+    lca_data_missing: true
+    name: Motorcycle Outerwear
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
   aa-1-2-4-17-5:
+    lca_data_missing: true
     name: Overcoats
     weight:
-      estimate_g: 1200
-      min_g: 700
-      max_g: 2500
       confidence: medium
-    lca_data_missing: true
+      estimate_g: 1200
+      max_g: 2500
+      min_g: 700
   aa-1-2-4-17-6:
+    lca_data_missing: true
     name: Parkas
     weight:
+      confidence: medium
       estimate_g: 1500
-      min_g: 900
       max_g: 2500
-      confidence: medium
+      min_g: 900
+  aa-1-2-4-17-7:
     lca_data_missing: true
-  aa-1-2-9-12:
-    name: Sweaters
+    name: Pea Coats
     weight:
-      estimate_g: 400
-      min_g: 250
-      max_g: 700
-      confidence: medium
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-4-17-8:
+    lca_data_missing: true
+    name: Ponchos
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-4-17-9:
+    lca_data_missing: true
+    name: Puffer Jackets
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-4-17-10:
+    lca_data_missing: true
+    name: Rain Coats
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-4-17-11:
+    lca_data_missing: true
+    name: Sport Jackets
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-4-17-12:
+    lca_data_missing: true
+    name: Track Jackets
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-4-17-13:
+    lca_data_missing: true
+    name: Trench Coats
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-4-17-14:
+    lca_data_missing: true
+    name: Trucker Jackets
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-4-17-15:
+    lca_data_missing: true
+    name: Windbreakers
+    weight:
+      confidence: high
+      estimate_g: 300
+      max_g: 500
+      min_g: 150
+  aa-1-2-4-17-16:
+    lca_data_missing: true
+    name: Wrap Coats
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-4-18:
+    lca_data_missing: true
+    name: Snow Pants & Suits
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-5:
+    lca_data_missing: true
+    name: Baby & Toddler Outfits
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-6:
+    lca_data_missing: true
+    name: Baby & Toddler Sleepwear
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-7:
+    lca_data_missing: true
+    name: Baby & Toddler Socks & Tights
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-8:
+    lca_data_missing: true
+    name: Baby & Toddler Swimwear
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-8-2:
+    lca_data_missing: true
+    name: Burkinis
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-8-3:
+    lca_data_missing: true
+    name: Classic Bikinis
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-8-4:
+    lca_data_missing: true
+    name: Cover Ups
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-8-9:
+    lca_data_missing: true
+    name: Rash Guards
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-8-10:
+    lca_data_missing: true
+    name: Skirtinis
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-8-13:
+    lca_data_missing: true
+    name: Swim Boxers
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-8-14:
+    lca_data_missing: true
+    name: Swim Briefs
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-8-15:
+    lca_data_missing: true
+    name: Swim Dresses
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-8-16:
+    lca_data_missing: true
+    name: Swim Jammers
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-8-17:
+    lca_data_missing: true
+    name: Swim Trunks
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-8-22:
+    lca_data_missing: true
+    name: One-Piece Swimsuits
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-8-23:
+    lca_data_missing: true
+    name: Surf Tops
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-8-24:
+    lca_data_missing: true
+    name: Swimwear Tops
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-9:
+    lca_data_missing: true
+    name: Baby & Toddler Tops
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-9-2:
+    lca_data_missing: true
+    name: Bodysuits
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-9-3:
+    lca_data_missing: true
+    name: Cardigans
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-9-4:
+    lca_data_missing: true
+    name: Overshirts
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-9-5:
+    lca_data_missing: true
     materials:
-      primary_material: wool_blend
+      primary_material: cotton
+    name: Polos
+    weight:
+      confidence: high
+      estimate_g: 220
+      max_g: 320
+      min_g: 150
+  aa-1-2-9-6:
+    lca_data_missing: true
+    name: Shirts
+    weight:
+      confidence: high
+      estimate_g: 250
+      max_g: 350
+      min_g: 180
+  aa-1-2-9-7:
+    lca_data_missing: true
+    name: T-Shirts
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-9-10:
+    lca_data_missing: true
+    name: Tunics
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-9-11:
+    lca_data_missing: true
+    name: Hoodies
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-9-12:
+    lca_data_missing: true
+    materials:
       breakdown:
       - material: wool
         percentage: 40
@@ -364,65 +819,168 @@ categories:
         percentage: 40
       - material: other
         percentage: 20
-    lca_data_missing: true
-  aa-1-2-9-5:
-    name: Polos
+      primary_material: wool_blend
+    name: Sweaters
     weight:
-      estimate_g: 220
-      min_g: 150
-      max_g: 320
-      confidence: high
-    materials:
-      primary_material: cotton
-    lca_data_missing: true
-  aa-1-2-9-6:
-    name: Shirts
-    weight:
-      estimate_g: 250
-      min_g: 180
-      max_g: 350
-      confidence: high
-    lca_data_missing: true
-  aa-1-20:
-    name: Swimwear
-    weight:
-      estimate_g: 150
-      min_g: 80
-      max_g: 300
       confidence: medium
-    materials:
-      primary_material: synthetic
-      breakdown:
-      - material: nylon
-        percentage: 80
-      - material: elastane
-        percentage: 20
-    lca_data_missing: true
-  aa-1-24:
-    name: Uniforms & Workwear
-    weight:
-      estimate_g: 500
+      estimate_g: 400
+      max_g: 700
       min_g: 250
-      max_g: 1200
-      confidence: low
+  aa-1-2-9-13:
     lca_data_missing: true
+    name: Sweatshirts
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-10:
+    lca_data_missing: true
+    name: Baby One-Pieces
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-11:
+    lca_data_missing: true
+    name: Toddler Underwear
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-11-1:
+    lca_data_missing: true
+    name: Boxer Briefs
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-11-2:
+    lca_data_missing: true
+    name: Boxers
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-11-3:
+    lca_data_missing: true
+    name: Briefs
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-11-4:
+    lca_data_missing: true
+    name: Panties
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-2-11-5:
+    lca_data_missing: true
+    name: Training Pants
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
   aa-1-3:
+    lca_data_missing: true
     name: Boys' Underwear
     weight:
-      estimate_g: 40
-      min_g: 20
-      max_g: 80
       confidence: high
+      estimate_g: 40
+      max_g: 80
+      min_g: 20
+  aa-1-3-1:
     lca_data_missing: true
-  aa-1-4:
-    name: Dresses
+    name: Boys' Long Johns
     weight:
-      estimate_g: 400
-      min_g: 150
-      max_g: 1200
-      confidence: medium
+      confidence: low
+      estimate_g: 40
+      max_g: 80
+      methodology: Inherited from parent category (aa-1-3)
+      min_g: 20
+  aa-1-3-2:
+    lca_data_missing: true
+    name: Boys' Underpants
+    weight:
+      confidence: low
+      estimate_g: 40
+      max_g: 80
+      methodology: Inherited from parent category (aa-1-3)
+      min_g: 20
+  aa-1-3-2-1:
+    lca_data_missing: true
+    name: Boxer Briefs
+    weight:
+      confidence: low
+      estimate_g: 40
+      max_g: 80
+      methodology: Inherited from parent category (aa-1-3)
+      min_g: 20
+  aa-1-3-2-2:
+    lca_data_missing: true
+    name: Boxer Shorts
+    weight:
+      confidence: low
+      estimate_g: 40
+      max_g: 80
+      methodology: Inherited from parent category (aa-1-3)
+      min_g: 20
+  aa-1-3-2-3:
+    lca_data_missing: true
+    name: Briefs
+    weight:
+      confidence: low
+      estimate_g: 40
+      max_g: 80
+      methodology: Inherited from parent category (aa-1-3)
+      min_g: 20
+  aa-1-3-2-4:
+    lca_data_missing: true
+    name: Midway Briefs
+    weight:
+      confidence: low
+      estimate_g: 40
+      max_g: 80
+      methodology: Inherited from parent category (aa-1-3)
+      min_g: 20
+  aa-1-3-2-5:
+    lca_data_missing: true
+    name: Trunks
+    weight:
+      confidence: low
+      estimate_g: 40
+      max_g: 80
+      methodology: Inherited from parent category (aa-1-3)
+      min_g: 20
+  aa-1-3-3:
+    lca_data_missing: true
+    name: Boys' Undershirts
+    weight:
+      confidence: low
+      estimate_g: 40
+      max_g: 80
+      methodology: Inherited from parent category (aa-1-3)
+      min_g: 20
+  aa-1-4:
+    lca_data_missing: true
     materials:
-      primary_material: mixed
       breakdown:
       - material: cotton
         percentage: 50
@@ -430,107 +988,2449 @@ categories:
         percentage: 40
       - material: other
         percentage: 10
+      primary_material: mixed
+    name: Dresses
+    weight:
+      confidence: medium
+      estimate_g: 400
+      max_g: 1200
+      min_g: 150
+  aa-1-5:
     lca_data_missing: true
+    name: Girls' Underwear
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-5-1:
+    lca_data_missing: true
+    name: Girls' Long Johns
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-5-2:
+    lca_data_missing: true
+    name: Girls' Underpants
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-5-2-1:
+    lca_data_missing: true
+    name: Bikinis
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-5-2-2:
+    lca_data_missing: true
+    name: Boxer Briefs
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-5-2-3:
+    lca_data_missing: true
+    name: Boyshorts
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-5-2-4:
+    lca_data_missing: true
+    name: Briefs
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-5-2-5:
+    lca_data_missing: true
+    name: Hipsters
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-5-2-6:
+    lca_data_missing: true
+    name: Panties
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-5-2-7:
+    lca_data_missing: true
+    name: Period Underwear
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-5-2-8:
+    lca_data_missing: true
+    name: Thongs
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-5-3:
+    lca_data_missing: true
+    name: Girls' Undershirts
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-5-3-2:
+    lca_data_missing: true
+    name: First Bras
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6:
+    lca_data_missing: true
+    name: Lingerie
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6-1:
+    lca_data_missing: true
+    name: Bodysuits
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6-2:
+    lca_data_missing: true
+    name: Bra Accessories
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6-2-1:
+    lca_data_missing: true
+    name: Bra Strap Pads
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6-2-2:
+    lca_data_missing: true
+    name: Bra Straps & Extenders
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6-2-3:
+    lca_data_missing: true
+    name: Breast Enhancing Inserts
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6-2-4:
+    lca_data_missing: true
+    name: Breast Petals & Concealers
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
   aa-1-6-3:
+    lca_data_missing: true
     name: Bras
     weight:
-      estimate_g: 80
-      min_g: 40
-      max_g: 150
       confidence: high
+      estimate_g: 80
+      max_g: 150
+      min_g: 40
+  aa-1-6-4:
     lca_data_missing: true
+    name: Camisoles
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6-6:
+    lca_data_missing: true
+    name: Hosiery
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6-7:
+    lca_data_missing: true
+    name: Jock Straps
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6-8:
+    lca_data_missing: true
+    name: Lingerie Accessories
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6-8-1:
+    lca_data_missing: true
+    name: Garter Belts
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6-8-2:
+    lca_data_missing: true
+    name: Garters
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6-8-3:
+    lca_data_missing: true
+    name: Pantyhose
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6-9:
+    lca_data_missing: true
+    name: Petticoats & Pettipants
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6-10:
+    lca_data_missing: true
+    name: Shapewear
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6-10-1:
+    lca_data_missing: true
+    name: Bodysuits
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6-10-2:
+    lca_data_missing: true
+    name: Full Body Shapes
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6-10-3:
+    lca_data_missing: true
+    name: High Waisted Briefs
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6-10-4:
+    lca_data_missing: true
+    name: Thigh Slimmers
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6-10-5:
+    lca_data_missing: true
+    name: Waist Cinchers
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6-11:
+    lca_data_missing: true
+    name: Women's Underpants
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6-11-1:
+    lca_data_missing: true
+    name: Bikinis
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6-11-2:
+    lca_data_missing: true
+    name: Boyshorts
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6-11-3:
+    lca_data_missing: true
+    name: Briefs
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6-11-4:
+    lca_data_missing: true
+    name: G-Strings
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6-11-5:
+    lca_data_missing: true
+    name: Period Underwear
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6-11-6:
+    lca_data_missing: true
+    name: Thongs
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6-12:
+    lca_data_missing: true
+    name: Women's Undershirts
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-6-13:
+    lca_data_missing: true
+    name: Women's Underwear Slips
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7:
+    lca_data_missing: true
+    name: Maternity Clothing
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-1:
+    lca_data_missing: true
+    name: Nursing Bras
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-2:
+    lca_data_missing: true
+    name: Maternity Dresses
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-3:
+    lca_data_missing: true
+    name: Maternity One-Pieces
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-4:
+    lca_data_missing: true
+    name: Maternity Pants
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-4-2:
+    lca_data_missing: true
+    name: Cargos
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-4-3:
+    lca_data_missing: true
+    name: Chinos
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-4-4:
+    lca_data_missing: true
+    name: Jeans
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-4-5:
+    lca_data_missing: true
+    name: Jeggings
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-4-7:
+    lca_data_missing: true
+    name: Joggers
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-4-8:
+    lca_data_missing: true
+    name: Leggings
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-4-11:
+    lca_data_missing: true
+    name: Skorts
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-4-12:
+    lca_data_missing: true
+    name: Trousers
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-5:
+    lca_data_missing: true
+    name: Maternity Skirts
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-6:
+    lca_data_missing: true
+    name: Maternity Sleepwear
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-7:
+    lca_data_missing: true
+    name: Maternity Swimwear
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-7-2:
+    lca_data_missing: true
+    name: Swim Boxers
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-7-4:
+    lca_data_missing: true
+    name: Burkinis
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-7-5:
+    lca_data_missing: true
+    name: Classic Bikinis
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-7-6:
+    lca_data_missing: true
+    name: Cover Ups
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-7-14:
+    lca_data_missing: true
+    name: Swim Dresses
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-7-20:
+    lca_data_missing: true
+    name: One-Piece Swimsuits
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-7-21:
+    lca_data_missing: true
+    name: Swimwear Tops
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-8:
+    lca_data_missing: true
+    name: Maternity Tops
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-8-1:
+    lca_data_missing: true
+    name: Blouses
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-8-2:
+    lca_data_missing: true
+    name: Bodysuits
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-8-3:
+    lca_data_missing: true
+    name: Cardigans
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-8-4:
+    lca_data_missing: true
+    name: Nursing Shirts
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-8-5:
+    lca_data_missing: true
+    name: Overshirts
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-8-7:
+    lca_data_missing: true
+    name: Shirts
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-8-8:
+    lca_data_missing: true
+    name: T-Shirts
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-7-8-11:
+    lca_data_missing: true
+    name: Tunics
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-8:
+    lca_data_missing: true
+    name: Men's Undergarments
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-8-1:
+    lca_data_missing: true
+    name: Men's Long Johns
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-8-2:
+    lca_data_missing: true
+    name: Men's Undershirts
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-8-3:
+    lca_data_missing: true
+    name: Men's Underwear
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-8-3-2:
+    lca_data_missing: true
+    name: Boxer Briefs
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-8-3-3:
+    lca_data_missing: true
+    name: Boxer Shorts
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-8-3-4:
+    lca_data_missing: true
+    name: Briefs
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-8-3-5:
+    lca_data_missing: true
+    name: Jockstraps
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-8-3-6:
+    lca_data_missing: true
+    name: Midway Briefs
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-8-3-7:
+    lca_data_missing: true
+    name: Thongs
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-8-3-8:
+    lca_data_missing: true
+    name: Trunks
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-8-3-9:
+    lca_data_missing: true
+    name: Undershorts
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
   aa-1-9:
+    lca_data_missing: true
     name: One-Pieces
     weight:
-      estimate_g: 450
-      min_g: 200
-      max_g: 800
       confidence: medium
+      estimate_g: 450
+      max_g: 800
+      min_g: 200
+  aa-1-10:
     lca_data_missing: true
+    name: Outerwear
+    notes: High variance - down jackets lighter, winter coats heavier
+    weight:
+      confidence: medium
+      estimate_g: 900
+      max_g: 2500
+      min_g: 300
+  aa-1-10-1:
+    lca_data_missing: true
+    name: Chaps
+    weight:
+      confidence: low
+      estimate_g: 900
+      max_g: 2500
+      methodology: Inherited from parent category (aa-1-10)
+      min_g: 300
+  aa-1-10-2:
+    lca_data_missing: true
+    name: Coats & Jackets
+    weight:
+      confidence: low
+      estimate_g: 900
+      max_g: 2500
+      methodology: Inherited from parent category (aa-1-10)
+      min_g: 300
+  aa-1-10-2-1:
+    lca_data_missing: true
+    name: Bolero Jackets
+    weight:
+      confidence: low
+      estimate_g: 900
+      max_g: 2500
+      methodology: Inherited from parent category (aa-1-10)
+      min_g: 300
+  aa-1-10-2-2:
+    lca_data_missing: true
+    name: Bomber Jackets
+    weight:
+      confidence: low
+      estimate_g: 900
+      max_g: 2500
+      methodology: Inherited from parent category (aa-1-10)
+      min_g: 300
+  aa-1-10-2-3:
+    lca_data_missing: true
+    name: Capes
+    weight:
+      confidence: low
+      estimate_g: 900
+      max_g: 2500
+      methodology: Inherited from parent category (aa-1-10)
+      min_g: 300
+  aa-1-10-2-5:
+    lca_data_missing: true
+    name: Overcoats
+    weight:
+      confidence: low
+      estimate_g: 900
+      max_g: 2500
+      methodology: Inherited from parent category (aa-1-10)
+      min_g: 300
+  aa-1-10-2-6:
+    lca_data_missing: true
+    name: Parkas
+    weight:
+      confidence: low
+      estimate_g: 900
+      max_g: 2500
+      methodology: Inherited from parent category (aa-1-10)
+      min_g: 300
+  aa-1-10-2-7:
+    lca_data_missing: true
+    name: Pea Coats
+    weight:
+      confidence: low
+      estimate_g: 900
+      max_g: 2500
+      methodology: Inherited from parent category (aa-1-10)
+      min_g: 300
+  aa-1-10-2-8:
+    lca_data_missing: true
+    name: Ponchos
+    weight:
+      confidence: low
+      estimate_g: 900
+      max_g: 2500
+      methodology: Inherited from parent category (aa-1-10)
+      min_g: 300
+  aa-1-10-2-9:
+    lca_data_missing: true
+    name: Puffer Jackets
+    weight:
+      confidence: low
+      estimate_g: 900
+      max_g: 2500
+      methodology: Inherited from parent category (aa-1-10)
+      min_g: 300
+  aa-1-10-2-10:
+    lca_data_missing: true
+    name: Rain Coats
+    weight:
+      confidence: low
+      estimate_g: 900
+      max_g: 2500
+      methodology: Inherited from parent category (aa-1-10)
+      min_g: 300
+  aa-1-10-2-11:
+    lca_data_missing: true
+    name: Sport Jackets
+    weight:
+      confidence: low
+      estimate_g: 900
+      max_g: 2500
+      methodology: Inherited from parent category (aa-1-10)
+      min_g: 300
+  aa-1-10-2-12:
+    lca_data_missing: true
+    name: Track Jackets
+    weight:
+      confidence: low
+      estimate_g: 900
+      max_g: 2500
+      methodology: Inherited from parent category (aa-1-10)
+      min_g: 300
+  aa-1-10-2-13:
+    lca_data_missing: true
+    name: Trench Coats
+    weight:
+      confidence: low
+      estimate_g: 900
+      max_g: 2500
+      methodology: Inherited from parent category (aa-1-10)
+      min_g: 300
+  aa-1-10-2-14:
+    lca_data_missing: true
+    name: Trucker Jackets
+    weight:
+      confidence: low
+      estimate_g: 900
+      max_g: 2500
+      methodology: Inherited from parent category (aa-1-10)
+      min_g: 300
+  aa-1-10-2-15:
+    lca_data_missing: true
+    name: Varsity Jackets
+    weight:
+      confidence: low
+      estimate_g: 900
+      max_g: 2500
+      methodology: Inherited from parent category (aa-1-10)
+      min_g: 300
+  aa-1-10-2-16:
+    lca_data_missing: true
+    name: Windbreakers
+    weight:
+      confidence: low
+      estimate_g: 900
+      max_g: 2500
+      methodology: Inherited from parent category (aa-1-10)
+      min_g: 300
+  aa-1-10-2-17:
+    lca_data_missing: true
+    name: Wrap Coats
+    weight:
+      confidence: low
+      estimate_g: 900
+      max_g: 2500
+      methodology: Inherited from parent category (aa-1-10)
+      min_g: 300
+  aa-1-10-3:
+    lca_data_missing: true
+    name: Rain Pants
+    weight:
+      confidence: low
+      estimate_g: 900
+      max_g: 2500
+      methodology: Inherited from parent category (aa-1-10)
+      min_g: 300
+  aa-1-10-4:
+    lca_data_missing: true
+    name: Rain Suits
+    weight:
+      confidence: low
+      estimate_g: 900
+      max_g: 2500
+      methodology: Inherited from parent category (aa-1-10)
+      min_g: 300
+  aa-1-10-5:
+    lca_data_missing: true
+    name: Snow Pants & Suits
+    weight:
+      confidence: low
+      estimate_g: 900
+      max_g: 2500
+      methodology: Inherited from parent category (aa-1-10)
+      min_g: 300
+  aa-1-10-6:
+    lca_data_missing: true
+    name: Vests
+    weight:
+      confidence: low
+      estimate_g: 900
+      max_g: 2500
+      methodology: Inherited from parent category (aa-1-10)
+      min_g: 300
+  aa-1-10-7:
+    lca_data_missing: true
+    name: Motorcycle Outerwear
+    weight:
+      confidence: low
+      estimate_g: 900
+      max_g: 2500
+      methodology: Inherited from parent category (aa-1-10)
+      min_g: 300
+  aa-1-11:
+    lca_data_missing: true
+    name: Outfit Sets
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-12:
+    lca_data_missing: true
+    materials:
+      breakdown:
+      - material: cotton
+        percentage: 70
+      - material: polyester
+        percentage: 25
+      - material: elastane
+        percentage: 5
+      primary_material: cotton
+    name: Pants
+    weight:
+      confidence: high
+      estimate_g: 500
+      max_g: 900
+      min_g: 200
+  aa-1-12-2:
+    lca_data_missing: true
+    name: Cargo Pants
+    weight:
+      confidence: high
+      estimate_g: 600
+      max_g: 800
+      min_g: 450
+  aa-1-12-3:
+    lca_data_missing: true
+    name: Chinos
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 900
+      methodology: Inherited from parent category (aa-1-12)
+      min_g: 200
+  aa-1-12-4:
+    lca_data_missing: true
+    name: Jeans
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 900
+      methodology: Inherited from parent category (aa-1-12)
+      min_g: 200
+  aa-1-12-5:
+    lca_data_missing: true
+    name: Jeggings
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 900
+      methodology: Inherited from parent category (aa-1-12)
+      min_g: 200
+  aa-1-12-7:
+    lca_data_missing: true
+    name: Joggers
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 900
+      methodology: Inherited from parent category (aa-1-12)
+      min_g: 200
+  aa-1-12-8:
+    lca_data_missing: true
+    name: Leggings
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 900
+      methodology: Inherited from parent category (aa-1-12)
+      min_g: 200
+  aa-1-12-11:
+    lca_data_missing: true
+    name: Trousers
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 900
+      methodology: Inherited from parent category (aa-1-12)
+      min_g: 200
+  aa-1-13:
+    lca_data_missing: true
+    name: Clothing Tops
+    weight:
+      confidence: medium
+      estimate_g: 200
+      max_g: 450
+      min_g: 80
+  aa-1-13-1:
+    lca_data_missing: true
+    name: Blouses
+    weight:
+      confidence: medium
+      estimate_g: 180
+      max_g: 300
+      min_g: 100
+  aa-1-13-2:
+    lca_data_missing: true
+    name: Bodysuits
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 450
+      methodology: Inherited from parent category (aa-1-13)
+      min_g: 80
+  aa-1-13-3:
+    lca_data_missing: true
+    name: Cardigans
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 450
+      methodology: Inherited from parent category (aa-1-13)
+      min_g: 80
+  aa-1-13-5:
+    lca_data_missing: true
+    name: Overshirts
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 450
+      methodology: Inherited from parent category (aa-1-13)
+      min_g: 80
+  aa-1-13-6:
+    lca_data_missing: true
+    name: Polos
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 450
+      methodology: Inherited from parent category (aa-1-13)
+      min_g: 80
+  aa-1-13-7:
+    lca_data_missing: true
+    name: Shirts
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 450
+      methodology: Inherited from parent category (aa-1-13)
+      min_g: 80
+  aa-1-13-8:
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      carbon_kg_co2e_per_unit: 1.44
+      data_quality: secondary
+      methodology: Cotton cultivation + textile production
+      production:
+        manufacturing_kg_co2e: 2.3
+        packaging_kg_co2e: 0.5
+        raw_materials_kg_co2e: 5.2
+      scope: cradle-to-gate
+    materials:
+      breakdown:
+      - material: cotton
+        percentage: 100
+      primary_material: cotton
+    name: T-Shirts
+    sources:
+    - Carbon Trust Clothing Footprint Study
+    - WRAP UK Textiles Data
+    weight:
+      confidence: high
+      estimate_g: 180
+      max_g: 280
+      methodology: Based on standard adult cotton t-shirts
+      min_g: 120
+  aa-1-13-9:
+    lca_data_missing: true
+    name: Tank Tops
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 450
+      methodology: Inherited from parent category (aa-1-13)
+      min_g: 80
+  aa-1-13-11:
+    lca_data_missing: true
+    name: Tunics
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 450
+      methodology: Inherited from parent category (aa-1-13)
+      min_g: 80
+  aa-1-13-12:
+    lca_data_missing: true
+    name: Sweaters
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 450
+      methodology: Inherited from parent category (aa-1-13)
+      min_g: 80
+  aa-1-13-13:
+    lca_data_missing: true
+    name: Hoodies
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 450
+      methodology: Inherited from parent category (aa-1-13)
+      min_g: 80
+  aa-1-13-14:
+    lca_data_missing: true
+    name: Sweatshirts
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 450
+      methodology: Inherited from parent category (aa-1-13)
+      min_g: 80
+  aa-1-14:
+    lca_data_missing: true
+    name: Shorts
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-14-1:
+    lca_data_missing: true
+    name: Bermudas
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-14-2:
+    lca_data_missing: true
+    name: Cargo Shorts
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-14-3:
+    lca_data_missing: true
+    name: Chino Shorts
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-14-4:
+    lca_data_missing: true
+    name: Short Trousers
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-14-5:
+    lca_data_missing: true
+    name: Denim Shorts
+    weight:
+      confidence: high
+      estimate_g: 350
+      max_g: 500
+      min_g: 250
+  aa-1-14-6:
+    lca_data_missing: true
+    name: Jegging Shorts
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-14-7:
+    lca_data_missing: true
+    name: Jogger Shorts
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-14-8:
+    lca_data_missing: true
+    name: Legging Shorts
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-15:
+    lca_data_missing: true
+    name: Skirts
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-16:
+    lca_data_missing: true
+    name: Skorts
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-17:
+    lca_data_missing: true
+    materials:
+      primary_material: cotton
+    name: Sleepwear & Loungewear
+    weight:
+      confidence: medium
+      estimate_g: 300
+      max_g: 600
+      min_g: 150
+  aa-1-17-1:
+    lca_data_missing: true
+    name: Long Johns
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 600
+      methodology: Inherited from parent category (aa-1-17)
+      min_g: 150
+  aa-1-17-2:
+    lca_data_missing: true
+    materials:
+      breakdown:
+      - material: cotton
+        percentage: 70
+      - material: polyester
+        percentage: 30
+      primary_material: cotton
+    name: Loungewear
+    weight:
+      confidence: medium
+      estimate_g: 300
+      max_g: 600
+      min_g: 150
+  aa-1-17-2-1:
+    lca_data_missing: true
+    name: Loungewear Bottoms
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 600
+      methodology: Inherited from parent category (aa-1-17-2)
+      min_g: 150
+  aa-1-17-2-1-1:
+    lca_data_missing: true
+    name: Boxers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 600
+      methodology: Inherited from parent category (aa-1-17-2)
+      min_g: 150
+  aa-1-17-2-1-2:
+    lca_data_missing: true
+    name: Joggers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 600
+      methodology: Inherited from parent category (aa-1-17-2)
+      min_g: 150
+  aa-1-17-2-1-3:
+    lca_data_missing: true
+    name: Leggings
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 600
+      methodology: Inherited from parent category (aa-1-17-2)
+      min_g: 150
+  aa-1-17-2-1-4:
+    lca_data_missing: true
+    name: Shorts
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 600
+      methodology: Inherited from parent category (aa-1-17-2)
+      min_g: 150
+  aa-1-17-2-1-5:
+    lca_data_missing: true
+    name: Skirts
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 600
+      methodology: Inherited from parent category (aa-1-17-2)
+      min_g: 150
+  aa-1-17-2-2:
+    lca_data_missing: true
+    name: Loungewear Tops
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 600
+      methodology: Inherited from parent category (aa-1-17-2)
+      min_g: 150
+  aa-1-17-3:
+    lca_data_missing: true
+    name: Nightgowns
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 600
+      methodology: Inherited from parent category (aa-1-17)
+      min_g: 150
+  aa-1-17-4:
+    lca_data_missing: true
+    name: Pajamas
+    weight:
+      confidence: medium
+      estimate_g: 350
+      max_g: 600
+      min_g: 200
+  aa-1-17-5:
+    lca_data_missing: true
+    name: Robes
+    weight:
+      confidence: medium
+      estimate_g: 600
+      max_g: 1000
+      min_g: 350
+  aa-1-17-6:
+    lca_data_missing: true
+    name: Onesies
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 600
+      methodology: Inherited from parent category (aa-1-17)
+      min_g: 150
+  aa-1-18:
+    lca_data_missing: true
+    materials:
+      breakdown:
+      - material: cotton
+        percentage: 80
+      - material: elastane
+        percentage: 20
+      primary_material: cotton
+    name: Socks
+    weight:
+      confidence: high
+      estimate_g: 60
+      max_g: 150
+      min_g: 20
+  aa-1-18-1:
+    lca_data_missing: true
+    name: Ankle Socks
+    weight:
+      confidence: low
+      estimate_g: 60
+      max_g: 150
+      methodology: Inherited from parent category (aa-1-18)
+      min_g: 20
+  aa-1-18-2:
+    lca_data_missing: true
+    name: Athletic Socks
+    weight:
+      confidence: low
+      estimate_g: 60
+      max_g: 150
+      methodology: Inherited from parent category (aa-1-18)
+      min_g: 20
+  aa-1-18-3:
+    lca_data_missing: true
+    name: Crew Socks
+    weight:
+      confidence: low
+      estimate_g: 60
+      max_g: 150
+      methodology: Inherited from parent category (aa-1-18)
+      min_g: 20
+  aa-1-18-4:
+    lca_data_missing: true
+    name: Dance Socks
+    weight:
+      confidence: low
+      estimate_g: 60
+      max_g: 150
+      methodology: Inherited from parent category (aa-1-18)
+      min_g: 20
+  aa-1-18-5:
+    lca_data_missing: true
+    name: Footie Socks
+    weight:
+      confidence: low
+      estimate_g: 60
+      max_g: 150
+      methodology: Inherited from parent category (aa-1-18)
+      min_g: 20
+  aa-1-18-6:
+    lca_data_missing: true
+    name: Heel Socks
+    weight:
+      confidence: low
+      estimate_g: 60
+      max_g: 150
+      methodology: Inherited from parent category (aa-1-18)
+      min_g: 20
+  aa-1-18-7:
+    lca_data_missing: true
+    name: Hold Up Socks
+    weight:
+      confidence: low
+      estimate_g: 60
+      max_g: 150
+      methodology: Inherited from parent category (aa-1-18)
+      min_g: 20
+  aa-1-18-8:
+    lca_data_missing: true
+    name: Knee Socks
+    weight:
+      confidence: low
+      estimate_g: 60
+      max_g: 150
+      methodology: Inherited from parent category (aa-1-18)
+      min_g: 20
+  aa-1-18-9:
+    lca_data_missing: true
+    name: Panty Socks
+    weight:
+      confidence: low
+      estimate_g: 60
+      max_g: 150
+      methodology: Inherited from parent category (aa-1-18)
+      min_g: 20
+  aa-1-18-10:
+    lca_data_missing: true
+    name: Sneaker Socks
+    weight:
+      confidence: low
+      estimate_g: 60
+      max_g: 150
+      methodology: Inherited from parent category (aa-1-18)
+      min_g: 20
+  aa-1-19:
+    lca_data_missing: true
+    materials:
+      primary_material: wool_blend
+    name: Suits
+    weight:
+      confidence: medium
+      estimate_g: 1500
+      max_g: 2500
+      methodology: Full suit (jacket + pants)
+      min_g: 1000
+  aa-1-19-1:
+    lca_data_missing: true
+    name: Pant Suits
+    weight:
+      confidence: low
+      estimate_g: 1500
+      max_g: 2500
+      methodology: Inherited from parent category (aa-1-19)
+      min_g: 1000
+  aa-1-19-2:
+    lca_data_missing: true
+    name: Skirt Suits
+    weight:
+      confidence: low
+      estimate_g: 1500
+      max_g: 2500
+      methodology: Inherited from parent category (aa-1-19)
+      min_g: 1000
+  aa-1-19-3:
+    lca_data_missing: true
+    name: Tuxedos
+    weight:
+      confidence: low
+      estimate_g: 1500
+      max_g: 2500
+      methodology: Inherited from parent category (aa-1-19)
+      min_g: 1000
+  aa-1-20:
+    lca_data_missing: true
+    materials:
+      breakdown:
+      - material: nylon
+        percentage: 80
+      - material: elastane
+        percentage: 20
+      primary_material: synthetic
+    name: Swimwear
+    weight:
+      confidence: medium
+      estimate_g: 150
+      max_g: 300
+      min_g: 80
+  aa-1-20-2:
+    lca_data_missing: true
+    name: Boardshorts
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 300
+      methodology: Inherited from parent category (aa-1-20)
+      min_g: 80
+  aa-1-20-3:
+    lca_data_missing: true
+    name: Swim Boxers
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 300
+      methodology: Inherited from parent category (aa-1-20)
+      min_g: 80
+  aa-1-20-4:
+    lca_data_missing: true
+    name: Swim Briefs
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 300
+      methodology: Inherited from parent category (aa-1-20)
+      min_g: 80
+  aa-1-20-5:
+    lca_data_missing: true
+    name: Burkinis
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 300
+      methodology: Inherited from parent category (aa-1-20)
+      min_g: 80
+  aa-1-20-6:
+    lca_data_missing: true
+    name: Classic Bikinis
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 300
+      methodology: Inherited from parent category (aa-1-20)
+      min_g: 80
+  aa-1-20-7:
+    lca_data_missing: true
+    name: Cover Ups
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 300
+      methodology: Inherited from parent category (aa-1-20)
+      min_g: 80
+  aa-1-20-12:
+    lca_data_missing: true
+    name: Rash Guards
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 300
+      methodology: Inherited from parent category (aa-1-20)
+      min_g: 80
+  aa-1-20-17:
+    lca_data_missing: true
+    name: Swim Dresses
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 300
+      methodology: Inherited from parent category (aa-1-20)
+      min_g: 80
+  aa-1-20-22:
+    lca_data_missing: true
+    name: One-Piece Swimsuits
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 300
+      methodology: Inherited from parent category (aa-1-20)
+      min_g: 80
+  aa-1-20-23:
+    lca_data_missing: true
+    name: Surf Tops
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 300
+      methodology: Inherited from parent category (aa-1-20)
+      min_g: 80
+  aa-1-20-24:
+    lca_data_missing: true
+    name: Swimwear Tops
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 300
+      methodology: Inherited from parent category (aa-1-20)
+      min_g: 80
+  aa-1-20-25:
+    lca_data_missing: true
+    name: Period Swimwear
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 300
+      methodology: Inherited from parent category (aa-1-20)
+      min_g: 80
+  aa-1-22:
+    lca_data_missing: true
+    name: Wedding & Bridal Party Dresses
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-22-1:
+    lca_data_missing: true
+    name: Bridal Party Dresses
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-22-2:
+    lca_data_missing: true
+    name: Wedding Dresses
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-23:
+    lca_data_missing: true
+    name: Traditional & Ceremonial Clothing
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-23-1:
+    lca_data_missing: true
+    name: Kimonos
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-23-2:
+    lca_data_missing: true
+    name: Saris & Lehengas
+    weight:
+      confidence: low
+      estimate_g: 350
+      max_g: 2000
+      methodology: Inherited from parent category (aa-1)
+      min_g: 50
+  aa-1-24:
+    lca_data_missing: true
+    name: Uniforms & Workwear
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 1200
+      min_g: 250
+  aa-1-24-1:
+    lca_data_missing: true
+    name: Contractor Pants & Coveralls
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 1200
+      methodology: Inherited from parent category (aa-1-24)
+      min_g: 250
+  aa-1-24-2:
+    lca_data_missing: true
+    name: Flight Suits
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 1200
+      methodology: Inherited from parent category (aa-1-24)
+      min_g: 250
+  aa-1-24-3:
+    lca_data_missing: true
+    name: Food Service Uniforms
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 1200
+      methodology: Inherited from parent category (aa-1-24)
+      min_g: 250
+  aa-1-24-4:
+    lca_data_missing: true
+    name: Military Uniforms
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 1200
+      methodology: Inherited from parent category (aa-1-24)
+      min_g: 250
+  aa-1-24-5:
+    lca_data_missing: true
+    name: School Uniforms
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 1200
+      methodology: Inherited from parent category (aa-1-24)
+      min_g: 250
+  aa-1-24-6:
+    lca_data_missing: true
+    name: Security Uniforms
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 1200
+      methodology: Inherited from parent category (aa-1-24)
+      min_g: 250
+  aa-1-24-7:
+    lca_data_missing: true
+    name: Sports Uniforms
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 1200
+      methodology: Inherited from parent category (aa-1-24)
+      min_g: 250
+  aa-1-24-8:
+    lca_data_missing: true
+    name: White Coats
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 1200
+      methodology: Inherited from parent category (aa-1-24)
+      min_g: 250
+  aa-1-24-9:
+    lca_data_missing: true
+    name: Scrubs
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 1200
+      methodology: Inherited from parent category (aa-1-24)
+      min_g: 250
   aa-2:
+    lca_data_missing: true
     name: Clothing Accessories
     weight:
-      estimate_g: 100
-      min_g: 10
-      max_g: 500
       confidence: low
+      estimate_g: 100
+      max_g: 500
+      min_g: 10
+  aa-2-1:
     lca_data_missing: true
+    name: Arm Warmers & Sleeves
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (aa-2)
+      min_g: 10
+  aa-2-2:
+    lca_data_missing: true
+    name: Baby & Toddler Clothing Accessories
+    weight:
+      confidence: medium
+      estimate_g: 50
+      max_g: 200
+      min_g: 10
+  aa-2-2-1:
+    lca_data_missing: true
+    name: Baby & Toddler Belts
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 200
+      methodology: Inherited from parent category (aa-2-2)
+      min_g: 10
+  aa-2-2-2:
+    lca_data_missing: true
+    name: Baby & Toddler Gloves & Mittens
+    weight:
+      confidence: high
+      estimate_g: 20
+      max_g: 40
+      methodology: Per pair
+      min_g: 10
+  aa-2-2-3:
+    lca_data_missing: true
+    name: Baby & Toddler Hats
+    weight:
+      confidence: high
+      estimate_g: 30
+      max_g: 80
+      min_g: 15
+  aa-2-2-4:
+    lca_data_missing: true
+    name: Baby Protective Wear
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 200
+      methodology: Inherited from parent category (aa-2-2)
+      min_g: 10
+  aa-2-3:
+    lca_data_missing: true
+    name: Balaclavas
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (aa-2)
+      min_g: 10
+  aa-2-4:
+    lca_data_missing: true
+    name: Bandanas & Headties
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (aa-2)
+      min_g: 10
+  aa-2-5:
+    lca_data_missing: true
+    name: Belt Buckles
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (aa-2)
+      min_g: 10
+  aa-2-6:
+    lca_data_missing: true
+    name: Belts
+    notes: Leather belts - synthetic alternatives have ~40% lower footprint
+    weight:
+      confidence: high
+      estimate_g: 150
+      max_g: 350
+      min_g: 80
+  aa-2-7:
+    lca_data_missing: true
+    name: Bridal Accessories
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (aa-2)
+      min_g: 10
+  aa-2-8:
+    lca_data_missing: true
+    name: Button Studs
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (aa-2)
+      min_g: 10
+  aa-2-9:
+    lca_data_missing: true
+    name: Collar Stays
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (aa-2)
+      min_g: 10
+  aa-2-10:
+    lca_data_missing: true
+    name: Cufflinks
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (aa-2)
+      min_g: 10
+  aa-2-11:
+    lca_data_missing: true
+    name: Decorative Fans
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (aa-2)
+      min_g: 10
+  aa-2-12:
+    lca_data_missing: true
+    name: Earmuffs
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (aa-2)
+      min_g: 10
   aa-2-13:
+    lca_data_missing: true
     name: Gloves & Mittens
     weight:
-      estimate_g: 80
-      min_g: 30
-      max_g: 200
       confidence: medium
+      estimate_g: 80
+      max_g: 200
       methodology: Per pair
-    lca_data_missing: true
+      min_g: 30
   aa-2-14:
+    lca_data_missing: true
     name: Hair Accessories
     weight:
-      estimate_g: 20
+      confidence: high
+      estimate_g: 15
+      max_g: 40
       min_g: 5
-      max_g: 100
-      confidence: medium
+  aa-2-14-1:
     lca_data_missing: true
+    name: Hair Bun & Volume Shapers
+    weight:
+      confidence: low
+      estimate_g: 15
+      max_g: 40
+      methodology: Inherited from parent category (aa-2-14)
+      min_g: 5
+  aa-2-14-2:
+    lca_data_missing: true
+    name: Hair Combs
+    weight:
+      confidence: low
+      estimate_g: 15
+      max_g: 40
+      methodology: Inherited from parent category (aa-2-14)
+      min_g: 5
+  aa-2-14-3:
+    lca_data_missing: true
+    name: Hair Extensions
+    weight:
+      confidence: low
+      estimate_g: 15
+      max_g: 40
+      methodology: Inherited from parent category (aa-2-14)
+      min_g: 5
+  aa-2-14-4:
+    lca_data_missing: true
+    name: Hair Forks & Sticks
+    weight:
+      confidence: low
+      estimate_g: 15
+      max_g: 40
+      methodology: Inherited from parent category (aa-2-14)
+      min_g: 5
+  aa-2-14-5:
+    lca_data_missing: true
+    name: Hair Nets
+    weight:
+      confidence: low
+      estimate_g: 15
+      max_g: 40
+      methodology: Inherited from parent category (aa-2-14)
+      min_g: 5
+  aa-2-14-6:
+    lca_data_missing: true
+    name: Hair Pins, Claws & Clips
+    weight:
+      confidence: low
+      estimate_g: 15
+      max_g: 40
+      methodology: Inherited from parent category (aa-2-14)
+      min_g: 5
+  aa-2-14-7:
+    lca_data_missing: true
+    name: Hair Wreaths
+    weight:
+      confidence: low
+      estimate_g: 15
+      max_g: 40
+      methodology: Inherited from parent category (aa-2-14)
+      min_g: 5
+  aa-2-14-8:
+    lca_data_missing: true
+    name: Headbands
+    weight:
+      confidence: low
+      estimate_g: 15
+      max_g: 40
+      methodology: Inherited from parent category (aa-2-14)
+      min_g: 5
+  aa-2-14-9:
+    lca_data_missing: true
+    name: Ponytail Holders
+    weight:
+      confidence: low
+      estimate_g: 15
+      max_g: 40
+      methodology: Inherited from parent category (aa-2-14)
+      min_g: 5
+  aa-2-14-10:
+    lca_data_missing: true
+    name: Tiaras
+    weight:
+      confidence: low
+      estimate_g: 15
+      max_g: 40
+      methodology: Inherited from parent category (aa-2-14)
+      min_g: 5
+  aa-2-14-11:
+    lca_data_missing: true
+    name: Wig Accessories
+    weight:
+      confidence: low
+      estimate_g: 15
+      max_g: 40
+      methodology: Inherited from parent category (aa-2-14)
+      min_g: 5
+  aa-2-14-12:
+    lca_data_missing: true
+    materials:
+      primary_material: synthetic_fiber
+    name: Wigs
+    weight:
+      confidence: medium
+      estimate_g: 150
+      max_g: 400
+      min_g: 50
+  aa-2-14-13:
+    lca_data_missing: true
+    name: Hair Bands
+    weight:
+      confidence: low
+      estimate_g: 15
+      max_g: 40
+      methodology: Inherited from parent category (aa-2-14)
+      min_g: 5
+  aa-2-15:
+    lca_data_missing: true
+    name: Hand Muffs
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (aa-2)
+      min_g: 10
+  aa-2-16:
+    lca_data_missing: true
+    name: Handkerchiefs
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (aa-2)
+      min_g: 10
   aa-2-17:
+    lca_data_missing: true
     name: Hats
     weight:
-      estimate_g: 100
-      min_g: 30
-      max_g: 300
       confidence: medium
-    lca_data_missing: true
+      estimate_g: 100
+      max_g: 300
+      min_g: 30
   aa-2-17-1:
+    lca_data_missing: true
     name: Baseball Caps
     weight:
-      estimate_g: 80
-      min_g: 50
-      max_g: 120
       confidence: high
-    lca_data_missing: true
-  aa-2-17-11:
-    name: Sun Hats
-    weight:
-      estimate_g: 100
+      estimate_g: 80
+      max_g: 120
       min_g: 50
-      max_g: 200
-      confidence: medium
-    lca_data_missing: true
   aa-2-17-2:
+    lca_data_missing: true
     name: Beanies
     weight:
+      confidence: high
       estimate_g: 60
+      max_g: 100
       min_g: 40
-      max_g: 100
-      confidence: high
+  aa-2-17-3:
     lca_data_missing: true
-  aa-2-23:
-    name: Neckties
+    name: Berets
     weight:
-      estimate_g: 50
+      confidence: low
+      estimate_g: 100
+      max_g: 300
+      methodology: Inherited from parent category (aa-2-17)
       min_g: 30
-      max_g: 100
-      confidence: high
+  aa-2-17-4:
+    lca_data_missing: true
+    name: Bowler Hats
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 300
+      methodology: Inherited from parent category (aa-2-17)
+      min_g: 30
+  aa-2-17-5:
+    lca_data_missing: true
+    name: Bucket Hats
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 300
+      methodology: Inherited from parent category (aa-2-17)
+      min_g: 30
+  aa-2-17-6:
+    lca_data_missing: true
+    name: Cowboy Hats
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 300
+      methodology: Inherited from parent category (aa-2-17)
+      min_g: 30
+  aa-2-17-7:
+    lca_data_missing: true
+    name: Fedoras
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 300
+      methodology: Inherited from parent category (aa-2-17)
+      min_g: 30
+  aa-2-17-8:
+    lca_data_missing: true
+    name: Flat Caps
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 300
+      methodology: Inherited from parent category (aa-2-17)
+      min_g: 30
+  aa-2-17-9:
+    lca_data_missing: true
+    name: Panama Hats
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 300
+      methodology: Inherited from parent category (aa-2-17)
+      min_g: 30
+  aa-2-17-10:
+    lca_data_missing: true
+    name: Snapback Caps
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 300
+      methodology: Inherited from parent category (aa-2-17)
+      min_g: 30
+  aa-2-17-11:
+    lca_data_missing: true
+    name: Sun Hats
+    weight:
+      confidence: medium
+      estimate_g: 100
+      max_g: 200
+      min_g: 50
+  aa-2-17-12:
+    lca_data_missing: true
+    name: Top Hats
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 300
+      methodology: Inherited from parent category (aa-2-17)
+      min_g: 30
+  aa-2-17-13:
+    lca_data_missing: true
+    name: Trilbies
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 300
+      methodology: Inherited from parent category (aa-2-17)
+      min_g: 30
+  aa-2-17-14:
+    lca_data_missing: true
+    name: Trucker Hats
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 300
+      methodology: Inherited from parent category (aa-2-17)
+      min_g: 30
+  aa-2-17-15:
+    lca_data_missing: true
+    name: Visors
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 300
+      methodology: Inherited from parent category (aa-2-17)
+      min_g: 30
+  aa-2-17-16:
+    lca_data_missing: true
+    name: Winter Hats
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 300
+      methodology: Inherited from parent category (aa-2-17)
+      min_g: 30
+  aa-2-18:
+    lca_data_missing: true
+    name: Headwear
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (aa-2)
+      min_g: 10
+  aa-2-18-1:
+    lca_data_missing: true
+    name: Fascinators
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (aa-2)
+      min_g: 10
+  aa-2-18-2:
+    lca_data_missing: true
+    name: Headdresses
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (aa-2)
+      min_g: 10
+  aa-2-18-3:
+    lca_data_missing: true
+    name: Turbans
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (aa-2)
+      min_g: 10
+  aa-2-19:
+    lca_data_missing: true
+    name: Leg Warmers
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (aa-2)
+      min_g: 10
+  aa-2-20:
+    lca_data_missing: true
+    name: Leis
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (aa-2)
+      min_g: 10
+  aa-2-21:
+    lca_data_missing: true
+    name: Maternity Belts & Support Bands
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (aa-2)
+      min_g: 10
+  aa-2-22:
+    lca_data_missing: true
+    name: Neck Gaiters
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (aa-2)
+      min_g: 10
+  aa-2-23:
+    lca_data_missing: true
     materials:
       primary_material: silk
+    name: Neckties
+    weight:
+      confidence: high
+      estimate_g: 50
+      max_g: 100
+      min_g: 30
+  aa-2-24:
     lca_data_missing: true
+    name: Pinback Buttons
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (aa-2)
+      min_g: 10
+  aa-2-25:
+    lca_data_missing: true
+    name: Sashes
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (aa-2)
+      min_g: 10
   aa-2-26:
+    lca_data_missing: true
     name: Scarves & Shawls
     weight:
-      estimate_g: 150
-      min_g: 50
-      max_g: 400
       confidence: medium
-    lca_data_missing: true
+      estimate_g: 150
+      max_g: 400
+      min_g: 50
   aa-2-27:
-    name: Sunglasses
-    weight:
-      estimate_g: 30
-      min_g: 15
-      max_g: 60
-      confidence: high
+    lca_data_missing: true
     materials:
-      primary_material: plastic
       breakdown:
       - material: acetate
         percentage: 70
@@ -538,154 +3438,718 @@ categories:
         percentage: 25
       - material: metal
         percentage: 5
-    lca_data_missing: true
+      primary_material: plastic
+    name: Sunglasses
+    weight:
+      confidence: high
+      estimate_g: 30
+      max_g: 60
+      min_g: 15
   aa-2-28:
+    lca_data_missing: true
     name: Suspenders
     weight:
-      estimate_g: 80
-      min_g: 50
-      max_g: 150
       confidence: medium
+      estimate_g: 80
+      max_g: 150
+      min_g: 50
+  aa-2-29:
     lca_data_missing: true
-  aa-2-6:
-    name: Belts
+    name: Tie Clips
     weight:
-      estimate_g: 150
-      min_g: 80
-      max_g: 350
-      confidence: high
-    notes: Leather belts - synthetic alternatives have ~40% lower footprint
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (aa-2)
+      min_g: 10
+  aa-2-30:
     lca_data_missing: true
+    name: Wristbands
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (aa-2)
+      min_g: 10
+  aa-2-31:
+    lca_data_missing: true
+    name: Traditional Clothing Accessories
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (aa-2)
+      min_g: 10
+  aa-2-32:
+    lca_data_missing: true
+    name: Fashion Face Masks
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (aa-2)
+      min_g: 10
+  aa-3:
+    lca_data_missing: true
+    name: Costumes & Accessories
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  aa-3-1:
+    lca_data_missing: true
+    materials:
+      primary_material: plastic_fabric
+    name: Costume Accessories
+    weight:
+      confidence: medium
+      estimate_g: 200
+      max_g: 1000
+      min_g: 20
+  aa-3-2:
+    lca_data_missing: true
+    name: Costume Shoes
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 20
   aa-3-3:
+    lca_data_missing: true
     name: Costumes
     weight:
-      estimate_g: 400
-      min_g: 100
-      max_g: 1500
       confidence: low
-    notes: Highly variable quality and materials
+      estimate_g: 800
+      max_g: 5000
+      min_g: 50
+  aa-3-3-1:
     lca_data_missing: true
-  aa-4:
-    name: Handbag & Wallet Accessories
+    name: Costume Dresses
     weight:
-      estimate_g: 30
-      min_g: 5
-      max_g: 100
-      confidence: medium
-    notes: Much lower footprint than precious metals
+      confidence: low
+      estimate_g: 800
+      max_g: 5000
+      methodology: Inherited from parent category (aa-3-3)
+      min_g: 50
+  aa-3-3-2:
     lca_data_missing: true
+    name: Costume Sets
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 5000
+      methodology: Inherited from parent category (aa-3-3)
+      min_g: 50
+  aa-3-4:
+    lca_data_missing: true
+    materials:
+      primary_material: plastic_latex
+    name: Masks
+    weight:
+      confidence: medium
+      estimate_g: 100
+      max_g: 500
+      min_g: 20
+  aa-4:
+    lca_data_missing: true
+    name: Handbag & Wallet Accessories
+    notes: Much lower footprint than precious metals
+    weight:
+      confidence: medium
+      estimate_g: 30
+      max_g: 100
+      min_g: 5
+  aa-4-1:
+    lca_data_missing: true
+    name: Keychains
+    weight:
+      confidence: low
+      estimate_g: 30
+      max_g: 100
+      methodology: Inherited from parent category (aa-4)
+      min_g: 5
+  aa-4-2:
+    lca_data_missing: true
+    name: Lanyards
+    weight:
+      confidence: low
+      estimate_g: 30
+      max_g: 100
+      methodology: Inherited from parent category (aa-4)
+      min_g: 5
+  aa-4-3:
+    lca_data_missing: true
+    name: Wallet Chains
+    weight:
+      confidence: low
+      estimate_g: 30
+      max_g: 100
+      methodology: Inherited from parent category (aa-4)
+      min_g: 5
+  aa-5:
+    lca_data_missing: true
+    name: Handbags, Wallets & Cases
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  aa-5-1:
+    lca_data_missing: true
+    name: Badge & Pass Holders
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  aa-5-2:
+    lca_data_missing: true
+    name: Business Card Cases
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  aa-5-3:
+    lca_data_missing: true
+    name: Checkbook Covers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 20
   aa-5-4:
+    lca_data_missing: true
     name: Handbags
     weight:
+      confidence: low
       estimate_g: 500
-      min_g: 100
       max_g: 2000
-      confidence: low
+      min_g: 100
+  aa-5-4-1:
     lca_data_missing: true
-  aa-5-5-7:
-    name: Wallets
+    name: Baguette Handbags
     weight:
-      estimate_g: 100
-      min_g: 50
-      max_g: 200
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      methodology: Inherited from parent category (aa-5-4)
+      min_g: 100
+  aa-5-4-2:
+    lca_data_missing: true
+    name: Barrel Bags
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      methodology: Inherited from parent category (aa-5-4)
+      min_g: 100
+  aa-5-4-3:
+    lca_data_missing: true
+    name: Beach Bags
+    weight:
+      confidence: medium
+      estimate_g: 400
+      max_g: 800
+      min_g: 200
+  aa-5-4-4:
+    lca_data_missing: true
+    name: Bucket Bags
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      methodology: Inherited from parent category (aa-5-4)
+      min_g: 100
+  aa-5-4-5:
+    lca_data_missing: true
+    name: Clutch Bags
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      methodology: Inherited from parent category (aa-5-4)
+      min_g: 100
+  aa-5-4-6:
+    lca_data_missing: true
+    name: Convertible Bags
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      methodology: Inherited from parent category (aa-5-4)
+      min_g: 100
+  aa-5-4-7:
+    lca_data_missing: true
+    name: Cross Body Bags
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      methodology: Inherited from parent category (aa-5-4)
+      min_g: 100
+  aa-5-4-8:
+    lca_data_missing: true
+    name: Doctor Bags
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      methodology: Inherited from parent category (aa-5-4)
+      min_g: 100
+  aa-5-4-9:
+    lca_data_missing: true
+    name: Envelope Clutches
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      methodology: Inherited from parent category (aa-5-4)
+      min_g: 100
+  aa-5-4-10:
+    lca_data_missing: true
+    name: Fold Over Clutches
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      methodology: Inherited from parent category (aa-5-4)
+      min_g: 100
+  aa-5-4-11:
+    lca_data_missing: true
+    name: Half-Moon Bags
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      methodology: Inherited from parent category (aa-5-4)
+      min_g: 100
+  aa-5-4-12:
+    lca_data_missing: true
+    name: Hobo Bags
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      methodology: Inherited from parent category (aa-5-4)
+      min_g: 100
+  aa-5-4-13:
+    lca_data_missing: true
+    name: Minaudieres
+    notes: Hard case evening bags
+    weight:
+      confidence: medium
+      estimate_g: 200
+      max_g: 400
+      min_g: 100
+  aa-5-4-14:
+    lca_data_missing: true
+    name: Muff Clutches & Bags
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      methodology: Inherited from parent category (aa-5-4)
+      min_g: 100
+  aa-5-4-15:
+    lca_data_missing: true
+    name: Saddle Bags
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      methodology: Inherited from parent category (aa-5-4)
+      min_g: 100
+  aa-5-4-16:
+    lca_data_missing: true
+    name: Satchel Bags
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      methodology: Inherited from parent category (aa-5-4)
+      min_g: 100
+  aa-5-4-17:
+    lca_data_missing: true
+    name: School Bags
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      methodology: Inherited from parent category (aa-5-4)
+      min_g: 100
+  aa-5-4-18:
+    lca_data_missing: true
+    name: Shopper Bags
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      methodology: Inherited from parent category (aa-5-4)
+      min_g: 100
+  aa-5-4-19:
+    lca_data_missing: true
+    name: Shoulder Bags
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      methodology: Inherited from parent category (aa-5-4)
+      min_g: 100
+  aa-5-4-20:
+    lca_data_missing: true
+    name: Trapezoid Bags
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      methodology: Inherited from parent category (aa-5-4)
+      min_g: 100
+  aa-5-5:
+    lca_data_missing: true
+    materials:
+      primary_material: metal
+    name: Wallets & Money Clips
+    weight:
       confidence: high
-    notes: Leather wallets
-    lca_data_missing: true
-  aa-6:
-    name: Jewelry
-    weight:
       estimate_g: 30
-      min_g: 1
-      max_g: 200
-      confidence: low
-    notes: Very small weights but high value and footprint per gram
+      max_g: 60
+      min_g: 15
+  aa-5-5-2:
     lca_data_missing: true
+    name: Card Cases
+    weight:
+      confidence: low
+      estimate_g: 30
+      max_g: 60
+      methodology: Inherited from parent category (aa-5-5)
+      min_g: 15
+  aa-5-5-3:
+    lca_data_missing: true
+    name: Coin Purses
+    weight:
+      confidence: high
+      estimate_g: 50
+      max_g: 100
+      min_g: 20
+  aa-5-5-4:
+    lca_data_missing: true
+    name: Key Cases
+    weight:
+      confidence: low
+      estimate_g: 30
+      max_g: 60
+      methodology: Inherited from parent category (aa-5-5)
+      min_g: 15
+  aa-5-5-5:
+    lca_data_missing: true
+    name: Neck Pouches
+    weight:
+      confidence: low
+      estimate_g: 30
+      max_g: 60
+      methodology: Inherited from parent category (aa-5-5)
+      min_g: 15
+  aa-5-5-6:
+    lca_data_missing: true
+    name: Travel Wallets
+    weight:
+      confidence: medium
+      estimate_g: 100
+      max_g: 200
+      min_g: 50
+  aa-5-5-7:
+    lca_data_missing: true
+    name: Wallets
+    notes: Leather wallets
+    weight:
+      confidence: high
+      estimate_g: 100
+      max_g: 200
+      min_g: 50
+  aa-5-5-8:
+    lca_data_missing: true
+    name: Wrist Bags
+    weight:
+      confidence: low
+      estimate_g: 30
+      max_g: 60
+      methodology: Inherited from parent category (aa-5-5)
+      min_g: 15
+  aa-6:
+    lca_data_missing: true
+    name: Jewelry
+    notes: Very small weights but high value and footprint per gram
+    weight:
+      confidence: low
+      estimate_g: 30
+      max_g: 200
+      min_g: 1
   aa-6-1:
+    lca_data_missing: true
     name: Anklets
     weight:
+      confidence: medium
       estimate_g: 10
-      min_g: 3
       max_g: 30
-      confidence: medium
+      min_g: 3
+  aa-6-2:
     lca_data_missing: true
-  aa-6-11:
-    name: Watches
+    name: Body Jewelry
     weight:
-      estimate_g: 100
-      min_g: 30
-      max_g: 250
-      confidence: medium
-    notes: Varies greatly by type - digital vs mechanical
-    lca_data_missing: true
-  aa-6-3:
-    name: Bracelets
-    weight:
+      confidence: low
       estimate_g: 30
-      min_g: 5
-      max_g: 100
-      confidence: medium
-    notes: Precious metals have very high per-kg footprint
+      max_g: 200
+      methodology: Inherited from parent category (aa-6)
+      min_g: 1
+  aa-6-3:
     lca_data_missing: true
+    name: Bracelets
+    notes: Precious metals have very high per-kg footprint
+    weight:
+      confidence: medium
+      estimate_g: 30
+      max_g: 100
+      min_g: 5
   aa-6-4:
+    lca_data_missing: true
     name: Brooches & Lapel Pins
     weight:
-      estimate_g: 15
-      min_g: 5
-      max_g: 50
       confidence: medium
+      estimate_g: 15
+      max_g: 50
+      min_g: 5
+  aa-6-5:
     lca_data_missing: true
+    name: Charms & Pendants
+    weight:
+      confidence: low
+      estimate_g: 30
+      max_g: 200
+      methodology: Inherited from parent category (aa-6)
+      min_g: 1
   aa-6-6:
+    lca_data_missing: true
     name: Earrings
     weight:
-      estimate_g: 10
-      min_g: 1
-      max_g: 50
       confidence: medium
+      estimate_g: 10
+      max_g: 50
       methodology: Per pair
+      min_g: 1
+  aa-6-7:
     lca_data_missing: true
+    name: Jewelry Sets
+    weight:
+      confidence: low
+      estimate_g: 30
+      max_g: 200
+      methodology: Inherited from parent category (aa-6)
+      min_g: 1
   aa-6-8:
+    lca_data_missing: true
     name: Necklaces
     weight:
+      confidence: medium
       estimate_g: 30
-      min_g: 5
       max_g: 150
-      confidence: medium
-    lca_data_missing: true
+      min_g: 5
   aa-6-9:
+    lca_data_missing: true
     name: Rings
-    weight:
-      estimate_g: 8
-      min_g: 2
-      max_g: 30
-      confidence: medium
     notes: Gold rings - silver and costume jewelry much lower
-    lca_data_missing: true
-  aa-8:
-    name: Shoes
     weight:
-      estimate_g: 700
-      min_g: 200
-      max_g: 1500
       confidence: medium
-      methodology: Per pair weight
-    notes: Wide variance between sandals and boots
+      estimate_g: 8
+      max_g: 30
+      min_g: 2
+  aa-6-10:
     lca_data_missing: true
-  aa-8-1:
-    name: Athletic Shoes
+    name: Watch Accessories
     weight:
-      estimate_g: 650
-      min_g: 400
-      max_g: 900
-      confidence: high
-      methodology: Per pair, adult sizes
+      confidence: low
+      estimate_g: 30
+      max_g: 200
+      methodology: Inherited from parent category (aa-6)
+      min_g: 1
+  aa-6-10-1:
+    lca_data_missing: true
+    name: Watch Bands
+    weight:
+      confidence: low
+      estimate_g: 30
+      max_g: 200
+      methodology: Inherited from parent category (aa-6)
+      min_g: 1
+  aa-6-10-2:
+    lca_data_missing: true
+    name: Watch Stickers & Decals
+    weight:
+      confidence: low
+      estimate_g: 30
+      max_g: 200
+      methodology: Inherited from parent category (aa-6)
+      min_g: 1
+  aa-6-10-3:
+    lca_data_missing: true
+    name: Watch Winders
+    weight:
+      confidence: low
+      estimate_g: 30
+      max_g: 200
+      methodology: Inherited from parent category (aa-6)
+      min_g: 1
+  aa-6-11:
+    lca_data_missing: true
+    name: Watches
+    notes: Varies greatly by type - digital vs mechanical
+    weight:
+      confidence: medium
+      estimate_g: 100
+      max_g: 250
+      min_g: 30
+  aa-6-12:
+    lca_data_missing: true
+    name: Smart Watches
+    weight:
+      confidence: low
+      estimate_g: 30
+      max_g: 200
+      methodology: Inherited from parent category (aa-6)
+      min_g: 1
+  aa-7:
+    lca_data_missing: true
+    name: Shoe Accessories
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  aa-7-1:
+    lca_data_missing: true
+    name: Boot Liners
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  aa-7-2:
+    lca_data_missing: true
+    name: Gaiters
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  aa-7-3:
+    lca_data_missing: true
+    name: Shoe Covers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  aa-7-4:
+    lca_data_missing: true
+    name: Shoe Grips
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  aa-7-5:
+    lca_data_missing: true
+    name: Shoe Inserts
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  aa-7-5-1:
+    lca_data_missing: true
+    name: Anti Slip Steps
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  aa-7-5-2:
+    lca_data_missing: true
+    name: Arch Supports
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  aa-7-5-3:
+    lca_data_missing: true
+    name: Gel Pads
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  aa-7-5-4:
+    lca_data_missing: true
+    name: Heel Cushions
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  aa-7-6:
+    lca_data_missing: true
+    name: Shoelaces
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  aa-7-7:
+    lca_data_missing: true
+    name: Spurs
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  aa-8:
+    lca_data_missing: true
+    name: Shoes
+    notes: Wide variance between sandals and boots
+    weight:
+      confidence: medium
+      estimate_g: 700
+      max_g: 1500
+      methodology: Per pair weight
+      min_g: 200
+  aa-8-1:
     lca:
       carbon_kg_co2e_per_kg: 16.5
       carbon_kg_co2e_per_unit: 10.7
-      scope: cradle-to-gate
-      methodology: MIT study on athletic footwear
       data_quality: secondary
+      methodology: MIT study on athletic footwear
+      scope: cradle-to-gate
     materials:
-      primary_material: synthetic
       breakdown:
       - material: synthetic_upper
         percentage: 40
@@ -695,132 +4159,120 @@ categories:
         percentage: 20
       - material: other
         percentage: 5
+      primary_material: synthetic
+    name: Athletic Shoes
     sources:
     - MIT Materials Systems Laboratory
-  aa-8-10:
-    name: Heels
     weight:
-      estimate_g: 600
-      min_g: 350
+      confidence: high
+      estimate_g: 650
       max_g: 900
-      confidence: medium
+      methodology: Per pair, adult sizes
+      min_g: 400
+  aa-8-2:
     lca_data_missing: true
-  aa-8-3:
-    name: Boots
+    name: Baby & Toddler Shoes
     weight:
-      estimate_g: 1200
-      min_g: 600
-      max_g: 2000
-      confidence: medium
-      methodology: Per pair
-    notes: Leather boots have higher footprint than synthetic
+      confidence: low
+      estimate_g: 700
+      max_g: 1500
+      methodology: Inherited from parent category (aa-8)
+      min_g: 200
+  aa-8-2-1:
     lca_data_missing: true
+    name: Baby & Toddler Boots
+    weight:
+      confidence: low
+      estimate_g: 700
+      max_g: 1500
+      methodology: Inherited from parent category (aa-8)
+      min_g: 200
+  aa-8-2-2:
+    lca_data_missing: true
+    name: Baby & Toddler Sandals
+    weight:
+      confidence: low
+      estimate_g: 700
+      max_g: 1500
+      methodology: Inherited from parent category (aa-8)
+      min_g: 200
+  aa-8-2-4:
+    lca_data_missing: true
+    name: Baby & Toddler Athletic Shoes
+    weight:
+      confidence: low
+      estimate_g: 700
+      max_g: 1500
+      methodology: Inherited from parent category (aa-8)
+      min_g: 200
+  aa-8-2-5:
+    lca_data_missing: true
+    name: Baby & Toddler Sneakers
+    weight:
+      confidence: low
+      estimate_g: 700
+      max_g: 1500
+      methodology: Inherited from parent category (aa-8)
+      min_g: 200
+  aa-8-2-6:
+    lca_data_missing: true
+    name: First Steps & Crawlers
+    weight:
+      confidence: low
+      estimate_g: 700
+      max_g: 1500
+      methodology: Inherited from parent category (aa-8)
+      min_g: 200
+  aa-8-3:
+    lca_data_missing: true
+    name: Boots
+    notes: Leather boots have higher footprint than synthetic
+    weight:
+      confidence: medium
+      estimate_g: 1200
+      max_g: 2000
+      methodology: Per pair
+      min_g: 600
   aa-8-6:
+    lca_data_missing: true
     name: Sandals
     weight:
-      estimate_g: 350
-      min_g: 150
-      max_g: 600
       confidence: medium
+      estimate_g: 350
+      max_g: 600
       methodology: Per pair
-    lca_data_missing: true
+      min_g: 150
   aa-8-7:
+    lca_data_missing: true
     name: Slippers
     weight:
-      estimate_g: 250
-      min_g: 100
-      max_g: 500
       confidence: medium
+      estimate_g: 250
+      max_g: 500
       methodology: Per pair
-    lca_data_missing: true
+      min_g: 100
   aa-8-8:
+    lca_data_missing: true
     name: Sneakers
     weight:
-      estimate_g: 700
-      min_g: 450
-      max_g: 1000
       confidence: high
+      estimate_g: 700
+      max_g: 1000
       methodology: Per pair
-    lca_data_missing: true
+      min_g: 450
   aa-8-9:
+    lca_data_missing: true
     name: Flats
     weight:
+      confidence: medium
       estimate_g: 700
-      min_g: 450
       max_g: 950
+      min_g: 450
+  aa-8-10:
+    lca_data_missing: true
+    name: Heels
+    weight:
       confidence: medium
-    lca_data_missing: true
-  hb-3-19-4:
-    name: Eyeglasses
-    weight:
-      estimate_g: 35
-      min_g: 20
-      max_g: 60
-      confidence: high
-    materials:
-      primary_material: mixed
-      breakdown:
-      - material: acetate_frame
-        percentage: 50
-      - material: lenses
-        percentage: 40
-      - material: metal
-        percentage: 10
-    lca_data_missing: true
-  hb-3-19-5:
-    name: Eyewear Accessories
-    weight:
-      estimate_g: 35
-      min_g: 15
-      max_g: 80
-      confidence: medium
-    lca_data_missing: true
-  lb-1:
-    name: Backpacks
-    weight:
-      estimate_g: 700
-      min_g: 300
-      max_g: 1500
-      confidence: medium
-    lca_data_missing: true
-  lb-10:
-    name: Messenger Bags
-    weight:
       estimate_g: 600
+      max_g: 900
       min_g: 350
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-  lb-13:
-    name: Tote Bags
-    weight:
-      estimate_g: 400
-      min_g: 150
-      max_g: 800
-      confidence: medium
-    notes: Canvas totes lower footprint than leather
-    lca_data_missing: true
-  lb-7:
-    name: Fanny Packs
-    weight:
-      estimate_g: 200
-      min_g: 100
-      max_g: 400
-      confidence: medium
-    lca_data_missing: true
-  tg-3-9:
-    name: Slides
-    weight:
-      estimate_g: 300
-      min_g: 150
-      max_g: 500
-      confidence: medium
-    lca_data_missing: true
-  vp-1-4-19-2:
-    name: Clutches
-    weight:
-      estimate_g: 200
-      min_g: 80
-      max_g: 400
-      confidence: medium
-    lca_data_missing: true

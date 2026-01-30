@@ -1,0 +1,75 @@
+schema_version: 0.1.0
+last_updated: '2026-01-30'
+categories:
+  pa:
+    lca_data_missing: true
+    name: Product Add-Ons
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 2000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  pa-1:
+    lca_data_missing: true
+    name: Extended Warranties
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 2000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  pa-2:
+    lca_data_missing: true
+    name: Installation Services
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 2000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  pa-3:
+    lca_data_missing: true
+    name: Maintenance Plans
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 2000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  pa-4:
+    lca_data_missing: true
+    name: Product Customization
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 2000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  pa-5:
+    lca_data_missing: true
+    name: Product Upgrades
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 2000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  pa-6:
+    lca_data_missing: true
+    name: Shipping Insurance
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 2000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  pa-7:
+    lca_data_missing: true
+    name: Subscription Services
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 2000
+      methodology: Vertical-level default estimate
+      min_g: 5

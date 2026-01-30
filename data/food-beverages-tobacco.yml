@@ -1,0 +1,3972 @@
+schema_version: 0.1.0
+last_updated: '2026-01-30'
+categories:
+  fb:
+    lca_data_missing: true
+    name: Food, Beverages & Tobacco
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1:
+    lca_data_missing: true
+    name: Beverages
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-1:
+    lca_data_missing: true
+    name: Alcoholic Beverages
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-1-1:
+    lca_data_missing: true
+    name: Beer
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-1-2:
+    lca_data_missing: true
+    name: Bitters
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-1-3:
+    lca_data_missing: true
+    name: Flavored Alcoholic Beverages
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-1-4:
+    lca_data_missing: true
+    name: Hard Cider
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-1-5:
+    lca_data_missing: true
+    name: Liquor & Spirits
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-1-5-1:
+    lca_data_missing: true
+    name: Absinthe
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-1-5-2:
+    lca_data_missing: true
+    name: Brandy
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-1-5-3:
+    lca_data_missing: true
+    name: Gin
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-1-5-4:
+    lca_data_missing: true
+    name: Liqueurs
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-1-5-5:
+    lca_data_missing: true
+    name: Rum
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-1-5-6:
+    lca_data_missing: true
+    name: Shochu & Soju
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-1-5-6-1:
+    lca_data_missing: true
+    name: Shochu
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-1-5-6-2:
+    lca_data_missing: true
+    name: Soju
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-1-5-7:
+    lca_data_missing: true
+    name: Tequila
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-1-5-8:
+    lca_data_missing: true
+    name: Vodka
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-1-5-9:
+    lca_data_missing: true
+    name: Whiskey
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-1-6:
+    lca_data_missing: true
+    name: Premixed Spirits & Cocktail Mixes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-1-6-1:
+    lca_data_missing: true
+    name: Beer-Based Cocktails
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-1-6-2:
+    lca_data_missing: true
+    name: Fruit Mix Preparations
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-1-6-3:
+    lca_data_missing: true
+    name: Hard Seltzers
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-1-6-4:
+    lca_data_missing: true
+    name: Liquor & Spirit-Based Cocktails
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-1-6-5:
+    lca_data_missing: true
+    name: Spice Mix Preparations
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-1-6-6:
+    lca_data_missing: true
+    name: Wine-Based Cocktails
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-1-7:
+    lca_data_missing: true
+    name: Wine
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-2:
+    lca_data_missing: true
+    name: Buttermilk
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-3:
+    lca_data_missing: true
+    name: Coffee
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-3-1:
+    lca_data_missing: true
+    name: Coffee Beans & Ground Coffee
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-3-2:
+    lca_data_missing: true
+    name: Coffee Pods & Capsules
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-3-3:
+    lca_data_missing: true
+    name: Instant Coffee
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-3-4:
+    lca_data_missing: true
+    name: Ready-To-Drink Coffee
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-4:
+    lca_data_missing: true
+    name: Cordials, Syrups & Squash
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-5:
+    lca_data_missing: true
+    name: Fruit Flavored Drinks
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-6:
+    lca_data_missing: true
+    name: Hot Chocolate
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-6-1:
+    lca_data_missing: true
+    name: Cocoa Powder
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-6-2:
+    lca_data_missing: true
+    name: Hot Chocolate Mixes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-6-3:
+    lca_data_missing: true
+    name: Malted Milk
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-6-4:
+    lca_data_missing: true
+    name: Ready-To-Drink Hot Chocolate
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-7:
+    lca_data_missing: true
+    name: Juices, Milkshakes & Smoothies
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-7-1:
+    lca_data_missing: true
+    name: Juices
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-7-2:
+    lca_data_missing: true
+    name: Milkshakes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-7-3:
+    lca_data_missing: true
+    name: Smoothies
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-8:
+    lca_data_missing: true
+    name: Low Alcohol & Alcohol-Free Beverages
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-8-1:
+    lca_data_missing: true
+    name: Low Alcohol & Alcohol-Free Beer
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-8-2:
+    lca_data_missing: true
+    name: Low Alcohol & Alcohol-Free Bitters
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-8-3:
+    lca_data_missing: true
+    name: Low Alcohol & Alcohol-Free Cocktail Mixes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-8-4:
+    lca_data_missing: true
+    name: Low Alcohol & Alcohol-Free Hard Cider
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-8-5:
+    lca_data_missing: true
+    name: Low Alcohol & Alcohol-Free Liquors & Spirits
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-8-6:
+    lca_data_missing: true
+    name: Low Alcohol & Alcohol-Free Wine
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-9:
+    lca_data_missing: true
+    name: Milk
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-10:
+    lca_data_missing: true
+    name: Non-Dairy Milk
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-10-1:
+    lca_data_missing: true
+    name: Coconut Milk & Drinks
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-10-2:
+    lca_data_missing: true
+    name: Nut Drinks
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-10-3:
+    lca_data_missing: true
+    name: Oat Drinks
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-10-4:
+    lca_data_missing: true
+    name: Rice Drinks
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-10-5:
+    lca_data_missing: true
+    name: Soy Drinks
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-11:
+    lca_data_missing: true
+    name: Powdered Beverage Mixes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-12:
+    lca_data_missing: true
+    name: Soda
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-13:
+    lca_data_missing: true
+    name: Sports & Energy Drinks
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-13-1:
+    lca_data_missing: true
+    name: Energy Drinks
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-13-2:
+    lca_data_missing: true
+    name: Sports Drinks
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-14:
+    lca_data_missing: true
+    name: Tea & Infusions
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-14-1:
+    lca_data_missing: true
+    name: Infusions
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-14-2:
+    lca_data_missing: true
+    name: Tea
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-14-3:
+    lca_data_missing: true
+    name: Ready-To-Drink Herbal Infusions & Tea
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-15:
+    lca_data_missing: true
+    name: Vinegar Drinks
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-16:
+    lca_data_missing: true
+    name: Water
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-16-1:
+    lca_data_missing: true
+    name: Carbonated Water
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-16-2:
+    lca_data_missing: true
+    name: Distilled Water
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-16-3:
+    lca_data_missing: true
+    name: Flat Mineral Water
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-1-16-4:
+    lca_data_missing: true
+    name: Spring Water
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2:
+    lca_data_missing: true
+    name: Food Items
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-1:
+    lca_data_missing: true
+    name: Bakery
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-1-1:
+    lca_data_missing: true
+    name: Bagels
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-1-2:
+    lca_data_missing: true
+    name: Bakery Assortments
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-1-3:
+    lca_data_missing: true
+    name: Breads & Buns
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-1-4:
+    lca_data_missing: true
+    name: Cakes & Dessert Bars
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-1-4-1:
+    lca_data_missing: true
+    name: Cakes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-1-4-2:
+    lca_data_missing: true
+    name: Dessert Bars
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-1-5:
+    lca_data_missing: true
+    name: Coffee Cakes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-1-6:
+    lca_data_missing: true
+    name: Cookies
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-1-7:
+    lca_data_missing: true
+    name: Cupcakes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-1-8:
+    lca_data_missing: true
+    name: Donuts
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-1-9:
+    lca_data_missing: true
+    name: Fudge
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-1-10:
+    lca_data_missing: true
+    name: Ice Cream Cones
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-1-11:
+    lca_data_missing: true
+    name: Muffins
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-1-12:
+    lca_data_missing: true
+    name: Pastries & Scones
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-1-13:
+    lca_data_missing: true
+    name: Pies & Tarts
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-1-14:
+    lca_data_missing: true
+    name: Taco Shells & Tostadas
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-1-15:
+    lca_data_missing: true
+    name: Tortillas & Wraps
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-2:
+    lca_data_missing: true
+    name: Candied & Chocolate Covered Fruit
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-2-1:
+    lca_data_missing: true
+    name: Candied Fruit
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-2-2:
+    lca_data_missing: true
+    name: Chocolate Covered Fruit
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-3:
+    lca_data_missing: true
+    name: Candy & Chocolate
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-3-1:
+    lca_data_missing: true
+    name: Candy
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-3-2:
+    lca_data_missing: true
+    name: Chocolate
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4:
+    lca_data_missing: true
+    name: Condiments & Sauces
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-1:
+    lca_data_missing: true
+    name: Cocktail Sauce
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-2:
+    lca_data_missing: true
+    name: Curry Sauce
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-3:
+    lca_data_missing: true
+    name: Dessert Toppings
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-3-1:
+    lca_data_missing: true
+    name: Fruit Toppings
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-3-2:
+    lca_data_missing: true
+    name: Ice Cream Syrup
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-4:
+    lca_data_missing: true
+    name: Fish Sauce
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-5:
+    lca_data_missing: true
+    name: Gravy
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-6:
+    lca_data_missing: true
+    name: Honey
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-7:
+    lca_data_missing: true
+    name: Horseradish Sauce
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-8:
+    lca_data_missing: true
+    name: Hot Sauce
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-9:
+    lca_data_missing: true
+    name: Ketchup
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-10:
+    lca_data_missing: true
+    name: Marinades & Grilling Sauces
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-11:
+    lca_data_missing: true
+    name: Mayonnaise
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-12:
+    lca_data_missing: true
+    name: Mustard
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-13:
+    lca_data_missing: true
+    name: Olives & Capers
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-13-1:
+    lca_data_missing: true
+    name: Capers
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-13-2:
+    lca_data_missing: true
+    name: Olives
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-14:
+    lca_data_missing: true
+    name: Pasta Sauce
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-15:
+    lca_data_missing: true
+    name: Pickled Fruits & Vegetables
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-16:
+    lca_data_missing: true
+    name: Pizza Sauce
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-17:
+    lca_data_missing: true
+    name: Relish & Chutney
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-18:
+    lca_data_missing: true
+    name: Salad Dressing
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-19:
+    lca_data_missing: true
+    name: Satay Sauce
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-20:
+    lca_data_missing: true
+    name: Soy Sauce
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-21:
+    lca_data_missing: true
+    name: Sweet and Sour Sauces
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-22:
+    lca_data_missing: true
+    name: Syrup
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-23:
+    lca_data_missing: true
+    name: Tahini
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-24:
+    lca_data_missing: true
+    name: Tartar Sauce
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-25:
+    lca_data_missing: true
+    name: White & Cream Sauces
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-4-26:
+    lca_data_missing: true
+    name: Worcestershire Sauce
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5:
+    lca_data_missing: true
+    name: Cooking & Baking Ingredients
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-1:
+    lca_data_missing: true
+    name: Baking Chips
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-2:
+    lca_data_missing: true
+    name: Baking Chocolate
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-3:
+    lca_data_missing: true
+    name: Baking Flavors & Extracts
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-4:
+    lca_data_missing: true
+    name: Baking Mixes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-5:
+    lca_data_missing: true
+    name: Baking Powder
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-6:
+    lca_data_missing: true
+    name: Baking Soda
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-7:
+    lca_data_missing: true
+    name: Batter & Coating Mixes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-8:
+    lca_data_missing: true
+    name: Bean Paste
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-9:
+    lca_data_missing: true
+    name: Bread Crumbs
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-10:
+    lca_data_missing: true
+    name: Canned & Dry Milk
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-10-1:
+    lca_data_missing: true
+    name: Condensed Milk
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-10-2:
+    lca_data_missing: true
+    name: Evaporated Milk
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-10-3:
+    lca_data_missing: true
+    name: Powdered Milk
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-11:
+    lca_data_missing: true
+    name: Cookie Decorating Kits
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-12:
+    lca_data_missing: true
+    name: Cooking Oils
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-12-1:
+    lca_data_missing: true
+    name: Avocado Oil
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-12-2:
+    lca_data_missing: true
+    name: Coconut Oil
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-12-3:
+    lca_data_missing: true
+    name: Corn Oil
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-12-4:
+    lca_data_missing: true
+    name: Olive Oil
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-12-5:
+    lca_data_missing: true
+    name: Peanut Oil
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-12-6:
+    lca_data_missing: true
+    name: Rapeseed Oil
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-12-7:
+    lca_data_missing: true
+    name: Sesame Oil
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-12-8:
+    lca_data_missing: true
+    name: Soybean Oil
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-12-9:
+    lca_data_missing: true
+    name: Sunflower Oil
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-12-10:
+    lca_data_missing: true
+    name: Vegetable Oil
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-13:
+    lca_data_missing: true
+    name: Cooking Starch
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-14:
+    lca_data_missing: true
+    name: Cooking Wine
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-15:
+    lca_data_missing: true
+    name: Corn Syrup
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-16:
+    lca_data_missing: true
+    name: Dough
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-16-1:
+    lca_data_missing: true
+    name: Bread & Pastry Dough
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-16-2:
+    lca_data_missing: true
+    name: Cookie & Brownie Dough
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-16-3:
+    lca_data_missing: true
+    name: Pie Crusts
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-17:
+    lca_data_missing: true
+    name: Edible Baking Decorations
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-18:
+    lca_data_missing: true
+    name: Egg Replacers
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-19:
+    lca_data_missing: true
+    name: Floss Sugar
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-20:
+    lca_data_missing: true
+    name: Flour
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-21:
+    lca_data_missing: true
+    name: Food Coloring
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-22:
+    lca_data_missing: true
+    name: Frosting & Icing
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-23:
+    lca_data_missing: true
+    name: Lemon & Lime Juice
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-24:
+    lca_data_missing: true
+    name: Marshmallows
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-25:
+    lca_data_missing: true
+    name: Meal
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-26:
+    lca_data_missing: true
+    name: Molasses
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-27:
+    lca_data_missing: true
+    name: Pie & Pastry Fillings
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-28:
+    lca_data_missing: true
+    name: Shortening & Lard
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-29:
+    lca_data_missing: true
+    name: Starter Cultures
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-30:
+    lca_data_missing: true
+    name: Sugar & Sweeteners
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-30-1:
+    lca_data_missing: true
+    name: Granulated Sugar
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-30-2:
+    lca_data_missing: true
+    name: Icing Sugar
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-30-3:
+    lca_data_missing: true
+    name: Sweeteners
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-30-4:
+    lca_data_missing: true
+    name: Syrups & Nectars
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-31:
+    lca_data_missing: true
+    name: Tapioca Pearls
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-32:
+    lca_data_missing: true
+    name: Tomato Paste
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-33:
+    lca_data_missing: true
+    name: Unflavored Gelatin
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-34:
+    lca_data_missing: true
+    name: Vinegar
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-35:
+    lca_data_missing: true
+    name: Waffle & Pancake Mixes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-5-36:
+    lca_data_missing: true
+    name: Yeast
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-6:
+    lca_data_missing: true
+    name: Dairy Products
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-6-1:
+    lca_data_missing: true
+    name: Butter & Margarine
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-6-1-1:
+    lca_data_missing: true
+    name: Margarine
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-6-1-2:
+    lca_data_missing: true
+    name: Salted Butter
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-6-1-3:
+    lca_data_missing: true
+    name: Unsalted Butter
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-6-1-4:
+    lca_data_missing: true
+    name: Whipped Butter
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-6-2:
+    lca_data_missing: true
+    name: Cheese
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-6-3:
+    lca_data_missing: true
+    name: Coffee Creamer
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-6-4:
+    lca_data_missing: true
+    name: Cottage Cheese
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-6-5:
+    lca_data_missing: true
+    name: Cream
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-6-5-1:
+    lca_data_missing: true
+    name: Fresh Cream
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-6-5-2:
+    lca_data_missing: true
+    name: Whipping Cream
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-6-6:
+    lca_data_missing: true
+    name: Sour Cream
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-6-7:
+    lca_data_missing: true
+    name: Whipped Cream
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-6-8:
+    lca_data_missing: true
+    name: Yogurt
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-7:
+    lca_data_missing: true
+    name: Dips & Spreads
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-7-1:
+    lca_data_missing: true
+    name: Apple Butter
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-7-2:
+    lca_data_missing: true
+    name: Cheese Dips & Spreads
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-7-3:
+    lca_data_missing: true
+    name: Cream Cheese
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-7-4:
+    lca_data_missing: true
+    name: Guacamole
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-7-5:
+    lca_data_missing: true
+    name: Hummus
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-7-6:
+    lca_data_missing: true
+    name: Jams & Jellies
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-7-7:
+    lca_data_missing: true
+    name: Nut Butters
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-7-8:
+    lca_data_missing: true
+    name: Salsa
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-7-9:
+    lca_data_missing: true
+    name: Tapenade
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-7-10:
+    lca_data_missing: true
+    name: Vegetable Dip
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-8:
+    lca_data_missing: true
+    name: Food Gift Baskets
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-9:
+    lca_data_missing: true
+    name: Frozen Desserts & Novelties
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-9-1:
+    lca_data_missing: true
+    name: Ice Cream & Frozen Yogurt
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-9-1-1:
+    lca_data_missing: true
+    name: Frozen Yogurt
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-9-1-2:
+    lca_data_missing: true
+    name: Gelato
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-9-1-3:
+    lca_data_missing: true
+    name: Ice Cream
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-9-1-4:
+    lca_data_missing: true
+    name: Sherbet
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-9-1-5:
+    lca_data_missing: true
+    name: Sorbet
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-9-2:
+    lca_data_missing: true
+    name: Ice Cream Novelties
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-9-3:
+    lca_data_missing: true
+    name: Ice Pops
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10:
+    lca_data_missing: true
+    name: Fruits & Vegetables
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-1:
+    lca_data_missing: true
+    name: Canned & Jarred Fruits
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-2:
+    lca_data_missing: true
+    name: Canned & Jarred Vegetables
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-3:
+    lca_data_missing: true
+    name: Canned & Prepared Beans
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-4:
+    lca_data_missing: true
+    name: Dried Fruits
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-5:
+    lca_data_missing: true
+    name: Dried Vegetables
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-6:
+    lca_data_missing: true
+    name: Dry Legumes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7:
+    lca_data_missing: true
+    name: Fresh & Frozen Fruits
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-1:
+    lca_data_missing: true
+    name: Apples
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-2:
+    lca_data_missing: true
+    name: Atemoyas
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-3:
+    lca_data_missing: true
+    name: Avocados
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-4:
+    lca_data_missing: true
+    name: Babacos
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-5:
+    lca_data_missing: true
+    name: Bananas
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-6:
+    lca_data_missing: true
+    name: Berries
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-7:
+    lca_data_missing: true
+    name: Breadfruit
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-8:
+    lca_data_missing: true
+    name: Cactus Pears
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-9:
+    lca_data_missing: true
+    name: Cherimoyas
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-10:
+    lca_data_missing: true
+    name: Citrus Fruits
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-10-1:
+    lca_data_missing: true
+    name: Grapefruits
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-10-2:
+    lca_data_missing: true
+    name: Kumquats
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-10-3:
+    lca_data_missing: true
+    name: Lemons
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-10-4:
+    lca_data_missing: true
+    name: Limequats
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-10-5:
+    lca_data_missing: true
+    name: Limes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-10-6:
+    lca_data_missing: true
+    name: Oranges
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-10-7:
+    lca_data_missing: true
+    name: Tangelos
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-11:
+    lca_data_missing: true
+    name: Coconuts
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-12:
+    lca_data_missing: true
+    name: Dates
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-13:
+    lca_data_missing: true
+    name: Feijoas
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-14:
+    lca_data_missing: true
+    name: Figs
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-15:
+    lca_data_missing: true
+    name: Fruit Mixes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-16:
+    lca_data_missing: true
+    name: Grapes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-17:
+    lca_data_missing: true
+    name: Guavas
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-18:
+    lca_data_missing: true
+    name: Homely Fruits
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-19:
+    lca_data_missing: true
+    name: Kiwis
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-20:
+    lca_data_missing: true
+    name: Longan
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-21:
+    lca_data_missing: true
+    name: Loquats
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-22:
+    lca_data_missing: true
+    name: Lychees
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-23:
+    lca_data_missing: true
+    name: Madroño
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-24:
+    lca_data_missing: true
+    name: Mamey
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-25:
+    lca_data_missing: true
+    name: Mangosteens
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-26:
+    lca_data_missing: true
+    name: Melons
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-27:
+    lca_data_missing: true
+    name: Papayas
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-28:
+    lca_data_missing: true
+    name: Passion Fruit
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-29:
+    lca_data_missing: true
+    name: Pears
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-30:
+    lca_data_missing: true
+    name: Persimmons
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-31:
+    lca_data_missing: true
+    name: Physalis
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-32:
+    lca_data_missing: true
+    name: Pineapples
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-33:
+    lca_data_missing: true
+    name: Pitahayas
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-34:
+    lca_data_missing: true
+    name: Pomegranates
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-35:
+    lca_data_missing: true
+    name: Quince
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-36:
+    lca_data_missing: true
+    name: Rambutans
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-37:
+    lca_data_missing: true
+    name: Sapodillo
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-38:
+    lca_data_missing: true
+    name: Sapote
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-39:
+    lca_data_missing: true
+    name: Soursops
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-40:
+    lca_data_missing: true
+    name: Starfruits
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-41:
+    lca_data_missing: true
+    name: Stone Fruits
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-41-1:
+    lca_data_missing: true
+    name: Apricots
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-41-2:
+    lca_data_missing: true
+    name: Cherries
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-41-3:
+    lca_data_missing: true
+    name: Mangoes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-41-4:
+    lca_data_missing: true
+    name: Peaches & Nectarines
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-41-5:
+    lca_data_missing: true
+    name: Plumcots
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-41-6:
+    lca_data_missing: true
+    name: Plums
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-42:
+    lca_data_missing: true
+    name: Sugar Apples
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-7-43:
+    lca_data_missing: true
+    name: Tamarindo
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8:
+    lca_data_missing: true
+    name: Fresh & Frozen Vegetables
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-1:
+    lca_data_missing: true
+    name: Arracachas
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-2:
+    lca_data_missing: true
+    name: Artichokes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-3:
+    lca_data_missing: true
+    name: Asparagus
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-4:
+    lca_data_missing: true
+    name: Beans
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-5:
+    lca_data_missing: true
+    name: Beets
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-6:
+    lca_data_missing: true
+    name: Borage
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-7:
+    lca_data_missing: true
+    name: Broccoli
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-8:
+    lca_data_missing: true
+    name: Brussel Sprouts
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-9:
+    lca_data_missing: true
+    name: Cabbage
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-10:
+    lca_data_missing: true
+    name: Cactus Leaves
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-11:
+    lca_data_missing: true
+    name: Cardoon
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-12:
+    lca_data_missing: true
+    name: Carrots
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-13:
+    lca_data_missing: true
+    name: Cauliflower
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-14:
+    lca_data_missing: true
+    name: Celery
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-15:
+    lca_data_missing: true
+    name: Celery Roots
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-16:
+    lca_data_missing: true
+    name: Corn
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-17:
+    lca_data_missing: true
+    name: Cucumbers
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-18:
+    lca_data_missing: true
+    name: Eggplants
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-19:
+    lca_data_missing: true
+    name: Fennel Bulbs
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-20:
+    lca_data_missing: true
+    name: Fiddlehead Ferns
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-21:
+    lca_data_missing: true
+    name: Gai Choy
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-22:
+    lca_data_missing: true
+    name: Gai Lan
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-23:
+    lca_data_missing: true
+    name: Garlic
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-24:
+    lca_data_missing: true
+    name: Ginger Root
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-25:
+    lca_data_missing: true
+    name: Gobo Root
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-26:
+    lca_data_missing: true
+    name: Greens
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-26-1:
+    lca_data_missing: true
+    name: Arugula
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-26-2:
+    lca_data_missing: true
+    name: Beet Greens
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-26-3:
+    lca_data_missing: true
+    name: Bok Choy
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-26-4:
+    lca_data_missing: true
+    name: Chard
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-26-5:
+    lca_data_missing: true
+    name: Chicory
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-26-6:
+    lca_data_missing: true
+    name: Choy Sum
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-26-7:
+    lca_data_missing: true
+    name: Kale
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-26-8:
+    lca_data_missing: true
+    name: Lettuce
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-26-9:
+    lca_data_missing: true
+    name: Ong Choy
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-26-10:
+    lca_data_missing: true
+    name: Salad Mixes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-26-11:
+    lca_data_missing: true
+    name: Spinach
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-26-12:
+    lca_data_missing: true
+    name: Yu Choy
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-27:
+    lca_data_missing: true
+    name: Horseradish Root
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-28:
+    lca_data_missing: true
+    name: Jicama
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-29:
+    lca_data_missing: true
+    name: Kohlrabi
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-30:
+    lca_data_missing: true
+    name: Leeks
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-31:
+    lca_data_missing: true
+    name: Lotus Roots
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-32:
+    lca_data_missing: true
+    name: Malangas
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-33:
+    lca_data_missing: true
+    name: Mushrooms
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-34:
+    lca_data_missing: true
+    name: Okra
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-35:
+    lca_data_missing: true
+    name: Onions
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-36:
+    lca_data_missing: true
+    name: Parsley Roots
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-37:
+    lca_data_missing: true
+    name: Parsnips
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-38:
+    lca_data_missing: true
+    name: Peas
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-39:
+    lca_data_missing: true
+    name: Peppers
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-40:
+    lca_data_missing: true
+    name: Potatoes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-41:
+    lca_data_missing: true
+    name: Radishes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-42:
+    lca_data_missing: true
+    name: Rhubarb
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-43:
+    lca_data_missing: true
+    name: Shallots
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-44:
+    lca_data_missing: true
+    name: Sprouts
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-45:
+    lca_data_missing: true
+    name: Squashes & Gourds
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-46:
+    lca_data_missing: true
+    name: Sugar Cane
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-47:
+    lca_data_missing: true
+    name: Sunchokes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-48:
+    lca_data_missing: true
+    name: Sweet Potatoes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-49:
+    lca_data_missing: true
+    name: Tamarillos
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-50:
+    lca_data_missing: true
+    name: Taro Root
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-51:
+    lca_data_missing: true
+    name: Tomatoes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-52:
+    lca_data_missing: true
+    name: Turnips & Rutabagas
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-53:
+    lca_data_missing: true
+    name: Vegetable Mixes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-54:
+    lca_data_missing: true
+    name: Water Chestnuts
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-55:
+    lca_data_missing: true
+    name: Watercress
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-56:
+    lca_data_missing: true
+    name: Wheatgrass
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-57:
+    lca_data_missing: true
+    name: Yams
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-8-58:
+    lca_data_missing: true
+    name: Yuca Root
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-10-9:
+    lca_data_missing: true
+    name: Fruit Sauces
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-11:
+    lca_data_missing: true
+    name: Grains, Rice & Cereal
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-11-1:
+    lca_data_missing: true
+    name: Amaranth
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-11-2:
+    lca_data_missing: true
+    name: Barley
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-11-3:
+    lca_data_missing: true
+    name: Buckwheat
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-11-4:
+    lca_data_missing: true
+    name: Cereal & Granola
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-11-5:
+    lca_data_missing: true
+    name: Couscous
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-11-6:
+    lca_data_missing: true
+    name: Millet
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-11-7:
+    lca_data_missing: true
+    name: Oats, Grits & Hot Cereal
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-11-7-1:
+    lca_data_missing: true
+    name: Muesli
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-11-7-2:
+    lca_data_missing: true
+    name: Porridge
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-11-8:
+    lca_data_missing: true
+    name: Quinoa
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-11-9:
+    lca_data_missing: true
+    name: Rice
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-11-10:
+    lca_data_missing: true
+    name: Rye
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-11-11:
+    lca_data_missing: true
+    name: Wheat
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-12:
+    lca_data_missing: true
+    name: Meat, Seafood & Eggs
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-12-1:
+    lca_data_missing: true
+    name: Eggs
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-12-1-1:
+    lca_data_missing: true
+    name: Egg Whites
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-12-1-2:
+    lca_data_missing: true
+    name: Liquid & Frozen Eggs
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-12-1-3:
+    lca_data_missing: true
+    name: Prepared Eggs
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-12-1-4:
+    lca_data_missing: true
+    name: Whole Eggs
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-12-2:
+    lca_data_missing: true
+    name: Meat
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-12-2-1:
+    lca_data_missing: true
+    name: Canned Meats
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-12-2-2:
+    lca_data_missing: true
+    name: Fresh & Frozen Meats
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-12-2-2-1:
+    lca_data_missing: true
+    name: Beef
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-12-2-2-2:
+    lca_data_missing: true
+    name: Game
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-12-2-2-3:
+    lca_data_missing: true
+    name: Lamb
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-12-2-2-4:
+    lca_data_missing: true
+    name: Pork
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-12-2-2-5:
+    lca_data_missing: true
+    name: Poultry
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-12-2-2-5-1:
+    lca_data_missing: true
+    name: Chicken
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-12-2-2-5-2:
+    lca_data_missing: true
+    name: Turkey
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-12-2-3:
+    lca_data_missing: true
+    name: Lunch & Deli Meats
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-12-3:
+    lca_data_missing: true
+    name: Seafood
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-12-3-1:
+    lca_data_missing: true
+    name: Canned Seafood
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-12-3-2:
+    lca_data_missing: true
+    name: Fresh & Frozen Seafood
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-13:
+    lca_data_missing: true
+    name: Nuts & Seeds
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-14:
+    lca_data_missing: true
+    name: Pasta & Noodles
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-15:
+    lca_data_missing: true
+    name: Prepared Foods
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-15-1:
+    lca_data_missing: true
+    name: Prepared Appetizers & Side Dishes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-15-2:
+    lca_data_missing: true
+    name: Prepared Meals & Entrées
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-16:
+    lca_data_missing: true
+    name: Seasonings & Spices
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-16-1:
+    lca_data_missing: true
+    name: Herbs & Spices
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-16-2:
+    lca_data_missing: true
+    name: MSG
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-16-3:
+    lca_data_missing: true
+    name: Pepper
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-16-4:
+    lca_data_missing: true
+    name: Salt
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-17:
+    lca_data_missing: true
+    name: Snack Foods
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-17-1:
+    lca_data_missing: true
+    name: Breadsticks
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-17-2:
+    lca_data_missing: true
+    name: Cereal & Granola Bars
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-17-2-1:
+    lca_data_missing: true
+    name: Cereal Bars
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-17-2-2:
+    lca_data_missing: true
+    name: Granola Bars
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-17-3:
+    lca_data_missing: true
+    name: Cheese Puffs
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-17-4:
+    lca_data_missing: true
+    name: Chips
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-17-5:
+    lca_data_missing: true
+    name: Crackers
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-17-6:
+    lca_data_missing: true
+    name: Croutons
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-17-7:
+    lca_data_missing: true
+    name: Fruit Snacks
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-17-8:
+    lca_data_missing: true
+    name: Jerky
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-17-9:
+    lca_data_missing: true
+    name: Popcorn
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-17-10:
+    lca_data_missing: true
+    name: Pork Rinds
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-17-11:
+    lca_data_missing: true
+    name: Pretzels
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-17-12:
+    lca_data_missing: true
+    name: Pudding & Gelatin Snacks
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-17-13:
+    lca_data_missing: true
+    name: Puffed Rice Cakes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-17-14:
+    lca_data_missing: true
+    name: Salad Toppings
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-17-15:
+    lca_data_missing: true
+    name: Sesame Sticks
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-17-16:
+    lca_data_missing: true
+    name: Snack Cakes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-17-17:
+    lca_data_missing: true
+    name: Sticky Rice Cakes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-17-18:
+    lca_data_missing: true
+    name: Trail & Snack Mixes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-18:
+    lca_data_missing: true
+    name: Soups & Broths
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-19:
+    lca_data_missing: true
+    name: Tofu, Soy & Vegetarian Products
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-19-1:
+    lca_data_missing: true
+    name: Cheese Alternatives
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-19-2:
+    lca_data_missing: true
+    name: Meat Alternatives
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-19-3:
+    lca_data_missing: true
+    name: Seitan
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-19-4:
+    lca_data_missing: true
+    name: Tempeh
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-2-19-5:
+    lca_data_missing: true
+    name: Tofu
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-3:
+    lca_data_missing: true
+    name: Tobacco Products
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-3-2:
+    lca_data_missing: true
+    name: Chewing Tobacco
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-3-3:
+    lca_data_missing: true
+    name: Cigarettes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-3-4:
+    lca_data_missing: true
+    name: Cigars
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-3-5:
+    lca_data_missing: true
+    name: Loose Tobacco
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-3-6:
+    lca_data_missing: true
+    name: Smoking Pipes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-3-7:
+    lca_data_missing: true
+    name: Vaporizers & Electronic Cigarettes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-3-7-1:
+    lca_data_missing: true
+    name: E-Liquid
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-3-7-2:
+    lca_data_missing: true
+    name: Electronic Cigarettes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-3-7-3:
+    lca_data_missing: true
+    name: Vaporizers
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  fb-3-8:
+    lca_data_missing: true
+    name: Rolling Papers
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 5

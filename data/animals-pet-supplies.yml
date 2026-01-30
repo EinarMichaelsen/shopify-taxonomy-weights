@@ -1,151 +1,329 @@
 schema_version: 0.1.0
-last_updated: '2026-01-29'
+last_updated: '2026-01-30'
 categories:
+  ap:
+    lca_data_missing: true
+    name: Animals & Pet Supplies
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 30000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  ap-1:
+    lca_data_missing: true
+    name: Live Animals
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 30000
+      methodology: Vertical-level default estimate
+      min_g: 20
   ap-2:
+    lca_data_missing: true
     name: Pet Supplies
     weight:
-      estimate_g: 150
-      min_g: 50
-      max_g: 500
       confidence: medium
-    lca_data_missing: true
+      estimate_g: 150
+      max_g: 500
+      min_g: 50
   ap-2-1:
+    lca_data_missing: true
     name: Bird Supplies
     weight:
-      estimate_g: 2000
-      min_g: 50
-      max_g: 20000
       confidence: low
+      estimate_g: 2000
+      max_g: 20000
+      min_g: 50
+  ap-2-1-1:
     lca_data_missing: true
+    name: Bird Cage Accessories
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-1)
+      min_g: 50
+  ap-2-1-1-1:
+    lca_data_missing: true
+    name: Bird Cage Bird Baths
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-1)
+      min_g: 50
+  ap-2-1-1-2:
+    lca_data_missing: true
+    name: Bird Cage Food & Water Dishes
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-1)
+      min_g: 50
+  ap-2-1-1-2-1:
+    lca_data_missing: true
+    name: Bird Cage Food Dishes
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-1)
+      min_g: 50
+  ap-2-1-1-2-2:
+    lca_data_missing: true
+    name: Bird Cage Water Dishes
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-1)
+      min_g: 50
+  ap-2-1-1-2-3:
+    lca_data_missing: true
+    name: Combined Bird Cage Food & Water Dishes
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-1)
+      min_g: 50
   ap-2-1-2:
+    lca_data_missing: true
+    materials:
+      breakdown:
+      - material: steel_wire
+        percentage: 70
+      - material: plastic_tray
+        percentage: 25
+      - material: other
+        percentage: 5
+      primary_material: metal
     name: Bird Cages & Stands
     weight:
+      confidence: medium
       estimate_g: 5000
-      min_g: 1000
       max_g: 20000
-      confidence: medium
-    materials:
-      primary_material: metal
-      breakdown:
-      - material: steel_wire
-        percentage: 70
-      - material: plastic_tray
-        percentage: 25
-      - material: other
-        percentage: 5
-    lca_data_missing: true
+      min_g: 1000
   ap-2-1-3:
-    name: Bird Food
-    weight:
-      estimate_g: 2000
-      min_g: 200
-      max_g: 10000
-      confidence: medium
+    lca_data_missing: true
     materials:
       primary_material: seeds
+    name: Bird Food
     notes: Seed-based, lower footprint than meat-based pet food
-    lca_data_missing: true
-  ap-2-1-5:
-    name: Bird Ladders & Perches
     weight:
-      estimate_g: 200
-      min_g: 50
-      max_g: 500
       confidence: medium
+      estimate_g: 2000
+      max_g: 10000
+      min_g: 200
+  ap-2-1-4:
+    lca_data_missing: true
+    name: Bird Gyms & Playstands
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-1)
+      min_g: 50
+  ap-2-1-5:
+    lca_data_missing: true
     materials:
       primary_material: wood
+    name: Bird Ladders & Perches
+    weight:
+      confidence: medium
+      estimate_g: 200
+      max_g: 500
+      min_g: 50
+  ap-2-1-5-1:
     lca_data_missing: true
+    name: Ladders & Steps
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 500
+      methodology: Inherited from parent category (ap-2-1-5)
+      min_g: 50
+  ap-2-1-5-2:
+    lca_data_missing: true
+    name: Swings & Perches
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 500
+      methodology: Inherited from parent category (ap-2-1-5)
+      min_g: 50
   ap-2-1-6:
+    lca_data_missing: true
     name: Bird Toys
     weight:
+      confidence: medium
       estimate_g: 100
-      min_g: 20
       max_g: 400
-      confidence: medium
+      min_g: 20
+  ap-2-1-6-1:
     lca_data_missing: true
-  ap-2-16:
-    name: Pet Carriers & Crates
+    name: Balls & Fetch Toys
     weight:
-      estimate_g: 8000
-      min_g: 3000
-      max_g: 20000
-      confidence: medium
-    materials:
-      primary_material: metal
-      breakdown:
-      - material: steel_wire
-        percentage: 80
-      - material: plastic_tray
-        percentage: 20
-    lca_data_missing: true
-  ap-2-17:
-    name: Pet Collars & Harnesses
-    weight:
+      confidence: low
       estimate_g: 100
-      min_g: 30
-      max_g: 300
-      confidence: medium
-    materials:
-      primary_material: nylon
-      breakdown:
-      - material: nylon
-        percentage: 70
-      - material: metal_buckle
-        percentage: 25
-      - material: other
-        percentage: 5
-    notes: Leather collars have different footprint profile
+      max_g: 400
+      methodology: Inherited from parent category (ap-2-1-6)
+      min_g: 20
+  ap-2-1-6-2:
     lca_data_missing: true
-  ap-2-17-4:
-    name: Harnesses
+    name: Bells & Beads
     weight:
-      estimate_g: 250
-      min_g: 100
-      max_g: 600
-      confidence: medium
+      confidence: low
+      estimate_g: 100
+      max_g: 400
+      methodology: Inherited from parent category (ap-2-1-6)
+      min_g: 20
+  ap-2-1-6-3:
     lca_data_missing: true
+    name: Chew Toys
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 400
+      methodology: Inherited from parent category (ap-2-1-6)
+      min_g: 20
+  ap-2-1-6-4:
+    lca_data_missing: true
+    name: Foraging Toys
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 400
+      methodology: Inherited from parent category (ap-2-1-6)
+      min_g: 20
+  ap-2-1-6-5:
+    lca_data_missing: true
+    name: Mirrors
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 400
+      methodology: Inherited from parent category (ap-2-1-6)
+      min_g: 20
+  ap-2-1-6-7:
+    lca_data_missing: true
+    name: Puzzles & Interactive Toys
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 400
+      methodology: Inherited from parent category (ap-2-1-6)
+      min_g: 20
+  ap-2-1-6-8:
+    lca_data_missing: true
+    name: Ropes & Knots
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 400
+      methodology: Inherited from parent category (ap-2-1-6)
+      min_g: 20
+  ap-2-1-6-9:
+    lca_data_missing: true
+    name: Tunnels & Tubes
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 400
+      methodology: Inherited from parent category (ap-2-1-6)
+      min_g: 20
+  ap-2-1-7:
+    lca_data_missing: true
+    name: Bird Treats
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-1)
+      min_g: 50
   ap-2-2:
+    lca_data_missing: true
     name: Cat Supplies
     weight:
-      estimate_g: 500
-      min_g: 20
-      max_g: 20000
       confidence: low
-    lca_data_missing: true
+      estimate_g: 500
+      max_g: 20000
+      min_g: 20
   ap-2-2-1:
-    name: Cat Food
-    weight:
-      estimate_g: 4000
-      min_g: 200
-      max_g: 10000
-      confidence: medium
-    notes: Higher protein content than dog food
     lca_data_missing: true
+    name: Cat Food
+    notes: Higher protein content than dog food
+    weight:
+      confidence: medium
+      estimate_g: 4000
+      max_g: 10000
+      min_g: 200
   ap-2-2-1-1:
+    lca_data_missing: true
     name: Non-Prescription Cat Food
     weight:
-      estimate_g: 5000
-      min_g: 500
-      max_g: 10000
       confidence: medium
+      estimate_g: 5000
+      max_g: 10000
+      min_g: 500
+  ap-2-2-1-2:
     lca_data_missing: true
+    name: Prescription Cat Food
+    weight:
+      confidence: low
+      estimate_g: 4000
+      max_g: 10000
+      methodology: Inherited from parent category (ap-2-2-1)
+      min_g: 200
+  ap-2-2-2:
+    lca_data_missing: true
+    name: Cat Furniture
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-2)
+      min_g: 20
+  ap-2-2-2-1:
+    lca_data_missing: true
+    name: Cat Condos & Houses
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-2)
+      min_g: 20
+  ap-2-2-2-2:
+    lca_data_missing: true
+    name: Cat Perches & Shelves
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-2)
+      min_g: 20
   ap-2-2-2-3:
+    lca_data_missing: true
     name: Cat Scratchers & Scratching Posts
     weight:
+      confidence: medium
       estimate_g: 3000
-      min_g: 1000
       max_g: 8000
-      confidence: medium
+      min_g: 1000
+  ap-2-2-2-4:
     lca_data_missing: true
-  ap-2-2-2-5:
-    name: Cat Trees & Towers
+    name: Cat Steps & Ramps
     weight:
-      estimate_g: 15000
-      min_g: 5000
-      max_g: 40000
-      confidence: medium
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-2)
+      min_g: 20
+  ap-2-2-2-5:
+    lca_data_missing: true
     materials:
-      primary_material: mixed
       breakdown:
       - material: particleboard
         percentage: 50
@@ -155,128 +333,237 @@ categories:
         percentage: 20
       - material: other
         percentage: 5
-    lca_data_missing: true
-  ap-2-2-4:
-    name: Cat Litter
+      primary_material: mixed
+    name: Cat Trees & Towers
     weight:
-      estimate_g: 10000
-      min_g: 2000
-      max_g: 20000
       confidence: medium
+      estimate_g: 15000
+      max_g: 40000
+      min_g: 5000
+  ap-2-2-2-6:
+    lca_data_missing: true
+    name: Cat Window Beds & Perches
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-2)
+      min_g: 20
+  ap-2-2-2-7:
+    lca_data_missing: true
+    name: Outdoor Cat Houses
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-2)
+      min_g: 20
+  ap-2-2-3:
+    lca_data_missing: true
+    name: Cat Furniture Accessories
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-2)
+      min_g: 20
+  ap-2-2-4:
     lca:
       carbon_kg_co2e_per_kg: 0.8
       carbon_kg_co2e_per_unit: 8.0
-      scope: cradle-to-gate
       data_quality: secondary
+      scope: cradle-to-gate
     materials:
-      primary_material: clay
       breakdown:
       - material: bentonite_clay
         percentage: 95
       - material: packaging
         percentage: 5
+      primary_material: clay
+    name: Cat Litter
+    notes: Plant-based litters have different footprint
     sources:
     - Cat litter environmental studies
-    notes: Plant-based litters have different footprint
-  ap-2-2-4-3:
-    name: Cat Litter Boxes
     weight:
-      estimate_g: 2000
-      min_g: 500
-      max_g: 8000
       confidence: medium
+      estimate_g: 10000
+      max_g: 20000
+      min_g: 2000
+  ap-2-2-4-1:
+    lca_data_missing: true
+    name: Cat Litter Box Liners
+    weight:
+      confidence: low
+      estimate_g: 10000
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-2-4)
+      min_g: 2000
+  ap-2-2-4-2:
+    lca_data_missing: true
+    name: Cat Litter Box Mats
+    weight:
+      confidence: low
+      estimate_g: 10000
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-2-4)
+      min_g: 2000
+  ap-2-2-4-3:
+    lca_data_missing: true
     materials:
       primary_material: plastic
-    lca_data_missing: true
+    name: Cat Litter Boxes
+    weight:
+      confidence: medium
+      estimate_g: 2000
+      max_g: 8000
+      min_g: 500
   ap-2-2-5:
+    lca_data_missing: true
     name: Cat Toys
     weight:
-      estimate_g: 50
-      min_g: 10
-      max_g: 300
       confidence: medium
+      estimate_g: 50
+      max_g: 300
+      min_g: 10
+  ap-2-2-5-1:
     lca_data_missing: true
+    name: Balls & Chasers
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 300
+      methodology: Inherited from parent category (ap-2-2-5)
+      min_g: 10
+  ap-2-2-5-2:
+    lca_data_missing: true
+    name: Catnip Toys
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 300
+      methodology: Inherited from parent category (ap-2-2-5)
+      min_g: 10
+  ap-2-2-5-3:
+    lca_data_missing: true
+    name: Chew Toys
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 300
+      methodology: Inherited from parent category (ap-2-2-5)
+      min_g: 10
+  ap-2-2-5-4:
+    lca_data_missing: true
+    name: Feathers & Teasers
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 300
+      methodology: Inherited from parent category (ap-2-2-5)
+      min_g: 10
+  ap-2-2-5-5:
+    lca_data_missing: true
+    name: Interactive Toys
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 300
+      methodology: Inherited from parent category (ap-2-2-5)
+      min_g: 10
+  ap-2-2-5-6:
+    lca_data_missing: true
+    name: Laser Toys
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 300
+      methodology: Inherited from parent category (ap-2-2-5)
+      min_g: 10
+  ap-2-2-5-7:
+    lca_data_missing: true
+    name: Puzzles & Treat-Dispensing Toys
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 300
+      methodology: Inherited from parent category (ap-2-2-5)
+      min_g: 10
+  ap-2-2-5-9:
+    lca_data_missing: true
+    name: Squeakies
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 300
+      methodology: Inherited from parent category (ap-2-2-5)
+      min_g: 10
+  ap-2-2-5-10:
+    lca_data_missing: true
+    name: Stuffed Toys & Plushies
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 300
+      methodology: Inherited from parent category (ap-2-2-5)
+      min_g: 10
+  ap-2-2-5-11:
+    lca_data_missing: true
+    name: Tunnels
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 300
+      methodology: Inherited from parent category (ap-2-2-5)
+      min_g: 10
+  ap-2-2-5-12:
+    lca_data_missing: true
+    name: Wands
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 300
+      methodology: Inherited from parent category (ap-2-2-5)
+      min_g: 10
   ap-2-2-6:
+    lca_data_missing: true
     name: Cat Treats
     weight:
+      confidence: medium
       estimate_g: 100
-      min_g: 30
       max_g: 300
-      confidence: medium
-    lca_data_missing: true
-  ap-2-22:
-    name: Pet First Aid & Emergency Kits
-    weight:
-      estimate_g: 300
-      min_g: 100
-      max_g: 800
-      confidence: low
-    lca_data_missing: true
-  ap-2-23:
-    name: Pet Flea & Tick Control
-    weight:
-      estimate_g: 50
-      min_g: 10
-      max_g: 200
-      confidence: medium
-    notes: Chemical treatments have complex footprints
-    lca_data_missing: true
-  ap-2-24:
-    name: Pet Food Containers
-    weight:
-      estimate_g: 5000
-      min_g: 100
-      max_g: 25000
-      confidence: low
-    notes: Highly variable by pack size
-    lca_data_missing: true
-  ap-2-25:
-    name: Pet Food Scoops
-    weight:
-      estimate_g: 300
-      min_g: 100
-      max_g: 800
-      confidence: medium
-    notes: Stainless steel vs ceramic vs plastic varies
-    lca_data_missing: true
-  ap-2-26:
-    name: Pet Grooming Supplies
-    weight:
-      estimate_g: 200
-      min_g: 50
-      max_g: 1000
-      confidence: low
-    lca_data_missing: true
-  ap-2-26-7:
-    name: Pet Shampoo & Conditioner
-    weight:
-      estimate_g: 400
-      min_g: 200
-      max_g: 800
-      confidence: medium
-    lca_data_missing: true
+      min_g: 30
   ap-2-3:
+    lca_data_missing: true
     name: Dog Supplies
     weight:
-      estimate_g: 500
-      min_g: 20
-      max_g: 20000
       confidence: low
-    lca_data_missing: true
-  ap-2-3-3:
-    name: Dog Food
-    weight:
-      estimate_g: 8000
-      min_g: 500
+      estimate_g: 500
       max_g: 20000
-      confidence: medium
-      methodology: Average bag size
+      min_g: 20
+  ap-2-3-1:
+    lca_data_missing: true
+    name: Dog Diaper Pads & Liners
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-3)
+      min_g: 20
+  ap-2-3-2:
+    lca_data_missing: true
+    name: Dog Diapers
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-3)
+      min_g: 20
+  ap-2-3-3:
     lca:
       carbon_kg_co2e_per_kg: 3.5
-      scope: cradle-to-gate
       data_quality: secondary
+      scope: cradle-to-gate
     materials:
-      primary_material: food
       breakdown:
       - material: meat_protein
         percentage: 30
@@ -286,27 +573,110 @@ categories:
         percentage: 15
       - material: packaging
         percentage: 15
+      primary_material: food
+    name: Dog Food
+    notes: Beef-based has ~2x footprint of chicken-based
     sources:
     - Pet food industry LCA studies
     - Okin (2017) Environmental impacts of food consumption by dogs and cats
-    notes: Beef-based has ~2x footprint of chicken-based
+    weight:
+      confidence: medium
+      estimate_g: 8000
+      max_g: 20000
+      methodology: Average bag size
+      min_g: 500
   ap-2-3-3-1:
+    lca_data_missing: true
     name: Non-Prescription Dog Food
     weight:
+      confidence: medium
       estimate_g: 10000
-      min_g: 1000
       max_g: 20000
-      confidence: medium
+      min_g: 1000
+  ap-2-3-3-2:
     lca_data_missing: true
-  ap-2-3-7:
-    name: Dog Toys
+    name: Prescription Dog Food
     weight:
-      estimate_g: 200
-      min_g: 30
-      max_g: 800
-      confidence: medium
+      confidence: low
+      estimate_g: 8000
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-3-3)
+      min_g: 500
+  ap-2-3-4:
+    lca_data_missing: true
+    name: Dog Houses
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-3)
+      min_g: 20
+  ap-2-3-5:
+    lca_data_missing: true
+    name: Dog Kennel & Run Accessories
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-3)
+      min_g: 20
+  ap-2-3-6:
+    lca_data_missing: true
+    name: Dog Kennels & Runs
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-3)
+      min_g: 20
+  ap-2-3-6-1:
+    lca_data_missing: true
+    name: Dog Pens
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-3)
+      min_g: 20
+  ap-2-3-6-2:
+    lca_data_missing: true
+    name: Dog Runs
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-3)
+      min_g: 20
+  ap-2-3-6-3:
+    lca_data_missing: true
+    name: Indoor Dog Kennels
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-3)
+      min_g: 20
+  ap-2-3-6-4:
+    lca_data_missing: true
+    name: Outdoor Dog Kennels
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-3)
+      min_g: 20
+  ap-2-3-6-5:
+    lca_data_missing: true
+    name: Portable Dog Kennels
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-3)
+      min_g: 20
+  ap-2-3-7:
+    lca_data_missing: true
     materials:
-      primary_material: rubber
       breakdown:
       - material: rubber
         percentage: 50
@@ -314,50 +684,661 @@ categories:
         percentage: 30
       - material: plush
         percentage: 20
+      primary_material: rubber
+    name: Dog Toys
+    weight:
+      confidence: medium
+      estimate_g: 200
+      max_g: 800
+      min_g: 30
+  ap-2-3-8:
     lca_data_missing: true
+    name: Dog Treadmills
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-3)
+      min_g: 20
   ap-2-3-9:
+    lca_data_missing: true
     name: Dog Treats
     weight:
+      confidence: medium
       estimate_g: 300
-      min_g: 50
       max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-  ap-2-31:
-    name: Pet Leashes
-    weight:
-      estimate_g: 150
       min_g: 50
-      max_g: 400
-      confidence: medium
-    lca_data_missing: true
-  ap-2-36-1:
-    name: Dental Chews
-    weight:
-      estimate_g: 100
-      min_g: 30
-      max_g: 300
-      confidence: medium
-    lca_data_missing: true
   ap-2-4:
-    name: Fish & Aquatic Supplies
-    weight:
-      estimate_g: 5000
-      min_g: 100
-      max_g: 100000
-      confidence: low
-    notes: Glass aquariums are very heavy
     lca_data_missing: true
-  ap-2-4-13:
-    name: Aquariums
+    name: Fish & Aquatic Supplies
+    notes: Glass aquariums are very heavy
     weight:
-      estimate_g: 15000
-      min_g: 2000
-      max_g: 100000
       confidence: low
-      methodology: 20-50 gallon typical
+      estimate_g: 5000
+      max_g: 100000
+      min_g: 100
+  ap-2-4-1:
+    lca_data_missing: true
+    name: Aquarium & Pond Tubings
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-1-1:
+    lca_data_missing: true
+    name: Airlines
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-1-2:
+    lca_data_missing: true
+    name: Coil Tubings
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-1-3:
+    lca_data_missing: true
+    name: Flexible Tubings
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-1-4:
+    lca_data_missing: true
+    name: Rigid Tubings
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-1-5:
+    lca_data_missing: true
+    name: Standard Tubings
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-2:
+    lca_data_missing: true
+    name: Aquarium Air Stones & Diffusers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-2-1:
+    lca_data_missing: true
+    name: Air Diffusers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-2-2:
+    lca_data_missing: true
+    name: Disc Air Stones
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-2-3:
+    lca_data_missing: true
+    name: Standard Air Stones
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-2-4:
+    lca_data_missing: true
+    name: Tube Air Stones
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-2-5:
+    lca_data_missing: true
+    name: Wall Air Stones
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-3:
+    lca_data_missing: true
+    name: Aquarium Cleaning Supplies
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-3-1:
+    lca_data_missing: true
+    name: Algae Scrapers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-3-2:
+    lca_data_missing: true
+    name: Aquarium Gloves
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-3-3:
+    lca_data_missing: true
+    name: Cleaning Brushes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-3-4:
+    lca_data_missing: true
+    name: Cleaning Solutions
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-3-5:
+    lca_data_missing: true
+    name: Gravel Vacuums
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-3-6:
+    lca_data_missing: true
+    name: Scrub Pads
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-3-7:
+    lca_data_missing: true
+    name: Siphons
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-3-8:
+    lca_data_missing: true
+    name: Tank Cleaners
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-4:
+    lca_data_missing: true
+    name: Aquarium Decors
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 3000
+      min_g: 50
+  ap-2-4-4-1:
+    lca_data_missing: true
+    name: Aquarium Backgrounds
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 3000
+      methodology: Inherited from parent category (ap-2-4-4)
+      min_g: 50
+  ap-2-4-4-2:
+    lca_data_missing: true
+    name: Aquarium Caves & Shelters
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 3000
+      methodology: Inherited from parent category (ap-2-4-4)
+      min_g: 50
+  ap-2-4-4-3:
+    lca_data_missing: true
+    name: Aquarium Rocks
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 3000
+      methodology: Inherited from parent category (ap-2-4-4)
+      min_g: 50
+  ap-2-4-4-4:
+    lca_data_missing: true
+    name: Aquarium Substrates
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 3000
+      methodology: Inherited from parent category (ap-2-4-4)
+      min_g: 50
+  ap-2-4-4-5:
+    lca_data_missing: true
     materials:
-      primary_material: glass
+      primary_material: plastic
+    name: Artificial Plants
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 3000
+      min_g: 50
+  ap-2-4-4-6:
+    lca_data_missing: true
+    name: Bubbling Decorations
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 3000
+      methodology: Inherited from parent category (ap-2-4-4)
+      min_g: 50
+  ap-2-4-4-7:
+    lca_data_missing: true
+    name: Driftwood
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 3000
+      methodology: Inherited from parent category (ap-2-4-4)
+      min_g: 50
+  ap-2-4-4-8:
+    lca_data_missing: true
+    name: Ornaments
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 3000
+      methodology: Inherited from parent category (ap-2-4-4)
+      min_g: 50
+  ap-2-4-4-9:
+    lca_data_missing: true
+    name: Shipwrecks
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 3000
+      methodology: Inherited from parent category (ap-2-4-4)
+      min_g: 50
+  ap-2-4-5:
+    lca_data_missing: true
+    name: Aquarium Filters
+    weight:
+      confidence: medium
+      estimate_g: 800
+      max_g: 3000
+      min_g: 200
+  ap-2-4-5-1:
+    lca_data_missing: true
+    name: External & Canister Aquarium Filters
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 3000
+      methodology: Inherited from parent category (ap-2-4-5)
+      min_g: 200
+  ap-2-4-5-2:
+    lca_data_missing: true
+    name: Hang-On-Back (HOB) Aquarium Filters
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 3000
+      methodology: Inherited from parent category (ap-2-4-5)
+      min_g: 200
+  ap-2-4-5-3:
+    lca_data_missing: true
+    name: Internal Aquarium Filters
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 3000
+      methodology: Inherited from parent category (ap-2-4-5)
+      min_g: 200
+  ap-2-4-5-4:
+    lca_data_missing: true
+    name: Sponge Aquarium Filters
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 3000
+      methodology: Inherited from parent category (ap-2-4-5)
+      min_g: 200
+  ap-2-4-5-5:
+    lca_data_missing: true
+    name: Undergravel Aquarium Filters
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 3000
+      methodology: Inherited from parent category (ap-2-4-5)
+      min_g: 200
+  ap-2-4-6:
+    lca_data_missing: true
+    name: Aquarium Fish Nets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-6-1:
+    lca_data_missing: true
+    name: Scoop Nets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-6-2:
+    lca_data_missing: true
+    name: Shrimp Nets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-6-3:
+    lca_data_missing: true
+    name: Sock Nets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-6-4:
+    lca_data_missing: true
+    name: Standard Nets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-7:
+    lca_data_missing: true
+    name: Aquarium Gravel & Substrates
+    notes: Low processing, mainly extraction and transport
+    weight:
+      confidence: medium
+      estimate_g: 5000
+      max_g: 20000
+      min_g: 1000
+  ap-2-4-7-1:
+    lca_data_missing: true
+    name: Aquarium Soil
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-4-7)
+      min_g: 1000
+  ap-2-4-7-2:
+    lca_data_missing: true
+    name: Aragonite Sands
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-4-7)
+      min_g: 1000
+  ap-2-4-7-3:
+    lca_data_missing: true
+    name: Crushed Corals
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-4-7)
+      min_g: 1000
+  ap-2-4-7-4:
+    lca_data_missing: true
+    name: Glass Stones
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-4-7)
+      min_g: 1000
+  ap-2-4-7-5:
+    lca_data_missing: true
+    name: Gravel
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-4-7)
+      min_g: 1000
+  ap-2-4-7-6:
+    lca_data_missing: true
+    name: Pebbles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-4-7)
+      min_g: 1000
+  ap-2-4-7-7:
+    lca_data_missing: true
+    name: Sand
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-4-7)
+      min_g: 1000
+  ap-2-4-8:
+    lca_data_missing: true
+    name: Aquarium Lighting
+    weight:
+      confidence: medium
+      estimate_g: 500
+      max_g: 2000
+      min_g: 100
+  ap-2-4-9:
+    lca_data_missing: true
+    name: Aquarium Overflow Boxes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-10:
+    lca_data_missing: true
+    name: Aquarium Stands
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-10-1:
+    lca_data_missing: true
+    name: Box Frame Stands
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-10-2:
+    lca_data_missing: true
+    name: Cabinet Stands
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-10-3:
+    lca_data_missing: true
+    name: Double Tank Stands
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-10-4:
+    lca_data_missing: true
+    name: Wrought Iron Stands
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-11:
+    lca_data_missing: true
+    name: Aquarium Temperature Controllers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-11-1:
+    lca_data_missing: true
+    name: Analog Temperature Controllers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-11-2:
+    lca_data_missing: true
+    name: Digital Temperature Controllers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-12:
+    lca_data_missing: true
+    name: Aquarium Water Treatments
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-12-1:
+    lca_data_missing: true
+    name: Algae Control
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-12-2:
+    lca_data_missing: true
+    name: Ammonia Removers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-12-3:
+    lca_data_missing: true
+    name: Fungal & Bacterial Treatments
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-12-4:
+    lca_data_missing: true
+    name: Nitrate Removers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-12-5:
+    lca_data_missing: true
+    name: PH Adjusters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-12-6:
+    lca_data_missing: true
+    name: Tap Water Detoxifiers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-12-7:
+    lca_data_missing: true
+    name: Water Clarifiers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-12-8:
+    lca_data_missing: true
+    name: Water Conditioners
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-13:
+    lca_data_missing: true
+    materials:
       breakdown:
       - material: glass
         percentage: 80
@@ -365,121 +1346,422 @@ categories:
         percentage: 10
       - material: frame
         percentage: 10
-    lca_data_missing: true
-  ap-2-4-16:
-    name: Fish Food
-    weight:
-      estimate_g: 100
-      min_g: 20
-      max_g: 500
-      confidence: medium
-    notes: High protein, specialized formulations
-    lca_data_missing: true
-  ap-2-4-4:
-    name: Aquarium Decors
-    weight:
-      estimate_g: 500
-      min_g: 50
-      max_g: 3000
-      confidence: low
-    lca_data_missing: true
-  ap-2-4-5:
-    name: Aquarium Filters
-    weight:
-      estimate_g: 800
-      min_g: 200
-      max_g: 3000
-      confidence: medium
-    lca_data_missing: true
-  ap-2-4-7:
-    name: Aquarium Gravel & Substrates
-    weight:
-      estimate_g: 5000
-      min_g: 1000
-      max_g: 20000
-      confidence: medium
-    notes: Low processing, mainly extraction and transport
-    lca_data_missing: true
-  ap-2-4-8:
-    name: Aquarium Lighting
-    weight:
-      estimate_g: 500
-      min_g: 100
-      max_g: 2000
-      confidence: medium
-    lca_data_missing: true
-  ap-2-42:
-    name: Pet Vitamins & Supplements
-    weight:
-      estimate_g: 200
-      min_g: 20
-      max_g: 2000
-      confidence: low
-    lca_data_missing: true
-  ap-2-46:
-    name: Reptile & Amphibian Supplies
-    weight:
-      estimate_g: 2000
-      min_g: 50
-      max_g: 50000
-      confidence: low
-    lca_data_missing: true
-  ap-2-46-4-3:
-    name: Terrariums
-    weight:
-      estimate_g: 10000
-      min_g: 2000
-      max_g: 50000
-      confidence: low
-    materials:
       primary_material: glass
-    lca_data_missing: true
-  ap-2-46-5:
-    name: Reptile & Amphibian Substrates
+    name: Aquariums
     weight:
-      estimate_g: 3000
-      min_g: 1000
-      max_g: 10000
-      confidence: medium
-    lca_data_missing: true
-  ap-2-47:
-    name: Small Animal Supplies
-    weight:
-      estimate_g: 1000
-      min_g: 50
-      max_g: 10000
       confidence: low
-    notes: Rabbits, hamsters, guinea pigs, etc.
+      estimate_g: 15000
+      max_g: 100000
+      methodology: 20-50 gallon typical
+      min_g: 2000
+  ap-2-4-14:
     lca_data_missing: true
-  ap-2-47-1:
-    name: Small Animal Bedding
+    name: Aquatic Plant Fertilizers
     weight:
-      estimate_g: 2000
-      min_g: 500
-      max_g: 5000
-      confidence: medium
-    materials:
-      primary_material: wood_shavings
-    notes: Paper-based bedding has different footprint
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-14-1:
     lca_data_missing: true
-  ap-2-47-2:
-    name: Small Animal Food
+    name: Granular Fertilizers
     weight:
-      estimate_g: 1500
-      min_g: 200
-      max_g: 5000
-      confidence: medium
-    notes: Rabbits, guinea pigs, hamsters - mostly hay/grain based
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-14-2:
     lca_data_missing: true
+    name: Liquid Fertilizers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-14-3:
+    lca_data_missing: true
+    name: Powder Fertilizers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-14-4:
+    lca_data_missing: true
+    name: Tablet Fertilizers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-15:
+    lca_data_missing: true
+    name: Fish Feeders
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (ap-2-4)
+      min_g: 100
+  ap-2-4-16:
+    lca_data_missing: true
+    name: Fish Food
+    notes: High protein, specialized formulations
+    weight:
+      confidence: medium
+      estimate_g: 100
+      max_g: 500
+      min_g: 20
+  ap-2-4-16-1:
+    lca_data_missing: true
+    name: Algae Wafers
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (ap-2-4-16)
+      min_g: 20
+  ap-2-4-16-2:
+    lca_data_missing: true
+    name: Betta Food
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (ap-2-4-16)
+      min_g: 20
+  ap-2-4-16-3:
+    lca_data_missing: true
+    name: Cichlid Food
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (ap-2-4-16)
+      min_g: 20
+  ap-2-4-16-4:
+    lca_data_missing: true
+    name: Dry Fish Food
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (ap-2-4-16)
+      min_g: 20
+  ap-2-4-16-5:
+    lca_data_missing: true
+    name: Freeze-Dried Food
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (ap-2-4-16)
+      min_g: 20
+  ap-2-4-16-6:
+    lca_data_missing: true
+    name: Frozen Food
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (ap-2-4-16)
+      min_g: 20
+  ap-2-4-16-7:
+    lca_data_missing: true
+    name: Goldfish Food
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (ap-2-4-16)
+      min_g: 20
+  ap-2-4-16-8:
+    lca_data_missing: true
+    name: Live Food
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (ap-2-4-16)
+      min_g: 20
+  ap-2-4-16-9:
+    lca_data_missing: true
+    name: Medicated Food
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (ap-2-4-16)
+      min_g: 20
+  ap-2-5:
+    lca_data_missing: true
+    name: Pet Agility Equipment
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-5-1:
+    lca_data_missing: true
+    name: A-Frames
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-5-2:
+    lca_data_missing: true
+    name: Agility Tunnels
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-5-3:
+    lca_data_missing: true
+    name: Dog Walks & Ramps
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-5-4:
+    lca_data_missing: true
+    name: Jump Bars
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-5-5:
+    lca_data_missing: true
+    name: Pause Tables
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-5-6:
+    lca_data_missing: true
+    name: Poles
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-5-7:
+    lca_data_missing: true
+    name: Teeter Boards
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-5-8:
+    lca_data_missing: true
+    name: Tire Jumps
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-6:
+    lca_data_missing: true
+    name: Pet Apparel
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-6-1:
+    lca_data_missing: true
+    name: Pet Bandanas
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-6-2:
+    lca_data_missing: true
+    name: Pet Bows & Ribbons
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-6-3:
+    lca_data_missing: true
+    name: Pet Coats
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-6-4:
+    lca_data_missing: true
+    name: Pet Collars & Ties
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-6-5:
+    lca_data_missing: true
+    name: Pet Costumes
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-6-6:
+    lca_data_missing: true
+    name: Pet Dresses
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-6-7:
+    lca_data_missing: true
+    name: Pet Hats
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-6-8:
+    lca_data_missing: true
+    name: Pet Hoodies
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-6-9:
+    lca_data_missing: true
+    name: Pet Jackets
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-6-10:
+    lca_data_missing: true
+    name: Pet Rain Coats
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-6-11:
+    lca_data_missing: true
+    name: Pet Safety Vests
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-6-12:
+    lca_data_missing: true
+    name: Pet Scarves
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-6-13:
+    lca_data_missing: true
+    name: Pet Shirts
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-6-14:
+    lca_data_missing: true
+    name: Pet Shoes
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-6-15:
+    lca_data_missing: true
+    name: Pet Socks
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-6-16:
+    lca_data_missing: true
+    name: Pet Sunglasses
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-6-17:
+    lca_data_missing: true
+    name: Pet Sweaters
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-7:
+    lca_data_missing: true
+    name: Pet Apparel Hangers
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-8:
+    lca_data_missing: true
+    name: Pet Bed Accessories
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
   ap-2-9:
-    name: Pet Beds
-    weight:
-      estimate_g: 2000
-      min_g: 500
-      max_g: 8000
-      confidence: medium
+    lca_data_missing: true
     materials:
-      primary_material: mixed
       breakdown:
       - material: polyester_fill
         percentage: 50
@@ -487,20 +1769,2070 @@ categories:
         percentage: 35
       - material: foam
         percentage: 15
-    lca_data_missing: true
-  hb-1-8-5-2:
-    name: Heating Pads
+      primary_material: mixed
+    name: Pet Beds
     weight:
-      estimate_g: 300
-      min_g: 100
+      confidence: medium
+      estimate_g: 2000
+      max_g: 8000
+      min_g: 500
+  ap-2-9-1:
+    lca_data_missing: true
+    name: Baskets
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 8000
+      methodology: Inherited from parent category (ap-2-9)
+      min_g: 500
+  ap-2-9-2:
+    lca_data_missing: true
+    name: Bolster Beds
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 8000
+      methodology: Inherited from parent category (ap-2-9)
+      min_g: 500
+  ap-2-9-3:
+    lca_data_missing: true
+    name: Caves
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 8000
+      methodology: Inherited from parent category (ap-2-9)
+      min_g: 500
+  ap-2-9-4:
+    lca_data_missing: true
+    name: Cooling Beds
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 8000
+      methodology: Inherited from parent category (ap-2-9)
+      min_g: 500
+  ap-2-9-5:
+    lca_data_missing: true
+    name: Donuts
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 8000
+      methodology: Inherited from parent category (ap-2-9)
+      min_g: 500
+  ap-2-9-6:
+    lca_data_missing: true
+    name: Hammocks
+    notes: With stand - fabric only ~1kg
+    weight:
+      confidence: medium
+      estimate_g: 3000
+      max_g: 8000
+      min_g: 1000
+  ap-2-9-7:
+    lca_data_missing: true
+    name: Nests
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 8000
+      methodology: Inherited from parent category (ap-2-9)
+      min_g: 500
+  ap-2-9-8:
+    lca_data_missing: true
+    name: Orthopedic Beds
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 8000
+      methodology: Inherited from parent category (ap-2-9)
+      min_g: 500
+  ap-2-9-9:
+    lca_data_missing: true
+    name: Pet Chairs
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 8000
+      methodology: Inherited from parent category (ap-2-9)
+      min_g: 500
+  ap-2-9-10:
+    lca_data_missing: true
+    name: Pet Cots
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 8000
+      methodology: Inherited from parent category (ap-2-9)
+      min_g: 500
+  ap-2-9-11:
+    lca_data_missing: true
+    name: Pillow Beds
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 8000
+      methodology: Inherited from parent category (ap-2-9)
+      min_g: 500
+  ap-2-9-12:
+    lca_data_missing: true
+    name: Radiator Beds
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 8000
+      methodology: Inherited from parent category (ap-2-9)
+      min_g: 500
+  ap-2-9-13:
+    lca_data_missing: true
+    name: Towers
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 8000
+      methodology: Inherited from parent category (ap-2-9)
+      min_g: 500
+  ap-2-10:
+    lca_data_missing: true
+    name: Pet Bells & Charms
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-10-1:
+    lca_data_missing: true
+    name: Collar Bells
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-10-2:
+    lca_data_missing: true
+    name: Collar Charms
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-10-3:
+    lca_data_missing: true
+    name: ID Tag Charms
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-11:
+    lca_data_missing: true
+    name: Pet Biometric Monitors
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-11-1:
+    lca_data_missing: true
+    name: Pet Glucose Meters
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-11-2:
+    lca_data_missing: true
+    name: Pet Pedometers
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-11-3:
+    lca_data_missing: true
+    name: Pet Thermometers
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-12:
+    lca_data_missing: true
+    name: Pet Bowl Mats
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-13:
+    lca_data_missing: true
+    name: Pet Bowl Stands
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-14:
+    lca_data_missing: true
+    name: Pet Bowls, Feeders & Waterers
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-14-1:
+    lca_data_missing: true
+    name: Automatic Feeders
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-14-2:
+    lca_data_missing: true
+    name: Bowls
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-14-3:
+    lca_data_missing: true
+    name: Elevated Bowls
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-14-4:
+    lca_data_missing: true
+    name: Gravity Feeders
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-14-5:
+    lca_data_missing: true
+    name: Slow Feeder Bowls
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-14-6:
+    lca_data_missing: true
+    name: Travel Bowls
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-14-7:
+    lca_data_missing: true
+    name: Water Dispensers
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-14-8:
+    lca_data_missing: true
+    name: Water Fountains
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-15:
+    lca_data_missing: true
+    name: Pet Carrier & Crate Accessories
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-16:
+    lca_data_missing: true
+    materials:
+      breakdown:
+      - material: steel_wire
+        percentage: 80
+      - material: plastic_tray
+        percentage: 20
+      primary_material: metal
+    name: Pet Carriers & Crates
+    weight:
+      confidence: medium
+      estimate_g: 8000
+      max_g: 20000
+      min_g: 3000
+  ap-2-16-1:
+    lca_data_missing: true
+    name: Air Travel Approved Carriers
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-16)
+      min_g: 3000
+  ap-2-16-2:
+    lca_data_missing: true
+    name: Backpack Carriers
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-16)
+      min_g: 3000
+  ap-2-16-3:
+    lca_data_missing: true
+    name: Car Crates
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-16)
+      min_g: 3000
+  ap-2-16-4:
+    lca_data_missing: true
+    name: Furniture-Style Crates
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-16)
+      min_g: 3000
+  ap-2-16-5:
+    lca_data_missing: true
+    name: Hard-Sided Carriers
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-16)
+      min_g: 3000
+  ap-2-16-8:
+    lca_data_missing: true
+    name: Rolling Carriers
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-16)
+      min_g: 3000
+  ap-2-16-9:
+    lca_data_missing: true
+    name: Slings & Wearable Carriers
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-16)
+      min_g: 3000
+  ap-2-16-10:
+    lca_data_missing: true
+    name: Soft-Sided Carriers
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-16)
+      min_g: 3000
+  ap-2-16-11:
+    lca_data_missing: true
+    name: Soft-Sided Crates
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-16)
+      min_g: 3000
+  ap-2-16-12:
+    lca_data_missing: true
+    name: Wheeled Carriers
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 20000
+      methodology: Inherited from parent category (ap-2-16)
+      min_g: 3000
+  ap-2-17:
+    lca_data_missing: true
+    materials:
+      breakdown:
+      - material: nylon
+        percentage: 70
+      - material: metal_buckle
+        percentage: 25
+      - material: other
+        percentage: 5
+      primary_material: nylon
+    name: Pet Collars & Harnesses
+    notes: Leather collars have different footprint profile
+    weight:
+      confidence: medium
+      estimate_g: 100
+      max_g: 300
+      min_g: 30
+  ap-2-17-1:
+    lca_data_missing: true
+    name: Breakaway & Safety Collars
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 300
+      methodology: Inherited from parent category (ap-2-17)
+      min_g: 30
+  ap-2-17-2:
+    lca_data_missing: true
+    name: Flea Collars
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 300
+      methodology: Inherited from parent category (ap-2-17)
+      min_g: 30
+  ap-2-17-3:
+    lca_data_missing: true
+    name: GPS Collars
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 300
+      methodology: Inherited from parent category (ap-2-17)
+      min_g: 30
+  ap-2-17-4:
+    lca_data_missing: true
+    name: Harnesses
+    weight:
+      confidence: medium
+      estimate_g: 250
       max_g: 600
-      confidence: medium
-    lca_data_missing: true
-  hg-3-8-1:
-    name: Bird Feeders
-    weight:
-      estimate_g: 300
       min_g: 100
-      max_g: 1000
-      confidence: medium
+  ap-2-17-5:
     lca_data_missing: true
+    name: LED Collars
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 300
+      methodology: Inherited from parent category (ap-2-17)
+      min_g: 30
+  ap-2-17-6:
+    lca_data_missing: true
+    name: Martingale Collars
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 300
+      methodology: Inherited from parent category (ap-2-17)
+      min_g: 30
+  ap-2-17-7:
+    lca_data_missing: true
+    name: Personalized ID Collars
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 300
+      methodology: Inherited from parent category (ap-2-17)
+      min_g: 30
+  ap-2-17-8:
+    lca_data_missing: true
+    name: Standard Collars
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 300
+      methodology: Inherited from parent category (ap-2-17)
+      min_g: 30
+  ap-2-17-9:
+    lca_data_missing: true
+    name: Training, Choke & Pinch Collars
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 300
+      methodology: Inherited from parent category (ap-2-17)
+      min_g: 30
+  ap-2-17-10:
+    lca_data_missing: true
+    name: Vests
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 300
+      methodology: Inherited from parent category (ap-2-17)
+      min_g: 30
+  ap-2-18:
+    lca_data_missing: true
+    name: Pet Containment Systems
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-18-1:
+    lca_data_missing: true
+    name: Electronic Invisible Fences
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-18-2:
+    lca_data_missing: true
+    name: Enclosures & Cages
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-18-3:
+    lca_data_missing: true
+    name: Exercise Pens
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-18-4:
+    lca_data_missing: true
+    name: Fences & Gates
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-18-5:
+    lca_data_missing: true
+    name: Kennels
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-18-6:
+    lca_data_missing: true
+    name: Playpens
+    weight:
+      confidence: medium
+      estimate_g: 10000
+      max_g: 18000
+      min_g: 5000
+  ap-2-19:
+    lca_data_missing: true
+    name: Pet Door Accessories
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-20:
+    lca_data_missing: true
+    name: Pet Doors
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-20-1:
+    lca_data_missing: true
+    name: Door-Mounted Doors
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-20-2:
+    lca_data_missing: true
+    name: Electronic Automatic Doors
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-20-3:
+    lca_data_missing: true
+    name: Sliding Glass Doors
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-20-4:
+    lca_data_missing: true
+    name: Wall-Mounted Doors
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-20-5:
+    lca_data_missing: true
+    name: Window-Mounted Doors
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-21:
+    lca_data_missing: true
+    name: Pet Eye Drops & Lubricants
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-21-1:
+    lca_data_missing: true
+    name: Conjunctivitis Treatments
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-21-2:
+    lca_data_missing: true
+    name: Eye Cleaners
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-21-3:
+    lca_data_missing: true
+    name: Eye Irrigation Solutions
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-21-4:
+    lca_data_missing: true
+    name: Eye Lubricants
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-21-5:
+    lca_data_missing: true
+    name: Eye Washes
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-21-6:
+    lca_data_missing: true
+    name: Tear Stain Removers
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-22:
+    lca_data_missing: true
+    name: Pet First Aid & Emergency Kits
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 800
+      min_g: 100
+  ap-2-22-1:
+    lca_data_missing: true
+    name: General First Aid Kits
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 800
+      methodology: Inherited from parent category (ap-2-22)
+      min_g: 100
+  ap-2-22-2:
+    lca_data_missing: true
+    name: Trauma Kits
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 800
+      methodology: Inherited from parent category (ap-2-22)
+      min_g: 100
+  ap-2-22-3:
+    lca_data_missing: true
+    name: Travel First Aid Kits
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 800
+      methodology: Inherited from parent category (ap-2-22)
+      min_g: 100
+  ap-2-23:
+    lca_data_missing: true
+    name: Pet Flea & Tick Control
+    notes: Chemical treatments have complex footprints
+    weight:
+      confidence: medium
+      estimate_g: 50
+      max_g: 200
+      min_g: 10
+  ap-2-23-1:
+    lca_data_missing: true
+    name: Flea & Tick Collars
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 200
+      methodology: Inherited from parent category (ap-2-23)
+      min_g: 10
+  ap-2-23-2:
+    lca_data_missing: true
+    name: Flea & Tick Foggers
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 200
+      methodology: Inherited from parent category (ap-2-23)
+      min_g: 10
+  ap-2-23-3:
+    lca_data_missing: true
+    name: Flea & Tick Shampoos
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 200
+      methodology: Inherited from parent category (ap-2-23)
+      min_g: 10
+  ap-2-23-4:
+    lca_data_missing: true
+    name: Flea & Tick Sprays
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 200
+      methodology: Inherited from parent category (ap-2-23)
+      min_g: 10
+  ap-2-23-5:
+    lca_data_missing: true
+    name: Flea Combs
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 200
+      methodology: Inherited from parent category (ap-2-23)
+      min_g: 10
+  ap-2-23-6:
+    lca_data_missing: true
+    name: Oral Medication
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 200
+      methodology: Inherited from parent category (ap-2-23)
+      min_g: 10
+  ap-2-23-7:
+    lca_data_missing: true
+    name: Spot Treatments
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 200
+      methodology: Inherited from parent category (ap-2-23)
+      min_g: 10
+  ap-2-24:
+    lca_data_missing: true
+    name: Pet Food Containers
+    notes: Highly variable by pack size
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 25000
+      min_g: 100
+  ap-2-24-1:
+    lca_data_missing: true
+    name: Can Covers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 25000
+      methodology: Inherited from parent category (ap-2-24)
+      min_g: 100
+  ap-2-24-2:
+    lca_data_missing: true
+    name: Food Storage Bins
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 25000
+      methodology: Inherited from parent category (ap-2-24)
+      min_g: 100
+  ap-2-24-3:
+    lca_data_missing: true
+    name: Food Storage Containers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 25000
+      methodology: Inherited from parent category (ap-2-24)
+      min_g: 100
+  ap-2-25:
+    lca_data_missing: true
+    name: Pet Food Scoops
+    notes: Stainless steel vs ceramic vs plastic varies
+    weight:
+      confidence: medium
+      estimate_g: 300
+      max_g: 800
+      min_g: 100
+  ap-2-26:
+    lca_data_missing: true
+    name: Pet Grooming Supplies
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      min_g: 50
+  ap-2-26-1:
+    lca_data_missing: true
+    name: Pet Combs & Brushes
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-1-1:
+    lca_data_missing: true
+    name: Brushes
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-1-2:
+    lca_data_missing: true
+    name: Combs
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-1-3:
+    lca_data_missing: true
+    name: Deshedders
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-1-4:
+    lca_data_missing: true
+    name: Gloves
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-1-5:
+    lca_data_missing: true
+    name: Groomers
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-1-6:
+    lca_data_missing: true
+    name: Trimming Knives
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-2:
+    lca_data_missing: true
+    name: Pet Fragrances & Deodorizing Sprays
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-2-1:
+    lca_data_missing: true
+    name: Colognes
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-2-2:
+    lca_data_missing: true
+    name: Deodorizer Sprays
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-2-3:
+    lca_data_missing: true
+    name: Odor Neutralizers
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-2-4:
+    lca_data_missing: true
+    name: Perfumes
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-3:
+    lca_data_missing: true
+    name: Pet Hair Clippers & Trimmers
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-3-1:
+    lca_data_missing: true
+    name: Blade Sharpeners
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-3-2:
+    lca_data_missing: true
+    name: Clipper Blades
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-3-3:
+    lca_data_missing: true
+    name: Clippers
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-3-4:
+    lca_data_missing: true
+    name: Shears & Scissors
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-3-5:
+    lca_data_missing: true
+    name: Trimmers
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-4:
+    lca_data_missing: true
+    name: Pet Hair Dryers
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-5:
+    lca_data_missing: true
+    name: Pet Nail Polish
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-6:
+    lca_data_missing: true
+    name: Pet Nail Tools
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-7:
+    lca_data_missing: true
+    name: Pet Shampoo & Conditioner
+    weight:
+      confidence: medium
+      estimate_g: 400
+      max_g: 800
+      min_g: 200
+  ap-2-26-7-1:
+    lca_data_missing: true
+    name: 2-in-1 Shampoo & Conditioners
+    weight:
+      confidence: low
+      estimate_g: 400
+      max_g: 800
+      methodology: Inherited from parent category (ap-2-26-7)
+      min_g: 200
+  ap-2-26-7-2:
+    lca_data_missing: true
+    name: Conditioners
+    weight:
+      confidence: low
+      estimate_g: 400
+      max_g: 800
+      methodology: Inherited from parent category (ap-2-26-7)
+      min_g: 200
+  ap-2-26-7-3:
+    lca_data_missing: true
+    name: Shampoo
+    weight:
+      confidence: low
+      estimate_g: 400
+      max_g: 800
+      methodology: Inherited from parent category (ap-2-26-7)
+      min_g: 200
+  ap-2-26-8:
+    lca_data_missing: true
+    name: Pet Wipes
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-8-1:
+    lca_data_missing: true
+    name: Deodorizing Wipes
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-8-2:
+    lca_data_missing: true
+    name: Ear Cleaning Wipes
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-8-3:
+    lca_data_missing: true
+    name: Eye Cleaning Wipes
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-8-4:
+    lca_data_missing: true
+    name: General Cleaning Wipes
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-8-5:
+    lca_data_missing: true
+    name: Grooming Wipes
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-8-6:
+    lca_data_missing: true
+    name: Hypoallergenic Wipes
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-8-7:
+    lca_data_missing: true
+    name: Paw Cleaning Wipes
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-26-8-8:
+    lca_data_missing: true
+    name: Tear Stain Wipes
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (ap-2-26)
+      min_g: 50
+  ap-2-27:
+    lca_data_missing: true
+    name: Pet Heating Pad Accessories
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-28:
+    lca_data_missing: true
+    name: Pet Heating Pads
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-29:
+    lca_data_missing: true
+    name: Pet ID Tags
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-29-1:
+    lca_data_missing: true
+    name: Digital QR Code Tags
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-29-2:
+    lca_data_missing: true
+    name: Embroidered Tags
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-29-3:
+    lca_data_missing: true
+    name: Medical Alert Tags
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-29-4:
+    lca_data_missing: true
+    name: Slide-On Collar Tags
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-30:
+    lca_data_missing: true
+    name: Pet Leash Extensions
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-31:
+    lca_data_missing: true
+    name: Pet Leashes
+    weight:
+      confidence: medium
+      estimate_g: 150
+      max_g: 400
+      min_g: 50
+  ap-2-31-1:
+    lca_data_missing: true
+    name: Double Pet Leashes
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 400
+      methodology: Inherited from parent category (ap-2-31)
+      min_g: 50
+  ap-2-31-2:
+    lca_data_missing: true
+    name: Hands-Free Leashes
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 400
+      methodology: Inherited from parent category (ap-2-31)
+      min_g: 50
+  ap-2-31-3:
+    lca_data_missing: true
+    name: No-Pull Leashes
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 400
+      methodology: Inherited from parent category (ap-2-31)
+      min_g: 50
+  ap-2-31-4:
+    lca_data_missing: true
+    name: Slip Leads
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 400
+      methodology: Inherited from parent category (ap-2-31)
+      min_g: 50
+  ap-2-31-5:
+    lca_data_missing: true
+    name: Standard Leashes
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 400
+      methodology: Inherited from parent category (ap-2-31)
+      min_g: 50
+  ap-2-31-6:
+    lca_data_missing: true
+    name: Training Leashes
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 400
+      methodology: Inherited from parent category (ap-2-31)
+      min_g: 50
+  ap-2-32:
+    lca_data_missing: true
+    name: Pet Medical Collars
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-33:
+    lca_data_missing: true
+    name: Pet Medical Tape & Bandages
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-34:
+    lca_data_missing: true
+    name: Pet Medicine
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-34-1:
+    lca_data_missing: true
+    name: Allergy Relief
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-34-2:
+    lca_data_missing: true
+    name: Antibiotics
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-34-3:
+    lca_data_missing: true
+    name: Antiparasitics
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-34-4:
+    lca_data_missing: true
+    name: Anxiety Relief
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-34-5:
+    lca_data_missing: true
+    name: Digestive Aids
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-34-6:
+    lca_data_missing: true
+    name: Ear & Eye Medicine
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-34-7:
+    lca_data_missing: true
+    name: Pain Relievers
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-35:
+    lca_data_missing: true
+    name: Pet Muzzles
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-36:
+    lca_data_missing: true
+    name: Pet Oral Care Supplies
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-36-1:
+    lca_data_missing: true
+    name: Dental Chews
+    weight:
+      confidence: medium
+      estimate_g: 100
+      max_g: 300
+      min_g: 30
+  ap-2-36-2:
+    lca_data_missing: true
+    name: Dental Gels
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-36-3:
+    lca_data_missing: true
+    name: Dental Sprays
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-36-5:
+    lca_data_missing: true
+    name: Dental Water Additives
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-36-6:
+    lca_data_missing: true
+    name: Dental Wipes
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-36-7:
+    lca_data_missing: true
+    name: Oral Rinses
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-36-8:
+    lca_data_missing: true
+    name: Toothbrushes
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-36-9:
+    lca_data_missing: true
+    name: Toothpaste
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-39:
+    lca_data_missing: true
+    name: Pet Strollers
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-39-1:
+    lca_data_missing: true
+    name: Detachable Carrier Pet Strollers
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-39-2:
+    lca_data_missing: true
+    name: Double-Decker Strollers
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-39-3:
+    lca_data_missing: true
+    name: Jogging Strollers
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-39-4:
+    lca_data_missing: true
+    name: Multi-Strollers
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-39-5:
+    lca_data_missing: true
+    name: Standard Strollers
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-40:
+    lca_data_missing: true
+    name: Pet Sunscreen
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-41:
+    lca_data_missing: true
+    name: Pet Training Aids
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-41-1:
+    lca_data_missing: true
+    name: Pet Training Clickers & Treat Dispensers
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-41-2:
+    lca_data_missing: true
+    name: Pet Training Pad Holders
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-41-2-1:
+    lca_data_missing: true
+    name: Grid-Top Pad Holders
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-41-2-2:
+    lca_data_missing: true
+    name: Regular Pad Holders
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-41-2-3:
+    lca_data_missing: true
+    name: Wall-Mounted Pad Holders
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-41-3:
+    lca_data_missing: true
+    name: Pet Training Pads
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-41-4:
+    lca_data_missing: true
+    name: Pet Training Sprays & Solutions
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-42:
+    lca_data_missing: true
+    name: Pet Vitamins & Supplements
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 2000
+      min_g: 20
+  ap-2-42-2:
+    lca_data_missing: true
+    name: Calcium
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 2000
+      methodology: Inherited from parent category (ap-2-42)
+      min_g: 20
+  ap-2-42-3:
+    lca_data_missing: true
+    name: Dental Health
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 2000
+      methodology: Inherited from parent category (ap-2-42)
+      min_g: 20
+  ap-2-42-4:
+    lca_data_missing: true
+    name: Fish Oil
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 2000
+      methodology: Inherited from parent category (ap-2-42)
+      min_g: 20
+  ap-2-42-5:
+    lca_data_missing: true
+    name: Immune Support
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 2000
+      methodology: Inherited from parent category (ap-2-42)
+      min_g: 20
+  ap-2-42-6:
+    lca_data_missing: true
+    name: Joint Health
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 2000
+      methodology: Inherited from parent category (ap-2-42)
+      min_g: 20
+  ap-2-42-7:
+    lca_data_missing: true
+    name: Multi-Vitamins
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 2000
+      methodology: Inherited from parent category (ap-2-42)
+      min_g: 20
+  ap-2-42-8:
+    lca_data_missing: true
+    name: Probiotics
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 2000
+      methodology: Inherited from parent category (ap-2-42)
+      min_g: 20
+  ap-2-42-9:
+    lca_data_missing: true
+    name: Skin & Coat
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 2000
+      methodology: Inherited from parent category (ap-2-42)
+      min_g: 20
+  ap-2-42-10:
+    lca_data_missing: true
+    name: Weight Control
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 2000
+      methodology: Inherited from parent category (ap-2-42)
+      min_g: 20
+  ap-2-42-11:
+    lca_data_missing: true
+    name: CBD Supplements
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 2000
+      methodology: Inherited from parent category (ap-2-42)
+      min_g: 20
+  ap-2-43:
+    lca_data_missing: true
+    name: Pet Waste Bag Dispensers & Holders
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-43-1:
+    lca_data_missing: true
+    name: Flashlight Dispensers
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-43-2:
+    lca_data_missing: true
+    name: Standard Dispensers & Holders
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-43-3:
+    lca_data_missing: true
+    name: Storage Dispensers
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-44:
+    lca_data_missing: true
+    name: Pet Waste Bags
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-45:
+    lca_data_missing: true
+    name: Pet Waste Disposal Systems & Tools
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-45-1:
+    lca_data_missing: true
+    name: Doggy Bags
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-45-2:
+    lca_data_missing: true
+    name: Litter Trays
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-45-3:
+    lca_data_missing: true
+    name: Pet Waste Disposal Systems
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-45-4:
+    lca_data_missing: true
+    name: Waste Scoopers
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-46:
+    lca_data_missing: true
+    name: Reptile & Amphibian Supplies
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 50000
+      min_g: 50
+  ap-2-46-1:
+    lca_data_missing: true
+    name: Reptile & Amphibian Food
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 50000
+      methodology: Inherited from parent category (ap-2-46)
+      min_g: 50
+  ap-2-46-2:
+    lca_data_missing: true
+    name: Reptile & Amphibian Habitat Accessories
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 50000
+      methodology: Inherited from parent category (ap-2-46)
+      min_g: 50
+  ap-2-46-3:
+    lca_data_missing: true
+    name: Reptile & Amphibian Habitat Heating & Lighting
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 50000
+      methodology: Inherited from parent category (ap-2-46)
+      min_g: 50
+  ap-2-46-4:
+    lca_data_missing: true
+    name: Reptile & Amphibian Habitats
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 50000
+      methodology: Inherited from parent category (ap-2-46)
+      min_g: 50
+  ap-2-46-4-1:
+    lca_data_missing: true
+    name: Aquariums
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 50000
+      methodology: Inherited from parent category (ap-2-46)
+      min_g: 50
+  ap-2-46-4-2:
+    lca_data_missing: true
+    name: Paludariums
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 50000
+      methodology: Inherited from parent category (ap-2-46)
+      min_g: 50
+  ap-2-46-4-3:
+    lca_data_missing: true
+    materials:
+      primary_material: glass
+    name: Terrariums
+    weight:
+      confidence: low
+      estimate_g: 10000
+      max_g: 50000
+      min_g: 2000
+  ap-2-46-4-4:
+    lca_data_missing: true
+    name: Vivariums
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 50000
+      methodology: Inherited from parent category (ap-2-46)
+      min_g: 50
+  ap-2-46-5:
+    lca_data_missing: true
+    name: Reptile & Amphibian Substrates
+    weight:
+      confidence: medium
+      estimate_g: 3000
+      max_g: 10000
+      min_g: 1000
+  ap-2-47:
+    lca_data_missing: true
+    name: Small Animal Supplies
+    notes: Rabbits, hamsters, guinea pigs, etc.
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      min_g: 50
+  ap-2-47-1:
+    lca_data_missing: true
+    materials:
+      primary_material: wood_shavings
+    name: Small Animal Bedding
+    notes: Paper-based bedding has different footprint
+    weight:
+      confidence: medium
+      estimate_g: 2000
+      max_g: 5000
+      min_g: 500
+  ap-2-47-2:
+    lca_data_missing: true
+    name: Small Animal Food
+    notes: Rabbits, guinea pigs, hamsters - mostly hay/grain based
+    weight:
+      confidence: medium
+      estimate_g: 1500
+      max_g: 5000
+      min_g: 200
+  ap-2-47-3:
+    lca_data_missing: true
+    name: Small Animal Habitat Accessories
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (ap-2-47)
+      min_g: 50
+  ap-2-47-4:
+    lca_data_missing: true
+    name: Small Animal Habitats & Cages
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (ap-2-47)
+      min_g: 50
+  ap-2-47-5:
+    lca_data_missing: true
+    name: Small Animal Treats
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (ap-2-47)
+      min_g: 50
+  ap-2-47-5-1:
+    lca_data_missing: true
+    name: Biscuits & Bakery
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (ap-2-47)
+      min_g: 50
+  ap-2-47-5-2:
+    lca_data_missing: true
+    name: Chew Treats
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (ap-2-47)
+      min_g: 50
+  ap-2-47-5-3:
+    lca_data_missing: true
+    name: Crunchy Treats
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (ap-2-47)
+      min_g: 50
+  ap-2-47-5-4:
+    lca_data_missing: true
+    name: Soft Treats
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (ap-2-47)
+      min_g: 50
+  ap-2-47-5-5:
+    lca_data_missing: true
+    name: Stick Treats
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (ap-2-47)
+      min_g: 50
+  ap-2-47-5-6:
+    lca_data_missing: true
+    name: Training Treats
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (ap-2-47)
+      min_g: 50
+  ap-2-48:
+    lca_data_missing: true
+    name: Vehicle Pet Barriers
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-48-1:
+    lca_data_missing: true
+    name: Backseat Barriers
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-48-2:
+    lca_data_missing: true
+    name: Cargo Area Barriers
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-48-3:
+    lca_data_missing: true
+    name: Door Barriers
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-48-4:
+    lca_data_missing: true
+    name: Partitions
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-48-5:
+    lca_data_missing: true
+    name: Window Barriers
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50
+  ap-2-49:
+    lca_data_missing: true
+    name: Pet Steps & Ramps
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 500
+      methodology: Inherited from parent category (ap-2)
+      min_g: 50

@@ -1,263 +1,93 @@
 schema_version: 0.1.0
-last_updated: '2026-01-29'
+last_updated: '2026-01-30'
 categories:
-  ae-2-1-1-5:
-    name: Jewelry Making Kits
-    weight:
-      estimate_g: 400
-      min_g: 150
-      max_g: 1000
-      confidence: medium
+  tg:
     lca_data_missing: true
-  ae-2-1-5-2-3:
-    name: Sewing Kits
+    name: Toys & Games
     weight:
-      estimate_g: 300
-      min_g: 100
-      max_g: 800
-      confidence: medium
-    lca_data_missing: true
-  ae-2-2:
-    name: Collectibles
-    weight:
-      estimate_g: 150
-      min_g: 10
-      max_g: 1000
       confidence: low
-    lca_data_missing: true
-  ae-2-2-3:
-    name: Collectible Trading Cards
-    weight:
-      estimate_g: 50
-      min_g: 10
-      max_g: 150
-      confidence: medium
-      methodology: Per pack
-    materials:
-      primary_material: cardstock
-    lca_data_missing: true
-  ae-2-6-4:
-    name: Scale Model Kits
-    weight:
-      estimate_g: 300
-      min_g: 50
-      max_g: 1500
-      confidence: medium
-    lca_data_missing: true
-  ae-3-2-19:
-    name: Party Games
-    weight:
-      estimate_g: 600
-      min_g: 200
-      max_g: 1500
-      confidence: medium
-    lca_data_missing: true
-  bt-3-5-2:
-    name: Teethers
-    weight:
-      estimate_g: 60
-      min_g: 20
-      max_g: 150
-      confidence: high
-    materials:
-      primary_material: silicone
-    lca_data_missing: true
-  bt-5:
-    name: Baby Toys & Activity Equipment
-    weight:
-      estimate_g: 200
-      min_g: 20
-      max_g: 1000
-      confidence: low
-    lca_data_missing: true
-  bt-5-1:
-    name: Alphabet Toys
-    weight:
-      estimate_g: 400
-      min_g: 100
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-  bt-5-11:
-    name: Push & Pull Toys
-    weight:
-      estimate_g: 600
-      min_g: 200
-      max_g: 1500
-      confidence: medium
-    lca_data_missing: true
-  bt-5-12:
-    name: Sorting & Stacking Toys
-    weight:
-      estimate_g: 400
-      min_g: 150
-      max_g: 800
-      confidence: medium
-    lca_data_missing: true
-  bt-5-2-3:
-    name: Rattles
-    weight:
-      estimate_g: 80
-      min_g: 30
-      max_g: 150
-      confidence: high
-    materials:
-      primary_material: plastic
-    lca_data_missing: true
-  bt-5-6-2:
-    name: Crib Mobiles
-    weight:
       estimate_g: 500
-      min_g: 200
-      max_g: 1000
-      confidence: medium
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-1:
     lca_data_missing: true
-  bt-5-9-1:
-    name: Play Gyms
+    name: Game Timers
     weight:
-      estimate_g: 2000
-      min_g: 800
-      max_g: 4000
-      confidence: medium
-    lca_data_missing: true
-  el-18:
-    name: Video Game Console Accessories
-    weight:
-      estimate_g: 100
-      min_g: 50
-      max_g: 5000
       confidence: low
-    notes: Physical media vs consoles have huge weight difference
-    lca_data_missing: true
-  el-19:
-    name: Video Game Consoles
-    weight:
-      estimate_g: 3500
-      min_g: 2000
-      max_g: 5000
-      confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 50.0
-      carbon_kg_co2e_per_unit: 175.0
-      scope: cradle-to-gate
-      use_phase:
-        energy_kwh_per_year: 100
-        lifespan_years: 7
-        kg_co2e_total: 280
-      data_quality: secondary
-    materials:
-      primary_material: mixed
-      breakdown:
-      - material: plastics
-        percentage: 40
-      - material: pcb_electronics
-        percentage: 35
-      - material: metal
-        percentage: 20
-      - material: other
-        percentage: 5
-    sources:
-    - Sony PlayStation environmental reports
-    - Microsoft Xbox sustainability data
-  el-19-1:
-    name: Handheld Game Consoles
-    weight:
-      estimate_g: 400
-      min_g: 200
-      max_g: 700
-      confidence: high
-    lca:
-      carbon_kg_co2e_per_kg: 80.0
-      carbon_kg_co2e_per_unit: 32.0
-      scope: cradle-to-gate
-      data_quality: secondary
-    sources:
-    - Nintendo Switch environmental data
-  el-7-9-12-5:
-    name: Game Controllers
-    weight:
-      estimate_g: 280
-      min_g: 200
-      max_g: 400
-      confidence: high
-    lca_data_missing: true
-  hg-18-1-11-1:
-    name: Pool Floats
-    weight:
-      estimate_g: 1500
-      min_g: 300
-      max_g: 5000
-      confidence: medium
-    materials:
-      primary_material: pvc
-    lca_data_missing: true
-  hg-18-1-17:
-    name: Pool Toys
-    weight:
       estimate_g: 500
-      min_g: 50
-      max_g: 5000
-      confidence: low
-    lca_data_missing: true
-  hg-18-1-17-4:
-    name: Pool Noodles
-    weight:
-      estimate_g: 150
-      min_g: 80
-      max_g: 300
-      confidence: medium
-    materials:
-      primary_material: foam
-    lca_data_missing: true
-  hg-18-5-2:
-    name: Inflatable Pools
-    weight:
-      estimate_g: 3000
-      min_g: 500
-      max_g: 15000
-      confidence: low
-    materials:
-      primary_material: pvc
-    lca_data_missing: true
-  sg-4-4-6:
-    name: Tricycles
-    weight:
-      estimate_g: 6000
-      min_g: 3000
-      max_g: 12000
-      confidence: medium
-    materials:
-      primary_material: metal
-      breakdown:
-      - material: steel
-        percentage: 50
-      - material: plastic
-        percentage: 40
-      - material: rubber
-        percentage: 10
-    lca_data_missing: true
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
   tg-2:
+    lca_data_missing: true
     name: Games
     weight:
+      confidence: medium
       estimate_g: 800
+      max_g: 3000
       min_g: 100
-      max_g: 3000
-      confidence: medium
+  tg-2-1:
     lca_data_missing: true
-  tg-2-5:
-    name: Board Games
+    name: Battle Top Accessories
     weight:
-      estimate_g: 1000
-      min_g: 300
+      confidence: low
+      estimate_g: 800
       max_g: 3000
-      confidence: medium
+      methodology: Inherited from parent category (tg-2)
+      min_g: 100
+  tg-2-2:
+    lca_data_missing: true
+    name: Battle Tops
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 3000
+      methodology: Inherited from parent category (tg-2)
+      min_g: 100
+  tg-2-3:
+    lca_data_missing: true
+    name: Bingo Sets
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 3000
+      methodology: Inherited from parent category (tg-2)
+      min_g: 100
+  tg-2-4:
+    lca_data_missing: true
+    name: Blackjack & Craps Sets
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 3000
+      methodology: Inherited from parent category (tg-2)
+      min_g: 100
+  tg-2-4-1:
+    lca_data_missing: true
+    name: Blackjack Sets
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 3000
+      methodology: Inherited from parent category (tg-2)
+      min_g: 100
+  tg-2-4-2:
+    lca_data_missing: true
+    name: Craps Sets
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 3000
+      methodology: Inherited from parent category (tg-2)
+      min_g: 100
+  tg-2-5:
     lca:
       carbon_kg_co2e_per_kg: 3.0
       carbon_kg_co2e_per_unit: 3.0
-      scope: cradle-to-gate
       data_quality: secondary
+      scope: cradle-to-gate
     materials:
-      primary_material: cardboard
       breakdown:
       - material: cardboard
         percentage: 60
@@ -267,49 +97,248 @@ categories:
         percentage: 15
       - material: other
         percentage: 5
+      primary_material: cardboard
+    name: Board Games
     sources:
     - Paper and cardboard LCA studies
-  tg-2-7:
-    name: Card Games
     weight:
-      estimate_g: 200
-      min_g: 50
-      max_g: 500
-      confidence: high
+      confidence: medium
+      estimate_g: 1000
+      max_g: 3000
+      min_g: 300
+  tg-2-6:
+    lca_data_missing: true
+    name: Card Game Accessories
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 3000
+      methodology: Inherited from parent category (tg-2)
+      min_g: 100
+  tg-2-7:
+    lca_data_missing: true
     materials:
-      primary_material: cardstock
       breakdown:
       - material: cardstock
         percentage: 80
       - material: box
         percentage: 20
-    lca_data_missing: true
-  tg-2-9:
-    name: Dice Sets & Games
+      primary_material: cardstock
+    name: Card Games
     weight:
-      estimate_g: 800
-      min_g: 200
-      max_g: 3000
-      confidence: medium
-    notes: Weight varies by material - wood vs plastic vs stone
+      confidence: high
+      estimate_g: 200
+      max_g: 500
+      min_g: 50
+  tg-2-8:
     lca_data_missing: true
+    name: Dexterity Games
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 3000
+      methodology: Inherited from parent category (tg-2)
+      min_g: 100
+  tg-2-9:
+    lca_data_missing: true
+    name: Dice Sets & Games
+    notes: Weight varies by material - wood vs plastic vs stone
+    weight:
+      confidence: medium
+      estimate_g: 800
+      max_g: 3000
+      min_g: 200
+  tg-2-10:
+    lca_data_missing: true
+    name: Poker Chip Accessories
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 3000
+      methodology: Inherited from parent category (tg-2)
+      min_g: 100
+  tg-2-10-1:
+    lca_data_missing: true
+    name: Poker Chip Carriers & Trays
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 3000
+      methodology: Inherited from parent category (tg-2)
+      min_g: 100
+  tg-2-11:
+    lca_data_missing: true
+    name: Poker Chips & Sets
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 3000
+      methodology: Inherited from parent category (tg-2)
+      min_g: 100
+  tg-2-12:
+    lca_data_missing: true
+    name: Portable Electronic Games
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 3000
+      methodology: Inherited from parent category (tg-2)
+      min_g: 100
+  tg-2-13:
+    lca_data_missing: true
+    name: Roulette Wheels & Sets
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 3000
+      methodology: Inherited from parent category (tg-2)
+      min_g: 100
+  tg-2-14:
+    lca_data_missing: true
+    name: Slot Machines
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 3000
+      methodology: Inherited from parent category (tg-2)
+      min_g: 100
+  tg-2-15:
+    lca_data_missing: true
+    name: Tile Games
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 3000
+      methodology: Inherited from parent category (tg-2)
+      min_g: 100
   tg-3:
+    lca_data_missing: true
     name: Outdoor Play Equipment
     weight:
-      estimate_g: 5000
-      min_g: 200
-      max_g: 100000
       confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      min_g: 200
+  tg-3-1:
     lca_data_missing: true
-  tg-3-12:
-    name: Swing Sets & Playsets
+    name: Inflatable Bouncer Accessories
     weight:
-      estimate_g: 40000
-      min_g: 15000
-      max_g: 80000
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (tg-3)
+      min_g: 200
+  tg-3-2:
+    lca_data_missing: true
+    name: Inflatable Bouncers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (tg-3)
+      min_g: 200
+  tg-3-3:
+    lca_data_missing: true
+    name: Play Swings
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (tg-3)
+      min_g: 200
+  tg-3-4:
+    lca_data_missing: true
+    name: Play Tents & Tunnels
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (tg-3)
+      min_g: 200
+  tg-3-5:
+    lca_data_missing: true
+    name: Playhouses
+    weight:
       confidence: medium
+      estimate_g: 25000
+      max_g: 60000
+      min_g: 10000
+  tg-3-6:
+    lca_data_missing: true
+    name: Pogo Sticks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (tg-3)
+      min_g: 200
+  tg-3-7:
+    lca_data_missing: true
+    name: Sandboxes
+    notes: Weight without sand
+    weight:
+      confidence: medium
+      estimate_g: 10000
+      max_g: 25000
+      min_g: 3000
+  tg-3-7-1:
+    lca_data_missing: true
+    name: Sand Tables
+    weight:
+      confidence: low
+      estimate_g: 10000
+      max_g: 25000
+      methodology: Inherited from parent category (tg-3-7)
+      min_g: 3000
+  tg-3-7-2:
+    lca_data_missing: true
+    name: Sandbox Covers
+    weight:
+      confidence: low
+      estimate_g: 10000
+      max_g: 25000
+      methodology: Inherited from parent category (tg-3-7)
+      min_g: 3000
+  tg-3-8:
+    lca_data_missing: true
+    name: See Saws
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (tg-3)
+      min_g: 200
+  tg-3-9:
+    lca_data_missing: true
     materials:
-      primary_material: wood
+      primary_material: plastic
+    name: Slides
+    weight:
+      confidence: medium
+      estimate_g: 15000
+      max_g: 40000
+      min_g: 5000
+  tg-3-10:
+    lca_data_missing: true
+    name: Stilts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (tg-3)
+      min_g: 200
+  tg-3-11:
+    lca_data_missing: true
+    name: Swing Set & Playset Accessories
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (tg-3)
+      min_g: 200
+  tg-3-12:
+    lca_data_missing: true
+    materials:
       breakdown:
       - material: wood
         percentage: 70
@@ -317,16 +346,25 @@ categories:
         percentage: 20
       - material: plastic_seats
         percentage: 10
-    lca_data_missing: true
-  tg-3-14:
-    name: Trampolines
+      primary_material: wood
+    name: Swing Sets & Playsets
     weight:
-      estimate_g: 50000
-      min_g: 20000
-      max_g: 100000
       confidence: medium
+      estimate_g: 40000
+      max_g: 80000
+      min_g: 15000
+  tg-3-13:
+    lca_data_missing: true
+    name: Trampoline Accessories
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (tg-3)
+      min_g: 200
+  tg-3-14:
+    lca_data_missing: true
     materials:
-      primary_material: metal
       breakdown:
       - material: steel_frame
         percentage: 60
@@ -336,398 +374,733 @@ categories:
         percentage: 10
       - material: padding
         percentage: 5
+      primary_material: metal
+    name: Trampolines
+    weight:
+      confidence: medium
+      estimate_g: 50000
+      max_g: 100000
+      min_g: 20000
+  tg-3-15:
     lca_data_missing: true
+    name: Water Play Equipment
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (tg-3)
+      min_g: 200
+  tg-3-15-1:
+    lca_data_missing: true
+    name: Play Sprinklers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (tg-3)
+      min_g: 200
+  tg-3-15-2:
+    lca_data_missing: true
+    name: Water Parks & Slides
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 100000
+      methodology: Inherited from parent category (tg-3)
+      min_g: 200
   tg-3-15-3:
+    lca_data_missing: true
+    materials:
+      primary_material: plastic
     name: Water Tables
     weight:
+      confidence: medium
       estimate_g: 5000
-      min_g: 2000
       max_g: 10000
-      confidence: medium
-    materials:
-      primary_material: plastic
-    lca_data_missing: true
-  tg-3-5:
-    name: Playhouses
-    weight:
-      estimate_g: 25000
-      min_g: 10000
-      max_g: 60000
-      confidence: medium
-    lca_data_missing: true
-  tg-3-7:
-    name: Sandboxes
-    weight:
-      estimate_g: 10000
-      min_g: 3000
-      max_g: 25000
-      confidence: medium
-    notes: Weight without sand
-    lca_data_missing: true
-  tg-3-9:
-    name: Slides
-    weight:
-      estimate_g: 15000
-      min_g: 5000
-      max_g: 40000
-      confidence: medium
-    materials:
-      primary_material: plastic
-    lca_data_missing: true
+      min_g: 2000
   tg-4:
-    name: Puzzles
-    weight:
-      estimate_g: 600
-      min_g: 100
-      max_g: 2000
-      confidence: medium
-      methodology: 500-1000 piece puzzle
+    lca_data_missing: true
     materials:
       primary_material: cardboard
+    name: Puzzles
+    weight:
+      confidence: medium
+      estimate_g: 600
+      max_g: 2000
+      methodology: 500-1000 piece puzzle
+      min_g: 100
+  tg-4-6:
     lca_data_missing: true
+    name: Jigsaw Puzzle Accessories
+    weight:
+      confidence: low
+      estimate_g: 600
+      max_g: 2000
+      methodology: Inherited from parent category (tg-4)
+      min_g: 100
+  tg-4-7:
+    lca_data_missing: true
+    name: Jigsaw Puzzles
+    weight:
+      confidence: low
+      estimate_g: 600
+      max_g: 2000
+      methodology: Inherited from parent category (tg-4)
+      min_g: 100
+  tg-4-9:
+    lca_data_missing: true
+    name: Mechanical Puzzles
+    weight:
+      confidence: low
+      estimate_g: 600
+      max_g: 2000
+      methodology: Inherited from parent category (tg-4)
+      min_g: 100
+  tg-4-12:
+    lca_data_missing: true
+    name: Wooden & Pegged Puzzles
+    weight:
+      confidence: low
+      estimate_g: 600
+      max_g: 2000
+      methodology: Inherited from parent category (tg-4)
+      min_g: 100
+  tg-5:
+    lca_data_missing: true
+    name: Toys
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-1:
+    lca_data_missing: true
+    name: Activity Toys
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-1-1:
+    lca_data_missing: true
+    name: Ball & Cup Games
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
   tg-5-1-2:
+    lca_data_missing: true
     name: Bouncy Balls
     weight:
+      confidence: medium
       estimate_g: 300
-      min_g: 50
       max_g: 600
-      confidence: medium
-    lca_data_missing: true
-  tg-5-12-2:
-    name: Drones
-    weight:
-      estimate_g: 500
-      min_g: 100
-      max_g: 2000
-      confidence: medium
-    materials:
-      primary_material: plastic
-      breakdown:
-      - material: plastic
-        percentage: 45
-      - material: electronics
-        percentage: 30
-      - material: battery
-        percentage: 20
-      - material: motors
-        percentage: 5
-    lca_data_missing: true
-  tg-5-12-3:
-    name: Kites
-    weight:
-      estimate_g: 200
       min_g: 50
-      max_g: 500
-      confidence: medium
-    materials:
-      primary_material: nylon
+  tg-5-1-3:
     lca_data_missing: true
-  tg-5-13:
-    name: Musical Toys
+    name: Bubble Blowing Solutions
     weight:
-      estimate_g: 500
-      min_g: 100
-      max_g: 2000
       confidence: low
-    lca_data_missing: true
-  tg-5-15:
-    name: Play Vehicles
-    weight:
-      estimate_g: 300
-      min_g: 20
-      max_g: 5000
-      confidence: low
-    lca_data_missing: true
-  tg-5-15-1:
-    name: Toy Airplanes
-    weight:
-      estimate_g: 300
-      min_g: 50
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-  tg-5-15-2:
-    name: Toy Boats
-    weight:
-      estimate_g: 400
-      min_g: 100
-      max_g: 1500
-      confidence: medium
-    lca_data_missing: true
-  tg-5-15-8:
-    name: Toy Trains & Train Sets
-    weight:
-      estimate_g: 2000
-      min_g: 500
-      max_g: 8000
-      confidence: medium
-    lca_data_missing: true
-  tg-5-15-9:
-    name: Toy Trucks & Construction Vehicles
-    weight:
       estimate_g: 500
-      min_g: 100
-      max_g: 2000
-      confidence: medium
-    materials:
-      primary_material: plastic
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-1-4:
     lca_data_missing: true
-  tg-5-16:
-    name: Pretend Play
+    name: Bubble Blowing Toys
     weight:
-      estimate_g: 800
-      min_g: 50
-      max_g: 5000
       confidence: low
-    lca_data_missing: true
-  tg-5-16-5:
-    name: Pretend Professions & Role Playing
-    weight:
-      estimate_g: 400
-      min_g: 150
-      max_g: 800
-      confidence: medium
-    lca_data_missing: true
-  tg-5-16-6:
-    name: Pretend Shopping & Grocery
-    weight:
-      estimate_g: 800
-      min_g: 300
-      max_g: 1500
-      confidence: medium
-    lca_data_missing: true
-  tg-5-16-7-1:
-    name: Play Food
-    weight:
-      estimate_g: 300
-      min_g: 100
-      max_g: 800
-      confidence: medium
-      methodology: Per set
-    lca_data_missing: true
-  tg-5-16-8:
-    name: Toy Tools
-    weight:
       estimate_g: 500
-      min_g: 200
-      max_g: 1500
-      confidence: medium
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-1-4-1:
     lca_data_missing: true
-  tg-5-18:
-    name: Remote Control Toys
+    name: Bubble Blowers
     weight:
-      estimate_g: 1500
-      min_g: 500
-      max_g: 5000
-      confidence: medium
-    materials:
-      primary_material: plastic
-      breakdown:
-      - material: plastic
-        percentage: 50
-      - material: electronics
-        percentage: 25
-      - material: battery
-        percentage: 15
-      - material: metal
-        percentage: 10
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-1-4-2:
     lca_data_missing: true
+    name: Bubble Guns
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-1-4-3:
+    lca_data_missing: true
+    name: Bubble Machines
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-1-5:
+    lca_data_missing: true
+    name: Coiled Spring Toys
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-1-6:
+    lca_data_missing: true
+    name: Marbles
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-1-7:
+    lca_data_missing: true
+    name: Paddle Ball Toys
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-1-8:
+    lca_data_missing: true
+    name: Ribbon & Streamer Toys
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-1-9:
+    lca_data_missing: true
+    name: Spinning Tops
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-1-10:
+    lca_data_missing: true
+    name: Toy Jacks
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-1-11:
+    lca_data_missing: true
+    name: Yo-Yo Parts & Accessories
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-1-12:
+    lca_data_missing: true
+    name: Yo-Yos
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
   tg-5-2:
+    lca_data_missing: true
     name: Art & Drawing Toys
     weight:
-      estimate_g: 300
-      min_g: 50
-      max_g: 1500
       confidence: low
+      estimate_g: 300
+      max_g: 1500
+      min_g: 50
+  tg-5-2-1:
     lca_data_missing: true
+    name: Beading & Jewelry Making Kits
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1500
+      methodology: Inherited from parent category (tg-5-2)
+      min_g: 50
+  tg-5-2-2:
+    lca_data_missing: true
+    name: Coloring Books & Pads
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1500
+      methodology: Inherited from parent category (tg-5-2)
+      min_g: 50
   tg-5-2-3:
+    lca_data_missing: true
     name: Craft Kits
     weight:
-      estimate_g: 400
-      min_g: 50
-      max_g: 2000
       confidence: low
+      estimate_g: 400
+      max_g: 2000
+      min_g: 50
+  tg-5-2-4:
     lca_data_missing: true
+    name: Easel & Art Desks
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1500
+      methodology: Inherited from parent category (tg-5-2)
+      min_g: 50
+  tg-5-2-5:
+    lca_data_missing: true
+    name: Paint-By-Number Kits
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1500
+      methodology: Inherited from parent category (tg-5-2)
+      min_g: 50
   tg-5-2-6:
+    lca_data_missing: true
     name: Play Dough & Putty
     weight:
+      confidence: medium
       estimate_g: 400
-      min_g: 100
       max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-  tg-5-20:
-    name: Riding Toys
-    weight:
-      estimate_g: 8000
-      min_g: 1000
-      max_g: 30000
-      confidence: low
-    lca_data_missing: true
-  tg-5-20-1:
-    name: Electric Riding Vehicles
-    weight:
-      estimate_g: 15000
-      min_g: 8000
-      max_g: 30000
-      confidence: medium
-    notes: Battery adds significant weight and footprint
-    lca_data_missing: true
-  tg-5-20-3:
-    name: Push & Pedal Riding Vehicles
-    weight:
-      estimate_g: 10000
-      min_g: 5000
-      max_g: 20000
-      confidence: medium
-    lca_data_missing: true
-  tg-5-20-5:
-    name: Wagons
-    weight:
-      estimate_g: 8000
-      min_g: 4000
-      max_g: 15000
-      confidence: medium
-    lca_data_missing: true
-  tg-5-23:
-    name: Sports Toys
-    weight:
-      estimate_g: 500
-      min_g: 50
-      max_g: 5000
-      confidence: low
-    lca_data_missing: true
-  tg-5-23-11:
-    name: Golf Toys
-    weight:
-      estimate_g: 1500
-      min_g: 500
-      max_g: 3000
-      confidence: medium
-    lca_data_missing: true
-  tg-5-23-2:
-    name: Baseball Toys
-    weight:
-      estimate_g: 1000
-      min_g: 400
-      max_g: 2000
-      confidence: medium
-    lca_data_missing: true
-  tg-5-23-3:
-    name: Basketball Toys
-    weight:
-      estimate_g: 5000
-      min_g: 2000
-      max_g: 15000
-      confidence: medium
-    lca_data_missing: true
-  tg-5-23-9:
-    name: Flying Discs
-    weight:
-      estimate_g: 150
       min_g: 100
-      max_g: 200
-      confidence: high
-    materials:
-      primary_material: plastic
+  tg-5-2-6-1:
     lca_data_missing: true
+    name: Dough Extruders
+    weight:
+      confidence: low
+      estimate_g: 400
+      max_g: 1000
+      methodology: Inherited from parent category (tg-5-2-6)
+      min_g: 100
+  tg-5-2-6-2:
+    lca_data_missing: true
+    name: Glow In The Dark Putty
+    weight:
+      confidence: low
+      estimate_g: 400
+      max_g: 1000
+      methodology: Inherited from parent category (tg-5-2-6)
+      min_g: 100
+  tg-5-2-6-3:
+    lca_data_missing: true
+    name: Magnetic Putty
+    weight:
+      confidence: low
+      estimate_g: 400
+      max_g: 1000
+      methodology: Inherited from parent category (tg-5-2-6)
+      min_g: 100
+  tg-5-2-6-4:
+    lca_data_missing: true
+    name: Play Dough Sets
+    weight:
+      confidence: low
+      estimate_g: 400
+      max_g: 1000
+      methodology: Inherited from parent category (tg-5-2-6)
+      min_g: 100
+  tg-5-2-6-5:
+    lca_data_missing: true
+    name: Play Dough Tool Sets
+    weight:
+      confidence: low
+      estimate_g: 400
+      max_g: 1000
+      methodology: Inherited from parent category (tg-5-2-6)
+      min_g: 100
+  tg-5-2-6-6:
+    lca_data_missing: true
+    name: Slime & Putty Toys
+    weight:
+      confidence: low
+      estimate_g: 400
+      max_g: 1000
+      methodology: Inherited from parent category (tg-5-2-6)
+      min_g: 100
+  tg-5-2-7:
+    lca_data_missing: true
+    name: Spin & Spiral Art Kits
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1500
+      methodology: Inherited from parent category (tg-5-2)
+      min_g: 50
+  tg-5-2-8:
+    lca_data_missing: true
+    name: Stamp & Stamp Pad Sets
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1500
+      methodology: Inherited from parent category (tg-5-2)
+      min_g: 50
+  tg-5-2-9:
+    lca_data_missing: true
+    name: Stencil & Tracing Papers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1500
+      methodology: Inherited from parent category (tg-5-2)
+      min_g: 50
+  tg-5-2-10:
+    lca_data_missing: true
+    name: Stickers & Sticker Machines
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1500
+      methodology: Inherited from parent category (tg-5-2)
+      min_g: 50
+  tg-5-2-11:
+    lca_data_missing: true
+    name: Toy Drawing Tablets
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1500
+      methodology: Inherited from parent category (tg-5-2)
+      min_g: 50
+  tg-5-3:
+    lca_data_missing: true
+    name: Ball Pit Accessories
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-3-1:
+    lca_data_missing: true
+    name: Ball Pit Balls
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-4:
+    lca_data_missing: true
+    name: Ball Pits
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
   tg-5-5:
+    lca_data_missing: true
     name: Bath Toys
     weight:
-      estimate_g: 150
-      min_g: 20
-      max_g: 800
       confidence: medium
+      estimate_g: 150
+      max_g: 800
+      min_g: 20
+  tg-5-5-1:
     lca_data_missing: true
+    name: Bath Book Toys
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 800
+      methodology: Inherited from parent category (tg-5-5)
+      min_g: 20
+  tg-5-5-2:
+    lca_data_missing: true
+    name: Bath Bubble Machines
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 800
+      methodology: Inherited from parent category (tg-5-5)
+      min_g: 20
   tg-5-5-3:
+    lca_data_missing: true
     name: Bath Crayons
     weight:
-      estimate_g: 100
-      min_g: 50
-      max_g: 200
       confidence: medium
+      estimate_g: 100
+      max_g: 200
+      min_g: 50
+  tg-5-5-4:
     lca_data_missing: true
+    name: Bath Puzzles
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 800
+      methodology: Inherited from parent category (tg-5-5)
+      min_g: 20
+  tg-5-5-5:
+    lca_data_missing: true
+    name: Bath Squirters
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 800
+      methodology: Inherited from parent category (tg-5-5)
+      min_g: 20
+  tg-5-5-6:
+    lca_data_missing: true
+    name: Floating Bath Toys
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 800
+      methodology: Inherited from parent category (tg-5-5)
+      min_g: 20
+  tg-5-5-7:
+    lca_data_missing: true
+    name: Interactive Bath Toys
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 800
+      methodology: Inherited from parent category (tg-5-5)
+      min_g: 20
+  tg-5-5-8:
+    lca_data_missing: true
+    name: Rubber Duckies
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 800
+      methodology: Inherited from parent category (tg-5-5)
+      min_g: 20
   tg-5-5-9:
+    lca_data_missing: true
     name: Stacking Cups
     weight:
-      estimate_g: 300
-      min_g: 100
-      max_g: 600
       confidence: medium
+      estimate_g: 300
+      max_g: 600
+      min_g: 100
+  tg-5-5-10:
     lca_data_missing: true
+    name: Waterproof Bath Dolls
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 800
+      methodology: Inherited from parent category (tg-5-5)
+      min_g: 20
+  tg-5-6:
+    lca_data_missing: true
+    name: Beach & Sand Toys
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-6-1:
+    lca_data_missing: true
+    name: Beach Balls
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-6-2:
+    lca_data_missing: true
+    name: Beach Buckets
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-6-3:
+    lca_data_missing: true
+    name: Inflatable Rafts & Floats
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-6-4:
+    lca_data_missing: true
+    name: Sand & Water Mills
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-6-5:
+    lca_data_missing: true
+    name: Sand Castle Molds
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-6-6:
+    lca_data_missing: true
+    name: Sand Cups
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-6-7:
+    lca_data_missing: true
+    name: Sand Rakes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-6-8:
+    lca_data_missing: true
+    name: Sand Shovels & Spades
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-6-9:
+    lca_data_missing: true
+    name: Sand Sifting Sieves
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-6-10:
+    lca_data_missing: true
+    name: Sand Toy Sets
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
   tg-5-6-11:
+    lca_data_missing: true
     name: Water Guns
     weight:
+      confidence: medium
       estimate_g: 400
-      min_g: 100
       max_g: 1500
-      confidence: medium
-    lca_data_missing: true
-  tg-5-7:
-    name: Building Toys
-    weight:
-      estimate_g: 500
       min_g: 100
-      max_g: 3000
-      confidence: medium
+  tg-5-7:
     lca:
       carbon_kg_co2e_per_kg: 5.0
-      scope: cradle-to-gate
       data_quality: secondary
+      scope: cradle-to-gate
     materials:
-      primary_material: plastic
       breakdown:
       - material: abs_plastic
         percentage: 95
       - material: other
         percentage: 5
+      primary_material: plastic
+    name: Building Toys
     sources:
     - LEGO sustainability reports
-  tg-5-7-12:
-    name: Interlocking Blocks
     weight:
-      estimate_g: 600
-      min_g: 50
-      max_g: 5000
+      confidence: medium
+      estimate_g: 500
+      max_g: 3000
+      min_g: 100
+  tg-5-7-8:
+    lca_data_missing: true
+    name: Construction Set Toys
+    weight:
       confidence: low
-      methodology: Varies by set size - average medium set
+      estimate_g: 500
+      max_g: 3000
+      methodology: Inherited from parent category (tg-5-7)
+      min_g: 100
+  tg-5-7-11:
+    lca_data_missing: true
+    name: Foam Blocks
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 3000
+      methodology: Inherited from parent category (tg-5-7)
+      min_g: 100
+  tg-5-7-12:
     lca:
       carbon_kg_co2e_per_kg: 5.2
-      scope: cradle-to-gate
       data_quality: secondary
+      scope: cradle-to-gate
     materials:
       primary_material: abs_plastic
+    name: Interlocking Blocks
+    notes: LEGO transitioning to bio-based plastics
     sources:
     - LEGO Environmental Report
-    notes: LEGO transitioning to bio-based plastics
-  tg-5-7-14:
-    name: Wooden Blocks
     weight:
-      estimate_g: 1000
-      min_g: 300
+      confidence: low
+      estimate_g: 600
+      max_g: 5000
+      methodology: Varies by set size - average medium set
+      min_g: 50
+  tg-5-7-13:
+    lca_data_missing: true
+    name: Marble Track Sets
+    weight:
+      confidence: low
+      estimate_g: 500
       max_g: 3000
-      confidence: medium
+      methodology: Inherited from parent category (tg-5-7)
+      min_g: 100
+  tg-5-7-14:
+    lca_data_missing: true
     materials:
       primary_material: wood
+    name: Wooden Blocks
     notes: Lower footprint than plastic, potential carbon storage
-    lca_data_missing: true
+    weight:
+      confidence: medium
+      estimate_g: 1000
+      max_g: 3000
+      min_g: 300
   tg-5-8:
+    lca_data_missing: true
     name: Dolls, Playsets & Toy Figures
     weight:
+      confidence: medium
       estimate_g: 300
-      min_g: 50
       max_g: 1500
-      confidence: medium
-    lca_data_missing: true
-  tg-5-8-1-1:
-    name: Action Figures
-    weight:
-      estimate_g: 200
       min_g: 50
-      max_g: 500
-      confidence: medium
+  tg-5-8-1:
+    lca_data_missing: true
+    name: Action & Toy Figures
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1500
+      methodology: Inherited from parent category (tg-5-8)
+      min_g: 50
+  tg-5-8-1-1:
+    lca_data_missing: true
     materials:
-      primary_material: plastic
       breakdown:
       - material: abs_plastic
         percentage: 70
@@ -735,47 +1108,52 @@ categories:
         percentage: 20
       - material: paint
         percentage: 10
-    lca_data_missing: true
-  tg-5-8-10:
-    name: Puppets & Marionettes
+      primary_material: plastic
+    name: Action Figures
     weight:
+      confidence: medium
       estimate_g: 200
-      min_g: 50
       max_g: 500
-      confidence: medium
-    lca_data_missing: true
-  tg-5-8-11:
-    name: Stuffed Animals
-    weight:
-      estimate_g: 300
       min_g: 50
-      max_g: 2000
-      confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 8.0
-      carbon_kg_co2e_per_unit: 2.4
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: synthetic
-      breakdown:
-      - material: polyester_fill
-        percentage: 60
-      - material: plush_fabric
-        percentage: 35
-      - material: plastic_eyes
-        percentage: 5
-    sources:
-    - Toy industry sustainability reports
-  tg-5-8-5:
-    name: Dollhouses
+  tg-5-8-1-2:
+    lca_data_missing: true
+    name: Animal Figures
     weight:
-      estimate_g: 5000
-      min_g: 1500
-      max_g: 15000
-      confidence: medium
+      confidence: low
+      estimate_g: 300
+      max_g: 1500
+      methodology: Inherited from parent category (tg-5-8)
+      min_g: 50
+  tg-5-8-2:
+    lca_data_missing: true
+    name: Bobblehead Figures
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1500
+      methodology: Inherited from parent category (tg-5-8)
+      min_g: 50
+  tg-5-8-3:
+    lca_data_missing: true
+    name: Doll & Action Figure Accessories
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1500
+      methodology: Inherited from parent category (tg-5-8)
+      min_g: 50
+  tg-5-8-4:
+    lca_data_missing: true
+    name: Dollhouse Accessories
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1500
+      methodology: Inherited from parent category (tg-5-8)
+      min_g: 50
+  tg-5-8-5:
+    lca_data_missing: true
     materials:
-      primary_material: wood
       breakdown:
       - material: mdf_wood
         percentage: 60
@@ -783,16 +1161,16 @@ categories:
         percentage: 30
       - material: other
         percentage: 10
-    lca_data_missing: true
-  tg-5-8-6:
-    name: Dolls
+      primary_material: wood
+    name: Dollhouses
     weight:
-      estimate_g: 400
-      min_g: 100
-      max_g: 1000
       confidence: medium
+      estimate_g: 5000
+      max_g: 15000
+      min_g: 1500
+  tg-5-8-6:
+    lca_data_missing: true
     materials:
-      primary_material: mixed
       breakdown:
       - material: plastic
         percentage: 50
@@ -802,44 +1180,1140 @@ categories:
         percentage: 15
       - material: other
         percentage: 5
+      primary_material: mixed
+    name: Dolls
+    weight:
+      confidence: medium
+      estimate_g: 400
+      max_g: 1000
+      min_g: 100
+  tg-5-8-7:
     lca_data_missing: true
+    name: Paper & Magnetic Dolls
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1500
+      methodology: Inherited from parent category (tg-5-8)
+      min_g: 50
+  tg-5-8-8:
+    lca_data_missing: true
+    name: Puppet & Puppet Theater Accessories
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1500
+      methodology: Inherited from parent category (tg-5-8)
+      min_g: 50
+  tg-5-8-9:
+    lca_data_missing: true
+    name: Puppet Theaters
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1500
+      methodology: Inherited from parent category (tg-5-8)
+      min_g: 50
+  tg-5-8-10:
+    lca_data_missing: true
+    name: Puppets & Marionettes
+    weight:
+      confidence: medium
+      estimate_g: 200
+      max_g: 500
+      min_g: 50
+  tg-5-8-11:
+    lca:
+      carbon_kg_co2e_per_kg: 8.0
+      carbon_kg_co2e_per_unit: 2.4
+      data_quality: secondary
+      scope: cradle-to-gate
+    materials:
+      breakdown:
+      - material: polyester_fill
+        percentage: 60
+      - material: plush_fabric
+        percentage: 35
+      - material: plastic_eyes
+        percentage: 5
+      primary_material: synthetic
+    name: Stuffed Animals
+    sources:
+    - Toy industry sustainability reports
+    weight:
+      confidence: medium
+      estimate_g: 300
+      max_g: 2000
+      min_g: 50
+  tg-5-8-12:
+    lca_data_missing: true
+    name: Toy Playsets
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1500
+      methodology: Inherited from parent category (tg-5-8)
+      min_g: 50
+  tg-5-8-12-1:
+    lca_data_missing: true
+    name: Action Figure Playsets
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1500
+      methodology: Inherited from parent category (tg-5-8)
+      min_g: 50
+  tg-5-8-12-2:
+    lca_data_missing: true
+    name: Car Playsets
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1500
+      methodology: Inherited from parent category (tg-5-8)
+      min_g: 50
+  tg-5-8-12-3:
+    lca_data_missing: true
+    name: Castle Playsets
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1500
+      methodology: Inherited from parent category (tg-5-8)
+      min_g: 50
+  tg-5-8-12-4:
+    lca_data_missing: true
+    name: Dinosaur Playsets
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1500
+      methodology: Inherited from parent category (tg-5-8)
+      min_g: 50
+  tg-5-8-12-5:
+    lca_data_missing: true
+    name: Doctor Playsets
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1500
+      methodology: Inherited from parent category (tg-5-8)
+      min_g: 50
+  tg-5-8-12-6:
+    lca_data_missing: true
+    name: Doll House Playsets
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1500
+      methodology: Inherited from parent category (tg-5-8)
+      min_g: 50
+  tg-5-8-12-7:
+    lca_data_missing: true
+    name: Farm Animal Playsets
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1500
+      methodology: Inherited from parent category (tg-5-8)
+      min_g: 50
+  tg-5-8-12-8:
+    lca_data_missing: true
+    name: Kitchen Playsets
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1500
+      methodology: Inherited from parent category (tg-5-8)
+      min_g: 50
+  tg-5-8-12-9:
+    lca_data_missing: true
+    name: Picnic Playsets
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1500
+      methodology: Inherited from parent category (tg-5-8)
+      min_g: 50
   tg-5-9:
+    lca_data_missing: true
     name: Educational Toys
     weight:
-      estimate_g: 500
-      min_g: 50
-      max_g: 3000
       confidence: low
-    lca_data_missing: true
+      estimate_g: 500
+      max_g: 3000
+      min_g: 50
   tg-5-9-1:
+    lca_data_missing: true
     name: Ant Farms
     weight:
-      estimate_g: 800
-      min_g: 300
-      max_g: 1500
       confidence: medium
+      estimate_g: 800
+      max_g: 1500
+      min_g: 300
+  tg-5-9-2:
     lca_data_missing: true
+    name: Astronomy Toys & Models
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 3000
+      methodology: Inherited from parent category (tg-5-9)
+      min_g: 50
+  tg-5-9-2-1:
+    lca_data_missing: true
+    name: Astronomy Puzzles
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 3000
+      methodology: Inherited from parent category (tg-5-9)
+      min_g: 50
+  tg-5-9-2-3:
+    lca_data_missing: true
+    name: Interactive Astronomy Books
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 3000
+      methodology: Inherited from parent category (tg-5-9)
+      min_g: 50
+  tg-5-9-2-4:
+    lca_data_missing: true
+    name: Planetariums
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 3000
+      methodology: Inherited from parent category (tg-5-9)
+      min_g: 50
+  tg-5-9-2-5:
+    lca_data_missing: true
+    name: Solar System Models
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 3000
+      methodology: Inherited from parent category (tg-5-9)
+      min_g: 50
+  tg-5-9-2-6:
+    lca_data_missing: true
+    name: Star & Planet Maps
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 3000
+      methodology: Inherited from parent category (tg-5-9)
+      min_g: 50
   tg-5-9-2-7:
+    lca_data_missing: true
     name: Telescopes
     weight:
-      estimate_g: 1500
-      min_g: 500
-      max_g: 4000
       confidence: medium
+      estimate_g: 1500
+      max_g: 4000
+      min_g: 500
+  tg-5-9-3:
     lca_data_missing: true
+    name: Bug Collecting Kits
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 3000
+      methodology: Inherited from parent category (tg-5-9)
+      min_g: 50
   tg-5-9-4:
+    lca_data_missing: true
     name: Educational Flash Cards
     weight:
-      estimate_g: 150
-      min_g: 50
-      max_g: 300
       confidence: medium
+      estimate_g: 150
+      max_g: 300
+      min_g: 50
+  tg-5-9-5:
     lca_data_missing: true
+    name: Reading Toys
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 3000
+      methodology: Inherited from parent category (tg-5-9)
+      min_g: 50
   tg-5-9-6:
+    lca_data_missing: true
     name: Science & Exploration Sets
     weight:
-      estimate_g: 600
-      min_g: 100
-      max_g: 3000
       confidence: low
+      estimate_g: 600
+      max_g: 3000
+      min_g: 100
+  tg-5-9-7:
     lca_data_missing: true
+    name: Toy Abacuses
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 3000
+      methodology: Inherited from parent category (tg-5-9)
+      min_g: 50
+  tg-5-10:
+    lca_data_missing: true
+    name: Executive Toys
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-10-2:
+    lca_data_missing: true
+    name: Magnet Toys
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-11:
+    lca_data_missing: true
+    name: Flying Toy Accessories
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-12:
+    lca_data_missing: true
+    name: Flying Toys
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-12-2:
+    lca_data_missing: true
+    materials:
+      breakdown:
+      - material: plastic
+        percentage: 45
+      - material: electronics
+        percentage: 30
+      - material: battery
+        percentage: 20
+      - material: motors
+        percentage: 5
+      primary_material: plastic
+    name: Drones
+    weight:
+      confidence: medium
+      estimate_g: 500
+      max_g: 2000
+      min_g: 100
+  tg-5-12-3:
+    lca_data_missing: true
+    materials:
+      primary_material: nylon
+    name: Kites
+    weight:
+      confidence: medium
+      estimate_g: 200
+      max_g: 500
+      min_g: 50
+  tg-5-12-4:
+    lca_data_missing: true
+    name: Model Aircrafts
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-12-5:
+    lca_data_missing: true
+    name: Model Rockets
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-12-6:
+    lca_data_missing: true
+    name: Toy Gliders
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-12-7:
+    lca_data_missing: true
+    name: Toy Helicopters
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-12-8:
+    lca_data_missing: true
+    name: Toy Parachutes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-12-10:
+    lca_data_missing: true
+    name: Air & Water Rockets
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-13:
+    lca_data_missing: true
+    name: Musical Toys
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      min_g: 100
+  tg-5-13-1:
+    lca_data_missing: true
+    name: DJ Studio Sets
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      methodology: Inherited from parent category (tg-5-13)
+      min_g: 100
+  tg-5-13-2:
+    lca_data_missing: true
+    name: Drums & Percussion Instruments
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      methodology: Inherited from parent category (tg-5-13)
+      min_g: 100
+  tg-5-13-4:
+    lca_data_missing: true
+    name: Interactive Musical Mats
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      methodology: Inherited from parent category (tg-5-13)
+      min_g: 100
+  tg-5-13-5:
+    lca_data_missing: true
+    name: Karaoke Sets
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      methodology: Inherited from parent category (tg-5-13)
+      min_g: 100
+  tg-5-13-6:
+    lca_data_missing: true
+    name: Microphones
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      methodology: Inherited from parent category (tg-5-13)
+      min_g: 100
+  tg-5-13-7:
+    lca_data_missing: true
+    name: Musical Books
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      methodology: Inherited from parent category (tg-5-13)
+      min_g: 100
+  tg-5-13-9:
+    lca_data_missing: true
+    name: Musical Boxes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      methodology: Inherited from parent category (tg-5-13)
+      min_g: 100
+  tg-5-13-12:
+    lca_data_missing: true
+    name: Pianos & Keyboards
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      methodology: Inherited from parent category (tg-5-13)
+      min_g: 100
+  tg-5-13-13:
+    lca_data_missing: true
+    name: String Instruments
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      methodology: Inherited from parent category (tg-5-13)
+      min_g: 100
+  tg-5-13-14:
+    lca_data_missing: true
+    name: Wind Instruments
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 5000
+      min_g: 100
+  tg-5-13-15:
+    lca_data_missing: true
+    name: Xylophones
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 2000
+      methodology: Inherited from parent category (tg-5-13)
+      min_g: 100
+  tg-5-14:
+    lca_data_missing: true
+    name: Play Vehicle Accessories
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-15:
+    lca_data_missing: true
+    name: Play Vehicles
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      min_g: 20
+  tg-5-15-1:
+    lca_data_missing: true
+    name: Toy Airplanes
+    weight:
+      confidence: medium
+      estimate_g: 300
+      max_g: 1000
+      min_g: 50
+  tg-5-15-2:
+    lca_data_missing: true
+    name: Toy Boats
+    weight:
+      confidence: medium
+      estimate_g: 400
+      max_g: 1500
+      min_g: 100
+  tg-5-15-3:
+    lca_data_missing: true
+    name: Toy Cars
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-15)
+      min_g: 20
+  tg-5-15-4:
+    lca_data_missing: true
+    name: Toy Helicopters
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-15)
+      min_g: 20
+  tg-5-15-5:
+    lca_data_missing: true
+    name: Toy Motorcycles
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-15)
+      min_g: 20
+  tg-5-15-6:
+    lca_data_missing: true
+    name: Toy Race Car & Track Sets
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-15)
+      min_g: 20
+  tg-5-15-7:
+    lca_data_missing: true
+    name: Toy Spaceships
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-15)
+      min_g: 20
+  tg-5-15-8:
+    lca_data_missing: true
+    name: Toy Trains & Train Sets
+    weight:
+      confidence: medium
+      estimate_g: 2000
+      max_g: 8000
+      min_g: 500
+  tg-5-15-9:
+    lca_data_missing: true
+    materials:
+      primary_material: plastic
+    name: Toy Trucks & Construction Vehicles
+    weight:
+      confidence: medium
+      estimate_g: 500
+      max_g: 2000
+      min_g: 100
+  tg-5-16:
+    lca_data_missing: true
+    name: Pretend Play
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 5000
+      min_g: 50
+  tg-5-16-1:
+    lca_data_missing: true
+    name: Play Money & Banking
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-16)
+      min_g: 50
+  tg-5-16-2:
+    lca_data_missing: true
+    name: Pretend Electronics
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-16)
+      min_g: 50
+  tg-5-16-3:
+    lca_data_missing: true
+    name: Pretend Housekeeping
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-16)
+      min_g: 50
+  tg-5-16-4:
+    lca_data_missing: true
+    name: Pretend Lawn & Garden
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-16)
+      min_g: 50
+  tg-5-16-5:
+    lca_data_missing: true
+    name: Pretend Professions & Role Playing
+    weight:
+      confidence: medium
+      estimate_g: 400
+      max_g: 800
+      min_g: 150
+  tg-5-16-6:
+    lca_data_missing: true
+    name: Pretend Shopping & Grocery
+    weight:
+      confidence: medium
+      estimate_g: 800
+      max_g: 1500
+      min_g: 300
+  tg-5-16-7:
+    lca_data_missing: true
+    name: Toy Kitchens & Play Food
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-16)
+      min_g: 50
+  tg-5-16-7-1:
+    lca_data_missing: true
+    name: Play Food
+    weight:
+      confidence: medium
+      estimate_g: 300
+      max_g: 800
+      methodology: Per set
+      min_g: 100
+  tg-5-16-7-2:
+    lca_data_missing: true
+    name: Toy Cookware
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-16)
+      min_g: 50
+  tg-5-16-7-3:
+    lca_data_missing: true
+    name: Toy Kitchens
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-16)
+      min_g: 50
+  tg-5-16-7-4:
+    lca_data_missing: true
+    name: Toy Tableware
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-16)
+      min_g: 50
+  tg-5-16-8:
+    lca_data_missing: true
+    name: Toy Tools
+    weight:
+      confidence: medium
+      estimate_g: 500
+      max_g: 1500
+      min_g: 200
+  tg-5-17:
+    lca_data_missing: true
+    name: Remote Control Toy Accessories
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-18:
+    lca_data_missing: true
+    materials:
+      breakdown:
+      - material: plastic
+        percentage: 50
+      - material: electronics
+        percentage: 25
+      - material: battery
+        percentage: 15
+      - material: metal
+        percentage: 10
+      primary_material: plastic
+    name: Remote Control Toys
+    weight:
+      confidence: medium
+      estimate_g: 1500
+      max_g: 5000
+      min_g: 500
+  tg-5-18-1:
+    lca_data_missing: true
+    name: Remote Control Airships & Blimps
+    weight:
+      confidence: low
+      estimate_g: 1500
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-18)
+      min_g: 500
+  tg-5-18-2:
+    lca_data_missing: true
+    name: Remote Control Boats & Watercraft
+    weight:
+      confidence: low
+      estimate_g: 1500
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-18)
+      min_g: 500
+  tg-5-18-3:
+    lca_data_missing: true
+    name: Remote Control Cars & Trucks
+    weight:
+      confidence: low
+      estimate_g: 1500
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-18)
+      min_g: 500
+  tg-5-18-4:
+    lca_data_missing: true
+    name: Remote Control Helicopters
+    weight:
+      confidence: low
+      estimate_g: 1500
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-18)
+      min_g: 500
+  tg-5-18-5:
+    lca_data_missing: true
+    name: Remote Control Motorcycles
+    weight:
+      confidence: low
+      estimate_g: 1500
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-18)
+      min_g: 500
+  tg-5-18-6:
+    lca_data_missing: true
+    name: Remote Control Planes
+    weight:
+      confidence: low
+      estimate_g: 1500
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-18)
+      min_g: 500
+  tg-5-18-7:
+    lca_data_missing: true
+    name: Remote Control Robots
+    weight:
+      confidence: low
+      estimate_g: 1500
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-18)
+      min_g: 500
+  tg-5-18-8:
+    lca_data_missing: true
+    name: Remote Control Tanks
+    weight:
+      confidence: low
+      estimate_g: 1500
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-18)
+      min_g: 500
+  tg-5-19:
+    lca_data_missing: true
+    name: Riding Toy Accessories
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-20:
+    lca_data_missing: true
+    name: Riding Toys
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      min_g: 1000
+  tg-5-20-1:
+    lca_data_missing: true
+    name: Electric Riding Vehicles
+    notes: Battery adds significant weight and footprint
+    weight:
+      confidence: medium
+      estimate_g: 15000
+      max_g: 30000
+      min_g: 8000
+  tg-5-20-2:
+    lca_data_missing: true
+    name: Hobby Horses
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (tg-5-20)
+      min_g: 1000
+  tg-5-20-3:
+    lca_data_missing: true
+    name: Push & Pedal Riding Vehicles
+    weight:
+      confidence: medium
+      estimate_g: 10000
+      max_g: 20000
+      min_g: 5000
+  tg-5-20-4:
+    lca_data_missing: true
+    name: Rocking & Spring Riding Toys
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 30000
+      methodology: Inherited from parent category (tg-5-20)
+      min_g: 1000
+  tg-5-20-5:
+    lca_data_missing: true
+    name: Wagons
+    weight:
+      confidence: medium
+      estimate_g: 8000
+      max_g: 15000
+      min_g: 4000
+  tg-5-21:
+    lca_data_missing: true
+    name: Robotic Toys
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-22:
+    lca_data_missing: true
+    name: Sports Toy Accessories
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-23:
+    lca_data_missing: true
+    name: Sports Toys
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 5000
+      min_g: 50
+  tg-5-23-1:
+    lca_data_missing: true
+    name: American Football Toys
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-23)
+      min_g: 50
+  tg-5-23-2:
+    lca_data_missing: true
+    name: Baseball Toys
+    weight:
+      confidence: medium
+      estimate_g: 1000
+      max_g: 2000
+      min_g: 400
+  tg-5-23-3:
+    lca_data_missing: true
+    name: Basketball Toys
+    weight:
+      confidence: medium
+      estimate_g: 5000
+      max_g: 15000
+      min_g: 2000
+  tg-5-23-4:
+    lca_data_missing: true
+    name: Boomerangs
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-23)
+      min_g: 50
+  tg-5-23-5:
+    lca_data_missing: true
+    name: Bowling Toys
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-23)
+      min_g: 50
+  tg-5-23-6:
+    lca_data_missing: true
+    name: Fingerboards & Fingerboard Sets
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-23)
+      min_g: 50
+  tg-5-23-7:
+    lca_data_missing: true
+    name: Fishing Toys
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-23)
+      min_g: 50
+  tg-5-23-8:
+    lca_data_missing: true
+    name: Fitness Toys
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-23)
+      min_g: 50
+  tg-5-23-8-2:
+    lca_data_missing: true
+    name: Hula Hoops
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-23)
+      min_g: 50
+  tg-5-23-8-3:
+    lca_data_missing: true
+    name: Jump Ropes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-23)
+      min_g: 50
+  tg-5-23-8-4:
+    lca_data_missing: true
+    name: Kids' Exercise Balls
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-23)
+      min_g: 50
+  tg-5-23-8-5:
+    lca_data_missing: true
+    name: Kids' Yoga Mats & Sets
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-23)
+      min_g: 50
+  tg-5-23-8-6:
+    lca_data_missing: true
+    name: Mini Trampolines
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-23)
+      min_g: 50
+  tg-5-23-9:
+    lca_data_missing: true
+    materials:
+      primary_material: plastic
+    name: Flying Discs
+    weight:
+      confidence: high
+      estimate_g: 150
+      max_g: 200
+      min_g: 100
+  tg-5-23-10:
+    lca_data_missing: true
+    name: Footbags
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-23)
+      min_g: 50
+  tg-5-23-11:
+    lca_data_missing: true
+    name: Golf Toys
+    weight:
+      confidence: medium
+      estimate_g: 1500
+      max_g: 3000
+      min_g: 500
+  tg-5-23-12:
+    lca_data_missing: true
+    name: Hockey Toys
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-23)
+      min_g: 50
+  tg-5-23-13:
+    lca_data_missing: true
+    name: Playground Balls
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-23)
+      min_g: 50
+  tg-5-23-14:
+    lca_data_missing: true
+    name: Racquet Sport Toys
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 5000
+      methodology: Inherited from parent category (tg-5-23)
+      min_g: 50
+  tg-5-24:
+    lca_data_missing: true
+    name: Toy Gift Baskets
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-25:
+    lca_data_missing: true
+    name: Toy Weapon & Gadget Accessories
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-26:
+    lca_data_missing: true
+    name: Toy Weapons & Gadgets
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-27:
+    lca_data_missing: true
+    name: Visual Toys
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-27-1:
+    lca_data_missing: true
+    name: Kaleidoscopes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-27-2:
+    lca_data_missing: true
+    name: Prisms
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-28:
+    lca_data_missing: true
+    name: Wind-Up Toys
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  tg-5-29:
+    lca_data_missing: true
+    name: Sensory Toys
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 10

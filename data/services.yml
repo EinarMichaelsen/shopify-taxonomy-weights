@@ -1,0 +1,498 @@
+schema_version: 0.1.0
+last_updated: '2026-01-30'
+categories:
+  se:
+    lca_data_missing: true
+    name: Services
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-1:
+    lca_data_missing: true
+    name: Automotive Services
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-1-1:
+    lca_data_missing: true
+    name: Automotive Electrical Services
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-1-2:
+    lca_data_missing: true
+    name: Car Valeting & Detailing
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-1-3:
+    lca_data_missing: true
+    name: Car Repair & Maintenance
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-1-4:
+    lca_data_missing: true
+    name: Car Security & Safety
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-1-5:
+    lca_data_missing: true
+    name: Tire & Wheel Services
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-1-6:
+    lca_data_missing: true
+    name: Vehicle Inspection
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-2:
+    lca_data_missing: true
+    name: Building & Construction Services
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-2-1:
+    lca_data_missing: true
+    name: Commercial Construction
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-2-2:
+    lca_data_missing: true
+    name: Outdoor Construction
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-2-3:
+    lca_data_missing: true
+    name: Residential Construction & Renovation
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-2-4:
+    lca_data_missing: true
+    name: Specialized Construction Services
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-2-4-1:
+    lca_data_missing: true
+    name: Carpentry
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-2-4-2:
+    lca_data_missing: true
+    name: Concrete & Foundations
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-2-4-3:
+    lca_data_missing: true
+    name: Roofing & Guttering
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-3:
+    lca_data_missing: true
+    name: Business Services
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-3-1:
+    lca_data_missing: true
+    name: Human Resources & Payroll
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-3-2:
+    lca_data_missing: true
+    name: Logistics & Removals
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-3-3:
+    lca_data_missing: true
+    name: Office Services
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-3-3-1:
+    lca_data_missing: true
+    name: Printing & Custom Print Services
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-3-4:
+    lca_data_missing: true
+    name: Security Services
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-4:
+    lca_data_missing: true
+    name: Entertainment & Recreation Services
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-4-1:
+    lca_data_missing: true
+    name: Concerts & Entertainment Events
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-4-3:
+    lca_data_missing: true
+    name: Event Planning
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-4-4:
+    lca_data_missing: true
+    name: Travel & Leisure
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-4-4-1:
+    lca_data_missing: true
+    name: Public Transport Tickets & Passes
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-4-5:
+    lca_data_missing: true
+    name: Children Activities
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-4-6:
+    lca_data_missing: true
+    name: Indoor Activities
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-4-7:
+    lca_data_missing: true
+    name: Outdoor Activities
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-5:
+    lca_data_missing: true
+    name: Home Improvement Services
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-5-1:
+    lca_data_missing: true
+    name: Electrical Services
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-5-2:
+    lca_data_missing: true
+    name: Outdoor Services
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-5-3:
+    lca_data_missing: true
+    name: Plumbing
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-5-4:
+    lca_data_missing: true
+    name: Specialized Home Services
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-6:
+    lca_data_missing: true
+    name: Personal Services
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-6-1:
+    lca_data_missing: true
+    name: Beauty & Personal Care
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-6-2:
+    lca_data_missing: true
+    name: Educational Services
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-6-3:
+    lca_data_missing: true
+    name: Healthcare Services
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-6-4:
+    lca_data_missing: true
+    name: Lifestyle Services
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-6-6:
+    lca_data_missing: true
+    name: Fitness & Wellness
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-6-6-1:
+    lca_data_missing: true
+    name: Fitness & Workout Programs
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-6-6-2:
+    lca_data_missing: true
+    name: Weight Loss Programs & Coaching
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-6-7:
+    lca_data_missing: true
+    name: Clothing Alterations
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-7:
+    lca_data_missing: true
+    name: Professional Services
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-7-1:
+    lca_data_missing: true
+    name: Consulting Services
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-7-2:
+    lca_data_missing: true
+    name: Finance & Insurance
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-7-3:
+    lca_data_missing: true
+    name: IT & Technology
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-7-4:
+    lca_data_missing: true
+    name: Legal Services
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-7-5:
+    lca_data_missing: true
+    name: Marketing & Advertising
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-7-6:
+    lca_data_missing: true
+    name: Real Estate
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-7-8:
+    lca_data_missing: true
+    name: Property Management
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-7-9:
+    lca_data_missing: true
+    name: Tax Services
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-8:
+    lca_data_missing: true
+    name: Environmental Services
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0
+  se-8-1:
+    lca_data_missing: true
+    name: Waste Management Services
+    weight:
+      confidence: low
+      estimate_g: 0
+      max_g: 0
+      methodology: Service - no physical weight
+      min_g: 0

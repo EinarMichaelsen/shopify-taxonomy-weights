@@ -1,0 +1,1912 @@
+schema_version: 0.1.0
+last_updated: '2026-01-30'
+categories:
+  co:
+    lca_data_missing: true
+    name: Cameras & Optics
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1:
+    lca_data_missing: true
+    name: Camera & Optic Accessories
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-1:
+    lca_data_missing: true
+    name: Camera & Optic Replacement Cables
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-1-1:
+    lca_data_missing: true
+    name: Component Video Cables
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-1-2:
+    lca_data_missing: true
+    name: Composite Video Cables
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-1-3:
+    lca_data_missing: true
+    name: Optical Audio Cables
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-2:
+    lca_data_missing: true
+    name: Camera & Video Camera Lenses
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-2-1:
+    lca_data_missing: true
+    name: Camera Lenses
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-2-2:
+    lca_data_missing: true
+    name: Surveillance Camera Lenses
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-2-3:
+    lca_data_missing: true
+    name: Video Camera Lenses
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-3:
+    lca_data_missing: true
+    name: Camera Lens Accessories
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-3-1:
+    lca_data_missing: true
+    name: Lens & Filter Adapter Rings
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-3-2:
+    lca_data_missing: true
+    name: Lens Bags
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-3-3:
+    lca_data_missing: true
+    name: Lens Caps
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-3-4:
+    lca_data_missing: true
+    name: Lens Converters
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-3-5:
+    lca_data_missing: true
+    name: Lens Filters
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-3-6:
+    lca_data_missing: true
+    name: Lens Hoods
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4:
+    lca_data_missing: true
+    name: Camera Parts & Accessories
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-1:
+    lca_data_missing: true
+    materials:
+      primary_material: plastic_metal
+    name: Camera Accessory Sets
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 2000
+      min_g: 20
+  co-1-4-2:
+    lca_data_missing: true
+    name: Camera Bags & Cases
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-2-1:
+    lca_data_missing: true
+    name: Camera Backpacks
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-2-2:
+    lca_data_missing: true
+    name: Camera Hard Cases
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-2-3:
+    lca_data_missing: true
+    name: Camera Holster Bags
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-2-4:
+    lca_data_missing: true
+    name: Camera Rolling Cases
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-2-5:
+    lca_data_missing: true
+    name: Camera Shoulder Bags
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-2-6:
+    lca_data_missing: true
+    name: Camera Sling Bags
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-2-7:
+    lca_data_missing: true
+    name: Camera Soft Pouches
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-2-8:
+    lca_data_missing: true
+    name: Camera Tote Bags
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-2-9:
+    lca_data_missing: true
+    name: Camera Underwater Cases
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-3:
+    lca_data_missing: true
+    name: Camera Body Replacement Panels & Doors
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-4:
+    lca_data_missing: true
+    name: Camera Digital Backs
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-5:
+    lca_data_missing: true
+    materials:
+      primary_material: cellulose_acetate
+    name: Camera Film
+    weight:
+      confidence: high
+      estimate_g: 30
+      max_g: 100
+      min_g: 15
+  co-1-4-5-1:
+    lca_data_missing: true
+    name: Black & White Film
+    weight:
+      confidence: low
+      estimate_g: 30
+      max_g: 100
+      methodology: Inherited from parent category (co-1-4-5)
+      min_g: 15
+  co-1-4-5-2:
+    lca_data_missing: true
+    name: Color Negative Film
+    weight:
+      confidence: low
+      estimate_g: 30
+      max_g: 100
+      methodology: Inherited from parent category (co-1-4-5)
+      min_g: 15
+  co-1-4-5-3:
+    lca_data_missing: true
+    name: Infrared Film
+    weight:
+      confidence: low
+      estimate_g: 30
+      max_g: 100
+      methodology: Inherited from parent category (co-1-4-5)
+      min_g: 15
+  co-1-4-5-4:
+    lca_data_missing: true
+    name: Instant Film
+    weight:
+      confidence: low
+      estimate_g: 30
+      max_g: 100
+      methodology: Inherited from parent category (co-1-4-5)
+      min_g: 15
+  co-1-4-5-5:
+    lca_data_missing: true
+    name: Slide Film
+    weight:
+      confidence: low
+      estimate_g: 30
+      max_g: 100
+      methodology: Inherited from parent category (co-1-4-5)
+      min_g: 15
+  co-1-4-5-6:
+    lca_data_missing: true
+    name: Special Effects Film
+    weight:
+      confidence: low
+      estimate_g: 30
+      max_g: 100
+      methodology: Inherited from parent category (co-1-4-5)
+      min_g: 15
+  co-1-4-6:
+    lca_data_missing: true
+    name: Camera Flash Accessories
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-7:
+    lca_data_missing: true
+    name: Camera Flashes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-8:
+    lca_data_missing: true
+    name: Camera Focus Devices
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-9:
+    lca_data_missing: true
+    name: Camera Gears
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-10:
+    lca_data_missing: true
+    name: Camera Grips
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-10-1:
+    lca_data_missing: true
+    name: Battery Grips
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-10-2:
+    lca_data_missing: true
+    name: Finger Grips
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-10-3:
+    lca_data_missing: true
+    name: Hand Grips
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-10-4:
+    lca_data_missing: true
+    name: Shoulder Grips
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-10-5:
+    lca_data_missing: true
+    name: Strap Grips
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-10-6:
+    lca_data_missing: true
+    name: Underwater Grips
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-10-7:
+    lca_data_missing: true
+    name: Wrist Grips
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-11:
+    lca_data_missing: true
+    name: Camera Image Sensors
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-12:
+    lca_data_missing: true
+    name: Camera Lens Zoom Units
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-12-1:
+    lca_data_missing: true
+    name: Digital Zoom Units
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-12-2:
+    lca_data_missing: true
+    name: Manual Zoom Units
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-12-3:
+    lca_data_missing: true
+    name: Motorized Zoom Units
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-12-4:
+    lca_data_missing: true
+    name: Optical Zoom Units
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-12-5:
+    lca_data_missing: true
+    name: Servo Zoom Units
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-13:
+    lca_data_missing: true
+    name: Camera Remote Controls
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-14:
+    lca_data_missing: true
+    name: Camera Replacement Buttons & Knobs
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-15:
+    lca_data_missing: true
+    name: Camera Replacement Screens & Displays
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-16:
+    lca_data_missing: true
+    name: Camera Silencers & Sound Blimps
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-17:
+    lca_data_missing: true
+    name: Camera Stabilizers & Supports
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-18:
+    lca_data_missing: true
+    name: Camera Straps
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-18-1:
+    lca_data_missing: true
+    name: Belt Straps
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-18-2:
+    lca_data_missing: true
+    name: Chest Straps
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-18-3:
+    lca_data_missing: true
+    name: Hand Straps
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-18-4:
+    lca_data_missing: true
+    name: Harness Straps
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-18-5:
+    lca_data_missing: true
+    name: Neck Straps
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-18-6:
+    lca_data_missing: true
+    name: Quick-Release Straps
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-18-7:
+    lca_data_missing: true
+    name: Shoulder Straps
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-18-8:
+    lca_data_missing: true
+    name: Wrist Straps
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-19:
+    lca_data_missing: true
+    name: Camera Sun Hoods & Viewfinder Attachments
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-20:
+    lca_data_missing: true
+    name: Flash Brackets
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-21:
+    lca_data_missing: true
+    name: On-Camera Monitors
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-22:
+    lca_data_missing: true
+    name: Surveillance Camera Accessories
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-23:
+    lca_data_missing: true
+    name: Underwater Camera Housing Accessories
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-24:
+    lca_data_missing: true
+    name: Underwater Camera Housings
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-4-25:
+    lca_data_missing: true
+    name: Video Camera Lights
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-5:
+    lca_data_missing: true
+    name: Optic Accessories
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-5-1:
+    lca_data_missing: true
+    name: Binocular & Monocular Accessories
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-5-2:
+    lca_data_missing: true
+    name: Optics Bags & Cases
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-5-2-1:
+    lca_data_missing: true
+    name: Accessory Cases
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-5-2-2:
+    lca_data_missing: true
+    name: Binocular Cases
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-5-2-4:
+    lca_data_missing: true
+    name: Drone Cases
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-5-2-5:
+    lca_data_missing: true
+    name: Lens Bags
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-5-2-6:
+    lca_data_missing: true
+    name: Microscope Cases
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-5-2-7:
+    lca_data_missing: true
+    name: Monocular Cases
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-5-2-8:
+    lca_data_missing: true
+    name: Rangefinder Cases
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-5-2-9:
+    lca_data_missing: true
+    name: Spotting Scope Cases
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-5-2-10:
+    lca_data_missing: true
+    name: Telescope Bags
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-5-3:
+    lca_data_missing: true
+    name: Rangefinder Accessories
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-5-4:
+    lca_data_missing: true
+    name: Spotting Scope Accessories
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-5-5:
+    lca_data_missing: true
+    name: Telescope Accessories
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-5-6:
+    lca_data_missing: true
+    name: Thermal Optic Accessories
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-5-7:
+    lca_data_missing: true
+    name: Weapon Scope & Sight Accessories
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-6:
+    lca_data_missing: true
+    name: Tripod & Monopod Accessories
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-6-1:
+    lca_data_missing: true
+    name: Tripod & Monopod Cases
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-6-2:
+    lca_data_missing: true
+    name: Tripod & Monopod Heads
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-6-3:
+    lca_data_missing: true
+    name: Tripod Collars & Mounts
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-6-4:
+    lca_data_missing: true
+    name: Tripod Handles
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-6-5:
+    lca_data_missing: true
+    name: Tripod Spreaders
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-1-7:
+    lca_data_missing: true
+    materials:
+      primary_material: aluminum_carbon_fiber
+    name: Tripods & Monopods
+    weight:
+      confidence: medium
+      estimate_g: 1500
+      max_g: 5000
+      min_g: 300
+  co-1-7-1:
+    lca_data_missing: true
+    name: Boom Stands
+    weight:
+      confidence: low
+      estimate_g: 1500
+      max_g: 5000
+      methodology: Inherited from parent category (co-1-7)
+      min_g: 300
+  co-1-7-2:
+    lca_data_missing: true
+    name: Light Stands
+    weight:
+      confidence: low
+      estimate_g: 1500
+      max_g: 5000
+      methodology: Inherited from parent category (co-1-7)
+      min_g: 300
+  co-1-7-3:
+    lca_data_missing: true
+    name: Monopods
+    weight:
+      confidence: low
+      estimate_g: 1500
+      max_g: 5000
+      methodology: Inherited from parent category (co-1-7)
+      min_g: 300
+  co-1-7-4:
+    lca_data_missing: true
+    name: Pocket Tripods
+    weight:
+      confidence: low
+      estimate_g: 1500
+      max_g: 5000
+      methodology: Inherited from parent category (co-1-7)
+      min_g: 300
+  co-1-7-5:
+    lca_data_missing: true
+    name: Studio Tripods
+    weight:
+      confidence: low
+      estimate_g: 1500
+      max_g: 5000
+      methodology: Inherited from parent category (co-1-7)
+      min_g: 300
+  co-1-7-6:
+    lca_data_missing: true
+    name: Tabletop Tripods
+    weight:
+      confidence: low
+      estimate_g: 1500
+      max_g: 5000
+      methodology: Inherited from parent category (co-1-7)
+      min_g: 300
+  co-1-7-7:
+    lca_data_missing: true
+    name: Travel Tripods
+    weight:
+      confidence: low
+      estimate_g: 1500
+      max_g: 5000
+      methodology: Inherited from parent category (co-1-7)
+      min_g: 300
+  co-1-7-9:
+    lca_data_missing: true
+    name: Underwater Tripods
+    weight:
+      confidence: low
+      estimate_g: 1500
+      max_g: 5000
+      methodology: Inherited from parent category (co-1-7)
+      min_g: 300
+  co-1-7-10:
+    lca_data_missing: true
+    name: Video Tripods
+    weight:
+      confidence: low
+      estimate_g: 1500
+      max_g: 5000
+      methodology: Inherited from parent category (co-1-7)
+      min_g: 300
+  co-2:
+    lca_data_missing: true
+    name: Cameras
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-2-1:
+    lca_data_missing: true
+    name: Borescopes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-2-2:
+    lca_data_missing: true
+    name: Digital Cameras
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-2-2-1:
+    lca_data_missing: true
+    name: 360-Degree Digital Cameras
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-2-2-2:
+    lca_data_missing: true
+    name: Action Digital Cameras
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-2-2-4:
+    lca_data_missing: true
+    name: Compact Digital Cameras
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-2-2-5:
+    lca_data_missing: true
+    name: Digital Single-Lens Reflex (DSLR) Cameras
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-2-2-6:
+    lca_data_missing: true
+    name: Medium Format Digital Cameras
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-2-2-7:
+    lca_data_missing: true
+    name: Mirrorless Digital Cameras
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-2-2-8:
+    lca_data_missing: true
+    name: Point-and-Shoot Digital Cameras
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-2-2-9:
+    lca_data_missing: true
+    name: Rangefinder Digital Cameras
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-2-3:
+    lca_data_missing: true
+    name: Disposable Cameras
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-2-4:
+    lca_data_missing: true
+    name: Film Cameras
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-2-4-1:
+    lca_data_missing: true
+    name: Compact Film Cameras
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-2-4-2:
+    lca_data_missing: true
+    name: Instant Film Cameras
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-2-4-3:
+    lca_data_missing: true
+    name: Large Format Film Cameras
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-2-4-4:
+    lca_data_missing: true
+    name: Medium Format Film Cameras
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-2-4-5:
+    lca_data_missing: true
+    name: Rangefinder Film Cameras
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-2-4-6:
+    lca_data_missing: true
+    name: SLR Film Cameras
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-2-5:
+    lca_data_missing: true
+    name: Surveillance Cameras
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-2-6:
+    lca_data_missing: true
+    name: Trail Cameras
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-2-7:
+    lca_data_missing: true
+    name: Video Cameras
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-2-7-1:
+    lca_data_missing: true
+    name: 360-Degree Video Cameras
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-2-7-2:
+    lca_data_missing: true
+    name: Action Video Cameras
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-2-7-4:
+    lca_data_missing: true
+    name: Camcorders
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-2-7-5:
+    lca_data_missing: true
+    name: Cinema Video Cameras
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-2-7-6:
+    lca_data_missing: true
+    name: Dash Video Cameras
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-2-7-7:
+    lca_data_missing: true
+    name: Drone Video Cameras
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-2-8:
+    lca_data_missing: true
+    name: Webcams
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-3:
+    lca_data_missing: true
+    name: Optics
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-3-1:
+    lca_data_missing: true
+    name: Binoculars
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-3-2:
+    lca_data_missing: true
+    name: Monoculars
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-3-3:
+    lca_data_missing: true
+    name: Rangefinders
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-3-4:
+    lca_data_missing: true
+    name: Scopes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-3-4-1:
+    lca_data_missing: true
+    name: Spotting Scopes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-3-4-2:
+    lca_data_missing: true
+    name: Telescopes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-3-4-2-1:
+    lca_data_missing: true
+    name: Catadioptric Telescopes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-3-4-2-2:
+    lca_data_missing: true
+    name: Compound Telescopes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-3-4-2-3:
+    lca_data_missing: true
+    name: Dobsonian Telescopes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-3-4-2-4:
+    lca_data_missing: true
+    name: Reflector Telescopes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-3-4-2-5:
+    lca_data_missing: true
+    name: Refractor Telescopes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-3-4-2-6:
+    lca_data_missing: true
+    name: Solar Telescopes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-3-4-3:
+    lca_data_missing: true
+    name: Weapon Scopes & Sights
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  co-4:
+    lca_data_missing: true
+    name: Photography
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      min_g: 50
+  co-4-1:
+    lca_data_missing: true
+    name: Darkroom
+    weight:
+      confidence: medium
+      estimate_g: 100
+      max_g: 500
+      min_g: 20
+  co-4-1-1:
+    lca_data_missing: true
+    name: Developing & Processing Equipment
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-1-1:
+    lca_data_missing: true
+    name: Copystands
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-1-2:
+    lca_data_missing: true
+    name: Darkroom Sinks
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-1-3:
+    lca_data_missing: true
+    name: Developing Tanks & Reels
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-1-4:
+    lca_data_missing: true
+    name: Print Trays, Washers & Dryers
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-1-4-1:
+    lca_data_missing: true
+    name: Film Dryers
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-1-4-2:
+    lca_data_missing: true
+    name: Film Washers
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-1-4-3:
+    lca_data_missing: true
+    name: Print Dryers
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-1-4-4:
+    lca_data_missing: true
+    name: Print Tongs
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-1-4-5:
+    lca_data_missing: true
+    name: Print Trays
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-1-4-6:
+    lca_data_missing: true
+    name: Print Washers
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-1-5:
+    lca_data_missing: true
+    name: Retouching Equipment & Supplies
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-2:
+    lca_data_missing: true
+    name: Enlarging Equipment
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-2-1:
+    lca_data_missing: true
+    name: Darkroom Easels
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-2-2:
+    lca_data_missing: true
+    name: Darkroom Timers
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-2-3:
+    lca_data_missing: true
+    name: Focusing Aids
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-2-4:
+    lca_data_missing: true
+    name: Photographic Analyzers
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-2-5:
+    lca_data_missing: true
+    name: Photographic Enlargers
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-3:
+    lca_data_missing: true
+    name: Photographic Chemicals
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-3-1:
+    lca_data_missing: true
+    name: Bleaches
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-3-2:
+    lca_data_missing: true
+    name: Film Developers
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-3-3:
+    lca_data_missing: true
+    name: Film Hardeners
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-3-4:
+    lca_data_missing: true
+    name: Fixers
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-3-5:
+    lca_data_missing: true
+    name: Hypo Clearing Agents
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-3-6:
+    lca_data_missing: true
+    name: Paper Developers
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-3-7:
+    lca_data_missing: true
+    name: Reversal Baths
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-3-8:
+    lca_data_missing: true
+    name: Stop Baths
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-3-9:
+    lca_data_missing: true
+    name: Toners
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-3-10:
+    lca_data_missing: true
+    name: Wetting Agents
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-4:
+    lca_data_missing: true
+    name: Photographic Paper
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-1-5:
+    lca_data_missing: true
+    name: Safelights
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (co-4-1)
+      min_g: 20
+  co-4-2:
+    lca_data_missing: true
+    name: Lighting & Studio
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (co-4)
+      min_g: 50
+  co-4-2-1:
+    lca_data_missing: true
+    name: Light Meter Accessories
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (co-4)
+      min_g: 50
+  co-4-2-2:
+    lca_data_missing: true
+    name: Light Meters
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (co-4)
+      min_g: 50
+  co-4-2-3:
+    lca_data_missing: true
+    name: Studio Backgrounds
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (co-4)
+      min_g: 50
+  co-4-2-4:
+    lca_data_missing: true
+    name: Studio Light & Flash Accessories
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (co-4)
+      min_g: 50
+  co-4-2-5:
+    lca_data_missing: true
+    name: Studio Lighting Controls
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (co-4)
+      min_g: 50
+  co-4-2-5-1:
+    lca_data_missing: true
+    name: Flash Diffusers
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (co-4)
+      min_g: 50
+  co-4-2-5-2:
+    lca_data_missing: true
+    name: Flash Reflectors
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (co-4)
+      min_g: 50
+  co-4-2-5-3:
+    lca_data_missing: true
+    name: Lighting Filters & Gobos
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (co-4)
+      min_g: 50
+  co-4-2-5-4:
+    lca_data_missing: true
+    name: Softboxes
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (co-4)
+      min_g: 50
+  co-4-2-6:
+    lca_data_missing: true
+    name: Studio Lights & Flashes
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (co-4)
+      min_g: 50
+  co-4-2-7:
+    lca_data_missing: true
+    name: Studio Stand & Mount Accessories
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (co-4)
+      min_g: 50
+  co-4-2-8:
+    lca_data_missing: true
+    name: Studio Stands & Mounts
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (co-4)
+      min_g: 50
+  co-4-2-8-1:
+    lca_data_missing: true
+    name: Backdrop Stands
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (co-4)
+      min_g: 50
+  co-4-2-8-2:
+    lca_data_missing: true
+    name: Boom Arms
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (co-4)
+      min_g: 50
+  co-4-2-8-3:
+    lca_data_missing: true
+    name: C-Stands
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (co-4)
+      min_g: 50
+  co-4-2-8-4:
+    lca_data_missing: true
+    name: Ceiling Mounts
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (co-4)
+      min_g: 50
+  co-4-2-8-5:
+    lca_data_missing: true
+    name: Clamps
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (co-4)
+      min_g: 50
+  co-4-2-8-6:
+    lca_data_missing: true
+    name: Grip Heads
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (co-4)
+      min_g: 50
+  co-4-2-8-7:
+    lca_data_missing: true
+    name: Light Stands
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (co-4)
+      min_g: 50
+  co-4-2-8-8:
+    lca_data_missing: true
+    name: Reflector Holders
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (co-4)
+      min_g: 50
+  co-4-2-8-9:
+    lca_data_missing: true
+    name: Tabletop Stands
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (co-4)
+      min_g: 50
+  co-4-2-8-10:
+    lca_data_missing: true
+    name: Wall Mounts
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (co-4)
+      min_g: 50
+  co-4-3:
+    lca_data_missing: true
+    name: Photo Mounting Supplies
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (co-4)
+      min_g: 50
+  co-4-4:
+    lca_data_missing: true
+    name: Photo Negative & Slide Storage
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 10000
+      methodology: Inherited from parent category (co-4)
+      min_g: 50

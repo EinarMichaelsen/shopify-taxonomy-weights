@@ -1,0 +1,2199 @@
+schema_version: 0.1.0
+last_updated: '2026-01-30'
+categories:
+  os:
+    lca_data_missing: true
+    name: Office Supplies
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-1:
+    lca_data_missing: true
+    name: Book Accessories
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-1-1:
+    lca_data_missing: true
+    name: Book Covers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-1-2:
+    lca_data_missing: true
+    name: Book Lights
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-1-3:
+    lca_data_missing: true
+    name: Book Stands & Rests
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-1-4:
+    lca_data_missing: true
+    name: Bookmarks
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-2:
+    lca_data_missing: true
+    name: Desk Pads & Blotters
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3:
+    lca_data_missing: true
+    name: Filing & Organization
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-1:
+    lca_data_missing: true
+    name: Address Books
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-2:
+    lca_data_missing: true
+    name: Binding Supplies
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-2-1:
+    lca_data_missing: true
+    name: Binder Accessories
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-2-1-1:
+    lca_data_missing: true
+    name: Binder Rings
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-2-1-2:
+    lca_data_missing: true
+    name: Index Dividers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-2-1-3:
+    lca_data_missing: true
+    name: Sheet Protectors
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-2-2:
+    lca_data_missing: true
+    name: Binders
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-2-3:
+    lca_data_missing: true
+    name: Binding Combs & Spines
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-2-4:
+    lca_data_missing: true
+    name: Binding Machines
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-2-4-1:
+    lca_data_missing: true
+    name: Electric Binding Machines
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-2-4-2:
+    lca_data_missing: true
+    name: Manual Binding Machines
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-3:
+    lca_data_missing: true
+    name: Business Card Books
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-4:
+    lca_data_missing: true
+    name: Business Card Stands
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-5:
+    lca_data_missing: true
+    name: Calendars, Organizers & Planners
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-5-1:
+    lca_data_missing: true
+    name: Desk Calendars
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-5-2:
+    lca_data_missing: true
+    name: Organizers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-5-3:
+    lca_data_missing: true
+    name: Planners
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-5-4:
+    lca_data_missing: true
+    name: Wall Calendars
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-6:
+    lca_data_missing: true
+    name: Card Files
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-7:
+    lca_data_missing: true
+    name: Card Sleeves
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-8:
+    lca_data_missing: true
+    name: Cash Boxes
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-9:
+    lca_data_missing: true
+    name: CD/DVD Cases & Organizers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-10:
+    lca_data_missing: true
+    name: Desk Organizers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-10-1:
+    lca_data_missing: true
+    name: Desktop Organizers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-10-2:
+    lca_data_missing: true
+    name: Drawer Organizers
+    weight:
+      confidence: medium
+      estimate_g: 200
+      max_g: 500
+      min_g: 50
+  os-3-10-3:
+    lca_data_missing: true
+    name: File Sorters
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-10-4:
+    lca_data_missing: true
+    name: Pen Holders
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-11:
+    lca_data_missing: true
+    name: File Boxes
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-12:
+    lca_data_missing: true
+    name: File Folders
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-13:
+    lca_data_missing: true
+    name: Folders & Report Covers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-13-1:
+    lca_data_missing: true
+    name: Pocket Folders
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-13-2:
+    lca_data_missing: true
+    name: Report Covers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-14:
+    lca_data_missing: true
+    name: Greeting Card Organizers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-15:
+    lca_data_missing: true
+    name: Mail Sorters
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-16:
+    lca_data_missing: true
+    name: Pen & Pencil Cases
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-17:
+    lca_data_missing: true
+    name: Portfolios & Padfolios
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-17-1:
+    lca_data_missing: true
+    name: Padfolios
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-17-2:
+    lca_data_missing: true
+    name: Portfolios
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-3-18:
+    lca_data_missing: true
+    name: Recipe Card Boxes
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4:
+    lca_data_missing: true
+    name: General Office Supplies
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-1:
+    lca_data_missing: true
+    name: Brass Fasteners
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-2:
+    lca_data_missing: true
+    name: Correction Fluids, Pens & Tapes
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-2-1:
+    lca_data_missing: true
+    name: Correction Fluids
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-2-2:
+    lca_data_missing: true
+    name: Correction Pens
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-2-3:
+    lca_data_missing: true
+    name: Correction Tapes
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-3:
+    lca_data_missing: true
+    materials:
+      primary_material: rubber_vinyl
+    name: Erasers
+    weight:
+      confidence: high
+      estimate_g: 30
+      max_g: 100
+      min_g: 5
+  os-4-3-1:
+    lca_data_missing: true
+    name: Kneaded Erasers
+    weight:
+      confidence: low
+      estimate_g: 30
+      max_g: 100
+      methodology: Inherited from parent category (os-4-3)
+      min_g: 5
+  os-4-3-2:
+    lca_data_missing: true
+    name: Mechanical Erasers
+    weight:
+      confidence: low
+      estimate_g: 30
+      max_g: 100
+      methodology: Inherited from parent category (os-4-3)
+      min_g: 5
+  os-4-3-3:
+    lca_data_missing: true
+    name: Standard Erasers
+    weight:
+      confidence: low
+      estimate_g: 30
+      max_g: 100
+      methodology: Inherited from parent category (os-4-3)
+      min_g: 5
+  os-4-4:
+    lca_data_missing: true
+    name: Labels & Tags
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-4-1:
+    lca_data_missing: true
+    name: Address Labels
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-4-2:
+    lca_data_missing: true
+    name: Folder Tabs
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-4-3:
+    lca_data_missing: true
+    name: Label Clips
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-4-4:
+    lca_data_missing: true
+    name: Label Tapes & Refill Rolls
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-4-5:
+    lca_data_missing: true
+    name: Shipping Labels
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-4-6:
+    lca_data_missing: true
+    name: Shipping Tags
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-5:
+    lca_data_missing: true
+    name: Laminating Film, Pouches & Sheets
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-5-1:
+    lca_data_missing: true
+    name: Laminating Film Rolls
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-5-2:
+    lca_data_missing: true
+    name: Laminating Pouches
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-5-3:
+    lca_data_missing: true
+    name: Laminating Sheets
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-6:
+    lca_data_missing: true
+    name: Mounting Putty
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-7:
+    lca_data_missing: true
+    name: Office Tape
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-7-1:
+    lca_data_missing: true
+    name: Invisible Tape
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-7-2:
+    lca_data_missing: true
+    name: Transparent Tape
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-8:
+    lca_data_missing: true
+    name: Paper Clips & Clamps
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-8-1:
+    lca_data_missing: true
+    name: Binder Clips
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-8-2:
+    lca_data_missing: true
+    name: Paper Clips
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-9:
+    lca_data_missing: true
+    name: Paper Products
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-9-1:
+    lca_data_missing: true
+    name: Binder Paper
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-9-2:
+    lca_data_missing: true
+    name: Blank ID Cards
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-9-3:
+    lca_data_missing: true
+    name: Business Cards
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-9-4:
+    lca_data_missing: true
+    name: Business Forms & Receipts
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-9-5:
+    lca_data_missing: true
+    name: Checks
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-9-6:
+    lca_data_missing: true
+    name: Cover Paper
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-9-7:
+    lca_data_missing: true
+    name: Envelopes
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-9-8:
+    lca_data_missing: true
+    name: Index Cards
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-9-9:
+    lca_data_missing: true
+    name: Notebooks & Notepads
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-9-9-3:
+    lca_data_missing: true
+    name: Journals
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-9-9-4:
+    lca_data_missing: true
+    name: Memo Pads
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-9-9-5:
+    lca_data_missing: true
+    name: Notepads
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-9-9-6:
+    lca_data_missing: true
+    name: Pocket Notebooks
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-9-10:
+    lca_data_missing: true
+    name: Post Cards
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-9-11:
+    lca_data_missing: true
+    name: Printer & Copier Paper
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-9-12:
+    lca_data_missing: true
+    name: Receipt & Adding Machine Paper Rolls
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-9-13:
+    lca_data_missing: true
+    name: Stationery
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-9-14:
+    lca_data_missing: true
+    name: Sticky Notes
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-10:
+    lca_data_missing: true
+    name: Rubber Bands
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-11:
+    lca_data_missing: true
+    name: Staples
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-4-12:
+    lca_data_missing: true
+    name: Tacks & Pushpins
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-5:
+    lca_data_missing: true
+    name: Impulse Sealers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-5-1:
+    lca_data_missing: true
+    name: Handheld Impulse Sealers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-5-2:
+    lca_data_missing: true
+    name: Tabletop Impulse Sealers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-6:
+    lca_data_missing: true
+    name: Lap Desks
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-7:
+    lca_data_missing: true
+    name: Name Plates
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-7-1:
+    lca_data_missing: true
+    name: Desk Name Plates
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-7-2:
+    lca_data_missing: true
+    name: Door Name Plates
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-8:
+    lca_data_missing: true
+    name: Office & Chair Mats
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-8-1:
+    lca_data_missing: true
+    name: Anti-Fatigue Mats
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-8-2:
+    lca_data_missing: true
+    name: Chair Mats
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-8-3:
+    lca_data_missing: true
+    name: Office Mats
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-9:
+    lca_data_missing: true
+    name: Office Carts
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-9-1:
+    lca_data_missing: true
+    name: AV Carts
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-9-2:
+    lca_data_missing: true
+    name: Book Carts
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-9-3:
+    lca_data_missing: true
+    name: File Carts
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-9-4:
+    lca_data_missing: true
+    name: Mail Carts
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-9-5:
+    lca_data_missing: true
+    name: Utility Carts
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-10:
+    lca_data_missing: true
+    name: Office Equipment
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-10-1:
+    lca_data_missing: true
+    name: Calculator Accessories
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-10-2:
+    lca_data_missing: true
+    name: Calculators
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-10-2-1:
+    lca_data_missing: true
+    name: Basic Calculators
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-10-2-2:
+    lca_data_missing: true
+    name: Construction Calculators
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-10-2-3:
+    lca_data_missing: true
+    name: Financial Calculators
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-10-2-4:
+    lca_data_missing: true
+    name: Graphing Calculators
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-10-2-5:
+    lca_data_missing: true
+    name: Scientific Calculators
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-10-3:
+    lca_data_missing: true
+    name: Electronic Dictionaries & Translators
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-10-4:
+    lca_data_missing: true
+    name: Label Makers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-10-5:
+    lca_data_missing: true
+    name: Laminators
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-10-6:
+    lca_data_missing: true
+    name: Office Shredders
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-10-7:
+    lca_data_missing: true
+    name: Postage Meters
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-10-8:
+    lca_data_missing: true
+    name: Time & Attendance Clocks
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-10-9:
+    lca_data_missing: true
+    name: Transcribers & Dictation Systems
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-10-10:
+    lca_data_missing: true
+    name: Typewriters
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11:
+    lca_data_missing: true
+    name: Office Instruments
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-1:
+    lca_data_missing: true
+    name: Call Bells
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-2:
+    lca_data_missing: true
+    name: Clipboards
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-3:
+    lca_data_missing: true
+    name: Letter Openers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-4:
+    lca_data_missing: true
+    name: Magnifiers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-5:
+    lca_data_missing: true
+    name: Office Stamps
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-5-1:
+    lca_data_missing: true
+    name: Address Stamps
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-5-2:
+    lca_data_missing: true
+    name: Date Stamps
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-5-3:
+    lca_data_missing: true
+    name: Embossing Stamps
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-5-4:
+    lca_data_missing: true
+    name: Notary Stamps
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-5-5:
+    lca_data_missing: true
+    name: Passport Stamps
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-5-6:
+    lca_data_missing: true
+    name: Postage Stamps
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-5-7:
+    lca_data_missing: true
+    name: Signature Stamps
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-5-8:
+    lca_data_missing: true
+    name: Vintage Stamps
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-6:
+    lca_data_missing: true
+    name: Pencil Sharpeners
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-6-1:
+    lca_data_missing: true
+    name: Bladeless Sharpeners
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-6-2:
+    lca_data_missing: true
+    name: Carpenter Sharpeners
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-6-3:
+    lca_data_missing: true
+    name: Double Sharpeners
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-6-4:
+    lca_data_missing: true
+    name: Electric Pencil Sharpeners
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-6-5:
+    lca_data_missing: true
+    name: Mechanical Sharpeners
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-6-6:
+    lca_data_missing: true
+    name: Standard Sharpeners
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-7:
+    lca_data_missing: true
+    name: Staple Removers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-8:
+    lca_data_missing: true
+    name: Staplers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-8-1:
+    lca_data_missing: true
+    name: Bookbinding Staplers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-8-2:
+    lca_data_missing: true
+    name: Electric Staplers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-8-3:
+    lca_data_missing: true
+    name: Full Strip Staplers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-8-4:
+    lca_data_missing: true
+    name: Half Strip Staplers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-8-5:
+    lca_data_missing: true
+    name: Heavy Duty Staplers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-8-6:
+    lca_data_missing: true
+    name: Long Reach Staplers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-8-7:
+    lca_data_missing: true
+    name: Mini Staplers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-8-8:
+    lca_data_missing: true
+    name: Plier Staplers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-8-9:
+    lca_data_missing: true
+    name: Saddle Staplers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-9:
+    lca_data_missing: true
+    name: Tape Dispensers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-10:
+    lca_data_missing: true
+    name: Writing & Drawing Instrument Accessories
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-10-1:
+    lca_data_missing: true
+    name: Marker & Highlighter Ink Refills
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-10-1-1:
+    lca_data_missing: true
+    name: Highlighter Refills
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-10-1-2:
+    lca_data_missing: true
+    name: Marker Refills
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-10-2:
+    lca_data_missing: true
+    name: Pen Ink & Refills
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-10-3:
+    lca_data_missing: true
+    name: Pencil Lead & Refills
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11:
+    lca_data_missing: true
+    name: Writing & Drawing Instruments
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-1:
+    lca_data_missing: true
+    name: Art Charcoals
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-1-1:
+    lca_data_missing: true
+    name: Charcoal Pencils
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-1-2:
+    lca_data_missing: true
+    name: Compressed Charcoals
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-1-3:
+    lca_data_missing: true
+    name: Conté Charcoals
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-1-4:
+    lca_data_missing: true
+    name: Graphite Charcoals
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-1-5:
+    lca_data_missing: true
+    name: Nitram Charcoals
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-1-6:
+    lca_data_missing: true
+    name: Pastel Charcoals
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-1-7:
+    lca_data_missing: true
+    name: Powdered Charcoals
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-1-8:
+    lca_data_missing: true
+    name: Vine Charcoals
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-1-9:
+    lca_data_missing: true
+    name: Willow Charcoals
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-2:
+    lca_data_missing: true
+    name: Chalk
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-3:
+    lca_data_missing: true
+    name: Crayons
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-3-1:
+    lca_data_missing: true
+    name: Gel Crayons
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-3-2:
+    lca_data_missing: true
+    name: Jumbo Crayons
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-3-3:
+    lca_data_missing: true
+    name: Metallic Crayons
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-3-4:
+    lca_data_missing: true
+    name: Neon Crayons
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-3-5:
+    lca_data_missing: true
+    name: Regular Crayons
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-3-6:
+    lca_data_missing: true
+    name: Scented Crayons
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-3-7:
+    lca_data_missing: true
+    name: Twistable Crayons
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-3-8:
+    lca_data_missing: true
+    name: Watercolor Crayons
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-4:
+    lca_data_missing: true
+    name: Markers & Highlighters
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-4-1:
+    lca_data_missing: true
+    name: Highlighters
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-4-2:
+    lca_data_missing: true
+    name: Markers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-5:
+    lca_data_missing: true
+    name: Multifunction Writing Instruments
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-6:
+    lca_data_missing: true
+    materials:
+      primary_material: charcoal_calcium_carbonate
+    name: Pastels
+    weight:
+      confidence: medium
+      estimate_g: 100
+      max_g: 500
+      min_g: 20
+  os-11-11-6-1:
+    lca_data_missing: true
+    name: Chalk Pastels
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (os-11-11-6)
+      min_g: 20
+  os-11-11-6-2:
+    lca_data_missing: true
+    name: Hard Pastels
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (os-11-11-6)
+      min_g: 20
+  os-11-11-6-3:
+    lca_data_missing: true
+    name: Oil Pastels
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (os-11-11-6)
+      min_g: 20
+  os-11-11-6-4:
+    lca_data_missing: true
+    name: Pan Pastels
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (os-11-11-6)
+      min_g: 20
+  os-11-11-6-5:
+    lca_data_missing: true
+    name: Pastel Pencils
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (os-11-11-6)
+      min_g: 20
+  os-11-11-6-6:
+    lca_data_missing: true
+    name: Soft Pastels
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Inherited from parent category (os-11-11-6)
+      min_g: 20
+  os-11-11-7:
+    lca_data_missing: true
+    name: Pens & Pencils
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-7-1:
+    lca_data_missing: true
+    name: Pen & Pencil Sets
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-7-2:
+    lca:
+      carbon_kg_co2e_per_kg: 3.5
+      carbon_kg_co2e_per_unit: 0.018
+      data_quality: secondary
+      scope: cradle-to-gate
+    materials:
+      primary_material: wood_graphite
+    name: Pencils
+    sources:
+    - FABER-CASTELL Sustainability Report - lifecycle assessments
+    weight:
+      confidence: medium
+      estimate_g: 50
+      max_g: 500
+      min_g: 5
+  os-11-11-7-2-1:
+    lca_data_missing: true
+    name: Art Pencils
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 500
+      methodology: Inherited from parent category (os-11-11-7-2)
+      min_g: 5
+  os-11-11-7-2-2:
+    lca_data_missing: true
+    name: Writing Pencils
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 500
+      methodology: Inherited from parent category (os-11-11-7-2)
+      min_g: 5
+  os-11-11-7-2-2-1:
+    lca_data_missing: true
+    name: Mechanical Pencils
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 500
+      methodology: Inherited from parent category (os-11-11-7-2)
+      min_g: 5
+  os-11-11-7-2-2-2:
+    lca_data_missing: true
+    name: Wooden Pencils
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 500
+      methodology: Inherited from parent category (os-11-11-7-2)
+      min_g: 5
+  os-11-11-7-3:
+    lca_data_missing: true
+    name: Pens
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-7-3-1:
+    lca_data_missing: true
+    name: Ballpoint Pens
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-7-3-2:
+    lca_data_missing: true
+    name: Felt Tips
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-7-3-3:
+    lca_data_missing: true
+    name: Fountain Pens
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-7-3-4:
+    lca_data_missing: true
+    name: Gel Pens
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-11-11-7-3-5:
+    lca_data_missing: true
+    name: Rollerball Pens
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-12:
+    lca_data_missing: true
+    name: Paper Handling
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-12-1:
+    lca_data_missing: true
+    name: Fingertip Grips
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-12-2:
+    lca_data_missing: true
+    name: Hole Punches
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-12-3:
+    lca_data_missing: true
+    name: Paper Folding Machines
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-12-4:
+    lca_data_missing: true
+    name: Paper Joggers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-12-5:
+    lca_data_missing: true
+    name: Paperweights
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-12-6:
+    lca_data_missing: true
+    name: Pencil Boards
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-13:
+    lca_data_missing: true
+    name: Presentation Supplies
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-13-1:
+    lca_data_missing: true
+    name: Chalkboards
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-13-2:
+    lca_data_missing: true
+    name: Display Boards
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-13-2-1:
+    lca_data_missing: true
+    name: Bulletin Board Accessories
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-13-2-1-1:
+    lca_data_missing: true
+    name: Bulletin Board Trim
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-13-2-1-2:
+    lca_data_missing: true
+    name: Bulletin Board Trim Sets
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-13-2-2:
+    lca_data_missing: true
+    name: Bulletin Boards
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-13-2-3:
+    lca_data_missing: true
+    name: Foam Boards
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-13-2-4:
+    lca_data_missing: true
+    name: Mounting Boards
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-13-2-5:
+    lca_data_missing: true
+    name: Poster Boards
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-13-3:
+    lca_data_missing: true
+    name: Document Cameras
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-13-4:
+    lca_data_missing: true
+    name: Dry-Erase Boards
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-13-5:
+    lca_data_missing: true
+    name: Easel Pads
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-13-6:
+    lca_data_missing: true
+    materials:
+      primary_material: wood_metal
+    name: Easels
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 15000
+      min_g: 500
+  os-13-7:
+    lca_data_missing: true
+    name: Laser Pointers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-13-8:
+    lca_data_missing: true
+    name: Lecterns
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-13-9:
+    lca_data_missing: true
+    name: Transparencies
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-13-10:
+    lca_data_missing: true
+    name: Wireless Presenters
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-14:
+    lca_data_missing: true
+    name: Shipping Supplies
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-14-1:
+    lca_data_missing: true
+    name: Moving & Shipping Boxes
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-14-2:
+    lca_data_missing: true
+    name: Packing Materials
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5
+  os-14-3:
+    lca_data_missing: true
+    name: Packing Tape
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 5

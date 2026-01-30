@@ -1,117 +1,25 @@
 schema_version: 0.1.0
-last_updated: '2026-01-29'
+last_updated: '2026-01-30'
 categories:
-  aa-5-4-13:
-    name: Minaudieres
-    weight:
-      estimate_g: 200
-      min_g: 100
-      max_g: 400
-      confidence: medium
-    lca_data_missing: true
-    notes: Hard case evening bags
-  aa-5-4-3:
-    name: Beach Bags
-    weight:
-      estimate_g: 400
-      min_g: 200
-      max_g: 800
-      confidence: medium
-    lca_data_missing: true
-  aa-5-5:
-    name: Wallets & Money Clips
-    weight:
-      estimate_g: 30
-      min_g: 15
-      max_g: 60
-      confidence: high
-    lca_data_missing: true
-    materials:
-      primary_material: metal
-  aa-5-5-3:
-    name: Coin Purses
-    weight:
-      estimate_g: 50
-      min_g: 20
-      max_g: 100
-      confidence: high
-    lca_data_missing: true
-  aa-5-5-6:
-    name: Travel Wallets
-    weight:
-      estimate_g: 100
-      min_g: 50
-      max_g: 200
-      confidence: medium
-    lca_data_missing: true
-  aa-5-5-7:
-    name: Wallets
-    weight:
-      estimate_g: 100
-      min_g: 30
-      max_g: 250
-      confidence: medium
-    lca_data_missing: true
-  el-7-8-2-4:
-    name: Laptop Sleeves
-    weight:
-      estimate_g: 300
-      min_g: 100
-      max_g: 600
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: neoprene
-  ha-6-24-3:
-    name: Tool Bags
-    weight:
-      estimate_g: 1500
-      min_g: 500
-      max_g: 4000
-      confidence: medium
-    lca_data_missing: true
-  hb-3-15-3:
-    name: Travel Pillows
-    weight:
-      estimate_g: 300
-      min_g: 100
-      max_g: 600
-      confidence: medium
-    lca_data_missing: true
-  hg-11-3-7-1:
-    name: Lunch Bags
-    weight:
-      estimate_g: 300
-      min_g: 150
-      max_g: 600
-      confidence: medium
-    lca_data_missing: true
   lb:
+    lca_data_missing: true
     name: Luggage & Bags
     weight:
-      estimate_g: 1000
-      min_g: 200
-      max_g: 5000
       confidence: low
-    lca_data_missing: true
+      estimate_g: 1000
+      max_g: 5000
+      min_g: 200
   lb-1:
+    lca_data_missing: true
     name: Backpacks
     weight:
-      estimate_g: 800
-      min_g: 200
-      max_g: 3000
-      confidence: low
-    lca_data_missing: true
-  lb-1-12:
-    name: School Backpacks
-    weight:
-      estimate_g: 600
-      min_g: 300
-      max_g: 1200
       confidence: medium
+      estimate_g: 700
+      max_g: 1500
+      min_g: 300
+  lb-1-12:
     lca_data_missing: true
     materials:
-      primary_material: polyester
       breakdown:
       - material: polyester
         percentage: 70
@@ -119,20 +27,16 @@ categories:
         percentage: 15
       - material: hardware
         percentage: 15
-  lb-1-15:
-    name: Hiking Backpacks
+      primary_material: polyester
+    name: School Backpacks
     weight:
-      estimate_g: 1800
-      min_g: 500
-      max_g: 3500
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 15.0
-      carbon_kg_co2e_per_unit: 27.0
-      scope: cradle-to-gate
-      data_quality: secondary
+      estimate_g: 600
+      max_g: 1200
+      min_g: 300
+  lb-1-15:
+    lca_data_missing: true
     materials:
-      primary_material: nylon
       breakdown:
       - material: nylon
         percentage: 70
@@ -140,18 +44,16 @@ categories:
         percentage: 20
       - material: hardware
         percentage: 10
-    sources:
-    - Outdoor industry sustainability reports
-  lb-1-16:
-    name: Laptop Backpacks
+      primary_material: nylon
+    name: Hiking Backpacks
     weight:
-      estimate_g: 1000
-      min_g: 600
-      max_g: 1800
       confidence: medium
+      estimate_g: 1800
+      max_g: 3500
+      min_g: 500
+  lb-1-16:
     lca_data_missing: true
     materials:
-      primary_material: nylon
       breakdown:
       - material: nylon
         percentage: 60
@@ -159,33 +61,224 @@ categories:
         percentage: 25
       - material: hardware
         percentage: 15
-  lb-10:
-    name: Messenger Bags
+      primary_material: nylon
+    name: Laptop Backpacks
     weight:
-      estimate_g: 700
-      min_g: 300
-      max_g: 1500
       confidence: medium
+      estimate_g: 1000
+      max_g: 1800
+      min_g: 600
+  lb-1-17:
     lca_data_missing: true
-  lb-12:
-    name: Suitcases
+    name: Military Backpacks
     weight:
-      estimate_g: 4000
-      min_g: 1000
-      max_g: 8000
       confidence: low
+      estimate_g: 700
+      max_g: 1500
+      methodology: Inherited from parent category (lb-1)
+      min_g: 300
+  lb-2:
     lca_data_missing: true
-    notes: LCA data needed - varies significantly by material
-  lb-12-2:
-    name: Carry-On Suitcases
+    name: Briefcases
     weight:
-      estimate_g: 2800
-      min_g: 2000
-      max_g: 4000
-      confidence: high
+      confidence: medium
+      estimate_g: 1500
+      max_g: 3000
+      min_g: 600
+  lb-3:
+    lca_data_missing: true
+    name: Cosmetic & Toiletry Bags
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 5000
+      methodology: Inherited from parent category (lb)
+      min_g: 200
+  lb-3-3:
+    lca_data_missing: true
+    name: Makeup Bags
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 5000
+      methodology: Inherited from parent category (lb)
+      min_g: 200
+  lb-3-4:
+    lca_data_missing: true
+    name: Toiletry Bags
+    weight:
+      confidence: medium
+      estimate_g: 200
+      max_g: 500
+      min_g: 80
+  lb-3-5:
+    lca_data_missing: true
+    name: Travel Organizer Bags
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 5000
+      methodology: Inherited from parent category (lb)
+      min_g: 200
+  lb-4:
+    lca_data_missing: true
+    name: Diaper Bags
+    weight:
+      confidence: medium
+      estimate_g: 800
+      max_g: 1500
+      min_g: 400
+  lb-5:
+    lca_data_missing: true
+    name: Dry Boxes
+    weight:
+      confidence: medium
+      estimate_g: 400
+      max_g: 800
+      min_g: 150
+  lb-6:
+    lca_data_missing: true
+    name: Duffel Bags
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 3000
+      min_g: 300
+  lb-6-1:
     lca_data_missing: true
     materials:
-      primary_material: mixed
+      primary_material: polyester
+    name: Gym Duffel Bags
+    weight:
+      confidence: medium
+      estimate_g: 600
+      max_g: 1200
+      min_g: 300
+  lb-7:
+    lca_data_missing: true
+    name: Fanny Packs
+    weight:
+      confidence: medium
+      estimate_g: 200
+      max_g: 400
+      min_g: 100
+  lb-8:
+    lca_data_missing: true
+    materials:
+      primary_material: nylon
+    name: Garment Bags
+    weight:
+      confidence: medium
+      estimate_g: 1500
+      max_g: 3000
+      min_g: 800
+  lb-9:
+    lca_data_missing: true
+    name: Luggage Accessories
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      min_g: 20
+  lb-9-1:
+    lca_data_missing: true
+    name: Dry Box Liners & Inserts
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (lb-9)
+      min_g: 20
+  lb-9-2:
+    lca_data_missing: true
+    name: Luggage Covers
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (lb-9)
+      min_g: 20
+  lb-9-3:
+    lca_data_missing: true
+    name: Luggage Racks & Stands
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (lb-9)
+      min_g: 20
+  lb-9-4:
+    lca_data_missing: true
+    name: Luggage Straps
+    weight:
+      confidence: high
+      estimate_g: 100
+      max_g: 200
+      min_g: 50
+  lb-9-5:
+    lca_data_missing: true
+    name: Luggage Tags
+    weight:
+      confidence: high
+      estimate_g: 30
+      max_g: 80
+      min_g: 10
+  lb-9-6:
+    lca_data_missing: true
+    name: Packing Organizers
+    weight:
+      confidence: medium
+      estimate_g: 150
+      max_g: 400
+      methodology: Per set
+      min_g: 50
+  lb-9-7:
+    lca_data_missing: true
+    name: Travel Bottles & Containers
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (lb-9)
+      min_g: 20
+  lb-9-8:
+    lca_data_missing: true
+    name: Travel Pouches
+    weight:
+      confidence: low
+      estimate_g: 200
+      max_g: 1000
+      methodology: Inherited from parent category (lb-9)
+      min_g: 20
+  lb-10:
+    lca_data_missing: true
+    name: Messenger Bags
+    weight:
+      confidence: medium
+      estimate_g: 600
+      max_g: 1000
+      min_g: 350
+  lb-11:
+    lca_data_missing: true
+    name: Shopping Totes
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 5000
+      methodology: Inherited from parent category (lb)
+      min_g: 200
+  lb-12:
+    lca_data_missing: true
+    name: Suitcases
+    notes: LCA data needed - varies significantly by material
+    weight:
+      confidence: low
+      estimate_g: 4000
+      max_g: 8000
+      min_g: 1000
+  lb-12-2:
+    lca_data_missing: true
+    materials:
       breakdown:
       - material: polycarbonate_abs
         percentage: 50
@@ -195,16 +288,16 @@ categories:
         percentage: 15
       - material: wheels_hardware
         percentage: 10
-  lb-12-3:
-    name: Checked Suitcases
+      primary_material: mixed
+    name: Carry-On Suitcases
     weight:
-      estimate_g: 4500
-      min_g: 3000
-      max_g: 6500
-      confidence: medium
+      confidence: high
+      estimate_g: 2800
+      max_g: 4000
+      min_g: 2000
+  lb-12-3:
     lca_data_missing: true
     materials:
-      primary_material: mixed
       breakdown:
       - material: polycarbonate_abs
         percentage: 50
@@ -214,145 +307,54 @@ categories:
         percentage: 15
       - material: wheels_hardware
         percentage: 10
-  lb-13:
-    name: Tote Bags
+      primary_material: mixed
+    name: Checked Suitcases
     weight:
-      estimate_g: 300
-      min_g: 150
-      max_g: 600
       confidence: medium
-    lca:
-      carbon_kg_co2e_per_kg: 8.0
-      carbon_kg_co2e_per_unit: 2.4
-      scope: cradle-to-gate
-      data_quality: secondary
-    materials:
-      primary_material: cotton_canvas
-    sources:
-    - Cotton Inc. LCA Studies
-    notes: Organic cotton has lower footprint
+      estimate_g: 4500
+      max_g: 6500
+      min_g: 3000
+  lb-12-5:
+    lca_data_missing: true
+    name: Kids' Suitcases
+    weight:
+      confidence: low
+      estimate_g: 4000
+      max_g: 8000
+      methodology: Inherited from parent category (lb-12)
+      min_g: 1000
+  lb-12-9:
+    lca_data_missing: true
+    name: Suitcase Travel Sets
+    weight:
+      confidence: low
+      estimate_g: 4000
+      max_g: 8000
+      methodology: Inherited from parent category (lb-12)
+      min_g: 1000
+  lb-13:
+    lca_data_missing: true
+    name: Tote Bags
+    notes: Canvas totes lower footprint than leather
+    weight:
+      confidence: medium
+      estimate_g: 400
+      max_g: 800
+      min_g: 150
+  lb-14:
+    lca_data_missing: true
+    name: Train Cases
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 5000
+      methodology: Inherited from parent category (lb)
+      min_g: 200
   lb-15:
+    lca_data_missing: true
     name: Laptop Bags
     weight:
+      confidence: medium
       estimate_g: 500
+      max_g: 1000
       min_g: 250
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-  lb-2:
-    name: Briefcases
-    weight:
-      estimate_g: 1500
-      min_g: 600
-      max_g: 3000
-      confidence: medium
-    lca_data_missing: true
-  lb-3-4:
-    name: Toiletry Bags
-    weight:
-      estimate_g: 200
-      min_g: 80
-      max_g: 500
-      confidence: medium
-    lca_data_missing: true
-  lb-5:
-    name: Dry Boxes
-    weight:
-      estimate_g: 400
-      min_g: 150
-      max_g: 800
-      confidence: medium
-    lca_data_missing: true
-  lb-6:
-    name: Duffel Bags
-    weight:
-      estimate_g: 1000
-      min_g: 300
-      max_g: 3000
-      confidence: low
-    lca_data_missing: true
-  lb-6-1:
-    name: Gym Duffel Bags
-    weight:
-      estimate_g: 600
-      min_g: 300
-      max_g: 1200
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: polyester
-  lb-7:
-    name: Fanny Packs
-    weight:
-      estimate_g: 200
-      min_g: 80
-      max_g: 500
-      confidence: medium
-    lca_data_missing: true
-  lb-8:
-    name: Garment Bags
-    weight:
-      estimate_g: 1500
-      min_g: 800
-      max_g: 3000
-      confidence: medium
-    lca_data_missing: true
-    materials:
-      primary_material: nylon
-  lb-9:
-    name: Luggage Accessories
-    weight:
-      estimate_g: 200
-      min_g: 20
-      max_g: 1000
-      confidence: low
-    lca_data_missing: true
-  lb-9-4:
-    name: Luggage Straps
-    weight:
-      estimate_g: 100
-      min_g: 50
-      max_g: 200
-      confidence: high
-    lca_data_missing: true
-  lb-9-5:
-    name: Luggage Tags
-    weight:
-      estimate_g: 30
-      min_g: 10
-      max_g: 80
-      confidence: high
-    lca_data_missing: true
-  lb-9-6:
-    name: Packing Organizers
-    weight:
-      estimate_g: 150
-      min_g: 50
-      max_g: 400
-      confidence: medium
-      methodology: Per set
-    lca_data_missing: true
-  sg-4-10-5:
-    name: Hydration Packs
-    weight:
-      estimate_g: 600
-      min_g: 300
-      max_g: 1200
-      confidence: medium
-    lca_data_missing: true
-  sg-4-17-2-1:
-    name: Ski & Snowboard Bags
-    weight:
-      estimate_g: 600
-      min_g: 300
-      max_g: 1200
-      confidence: medium
-    lca_data_missing: true
-  vp-1-4-19-2:
-    name: Clutches
-    weight:
-      estimate_g: 300
-      min_g: 100
-      max_g: 600
-      confidence: medium
-    lca_data_missing: true

@@ -1,241 +1,107 @@
 schema_version: 0.1.0
-last_updated: '2026-01-29'
+last_updated: '2026-01-30'
 categories:
-  aa-2-14:
-    name: Hair Accessories
-    weight:
-      estimate_g: 15
-      min_g: 5
-      max_g: 40
-      confidence: high
+  bt:
     lca_data_missing: true
-  aa-2-2:
-    name: Baby & Toddler Clothing Accessories
+    name: Baby & Toddler
     weight:
-      estimate_g: 50
-      min_g: 10
-      max_g: 200
-      confidence: medium
-    lca_data_missing: true
-  aa-2-2-2:
-    name: Baby & Toddler Gloves & Mittens
-    weight:
-      estimate_g: 20
-      min_g: 10
-      max_g: 40
-      confidence: high
-      methodology: Per pair
-    lca_data_missing: true
-  aa-2-2-3:
-    name: Baby & Toddler Hats
-    weight:
-      estimate_g: 30
-      min_g: 15
-      max_g: 80
-      confidence: high
-    lca_data_missing: true
-  ae-2-2-10-1-16:
-    name: Wall Decals
-    weight:
-      estimate_g: 100
-      min_g: 30
-      max_g: 300
-      confidence: medium
-    lca_data_missing: true
-  ap-2-18-6:
-    name: Playpens
-    weight:
-      estimate_g: 10000
-      min_g: 5000
-      max_g: 18000
-      confidence: medium
-    lca_data_missing: true
+      confidence: low
+      estimate_g: 1000
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 20
   bt-1:
+    lca_data_missing: true
     name: Baby Bathing
     weight:
-      estimate_g: 1000
-      min_g: 100
-      max_g: 5000
       confidence: low
-    lca_data_missing: true
+      estimate_g: 1000
+      max_g: 5000
+      min_g: 100
   bt-1-1:
+    lca_data_missing: true
+    materials:
+      primary_material: plastic
     name: Baby Bathtubs & Bath Seats
     weight:
-      estimate_g: 2000
-      min_g: 800
-      max_g: 4000
       confidence: medium
-    materials:
-      primary_material: plastic
+      estimate_g: 2000
+      max_g: 4000
+      min_g: 800
+  bt-1-1-1:
     lca_data_missing: true
+    name: Bath Rings
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 4000
+      methodology: Inherited from parent category (bt-1-1)
+      min_g: 800
   bt-1-1-2:
+    lca_data_missing: true
     name: Bath Seats
     weight:
+      confidence: medium
       estimate_g: 1000
-      min_g: 500
       max_g: 2000
-      confidence: medium
-    lca_data_missing: true
-  bt-10:
-    name: Nursing & Feeding
-    weight:
-      estimate_g: 300
-      min_g: 20
-      max_g: 15000
-      confidence: low
-    lca_data_missing: true
-  bt-10-1-3:
-    name: Baby Food
-    weight:
-      estimate_g: 2000
-      min_g: 1000
-      max_g: 4000
-      confidence: medium
-    lca_data_missing: true
-  bt-10-1-4:
-    name: Baby Formula
-    weight:
-      estimate_g: 150
-      min_g: 50
-      max_g: 300
-      confidence: medium
-    lca_data_missing: true
-  bt-10-11:
-    name: Nursing Covers
-    weight:
-      estimate_g: 200
-      min_g: 100
-      max_g: 400
-      confidence: medium
-    lca_data_missing: true
-  bt-10-12:
-    name: Nursing Pads & Shields
-    weight:
-      estimate_g: 150
-      min_g: 50
-      max_g: 300
-      confidence: medium
-      methodology: Per box
-    lca_data_missing: true
-  bt-10-14:
-    name: Nursing Pillows
-    weight:
-      estimate_g: 1500
-      min_g: 800
-      max_g: 2500
-      confidence: medium
-    lca_data_missing: true
-  bt-10-16-1:
-    name: Feeding Bowls
-    weight:
-      estimate_g: 200
-      min_g: 80
-      max_g: 400
-      confidence: medium
-    lca_data_missing: true
-  bt-10-16-3:
-    name: Feeding Plates
-    weight:
-      estimate_g: 150
-      min_g: 60
-      max_g: 300
-      confidence: medium
-    lca_data_missing: true
-  bt-10-16-6:
-    name: Baby Bottles
-    weight:
-      estimate_g: 150
-      min_g: 80
-      max_g: 300
-      confidence: high
-    materials:
-      primary_material: plastic
-      breakdown:
-      - material: polypropylene
-        percentage: 70
-      - material: silicone_nipple
-        percentage: 20
-      - material: other
-        percentage: 10
-    notes: Glass bottles heavier but lower footprint per use
-    lca_data_missing: true
-  bt-10-16-7:
-    name: Bibs
-    weight:
-      estimate_g: 50
-      min_g: 20
-      max_g: 150
-      confidence: high
-    lca_data_missing: true
-  bt-10-16-8:
-    name: Sippy Cups
-    weight:
-      estimate_g: 100
-      min_g: 60
-      max_g: 200
-      confidence: high
-    lca_data_missing: true
-  bt-10-6-1:
-    name: Bottle Warmers
-    weight:
-      estimate_g: 800
-      min_g: 400
-      max_g: 1500
-      confidence: medium
-    lca_data_missing: true
-  bt-10-7:
-    name: Breast Milk Storage Containers
-    weight:
-      estimate_g: 200
-      min_g: 100
-      max_g: 400
-      confidence: medium
-      methodology: Per box (~50 bags)
-    lca_data_missing: true
-  bt-10-9:
-    name: Breast Pumps
-    weight:
-      estimate_g: 1500
       min_g: 500
-      max_g: 3000
-      confidence: medium
+  bt-1-1-3:
     lca_data_missing: true
-  bt-12:
-    name: Swaddling & Receiving Blankets
+    name: Bath Supports
     weight:
-      estimate_g: 500
-      min_g: 50
-      max_g: 3000
       confidence: low
+      estimate_g: 2000
+      max_g: 4000
+      methodology: Inherited from parent category (bt-1-1)
+      min_g: 800
+  bt-1-1-4:
     lca_data_missing: true
-  bt-12-2:
-    name: Swaddling Blankets
+    name: Bathtubs
     weight:
-      estimate_g: 200
-      min_g: 100
-      max_g: 400
-      confidence: medium
-    materials:
-      primary_material: cotton
+      confidence: low
+      estimate_g: 2000
+      max_g: 4000
+      methodology: Inherited from parent category (bt-1-1)
+      min_g: 800
+  bt-1-1-5:
     lca_data_missing: true
+    name: Tummy Tubs
+    weight:
+      confidence: low
+      estimate_g: 2000
+      max_g: 4000
+      methodology: Inherited from parent category (bt-1-1)
+      min_g: 800
+  bt-1-2:
+    lca_data_missing: true
+    name: Shower Visors
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 5000
+      methodology: Inherited from parent category (bt-1)
+      min_g: 100
+  bt-1-2-1:
+    lca_data_missing: true
+    name: Hair Rinse Cups
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 5000
+      methodology: Inherited from parent category (bt-1)
+      min_g: 100
   bt-2:
+    lca_data_missing: true
     name: Baby Gift Sets
     weight:
-      estimate_g: 20
-      min_g: 10
-      max_g: 40
       confidence: high
+      estimate_g: 20
+      max_g: 40
       methodology: Per pair
-    lca_data_missing: true
+      min_g: 10
   bt-3:
-    name: Baby Health
-    weight:
-      estimate_g: 5000
-      min_g: 3000
-      max_g: 8000
-      confidence: medium
+    lca_data_missing: true
     materials:
-      primary_material: foam
       breakdown:
       - material: foam
         percentage: 70
@@ -243,58 +109,139 @@ categories:
         percentage: 25
       - material: other
         percentage: 5
+      primary_material: foam
+    name: Baby Health
+    weight:
+      confidence: medium
+      estimate_g: 5000
+      max_g: 8000
+      min_g: 3000
+  bt-3-1:
     lca_data_missing: true
+    name: Baby Health & Grooming Kits
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 8000
+      methodology: Inherited from parent category (bt-3)
+      min_g: 3000
   bt-3-2:
+    lca_data_missing: true
     name: Nasal Aspirators
     weight:
-      estimate_g: 50
-      min_g: 20
-      max_g: 150
       confidence: medium
-    lca_data_missing: true
+      estimate_g: 50
+      max_g: 150
+      min_g: 20
   bt-3-3:
+    lca_data_missing: true
     name: Pacifier Clips & Holders
     weight:
+      confidence: high
       estimate_g: 30
-      min_g: 15
       max_g: 60
-      confidence: high
+      min_g: 15
+  bt-3-4:
     lca_data_missing: true
-  bt-3-5-1:
-    name: Pacifiers
+    name: Pacifier Wipes
     weight:
-      estimate_g: 20
-      min_g: 10
-      max_g: 40
-      confidence: high
+      confidence: low
+      estimate_g: 5000
+      max_g: 8000
+      methodology: Inherited from parent category (bt-3)
+      min_g: 3000
+  bt-3-5:
+    lca_data_missing: true
+    name: Pacifiers & Teethers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 8000
+      methodology: Inherited from parent category (bt-3)
+      min_g: 3000
+  bt-3-5-1:
+    lca_data_missing: true
     materials:
       primary_material: silicone
-    lca_data_missing: true
+    name: Pacifiers
+    weight:
+      confidence: high
+      estimate_g: 20
+      max_g: 40
+      min_g: 10
   bt-3-5-2:
+    lca_data_missing: true
     name: Teethers
     weight:
-      estimate_g: 50
-      min_g: 20
-      max_g: 200
       confidence: medium
-    lca_data_missing: true
+      estimate_g: 50
+      max_g: 200
+      min_g: 20
   bt-4:
+    lca_data_missing: true
     name: Baby Safety
     weight:
-      estimate_g: 300
-      min_g: 50
-      max_g: 2000
       confidence: low
+      estimate_g: 300
+      max_g: 2000
+      min_g: 50
+  bt-4-1:
     lca_data_missing: true
-  bt-4-2:
-    name: Baby & Pet Gates
+    name: Baby & Pet Gate Accessories
     weight:
-      estimate_g: 4000
-      min_g: 2000
-      max_g: 8000
-      confidence: medium
+      confidence: low
+      estimate_g: 300
+      max_g: 2000
+      methodology: Inherited from parent category (bt-4)
+      min_g: 50
+  bt-4-1-1:
+    lca_data_missing: true
+    name: Door Stoppers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 2000
+      methodology: Inherited from parent category (bt-4)
+      min_g: 50
+  bt-4-1-2:
+    lca_data_missing: true
+    name: Extension Kits
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 2000
+      methodology: Inherited from parent category (bt-4)
+      min_g: 50
+  bt-4-1-3:
+    lca_data_missing: true
+    name: Locking Mechanisms
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 2000
+      methodology: Inherited from parent category (bt-4)
+      min_g: 50
+  bt-4-1-4:
+    lca_data_missing: true
+    name: Mounting Kits
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 2000
+      methodology: Inherited from parent category (bt-4)
+      min_g: 50
+  bt-4-1-5:
+    lca_data_missing: true
+    name: Wall Cups
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 2000
+      methodology: Inherited from parent category (bt-4)
+      min_g: 50
+  bt-4-2:
+    lca_data_missing: true
     materials:
-      primary_material: metal
       breakdown:
       - material: steel
         percentage: 70
@@ -302,153 +249,579 @@ categories:
         percentage: 25
       - material: other
         percentage: 5
-    lca_data_missing: true
-  bt-4-3:
-    name: Baby Monitors
+      primary_material: metal
+    name: Baby & Pet Gates
     weight:
-      estimate_g: 400
-      min_g: 150
-      max_g: 800
       confidence: medium
-    notes: Video monitors have higher footprint than audio-only
+      estimate_g: 4000
+      max_g: 8000
+      min_g: 2000
+  bt-4-2-1:
     lca_data_missing: true
+    name: Retractable Gates
+    weight:
+      confidence: low
+      estimate_g: 4000
+      max_g: 8000
+      methodology: Inherited from parent category (bt-4-2)
+      min_g: 2000
+  bt-4-2-2:
+    lca_data_missing: true
+    name: Swing Gates
+    weight:
+      confidence: low
+      estimate_g: 4000
+      max_g: 8000
+      methodology: Inherited from parent category (bt-4-2)
+      min_g: 2000
+  bt-4-2-3:
+    lca_data_missing: true
+    name: Walk Through Gates
+    weight:
+      confidence: low
+      estimate_g: 4000
+      max_g: 8000
+      methodology: Inherited from parent category (bt-4-2)
+      min_g: 2000
+  bt-4-3:
+    lca_data_missing: true
+    name: Baby Monitors
+    notes: Video monitors have higher footprint than audio-only
+    weight:
+      confidence: medium
+      estimate_g: 400
+      max_g: 800
+      min_g: 150
+  bt-4-3-1:
+    lca_data_missing: true
+    name: Audio & Video Baby Monitors
+    weight:
+      confidence: low
+      estimate_g: 400
+      max_g: 800
+      methodology: Inherited from parent category (bt-4-3)
+      min_g: 150
+  bt-4-3-2:
+    lca_data_missing: true
+    name: Audio Baby Monitors
+    weight:
+      confidence: low
+      estimate_g: 400
+      max_g: 800
+      methodology: Inherited from parent category (bt-4-3)
+      min_g: 150
+  bt-4-3-3:
+    lca_data_missing: true
+    name: Video Baby Monitors
+    weight:
+      confidence: low
+      estimate_g: 400
+      max_g: 800
+      methodology: Inherited from parent category (bt-4-3)
+      min_g: 150
+  bt-4-4:
+    lca_data_missing: true
+    name: Baby Safety Harnesses & Leashes
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 2000
+      methodology: Inherited from parent category (bt-4)
+      min_g: 50
+  bt-4-4-1:
+    lca_data_missing: true
+    name: Harnesses
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 2000
+      methodology: Inherited from parent category (bt-4)
+      min_g: 50
+  bt-4-4-2:
+    lca_data_missing: true
+    name: Leashes
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 2000
+      methodology: Inherited from parent category (bt-4)
+      min_g: 50
+  bt-4-4-3:
+    lca_data_missing: true
+    name: Wristbands
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 2000
+      methodology: Inherited from parent category (bt-4)
+      min_g: 50
   bt-4-5:
+    lca_data_missing: true
     name: Baby Safety Locks & Guards
     weight:
-      estimate_g: 30
-      min_g: 15
-      max_g: 60
       confidence: high
-    lca_data_missing: true
+      estimate_g: 30
+      max_g: 60
+      min_g: 15
   bt-4-5-1:
+    lca_data_missing: true
     name: Cabinet Locks
     weight:
+      confidence: high
       estimate_g: 50
-      min_g: 20
       max_g: 100
-      confidence: high
-    lca_data_missing: true
+      min_g: 20
   bt-4-5-2:
-    name: Corner Guards
-    weight:
-      estimate_g: 30
-      min_g: 10
-      max_g: 80
-      confidence: high
+    lca_data_missing: true
     materials:
       primary_material: foam
+    name: Corner Guards
+    weight:
+      confidence: high
+      estimate_g: 30
+      max_g: 80
+      min_g: 10
+  bt-4-5-3:
     lca_data_missing: true
+    name: Door Locks
+    weight:
+      confidence: medium
+      estimate_g: 800
+      max_g: 1500
+      min_g: 400
+  bt-4-5-4:
+    lca_data_missing: true
+    name: Drawer Locks
+    weight:
+      confidence: low
+      estimate_g: 30
+      max_g: 60
+      methodology: Inherited from parent category (bt-4-5)
+      min_g: 15
   bt-4-5-5:
+    lca_data_missing: true
     name: Outlet Covers
     weight:
-      estimate_g: 20
-      min_g: 10
-      max_g: 50
       confidence: high
+      estimate_g: 20
+      max_g: 50
+      min_g: 10
+  bt-4-6:
     lca_data_missing: true
+    name: Baby Safety Rails
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 2000
+      methodology: Inherited from parent category (bt-4)
+      min_g: 50
+  bt-4-6-1:
+    lca_data_missing: true
+    name: Bed Safety Rails
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 2000
+      methodology: Inherited from parent category (bt-4)
+      min_g: 50
+  bt-4-6-2:
+    lca_data_missing: true
+    name: Stair Safety Rails
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 2000
+      methodology: Inherited from parent category (bt-4)
+      min_g: 50
   bt-5:
+    lca_data_missing: true
     name: Baby Toys & Activity Equipment
     weight:
-      estimate_g: 3000
-      min_g: 200
-      max_g: 15000
       confidence: low
+      estimate_g: 3000
+      max_g: 15000
+      min_g: 200
+  bt-5-1:
     lca_data_missing: true
+    name: Alphabet Toys
+    weight:
+      confidence: medium
+      estimate_g: 400
+      max_g: 1000
+      min_g: 100
+  bt-5-1-1:
+    lca_data_missing: true
+    name: Alphabet Blocks
+    weight:
+      confidence: low
+      estimate_g: 400
+      max_g: 1000
+      methodology: Inherited from parent category (bt-5-1)
+      min_g: 100
+  bt-5-1-2:
+    lca_data_missing: true
+    name: Alphabet Books
+    weight:
+      confidence: low
+      estimate_g: 400
+      max_g: 1000
+      methodology: Inherited from parent category (bt-5-1)
+      min_g: 100
+  bt-5-1-3:
+    lca_data_missing: true
+    name: Alphabet Cards
+    weight:
+      confidence: low
+      estimate_g: 400
+      max_g: 1000
+      methodology: Inherited from parent category (bt-5-1)
+      min_g: 100
+  bt-5-1-4:
+    lca_data_missing: true
+    name: Alphabet Electric Toys
+    weight:
+      confidence: low
+      estimate_g: 400
+      max_g: 1000
+      methodology: Inherited from parent category (bt-5-1)
+      min_g: 100
+  bt-5-1-5:
+    lca_data_missing: true
+    name: Alphabet Puzzles
+    weight:
+      confidence: low
+      estimate_g: 400
+      max_g: 1000
+      methodology: Inherited from parent category (bt-5-1)
+      min_g: 100
+  bt-5-2:
+    lca_data_missing: true
+    name: Baby Activity Toys
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 15000
+      methodology: Inherited from parent category (bt-5)
+      min_g: 200
   bt-5-2-1:
+    lca_data_missing: true
     name: Activity Centers
     weight:
-      estimate_g: 6000
-      min_g: 3000
-      max_g: 12000
       confidence: medium
+      estimate_g: 6000
+      max_g: 12000
+      min_g: 3000
+  bt-5-2-2:
     lca_data_missing: true
+    name: Musical Toys
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 15000
+      methodology: Inherited from parent category (bt-5)
+      min_g: 200
+  bt-5-2-3:
+    lca_data_missing: true
+    materials:
+      primary_material: plastic
+    name: Rattles
+    weight:
+      confidence: high
+      estimate_g: 80
+      max_g: 150
+      min_g: 30
+  bt-5-2-4:
+    lca_data_missing: true
+    name: Teething Toys
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 15000
+      methodology: Inherited from parent category (bt-5)
+      min_g: 200
   bt-5-3:
+    lca_data_missing: true
     name: Baby Bouncers & Rockers
     weight:
-      estimate_g: 3000
-      min_g: 1500
-      max_g: 6000
       confidence: medium
+      estimate_g: 3000
+      max_g: 6000
+      min_g: 1500
+  bt-5-3-1:
     lca_data_missing: true
+    name: Baby Bouncers
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 6000
+      methodology: Inherited from parent category (bt-5-3)
+      min_g: 1500
   bt-5-3-2:
+    lca_data_missing: true
     name: Baby Rockers
     weight:
-      estimate_g: 30000
-      min_g: 15000
-      max_g: 50000
       confidence: medium
-    lca_data_missing: true
+      estimate_g: 30000
+      max_g: 50000
+      min_g: 15000
   bt-5-4:
+    lca_data_missing: true
     name: Baby Jumpers & Swings
     weight:
-      estimate_g: 5000
-      min_g: 2500
-      max_g: 10000
       confidence: medium
+      estimate_g: 5000
+      max_g: 10000
+      min_g: 2500
+  bt-5-4-1:
     lca_data_missing: true
+    name: Baby Jumpers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 10000
+      methodology: Inherited from parent category (bt-5-4)
+      min_g: 2500
+  bt-5-4-2:
+    lca_data_missing: true
+    name: Baby Swings
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 10000
+      methodology: Inherited from parent category (bt-5-4)
+      min_g: 2500
+  bt-5-5:
+    lca_data_missing: true
+    name: Baby Mobile Accessories
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 15000
+      methodology: Inherited from parent category (bt-5)
+      min_g: 200
+  bt-5-5-1:
+    lca_data_missing: true
+    name: Mobile Arms
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 15000
+      methodology: Inherited from parent category (bt-5)
+      min_g: 200
+  bt-5-5-2:
+    lca_data_missing: true
+    name: Mobile Attachments
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 15000
+      methodology: Inherited from parent category (bt-5)
+      min_g: 200
+  bt-5-5-3:
+    lca_data_missing: true
+    name: Mobile Holders
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 15000
+      methodology: Inherited from parent category (bt-5)
+      min_g: 200
+  bt-5-6:
+    lca_data_missing: true
+    name: Baby Mobiles
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 15000
+      methodology: Inherited from parent category (bt-5)
+      min_g: 200
+  bt-5-6-1:
+    lca_data_missing: true
+    name: Ceiling Mobiles
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 15000
+      methodology: Inherited from parent category (bt-5)
+      min_g: 200
+  bt-5-6-2:
+    lca_data_missing: true
+    name: Crib Mobiles
+    weight:
+      confidence: medium
+      estimate_g: 500
+      max_g: 1000
+      min_g: 200
+  bt-5-6-3:
+    lca_data_missing: true
+    name: Stroller Mobiles
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 15000
+      methodology: Inherited from parent category (bt-5)
+      min_g: 200
+  bt-5-7:
+    lca_data_missing: true
+    name: Baby Soothers
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 15000
+      methodology: Inherited from parent category (bt-5)
+      min_g: 200
   bt-5-7-1:
+    lca_data_missing: true
     name: Night Lights
     weight:
-      estimate_g: 150
-      min_g: 50
-      max_g: 400
       confidence: medium
+      estimate_g: 150
+      max_g: 400
+      min_g: 50
+  bt-5-7-2:
     lca_data_missing: true
+    name: Plush Toys
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 15000
+      methodology: Inherited from parent category (bt-5)
+      min_g: 200
+  bt-5-7-3:
+    lca_data_missing: true
+    name: Sound Machines
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 15000
+      methodology: Inherited from parent category (bt-5)
+      min_g: 200
+  bt-5-8:
+    lca_data_missing: true
+    name: Baby Walkers & Entertainers
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 15000
+      methodology: Inherited from parent category (bt-5)
+      min_g: 200
+  bt-5-8-1:
+    lca_data_missing: true
+    name: Baby Walkers
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 15000
+      methodology: Inherited from parent category (bt-5)
+      min_g: 200
+  bt-5-8-2:
+    lca_data_missing: true
+    name: Jumperoos
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 15000
+      methodology: Inherited from parent category (bt-5)
+      min_g: 200
+  bt-5-9:
+    lca_data_missing: true
+    name: Play Mats & Gyms
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 15000
+      methodology: Inherited from parent category (bt-5)
+      min_g: 200
+  bt-5-9-1:
+    lca_data_missing: true
+    name: Play Gyms
+    weight:
+      confidence: medium
+      estimate_g: 2000
+      max_g: 4000
+      min_g: 800
   bt-5-9-2:
+    lca_data_missing: true
     name: Play Mats
     weight:
-      estimate_g: 2000
-      min_g: 500
-      max_g: 5000
       confidence: medium
+      estimate_g: 2000
+      max_g: 5000
+      min_g: 500
+  bt-5-10:
     lca_data_missing: true
+    name: Play Yards
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 15000
+      methodology: Inherited from parent category (bt-5)
+      min_g: 200
+  bt-5-11:
+    lca_data_missing: true
+    name: Push & Pull Toys
+    weight:
+      confidence: medium
+      estimate_g: 600
+      max_g: 1500
+      min_g: 200
+  bt-5-12:
+    lca_data_missing: true
+    name: Sorting & Stacking Toys
+    weight:
+      confidence: medium
+      estimate_g: 400
+      max_g: 800
+      min_g: 150
   bt-6:
+    lca_data_missing: true
     name: Baby Transport
     weight:
-      estimate_g: 8000
-      min_g: 500
-      max_g: 20000
       confidence: low
-    lca_data_missing: true
-  bt-6-1:
-    name: Baby & Toddler Car Seats
-    weight:
       estimate_g: 8000
-      min_g: 3000
-      max_g: 15000
-      confidence: medium
-    notes: Safety requirements drive material choices
+      max_g: 20000
+      min_g: 500
+  bt-6-1:
     lca_data_missing: true
+    name: Baby & Toddler Car Seats
+    notes: Safety requirements drive material choices
+    weight:
+      confidence: medium
+      estimate_g: 8000
+      max_g: 15000
+      min_g: 3000
   bt-6-1-1:
+    lca_data_missing: true
     name: Booster Seats
     weight:
-      estimate_g: 4000
-      min_g: 2000
-      max_g: 8000
       confidence: medium
+      estimate_g: 4000
+      max_g: 8000
+      min_g: 2000
+  bt-6-1-2:
     lca_data_missing: true
+    name: Car Seat Strollers
+    weight:
+      confidence: low
+      estimate_g: 8000
+      max_g: 15000
+      methodology: Inherited from parent category (bt-6-1)
+      min_g: 3000
   bt-6-1-3:
+    lca_data_missing: true
     name: Convertible Car Seats
     weight:
-      estimate_g: 10000
-      min_g: 7000
-      max_g: 14000
       confidence: medium
-    lca_data_missing: true
+      estimate_g: 10000
+      max_g: 14000
+      min_g: 7000
   bt-6-1-4:
-    name: Infant Car Seats
-    weight:
-      estimate_g: 4500
-      min_g: 3000
-      max_g: 6000
-      confidence: high
     lca:
       carbon_kg_co2e_per_kg: 8.0
       carbon_kg_co2e_per_unit: 36.0
-      scope: cradle-to-gate
       data_quality: secondary
+      scope: cradle-to-gate
     materials:
-      primary_material: plastic
       breakdown:
       - material: plastic_shell
         percentage: 50
@@ -458,17 +831,18 @@ categories:
         percentage: 15
       - material: harness
         percentage: 10
+      primary_material: plastic
+    name: Infant Car Seats
     sources:
     - Child safety seat LCA studies
-  bt-6-2:
-    name: Baby Carriers
     weight:
-      estimate_g: 800
-      min_g: 400
-      max_g: 1500
-      confidence: medium
+      confidence: high
+      estimate_g: 4500
+      max_g: 6000
+      min_g: 3000
+  bt-6-2:
+    lca_data_missing: true
     materials:
-      primary_material: fabric
       breakdown:
       - material: cotton
         percentage: 50
@@ -478,21 +852,65 @@ categories:
         percentage: 15
       - material: foam_padding
         percentage: 5
-    lca_data_missing: true
-  bt-6-3:
-    name: Baby Strollers
+      primary_material: fabric
+    name: Baby Carriers
     weight:
-      estimate_g: 10000
-      min_g: 5000
-      max_g: 18000
       confidence: medium
+      estimate_g: 800
+      max_g: 1500
+      min_g: 400
+  bt-6-2-1:
+    lca_data_missing: true
+    name: Backpack Carriers
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 1500
+      methodology: Inherited from parent category (bt-6-2)
+      min_g: 400
+  bt-6-2-2:
+    lca_data_missing: true
+    name: Mei Tai Carriers
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 1500
+      methodology: Inherited from parent category (bt-6-2)
+      min_g: 400
+  bt-6-2-3:
+    lca_data_missing: true
+    name: Ring Slings & Hip Carriers
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 1500
+      methodology: Inherited from parent category (bt-6-2)
+      min_g: 400
+  bt-6-2-4:
+    lca_data_missing: true
+    name: Soft-Structured Carriers
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 1500
+      methodology: Inherited from parent category (bt-6-2)
+      min_g: 400
+  bt-6-2-5:
+    lca_data_missing: true
+    name: Wrap Carriers
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 1500
+      methodology: Inherited from parent category (bt-6-2)
+      min_g: 400
+  bt-6-3:
     lca:
       carbon_kg_co2e_per_kg: 6.0
       carbon_kg_co2e_per_unit: 60.0
-      scope: cradle-to-gate
       data_quality: secondary
+      scope: cradle-to-gate
     materials:
-      primary_material: mixed
       breakdown:
       - material: aluminum_frame
         percentage: 40
@@ -502,109 +920,736 @@ categories:
         percentage: 20
       - material: rubber_wheels
         percentage: 10
+      primary_material: mixed
+    name: Baby Strollers
     sources:
     - Baby product industry sustainability data
+    weight:
+      confidence: medium
+      estimate_g: 10000
+      max_g: 18000
+      min_g: 5000
+  bt-6-3-1:
+    lca_data_missing: true
+    name: Convertible Strollers
+    weight:
+      confidence: low
+      estimate_g: 10000
+      max_g: 18000
+      methodology: Inherited from parent category (bt-6-3)
+      min_g: 5000
   bt-6-3-2:
+    lca_data_missing: true
     name: Double Strollers
     weight:
-      estimate_g: 15000
-      min_g: 10000
-      max_g: 22000
       confidence: medium
+      estimate_g: 15000
+      max_g: 22000
+      min_g: 10000
+  bt-6-3-3:
     lca_data_missing: true
+    name: Full-Sized Strollers
+    weight:
+      confidence: low
+      estimate_g: 10000
+      max_g: 18000
+      methodology: Inherited from parent category (bt-6-3)
+      min_g: 5000
   bt-6-3-4:
+    lca_data_missing: true
     name: Jogging Strollers
     weight:
-      estimate_g: 13000
-      min_g: 9000
-      max_g: 18000
       confidence: medium
+      estimate_g: 13000
+      max_g: 18000
+      min_g: 9000
+  bt-6-3-5:
     lca_data_missing: true
+    name: Travel Systems
+    weight:
+      confidence: low
+      estimate_g: 10000
+      max_g: 18000
+      methodology: Inherited from parent category (bt-6-3)
+      min_g: 5000
+  bt-6-3-6:
+    lca_data_missing: true
+    name: Umbrella Strollers
+    weight:
+      confidence: low
+      estimate_g: 10000
+      max_g: 18000
+      methodology: Inherited from parent category (bt-6-3)
+      min_g: 5000
+  bt-7:
+    lca_data_missing: true
+    name: Baby Transport Accessories
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 20
   bt-7-1:
+    lca_data_missing: true
     name: Baby & Toddler Car Seat Accessories
     weight:
-      estimate_g: 3500
-      min_g: 2500
-      max_g: 5000
       confidence: medium
+      estimate_g: 3500
+      max_g: 5000
+      min_g: 2500
+  bt-7-1-1:
     lca_data_missing: true
+    name: Car Seat Canopies
+    weight:
+      confidence: low
+      estimate_g: 3500
+      max_g: 5000
+      methodology: Inherited from parent category (bt-7-1)
+      min_g: 2500
+  bt-7-1-2:
+    lca_data_missing: true
+    name: Car Seat Covers
+    weight:
+      confidence: low
+      estimate_g: 3500
+      max_g: 5000
+      methodology: Inherited from parent category (bt-7-1)
+      min_g: 2500
+  bt-7-1-3:
+    lca_data_missing: true
+    name: Car Seat Mirrors
+    weight:
+      confidence: low
+      estimate_g: 3500
+      max_g: 5000
+      methodology: Inherited from parent category (bt-7-1)
+      min_g: 2500
+  bt-7-1-4:
+    lca_data_missing: true
+    name: Car Seat Organizers
+    weight:
+      confidence: low
+      estimate_g: 3500
+      max_g: 5000
+      methodology: Inherited from parent category (bt-7-1)
+      min_g: 2500
+  bt-7-1-5:
+    lca_data_missing: true
+    name: Car Seat Protectors
+    weight:
+      confidence: low
+      estimate_g: 3500
+      max_g: 5000
+      methodology: Inherited from parent category (bt-7-1)
+      min_g: 2500
   bt-7-1-6:
+    lca_data_missing: true
     name: Car Seat Travel Bags
     weight:
-      estimate_g: 800
-      min_g: 400
-      max_g: 1500
       confidence: medium
+      estimate_g: 800
+      max_g: 1500
+      min_g: 400
+  bt-7-2:
     lca_data_missing: true
+    name: Baby Carrier Accessories
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  bt-7-2-1:
+    lca_data_missing: true
+    name: Baby Carrier Bibs
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  bt-7-2-2:
+    lca_data_missing: true
+    name: Baby Carrier Covers
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  bt-7-2-3:
+    lca_data_missing: true
+    name: Baby Carrier Hoods
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  bt-7-2-4:
+    lca_data_missing: true
+    name: Baby Carrier Storage Bags
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  bt-7-2-5:
+    lca_data_missing: true
+    name: Baby Carrier Teething Pads
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  bt-7-2-6:
+    lca_data_missing: true
+    name: Baby Carrier Waistband Extenders
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 20
   bt-7-3:
+    lca_data_missing: true
     name: Baby Stroller Accessories
     weight:
-      estimate_g: 300
-      min_g: 50
-      max_g: 1000
       confidence: low
+      estimate_g: 300
+      max_g: 1000
+      min_g: 50
+  bt-7-3-1:
     lca_data_missing: true
+    name: Stroller Cup Holders
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1000
+      methodology: Inherited from parent category (bt-7-3)
+      min_g: 50
+  bt-7-3-2:
+    lca_data_missing: true
+    name: Stroller Footmuffs
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1000
+      methodology: Inherited from parent category (bt-7-3)
+      min_g: 50
+  bt-7-3-3:
+    lca_data_missing: true
+    name: Stroller Hooks
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1000
+      methodology: Inherited from parent category (bt-7-3)
+      min_g: 50
+  bt-7-3-4:
+    lca_data_missing: true
+    name: Stroller Organizers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1000
+      methodology: Inherited from parent category (bt-7-3)
+      min_g: 50
+  bt-7-3-5:
+    lca_data_missing: true
+    name: Stroller Rain Covers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1000
+      methodology: Inherited from parent category (bt-7-3)
+      min_g: 50
+  bt-7-3-6:
+    lca_data_missing: true
+    name: Stroller Sunshades
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 1000
+      methodology: Inherited from parent category (bt-7-3)
+      min_g: 50
   bt-7-3-7:
+    lca_data_missing: true
     name: Stroller Travel Bags
     weight:
-      estimate_g: 1000
-      min_g: 500
-      max_g: 2000
       confidence: medium
+      estimate_g: 1000
+      max_g: 2000
+      min_g: 500
+  bt-7-4:
     lca_data_missing: true
+    name: Baby Transport Liners & Sacks
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 20
   bt-7-5:
+    lca_data_missing: true
     name: Shopping Cart & High Chair Covers
     weight:
-      estimate_g: 300
-      min_g: 150
-      max_g: 600
       confidence: medium
-    lca_data_missing: true
+      estimate_g: 300
+      max_g: 600
+      min_g: 150
   bt-8:
+    lca_data_missing: true
     name: Baby Transport Replacement Parts
     weight:
+      confidence: high
       estimate_g: 30
+      max_g: 60
       min_g: 15
-      max_g: 60
-      confidence: high
-    lca_data_missing: true
   bt-9:
+    lca_data_missing: true
     name: Diapering
-    weight:
-      estimate_g: 50
-      min_g: 30
-      max_g: 5000
-      confidence: low
     notes: Per diaper vs per pack varies greatly
-    lca_data_missing: true
-  bt-9-12-1:
-    name: Cloth Diapers
     weight:
-      estimate_g: 150
-      min_g: 80
-      max_g: 300
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      min_g: 30
+  bt-9-1:
+    lca_data_missing: true
+    name: Baby Wipe Dispensers & Warmers
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-1-1:
+    lca_data_missing: true
+    name: Baby Wipe Dispensers
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-1-2:
+    lca_data_missing: true
+    name: Baby Wipe Warmers
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-1-3:
+    lca_data_missing: true
+    name: Portable Wipe Dispensers
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-2:
+    lca_data_missing: true
+    name: Baby Wipes
+    weight:
       confidence: medium
-      methodology: Per diaper
-    notes: Higher upfront footprint but reusable; washing impacts vary
+      estimate_g: 500
+      max_g: 1000
+      methodology: Per pack (~80 wipes)
+      min_g: 200
+  bt-9-2-1:
     lca_data_missing: true
-  bt-9-12-2:
-    name: Disposable Diapers
+    name: Cloth Baby Wipes
     weight:
-      estimate_g: 40
-      min_g: 25
-      max_g: 60
-      confidence: high
-      methodology: Per single diaper
+      confidence: low
+      estimate_g: 500
+      max_g: 1000
+      methodology: Inherited from parent category (bt-9-2)
+      min_g: 200
+  bt-9-2-2:
+    lca_data_missing: true
+    name: Disposable Baby Wipes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 1000
+      methodology: Inherited from parent category (bt-9-2)
+      min_g: 200
+  bt-9-2-3:
+    lca_data_missing: true
+    name: Flushable Baby Wipes
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 1000
+      methodology: Inherited from parent category (bt-9-2)
+      min_g: 200
+  bt-9-3:
+    lca_data_missing: true
+    name: Changing Mat & Tray Covers
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-3-1:
+    lca_data_missing: true
+    name: Changing Mat Covers
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-3-2:
+    lca_data_missing: true
+    name: Changing Tray Covers
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-3-3:
+    lca_data_missing: true
+    name: Diaper Changing Pad Covers
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-4:
+    lca_data_missing: true
+    name: Changing Mats & Trays
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-4-1:
+    lca_data_missing: true
+    name: Changing Mats
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-4-2:
+    lca_data_missing: true
+    name: Changing Trays
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-4-3:
+    lca_data_missing: true
+    name: Diaper Changing Pads
+    weight:
+      confidence: medium
+      estimate_g: 500
+      max_g: 1000
+      min_g: 200
+  bt-9-5:
+    lca_data_missing: true
+    name: Diaper Kits
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-5-1:
+    lca_data_missing: true
+    name: Diaper Bag Kits
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-5-2:
+    lca_data_missing: true
+    name: Diaper Changing Kits
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-5-3:
+    lca_data_missing: true
+    name: Travel Diaper Kits
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-6:
+    lca_data_missing: true
+    name: Diaper Liners
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-6-1:
+    lca_data_missing: true
+    name: Cloth Diaper Liners
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-6-2:
+    lca_data_missing: true
+    name: Disposable Diaper Liners
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-6-3:
+    lca_data_missing: true
+    name: Flushable Diaper Liners
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-7:
+    lca_data_missing: true
+    name: Diaper Organizers
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-7-1:
+    lca_data_missing: true
+    name: Diaper Bag Organizers
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-7-2:
+    lca_data_missing: true
+    name: Diaper Caddies
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-7-3:
+    lca_data_missing: true
+    name: Diaper Stackers
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-7-4:
+    lca_data_missing: true
+    name: Hanging Diaper Organizers
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-8:
+    lca_data_missing: true
+    name: Diaper Pail Accessories
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-8-1:
+    lca_data_missing: true
+    name: Diaper Pail Bags
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-8-2:
+    lca_data_missing: true
+    name: Diaper Pail Deodorizers
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-8-3:
+    lca_data_missing: true
+    name: Diaper Pail Liners
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-8-4:
+    lca_data_missing: true
+    name: Diaper Pail Refills
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-9:
+    lca_data_missing: true
+    name: Diaper Pails
+    weight:
+      confidence: medium
+      estimate_g: 3000
+      max_g: 5000
+      min_g: 1500
+  bt-9-9-1:
+    lca_data_missing: true
+    name: Diaper Disposal Systems
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9-9)
+      min_g: 1500
+  bt-9-9-3:
+    lca_data_missing: true
+    name: Diaper Trash Cans
+    weight:
+      confidence: low
+      estimate_g: 3000
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9-9)
+      min_g: 1500
+  bt-9-10:
+    lca_data_missing: true
+    name: Diaper Rash Treatments
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-10-1:
+    lca_data_missing: true
+    name: Diaper Rash Creams
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-10-2:
+    lca_data_missing: true
+    name: Diaper Rash Lotions
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-10-3:
+    lca_data_missing: true
+    name: Diaper Rash Ointments
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-10-4:
+    lca_data_missing: true
+    name: Diaper Rash Powder
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-11:
+    lca_data_missing: true
+    name: Diaper Wet Bags
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-11-2:
+    lca_data_missing: true
+    name: Hanging Diaper Wet Bags
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-11-3:
+    lca_data_missing: true
+    name: Wet Dry Diaper Bags
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-12:
+    lca_data_missing: true
+    name: Diapers
+    weight:
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-12-1:
+    lca_data_missing: true
+    name: Cloth Diapers
+    notes: Higher upfront footprint but reusable; washing impacts vary
+    weight:
+      confidence: medium
+      estimate_g: 150
+      max_g: 300
+      methodology: Per diaper
+      min_g: 80
+  bt-9-12-2:
     lca:
       carbon_kg_co2e_per_kg: 4.0
       carbon_kg_co2e_per_unit: 0.16
-      scope: cradle-to-grave
-      end_of_life:
-        recyclability_pct: 0
-        kg_co2e_per_kg: 0.5
       data_quality: secondary
+      end_of_life:
+        kg_co2e_per_kg: 0.5
+        recyclability_pct: 0
+      scope: cradle-to-grave
     materials:
-      primary_material: mixed
       breakdown:
       - material: polypropylene
         percentage: 35
@@ -614,167 +1659,660 @@ categories:
         percentage: 25
       - material: other
         percentage: 10
+      primary_material: mixed
+    name: Disposable Diapers
+    notes: Per-use footprint; cloth diapers have different profile
     sources:
     - Diaper LCA comparison studies
-    notes: Per-use footprint; cloth diapers have different profile
-  bt-9-2:
-    name: Baby Wipes
     weight:
-      estimate_g: 500
-      min_g: 200
-      max_g: 1000
-      confidence: medium
-      methodology: Per pack (~80 wipes)
+      confidence: high
+      estimate_g: 40
+      max_g: 60
+      methodology: Per single diaper
+      min_g: 25
+  bt-9-12-3:
     lca_data_missing: true
-  bt-9-4-3:
-    name: Diaper Changing Pads
+    name: Overnight Diapers
     weight:
-      estimate_g: 500
-      min_g: 200
-      max_g: 1000
-      confidence: medium
-    lca_data_missing: true
-  bt-9-9:
-    name: Diaper Pails
-    weight:
-      estimate_g: 3000
-      min_g: 1500
-      max_g: 5000
-      confidence: medium
-    lca_data_missing: true
-  fr-1:
-    name: Baby & Toddler Furniture
-    weight:
-      estimate_g: 20000
-      min_g: 2000
-      max_g: 50000
       confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-12-4:
     lca_data_missing: true
-  fr-1-3-2:
-    name: Bassinets
+    name: Pull-Up Diapers
     weight:
-      estimate_g: 8000
-      min_g: 4000
-      max_g: 15000
-      confidence: medium
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-9-12-5:
     lca_data_missing: true
-  fr-1-4:
-    name: Changing Tables
+    name: Swim Diapers
     weight:
-      estimate_g: 20000
-      min_g: 10000
-      max_g: 35000
-      confidence: medium
-    materials:
-      primary_material: wood
+      confidence: low
+      estimate_g: 50
+      max_g: 5000
+      methodology: Inherited from parent category (bt-9)
+      min_g: 30
+  bt-10:
     lca_data_missing: true
-  fr-1-6:
-    name: Cribs & Toddler Beds
+    name: Nursing & Feeding
     weight:
-      estimate_g: 25000
-      min_g: 15000
-      max_g: 40000
-      confidence: medium
-    materials:
-      primary_material: wood
-      breakdown:
-      - material: solid_wood
-        percentage: 60
-      - material: mdf
-        percentage: 25
-      - material: metal_hardware
-        percentage: 10
-      - material: finish
-        percentage: 5
-    lca_data_missing: true
-  fr-1-6-12:
-    name: Travel Cribs
-    weight:
-      estimate_g: 10000
-      min_g: 5000
-      max_g: 18000
-      confidence: medium
-    lca_data_missing: true
-  fr-1-8:
-    name: High Chairs & Booster Seats
-    weight:
-      estimate_g: 2000
-      min_g: 1000
-      max_g: 4000
-      confidence: medium
-    lca_data_missing: true
-  fr-1-8-4:
-    name: High Chairs
-    weight:
-      estimate_g: 8000
-      min_g: 3000
-      max_g: 15000
-      confidence: medium
-    materials:
-      primary_material: mixed
-      breakdown:
-      - material: plastic
-        percentage: 50
-      - material: metal_frame
-        percentage: 30
-      - material: fabric
-        percentage: 15
-      - material: foam
-        percentage: 5
-    lca_data_missing: true
-  fr-15-1-9:
-    name: Swings
-    weight:
-      estimate_g: 8000
-      min_g: 4000
-      max_g: 15000
-      confidence: medium
-    lca_data_missing: true
-  fr-4-5:
-    name: Dressers
-    weight:
-      estimate_g: 35000
-      min_g: 20000
-      max_g: 60000
-      confidence: medium
-    lca_data_missing: true
-  hb-1-17-5-3:
-    name: Walkers
-    weight:
-      estimate_g: 4000
-      min_g: 2000
-      max_g: 7000
-      confidence: medium
-    lca_data_missing: true
-  hb-3-15-4:
-    name: White Noise Machines
-    weight:
+      confidence: low
       estimate_g: 300
-      min_g: 100
-      max_g: 600
-      confidence: medium
+      max_g: 15000
+      min_g: 20
+  bt-10-1:
     lca_data_missing: true
-  hg-3-37:
-    name: Growth Charts
+    name: Baby & Toddler Food
     weight:
-      estimate_g: 200
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-1-1:
+    lca_data_missing: true
+    name: Baby Cereals
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-1-2:
+    lca_data_missing: true
+    name: Baby Drinks
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-1-2-1:
+    lca_data_missing: true
+    name: Concentrated Drinks
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-1-2-2:
+    lca_data_missing: true
+    name: Powdered Drinks
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-1-3:
+    lca_data_missing: true
+    name: Baby Food
+    weight:
+      confidence: medium
+      estimate_g: 2000
+      max_g: 4000
+      min_g: 1000
+  bt-10-1-4:
+    lca_data_missing: true
+    name: Baby Formula
+    weight:
+      confidence: medium
+      estimate_g: 150
+      max_g: 300
       min_g: 50
-      max_g: 500
-      confidence: medium
+  bt-10-1-4-1:
     lca_data_missing: true
-  hg-4-5:
-    name: Furniture Anchors
+    name: Dairy Formula
     weight:
-      estimate_g: 100
+      confidence: low
+      estimate_g: 150
+      max_g: 300
+      methodology: Inherited from parent category (bt-10-1-4)
       min_g: 50
-      max_g: 200
-      confidence: medium
+  bt-10-1-4-2:
     lca_data_missing: true
-  lb-4:
-    name: Diaper Bags
+    name: Hypoallergenic Formula
     weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 300
+      methodology: Inherited from parent category (bt-10-1-4)
+      min_g: 50
+  bt-10-1-4-3:
+    lca_data_missing: true
+    name: Lactose-Free Formula
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 300
+      methodology: Inherited from parent category (bt-10-1-4)
+      min_g: 50
+  bt-10-1-4-4:
+    lca_data_missing: true
+    name: Soy Formula
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 300
+      methodology: Inherited from parent category (bt-10-1-4)
+      min_g: 50
+  bt-10-1-5:
+    lca_data_missing: true
+    name: Baby Snacks
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-1-6:
+    lca_data_missing: true
+    name: Toddler Nutrition Drinks & Shakes
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-4:
+    lca_data_missing: true
+    name: Baby Care Timers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-4-1:
+    lca_data_missing: true
+    name: Analog Timers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-4-2:
+    lca_data_missing: true
+    name: Digital Timers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-6:
+    lca_data_missing: true
+    name: Bottle Warmers & Sterilizers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-6-1:
+    lca_data_missing: true
+    name: Bottle Warmers
+    weight:
+      confidence: medium
       estimate_g: 800
-      min_g: 400
       max_g: 1500
-      confidence: medium
+      min_g: 400
+  bt-10-6-1-1:
     lca_data_missing: true
+    name: Electric Bottle Warmers
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 1500
+      methodology: Inherited from parent category (bt-10-6-1)
+      min_g: 400
+  bt-10-6-1-2:
+    lca_data_missing: true
+    name: Portable Bottle Warmers
+    weight:
+      confidence: low
+      estimate_g: 800
+      max_g: 1500
+      methodology: Inherited from parent category (bt-10-6-1)
+      min_g: 400
+  bt-10-6-2:
+    lca_data_missing: true
+    name: Sterilizers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-6-2-1:
+    lca_data_missing: true
+    name: Electric Steam Sterilizers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-6-2-2:
+    lca_data_missing: true
+    name: Microwave Sterilizers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-6-2-3:
+    lca_data_missing: true
+    name: UV Sterilizers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-7:
+    lca_data_missing: true
+    name: Breast Milk Storage Containers
+    weight:
+      confidence: medium
+      estimate_g: 200
+      max_g: 400
+      methodology: Per box (~50 bags)
+      min_g: 100
+  bt-10-8:
+    lca_data_missing: true
+    name: Breast Pump Accessories
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-8-2:
+    lca_data_missing: true
+    name: Carrying Bags & Totes
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-8-3:
+    lca_data_missing: true
+    name: Cleaning Brushes & Wipes
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-8-4:
+    lca_data_missing: true
+    name: Connectors & Adapters
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-8-5:
+    lca_data_missing: true
+    name: Hands Free Pumping Bras
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-8-6:
+    lca_data_missing: true
+    name: Tubing
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-8-7:
+    lca_data_missing: true
+    name: Valves & Membranes
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-9:
+    lca_data_missing: true
+    name: Breast Pumps
+    weight:
+      confidence: medium
+      estimate_g: 1500
+      max_g: 3000
+      min_g: 500
+  bt-10-9-1:
+    lca_data_missing: true
+    name: Double Electric Breast Pumps
+    weight:
+      confidence: low
+      estimate_g: 1500
+      max_g: 3000
+      methodology: Inherited from parent category (bt-10-9)
+      min_g: 500
+  bt-10-9-2:
+    lca_data_missing: true
+    name: Electric Breast Pumps
+    weight:
+      confidence: low
+      estimate_g: 1500
+      max_g: 3000
+      methodology: Inherited from parent category (bt-10-9)
+      min_g: 500
+  bt-10-9-3:
+    lca_data_missing: true
+    name: Manual Breast Pumps
+    weight:
+      confidence: low
+      estimate_g: 1500
+      max_g: 3000
+      methodology: Inherited from parent category (bt-10-9)
+      min_g: 500
+  bt-10-10:
+    lca_data_missing: true
+    name: Burp Cloths
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-11:
+    lca_data_missing: true
+    name: Nursing Covers
+    weight:
+      confidence: medium
+      estimate_g: 200
+      max_g: 400
+      min_g: 100
+  bt-10-12:
+    lca_data_missing: true
+    name: Nursing Pads & Shields
+    weight:
+      confidence: medium
+      estimate_g: 150
+      max_g: 300
+      methodology: Per box
+      min_g: 50
+  bt-10-12-1:
+    lca_data_missing: true
+    name: Disposable Nursing Pads
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 300
+      methodology: Inherited from parent category (bt-10-12)
+      min_g: 50
+  bt-10-12-2:
+    lca_data_missing: true
+    name: Reusable Nursing Pads
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 300
+      methodology: Inherited from parent category (bt-10-12)
+      min_g: 50
+  bt-10-12-3:
+    lca_data_missing: true
+    name: Breast Shields
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 300
+      methodology: Inherited from parent category (bt-10-12)
+      min_g: 50
+  bt-10-13:
+    lca_data_missing: true
+    name: Nursing Pillow Covers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-14:
+    lca_data_missing: true
+    name: Nursing Pillows
+    weight:
+      confidence: medium
+      estimate_g: 1500
+      max_g: 2500
+      min_g: 800
+  bt-10-16:
+    lca_data_missing: true
+    name: Feeding Essentials
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-16-1:
+    lca_data_missing: true
+    name: Feeding Bowls
+    weight:
+      confidence: medium
+      estimate_g: 200
+      max_g: 400
+      min_g: 80
+  bt-10-16-2:
+    lca_data_missing: true
+    name: Feeding Spoons
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-16-3:
+    lca_data_missing: true
+    name: Feeding Plates
+    weight:
+      confidence: medium
+      estimate_g: 150
+      max_g: 300
+      min_g: 60
+  bt-10-16-4:
+    lca_data_missing: true
+    name: Flatware Sets
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-16-5:
+    lca_data_missing: true
+    name: Baby Bottle Nipples & Liners
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-16-5-1:
+    lca_data_missing: true
+    name: Baby Bottle Liners
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-16-5-2:
+    lca_data_missing: true
+    name: Baby Bottle Nipples
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-16-5-2-1:
+    lca_data_missing: true
+    name: Orthodontic Nipples
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-16-5-2-2:
+    lca_data_missing: true
+    name: Standard Nipples
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-16-5-2-3:
+    lca_data_missing: true
+    name: Wide Neck Nipples
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 15000
+      methodology: Inherited from parent category (bt-10)
+      min_g: 20
+  bt-10-16-6:
+    lca_data_missing: true
+    materials:
+      breakdown:
+      - material: polypropylene
+        percentage: 70
+      - material: silicone_nipple
+        percentage: 20
+      - material: other
+        percentage: 10
+      primary_material: plastic
+    name: Baby Bottles
+    notes: Glass bottles heavier but lower footprint per use
+    weight:
+      confidence: high
+      estimate_g: 150
+      max_g: 300
+      min_g: 80
+  bt-10-16-6-1:
+    lca_data_missing: true
+    name: Anti Colic Bottles
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 300
+      methodology: Inherited from parent category (bt-10-16-6)
+      min_g: 80
+  bt-10-16-6-2:
+    lca_data_missing: true
+    name: Standard Bottles
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 300
+      methodology: Inherited from parent category (bt-10-16-6)
+      min_g: 80
+  bt-10-16-6-3:
+    lca_data_missing: true
+    name: Wide Neck Bottles
+    weight:
+      confidence: low
+      estimate_g: 150
+      max_g: 300
+      methodology: Inherited from parent category (bt-10-16-6)
+      min_g: 80
+  bt-10-16-7:
+    lca_data_missing: true
+    name: Bibs
+    weight:
+      confidence: high
+      estimate_g: 50
+      max_g: 150
+      min_g: 20
+  bt-10-16-8:
+    lca_data_missing: true
+    name: Sippy Cups
+    weight:
+      confidence: high
+      estimate_g: 100
+      max_g: 200
+      min_g: 60
+  bt-11:
+    lca_data_missing: true
+    name: Potty Training
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  bt-11-1:
+    lca_data_missing: true
+    name: Potties
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  bt-11-2:
+    lca_data_missing: true
+    name: Potty Training Kits
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  bt-11-3:
+    lca_data_missing: true
+    name: Toilet Seats & Step Stools
+    weight:
+      confidence: low
+      estimate_g: 1000
+      max_g: 20000
+      methodology: Vertical-level default estimate
+      min_g: 20
+  bt-12:
+    lca_data_missing: true
+    name: Swaddling & Receiving Blankets
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 3000
+      min_g: 50
+  bt-12-1:
+    lca_data_missing: true
+    name: Receiving Blankets
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 3000
+      methodology: Inherited from parent category (bt-12)
+      min_g: 50
+  bt-12-2:
+    lca_data_missing: true
+    materials:
+      primary_material: cotton
+    name: Swaddling Blankets
+    weight:
+      confidence: medium
+      estimate_g: 200
+      max_g: 400
+      min_g: 100

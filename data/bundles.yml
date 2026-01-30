@@ -1,0 +1,12 @@
+schema_version: 0.1.0
+last_updated: '2026-01-30'
+categories:
+  bu:
+    lca_data_missing: true
+    name: Bundles
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 50000
+      methodology: Vertical-level default estimate
+      min_g: 10

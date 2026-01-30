@@ -1,0 +1,5447 @@
+schema_version: 0.1.0
+last_updated: '2026-01-30'
+categories:
+  vp:
+    lca_data_missing: true
+    name: Vehicles & Parts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1:
+    lca_data_missing: true
+    name: Vehicle Parts & Accessories
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-1:
+    lca_data_missing: true
+    name: Aircraft Parts & Accessories
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-2:
+    lca_data_missing: true
+    name: Electric Vehicle (EV) Parts & Accessories
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-2-1:
+    lca_data_missing: true
+    name: Battery Management Systems
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-2-2:
+    lca_data_missing: true
+    name: Charging Cables
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-2-3:
+    lca_data_missing: true
+    name: Charging Stations
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-2-4:
+    lca_data_missing: true
+    name: Connectors & Adapters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-2-5:
+    lca_data_missing: true
+    name: Conversion Kits
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-2-5-1:
+    lca_data_missing: true
+    name: Car EV Conversion Kits
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-2-5-2:
+    lca_data_missing: true
+    name: Motorcycle EV Conversion Kits
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-2-5-3:
+    lca_data_missing: true
+    name: Scooter EV Conversion Kits
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-2-5-4:
+    lca_data_missing: true
+    name: Truck EV Conversion Kits
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-2-5-5:
+    lca_data_missing: true
+    name: Van EV Conversion Kits
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-2-6:
+    lca_data_missing: true
+    name: Electric Vehicle Batteries
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-2-7:
+    lca_data_missing: true
+    name: Power Inverters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-2-8:
+    lca_data_missing: true
+    name: Protective Cases
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-2-8-1:
+    lca_data_missing: true
+    name: Adapter Cases
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-2-8-2:
+    lca_data_missing: true
+    name: Battery Cases
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-2-8-3:
+    lca_data_missing: true
+    name: Charging Cable Cases
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-2-8-4:
+    lca_data_missing: true
+    name: Connector Cases
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-2-8-5:
+    lca_data_missing: true
+    name: Conversion Kit Cases
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-2-8-6:
+    lca_data_missing: true
+    name: Tool Cases
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-2-9:
+    lca_data_missing: true
+    name: Regenerative Braking Modules
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3:
+    lca_data_missing: true
+    name: Motor Vehicle Electronics
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-1:
+    lca_data_missing: true
+    name: Motor Vehicle A/V Players & In-Dash Systems
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-2:
+    lca_data_missing: true
+    name: Motor Vehicle Amplifiers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-3:
+    lca_data_missing: true
+    name: Motor Vehicle Cassette Adapters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-4:
+    lca_data_missing: true
+    name: Motor Vehicle Cassette Players
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-4-1:
+    lca_data_missing: true
+    name: Double DIN Cassette Players
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-4-2:
+    lca_data_missing: true
+    name: Single DIN Cassette Players
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-4-3:
+    lca_data_missing: true
+    name: Under-Dash Players
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-5:
+    lca_data_missing: true
+    name: Motor Vehicle Equalizers & Crossovers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-5-1:
+    lca_data_missing: true
+    name: Active Crossovers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-5-2:
+    lca_data_missing: true
+    name: Digital Sound Processors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-5-3:
+    lca_data_missing: true
+    name: Graphic Equalizers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-5-4:
+    lca_data_missing: true
+    name: Parametric Equalizers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-5-5:
+    lca_data_missing: true
+    name: Passive Crossovers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-6:
+    lca_data_missing: true
+    name: Motor Vehicle Parking Cameras
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-6-1:
+    lca_data_missing: true
+    name: 360-Degree Cameras
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-6-2:
+    lca_data_missing: true
+    name: Backup Cameras
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-7:
+    lca_data_missing: true
+    name: Motor Vehicle Speakerphones
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-8:
+    lca_data_missing: true
+    name: Motor Vehicle Speakers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-8-1:
+    lca_data_missing: true
+    name: Coaxial Speakers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-8-2:
+    lca_data_missing: true
+    name: Component Speakers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-8-3:
+    lca_data_missing: true
+    name: Full-Range Speakers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-8-4:
+    lca_data_missing: true
+    name: Mid-Range Speakers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-8-6:
+    lca_data_missing: true
+    name: Tweeters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-8-7:
+    lca_data_missing: true
+    name: Woofers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-9:
+    lca_data_missing: true
+    name: Motor Vehicle Subwoofers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-10:
+    lca_data_missing: true
+    name: Motor Vehicle Video Monitor Mounts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-10-1:
+    lca_data_missing: true
+    name: Dashboard Mounts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-10-2:
+    lca_data_missing: true
+    name: Headrest Mounts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-10-3:
+    lca_data_missing: true
+    name: Overhead Mounts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-10-4:
+    lca_data_missing: true
+    name: Rearview Mirror Mounts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-10-5:
+    lca_data_missing: true
+    name: Seat Mounts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-10-6:
+    lca_data_missing: true
+    name: Sun Visor Mounts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-3-10-7:
+    lca_data_missing: true
+    name: Windshield Mounts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4:
+    lca_data_missing: true
+    name: Motor Vehicle Parts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-1:
+    lca_data_missing: true
+    name: Motor Vehicle Braking
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-1-1:
+    lca_data_missing: true
+    name: Anti-Lock Braking System (ABS) Parts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-1-2:
+    lca_data_missing: true
+    name: Brake Boosters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-1-3:
+    lca_data_missing: true
+    name: Brake Calipers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-1-4:
+    lca_data_missing: true
+    name: Brake Fluid
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-1-5:
+    lca_data_missing: true
+    name: Brake Lines
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-1-6:
+    lca_data_missing: true
+    name: Brake Master Cylinders
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-1-7:
+    lca_data_missing: true
+    name: Brake Pads
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-1-8:
+    lca_data_missing: true
+    name: Brake Rotors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-1-9:
+    lca_data_missing: true
+    name: Brake Drums
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-1-10:
+    lca_data_missing: true
+    name: Back Plates
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-1-11:
+    lca_data_missing: true
+    name: Brake Shoes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-1-12:
+    lca_data_missing: true
+    name: Wheel Cylinders
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-1-13:
+    lca_data_missing: true
+    name: Brake Hoses
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-1-14:
+    lca_data_missing: true
+    name: Brake Light Switches
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-2:
+    lca_data_missing: true
+    name: Motor Vehicle Carpet & Upholstery
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-2-1:
+    lca_data_missing: true
+    name: Cargo Liners
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-2-2:
+    lca_data_missing: true
+    name: Carpet Kits
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-2-3:
+    lca_data_missing: true
+    name: Console Covers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-2-4:
+    lca_data_missing: true
+    name: Dash Covers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-2-5:
+    lca_data_missing: true
+    name: Door Panels
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-2-6:
+    lca_data_missing: true
+    name: Headliners
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-2-7:
+    lca_data_missing: true
+    name: Trunk Mats
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-2-8:
+    lca_data_missing: true
+    name: Upholstery Fabric
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-3:
+    lca_data_missing: true
+    name: Motor Vehicle Climate Control
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-3-1:
+    lca_data_missing: true
+    name: AC Compressors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-3-2:
+    lca_data_missing: true
+    name: AC Condensers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-3-3:
+    lca_data_missing: true
+    name: AC Evaporators
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-3-4:
+    lca_data_missing: true
+    name: AC Hoses
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-3-5:
+    lca_data_missing: true
+    name: Blower Motors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-3-6:
+    lca_data_missing: true
+    name: Climate Control Modules
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-3-7:
+    lca_data_missing: true
+    name: Heater Controls
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-3-8:
+    lca_data_missing: true
+    name: Heater Cores
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-4:
+    lca_data_missing: true
+    name: Motor Vehicle Controls
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-4-1:
+    lca_data_missing: true
+    name: Handbrakes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-4-2:
+    lca_data_missing: true
+    name: Pedals
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-4-3:
+    lca_data_missing: true
+    name: Steering Columns
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-4-4:
+    lca_data_missing: true
+    name: Steering Pumps
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-4-5:
+    lca_data_missing: true
+    name: Steering Racks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-4-6:
+    lca_data_missing: true
+    name: Steering Wheels
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-5:
+    lca_data_missing: true
+    name: Motor Vehicle Engine Oil Circulation
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-5-1:
+    lca_data_missing: true
+    name: Oil Coolers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-5-2:
+    lca_data_missing: true
+    name: Oil Dipsticks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-5-3:
+    lca_data_missing: true
+    name: Oil Drain Plugs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-5-4:
+    lca_data_missing: true
+    name: Oil Filler Caps
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-5-5:
+    lca_data_missing: true
+    name: Oil Filters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-5-6:
+    lca_data_missing: true
+    name: Oil Pans
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-5-7:
+    lca_data_missing: true
+    name: Oil Pressure Sensors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-5-8:
+    lca_data_missing: true
+    name: Oil Pumps
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-6:
+    lca_data_missing: true
+    name: Motor Vehicle Engine Parts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-6-1:
+    lca_data_missing: true
+    name: Camshafts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-6-2:
+    lca_data_missing: true
+    name: Crankshafts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-6-3:
+    lca_data_missing: true
+    name: Cylinder Heads
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-6-4:
+    lca_data_missing: true
+    name: Engine Bearings
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-6-5:
+    lca_data_missing: true
+    name: Ignition Components
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-6-5-1:
+    lca_data_missing: true
+    name: Glow Plugs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-6-5-2:
+    lca_data_missing: true
+    name: Ignition Coils
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-6-5-3:
+    lca_data_missing: true
+    name: Ignition Leads
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-6-5-4:
+    lca_data_missing: true
+    name: Distributors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-6-5-5:
+    lca_data_missing: true
+    name: Distributor Parts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-6-6:
+    lca_data_missing: true
+    name: Pistons
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-6-7:
+    lca_data_missing: true
+    name: Timing Belts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-6-8:
+    lca_data_missing: true
+    name: Timing Chains
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-6-9:
+    lca_data_missing: true
+    name: Valves
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-7:
+    lca_data_missing: true
+    name: Motor Vehicle Engines
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-7-1:
+    lca_data_missing: true
+    name: Complete Engines
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-7-2:
+    lca_data_missing: true
+    name: Crate Engines
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-7-3:
+    lca_data_missing: true
+    name: Engine Mounts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-7-4:
+    lca_data_missing: true
+    name: Engine Rebuild Kits
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-7-5:
+    lca_data_missing: true
+    name: Engine Timing Components
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-7-6:
+    lca_data_missing: true
+    name: Engine Valve Covers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-7-7:
+    lca_data_missing: true
+    name: Long Blocks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-7-8:
+    lca_data_missing: true
+    name: Short Blocks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-8:
+    lca_data_missing: true
+    name: Motor Vehicle Exhaust
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-9:
+    lca_data_missing: true
+    name: Motor Vehicle Frame & Body Parts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-9-1:
+    lca_data_missing: true
+    name: Bumpers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-9-2:
+    lca_data_missing: true
+    name: Doors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-9-3:
+    lca_data_missing: true
+    name: Fenders
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-9-4:
+    lca_data_missing: true
+    name: Grilles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-9-5:
+    lca_data_missing: true
+    name: Hoods
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-9-6:
+    lca_data_missing: true
+    name: Quarter Panels
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-9-7:
+    lca_data_missing: true
+    name: Spoilers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-9-8:
+    lca_data_missing: true
+    name: Trunks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-9-9:
+    lca_data_missing: true
+    name: Fuel Doors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-9-10:
+    lca_data_missing: true
+    name: Gas Struts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-9-11:
+    lca_data_missing: true
+    name: Door Handles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-9-12:
+    lca_data_missing: true
+    name: Side Panels
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-9-13:
+    lca_data_missing: true
+    name: Door Seals
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-10:
+    lca_data_missing: true
+    name: Motor Vehicle Fuel Systems
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-10-1:
+    lca_data_missing: true
+    name: Carburetors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-10-2:
+    lca_data_missing: true
+    name: Fuel Caps
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-10-3:
+    lca_data_missing: true
+    name: Fuel Filters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-10-4:
+    lca_data_missing: true
+    name: Fuel Injectors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-10-5:
+    lca_data_missing: true
+    name: Fuel Lines
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-10-6:
+    lca_data_missing: true
+    name: Fuel Pressure Regulators
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-10-7:
+    lca_data_missing: true
+    name: Fuel Pumps
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-10-8:
+    lca_data_missing: true
+    name: Fuel Tanks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-11:
+    lca_data_missing: true
+    name: Motor Vehicle Interior Fittings
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-11-1:
+    lca_data_missing: true
+    name: Car Mirrors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-11-2:
+    lca_data_missing: true
+    name: Car Organizers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-11-3:
+    lca_data_missing: true
+    name: Floor Mats
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-11-4:
+    lca_data_missing: true
+    name: Pedal Sets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-11-5:
+    lca_data_missing: true
+    name: Seat Covers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-11-6:
+    lca_data_missing: true
+    name: Steering Wheel Covers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-11-7:
+    lca_data_missing: true
+    name: Sun Shades
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-12:
+    lca_data_missing: true
+    name: Motor Vehicle Lighting
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-12-1:
+    lca_data_missing: true
+    name: Fog Lights
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-12-2:
+    lca_data_missing: true
+    name: Headlights
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-12-3:
+    lca_data_missing: true
+    name: Light Bars
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-12-4:
+    lca_data_missing: true
+    name: Light Bulbs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-12-5:
+    lca_data_missing: true
+    name: Light Covers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-12-6:
+    lca_data_missing: true
+    name: Light Switches
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-12-7:
+    lca_data_missing: true
+    name: Tail Lights
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-12-8:
+    lca_data_missing: true
+    name: Turn Signals
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-13:
+    lca_data_missing: true
+    name: Motor Vehicle Mirrors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-14:
+    lca_data_missing: true
+    name: Motor Vehicle Power & Electrical Systems
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-14-1:
+    lca_data_missing: true
+    name: Alternators
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-14-2:
+    lca_data_missing: true
+    name: Batteries
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-14-3:
+    lca_data_missing: true
+    name: Fuses
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-14-4:
+    lca_data_missing: true
+    name: Relays
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-14-5:
+    lca_data_missing: true
+    name: Spark Plugs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-14-6:
+    lca_data_missing: true
+    name: Starters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-14-7:
+    lca_data_missing: true
+    name: Voltage Regulators
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-14-8:
+    lca_data_missing: true
+    name: Wiring Harnesses
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-14-9:
+    lca_data_missing: true
+    name: Alternator Parts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-14-10:
+    lca_data_missing: true
+    name: Ignition Switches
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-15:
+    lca_data_missing: true
+    name: Motor Vehicle Seating
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-15-1:
+    lca_data_missing: true
+    name: Front Seats
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-15-2:
+    lca_data_missing: true
+    name: Rear Seats
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-16:
+    lca_data_missing: true
+    name: Motor Vehicle Sensors & Gauges
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-16-1:
+    lca_data_missing: true
+    name: Fuel Level Sensors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-16-2:
+    lca_data_missing: true
+    name: Odometers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-16-3:
+    lca_data_missing: true
+    name: Oxygen Sensors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-16-4:
+    lca_data_missing: true
+    name: Pressure Sensors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-16-5:
+    lca_data_missing: true
+    name: Speed Sensors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-16-6:
+    lca_data_missing: true
+    name: Speedometers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-16-7:
+    lca_data_missing: true
+    name: Tachometers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-16-8:
+    lca_data_missing: true
+    name: Temperature Sensors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-16-9:
+    lca_data_missing: true
+    name: Rain Sensors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-16-10:
+    lca_data_missing: true
+    name: Parking Sensors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-16-11:
+    lca_data_missing: true
+    name: Mass Air Flow (MAF) Sensors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-16-12:
+    lca_data_missing: true
+    name: Knock Sensors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-16-13:
+    lca_data_missing: true
+    name: Coolant Temperature Sensors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-16-14:
+    lca_data_missing: true
+    name: Manifold Absolute Pressure (MAP) Sensors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-16-15:
+    lca_data_missing: true
+    name: Air Intake Temperature Sensors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-17:
+    lca_data_missing: true
+    name: Motor Vehicle Suspension Parts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-17-1:
+    lca_data_missing: true
+    name: Ball Joints
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-17-2:
+    lca_data_missing: true
+    name: Coil Springs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-17-3:
+    lca_data_missing: true
+    name: Control Arms
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-17-4:
+    lca_data_missing: true
+    name: Leaf Springs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-17-5:
+    lca_data_missing: true
+    name: Shock Absorbers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-17-6:
+    lca_data_missing: true
+    name: Struts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-17-7:
+    lca_data_missing: true
+    name: Suspension Bushings
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-17-8:
+    lca_data_missing: true
+    name: Sway Bars
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-18:
+    lca_data_missing: true
+    name: Motor Vehicle Towing
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-18-1:
+    lca_data_missing: true
+    name: Hitch Balls
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-18-2:
+    lca_data_missing: true
+    name: Hitch Mounts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-18-3:
+    lca_data_missing: true
+    name: Tow Bars
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-18-4:
+    lca_data_missing: true
+    name: Tow Straps
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-18-5:
+    lca_data_missing: true
+    name: Trailer Brakes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-18-6:
+    lca_data_missing: true
+    name: Trailer Hitches
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-18-7:
+    lca_data_missing: true
+    name: Trailer Lights
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-18-8:
+    lca_data_missing: true
+    name: Trailer Wiring
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-19:
+    lca_data_missing: true
+    name: Motor Vehicle Transmission & Drivetrain Parts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-19-1:
+    lca_data_missing: true
+    name: Axles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-19-2:
+    lca_data_missing: true
+    name: Clutches
+    weight:
+      confidence: medium
+      estimate_g: 200
+      max_g: 400
+      min_g: 80
+  vp-1-4-19-3:
+    lca_data_missing: true
+    name: Differentials
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-19-4:
+    lca_data_missing: true
+    name: Drive Shafts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-19-5:
+    lca_data_missing: true
+    name: Transmission Coolers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-19-6:
+    lca_data_missing: true
+    name: Transmission Fluid
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-19-7:
+    lca_data_missing: true
+    name: Transmission Mounts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-19-8:
+    lca_data_missing: true
+    name: Transmissions
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-19-9:
+    lca_data_missing: true
+    name: Clutch Master Cylinders
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-19-10:
+    lca_data_missing: true
+    name: Clutch Slave Cylinders
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-19-11:
+    lca_data_missing: true
+    name: CV Joints
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-19-12:
+    lca_data_missing: true
+    name: CV Boots
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-19-13:
+    lca_data_missing: true
+    name: Flywheels
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-19-14:
+    lca_data_missing: true
+    name: Clutch Discs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-19-15:
+    lca_data_missing: true
+    name: Clutch Pressure Plates
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-19-16:
+    lca_data_missing: true
+    name: Clutch Release Bearings
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-19-17:
+    lca_data_missing: true
+    name: Clutch Lines
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-19-18:
+    lca_data_missing: true
+    name: Transmission Filters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-19-19:
+    lca_data_missing: true
+    name: Propshafts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-20:
+    lca_data_missing: true
+    name: Motor Vehicle Wheel Systems
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-20-1:
+    lca_data_missing: true
+    name: Motor Vehicle Rims & Wheels
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-20-1-1:
+    lca_data_missing: true
+    name: Automotive Rims & Wheels
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-20-1-2:
+    lca_data_missing: true
+    name: Motorcycle Rims & Wheels
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-20-1-3:
+    lca_data_missing: true
+    name: Off-Road and All-Terrain Vehicle Rims & Wheels
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-20-2:
+    lca_data_missing: true
+    name: Motor Vehicle Tire Accessories
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-20-3:
+    lca_data_missing: true
+    name: Motor Vehicle Tires
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-20-3-1:
+    lca_data_missing: true
+    name: Automotive Tires
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-20-3-2:
+    lca_data_missing: true
+    name: Motorcycle Tires
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-20-3-3:
+    lca_data_missing: true
+    name: Off-Road and All-Terrain Vehicle Tires
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-20-4:
+    lca_data_missing: true
+    name: Motor Vehicle Wheel Parts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-21:
+    lca_data_missing: true
+    name: Motor Vehicle Window Parts & Accessories
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-21-1:
+    lca_data_missing: true
+    name: Window Glass
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-21-2:
+    lca_data_missing: true
+    name: Window Regulators
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-21-3:
+    lca_data_missing: true
+    name: Window Seals
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-21-4:
+    lca_data_missing: true
+    name: Windshield Wiper Systems & Components
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-21-4-1:
+    lca_data_missing: true
+    name: Wiper Systems
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-21-4-2:
+    lca_data_missing: true
+    name: Wiper Blades
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-21-4-3:
+    lca_data_missing: true
+    name: Wiper Arms
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-21-4-4:
+    lca_data_missing: true
+    name: Wiper Motors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-22:
+    lca_data_missing: true
+    name: Motor Vehicle Cooling Systems
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-22-1:
+    lca_data_missing: true
+    name: Radiator Caps
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-22-2:
+    lca_data_missing: true
+    name: Fan Shrouds
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-22-3:
+    lca_data_missing: true
+    name: Thermostats
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-22-4:
+    lca_data_missing: true
+    name: Radiator Panels
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-22-5:
+    lca_data_missing: true
+    name: Hose Fittings
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-22-6:
+    lca_data_missing: true
+    name: Radiator Overflow Tanks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-22-7:
+    lca_data_missing: true
+    name: Water Necks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-22-8:
+    lca_data_missing: true
+    name: Expansion Tanks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-22-9:
+    lca_data_missing: true
+    name: Expansion Tank Caps
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-22-10:
+    lca_data_missing: true
+    name: Radiators
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-22-11:
+    lca_data_missing: true
+    name: Radiator Fans
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-22-12:
+    lca_data_missing: true
+    name: Water Pumps
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-4-22-13:
+    lca_data_missing: true
+    name: Radiator Hoses
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5:
+    lca_data_missing: true
+    name: Vehicle Maintenance, Care & Decor
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-1:
+    lca_data_missing: true
+    name: Portable Fuel Cans
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-2:
+    lca_data_missing: true
+    name: Vehicle Cleaning
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-2-1:
+    lca_data_missing: true
+    name: Car Wash Brushes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-2-2:
+    lca_data_missing: true
+    name: Car Wash Solutions
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-2-2-1:
+    lca_data_missing: true
+    name: Car Shampoo
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-2-2-2:
+    lca_data_missing: true
+    name: Waterless Washes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-2-2-3:
+    lca_data_missing: true
+    name: Wax Washes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-2-2-4:
+    lca_data_missing: true
+    name: Wheel Cleaners
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-2-3:
+    lca_data_missing: true
+    name: Vehicle Carpet & Upholstery Cleaners
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-2-3-1:
+    lca_data_missing: true
+    name: Carpet Cleaners
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-2-3-2:
+    lca_data_missing: true
+    name: Stain Removers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-2-3-3:
+    lca_data_missing: true
+    name: Upholstery Cleaners
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-2-4:
+    lca_data_missing: true
+    name: Vehicle Fuel Injection Cleaning Kits
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-2-5:
+    lca_data_missing: true
+    name: Vehicle Glass Cleaners
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-2-6:
+    lca_data_missing: true
+    name: Vehicle Waxes, Polishes & Protectants
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-2-6-1:
+    lca_data_missing: true
+    name: Car Wax
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-2-6-2:
+    lca_data_missing: true
+    name: Polishes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-2-6-3:
+    lca_data_missing: true
+    name: Protectants
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-2-6-4:
+    lca_data_missing: true
+    name: Sealants
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-3:
+    lca_data_missing: true
+    name: Vehicle Covers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-3-1:
+    lca_data_missing: true
+    name: Golf Cart Enclosures
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-3-2:
+    lca_data_missing: true
+    name: Motor Vehicle Windshield Covers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-3-3:
+    lca_data_missing: true
+    name: Tonneau Covers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-3-4:
+    lca_data_missing: true
+    name: Vehicle Hardtops
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-3-5:
+    lca_data_missing: true
+    name: Vehicle Soft Tops
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-3-6:
+    lca_data_missing: true
+    name: Vehicle Storage Covers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-3-6-1:
+    lca_data_missing: true
+    name: Automotive Storage Covers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-3-6-2:
+    lca_data_missing: true
+    name: Golf Cart Storage Covers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-3-6-3:
+    lca_data_missing: true
+    name: Motorcycle Storage Covers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-3-6-4:
+    lca_data_missing: true
+    name: Recreational Vehicle Storage Covers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-3-6-5:
+    lca_data_missing: true
+    name: Watercraft Storage Covers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-4:
+    lca_data_missing: true
+    name: Vehicle Decor
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-4-1:
+    lca_data_missing: true
+    name: Bumper Stickers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-4-2:
+    lca_data_missing: true
+    name: Vehicle Air Fresheners
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-4-3:
+    lca_data_missing: true
+    name: Vehicle Antenna Balls
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-4-4:
+    lca_data_missing: true
+    name: Vehicle Dashboard Accessories
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-4-5:
+    lca_data_missing: true
+    name: Vehicle Decals
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-4-6:
+    lca_data_missing: true
+    name: Vehicle Decor Accessory Sets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-4-7:
+    lca_data_missing: true
+    name: Vehicle Display Flags
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-4-8:
+    lca_data_missing: true
+    name: Vehicle Emblems & Hood Ornaments
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-4-9:
+    lca_data_missing: true
+    name: Vehicle Hitch Covers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-4-10:
+    lca_data_missing: true
+    name: Vehicle License Plate Covers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-4-11:
+    lca_data_missing: true
+    name: Vehicle License Plate Frames
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-4-12:
+    lca_data_missing: true
+    name: Vehicle License Plate Mounts & Holders
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-4-13:
+    lca_data_missing: true
+    name: Vehicle License Plates
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-4-14:
+    lca_data_missing: true
+    name: Vehicle Magnets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-4-15:
+    lca_data_missing: true
+    name: Vehicle Rear View Mirror Ornaments
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-4-16:
+    lca_data_missing: true
+    name: Vehicle Shift Boots
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-4-17:
+    lca_data_missing: true
+    name: Vehicle Shift Knobs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-4-18:
+    lca_data_missing: true
+    name: Vehicle Steering Wheel Covers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-4-19:
+    lca_data_missing: true
+    name: Vehicle Wraps
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-5:
+    lca_data_missing: true
+    name: Vehicle Fluids
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-5-1:
+    lca_data_missing: true
+    name: Vehicle Antifreeze
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-5-2:
+    lca_data_missing: true
+    name: Vehicle Brake Fluid
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-5-3:
+    lca_data_missing: true
+    name: Vehicle Cooling System Additives
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-5-3-1:
+    lca_data_missing: true
+    name: Coolant Additives
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-5-3-2:
+    lca_data_missing: true
+    name: Radiator Flushes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-5-3-3:
+    lca_data_missing: true
+    name: Radiator Sealers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-5-4:
+    lca_data_missing: true
+    name: Vehicle Engine Degreasers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-5-5:
+    lca_data_missing: true
+    name: Vehicle Fuel System Cleaners
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-5-5-1:
+    lca_data_missing: true
+    name: Carburetor Cleaners
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-5-5-2:
+    lca_data_missing: true
+    name: Complete Fuel System Cleaners
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-5-5-3:
+    lca_data_missing: true
+    name: Fuel Injector Cleaners
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-5-6:
+    lca_data_missing: true
+    name: Vehicle Greases
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-5-7:
+    lca_data_missing: true
+    name: Vehicle Hydraulic Clutch Fluid
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-5-8:
+    lca_data_missing: true
+    name: Vehicle Motor Oil
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-5-8-1:
+    lca_data_missing: true
+    name: Conventional Motor Oil
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-5-8-2:
+    lca_data_missing: true
+    name: Semi-Synthetic Motor Oil
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-5-8-3:
+    lca_data_missing: true
+    name: High Mileage Motor Oil
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-5-8-4:
+    lca_data_missing: true
+    name: Synthetic Motor Oil
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-5-9:
+    lca_data_missing: true
+    name: Vehicle Performance Additives
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-5-10:
+    lca_data_missing: true
+    name: Vehicle Power Steering Fluid
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-5-11:
+    lca_data_missing: true
+    name: Vehicle Transmission Fluid
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-5-12:
+    lca_data_missing: true
+    name: Vehicle Windshield Fluid
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-6:
+    lca_data_missing: true
+    name: Vehicle Paint
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-6-1:
+    lca_data_missing: true
+    name: Motor Vehicle Body Paint
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-6-2:
+    lca_data_missing: true
+    name: Motor Vehicle Brake Caliper Paint
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-7:
+    lca_data_missing: true
+    name: Vehicle Repair & Specialty Tools
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-7-1:
+    lca_data_missing: true
+    name: Motor Vehicle Brake Service Kits
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-7-2:
+    lca_data_missing: true
+    name: Motor Vehicle Clutch Alignment & Removal Tools
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-7-3:
+    lca_data_missing: true
+    name: Vehicle Battery Chargers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-7-4:
+    lca_data_missing: true
+    name: Vehicle Battery Testers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-7-5:
+    lca_data_missing: true
+    name: Vehicle Body Filler
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-7-6:
+    lca_data_missing: true
+    name: Vehicle Diagnostic Scanners
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-7-7:
+    lca_data_missing: true
+    name: Vehicle Jump Starters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-7-8:
+    lca_data_missing: true
+    name: Vehicle Jumper Cables
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-7-9:
+    lca_data_missing: true
+    name: Vehicle Tire Repair & Tire Changing Tools
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-7-9-1:
+    lca_data_missing: true
+    name: Tire Changing Tools
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-7-9-1-1:
+    lca_data_missing: true
+    name: Bead Breakers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-7-9-1-2:
+    lca_data_missing: true
+    name: Tire Changer Machines
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-7-9-1-3:
+    lca_data_missing: true
+    name: Tire Irons
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-7-9-1-4:
+    lca_data_missing: true
+    name: Tire Levers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-7-9-1-5:
+    lca_data_missing: true
+    name: Tire Spoons
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-7-9-2:
+    lca_data_missing: true
+    name: Tire Repair Kits
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-7-10:
+    lca_data_missing: true
+    name: Windshield Repair Kits
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-7-11:
+    lca_data_missing: true
+    name: Vehicle Lifts & Stands
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-7-11-1:
+    lca_data_missing: true
+    name: Vehicle Lifts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-5-7-11-2:
+    lca_data_missing: true
+    name: Vehicle Stands
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6:
+    lca_data_missing: true
+    name: Vehicle Safety & Security
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-1:
+    lca_data_missing: true
+    name: Motorcycle Protective Gear
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-1-1:
+    lca_data_missing: true
+    name: Motorcycle Chest & Back Protectors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-1-2:
+    lca_data_missing: true
+    name: Motorcycle Elbow & Wrist Guards
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-1-3:
+    lca_data_missing: true
+    name: Motorcycle Gloves
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-1-4:
+    lca_data_missing: true
+    name: Motorcycle Goggles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-1-5:
+    lca_data_missing: true
+    name: Motorcycle Hand Guards
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-1-6:
+    lca_data_missing: true
+    name: Motorcycle Helmet Parts & Accessories
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-1-7:
+    lca_data_missing: true
+    name: Motorcycle Helmets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-1-7-1:
+    lca_data_missing: true
+    name: Full Face Helmets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-1-7-2:
+    lca_data_missing: true
+    name: Half Helmets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-1-7-3:
+    lca_data_missing: true
+    name: Modular Helmets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-1-7-4:
+    lca_data_missing: true
+    name: Off-Road Helmets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-1-7-5:
+    lca_data_missing: true
+    name: Open Face Helmets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-1-8:
+    lca_data_missing: true
+    name: Motorcycle Kidney Belts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-1-9:
+    lca_data_missing: true
+    name: Motorcycle Knee & Shin Guards
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-1-10:
+    lca_data_missing: true
+    name: Motorcycle Neck Braces
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-3:
+    lca_data_missing: true
+    name: Vehicle Alarms & Locks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-3-1:
+    lca_data_missing: true
+    name: Automotive Alarm Accessories
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-3-2:
+    lca_data_missing: true
+    name: Automotive Alarm Systems
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-3-3:
+    lca_data_missing: true
+    name: Motorcycle Alarms & Locks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-3-4:
+    lca_data_missing: true
+    name: Vehicle Door Locks & Parts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-3-4-1:
+    lca_data_missing: true
+    name: Vehicle Door Lock Actuators
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-3-4-2:
+    lca_data_missing: true
+    name: Vehicle Door Lock Knobs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-3-4-3:
+    lca_data_missing: true
+    name: Vehicle Door Locks & Locking Systems
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-3-5:
+    lca_data_missing: true
+    name: Vehicle Hitch Locks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-3-6:
+    lca_data_missing: true
+    name: Vehicle Immobilizers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-3-7:
+    lca_data_missing: true
+    name: Vehicle Remote Keyless Systems
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-3-8:
+    lca_data_missing: true
+    name: Vehicle Steering Wheel Locks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-3-9:
+    lca_data_missing: true
+    name: Vehicle Wheel Clamps
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-4:
+    lca_data_missing: true
+    name: Vehicle Safety Equipment
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-4-1:
+    lca_data_missing: true
+    name: Car Window Nets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-4-2:
+    lca_data_missing: true
+    name: Emergency Road Flares
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-4-3:
+    lca_data_missing: true
+    name: Motor Vehicle Airbag Parts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-4-4:
+    lca_data_missing: true
+    name: Motor Vehicle Roll Cages & Bars
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-4-5:
+    lca_data_missing: true
+    name: Vehicle Seat Belt Buckles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-4-6:
+    lca_data_missing: true
+    name: Vehicle Seat Belt Covers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-4-7:
+    lca_data_missing: true
+    name: Vehicle Seat Belt Straps
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-4-8:
+    lca_data_missing: true
+    name: Vehicle Seat Belts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-4-9:
+    lca_data_missing: true
+    name: Vehicle Warning Whips
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-4-10:
+    lca_data_missing: true
+    name: Vehicle Wheel Chocks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-5:
+    lca_data_missing: true
+    name: Aircraft Protective Gear
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-5-1:
+    lca_data_missing: true
+    name: Pilot Helmets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-5-2:
+    lca_data_missing: true
+    name: Aircraft Safety Flight Suits
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-5-3:
+    lca_data_missing: true
+    name: Airline Life Vests
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-5-4:
+    lca_data_missing: true
+    name: Aircraft Emergency Parachutes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-5-5:
+    lca_data_missing: true
+    name: Aircraft Emergency Oxygen Systems
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-5-6:
+    lca_data_missing: true
+    name: Aircraft Anti-G Suits
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-5-7:
+    lca_data_missing: true
+    name: Aircraft Fire Suppression Gear
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-6:
+    lca_data_missing: true
+    name: Watercraft Safety Equipment
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-6-1:
+    lca_data_missing: true
+    name: Distress Beacons and EPIRBs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-6-2:
+    lca_data_missing: true
+    name: Emergency Marine Flares
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-6-3:
+    lca_data_missing: true
+    name: Life Rafts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-6-4:
+    lca_data_missing: true
+    name: Lifebuoys
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-6-5:
+    lca_data_missing: true
+    name: Man Overboard Systems
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-6-6:
+    lca_data_missing: true
+    name: Throw Ropes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-7:
+    lca_data_missing: true
+    name: Off-Road & Motor Sports Vehicle Protective Gear
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-7-1:
+    lca_data_missing: true
+    name: ATV & UTV Bar Pads
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-7-2:
+    lca_data_missing: true
+    name: ATV & UTV Helmets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-7-3:
+    lca_data_missing: true
+    name: ATV & UTV Goggles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-7-4:
+    lca_data_missing: true
+    name: ATV & UTV Gloves
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-7-5:
+    lca_data_missing: true
+    name: ATV & UTV Body Armor
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-7-6:
+    lca_data_missing: true
+    name: ATV & UTV Boots
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-7-7:
+    lca_data_missing: true
+    name: Racing Suits
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-7-8:
+    lca_data_missing: true
+    name: Racing Gloves
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-7-9:
+    lca_data_missing: true
+    name: Racing Helmets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-7-10:
+    lca_data_missing: true
+    name: Racing Goggles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-7-11:
+    lca_data_missing: true
+    name: Racing Neck Supports
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-7-12:
+    lca_data_missing: true
+    name: Racing Impact Guards
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-7-13:
+    lca_data_missing: true
+    name: Racing Balaclavas
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-7-14:
+    lca_data_missing: true
+    name: Racing Protective Shorts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-6-7-15:
+    lca_data_missing: true
+    name: Racing Chest Guards
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-7:
+    lca_data_missing: true
+    name: Vehicle Storage & Cargo
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-7-1:
+    lca_data_missing: true
+    name: Motor Vehicle Cargo Nets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-7-1-1:
+    lca_data_missing: true
+    name: Roof Cargo Nets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-7-1-2:
+    lca_data_missing: true
+    name: Truck Bed Cargo Nets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-7-1-3:
+    lca_data_missing: true
+    name: Trunk Cargo Nets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-7-2:
+    lca_data_missing: true
+    name: Motor Vehicle Carrying Rack Accessories
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-7-2-1:
+    lca_data_missing: true
+    name: Vehicle Bicycle Rack Accessories
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-7-2-2:
+    lca_data_missing: true
+    name: Vehicle Ski & Snowboard Rack Accessories
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-7-3:
+    lca_data_missing: true
+    name: Motor Vehicle Carrying Racks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-7-3-1:
+    lca_data_missing: true
+    name: Vehicle Base Rack Systems
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-7-3-2:
+    lca_data_missing: true
+    name: Vehicle Bicycle Racks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-7-3-3:
+    lca_data_missing: true
+    name: Vehicle Boat Racks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-7-3-4:
+    lca_data_missing: true
+    name: Vehicle Cargo Racks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-7-3-5:
+    lca_data_missing: true
+    name: Vehicle Fishing Rod Racks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-7-3-6:
+    lca_data_missing: true
+    name: Vehicle Gun Racks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-7-3-7:
+    lca_data_missing: true
+    name: Vehicle Motorcycle & Scooter Racks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-7-3-8:
+    lca_data_missing: true
+    name: Vehicle Ski & Snowboard Racks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-7-3-9:
+    lca_data_missing: true
+    name: Vehicle Water Sport Board Racks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-7-4:
+    lca_data_missing: true
+    name: Motor Vehicle Loading Ramps
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-7-5:
+    lca_data_missing: true
+    name: Motor Vehicle Trailers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-7-5-1:
+    lca_data_missing: true
+    name: Boat Trailers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-7-5-2:
+    lca_data_missing: true
+    name: Horse & Livestock Trailers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-7-5-3:
+    lca_data_missing: true
+    name: Travel Trailers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-7-5-4:
+    lca_data_missing: true
+    name: Utility & Cargo Trailers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-7-6:
+    lca_data_missing: true
+    name: Motorcycle Bags & Panniers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-7-7:
+    lca_data_missing: true
+    name: Truck Bed Storage Boxes & Organizers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-7-8:
+    lca_data_missing: true
+    name: Vehicle Headrest Hangers & Hooks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-7-9:
+    lca_data_missing: true
+    name: Vehicle Organizers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8:
+    lca_data_missing: true
+    name: Watercraft Parts & Accessories
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-1:
+    lca_data_missing: true
+    name: Docking & Anchoring
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-1-1:
+    lca_data_missing: true
+    name: Anchor Chains
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-1-2:
+    lca_data_missing: true
+    name: Anchor Lines & Ropes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-1-3:
+    lca_data_missing: true
+    name: Anchor Windlasses
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-1-4:
+    lca_data_missing: true
+    name: Anchors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-1-5:
+    lca_data_missing: true
+    name: Boat Hooks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-1-6:
+    lca_data_missing: true
+    name: Boat Ladders
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-1-7:
+    lca_data_missing: true
+    name: Dock Cleats
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-1-8:
+    lca_data_missing: true
+    name: Dock Steps
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-2:
+    lca_data_missing: true
+    name: Sailboat Parts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-3:
+    lca_data_missing: true
+    name: Watercraft Care
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-3-1:
+    lca_data_missing: true
+    name: Watercraft Cleaners
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-3-2:
+    lca_data_missing: true
+    name: Watercraft Polishes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-4:
+    lca_data_missing: true
+    name: Watercraft Engine Parts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-4-1:
+    lca_data_missing: true
+    name: Watercraft Alternators
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-4-2:
+    lca_data_missing: true
+    name: Watercraft Carburetors & Parts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-4-3:
+    lca_data_missing: true
+    name: Watercraft Engine Controls
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-4-4:
+    lca_data_missing: true
+    name: Watercraft Ignition Parts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-4-5:
+    lca_data_missing: true
+    name: Watercraft Impellers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-4-6:
+    lca_data_missing: true
+    name: Watercraft Motor Locks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-4-7:
+    lca_data_missing: true
+    name: Watercraft Motor Mounts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-4-8:
+    lca_data_missing: true
+    name: Watercraft Pistons & Parts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-4-9:
+    lca_data_missing: true
+    name: Watercraft Propellers
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-5:
+    lca_data_missing: true
+    name: Watercraft Engines & Motors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-5-1:
+    lca_data_missing: true
+    name: Inboard Motors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-5-2:
+    lca_data_missing: true
+    name: Outboard Motors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-5-3:
+    lca_data_missing: true
+    name: Trolling Motors
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-6:
+    lca_data_missing: true
+    name: Watercraft Exhaust Parts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-6-1:
+    lca_data_missing: true
+    name: Watercraft Manifolds
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-6-2:
+    lca_data_missing: true
+    name: Watercraft Mufflers & Parts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-7:
+    lca_data_missing: true
+    name: Watercraft Fuel Systems
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-7-1:
+    lca_data_missing: true
+    name: Watercraft Fuel Lines & Parts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-7-2:
+    lca_data_missing: true
+    name: Watercraft Fuel Meters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-7-3:
+    lca_data_missing: true
+    name: Watercraft Fuel Pumps & Parts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-7-4:
+    lca_data_missing: true
+    name: Watercraft Fuel Tanks & Parts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-8:
+    lca_data_missing: true
+    name: Watercraft Lighting
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-9:
+    lca_data_missing: true
+    name: Watercraft Steering Parts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-9-1:
+    lca_data_missing: true
+    name: Watercraft Steering Cables
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-1-8-9-2:
+    lca_data_missing: true
+    name: Watercraft Steering Wheels
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2:
+    lca_data_missing: true
+    name: Vehicles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-1:
+    lca_data_missing: true
+    name: Aircraft
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-1-1:
+    lca_data_missing: true
+    name: Heavier-Than-Air Aircraft
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-1-1-1:
+    lca_data_missing: true
+    name: Helicopters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-1-1-2:
+    lca_data_missing: true
+    name: Drones
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-1-1-3:
+    lca_data_missing: true
+    name: Ultralights
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-1-1-4:
+    lca_data_missing: true
+    name: Autogyros
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-1-1-5:
+    lca_data_missing: true
+    name: Gliders
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-1-1-6:
+    lca_data_missing: true
+    name: Light Jets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-1-1-7:
+    lca_data_missing: true
+    name: Very Light Jets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-1-1-8:
+    lca_data_missing: true
+    name: Mid-Size Jets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-1-1-9:
+    lca_data_missing: true
+    name: Super Mid-Size Jets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-1-1-10:
+    lca_data_missing: true
+    name: Large Jets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-1-1-11:
+    lca_data_missing: true
+    name: Long Range Jets
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-1-1-12:
+    lca_data_missing: true
+    name: Light Aircraft
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-1-2:
+    lca_data_missing: true
+    name: Lighter-Than-Air Aircraft
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-1-2-1:
+    lca_data_missing: true
+    name: Hot Air Balloons
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-1-2-2:
+    lca_data_missing: true
+    name: Airships & Dirigibles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2:
+    lca_data_missing: true
+    name: Motor Vehicles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-1:
+    lca_data_missing: true
+    name: Cars, Trucks & Vans
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-1-1:
+    lca_data_missing: true
+    name: Electric Vehicles (EV)
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-1-1-1:
+    lca_data_missing: true
+    name: Electric Cars
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-1-1-1-1:
+    lca_data_missing: true
+    name: Battery Electric Vehicles (BEV)
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-1-1-1-2:
+    lca_data_missing: true
+    name: Plug-In Hybrid Electric Vehicles (PHEV)
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-1-1-2:
+    lca_data_missing: true
+    name: Electric Trucks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-1-1-3:
+    lca_data_missing: true
+    name: Electric Vans
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-1-2:
+    lca_data_missing: true
+    name: Non-Electric Vehicles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-1-2-1:
+    lca_data_missing: true
+    name: Cars
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-1-2-2:
+    lca_data_missing: true
+    name: Trucks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-1-2-3:
+    lca_data_missing: true
+    name: Vans
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-1-3:
+    lca_data_missing: true
+    name: Hybrid Vehicles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-1-3-1:
+    lca_data_missing: true
+    name: Hybrid Cars
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-1-3-2:
+    lca_data_missing: true
+    name: Hybrid Trucks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-1-3-3:
+    lca_data_missing: true
+    name: Hybrid Vans
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-1-4:
+    lca_data_missing: true
+    name: Vintage & Classic Vehicles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-1-4-1:
+    lca_data_missing: true
+    name: Vintage & Classic Cars
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-1-4-2:
+    lca_data_missing: true
+    name: Vintage & Classic Trucks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-1-4-3:
+    lca_data_missing: true
+    name: Vintage & Classic Vans
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-2:
+    lca_data_missing: true
+    name: Golf Carts
+    notes: Electric golf carts
+    weight:
+      confidence: medium
+      estimate_g: 250000
+      max_g: 400000
+      min_g: 150000
+  vp-2-2-3:
+    lca_data_missing: true
+    name: Motorcycles & Scooters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-3-1:
+    lca_data_missing: true
+    name: Electric Motorcycles & Scooters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-3-2:
+    lca_data_missing: true
+    name: Non-Electric Motorcycles & Scooters
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-4:
+    lca_data_missing: true
+    name: Off-Road and All-Terrain Vehicles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-4-1:
+    lca_data_missing: true
+    name: ATVs & UTVs
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-4-2:
+    lca_data_missing: true
+    name: Go Karts & Dune Buggies
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-4-3:
+    lca_data_missing: true
+    name: Monster Trucks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-5:
+    lca_data_missing: true
+    name: Recreational Vehicles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-6:
+    lca_data_missing: true
+    name: Snowmobiles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-7:
+    lca_data_missing: true
+    name: Commercial Vehicles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-7-1:
+    lca_data_missing: true
+    name: Buses
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-7-1-1:
+    lca_data_missing: true
+    name: City Buses
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-7-1-2:
+    lca_data_missing: true
+    name: Coach Buses
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-7-1-3:
+    lca_data_missing: true
+    name: School Buses
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-7-1-4:
+    lca_data_missing: true
+    name: Minibuses
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-7-1-5:
+    lca_data_missing: true
+    name: Double Decker Buses
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-7-1-6:
+    lca_data_missing: true
+    name: Articulated Buses
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-7-1-7:
+    lca_data_missing: true
+    name: Trolleybuses
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-7-2:
+    lca_data_missing: true
+    name: Taxis
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-8:
+    lca_data_missing: true
+    name: Service & Utility Vehicles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-8-1:
+    lca_data_missing: true
+    name: Emergency Vehicles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-8-1-1:
+    lca_data_missing: true
+    name: Ambulances
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-8-1-2:
+    lca_data_missing: true
+    name: Fire Trucks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-8-1-3:
+    lca_data_missing: true
+    name: Police Vehicles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-8-1-3-1:
+    lca_data_missing: true
+    name: Police Cars
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-8-1-3-2:
+    lca_data_missing: true
+    name: Police Trucks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-8-1-3-3:
+    lca_data_missing: true
+    name: Police Vans
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-8-2:
+    lca_data_missing: true
+    name: Military Vehicles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-9:
+    lca_data_missing: true
+    name: Motor Sports Vehicles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-9-1:
+    lca_data_missing: true
+    name: Race Cars
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-9-1-1:
+    lca_data_missing: true
+    name: Drag Racing Cars
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-9-1-2:
+    lca_data_missing: true
+    name: Drift Cars
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-9-1-3:
+    lca_data_missing: true
+    name: Formula Cars
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-9-1-4:
+    lca_data_missing: true
+    name: GT Cars
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-9-1-5:
+    lca_data_missing: true
+    name: Rally Cars
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-9-1-6:
+    lca_data_missing: true
+    name: Sports Prototypes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-9-1-7:
+    lca_data_missing: true
+    name: Stock Cars
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-9-1-8:
+    lca_data_missing: true
+    name: Touring Cars
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-9-2:
+    lca_data_missing: true
+    name: Racing Karts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-9-3:
+    lca_data_missing: true
+    name: Racing Motorcycles
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-9-3-1:
+    lca_data_missing: true
+    name: Enduro Bikes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-9-3-2:
+    lca_data_missing: true
+    name: Motocross Bikes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-9-3-3:
+    lca_data_missing: true
+    name: Speedway Bikes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-9-3-4:
+    lca_data_missing: true
+    name: Trials Bikes
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-9-4:
+    lca_data_missing: true
+    name: Racing Sidecars
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-2-9-5:
+    lca_data_missing: true
+    name: Racing Trucks
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-3:
+    lca_data_missing: true
+    name: Watercraft
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-3-1:
+    lca_data_missing: true
+    name: Motor Boats
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-3-2:
+    lca_data_missing: true
+    name: Personal Watercraft
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-3-3:
+    lca_data_missing: true
+    name: Sailboats
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50
+  vp-2-3-4:
+    lca_data_missing: true
+    name: Yachts
+    weight:
+      confidence: low
+      estimate_g: 5000
+      max_g: 500000
+      methodology: Vertical-level default estimate
+      min_g: 50

@@ -1,0 +1,336 @@
+schema_version: 0.1.0
+last_updated: '2026-01-30'
+categories:
+  ma:
+    lca_data_missing: true
+    name: Mature
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-1:
+    lca_data_missing: true
+    name: Erotic
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-1-1:
+    lca_data_missing: true
+    name: Erotic Clothing
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-1-2:
+    lca_data_missing: true
+    name: Erotic Food & Edibles
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-1-3:
+    lca_data_missing: true
+    name: Erotic Magazines
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-1-4:
+    lca_data_missing: true
+    name: Sex Toys & Erotic Games
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-1-5:
+    lca_data_missing: true
+    name: Erotic Videos
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-1-6:
+    lca_data_missing: true
+    name: Erotic Books
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2:
+    lca_data_missing: true
+    name: Weapons & Weapon Accessories
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2-1:
+    lca_data_missing: true
+    name: Weapon Care & Accessories
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2-1-1:
+    lca_data_missing: true
+    name: Ammunition
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2-1-2:
+    lca_data_missing: true
+    name: Ammunition Cases & Holders
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2-1-3:
+    lca_data_missing: true
+    name: Reloading Supplies & Equipment
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2-1-3-1:
+    lca_data_missing: true
+    name: Ammunition Reloading Presses
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2-1-4:
+    lca_data_missing: true
+    name: Weapon Cases & Range Bags
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2-1-5:
+    lca_data_missing: true
+    name: Weapon Cleaning
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2-1-5-1:
+    lca_data_missing: true
+    name: Cleaning Cloths & Swabs
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2-1-5-2:
+    lca_data_missing: true
+    name: Cleaning Patches
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2-1-5-3:
+    lca_data_missing: true
+    name: Cleaning Solvents
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2-1-6:
+    lca_data_missing: true
+    name: Weapon Grips
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2-1-7:
+    lca_data_missing: true
+    name: Weapon Holsters
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2-1-8:
+    lca_data_missing: true
+    name: Weapon Lights
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2-1-9:
+    lca_data_missing: true
+    name: Weapon Rails
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2-1-10:
+    lca_data_missing: true
+    name: Weapon Slings
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2-2:
+    lca_data_missing: true
+    name: Weapons
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2-2-1:
+    lca_data_missing: true
+    name: Brass Knuckles
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2-2-2:
+    lca_data_missing: true
+    name: Clubs & Batons
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2-2-3:
+    lca_data_missing: true
+    name: Combat Knives
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2-2-4:
+    lca_data_missing: true
+    name: Mace & Pepper Spray
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2-2-5:
+    lca_data_missing: true
+    name: Nunchucks
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2-2-6:
+    lca_data_missing: true
+    name: Spears
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2-2-7:
+    lca_data_missing: true
+    name: Staff & Stick Weapons
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2-2-8:
+    lca_data_missing: true
+    name: Stun Guns & Tasers
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2-2-9:
+    lca_data_missing: true
+    name: Swords
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2-2-10:
+    lca_data_missing: true
+    name: Throwing Stars
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2-2-11:
+    lca_data_missing: true
+    name: Whips
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  ma-2-2-12:
+    lca_data_missing: true
+    name: Guns
+    weight:
+      confidence: low
+      estimate_g: 300
+      max_g: 5000
+      methodology: Vertical-level default estimate
+      min_g: 10

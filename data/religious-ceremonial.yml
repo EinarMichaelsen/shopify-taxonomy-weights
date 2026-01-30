@@ -1,0 +1,120 @@
+schema_version: 0.1.0
+last_updated: '2026-01-30'
+categories:
+  rc:
+    lca_data_missing: true
+    name: Religious & Ceremonial
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  rc-1:
+    lca_data_missing: true
+    name: Memorial Ceremony Supplies
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  rc-1-1:
+    lca_data_missing: true
+    name: Memorial Urns
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  rc-2:
+    lca_data_missing: true
+    name: Religious Items
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  rc-2-1:
+    lca_data_missing: true
+    name: Prayer Beads
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  rc-2-2:
+    lca_data_missing: true
+    name: Prayer Cards
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  rc-2-3:
+    lca_data_missing: true
+    name: Religious Altars
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  rc-2-4:
+    lca_data_missing: true
+    name: Religious Veils
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  rc-2-5:
+    lca_data_missing: true
+    name: Tarot Cards
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  rc-3:
+    lca_data_missing: true
+    name: Wedding Ceremony Supplies
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  rc-3-1:
+    lca_data_missing: true
+    name: Aisle Runners
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  rc-3-2:
+    lca_data_missing: true
+    name: Flower Girl Baskets
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 10
+  rc-3-3:
+    lca_data_missing: true
+    name: Ring Pillows & Holders
+    weight:
+      confidence: low
+      estimate_g: 500
+      max_g: 10000
+      methodology: Vertical-level default estimate
+      min_g: 10

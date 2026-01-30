@@ -1,0 +1,408 @@
+schema_version: 0.1.0
+last_updated: '2026-01-30'
+categories:
+  so:
+    lca_data_missing: true
+    name: Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1:
+    lca_data_missing: true
+    name: Computer Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-1:
+    lca_data_missing: true
+    name: Antivirus & Security Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-2:
+    lca_data_missing: true
+    name: Business & Productivity Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-2-1:
+    lca_data_missing: true
+    name: Database Management Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-2-8:
+    lca_data_missing: true
+    name: Project Management Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-2-11:
+    lca_data_missing: true
+    name: Communication & Collaboration Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-2-12:
+    lca_data_missing: true
+    name: Customer Relationship Management (CRM) Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-2-13:
+    lca_data_missing: true
+    name: Data Analysis & Visualization Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-2-14:
+    lca_data_missing: true
+    name: Enterprise Resource Planning (ERP) Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-3:
+    lca_data_missing: true
+    name: Compilers & Programming Tools
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-3-1:
+    lca_data_missing: true
+    name: Software Development Tools
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-4:
+    lca_data_missing: true
+    name: Computer Utilities & Maintenance Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-5:
+    lca_data_missing: true
+    name: Dictionary & Translation Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-6:
+    lca_data_missing: true
+    name: Educational Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-7:
+    lca_data_missing: true
+    name: Financial, Tax & Accounting Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-8:
+    lca_data_missing: true
+    name: GPS Map Data & Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-9:
+    lca_data_missing: true
+    name: Handheld & PDA Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-10:
+    lca_data_missing: true
+    name: Multimedia & Design Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-10-1:
+    lca_data_missing: true
+    name: 3D Modeling Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-10-2:
+    lca_data_missing: true
+    name: Animation Editing Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-10-3:
+    lca_data_missing: true
+    name: Graphic Design & Illustration Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-10-4:
+    lca_data_missing: true
+    name: Home & Interior Design Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-10-5:
+    lca_data_missing: true
+    name: Home Publishing Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-10-6:
+    lca_data_missing: true
+    name: Media Viewing Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-10-7:
+    lca_data_missing: true
+    name: Music Composition Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-10-8:
+    lca_data_missing: true
+    name: Sound Editing Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-10-9:
+    lca_data_missing: true
+    name: Video Editing Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-10-10:
+    lca_data_missing: true
+    name: Web Design Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-11:
+    lca_data_missing: true
+    name: Network Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-12:
+    lca_data_missing: true
+    name: Office Application Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-13:
+    lca_data_missing: true
+    name: Operating Systems
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-14:
+    lca_data_missing: true
+    name: Restore Disks
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-15:
+    lca_data_missing: true
+    name: Artificial Intelligence (AI) Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-1-15-1:
+    lca_data_missing: true
+    name: Machine Learning Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-2:
+    lca_data_missing: true
+    name: Digital Goods & Currency
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-2-1:
+    lca_data_missing: true
+    name: Computer Icons
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-2-2:
+    lca_data_missing: true
+    name: Desktop Wallpapers
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-2-3:
+    lca_data_missing: true
+    name: Digital Artwork
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-2-4:
+    lca_data_missing: true
+    name: Document Templates
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-2-5:
+    lca_data_missing: true
+    name: Fonts
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-2-6:
+    lca_data_missing: true
+    name: Stock Photographs & Video Footage
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-2-7:
+    lca_data_missing: true
+    name: Virtual Currency
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-3:
+    lca_data_missing: true
+    name: Video Game Software
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
+  so-4:
+    lca_data_missing: true
+    name: Cloud Services
+    weight:
+      confidence: low
+      estimate_g: 100
+      max_g: 500
+      methodology: Vertical-level default estimate
+      min_g: 0
