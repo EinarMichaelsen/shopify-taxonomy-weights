@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "generated_at": "2026-01-30T05:56:06.106776Z",
+  "generated_at": "2026-07-30T15:12:51.657126Z",
   "categories": {
     "ap": {
       "lca_data_missing": true,
@@ -5268,7 +5268,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-1-1-2": {
-      "lca_data_missing": true,
       "name": "Leggings",
       "weight": {
         "confidence": "high",
@@ -5276,6 +5275,15 @@
         "max_g": 350,
         "min_g": 150
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 8.14,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Leggings - https://www.carbonfact.com/carbon-footprint/leggings"
+      ],
+      "notes": "Leggings database average.",
       "vertical": "apparel-accessories"
     },
     "aa-1-1-1-3": {
@@ -5302,7 +5310,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-1-1-5": {
-      "lca_data_missing": true,
       "name": "Tights",
       "weight": {
         "confidence": "low",
@@ -5311,6 +5318,15 @@
         "methodology": "Inherited from parent category (aa-1-1)",
         "min_g": 100
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 8.1,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Tights - https://www.carbonfact.com/carbon-footprint/tights"
+      ],
+      "notes": "Tights database average (median 5.91, range 2.58-22.71 kg CO2e; avg mass 172 g); applied to tights, hosiery and pantyhose.",
       "vertical": "apparel-accessories"
     },
     "aa-1-1-1-6": {
@@ -5372,7 +5388,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-1-2-2": {
-      "lca_data_missing": true,
       "name": "T-Shirts",
       "weight": {
         "confidence": "low",
@@ -5381,10 +5396,19 @@
         "methodology": "Inherited from parent category (aa-1-1-2)",
         "min_g": 100
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 6.21,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 - T-shirt en polyester - https://impactco2.fr/outils/habillement/tshirtenpolyester"
+      ],
+      "notes": "ADEME polyester t-shirt archetype, matching typical activewear t-shirt material.",
       "vertical": "apparel-accessories"
     },
     "aa-1-1-2-3": {
-      "lca_data_missing": true,
       "name": "Tank Tops",
       "weight": {
         "confidence": "high",
@@ -5392,6 +5416,15 @@
         "max_g": 200,
         "min_g": 70
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 8.43,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Tank Top - https://www.carbonfact.com/carbon-footprint/tank-top"
+      ],
+      "notes": "Tank-top database average (median 6.91, range 3.52-19.35 kg CO2e).",
       "vertical": "apparel-accessories"
     },
     "aa-1-1-4": {
@@ -5419,7 +5452,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-1-6": {
-      "lca_data_missing": true,
       "name": "Sports Bras",
       "weight": {
         "confidence": "high",
@@ -5427,10 +5459,18 @@
         "max_g": 180,
         "min_g": 60
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 5.22,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Bra - https://www.carbonfact.com/carbon-footprint/bra"
+      ],
+      "notes": "Bra database average (range 2.46-8.74 kg CO2e; avg mass 94 g); the source does not break out sports/nursing/first bras.",
       "vertical": "apparel-accessories"
     },
     "aa-1-1-7": {
-      "lca_data_missing": true,
       "name": "Activewear Sweatshirts & Hoodies",
       "weight": {
         "confidence": "low",
@@ -5439,10 +5479,20 @@
         "methodology": "Inherited from parent category (aa-1-1)",
         "min_g": 100
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 32.5,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 API (Base Empreinte) - https://impactco2.fr/api/v1/thematiques/ecv/habillement",
+        "ASKET - The Impact Receipt - https://www.asket.com/en-ww/journal/asket/impact-receipt"
+      ],
+      "notes": "ADEME cotton sweatshirt (sweat en coton) archetype; French 'sweat' covers sweatshirts and hoodies. Brand cradle-to-gate reference: ASKET sweatshirt 8 kg CO2e (gap reflects use phase and modeling assumptions).",
       "vertical": "apparel-accessories"
     },
     "aa-1-1-7-2": {
-      "lca_data_missing": true,
       "materials": {
         "breakdown": [
           {
@@ -5463,10 +5513,20 @@
         "max_g": 800,
         "min_g": 350
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 32.5,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 API (Base Empreinte) - https://impactco2.fr/api/v1/thematiques/ecv/habillement",
+        "ASKET - The Impact Receipt - https://www.asket.com/en-ww/journal/asket/impact-receipt"
+      ],
+      "notes": "ADEME cotton sweatshirt (sweat en coton) archetype; French 'sweat' covers sweatshirts and hoodies. Brand cradle-to-gate reference: ASKET sweatshirt 8 kg CO2e (gap reflects use phase and modeling assumptions).",
       "vertical": "apparel-accessories"
     },
     "aa-1-1-7-4": {
-      "lca_data_missing": true,
       "name": "Sweatshirts",
       "weight": {
         "confidence": "low",
@@ -5475,6 +5535,17 @@
         "methodology": "Inherited from parent category (aa-1-1)",
         "min_g": 100
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 32.5,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 API (Base Empreinte) - https://impactco2.fr/api/v1/thematiques/ecv/habillement",
+        "ASKET - The Impact Receipt - https://www.asket.com/en-ww/journal/asket/impact-receipt"
+      ],
+      "notes": "ADEME cotton sweatshirt (sweat en coton) archetype; French 'sweat' covers sweatshirts and hoodies. Brand cradle-to-gate reference: ASKET sweatshirt 8 kg CO2e (gap reflects use phase and modeling assumptions).",
       "vertical": "apparel-accessories"
     },
     "aa-1-1-7-5": {
@@ -6503,7 +6574,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-4": {
-      "lca_data_missing": true,
       "materials": {
         "breakdown": [
           {
@@ -6528,6 +6598,17 @@
         "max_g": 1200,
         "min_g": 150
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 56.9,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 API (Base Empreinte) - https://impactco2.fr/api/v1/thematiques/ecv/habillement",
+        "Carbonfact - The Carbon Footprint of a Dress - https://www.carbonfact.com/carbon-footprint/dress"
+      ],
+      "notes": "ADEME cotton dress archetype; polyester 58.26 and viscose 52.48 kg CO2e variants bracket the range (same API). Carbonfact database average is 18.39 kg CO2e (production stages only), illustrating the impact of use-phase assumptions.",
       "vertical": "apparel-accessories"
     },
     "aa-1-5": {
@@ -6675,7 +6756,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-5-3-2": {
-      "lca_data_missing": true,
       "name": "First Bras",
       "weight": {
         "confidence": "low",
@@ -6684,6 +6764,15 @@
         "methodology": "Inherited from parent category (aa-1)",
         "min_g": 50
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 5.22,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Bra - https://www.carbonfact.com/carbon-footprint/bra"
+      ],
+      "notes": "Bra database average (range 2.46-8.74 kg CO2e; avg mass 94 g); the source does not break out sports/nursing/first bras.",
       "vertical": "apparel-accessories"
     },
     "aa-1-6": {
@@ -6771,7 +6860,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-6-3": {
-      "lca_data_missing": true,
       "name": "Bras",
       "weight": {
         "confidence": "high",
@@ -6779,6 +6867,15 @@
         "max_g": 150,
         "min_g": 40
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 5.22,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Bra - https://www.carbonfact.com/carbon-footprint/bra"
+      ],
+      "notes": "Bra database average (range 2.46-8.74 kg CO2e; avg mass 94 g); the source does not break out sports/nursing/first bras.",
       "vertical": "apparel-accessories"
     },
     "aa-1-6-4": {
@@ -6794,7 +6891,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-6-6": {
-      "lca_data_missing": true,
       "name": "Hosiery",
       "weight": {
         "confidence": "low",
@@ -6803,6 +6899,15 @@
         "methodology": "Inherited from parent category (aa-1)",
         "min_g": 50
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 8.1,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Tights - https://www.carbonfact.com/carbon-footprint/tights"
+      ],
+      "notes": "Tights database average (median 5.91, range 2.58-22.71 kg CO2e; avg mass 172 g); applied to tights, hosiery and pantyhose.",
       "vertical": "apparel-accessories"
     },
     "aa-1-6-7": {
@@ -6854,7 +6959,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-6-8-3": {
-      "lca_data_missing": true,
       "name": "Pantyhose",
       "weight": {
         "confidence": "low",
@@ -6863,6 +6967,15 @@
         "methodology": "Inherited from parent category (aa-1)",
         "min_g": 50
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 8.1,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Tights - https://www.carbonfact.com/carbon-footprint/tights"
+      ],
+      "notes": "Tights database average (median 5.91, range 2.58-22.71 kg CO2e; avg mass 172 g); applied to tights, hosiery and pantyhose.",
       "vertical": "apparel-accessories"
     },
     "aa-1-6-9": {
@@ -6950,7 +7063,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-6-11": {
-      "lca_data_missing": true,
       "name": "Women's Underpants",
       "weight": {
         "confidence": "low",
@@ -6959,6 +7071,15 @@
         "methodology": "Inherited from parent category (aa-1)",
         "min_g": 50
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 13.36,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Underwear - https://www.carbonfact.com/carbon-footprint/underwear"
+      ],
+      "notes": "Underwear database average (median 10.71, range 2.91-37.36 kg CO2e; avg mass 228 g). Average skews above typical single briefs; see boxer-shorts entry for a garment-level cradle-to-gate reference.",
       "vertical": "apparel-accessories"
     },
     "aa-1-6-11-1": {
@@ -7070,7 +7191,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-7-1": {
-      "lca_data_missing": true,
       "name": "Nursing Bras",
       "weight": {
         "confidence": "low",
@@ -7079,10 +7199,18 @@
         "methodology": "Inherited from parent category (aa-1)",
         "min_g": 50
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 5.22,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Bra - https://www.carbonfact.com/carbon-footprint/bra"
+      ],
+      "notes": "Bra database average (range 2.46-8.74 kg CO2e; avg mass 94 g); the source does not break out sports/nursing/first bras.",
       "vertical": "apparel-accessories"
     },
     "aa-1-7-2": {
-      "lca_data_missing": true,
       "name": "Maternity Dresses",
       "weight": {
         "confidence": "low",
@@ -7091,6 +7219,17 @@
         "methodology": "Inherited from parent category (aa-1)",
         "min_g": 50
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 56.9,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 API (Base Empreinte) - https://impactco2.fr/api/v1/thematiques/ecv/habillement",
+        "Carbonfact - The Carbon Footprint of a Dress - https://www.carbonfact.com/carbon-footprint/dress"
+      ],
+      "notes": "ADEME cotton dress archetype; polyester 58.26 and viscose 52.48 kg CO2e variants bracket the range (same API). Carbonfact database average is 18.39 kg CO2e (production stages only), illustrating the impact of use-phase assumptions.",
       "vertical": "apparel-accessories"
     },
     "aa-1-7-3": {
@@ -7142,7 +7281,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-7-4-4": {
-      "lca_data_missing": true,
       "name": "Jeans",
       "weight": {
         "confidence": "low",
@@ -7151,10 +7289,21 @@
         "methodology": "Inherited from parent category (aa-1)",
         "min_g": 50
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 25.1,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 - Jeans - https://impactco2.fr/outils/habillement/jeans",
+        "Levi Strauss & Co., lifecycle assessment of the 501 jean - https://m.levistrauss.com/wp-content/uploads/2015/03/Fact-Sheet-for-LCA-FINAL.pdf",
+        "ASKET - The Regular Jeans (Raw Denim) product impact - https://www.asket.com/en-us/mens-regular-jeans-raw-denim"
+      ],
+      "notes": "ADEME jeans archetype; applied to jeans and jeggings (denim-family bottoms). Corroborating figures: Levi's 501 full-lifecycle LCA 33.4 kg CO2e; ASKET raw-denim jeans 10.86 kg CO2e cradle-to-gate.",
       "vertical": "apparel-accessories"
     },
     "aa-1-7-4-5": {
-      "lca_data_missing": true,
       "name": "Jeggings",
       "weight": {
         "confidence": "low",
@@ -7163,6 +7312,18 @@
         "methodology": "Inherited from parent category (aa-1)",
         "min_g": 50
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 25.1,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 - Jeans - https://impactco2.fr/outils/habillement/jeans",
+        "Levi Strauss & Co., lifecycle assessment of the 501 jean - https://m.levistrauss.com/wp-content/uploads/2015/03/Fact-Sheet-for-LCA-FINAL.pdf",
+        "ASKET - The Regular Jeans (Raw Denim) product impact - https://www.asket.com/en-us/mens-regular-jeans-raw-denim"
+      ],
+      "notes": "ADEME jeans archetype; applied to jeans and jeggings (denim-family bottoms). Corroborating figures: Levi's 501 full-lifecycle LCA 33.4 kg CO2e; ASKET raw-denim jeans 10.86 kg CO2e cradle-to-gate.",
       "vertical": "apparel-accessories"
     },
     "aa-1-7-4-7": {
@@ -7334,7 +7495,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-7-8": {
-      "lca_data_missing": true,
       "name": "Maternity Tops",
       "weight": {
         "confidence": "low",
@@ -7343,10 +7503,18 @@
         "methodology": "Inherited from parent category (aa-1)",
         "min_g": 50
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 12.41,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Tops - https://www.carbonfact.com/carbon-footprint/tops"
+      ],
+      "notes": "Category-level default: average across 10,826 'tops' products (median 10.84, range 5.16-22.74 kg CO2e; avg mass 227 g). Prefer subcategory figures where present.",
       "vertical": "apparel-accessories"
     },
     "aa-1-7-8-1": {
-      "lca_data_missing": true,
       "name": "Blouses",
       "weight": {
         "confidence": "low",
@@ -7355,6 +7523,17 @@
         "methodology": "Inherited from parent category (aa-1)",
         "min_g": 50
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 13.2,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 - Chemise en coton - https://impactco2.fr/outils/habillement/chemiseencoton",
+        "Carbonfact - The Carbon Footprint of a Shirt - https://www.carbonfact.com/carbon-footprint/shirt"
+      ],
+      "notes": "ADEME cotton shirt (chemise) archetype applied to adult woven shirts and blouses. Corroborating database average: 14.68 kg CO2e across 87,856 shirt products (Carbonfact, avg mass 329 g, median 11.98).",
       "vertical": "apparel-accessories"
     },
     "aa-1-7-8-2": {
@@ -7382,7 +7561,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-7-8-4": {
-      "lca_data_missing": true,
       "name": "Nursing Shirts",
       "weight": {
         "confidence": "low",
@@ -7391,6 +7569,17 @@
         "methodology": "Inherited from parent category (aa-1)",
         "min_g": 50
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 13.2,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 - Chemise en coton - https://impactco2.fr/outils/habillement/chemiseencoton",
+        "Carbonfact - The Carbon Footprint of a Shirt - https://www.carbonfact.com/carbon-footprint/shirt"
+      ],
+      "notes": "ADEME cotton shirt (chemise) archetype applied to adult woven shirts and blouses. Corroborating database average: 14.68 kg CO2e across 87,856 shirt products (Carbonfact, avg mass 329 g, median 11.98).",
       "vertical": "apparel-accessories"
     },
     "aa-1-7-8-5": {
@@ -7406,7 +7595,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-7-8-7": {
-      "lca_data_missing": true,
       "name": "Shirts",
       "weight": {
         "confidence": "low",
@@ -7415,10 +7603,20 @@
         "methodology": "Inherited from parent category (aa-1)",
         "min_g": 50
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 13.2,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 - Chemise en coton - https://impactco2.fr/outils/habillement/chemiseencoton",
+        "Carbonfact - The Carbon Footprint of a Shirt - https://www.carbonfact.com/carbon-footprint/shirt"
+      ],
+      "notes": "ADEME cotton shirt (chemise) archetype applied to adult woven shirts and blouses. Corroborating database average: 14.68 kg CO2e across 87,856 shirt products (Carbonfact, avg mass 329 g, median 11.98).",
       "vertical": "apparel-accessories"
     },
     "aa-1-7-8-8": {
-      "lca_data_missing": true,
       "name": "T-Shirts",
       "weight": {
         "confidence": "low",
@@ -7427,6 +7625,17 @@
         "methodology": "Inherited from parent category (aa-1)",
         "min_g": 50
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 6.43,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 - T-shirt en coton - https://impactco2.fr/outils/habillement/tshirtencoton",
+        "Scientific Reports (2026), Uncertainty analysis of physical-based carbon accounting in cotton T-shirt manufacturing - https://www.nature.com/articles/s41598-026-38773-4"
+      ],
+      "notes": "ADEME cotton t-shirt archetype applied to maternity t-shirts (adult-sized garment). Corroborating manufacturing-only figure: 1.37 kg CO2e cradle-to-gate for a 150 g cotton t-shirt (Scientific Reports 2026); the gap reflects use phase, distribution and end of life.",
       "vertical": "apparel-accessories"
     },
     "aa-1-7-8-11": {
@@ -7478,7 +7687,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-8-3": {
-      "lca_data_missing": true,
       "name": "Men's Underwear",
       "weight": {
         "confidence": "low",
@@ -7487,6 +7695,15 @@
         "methodology": "Inherited from parent category (aa-1)",
         "min_g": 50
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 13.36,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Underwear - https://www.carbonfact.com/carbon-footprint/underwear"
+      ],
+      "notes": "Underwear database average (median 10.71, range 2.91-37.36 kg CO2e; avg mass 228 g). Average skews above typical single briefs; see boxer-shorts entry for a garment-level cradle-to-gate reference.",
       "vertical": "apparel-accessories"
     },
     "aa-1-8-3-2": {
@@ -7502,7 +7719,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-8-3-3": {
-      "lca_data_missing": true,
       "name": "Boxer Shorts",
       "weight": {
         "confidence": "low",
@@ -7511,6 +7727,16 @@
         "methodology": "Inherited from parent category (aa-1)",
         "min_g": 50
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 1.9,
+        "scope": "cradle-to-gate",
+        "data_quality": "primary",
+        "methodology": "Manufacturer-published per-product LCA disclosure (ASKET cotton boxer shorts); single-brand product, not a category average"
+      },
+      "sources": [
+        "ASKET - The Boxer Shorts product impact - https://www.asket.com/en-us/mens-boxer-shorts-white"
+      ],
+      "notes": "Brand-specific cradle-to-gate figure for cotton boxer shorts.",
       "vertical": "apparel-accessories"
     },
     "aa-1-8-3-4": {
@@ -7597,15 +7823,23 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-10": {
-      "lca_data_missing": true,
       "name": "Outerwear",
-      "notes": "High variance - down jackets lighter, winter coats heavier",
+      "notes": "High variance - down jackets lighter, winter coats heavier | Jacket database average used as mid-range default for the outerwear/coats-and-jackets parents (category spans light jackets to heavy coats). Heavy-coat upper end: ADEME manteau 101 kg CO2e cradle-to-grave; faux-leather jacket lower end: ADEME 26.8 kg CO2e.",
       "weight": {
         "confidence": "medium",
         "estimate_g": 900,
         "max_g": 2500,
         "min_g": 300
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 33.39,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Jackets - https://www.carbonfact.com/carbon-footprint/jacket",
+        "ADEME Impact CO2 - Manteau - https://impactco2.fr/outils/habillement/manteau"
+      ],
       "vertical": "apparel-accessories"
     },
     "aa-1-10-1": {
@@ -7621,7 +7855,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-10-2": {
-      "lca_data_missing": true,
       "name": "Coats & Jackets",
       "weight": {
         "confidence": "low",
@@ -7630,6 +7863,16 @@
         "methodology": "Inherited from parent category (aa-1-10)",
         "min_g": 300
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 33.39,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Jackets - https://www.carbonfact.com/carbon-footprint/jacket",
+        "ADEME Impact CO2 - Manteau - https://impactco2.fr/outils/habillement/manteau"
+      ],
+      "notes": "Jacket database average used as mid-range default for the outerwear/coats-and-jackets parents (category spans light jackets to heavy coats). Heavy-coat upper end: ADEME manteau 101 kg CO2e cradle-to-grave; faux-leather jacket lower end: ADEME 26.8 kg CO2e.",
       "vertical": "apparel-accessories"
     },
     "aa-1-10-2-1": {
@@ -7645,7 +7888,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-10-2-2": {
-      "lca_data_missing": true,
       "name": "Bomber Jackets",
       "weight": {
         "confidence": "low",
@@ -7654,10 +7896,18 @@
         "methodology": "Inherited from parent category (aa-1-10)",
         "min_g": 300
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 33.39,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Jackets - https://www.carbonfact.com/carbon-footprint/jacket"
+      ],
+      "notes": "Jacket database average applied to non-insulated jacket types (bomber, sport, track, trucker, varsity).",
       "vertical": "apparel-accessories"
     },
     "aa-1-10-2-3": {
-      "lca_data_missing": true,
       "name": "Capes",
       "weight": {
         "confidence": "low",
@@ -7666,10 +7916,18 @@
         "methodology": "Inherited from parent category (aa-1-10)",
         "min_g": 300
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 31.46,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - Carbon Footprint of Cape Jackets - https://www.carbonfact.com/carbon-footprint/cape-jacket"
+      ],
+      "notes": "Cape-jacket database average.",
       "vertical": "apparel-accessories"
     },
     "aa-1-10-2-5": {
-      "lca_data_missing": true,
       "name": "Overcoats",
       "weight": {
         "confidence": "low",
@@ -7678,10 +7936,19 @@
         "methodology": "Inherited from parent category (aa-1-10)",
         "min_g": 300
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 101.0,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 - Manteau - https://impactco2.fr/outils/habillement/manteau"
+      ],
+      "notes": "ADEME coat (manteau) archetype applied to heavy coat types (overcoats, parkas, pea coats, trench coats, wrap coats).",
       "vertical": "apparel-accessories"
     },
     "aa-1-10-2-6": {
-      "lca_data_missing": true,
       "name": "Parkas",
       "weight": {
         "confidence": "low",
@@ -7690,10 +7957,19 @@
         "methodology": "Inherited from parent category (aa-1-10)",
         "min_g": 300
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 101.0,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 - Manteau - https://impactco2.fr/outils/habillement/manteau"
+      ],
+      "notes": "ADEME coat (manteau) archetype applied to heavy coat types (overcoats, parkas, pea coats, trench coats, wrap coats).",
       "vertical": "apparel-accessories"
     },
     "aa-1-10-2-7": {
-      "lca_data_missing": true,
       "name": "Pea Coats",
       "weight": {
         "confidence": "low",
@@ -7702,6 +7978,16 @@
         "methodology": "Inherited from parent category (aa-1-10)",
         "min_g": 300
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 101.0,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 - Manteau - https://impactco2.fr/outils/habillement/manteau"
+      ],
+      "notes": "ADEME coat (manteau) archetype applied to heavy coat types (overcoats, parkas, pea coats, trench coats, wrap coats).",
       "vertical": "apparel-accessories"
     },
     "aa-1-10-2-8": {
@@ -7717,7 +8003,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-10-2-9": {
-      "lca_data_missing": true,
       "name": "Puffer Jackets",
       "weight": {
         "confidence": "low",
@@ -7726,10 +8011,19 @@
         "methodology": "Inherited from parent category (aa-1-10)",
         "min_g": 300
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 25.44,
+        "scope": "cradle-to-grave",
+        "data_quality": "primary",
+        "methodology": "Peer-reviewed LCA case study of a down-filled puffer jacket (Zhou, Bao, Yan, Zhang & Wang 2023)"
+      },
+      "sources": [
+        "Zhou et al. (2023), Carbon Footprint of a Down Jacket, AATCC Journal of Research - https://journals.sagepub.com/doi/10.1177/24723444231172216"
+      ],
+      "notes": "Single-product academic case study of a down puffer jacket.",
       "vertical": "apparel-accessories"
     },
     "aa-1-10-2-10": {
-      "lca_data_missing": true,
       "name": "Rain Coats",
       "weight": {
         "confidence": "low",
@@ -7738,10 +8032,19 @@
         "methodology": "Inherited from parent category (aa-1-10)",
         "min_g": 300
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 41.1,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 - Veste impermeable - https://impactco2.fr/outils/habillement/vesteimpermeable"
+      ],
+      "notes": "ADEME waterproof jacket archetype. For windbreakers (lighter, non-membrane shells) treat as an upper bound.",
       "vertical": "apparel-accessories"
     },
     "aa-1-10-2-11": {
-      "lca_data_missing": true,
       "name": "Sport Jackets",
       "weight": {
         "confidence": "low",
@@ -7750,10 +8053,18 @@
         "methodology": "Inherited from parent category (aa-1-10)",
         "min_g": 300
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 33.39,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Jackets - https://www.carbonfact.com/carbon-footprint/jacket"
+      ],
+      "notes": "Jacket database average applied to non-insulated jacket types (bomber, sport, track, trucker, varsity).",
       "vertical": "apparel-accessories"
     },
     "aa-1-10-2-12": {
-      "lca_data_missing": true,
       "name": "Track Jackets",
       "weight": {
         "confidence": "low",
@@ -7762,10 +8073,18 @@
         "methodology": "Inherited from parent category (aa-1-10)",
         "min_g": 300
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 33.39,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Jackets - https://www.carbonfact.com/carbon-footprint/jacket"
+      ],
+      "notes": "Jacket database average applied to non-insulated jacket types (bomber, sport, track, trucker, varsity).",
       "vertical": "apparel-accessories"
     },
     "aa-1-10-2-13": {
-      "lca_data_missing": true,
       "name": "Trench Coats",
       "weight": {
         "confidence": "low",
@@ -7774,10 +8093,19 @@
         "methodology": "Inherited from parent category (aa-1-10)",
         "min_g": 300
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 101.0,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 - Manteau - https://impactco2.fr/outils/habillement/manteau"
+      ],
+      "notes": "ADEME coat (manteau) archetype applied to heavy coat types (overcoats, parkas, pea coats, trench coats, wrap coats).",
       "vertical": "apparel-accessories"
     },
     "aa-1-10-2-14": {
-      "lca_data_missing": true,
       "name": "Trucker Jackets",
       "weight": {
         "confidence": "low",
@@ -7786,10 +8114,18 @@
         "methodology": "Inherited from parent category (aa-1-10)",
         "min_g": 300
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 33.39,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Jackets - https://www.carbonfact.com/carbon-footprint/jacket"
+      ],
+      "notes": "Jacket database average applied to non-insulated jacket types (bomber, sport, track, trucker, varsity).",
       "vertical": "apparel-accessories"
     },
     "aa-1-10-2-15": {
-      "lca_data_missing": true,
       "name": "Varsity Jackets",
       "weight": {
         "confidence": "low",
@@ -7798,10 +8134,18 @@
         "methodology": "Inherited from parent category (aa-1-10)",
         "min_g": 300
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 33.39,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Jackets - https://www.carbonfact.com/carbon-footprint/jacket"
+      ],
+      "notes": "Jacket database average applied to non-insulated jacket types (bomber, sport, track, trucker, varsity).",
       "vertical": "apparel-accessories"
     },
     "aa-1-10-2-16": {
-      "lca_data_missing": true,
       "name": "Windbreakers",
       "weight": {
         "confidence": "low",
@@ -7810,10 +8154,19 @@
         "methodology": "Inherited from parent category (aa-1-10)",
         "min_g": 300
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 41.1,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 - Veste impermeable - https://impactco2.fr/outils/habillement/vesteimpermeable"
+      ],
+      "notes": "ADEME waterproof jacket archetype. For windbreakers (lighter, non-membrane shells) treat as an upper bound.",
       "vertical": "apparel-accessories"
     },
     "aa-1-10-2-17": {
-      "lca_data_missing": true,
       "name": "Wrap Coats",
       "weight": {
         "confidence": "low",
@@ -7822,6 +8175,16 @@
         "methodology": "Inherited from parent category (aa-1-10)",
         "min_g": 300
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 101.0,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 - Manteau - https://impactco2.fr/outils/habillement/manteau"
+      ],
+      "notes": "ADEME coat (manteau) archetype applied to heavy coat types (overcoats, parkas, pea coats, trench coats, wrap coats).",
       "vertical": "apparel-accessories"
     },
     "aa-1-10-3": {
@@ -7861,7 +8224,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-10-6": {
-      "lca_data_missing": true,
       "name": "Vests",
       "weight": {
         "confidence": "low",
@@ -7870,6 +8232,15 @@
         "methodology": "Inherited from parent category (aa-1-10)",
         "min_g": 300
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 30.95,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - Carbon Footprint of a Gilet - https://www.carbonfact.com/carbon-footprint/gilet"
+      ],
+      "notes": "Gilet/vest database average.",
       "vertical": "apparel-accessories"
     },
     "aa-1-10-7": {
@@ -7936,7 +8307,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-12-3": {
-      "lca_data_missing": true,
       "name": "Chinos",
       "weight": {
         "confidence": "low",
@@ -7945,10 +8315,19 @@
         "methodology": "Inherited from parent category (aa-1-12)",
         "min_g": 200
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 11.76,
+        "scope": "cradle-to-gate",
+        "data_quality": "primary",
+        "methodology": "Manufacturer-published per-product LCA disclosure (ASKET Slim Chino, organic cotton twill); single-brand product, not a category average"
+      },
+      "sources": [
+        "ASKET - The Slim Chino product impact - https://www.asket.com/en-us/mens-slim-chino-beige"
+      ],
+      "notes": "Brand-specific cradle-to-gate figure; the only garment-level chino LCA found with a verifiable source.",
       "vertical": "apparel-accessories"
     },
     "aa-1-12-4": {
-      "lca_data_missing": true,
       "name": "Jeans",
       "weight": {
         "confidence": "low",
@@ -7957,10 +8336,21 @@
         "methodology": "Inherited from parent category (aa-1-12)",
         "min_g": 200
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 25.1,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 - Jeans - https://impactco2.fr/outils/habillement/jeans",
+        "Levi Strauss & Co., lifecycle assessment of the 501 jean - https://m.levistrauss.com/wp-content/uploads/2015/03/Fact-Sheet-for-LCA-FINAL.pdf",
+        "ASKET - The Regular Jeans (Raw Denim) product impact - https://www.asket.com/en-us/mens-regular-jeans-raw-denim"
+      ],
+      "notes": "ADEME jeans archetype; applied to jeans and jeggings (denim-family bottoms). Corroborating figures: Levi's 501 full-lifecycle LCA 33.4 kg CO2e; ASKET raw-denim jeans 10.86 kg CO2e cradle-to-gate.",
       "vertical": "apparel-accessories"
     },
     "aa-1-12-5": {
-      "lca_data_missing": true,
       "name": "Jeggings",
       "weight": {
         "confidence": "low",
@@ -7969,6 +8359,18 @@
         "methodology": "Inherited from parent category (aa-1-12)",
         "min_g": 200
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 25.1,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 - Jeans - https://impactco2.fr/outils/habillement/jeans",
+        "Levi Strauss & Co., lifecycle assessment of the 501 jean - https://m.levistrauss.com/wp-content/uploads/2015/03/Fact-Sheet-for-LCA-FINAL.pdf",
+        "ASKET - The Regular Jeans (Raw Denim) product impact - https://www.asket.com/en-us/mens-regular-jeans-raw-denim"
+      ],
+      "notes": "ADEME jeans archetype; applied to jeans and jeggings (denim-family bottoms). Corroborating figures: Levi's 501 full-lifecycle LCA 33.4 kg CO2e; ASKET raw-denim jeans 10.86 kg CO2e cradle-to-gate.",
       "vertical": "apparel-accessories"
     },
     "aa-1-12-7": {
@@ -7996,7 +8398,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-12-11": {
-      "lca_data_missing": true,
       "name": "Trousers",
       "weight": {
         "confidence": "low",
@@ -8005,10 +8406,18 @@
         "methodology": "Inherited from parent category (aa-1-12)",
         "min_g": 200
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 15.77,
+        "data_quality": "secondary",
+        "methodology": "Fristads EPD-based comparison of two workwear trouser models; value is the conventionally produced pair. Source states kg CO2 and 'a life cycle perspective' without naming a formal system boundary"
+      },
+      "sources": [
+        "Fristads - Carbon emissions almost halved with Environmental Product Declaration - https://newsroom.fristads.com/posts/pressreleases/carbon-emissions-almost-halved-with-environme"
+      ],
+      "notes": "Workwear trousers used as proxy for generic trousers (no generic-trouser LCA found). EPD-verified eco variant of the same garment: 8.62 kg.",
       "vertical": "apparel-accessories"
     },
     "aa-1-13": {
-      "lca_data_missing": true,
       "name": "Clothing Tops",
       "weight": {
         "confidence": "medium",
@@ -8016,10 +8425,18 @@
         "max_g": 450,
         "min_g": 80
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 12.41,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Tops - https://www.carbonfact.com/carbon-footprint/tops"
+      ],
+      "notes": "Category-level default: average across 10,826 'tops' products (median 10.84, range 5.16-22.74 kg CO2e; avg mass 227 g). Prefer subcategory figures where present.",
       "vertical": "apparel-accessories"
     },
     "aa-1-13-1": {
-      "lca_data_missing": true,
       "name": "Blouses",
       "weight": {
         "confidence": "medium",
@@ -8027,6 +8444,17 @@
         "max_g": 300,
         "min_g": 100
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 13.2,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 - Chemise en coton - https://impactco2.fr/outils/habillement/chemiseencoton",
+        "Carbonfact - The Carbon Footprint of a Shirt - https://www.carbonfact.com/carbon-footprint/shirt"
+      ],
+      "notes": "ADEME cotton shirt (chemise) archetype applied to adult woven shirts and blouses. Corroborating database average: 14.68 kg CO2e across 87,856 shirt products (Carbonfact, avg mass 329 g, median 11.98).",
       "vertical": "apparel-accessories"
     },
     "aa-1-13-2": {
@@ -8066,7 +8494,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-13-6": {
-      "lca_data_missing": true,
       "name": "Polos",
       "weight": {
         "confidence": "low",
@@ -8075,10 +8502,20 @@
         "methodology": "Inherited from parent category (aa-1-13)",
         "min_g": 80
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 10.2,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 API (Base Empreinte) - https://impactco2.fr/api/v1/thematiques/ecv/habillement",
+        "Science of The Total Environment (2024), LCA of cotton polo shirt production in Bangladesh - https://pubmed.ncbi.nlm.nih.gov/38565355/"
+      ],
+      "notes": "ADEME polo archetype (10.16 kg CO2e per unit, API value re-verified 2026-07-30). Corroborating manufacturing-only figure: 1.35 kg CO2e per polo cradle-to-gate (1345.97 kg CO2e per 1000 pieces; peer-reviewed Bangladesh case study, excludes distribution, use and end of life).",
       "vertical": "apparel-accessories"
     },
     "aa-1-13-7": {
-      "lca_data_missing": true,
       "name": "Shirts",
       "weight": {
         "confidence": "low",
@@ -8087,6 +8524,17 @@
         "methodology": "Inherited from parent category (aa-1-13)",
         "min_g": 80
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 13.2,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 - Chemise en coton - https://impactco2.fr/outils/habillement/chemiseencoton",
+        "Carbonfact - The Carbon Footprint of a Shirt - https://www.carbonfact.com/carbon-footprint/shirt"
+      ],
+      "notes": "ADEME cotton shirt (chemise) archetype applied to adult woven shirts and blouses. Corroborating database average: 14.68 kg CO2e across 87,856 shirt products (Carbonfact, avg mass 329 g, median 11.98).",
       "vertical": "apparel-accessories"
     },
     "aa-1-13-8": {
@@ -8126,7 +8574,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-13-9": {
-      "lca_data_missing": true,
       "name": "Tank Tops",
       "weight": {
         "confidence": "low",
@@ -8135,6 +8582,15 @@
         "methodology": "Inherited from parent category (aa-1-13)",
         "min_g": 80
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 8.43,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Tank Top - https://www.carbonfact.com/carbon-footprint/tank-top"
+      ],
+      "notes": "Average across 3,779 tank-top products (median 6.91, range 3.52-19.35 kg CO2e; avg mass 171 g).",
       "vertical": "apparel-accessories"
     },
     "aa-1-13-11": {
@@ -8150,7 +8606,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-13-12": {
-      "lca_data_missing": true,
       "name": "Sweaters",
       "weight": {
         "confidence": "low",
@@ -8159,10 +8614,20 @@
         "methodology": "Inherited from parent category (aa-1-13)",
         "min_g": 80
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 56.7,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 API (Base Empreinte) - https://impactco2.fr/api/v1/thematiques/ecv/habillement",
+        "ASKET - The Impact Receipt - https://www.asket.com/en-ww/journal/asket/impact-receipt"
+      ],
+      "notes": "ADEME wool sweater (pull en laine) archetype, matching this category's wool_blend primary material. Strongly material-dependent: ADEME acrylic sweater 28.97, recycled-cotton sweater 13.19 kg CO2e (same API); brand cradle-to-gate reference: ASKET merino sweater 11 kg CO2e.",
       "vertical": "apparel-accessories"
     },
     "aa-1-13-13": {
-      "lca_data_missing": true,
       "name": "Hoodies",
       "weight": {
         "confidence": "low",
@@ -8171,10 +8636,20 @@
         "methodology": "Inherited from parent category (aa-1-13)",
         "min_g": 80
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 32.5,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 API (Base Empreinte) - https://impactco2.fr/api/v1/thematiques/ecv/habillement",
+        "ASKET - The Impact Receipt - https://www.asket.com/en-ww/journal/asket/impact-receipt"
+      ],
+      "notes": "ADEME cotton sweatshirt (sweat en coton) archetype; French 'sweat' covers sweatshirts and hoodies. Brand cradle-to-gate reference: ASKET sweatshirt 8 kg CO2e (gap reflects use phase and modeling assumptions).",
       "vertical": "apparel-accessories"
     },
     "aa-1-13-14": {
-      "lca_data_missing": true,
       "name": "Sweatshirts",
       "weight": {
         "confidence": "low",
@@ -8183,10 +8658,20 @@
         "methodology": "Inherited from parent category (aa-1-13)",
         "min_g": 80
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 32.5,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 API (Base Empreinte) - https://impactco2.fr/api/v1/thematiques/ecv/habillement",
+        "ASKET - The Impact Receipt - https://www.asket.com/en-ww/journal/asket/impact-receipt"
+      ],
+      "notes": "ADEME cotton sweatshirt (sweat en coton) archetype; French 'sweat' covers sweatshirts and hoodies. Brand cradle-to-gate reference: ASKET sweatshirt 8 kg CO2e (gap reflects use phase and modeling assumptions).",
       "vertical": "apparel-accessories"
     },
     "aa-1-14": {
-      "lca_data_missing": true,
       "name": "Shorts",
       "weight": {
         "confidence": "low",
@@ -8195,6 +8680,16 @@
         "methodology": "Inherited from parent category (aa-1)",
         "min_g": 50
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 8.03,
+        "scope": "cradle-to-gate",
+        "data_quality": "primary",
+        "methodology": "Manufacturer-published per-product LCA disclosure (ASKET Shorts, organic cotton twill); single-brand product, not a category average"
+      },
+      "sources": [
+        "ASKET - The Shorts product impact - https://www.asket.com/en-us/mens-shorts-beige"
+      ],
+      "notes": "Brand-specific cradle-to-gate figure applied to Shorts parent and chino shorts; the only garment-level shorts LCA found with a verifiable source.",
       "vertical": "apparel-accessories"
     },
     "aa-1-14-1": {
@@ -8222,7 +8717,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-14-3": {
-      "lca_data_missing": true,
       "name": "Chino Shorts",
       "weight": {
         "confidence": "low",
@@ -8231,6 +8725,16 @@
         "methodology": "Inherited from parent category (aa-1)",
         "min_g": 50
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 8.03,
+        "scope": "cradle-to-gate",
+        "data_quality": "primary",
+        "methodology": "Manufacturer-published per-product LCA disclosure (ASKET Shorts, organic cotton twill); single-brand product, not a category average"
+      },
+      "sources": [
+        "ASKET - The Shorts product impact - https://www.asket.com/en-us/mens-shorts-beige"
+      ],
+      "notes": "Brand-specific cradle-to-gate figure applied to Shorts parent and chino shorts; the only garment-level shorts LCA found with a verifiable source.",
       "vertical": "apparel-accessories"
     },
     "aa-1-14-4": {
@@ -8317,7 +8821,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-17": {
-      "lca_data_missing": true,
       "materials": {
         "primary_material": "cotton"
       },
@@ -8328,6 +8831,15 @@
         "max_g": 600,
         "min_g": 150
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 15.37,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Pajamas - https://www.carbonfact.com/carbon-footprint/pajamas"
+      ],
+      "notes": "Pajama database average across 7,234 products (median 13.48, range 7.15-30.16 kg CO2e; avg mass 228 g, typically multi-piece sets). Used as Sleepwear & Loungewear parent default.",
       "vertical": "apparel-accessories"
     },
     "aa-1-17-1": {
@@ -8379,7 +8891,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-17-2-1-1": {
-      "lca_data_missing": true,
       "name": "Boxers",
       "weight": {
         "confidence": "low",
@@ -8388,6 +8899,16 @@
         "methodology": "Inherited from parent category (aa-1-17-2)",
         "min_g": 150
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 1.9,
+        "scope": "cradle-to-gate",
+        "data_quality": "primary",
+        "methodology": "Manufacturer-published per-product LCA disclosure (ASKET cotton boxer shorts); single-brand product, not a category average"
+      },
+      "sources": [
+        "ASKET - The Boxer Shorts product impact - https://www.asket.com/en-us/mens-boxer-shorts-white"
+      ],
+      "notes": "Brand-specific cradle-to-gate figure for cotton boxer shorts.",
       "vertical": "apparel-accessories"
     },
     "aa-1-17-2-1-2": {
@@ -8463,7 +8984,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-17-4": {
-      "lca_data_missing": true,
       "name": "Pajamas",
       "weight": {
         "confidence": "medium",
@@ -8471,6 +8991,15 @@
         "max_g": 600,
         "min_g": 200
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 15.37,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Pajamas - https://www.carbonfact.com/carbon-footprint/pajamas"
+      ],
+      "notes": "Pajama database average across 7,234 products (median 13.48, range 7.15-30.16 kg CO2e; avg mass 228 g, typically multi-piece sets). Used as Sleepwear & Loungewear parent default.",
       "vertical": "apparel-accessories"
     },
     "aa-1-17-5": {
@@ -8497,7 +9026,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-18": {
-      "lca_data_missing": true,
       "materials": {
         "breakdown": [
           {
@@ -8518,10 +9046,19 @@
         "max_g": 150,
         "min_g": 20
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 3.46,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Socks - https://www.carbonfact.com/carbon-footprint/socks",
+        "ASKET - The Ribbed Cotton Sock product impact - https://www.asket.com/en-us/mens-ribbed-cotton-sock-light-grey"
+      ],
+      "notes": "Socks database average across 28,868 products (median 1.83, range 1.64-9.25 kg CO2e; avg mass 85 g). Brand cradle-to-gate reference: ASKET ribbed cotton sock 2.91 kg CO2e.",
       "vertical": "apparel-accessories"
     },
     "aa-1-18-1": {
-      "lca_data_missing": true,
       "name": "Ankle Socks",
       "weight": {
         "confidence": "low",
@@ -8530,10 +9067,19 @@
         "methodology": "Inherited from parent category (aa-1-18)",
         "min_g": 20
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 3.46,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Socks - https://www.carbonfact.com/carbon-footprint/socks",
+        "ASKET - The Ribbed Cotton Sock product impact - https://www.asket.com/en-us/mens-ribbed-cotton-sock-light-grey"
+      ],
+      "notes": "Socks database average across 28,868 products (median 1.83, range 1.64-9.25 kg CO2e; avg mass 85 g). Brand cradle-to-gate reference: ASKET ribbed cotton sock 2.91 kg CO2e.",
       "vertical": "apparel-accessories"
     },
     "aa-1-18-2": {
-      "lca_data_missing": true,
       "name": "Athletic Socks",
       "weight": {
         "confidence": "low",
@@ -8542,10 +9088,19 @@
         "methodology": "Inherited from parent category (aa-1-18)",
         "min_g": 20
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 3.46,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Socks - https://www.carbonfact.com/carbon-footprint/socks",
+        "ASKET - The Ribbed Cotton Sock product impact - https://www.asket.com/en-us/mens-ribbed-cotton-sock-light-grey"
+      ],
+      "notes": "Socks database average across 28,868 products (median 1.83, range 1.64-9.25 kg CO2e; avg mass 85 g). Brand cradle-to-gate reference: ASKET ribbed cotton sock 2.91 kg CO2e.",
       "vertical": "apparel-accessories"
     },
     "aa-1-18-3": {
-      "lca_data_missing": true,
       "name": "Crew Socks",
       "weight": {
         "confidence": "low",
@@ -8554,10 +9109,19 @@
         "methodology": "Inherited from parent category (aa-1-18)",
         "min_g": 20
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 3.46,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Socks - https://www.carbonfact.com/carbon-footprint/socks",
+        "ASKET - The Ribbed Cotton Sock product impact - https://www.asket.com/en-us/mens-ribbed-cotton-sock-light-grey"
+      ],
+      "notes": "Socks database average across 28,868 products (median 1.83, range 1.64-9.25 kg CO2e; avg mass 85 g). Brand cradle-to-gate reference: ASKET ribbed cotton sock 2.91 kg CO2e.",
       "vertical": "apparel-accessories"
     },
     "aa-1-18-4": {
-      "lca_data_missing": true,
       "name": "Dance Socks",
       "weight": {
         "confidence": "low",
@@ -8566,10 +9130,19 @@
         "methodology": "Inherited from parent category (aa-1-18)",
         "min_g": 20
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 3.46,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Socks - https://www.carbonfact.com/carbon-footprint/socks",
+        "ASKET - The Ribbed Cotton Sock product impact - https://www.asket.com/en-us/mens-ribbed-cotton-sock-light-grey"
+      ],
+      "notes": "Socks database average across 28,868 products (median 1.83, range 1.64-9.25 kg CO2e; avg mass 85 g). Brand cradle-to-gate reference: ASKET ribbed cotton sock 2.91 kg CO2e.",
       "vertical": "apparel-accessories"
     },
     "aa-1-18-5": {
-      "lca_data_missing": true,
       "name": "Footie Socks",
       "weight": {
         "confidence": "low",
@@ -8578,10 +9151,19 @@
         "methodology": "Inherited from parent category (aa-1-18)",
         "min_g": 20
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 3.46,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Socks - https://www.carbonfact.com/carbon-footprint/socks",
+        "ASKET - The Ribbed Cotton Sock product impact - https://www.asket.com/en-us/mens-ribbed-cotton-sock-light-grey"
+      ],
+      "notes": "Socks database average across 28,868 products (median 1.83, range 1.64-9.25 kg CO2e; avg mass 85 g). Brand cradle-to-gate reference: ASKET ribbed cotton sock 2.91 kg CO2e.",
       "vertical": "apparel-accessories"
     },
     "aa-1-18-6": {
-      "lca_data_missing": true,
       "name": "Heel Socks",
       "weight": {
         "confidence": "low",
@@ -8590,10 +9172,19 @@
         "methodology": "Inherited from parent category (aa-1-18)",
         "min_g": 20
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 3.46,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Socks - https://www.carbonfact.com/carbon-footprint/socks",
+        "ASKET - The Ribbed Cotton Sock product impact - https://www.asket.com/en-us/mens-ribbed-cotton-sock-light-grey"
+      ],
+      "notes": "Socks database average across 28,868 products (median 1.83, range 1.64-9.25 kg CO2e; avg mass 85 g). Brand cradle-to-gate reference: ASKET ribbed cotton sock 2.91 kg CO2e.",
       "vertical": "apparel-accessories"
     },
     "aa-1-18-7": {
-      "lca_data_missing": true,
       "name": "Hold Up Socks",
       "weight": {
         "confidence": "low",
@@ -8602,10 +9193,19 @@
         "methodology": "Inherited from parent category (aa-1-18)",
         "min_g": 20
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 3.46,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Socks - https://www.carbonfact.com/carbon-footprint/socks",
+        "ASKET - The Ribbed Cotton Sock product impact - https://www.asket.com/en-us/mens-ribbed-cotton-sock-light-grey"
+      ],
+      "notes": "Socks database average across 28,868 products (median 1.83, range 1.64-9.25 kg CO2e; avg mass 85 g). Brand cradle-to-gate reference: ASKET ribbed cotton sock 2.91 kg CO2e.",
       "vertical": "apparel-accessories"
     },
     "aa-1-18-8": {
-      "lca_data_missing": true,
       "name": "Knee Socks",
       "weight": {
         "confidence": "low",
@@ -8614,6 +9214,16 @@
         "methodology": "Inherited from parent category (aa-1-18)",
         "min_g": 20
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 3.46,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Socks - https://www.carbonfact.com/carbon-footprint/socks",
+        "ASKET - The Ribbed Cotton Sock product impact - https://www.asket.com/en-us/mens-ribbed-cotton-sock-light-grey"
+      ],
+      "notes": "Socks database average across 28,868 products (median 1.83, range 1.64-9.25 kg CO2e; avg mass 85 g). Brand cradle-to-gate reference: ASKET ribbed cotton sock 2.91 kg CO2e.",
       "vertical": "apparel-accessories"
     },
     "aa-1-18-9": {
@@ -8629,7 +9239,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-18-10": {
-      "lca_data_missing": true,
       "name": "Sneaker Socks",
       "weight": {
         "confidence": "low",
@@ -8638,6 +9247,16 @@
         "methodology": "Inherited from parent category (aa-1-18)",
         "min_g": 20
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 3.46,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Socks - https://www.carbonfact.com/carbon-footprint/socks",
+        "ASKET - The Ribbed Cotton Sock product impact - https://www.asket.com/en-us/mens-ribbed-cotton-sock-light-grey"
+      ],
+      "notes": "Socks database average across 28,868 products (median 1.83, range 1.64-9.25 kg CO2e; avg mass 85 g). Brand cradle-to-gate reference: ASKET ribbed cotton sock 2.91 kg CO2e.",
       "vertical": "apparel-accessories"
     },
     "aa-1-19": {
@@ -8692,7 +9311,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-20": {
-      "lca_data_missing": true,
       "materials": {
         "breakdown": [
           {
@@ -8713,10 +9331,18 @@
         "max_g": 300,
         "min_g": 80
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 5.87,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Swimwear - https://www.carbonfact.com/carbon-footprint/swimwear"
+      ],
+      "notes": "Swimwear database average across 3,577 products (median 4.9, range 1.77-12.96 kg CO2e; avg mass 149 g).",
       "vertical": "apparel-accessories"
     },
     "aa-1-20-2": {
-      "lca_data_missing": true,
       "name": "Boardshorts",
       "weight": {
         "confidence": "low",
@@ -8725,10 +9351,18 @@
         "methodology": "Inherited from parent category (aa-1-20)",
         "min_g": 80
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 6.5,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Swim Trunks - https://www.carbonfact.com/carbon-footprint/swim-trunks"
+      ],
+      "notes": "Swim-trunks database average applied to boardshorts.",
       "vertical": "apparel-accessories"
     },
     "aa-1-20-3": {
-      "lca_data_missing": true,
       "name": "Swim Boxers",
       "weight": {
         "confidence": "low",
@@ -8737,10 +9371,18 @@
         "methodology": "Inherited from parent category (aa-1-20)",
         "min_g": 80
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 5.87,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Swimwear - https://www.carbonfact.com/carbon-footprint/swimwear"
+      ],
+      "notes": "Swimwear database average across 3,577 products (median 4.9, range 1.77-12.96 kg CO2e; avg mass 149 g).",
       "vertical": "apparel-accessories"
     },
     "aa-1-20-4": {
-      "lca_data_missing": true,
       "name": "Swim Briefs",
       "weight": {
         "confidence": "low",
@@ -8749,6 +9391,15 @@
         "methodology": "Inherited from parent category (aa-1-20)",
         "min_g": 80
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 5.87,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Swimwear - https://www.carbonfact.com/carbon-footprint/swimwear"
+      ],
+      "notes": "Swimwear database average across 3,577 products (median 4.9, range 1.77-12.96 kg CO2e; avg mass 149 g).",
       "vertical": "apparel-accessories"
     },
     "aa-1-20-5": {
@@ -8764,7 +9415,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-20-6": {
-      "lca_data_missing": true,
       "name": "Classic Bikinis",
       "weight": {
         "confidence": "low",
@@ -8773,6 +9423,15 @@
         "methodology": "Inherited from parent category (aa-1-20)",
         "min_g": 80
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 5.87,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Swimwear - https://www.carbonfact.com/carbon-footprint/swimwear"
+      ],
+      "notes": "Swimwear database average across 3,577 products (median 4.9, range 1.77-12.96 kg CO2e; avg mass 149 g).",
       "vertical": "apparel-accessories"
     },
     "aa-1-20-7": {
@@ -8800,7 +9459,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-20-17": {
-      "lca_data_missing": true,
       "name": "Swim Dresses",
       "weight": {
         "confidence": "low",
@@ -8809,10 +9467,18 @@
         "methodology": "Inherited from parent category (aa-1-20)",
         "min_g": 80
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 5.87,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Swimwear - https://www.carbonfact.com/carbon-footprint/swimwear"
+      ],
+      "notes": "Swimwear database average across 3,577 products (median 4.9, range 1.77-12.96 kg CO2e; avg mass 149 g).",
       "vertical": "apparel-accessories"
     },
     "aa-1-20-22": {
-      "lca_data_missing": true,
       "name": "One-Piece Swimsuits",
       "weight": {
         "confidence": "low",
@@ -8821,6 +9487,15 @@
         "methodology": "Inherited from parent category (aa-1-20)",
         "min_g": 80
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 5.76,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Tank Suits - https://www.carbonfact.com/carbon-footprint/tank-suit"
+      ],
+      "notes": "One-piece (tank suit) database average.",
       "vertical": "apparel-accessories"
     },
     "aa-1-20-23": {
@@ -8836,7 +9511,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-20-24": {
-      "lca_data_missing": true,
       "name": "Swimwear Tops",
       "weight": {
         "confidence": "low",
@@ -8845,6 +9519,15 @@
         "methodology": "Inherited from parent category (aa-1-20)",
         "min_g": 80
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 5.87,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Swimwear - https://www.carbonfact.com/carbon-footprint/swimwear"
+      ],
+      "notes": "Swimwear database average across 3,577 products (median 4.9, range 1.77-12.96 kg CO2e; avg mass 149 g).",
       "vertical": "apparel-accessories"
     },
     "aa-1-20-25": {
@@ -8932,7 +9615,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-1-24": {
-      "lca_data_missing": true,
       "name": "Uniforms & Workwear",
       "weight": {
         "confidence": "low",
@@ -8940,10 +9622,18 @@
         "max_g": 1200,
         "min_g": 250
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 33.86,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Workwear - https://www.carbonfact.com/carbon-footprint/workwear"
+      ],
+      "notes": "Workwear database average (median 30.06, range 9.61-70.67 kg CO2e; avg mass 677 g).",
       "vertical": "apparel-accessories"
     },
     "aa-1-24-1": {
-      "lca_data_missing": true,
       "name": "Contractor Pants & Coveralls",
       "weight": {
         "confidence": "low",
@@ -8952,6 +9642,16 @@
         "methodology": "Inherited from parent category (aa-1-24)",
         "min_g": 250
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 41.29,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Coveralls - https://www.carbonfact.com/carbon-footprint/coveralls",
+        "Fristads - Carbon emissions almost halved with Environmental Product Declaration - https://newsroom.fristads.com/posts/pressreleases/carbon-emissions-almost-halved-with-environme"
+      ],
+      "notes": "Coverall database average across 3,386 products (median 33.74, range 12.84-98.60 kg CO2e; avg mass 1,126 g). Workwear-trouser end of the category: Fristads 15.77 kg (conventional) / 8.62 kg (EPD-verified eco variant) per pair.",
       "vertical": "apparel-accessories"
     },
     "aa-1-24-2": {
@@ -9048,6 +9748,7 @@
         "methodology": "Inherited from parent category (aa-1-24)",
         "min_g": 250
       },
+      "notes": "Excluded a BMJ Open 2024 hospital-laundry LCA (0.11 kg CO2e per scrub-trouser use): it measures laundering per use, not garment production.",
       "vertical": "apparel-accessories"
     },
     "aa-2": {
@@ -9168,15 +9869,22 @@
       "vertical": "apparel-accessories"
     },
     "aa-2-6": {
-      "lca_data_missing": true,
       "name": "Belts",
-      "notes": "Leather belts - synthetic alternatives have ~40% lower footprint",
+      "notes": "Leather belts - synthetic alternatives have ~40% lower footprint | Belt database average.",
       "weight": {
         "confidence": "high",
         "estimate_g": 150,
         "max_g": 350,
         "min_g": 80
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 11.83,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Belt - https://www.carbonfact.com/carbon-footprint/belt"
+      ],
       "vertical": "apparel-accessories"
     },
     "aa-2-7": {
@@ -9252,7 +9960,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-2-13": {
-      "lca_data_missing": true,
       "name": "Gloves & Mittens",
       "weight": {
         "confidence": "medium",
@@ -9261,6 +9968,15 @@
         "methodology": "Per pair",
         "min_g": 30
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 5.56,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Gloves - https://www.carbonfact.com/carbon-footprint/gloves"
+      ],
+      "notes": "Glove database average.",
       "vertical": "apparel-accessories"
     },
     "aa-2-14": {
@@ -9359,7 +10075,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-2-14-8": {
-      "lca_data_missing": true,
       "name": "Headbands",
       "weight": {
         "confidence": "low",
@@ -9368,6 +10083,15 @@
         "methodology": "Inherited from parent category (aa-2-14)",
         "min_g": 5
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 5.46,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Headbands - https://www.carbonfact.com/carbon-footprint/headband"
+      ],
+      "notes": "Headband database average (fabric headbands).",
       "vertical": "apparel-accessories"
     },
     "aa-2-14-9": {
@@ -9457,7 +10181,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-2-17": {
-      "lca_data_missing": true,
       "name": "Hats",
       "weight": {
         "confidence": "medium",
@@ -9465,10 +10188,18 @@
         "max_g": 300,
         "min_g": 30
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 5.49,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Headwear - https://www.carbonfact.com/carbon-footprint/headwear"
+      ],
+      "notes": "Headwear database average (range 2.56-29.83 kg CO2e); used as parent default for hats and headwear.",
       "vertical": "apparel-accessories"
     },
     "aa-2-17-1": {
-      "lca_data_missing": true,
       "name": "Baseball Caps",
       "weight": {
         "confidence": "high",
@@ -9476,10 +10207,18 @@
         "max_g": 120,
         "min_g": 50
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 4.76,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Baseball Caps - https://www.carbonfact.com/carbon-footprint/baseball-cap"
+      ],
+      "notes": "Cap database average (range 2.05-10.42 kg CO2e; avg mass 100 g); applied to baseball, snapback and trucker caps.",
       "vertical": "apparel-accessories"
     },
     "aa-2-17-2": {
-      "lca_data_missing": true,
       "name": "Beanies",
       "weight": {
         "confidence": "high",
@@ -9487,6 +10226,15 @@
         "max_g": 100,
         "min_g": 40
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 7.16,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Beanies - https://www.carbonfact.com/carbon-footprint/beanie"
+      ],
+      "notes": "Beanie database average.",
       "vertical": "apparel-accessories"
     },
     "aa-2-17-3": {
@@ -9574,7 +10322,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-2-17-10": {
-      "lca_data_missing": true,
       "name": "Snapback Caps",
       "weight": {
         "confidence": "low",
@@ -9583,10 +10330,18 @@
         "methodology": "Inherited from parent category (aa-2-17)",
         "min_g": 30
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 4.76,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Baseball Caps - https://www.carbonfact.com/carbon-footprint/baseball-cap"
+      ],
+      "notes": "Cap database average (range 2.05-10.42 kg CO2e; avg mass 100 g); applied to baseball, snapback and trucker caps.",
       "vertical": "apparel-accessories"
     },
     "aa-2-17-11": {
-      "lca_data_missing": true,
       "name": "Sun Hats",
       "weight": {
         "confidence": "medium",
@@ -9594,6 +10349,15 @@
         "max_g": 200,
         "min_g": 50
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 8.92,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Sun Hat - https://www.carbonfact.com/carbon-footprint/sun-hat"
+      ],
+      "notes": "Sun-hat database average.",
       "vertical": "apparel-accessories"
     },
     "aa-2-17-12": {
@@ -9621,7 +10385,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-2-17-14": {
-      "lca_data_missing": true,
       "name": "Trucker Hats",
       "weight": {
         "confidence": "low",
@@ -9630,6 +10393,15 @@
         "methodology": "Inherited from parent category (aa-2-17)",
         "min_g": 30
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 4.76,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Baseball Caps - https://www.carbonfact.com/carbon-footprint/baseball-cap"
+      ],
+      "notes": "Cap database average (range 2.05-10.42 kg CO2e; avg mass 100 g); applied to baseball, snapback and trucker caps.",
       "vertical": "apparel-accessories"
     },
     "aa-2-17-15": {
@@ -9657,7 +10429,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-2-18": {
-      "lca_data_missing": true,
       "name": "Headwear",
       "weight": {
         "confidence": "low",
@@ -9666,6 +10437,15 @@
         "methodology": "Inherited from parent category (aa-2)",
         "min_g": 10
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 5.49,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Headwear - https://www.carbonfact.com/carbon-footprint/headwear"
+      ],
+      "notes": "Headwear database average (range 2.56-29.83 kg CO2e); used as parent default for hats and headwear.",
       "vertical": "apparel-accessories"
     },
     "aa-2-18-1": {
@@ -9753,7 +10533,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-2-23": {
-      "lca_data_missing": true,
       "materials": {
         "primary_material": "silk"
       },
@@ -9764,6 +10543,15 @@
         "max_g": 100,
         "min_g": 30
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 8.11,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Necktie - https://www.carbonfact.com/carbon-footprint/necktie"
+      ],
+      "notes": "Necktie database average.",
       "vertical": "apparel-accessories"
     },
     "aa-2-24": {
@@ -9791,7 +10579,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-2-26": {
-      "lca_data_missing": true,
       "name": "Scarves & Shawls",
       "weight": {
         "confidence": "medium",
@@ -9799,10 +10586,18 @@
         "max_g": 400,
         "min_g": 50
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 14.6,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Scarf - https://www.carbonfact.com/carbon-footprint/scarf"
+      ],
+      "notes": "Scarf database average.",
       "vertical": "apparel-accessories"
     },
     "aa-2-27": {
-      "lca_data_missing": true,
       "materials": {
         "breakdown": [
           {
@@ -9827,6 +10622,15 @@
         "max_g": 60,
         "min_g": 15
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 5.32,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Glasses - https://www.carbonfact.com/carbon-footprint/glasses"
+      ],
+      "notes": "Glasses database average (eyewear generally, including sunglasses).",
       "vertical": "apparel-accessories"
     },
     "aa-2-28": {
@@ -9877,7 +10681,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-2-32": {
-      "lca_data_missing": true,
       "name": "Fashion Face Masks",
       "weight": {
         "confidence": "low",
@@ -9886,6 +10689,17 @@
         "methodology": "Inherited from parent category (aa-2)",
         "min_g": 10
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 0.49,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "Peer-reviewed cradle-to-grave LCA of reusable fabric face masks (COVID-era study; 0.488 kg CO2e per reusable mask)"
+      },
+      "sources": [
+        "Carbon footprint assessment of face masks, peer-reviewed LCA - https://pmc.ncbi.nlm.nih.gov/articles/PMC9807258",
+        "Carbonfact - The Carbon Footprint of Fashion Face Masks - https://www.carbonfact.com/carbon-footprint/fashion-face-masks"
+      ],
+      "notes": "Reusable-cotton-mask academic figure used as primary; Carbonfact fashion-face-mask database average is 1.66 kg CO2e.",
       "vertical": "apparel-accessories"
     },
     "aa-3": {
@@ -10072,7 +10886,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-5-4": {
-      "lca_data_missing": true,
       "name": "Handbags",
       "weight": {
         "confidence": "low",
@@ -10080,10 +10893,18 @@
         "max_g": 2000,
         "min_g": 100
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 16.29,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Handbag - https://www.carbonfact.com/carbon-footprint/handbag"
+      ],
+      "notes": "Handbag database average, applied to all handbag styles (style variants are not separately covered by any verified source).",
       "vertical": "apparel-accessories"
     },
     "aa-5-4-1": {
-      "lca_data_missing": true,
       "name": "Baguette Handbags",
       "weight": {
         "confidence": "low",
@@ -10092,10 +10913,18 @@
         "methodology": "Inherited from parent category (aa-5-4)",
         "min_g": 100
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 16.29,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Handbag - https://www.carbonfact.com/carbon-footprint/handbag"
+      ],
+      "notes": "Handbag database average, applied to all handbag styles (style variants are not separately covered by any verified source).",
       "vertical": "apparel-accessories"
     },
     "aa-5-4-2": {
-      "lca_data_missing": true,
       "name": "Barrel Bags",
       "weight": {
         "confidence": "low",
@@ -10104,10 +10933,18 @@
         "methodology": "Inherited from parent category (aa-5-4)",
         "min_g": 100
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 16.29,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Handbag - https://www.carbonfact.com/carbon-footprint/handbag"
+      ],
+      "notes": "Handbag database average, applied to all handbag styles (style variants are not separately covered by any verified source).",
       "vertical": "apparel-accessories"
     },
     "aa-5-4-3": {
-      "lca_data_missing": true,
       "name": "Beach Bags",
       "weight": {
         "confidence": "medium",
@@ -10115,10 +10952,18 @@
         "max_g": 800,
         "min_g": 200
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 16.29,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Handbag - https://www.carbonfact.com/carbon-footprint/handbag"
+      ],
+      "notes": "Handbag database average, applied to all handbag styles (style variants are not separately covered by any verified source).",
       "vertical": "apparel-accessories"
     },
     "aa-5-4-4": {
-      "lca_data_missing": true,
       "name": "Bucket Bags",
       "weight": {
         "confidence": "low",
@@ -10127,10 +10972,18 @@
         "methodology": "Inherited from parent category (aa-5-4)",
         "min_g": 100
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 16.29,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Handbag - https://www.carbonfact.com/carbon-footprint/handbag"
+      ],
+      "notes": "Handbag database average, applied to all handbag styles (style variants are not separately covered by any verified source).",
       "vertical": "apparel-accessories"
     },
     "aa-5-4-5": {
-      "lca_data_missing": true,
       "name": "Clutch Bags",
       "weight": {
         "confidence": "low",
@@ -10139,10 +10992,18 @@
         "methodology": "Inherited from parent category (aa-5-4)",
         "min_g": 100
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 16.29,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Handbag - https://www.carbonfact.com/carbon-footprint/handbag"
+      ],
+      "notes": "Handbag database average, applied to all handbag styles (style variants are not separately covered by any verified source).",
       "vertical": "apparel-accessories"
     },
     "aa-5-4-6": {
-      "lca_data_missing": true,
       "name": "Convertible Bags",
       "weight": {
         "confidence": "low",
@@ -10151,10 +11012,18 @@
         "methodology": "Inherited from parent category (aa-5-4)",
         "min_g": 100
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 16.29,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Handbag - https://www.carbonfact.com/carbon-footprint/handbag"
+      ],
+      "notes": "Handbag database average, applied to all handbag styles (style variants are not separately covered by any verified source).",
       "vertical": "apparel-accessories"
     },
     "aa-5-4-7": {
-      "lca_data_missing": true,
       "name": "Cross Body Bags",
       "weight": {
         "confidence": "low",
@@ -10163,10 +11032,18 @@
         "methodology": "Inherited from parent category (aa-5-4)",
         "min_g": 100
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 16.29,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Handbag - https://www.carbonfact.com/carbon-footprint/handbag"
+      ],
+      "notes": "Handbag database average, applied to all handbag styles (style variants are not separately covered by any verified source).",
       "vertical": "apparel-accessories"
     },
     "aa-5-4-8": {
-      "lca_data_missing": true,
       "name": "Doctor Bags",
       "weight": {
         "confidence": "low",
@@ -10175,10 +11052,18 @@
         "methodology": "Inherited from parent category (aa-5-4)",
         "min_g": 100
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 16.29,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Handbag - https://www.carbonfact.com/carbon-footprint/handbag"
+      ],
+      "notes": "Handbag database average, applied to all handbag styles (style variants are not separately covered by any verified source).",
       "vertical": "apparel-accessories"
     },
     "aa-5-4-9": {
-      "lca_data_missing": true,
       "name": "Envelope Clutches",
       "weight": {
         "confidence": "low",
@@ -10187,10 +11072,18 @@
         "methodology": "Inherited from parent category (aa-5-4)",
         "min_g": 100
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 16.29,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Handbag - https://www.carbonfact.com/carbon-footprint/handbag"
+      ],
+      "notes": "Handbag database average, applied to all handbag styles (style variants are not separately covered by any verified source).",
       "vertical": "apparel-accessories"
     },
     "aa-5-4-10": {
-      "lca_data_missing": true,
       "name": "Fold Over Clutches",
       "weight": {
         "confidence": "low",
@@ -10199,10 +11092,18 @@
         "methodology": "Inherited from parent category (aa-5-4)",
         "min_g": 100
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 16.29,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Handbag - https://www.carbonfact.com/carbon-footprint/handbag"
+      ],
+      "notes": "Handbag database average, applied to all handbag styles (style variants are not separately covered by any verified source).",
       "vertical": "apparel-accessories"
     },
     "aa-5-4-11": {
-      "lca_data_missing": true,
       "name": "Half-Moon Bags",
       "weight": {
         "confidence": "low",
@@ -10211,10 +11112,18 @@
         "methodology": "Inherited from parent category (aa-5-4)",
         "min_g": 100
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 16.29,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Handbag - https://www.carbonfact.com/carbon-footprint/handbag"
+      ],
+      "notes": "Handbag database average, applied to all handbag styles (style variants are not separately covered by any verified source).",
       "vertical": "apparel-accessories"
     },
     "aa-5-4-12": {
-      "lca_data_missing": true,
       "name": "Hobo Bags",
       "weight": {
         "confidence": "low",
@@ -10223,22 +11132,37 @@
         "methodology": "Inherited from parent category (aa-5-4)",
         "min_g": 100
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 16.29,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Handbag - https://www.carbonfact.com/carbon-footprint/handbag"
+      ],
+      "notes": "Handbag database average, applied to all handbag styles (style variants are not separately covered by any verified source).",
       "vertical": "apparel-accessories"
     },
     "aa-5-4-13": {
-      "lca_data_missing": true,
       "name": "Minaudieres",
-      "notes": "Hard case evening bags",
+      "notes": "Hard case evening bags | Handbag database average, applied to all handbag styles (style variants are not separately covered by any verified source).",
       "weight": {
         "confidence": "medium",
         "estimate_g": 200,
         "max_g": 400,
         "min_g": 100
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 16.29,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Handbag - https://www.carbonfact.com/carbon-footprint/handbag"
+      ],
       "vertical": "apparel-accessories"
     },
     "aa-5-4-14": {
-      "lca_data_missing": true,
       "name": "Muff Clutches & Bags",
       "weight": {
         "confidence": "low",
@@ -10247,10 +11171,18 @@
         "methodology": "Inherited from parent category (aa-5-4)",
         "min_g": 100
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 16.29,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Handbag - https://www.carbonfact.com/carbon-footprint/handbag"
+      ],
+      "notes": "Handbag database average, applied to all handbag styles (style variants are not separately covered by any verified source).",
       "vertical": "apparel-accessories"
     },
     "aa-5-4-15": {
-      "lca_data_missing": true,
       "name": "Saddle Bags",
       "weight": {
         "confidence": "low",
@@ -10259,10 +11191,18 @@
         "methodology": "Inherited from parent category (aa-5-4)",
         "min_g": 100
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 16.29,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Handbag - https://www.carbonfact.com/carbon-footprint/handbag"
+      ],
+      "notes": "Handbag database average, applied to all handbag styles (style variants are not separately covered by any verified source).",
       "vertical": "apparel-accessories"
     },
     "aa-5-4-16": {
-      "lca_data_missing": true,
       "name": "Satchel Bags",
       "weight": {
         "confidence": "low",
@@ -10271,10 +11211,18 @@
         "methodology": "Inherited from parent category (aa-5-4)",
         "min_g": 100
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 16.29,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Handbag - https://www.carbonfact.com/carbon-footprint/handbag"
+      ],
+      "notes": "Handbag database average, applied to all handbag styles (style variants are not separately covered by any verified source).",
       "vertical": "apparel-accessories"
     },
     "aa-5-4-17": {
-      "lca_data_missing": true,
       "name": "School Bags",
       "weight": {
         "confidence": "low",
@@ -10283,10 +11231,18 @@
         "methodology": "Inherited from parent category (aa-5-4)",
         "min_g": 100
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 16.29,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Handbag - https://www.carbonfact.com/carbon-footprint/handbag"
+      ],
+      "notes": "Handbag database average, applied to all handbag styles (style variants are not separately covered by any verified source).",
       "vertical": "apparel-accessories"
     },
     "aa-5-4-18": {
-      "lca_data_missing": true,
       "name": "Shopper Bags",
       "weight": {
         "confidence": "low",
@@ -10295,10 +11251,18 @@
         "methodology": "Inherited from parent category (aa-5-4)",
         "min_g": 100
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 16.29,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Handbag - https://www.carbonfact.com/carbon-footprint/handbag"
+      ],
+      "notes": "Handbag database average, applied to all handbag styles (style variants are not separately covered by any verified source).",
       "vertical": "apparel-accessories"
     },
     "aa-5-4-19": {
-      "lca_data_missing": true,
       "name": "Shoulder Bags",
       "weight": {
         "confidence": "low",
@@ -10307,10 +11271,18 @@
         "methodology": "Inherited from parent category (aa-5-4)",
         "min_g": 100
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 16.29,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Handbag - https://www.carbonfact.com/carbon-footprint/handbag"
+      ],
+      "notes": "Handbag database average, applied to all handbag styles (style variants are not separately covered by any verified source).",
       "vertical": "apparel-accessories"
     },
     "aa-5-4-20": {
-      "lca_data_missing": true,
       "name": "Trapezoid Bags",
       "weight": {
         "confidence": "low",
@@ -10319,10 +11291,18 @@
         "methodology": "Inherited from parent category (aa-5-4)",
         "min_g": 100
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 16.29,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Handbag - https://www.carbonfact.com/carbon-footprint/handbag"
+      ],
+      "notes": "Handbag database average, applied to all handbag styles (style variants are not separately covered by any verified source).",
       "vertical": "apparel-accessories"
     },
     "aa-5-5": {
-      "lca_data_missing": true,
       "materials": {
         "primary_material": "metal"
       },
@@ -10333,6 +11313,15 @@
         "max_g": 60,
         "min_g": 15
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 7.95,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Wallet - https://www.carbonfact.com/carbon-footprint/wallet"
+      ],
+      "notes": "Wallet database average (median 6.83 kg CO2e).",
       "vertical": "apparel-accessories"
     },
     "aa-5-5-2": {
@@ -10383,7 +11372,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-5-5-6": {
-      "lca_data_missing": true,
       "name": "Travel Wallets",
       "weight": {
         "confidence": "medium",
@@ -10391,18 +11379,34 @@
         "max_g": 200,
         "min_g": 50
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 7.95,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Wallet - https://www.carbonfact.com/carbon-footprint/wallet"
+      ],
+      "notes": "Wallet database average (median 6.83 kg CO2e).",
       "vertical": "apparel-accessories"
     },
     "aa-5-5-7": {
-      "lca_data_missing": true,
       "name": "Wallets",
-      "notes": "Leather wallets",
+      "notes": "Leather wallets | Wallet database average (median 6.83 kg CO2e).",
       "weight": {
         "confidence": "high",
         "estimate_g": 100,
         "max_g": 200,
         "min_g": 50
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 7.95,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of a Wallet - https://www.carbonfact.com/carbon-footprint/wallet"
+      ],
       "vertical": "apparel-accessories"
     },
     "aa-5-5-8": {
@@ -10420,7 +11424,7 @@
     "aa-6": {
       "lca_data_missing": true,
       "name": "Jewelry",
-      "notes": "Very small weights but high value and footprint per gram",
+      "notes": "Very small weights but high value and footprint per gram | No single figure is honest here: verified jewelry footprints span 1.03 kg CO2e (silver ring, cradle-to-gate) to 288.2 kg CO2e (8 g 14-carat gold piece, mining-focused; Fernandez & Klimas 2019). Use metal-specific subcategory data instead.",
       "weight": {
         "confidence": "low",
         "estimate_g": 30,
@@ -10476,7 +11480,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-6-5": {
-      "lca_data_missing": true,
       "name": "Charms & Pendants",
       "weight": {
         "confidence": "low",
@@ -10485,6 +11488,15 @@
         "methodology": "Inherited from parent category (aa-6)",
         "min_g": 1
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 0.23,
+        "data_quality": "primary",
+        "methodology": "Manufacturer-published figure for a Pandora charm crafted with 100% recycled silver (stated as 230 g CO2; scope not stated)"
+      },
+      "sources": [
+        "Pandora Group - Pandora now crafts its jewellery with 100% recycled silver and gold - https://www.pandoragroup.com/media/press-releases/pandora-now-crafts-its-jewellery-with-100-percent-recycled-silver-and-gold"
+      ],
+      "notes": "Applies to a small silver charm made with 100% recycled metal; charms in virgin silver or gold are substantially higher (see Rings entry for the material spread).",
       "vertical": "apparel-accessories"
     },
     "aa-6-6": {
@@ -10523,15 +11535,24 @@
       "vertical": "apparel-accessories"
     },
     "aa-6-9": {
-      "lca_data_missing": true,
       "name": "Rings",
-      "notes": "Gold rings - silver and costume jewelry much lower",
+      "notes": "Gold rings - silver and costume jewelry much lower | Figure is for a SILVER ring. Jewelry footprints span orders of magnitude by metal: Fernandez & Klimas (2019) report 2.68 kg CO2e for an 8 g sterling silver piece vs 288.2 kg CO2e for an 8 g 14-carat gold piece (mining-stage focused). Gold rings are far above this default.",
       "weight": {
         "confidence": "medium",
         "estimate_g": 8,
         "max_g": 30,
         "min_g": 2
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 1.03,
+        "scope": "cradle-to-gate",
+        "data_quality": "primary",
+        "methodology": "Peer-reviewed carbon-footprint case study of a sterling silver flat ring (Usapein & Tongcumpou 2016, Applied Environmental Research; B2B boundary: raw materials, production, transport)"
+      },
+      "sources": [
+        "Usapein & Tongcumpou (2016), Greenhouse Gas Emission in Jewelry Industry: A Case Study of Silver Flat Ring - https://ph01.tci-thaijo.org/index.php/aer/article/view/40881",
+        "Fernandez & Klimas (2019), A Life Cycle Assessment of Jewelry, DePaul Discoveries Vol. 8 - https://via.library.depaul.edu/depaul-disc/vol8/iss1/6/"
+      ],
       "vertical": "apparel-accessories"
     },
     "aa-6-10": {
@@ -10595,7 +11616,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-6-12": {
-      "lca_data_missing": true,
       "name": "Smart Watches",
       "weight": {
         "confidence": "low",
@@ -10604,6 +11624,17 @@
         "methodology": "Inherited from parent category (aa-6)",
         "min_g": 1
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 8.1,
+        "scope": "cradle-to-grave",
+        "data_quality": "primary",
+        "methodology": "Apple Product Environmental Report, Apple Watch Series 11 (production, transport, use, end-of-life; includes in-box accessories)"
+      },
+      "sources": [
+        "Apple - Apple Watch Series 11 Product Environmental Report - https://www.apple.com/environment/pdf/products/watch/Apple_Watch_Series_11_PER_Sept2025.pdf",
+        "Apple - Apple Watch SE 3 Product Environmental Report - https://www.apple.com/environment/pdf/products/watch/Apple_Watch_SE_3_PER_Sept2025.pdf"
+      ],
+      "notes": "Manufacturer-published product carbon footprint; Apple Watch SE 3 report states 8.2 kg CO2e. Representative of mainstream smart watches.",
       "vertical": "apparel-accessories"
     },
     "aa-7": {
@@ -10667,7 +11698,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-7-5": {
-      "lca_data_missing": true,
       "name": "Shoe Inserts",
       "weight": {
         "confidence": "low",
@@ -10676,6 +11706,15 @@
         "methodology": "Vertical-level default estimate",
         "min_g": 20
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 0.74,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Insoles - https://www.carbonfact.com/carbon-footprint/insoles"
+      ],
+      "notes": "Insole database average; applied to shoe inserts and arch supports.",
       "vertical": "apparel-accessories"
     },
     "aa-7-5-1": {
@@ -10691,7 +11730,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-7-5-2": {
-      "lca_data_missing": true,
       "name": "Arch Supports",
       "weight": {
         "confidence": "low",
@@ -10700,6 +11738,15 @@
         "methodology": "Vertical-level default estimate",
         "min_g": 20
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 0.74,
+        "data_quality": "secondary",
+        "methodology": "Average across real products in Carbonfact's apparel LCA database (EU PEF-aligned); page lists production stages (raw materials through assembly); system boundary not explicitly stated by source"
+      },
+      "sources": [
+        "Carbonfact - The Carbon Footprint of Insoles - https://www.carbonfact.com/carbon-footprint/insoles"
+      ],
+      "notes": "Insole database average; applied to shoe inserts and arch supports.",
       "vertical": "apparel-accessories"
     },
     "aa-7-5-3": {
@@ -10751,9 +11798,8 @@
       "vertical": "apparel-accessories"
     },
     "aa-8": {
-      "lca_data_missing": true,
       "name": "Shoes",
-      "notes": "Wide variance between sandals and boots",
+      "notes": "Wide variance between sandals and boots | ADEME leather shoes archetype (14.95 kg CO2e per pair) used for the Shoes parent, flats and heels. ADEME fabric-shoe archetype: 18.52 kg CO2e.",
       "weight": {
         "confidence": "medium",
         "estimate_g": 700,
@@ -10761,6 +11807,15 @@
         "methodology": "Per pair weight",
         "min_g": 200
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 15.0,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 - Paire de chaussures en cuir - https://impactco2.fr/outils/habillement/chaussuresencuir"
+      ],
       "vertical": "apparel-accessories"
     },
     "aa-8-1": {
@@ -10878,9 +11933,8 @@
       "vertical": "apparel-accessories"
     },
     "aa-8-3": {
-      "lca_data_missing": true,
       "name": "Boots",
-      "notes": "Leather boots have higher footprint than synthetic",
+      "notes": "Leather boots have higher footprint than synthetic | Single-product academic case study (safety boots); used as the closest verified boot figure.",
       "weight": {
         "confidence": "medium",
         "estimate_g": 1200,
@@ -10888,6 +11942,15 @@
         "methodology": "Per pair",
         "min_g": 600
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 18.65,
+        "scope": "cradle-to-grave",
+        "data_quality": "primary",
+        "methodology": "Peer-reviewed cradle-to-grave LCA case study of professional safety boots (Sustainability 16(14):6094, 2024, doi:10.3390/su16146094)"
+      },
+      "sources": [
+        "Sustainability (MDPI) 2024, Environmental Impact of Footwear Using LCA (safety boots) - https://doi.org/10.3390/su16146094"
+      ],
       "vertical": "apparel-accessories"
     },
     "aa-8-6": {
@@ -10915,7 +11978,6 @@
       "vertical": "apparel-accessories"
     },
     "aa-8-8": {
-      "lca_data_missing": true,
       "name": "Sneakers",
       "weight": {
         "confidence": "high",
@@ -10924,10 +11986,21 @@
         "methodology": "Per pair",
         "min_g": 450
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 20.1,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 - Paire de chaussures de sport - https://impactco2.fr/outils/habillement/chaussuresdesport",
+        "Cheah et al. (2013), Manufacturing-focused emissions reductions in footwear production, Journal of Cleaner Production - https://doi.org/10.1016/j.jclepro.2012.11.037",
+        "Allbirds Flight Plan 2023 - https://www.allbirds.com/pages/flight-plan-23-press-release"
+      ],
+      "notes": "ADEME sport-shoes archetype. Corroborating figures: MIT running-shoe LCA 14 kg CO2e per pair cradle-to-grave (2013); Allbirds company average 5.54 kg CO2e per product (best-in-class natural-materials sneakers, 2023).",
       "vertical": "apparel-accessories"
     },
     "aa-8-9": {
-      "lca_data_missing": true,
       "name": "Flats",
       "weight": {
         "confidence": "medium",
@@ -10935,10 +12008,19 @@
         "max_g": 950,
         "min_g": 450
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 15.0,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 - Paire de chaussures en cuir - https://impactco2.fr/outils/habillement/chaussuresencuir"
+      ],
+      "notes": "ADEME leather shoes archetype (14.95 kg CO2e per pair) used for the Shoes parent, flats and heels. ADEME fabric-shoe archetype: 18.52 kg CO2e.",
       "vertical": "apparel-accessories"
     },
     "aa-8-10": {
-      "lca_data_missing": true,
       "name": "Heels",
       "weight": {
         "confidence": "medium",
@@ -10946,6 +12028,16 @@
         "max_g": 900,
         "min_g": 350
       },
+      "lca": {
+        "carbon_kg_co2e_per_unit": 15.0,
+        "scope": "cradle-to-grave",
+        "data_quality": "secondary",
+        "methodology": "ADEME Impact CO2 / Base Empreinte modeled garment archetype; cradle-to-grave including production, 5-year use phase and end of life"
+      },
+      "sources": [
+        "ADEME Impact CO2 - Paire de chaussures en cuir - https://impactco2.fr/outils/habillement/chaussuresencuir"
+      ],
+      "notes": "ADEME leather shoes archetype (14.95 kg CO2e per pair) used for the Shoes parent, flats and heels. ADEME fabric-shoe archetype: 18.52 kg CO2e.",
       "vertical": "apparel-accessories"
     },
     "ae": {
