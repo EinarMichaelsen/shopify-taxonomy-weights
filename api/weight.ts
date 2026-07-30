@@ -1,7 +1,7 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import data from './data.json';
 
-const categories = data.categories as Record<string, Category>;
+const categories = data.categories as unknown as Record<string, Category>;
 
 interface Category {
   name: string;
@@ -13,10 +13,11 @@ interface Category {
     confidence: 'low' | 'medium' | 'high';
   };
   lca?: {
-    carbon_kg_co2e_per_kg: number;
-    carbon_kg_co2e_per_unit: number;
-    scope: string;
-    data_quality: string;
+    carbon_kg_co2e_per_kg?: number;
+    carbon_kg_co2e_per_unit?: number;
+    scope?: string;
+    data_quality?: string;
+    methodology?: string;
   };
   lca_data_missing?: boolean;
   materials?: {

@@ -7,6 +7,16 @@
     "dev": "vercel dev",
     "deploy": "vercel --prod"
   },
-  "keywords": ["shopify", "taxonomy", "weights", "lca", "carbon"],
-  "license": "MIT"
+  "keywords": [
+    "shopify",
+    "taxonomy",
+    "weights",
+    "lca",
+    "carbon"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@vercel/node": "^3.2.0",
+    "typescript": "^5.5.0"
+  }
 }
