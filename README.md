@@ -4,7 +4,7 @@ Community-maintained extension to [Shopify's Standard Product Taxonomy](https://
 
 > **Note**: This is an independent community project, not affiliated with or endorsed by Shopify. We use Shopify's taxonomy IDs to enable easy integration with Shopify stores and any system using their product classification.
 
-> **Disclaimer**: Weight estimates in this dataset are AI-generated approximations, not sourced from verified measurements. They are intended as rough defaults for shipping and carbon calculations when actual product weights are unavailable. LCA carbon data (66 categories) cites specific sources — all other weight data should be treated as unverified estimates. **Do not use for regulatory reporting or precise claims.** Contributions of real, measured weights are welcome.
+> **Disclaimer**: Weight estimates in this dataset are AI-generated approximations, not sourced from verified measurements. They are intended as rough defaults for shipping and carbon calculations when actual product weights are unavailable. LCA carbon data (193 categories) cites specific sources — all other weight data should be treated as unverified estimates. **Do not use for regulatory reporting or precise claims.** Contributions of real, measured weights are welcome.
 
 **[Try the Demo](https://shopify-taxonomy-weights.vercel.app)** | **[API Docs](#rest-api)**
 
@@ -190,16 +190,20 @@ def get_category_data(category_id, data_files):
 
 **Weight estimates** are AI-generated approximations based on general product knowledge. They have not been individually verified against real-world measurements. Confidence levels (`low`, `medium`, `high`) reflect relative certainty, not measurement precision. Treat all weight data as rough estimates.
 
-**LCA data** (66 categories) cites specific sources:
+**LCA data** (193 categories) cites specific sources:
+- [ADEME Impact CO2](https://impactco2.fr/) (French Agency for Ecological Transition, Base Empreinte) — garment archetypes, cradle-to-grave
+- [Carbonfact](https://www.carbonfact.com/) apparel LCA database averages (EU PEF-aligned)
 - [Higg Materials Sustainability Index](https://howtohigg.org/)
 - [WRAP UK](https://wrap.org.uk/) textile research
+- Peer-reviewed LCA case studies (Scientific Reports, Science of The Total Environment, Sustainability/MDPI, Journal of Cleaner Production, BMJ Open)
+- Manufacturer product disclosures (Apple Product Environmental Reports, Levi's 501 LCA, ASKET impact receipts, Fristads EPDs, Pandora, Allbirds)
 - Manufacturer sustainability reports (Apple, Dell, HP, etc.)
 - Academic LCA studies
 - [Ecoinvent](https://ecoinvent.org/) database (where available)
 
 ## Coverage
 
-**Total: 12,372 categories** (full Shopify taxonomy) | **100% have weight estimates** | **66 with sourced LCA data (0.5%)**
+**Total: 12,372 categories** (full Shopify taxonomy) | **100% have weight estimates** | **193 with sourced LCA data (1.6%)**
 
 All 26 Shopify taxonomy verticals are covered. Weight estimates for ~818 categories were individually set; the remaining ~11,554 categories inherit estimates from their nearest parent category.
 
@@ -207,25 +211,25 @@ All 26 Shopify taxonomy verticals are covered. Weight estimates for ~818 categor
 |----------|------------|----------|
 | Home & Garden (hg) | 2,301 | 8 |
 | Sporting Goods (sg) | 1,596 | 8 |
-| Arts & Entertainment (ae) | 1,220 | 26 |
-| Electronics (el) | 1,175 | 5 |
+| Arts & Entertainment (ae) | 1,220 | 14 |
+| Electronics (el) | 1,175 | 7 |
 | Hardware (ha) | 1,122 | - |
 | Health & Beauty (hb) | 898 | 6 |
 | Vehicles & Parts (vp) | 605 | - |
 | Business & Industrial (bi) | 593 | - |
-| Apparel & Accessories (aa) | 464 | 6 |
+| Apparel & Accessories (aa) | 464 | 132 |
 | Food, Beverages & Tobacco (fb) | 441 | - |
 | Animals & Pet Supplies (ap) | 418 | 2 |
 | Furniture (fr) | 355 | 6 |
 | Baby & Toddler (bt) | 252 | 3 |
-| Toys & Games (tg) | 247 | 6 |
-| Office Supplies (os) | 243 | - |
+| Toys & Games (tg) | 247 | 4 |
+| Office Supplies (os) | 243 | 1 |
 | Cameras & Optics (co) | 212 | - |
 | Services (se) | 55 | - |
 | Software (so) | 45 | - |
 | Mature (ma) | 37 | - |
 | Luggage & Bags (lb) | 36 | - |
-| Media (me) | 33 | - |
+| Media (me) | 33 | 2 |
 | Religious & Ceremonial (rc) | 13 | - |
 | Product Add-Ons (pa) | 8 | - |
 | Bundles (bu) | 1 | - |
@@ -239,7 +243,7 @@ Categories marked with `lca_data_missing: true` need LCA data contributions. See
 Contributions welcome! We need help with:
 
 1. **Verified weight data** - Replace AI-generated estimates with real measured weights from manufacturers or shipping data
-2. **Adding LCA data** - Carbon footprint data with sources (12,306 categories need data!)
+2. **Adding LCA data** - Carbon footprint data with sources (12,179 categories need data!)
 3. **Improving estimates** - Better weight ranges and confidence levels based on real products
 
 ### Priority: LCA Data Needed
